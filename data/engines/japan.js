@@ -67384,5 +67384,1538 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.japan = [
         }
       ]
     }
+  },
+  {
+    "id": "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 1.8 L Inline-4 naturallyAspirated 108 kW / 180 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 108,
+        "max": 108
+      },
+      "torqueNm": {
+        "min": 180,
+        "max": 180
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147-a",
+        "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 108,
+              "max": 108
+            },
+            "performance.torqueNm": {
+              "min": 180,
+              "max": 180
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 108 kW and 180 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Avensis III (facelift 2015) 1.8 Valvematic (147 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2016,
+          "url": "https://www.auto-data.net/en/toyota-avensis-iii-facelift-2015-1.8-valvematic-147hp-21983",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 108,
+              "max": 108
+            },
+            "performance.torqueNm": {
+              "min": 180,
+              "max": 180
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 108 kW and 180 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Avensis 3rd Gen (2015 Restyling) 1.8 Valvematic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2016,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/105592/Toyota-Avensis-3rd-Gen-(2015-Restyling)-18-Valvematic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 2 L Inline-4 naturallyAspirated 112 kW / 196 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 196
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152-a",
+        "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 112,
+              "max": 112
+            },
+            "performance.torqueNm": {
+              "min": 196,
+              "max": 196
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 112 kW and 196 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Avensis III (facelift 2015) 2.0 Valvematic (152 Hp) Multidrive S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-avensis-iii-facelift-2015-2.0-valvematic-152hp-multidrive-s-21985",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 112,
+              "max": 112
+            },
+            "performance.torqueNm": {
+              "min": 196,
+              "max": 196
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 112 kW and 196 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Avensis 3rd Gen (2015 Restyling) 2.0 Valvematic HPT Multidrive S technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71789/Toyota-Avensis-3rd-Gen-(2015-Restyling)-20-Valvematic-HPT-Multidrive-S.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 2 L Inline-4 turbocharged 105 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143-a",
+        "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 105,
+              "max": 105
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 105 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Avensis III (facelift 2015) 2.0 D-4D (143 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-avensis-iii-facelift-2015-2.0-d-4d-143hp-21987",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 105,
+              "max": 105
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 105 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Avensis 3rd Gen (2015 Restyling) 2.0 D-4D technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71791/Toyota-Avensis-3rd-Gen-(2015-Restyling)-20-D-4D.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 1.6 L Inline-4 turbocharged 82 kW / 270 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 82,
+        "max": 82
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112-a",
+        "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 82,
+              "max": 82
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 82 kW and 270 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Avensis III (facelift 2015) 1.6 D-4D (112 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-avensis-iii-facelift-2015-1.6-d-4d-112hp-21986",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 82,
+              "max": 82
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 82 kW and 270 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Avensis 3rd Gen (2015 Restyling) 1.6 D-4D technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71790/Toyota-Avensis-3rd-Gen-(2015-Restyling)-16-D-4D.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-auris-ii-1-8-vvt-i-136",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 1.8 L Inline-4 naturallyAspirated 73 kW / 142 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-auris-ii-1-8-vvt-i-136-a",
+        "batch19-toyota-auris-ii-1-8-vvt-i-136-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-auris-ii-1-8-vvt-i-136-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 73,
+              "max": 73
+            },
+            "performance.torqueNm": {
+              "min": 142,
+              "max": 142
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 73 kW and 142 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Auris II 1.8 VVT-i (136 Hp) Hybrid e-CVT technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-auris-ii-1.8-vvt-i-136hp-hybrid-e-cvt-19315",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-auris-ii-1-8-vvt-i-136-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 73,
+              "max": 73
+            },
+            "performance.torqueNm": {
+              "min": 142,
+              "max": 142
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 73 kW and 142 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Auris 2 (2015 Restyling) 1.8 VVT-i Hybrid technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71783/Toyota-Auris-2-(2015-Restyling)-18-VVT-i-Hybrid.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-auris-ii-1-4-d-4d-90",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 1.4 L Inline-4 turbocharged 66 kW / 205 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-auris-ii-1-4-d-4d-90-a",
+        "batch19-toyota-auris-ii-1-4-d-4d-90-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-auris-ii-1-4-d-4d-90-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, directInjection; 66 kW and 205 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Auris II 1.4 D-4D (90 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-auris-ii-1.4-d-4d-90hp-automatic-23833",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-auris-ii-1-4-d-4d-90-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, directInjection; 66 kW and 205 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Auris 2 (2015 Restyling) 1.4 D-4D technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71780/Toyota-Auris-2-(2015-Restyling)-14-D-4D.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-honda-civic-viii-hatchback-5d-2-2-d-140",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Honda 2.2 L Inline-4 turbocharged 103 kW / 340 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2006",
+    "displacement": "2.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-honda-civic-viii-hatchback-5d-2-2-d-140-a",
+        "batch19-honda-civic-viii-hatchback-5d-2-2-d-140-b"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-honda-civic-viii-hatchback-5d-2-2-d-140-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 103 kW and 340 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Honda Civic VIII Hatchback 5D 2.2 D (140 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/honda-civic-viii-hatchback-5d-2.2-d-140hp-12220",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-honda-civic-viii-hatchback-5d-2-2-d-140-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 103 kW and 340 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Honda Civic VIII 2.2 i-CTDi technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Honda/852/Honda-Civic-VIII-22-i-CTDi.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];

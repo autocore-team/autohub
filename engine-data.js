@@ -144937,6 +144937,16869 @@ window.AUTOHUB_ENGINE_DATA = {
     }
   },
   {
+    "id": "batch19-bmw-3-series-sedan-g20-m340d-340",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3 L Inline-6 turbocharged 250 kW / 700 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 3 Series Sedan (G20) M340d 340 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (G20) M340d 340 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (G20) M340d 340 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (G20) M340d 340 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (G20) M340d 340 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 250,
+        "max": 250
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-3-series-sedan-g20-m340d-340-a",
+        "batch19-bmw-3-series-sedan-g20-m340d-340-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 3 Series Sedan (G20) M340d 340 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-3-series-sedan-g20-m340d-340-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 700,
+              "max": 700
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 250 kW and 700 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2020 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (G20) M340d 340 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 3 Series Sedan (G20) M340d (340 Hp) Mild Hybrid xDrive Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2020,
+          "url": "https://www.auto-data.net/en/bmw-3-series-sedan-g20-m340d-340hp-mild-hybrid-xdrive-steptronic-39315",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-3-series-sedan-g20-m340d-340-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 700,
+              "max": 700
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 250 kW and 700 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2020 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (G20) M340d 340 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW G20 3 Series M340d xDrive technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2020,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/119385/BMW-G20-3-Series-M340d-xDrive.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-3-series-sedan-g20-330d-286",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3 L Inline-6 turbocharged 210 kW / 650 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 3 Series Sedan (G20) 330d 286 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (G20) 330d 286 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (G20) 330d 286 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (G20) 330d 286 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (G20) 330d 286 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 210,
+        "max": 210
+      },
+      "torqueNm": {
+        "min": 650,
+        "max": 650
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-3-series-sedan-g20-330d-286-a",
+        "batch19-bmw-3-series-sedan-g20-330d-286-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 3 Series Sedan (G20) 330d 286 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-3-series-sedan-g20-330d-286-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 210,
+              "max": 210
+            },
+            "performance.torqueNm": {
+              "min": 650,
+              "max": 650
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 210 kW and 650 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2020 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (G20) 330d 286 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 3 Series Sedan (G20) 330d (286 Hp) Mild Hybrid xDrive Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2020,
+          "url": "https://www.auto-data.net/en/bmw-3-series-sedan-g20-330d-286hp-mild-hybrid-xdrive-steptronic-41493",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-3-series-sedan-g20-330d-286-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 210,
+              "max": 210
+            },
+            "performance.torqueNm": {
+              "min": 650,
+              "max": 650
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 210 kW and 650 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2020 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (G20) 330d 286 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW G20 3 Series 330d technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2020,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/121310/BMW-G20-3-Series-330d.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-3-series-sedan-g20-320d-190",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2 L Inline-4 turbocharged 140 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 3 Series Sedan (G20) 320d 190 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 3 Series Sedan (G20) 320d 190 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 3 Series Sedan (G20) 320d 190 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 3 Series Sedan (G20) 320d 190 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 3 Series Sedan (G20) 320d 190 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-3-series-sedan-g20-320d-190-a",
+        "batch19-bmw-3-series-sedan-g20-320d-190-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 3 Series Sedan (G20) 320d 190 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-3-series-sedan-g20-320d-190-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 140 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2020 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (G20) 320d 190 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 3 Series Sedan (G20) 320d (190 Hp) Mild Hybrid xDrive Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2020,
+          "url": "https://www.auto-data.net/en/bmw-3-series-sedan-g20-320d-190hp-mild-hybrid-xdrive-steptronic-39317",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-3-series-sedan-g20-320d-190-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 140 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2020 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (G20) 320d 190 Mild Hybrid xDrive Steptronic (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW G20 3 Series 320d technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2020,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/115067/BMW-G20-3-Series-320d.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-3-series-sedan-g20-316d-122",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2 L Inline-4 turbocharged 90 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2021",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 3 Series Sedan (G20) 316d 122 Mild Hybrid Steptronic (Europe market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 3 Series Sedan (G20) 316d 122 Mild Hybrid Steptronic (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 3 Series Sedan (G20) 316d 122 Mild Hybrid Steptronic (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 3 Series Sedan (G20) 316d 122 Mild Hybrid Steptronic (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 3 Series Sedan (G20) 316d 122 Mild Hybrid Steptronic (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-3-series-sedan-g20-316d-122-a",
+        "batch19-bmw-3-series-sedan-g20-316d-122-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 3 Series Sedan (G20) 316d 122 Mild Hybrid Steptronic (Europe market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-3-series-sedan-g20-316d-122-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 90,
+              "max": 90
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 90 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2021 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (G20) 316d 122 Mild Hybrid Steptronic (Europe market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 3 Series Sedan (G20) 316d (122 Hp) Mild Hybrid Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2021,
+          "url": "https://www.auto-data.net/en/bmw-3-series-sedan-g20-316d-122hp-mild-hybrid-steptronic-54175",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-3-series-sedan-g20-316d-122-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 90,
+              "max": 90
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 90 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2021 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (G20) 316d 122 Mild Hybrid Steptronic (Europe market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW G20 3 Series 316d technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2021,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/118917/BMW-G20-3-Series-316d.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a4-b9-8w-3-0-tdi-v6-272",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 3 L V6 turbocharged 200 kW / 600 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A4 (B9 8W) 3.0 TDI V6 272 quattro Tiptronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A4 (B9 8W) 3.0 TDI V6 272 quattro Tiptronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A4 (B9 8W) 3.0 TDI V6 272 quattro Tiptronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A4 (B9 8W) 3.0 TDI V6 272 quattro Tiptronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A4 (B9 8W) 3.0 TDI V6 272 quattro Tiptronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 200,
+        "max": 200
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a4-b9-8w-3-0-tdi-v6-272-a",
+        "batch19-audi-a4-b9-8w-3-0-tdi-v6-272-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A4 (B9 8W) 3.0 TDI V6 272 quattro Tiptronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a4-b9-8w-3-0-tdi-v6-272-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 600,
+              "max": 600
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, directInjection; 200 kW and 600 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 3.0 TDI V6 272 quattro Tiptronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A4 (B9 8W) 3.0 TDI V6 (272 Hp) quattro Tiptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/audi-a4-b9-8w-3.0-tdi-v6-272hp-quattro-tiptronic-22295",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a4-b9-8w-3-0-tdi-v6-272-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 600,
+              "max": 600
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, directInjection; 200 kW and 600 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 3.0 TDI V6 272 quattro Tiptronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A4 (B9) 3.0 TDI 272HP Quattro Multitronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/73829/Audi-A4-(B9)-30-TDI-272HP-Quattro-Multitronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a4-b9-8w-3-0-tdi-v6-218",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 3 L V6 turbocharged 160 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A4 (B9 8W) 3.0 TDI V6 218 S tronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A4 (B9 8W) 3.0 TDI V6 218 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A4 (B9 8W) 3.0 TDI V6 218 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A4 (B9 8W) 3.0 TDI V6 218 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A4 (B9 8W) 3.0 TDI V6 218 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 160,
+        "max": 160
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a4-b9-8w-3-0-tdi-v6-218-a",
+        "batch19-audi-a4-b9-8w-3-0-tdi-v6-218-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A4 (B9 8W) 3.0 TDI V6 218 S tronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a4-b9-8w-3-0-tdi-v6-218-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 160,
+              "max": 160
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, directInjection; 160 kW and 400 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 3.0 TDI V6 218 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A4 (B9 8W) 3.0 TDI V6 (218 Hp) S tronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/audi-a4-b9-8w-3.0-tdi-v6-218hp-s-tronic-23078",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a4-b9-8w-3-0-tdi-v6-218-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 160,
+              "max": 160
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, directInjection; 160 kW and 400 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 3.0 TDI V6 218 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A4 (B9) 3.0 TDI 218HP Quattro S tronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/73828/Audi-A4-(B9)-30-TDI-218HP-Quattro-S-tronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a4-b9-8w-2-0-tfsi-252",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2 L Inline-4 turbocharged 185 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A4 (B9 8W) 2.0 TFSI 252 S tronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TFSI 252 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TFSI 252 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TFSI 252 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TFSI 252 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 185,
+        "max": 185
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a4-b9-8w-2-0-tfsi-252-a",
+        "batch19-audi-a4-b9-8w-2-0-tfsi-252-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A4 (B9 8W) 2.0 TFSI 252 S tronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a4-b9-8w-2-0-tfsi-252-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 185 kW and 370 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 2.0 TFSI 252 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A4 (B9 8W) 2.0 TFSI (252 Hp) S tronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/audi-a4-b9-8w-2.0-tfsi-252hp-s-tronic-22298",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a4-b9-8w-2-0-tfsi-252-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 185 kW and 370 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 2.0 TFSI 252 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A4 (B9) 2.0 TFSI 252HP S tronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/73811/Audi-A4-(B9)-20-TFSI-252HP-S-tronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a4-b9-8w-2-0-tfsi-ultra-190",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2 L Inline-4 turbocharged 140 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A4 (B9 8W) 2.0 TFSI ultra 190 S tronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TFSI ultra 190 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TFSI ultra 190 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TFSI ultra 190 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TFSI ultra 190 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a4-b9-8w-2-0-tfsi-ultra-190-a",
+        "batch19-audi-a4-b9-8w-2-0-tfsi-ultra-190-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A4 (B9 8W) 2.0 TFSI ultra 190 S tronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a4-b9-8w-2-0-tfsi-ultra-190-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 140 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 2.0 TFSI ultra 190 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A4 (B9 8W) 2.0 TFSI ultra (190 Hp) S tronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/audi-a4-b9-8w-2.0-tfsi-ultra-190hp-s-tronic-22321",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a4-b9-8w-2-0-tfsi-ultra-190-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 140 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 2.0 TFSI ultra 190 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A4 (B9) 2.0 TFSI 190HP Ultra S tronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/73810/Audi-A4-(B9)-20-TFSI-190HP-Ultra-S-tronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a4-b9-8w-2-0-tdi-ultra-190",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2 L Inline-4 turbocharged 140 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A4 (B9 8W) 2.0 TDI ultra 190 S tronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TDI ultra 190 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TDI ultra 190 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TDI ultra 190 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TDI ultra 190 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a4-b9-8w-2-0-tdi-ultra-190-a",
+        "batch19-audi-a4-b9-8w-2-0-tdi-ultra-190-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A4 (B9 8W) 2.0 TDI ultra 190 S tronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a4-b9-8w-2-0-tdi-ultra-190-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 140 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 2.0 TDI ultra 190 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A4 (B9 8W) 2.0 TDI ultra (190 Hp) S tronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/audi-a4-b9-8w-2.0-tdi-ultra-190hp-s-tronic-26624",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a4-b9-8w-2-0-tdi-ultra-190-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 140 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 2.0 TDI ultra 190 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A4 (B9) 2.0 TDI 190HP Ultra S tronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/73819/Audi-A4-(B9)-20-TDI-190HP-Ultra-S-tronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a4-b9-8w-2-0-tdi-ultra-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2 L Inline-4 turbocharged 110 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A4 (B9 8W) 2.0 TDI ultra 150 S tronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TDI ultra 150 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TDI ultra 150 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TDI ultra 150 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Audi A4 (B9 8W) 2.0 TDI ultra 150 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a4-b9-8w-2-0-tdi-ultra-150-a",
+        "batch19-audi-a4-b9-8w-2-0-tdi-ultra-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A4 (B9 8W) 2.0 TDI ultra 150 S tronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a4-b9-8w-2-0-tdi-ultra-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 2.0 TDI ultra 150 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A4 (B9 8W) 2.0 TDI ultra (150 Hp) S tronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/audi-a4-b9-8w-2.0-tdi-ultra-150hp-s-tronic-22309",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a4-b9-8w-2-0-tdi-ultra-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 2.0 TDI ultra 150 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A4 (B9) 2.0 TDI 150HP Ultra S tronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/73815/Audi-A4-(B9)-20-TDI-150HP-Ultra-S-tronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a4-b9-8w-1-4-tfsi-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 1.4 L Inline-4 turbocharged 110 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A4 (B9 8W) 1.4 TFSI 150 S tronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Audi A4 (B9 8W) 1.4 TFSI 150 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Audi A4 (B9 8W) 1.4 TFSI 150 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Audi A4 (B9 8W) 1.4 TFSI 150 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Audi A4 (B9 8W) 1.4 TFSI 150 S tronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a4-b9-8w-1-4-tfsi-150-a",
+        "batch19-audi-a4-b9-8w-1-4-tfsi-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A4 (B9 8W) 1.4 TFSI 150 S tronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a4-b9-8w-1-4-tfsi-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 1.4 TFSI 150 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A4 (B9 8W) 1.4 TFSI (150 Hp) S tronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/audi-a4-b9-8w-1.4-tfsi-150hp-s-tronic-22291",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a4-b9-8w-1-4-tfsi-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 (B9 8W) 1.4 TFSI 150 S tronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A4 (B9) 1.4 TFSI 150HP S tronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/73807/Audi-A4-(B9)-14-TFSI-150HP-S-tronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volkswagen-golf-vii-5-door-r-2-0-tsi-300",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volkswagen 2 L Inline-4 turbocharged 221 kW / 380 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volkswagen",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volkswagen Golf VII (5-door) R 2.0 TSI 300 4MOTION DSG (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) R 2.0 TSI 300 4MOTION DSG (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) R 2.0 TSI 300 4MOTION DSG (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) R 2.0 TSI 300 4MOTION DSG (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) R 2.0 TSI 300 4MOTION DSG (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volkswagen-golf-vii-5-door-r-2-0-tsi-300-a",
+        "batch19-volkswagen-golf-vii-5-door-r-2-0-tsi-300-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volkswagen Golf VII (5-door) R 2.0 TSI 300 4MOTION DSG (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volkswagen-golf-vii-5-door-r-2-0-tsi-300-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 221,
+              "max": 221
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 221 kW and 380 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volkswagen Golf VII (5-door) R 2.0 TSI 300 4MOTION DSG (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volkswagen Golf VII (5-door) R 2.0 TSI (300 Hp) 4MOTION DSG technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/volkswagen-golf-vii-5-door-r-2.0-tsi-300hp-4motion-dsg-52617",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volkswagen-golf-vii-5-door-r-2-0-tsi-300-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 221,
+              "max": 221
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 221 kW and 380 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volkswagen Golf VII (5-door) R 2.0 TSI 300 4MOTION DSG (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volkswagen Golf 7 R 2.0 TSI 300HP DSG 6 Speeds technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Volkswagen/68730/Volkswagen-Golf-7-R-20-TSI-300HP-DSG-6-Speeds.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-230",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volkswagen 2 L Inline-4 turbocharged 169 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volkswagen",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volkswagen Golf VII (5-door) GTI 2.0 TSI 230 DSG (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) GTI 2.0 TSI 230 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) GTI 2.0 TSI 230 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) GTI 2.0 TSI 230 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) GTI 2.0 TSI 230 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 169,
+        "max": 169
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-230-a",
+        "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-230-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volkswagen Golf VII (5-door) GTI 2.0 TSI 230 DSG (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-230-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 169,
+              "max": 169
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 169 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volkswagen Golf VII (5-door) GTI 2.0 TSI 230 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volkswagen Golf VII (5-door) GTI 2.0 TSI (230 Hp) DSG technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/volkswagen-golf-vii-5-door-gti-2.0-tsi-230hp-dsg-18412",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-230-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 169,
+              "max": 169
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 169 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volkswagen Golf VII (5-door) GTI 2.0 TSI 230 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volkswagen Golf 7 GTI Performance 2.0 TSI 230HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Volkswagen/65179/Volkswagen-Golf-7-GTI-Performance-20-TSI-230HP-.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-220",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volkswagen 2 L Inline-4 turbocharged 162 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volkswagen",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volkswagen Golf VII (5-door) GTI 2.0 TSI 220 DSG (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) GTI 2.0 TSI 220 DSG (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) GTI 2.0 TSI 220 DSG (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) GTI 2.0 TSI 220 DSG (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volkswagen Golf VII (5-door) GTI 2.0 TSI 220 DSG (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-220-a",
+        "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-220-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volkswagen Golf VII (5-door) GTI 2.0 TSI 220 DSG (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-220-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 162 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volkswagen Golf VII (5-door) GTI 2.0 TSI 220 DSG (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volkswagen Golf VII (5-door) GTI 2.0 TSI (220 Hp) DSG technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/volkswagen-golf-vii-5-door-gti-2.0-tsi-220hp-dsg-18410",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volkswagen-golf-vii-5-door-gti-2-0-tsi-220-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 162 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volkswagen Golf VII (5-door) GTI 2.0 TSI 220 DSG (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volkswagen Golf 7 GTI 2.0 TSI 220HP DSG 6 Speeds technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Volkswagen/74248/Volkswagen-Golf-7-GTI-20-TSI-220HP-DSG-6-Speeds.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d4-190",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-4 turbocharged 140 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo S60 II (facelift 2013) 2.0 D4 190 Geartronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D4 190 Geartronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D4 190 Geartronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D4 190 Geartronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D4 190 Geartronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-s60-ii-facelift-2013-2-0-d4-190-a",
+        "batch19-volvo-s60-ii-facelift-2013-2-0-d4-190-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo S60 II (facelift 2013) 2.0 D4 190 Geartronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d4-190-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 140 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S60 II (facelift 2013) 2.0 D4 190 Geartronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo S60 II (facelift 2013) 2.0 D4 (190 Hp) Geartronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/volvo-s60-ii-facelift-2013-2.0-d4-190hp-geartronic-31824",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d4-190-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 140 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S60 II (facelift 2013) 2.0 D4 190 Geartronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo S60 II Restyling D4 Momentum technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/72285/Volvo-S60-II-Restyling-D4-Momentum.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d4-163",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-5 turbocharged 120 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "2 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo S60 II (facelift 2013) 2.0 D4 163 Geartronic (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D4 163 Geartronic (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D4 163 Geartronic (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D4 163 Geartronic (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D4 163 Geartronic (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-s60-ii-facelift-2013-2-0-d4-163-a",
+        "batch19-volvo-s60-ii-facelift-2013-2-0-d4-163-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo S60 II (facelift 2013) 2.0 D4 163 Geartronic (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d4-163-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, directInjection; 120 kW and 400 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S60 II (facelift 2013) 2.0 D4 163 Geartronic (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo S60 II (facelift 2013) 2.0 D4 (163 Hp) Geartronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/volvo-s60-ii-facelift-2013-2.0-d4-163hp-geartronic-18406",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d4-163-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, directInjection; 120 kW and 400 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S60 II (facelift 2013) 2.0 D4 163 Geartronic (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo S60 II Restyling D4 Momentum technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/66722/Volvo-S60-II-Restyling-D4-Momentum.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-skoda-octavia-iii-1-4-tsi-140",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 1.4 L Inline-4 turbocharged 103 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Octavia III 1.4 TSI 140 (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Škoda Octavia III 1.4 TSI 140 (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Škoda Octavia III 1.4 TSI 140 (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Škoda Octavia III 1.4 TSI 140 (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Škoda Octavia III 1.4 TSI 140 (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-skoda-octavia-iii-1-4-tsi-140-a",
+        "batch19-skoda-octavia-iii-1-4-tsi-140-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Octavia III 1.4 TSI 140 (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-skoda-octavia-iii-1-4-tsi-140-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 103 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 1.4 TSI 140 (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Skoda Octavia III 1.4 TSI (140 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/skoda-octavia-iii-1.4-tsi-140hp-19252",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-skoda-octavia-iii-1-4-tsi-140-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 103 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 1.4 TSI 140 (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Skoda Octavia 3 1.4 TSI 140HP DSG 7 speed technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Skoda/64988/Skoda-Octavia-3-14-TSI-140HP-DSG-7-speed.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-skoda-octavia-iii-rs-2-0-tsi-220",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 2 L Inline-4 turbocharged 162 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Octavia III RS 2.0 TSI 220 DSG (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III RS 2.0 TSI 220 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III RS 2.0 TSI 220 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III RS 2.0 TSI 220 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III RS 2.0 TSI 220 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-skoda-octavia-iii-rs-2-0-tsi-220-a",
+        "batch19-skoda-octavia-iii-rs-2-0-tsi-220-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Octavia III RS 2.0 TSI 220 DSG (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-skoda-octavia-iii-rs-2-0-tsi-220-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 162 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III RS 2.0 TSI 220 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Skoda Octavia III RS 2.0 TSI (220 Hp) DSG technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/skoda-octavia-iii-rs-2.0-tsi-220hp-dsg-19251",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-skoda-octavia-iii-rs-2-0-tsi-220-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 162 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III RS 2.0 TSI 220 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Skoda Octavia 3 2.0 TSI 220HP RS technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Skoda/66887/Skoda-Octavia-3-20-TSI-220HP-RS.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-skoda-octavia-iii-rs-2-0-tdi-184",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 2 L Inline-4 turbocharged 135 kW / 380 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Octavia III RS 2.0 TDI 184 DSG (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III RS 2.0 TDI 184 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III RS 2.0 TDI 184 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III RS 2.0 TDI 184 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III RS 2.0 TDI 184 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-skoda-octavia-iii-rs-2-0-tdi-184-a",
+        "batch19-skoda-octavia-iii-rs-2-0-tdi-184-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Octavia III RS 2.0 TDI 184 DSG (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-skoda-octavia-iii-rs-2-0-tdi-184-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 135 kW and 380 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III RS 2.0 TDI 184 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Skoda Octavia III RS 2.0 TDI (184 Hp) DSG technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/skoda-octavia-iii-rs-2.0-tdi-184hp-dsg-19267",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-skoda-octavia-iii-rs-2-0-tdi-184-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 135 kW and 380 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III RS 2.0 TDI 184 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Skoda Octavia 3 2.0 TDI 184HP RS technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Skoda/66889/Skoda-Octavia-3-20-TDI-184HP-RS.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-skoda-octavia-iii-2-0-tdi-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 2 L Inline-4 turbocharged 110 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Octavia III 2.0 TDI 150 DSG (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III 2.0 TDI 150 DSG (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III 2.0 TDI 150 DSG (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III 2.0 TDI 150 DSG (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Škoda Octavia III 2.0 TDI 150 DSG (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-skoda-octavia-iii-2-0-tdi-150-a",
+        "batch19-skoda-octavia-iii-2-0-tdi-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Octavia III 2.0 TDI 150 DSG (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-skoda-octavia-iii-2-0-tdi-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 2.0 TDI 150 DSG (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Skoda Octavia III 2.0 TDI (150 Hp) DSG technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/skoda-octavia-iii-2.0-tdi-150hp-dsg-19264",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-skoda-octavia-iii-2-0-tdi-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 2.0 TDI 150 DSG (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Skoda Octavia 3 2.0 TDI CR 150HP DSG Laurin & Klement technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Skoda/69380/Skoda-Octavia-3-20-TDI-CR-150HP-DSG-Laurin---Klement.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-skoda-octavia-iii-1-8-tsi-180",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 1.8 L Inline-4 turbocharged 132 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Octavia III 1.8 TSI 180 DSG (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Škoda Octavia III 1.8 TSI 180 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Škoda Octavia III 1.8 TSI 180 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Škoda Octavia III 1.8 TSI 180 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Škoda Octavia III 1.8 TSI 180 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-skoda-octavia-iii-1-8-tsi-180-a",
+        "batch19-skoda-octavia-iii-1-8-tsi-180-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Octavia III 1.8 TSI 180 DSG (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-skoda-octavia-iii-1-8-tsi-180-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 132,
+              "max": 132
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 132 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 1.8 TSI 180 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Skoda Octavia III 1.8 TSI (180 Hp) DSG technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/skoda-octavia-iii-1.8-tsi-180hp-dsg-19284",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-skoda-octavia-iii-1-8-tsi-180-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 132,
+              "max": 132
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 132 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 1.8 TSI 180 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Skoda Octavia 3 1.8 TSI 180HP DSG 7 speed Elegance technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Skoda/65000/Skoda-Octavia-3-18-TSI-180HP-DSG-7-speed-Elegance.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-skoda-octavia-iii-1-6-tdi-110",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 1.6 L Inline-4 turbocharged 81 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Octavia III 1.6 TDI 110 GreenLine (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Škoda Octavia III 1.6 TDI 110 GreenLine (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Škoda Octavia III 1.6 TDI 110 GreenLine (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Škoda Octavia III 1.6 TDI 110 GreenLine (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Škoda Octavia III 1.6 TDI 110 GreenLine (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-skoda-octavia-iii-1-6-tdi-110-a",
+        "batch19-skoda-octavia-iii-1-6-tdi-110-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Octavia III 1.6 TDI 110 GreenLine (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-skoda-octavia-iii-1-6-tdi-110-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 1.6 TDI 110 GreenLine (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Skoda Octavia III 1.6 TDI (110 Hp) GreenLine technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2016,
+          "url": "https://www.auto-data.net/en/skoda-octavia-iii-1.6-tdi-110hp-greenline-20441",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-skoda-octavia-iii-1-6-tdi-110-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 1.6 TDI 110 GreenLine (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "2016 Skoda Octavia 3 1.6 TDI 110HP Like technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2016,
+          "url": "https://www.ultimatespecs.com/car-specs/Skoda/105645/Skoda-Octavia-3-16-TDI-110HP-Like.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-skoda-octavia-iii-1-6-tdi-105",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 1.6 L Inline-4 turbocharged 77 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Octavia III 1.6 TDI 105 DSG (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Škoda Octavia III 1.6 TDI 105 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Škoda Octavia III 1.6 TDI 105 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Škoda Octavia III 1.6 TDI 105 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Škoda Octavia III 1.6 TDI 105 DSG (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 77,
+        "max": 77
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-skoda-octavia-iii-1-6-tdi-105-a",
+        "batch19-skoda-octavia-iii-1-6-tdi-105-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Octavia III 1.6 TDI 105 DSG (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-skoda-octavia-iii-1-6-tdi-105-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 77,
+              "max": 77
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 77 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 1.6 TDI 105 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Skoda Octavia III 1.6 TDI (105 Hp) DSG technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/skoda-octavia-iii-1.6-tdi-105hp-dsg-19274",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-skoda-octavia-iii-1-6-tdi-105-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 77,
+              "max": 77
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 77 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia III 1.6 TDI 105 DSG (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Skoda Octavia 3 1.6 TDI CR 105HP DSG 7 speed Ambition technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Skoda/65014/Skoda-Octavia-3-16-TDI-CR-105HP-DSG-7-speed-Ambition.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-s60-ii-facelift-2013-polestar-2-0-t6-367",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-4 turbocharged 270 kW / 470 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo S60 II (facelift 2013) Polestar 2.0 T6 367 AWD Geartronic (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) Polestar 2.0 T6 367 AWD Geartronic (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) Polestar 2.0 T6 367 AWD Geartronic (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) Polestar 2.0 T6 367 AWD Geartronic (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) Polestar 2.0 T6 367 AWD Geartronic (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 270,
+        "max": 270
+      },
+      "torqueNm": {
+        "min": 470,
+        "max": 470
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-s60-ii-facelift-2013-polestar-2-0-t6-367-a",
+        "batch19-volvo-s60-ii-facelift-2013-polestar-2-0-t6-367-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo S60 II (facelift 2013) Polestar 2.0 T6 367 AWD Geartronic (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-s60-ii-facelift-2013-polestar-2-0-t6-367-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 470,
+              "max": 470
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 270 kW and 470 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S60 II (facelift 2013) Polestar 2.0 T6 367 AWD Geartronic (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo S60 II (facelift 2013) Polestar 2.0 T6 (367 Hp) AWD Geartronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2016,
+          "url": "https://www.auto-data.net/en/volvo-s60-ii-facelift-2013-polestar-2.0-t6-367hp-awd-geartronic-23267",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-s60-ii-facelift-2013-polestar-2-0-t6-367-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 470,
+              "max": 470
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 270 kW and 470 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S60 II (facelift 2013) Polestar 2.0 T6 367 AWD Geartronic (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo S60 II Restyling Polestar technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2016,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/106036/Volvo-S60-II-Restyling-Polestar.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d5-225",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-4 turbocharged 165 kW / 470 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo S60 II (facelift 2013) 2.0 D5 225 Geartronic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D5 225 Geartronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D5 225 Geartronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D5 225 Geartronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S60 II (facelift 2013) 2.0 D5 225 Geartronic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165
+      },
+      "torqueNm": {
+        "min": 470,
+        "max": 470
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-s60-ii-facelift-2013-2-0-d5-225-a",
+        "batch19-volvo-s60-ii-facelift-2013-2-0-d5-225-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo S60 II (facelift 2013) 2.0 D5 225 Geartronic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d5-225-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 165,
+              "max": 165
+            },
+            "performance.torqueNm": {
+              "min": 470,
+              "max": 470
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 165 kW and 470 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S60 II (facelift 2013) 2.0 D5 225 Geartronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo S60 II (facelift 2013) 2.0 D5 (225 Hp) Geartronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/volvo-s60-ii-facelift-2013-2.0-d5-225hp-geartronic-23252",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-s60-ii-facelift-2013-2-0-d5-225-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 165,
+              "max": 165
+            },
+            "performance.torqueNm": {
+              "min": 470,
+              "max": 470
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 165 kW and 470 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S60 II (facelift 2013) 2.0 D5 225 Geartronic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo S60 II Restyling D5 Momentum Auto technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/72288/Volvo-S60-II-Restyling-D5-Momentum-Auto.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300e-320",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2 L Inline-4 turbocharged 155 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2019",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C-class (W205, facelift 2018) C 300e 320 EQ Power 9G-TRONIC (Europe market, 2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Mercedes-Benz C-class (W205, facelift 2018) C 300e 320 EQ Power 9G-TRONIC (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Mercedes-Benz C-class (W205, facelift 2018) C 300e 320 EQ Power 9G-TRONIC (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Mercedes-Benz C-class (W205, facelift 2018) C 300e 320 EQ Power 9G-TRONIC (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Mercedes-Benz C-class (W205, facelift 2018) C 300e 320 EQ Power 9G-TRONIC (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300e-320-a",
+        "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300e-320-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C-class (W205, facelift 2018) C 300e 320 EQ Power 9G-TRONIC (Europe market, 2019 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300e-320-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 155,
+              "max": 155
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrolHybrid, turbocharged, directInjection; 155 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2019 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W205, facelift 2018) C 300e 320 EQ Power 9G-TRONIC (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz C-class (W205, facelift 2018) C 300e (320 Hp) EQ Power 9G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2019,
+          "url": "https://www.auto-data.net/en/mercedes-benz-c-class-w205-facelift-2018-c-300e-320hp-eq-power-9g-tronic-38099",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300e-320-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 155,
+              "max": 155
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrolHybrid, turbocharged, directInjection; 155 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2019 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W205, facelift 2018) C 300e 320 EQ Power 9G-TRONIC (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz Class C (W205 2019) 300 e technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2019,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/117261/Mercedes-Benz-Class-C-(W205-2019)-300-e.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300de-306",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 1.9 L Inline-4 turbocharged 143 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2019",
+    "displacement": "1.9 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "dieselHybrid",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C-class (W205, facelift 2018) C 300de 306 EQ Power 9G-TRONIC (Europe market, 2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Mercedes-Benz C-class (W205, facelift 2018) C 300de 306 EQ Power 9G-TRONIC (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Mercedes-Benz C-class (W205, facelift 2018) C 300de 306 EQ Power 9G-TRONIC (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Mercedes-Benz C-class (W205, facelift 2018) C 300de 306 EQ Power 9G-TRONIC (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Mercedes-Benz C-class (W205, facelift 2018) C 300de 306 EQ Power 9G-TRONIC (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 143,
+        "max": 143
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300de-306-a",
+        "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300de-306-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C-class (W205, facelift 2018) C 300de 306 EQ Power 9G-TRONIC (Europe market, 2019 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300de-306-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 143,
+              "max": 143
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, DOHC, 16 valves and 2 total camshafts; dieselHybrid, turbocharged, directInjection; 143 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2019 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W205, facelift 2018) C 300de 306 EQ Power 9G-TRONIC (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz C-class (W205, facelift 2018) C 300de (306 Hp) EQ Power 9G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2019,
+          "url": "https://www.auto-data.net/en/mercedes-benz-c-class-w205-facelift-2018-c-300de-306hp-eq-power-9g-tronic-38101",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-c-class-w205-facelift-2018-c-300de-306-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 143,
+              "max": 143
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, DOHC, 16 valves and 2 total camshafts; dieselHybrid, turbocharged, directInjection; 143 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2019 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W205, facelift 2018) C 300de 306 EQ Power 9G-TRONIC (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz Class C (W205 2019) 300 de technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2019,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/117260/Mercedes-Benz-Class-C-(W205-2019)-300-de.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-seat-leon-iii-cupra-2-0-tsi-280",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 2 L Inline-4 turbocharged 206 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Leon III Cupra 2.0 TSI 280 start/stop (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; SEAT Leon III Cupra 2.0 TSI 280 start/stop (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; SEAT Leon III Cupra 2.0 TSI 280 start/stop (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; SEAT Leon III Cupra 2.0 TSI 280 start/stop (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; SEAT Leon III Cupra 2.0 TSI 280 start/stop (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 206,
+        "max": 206
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-seat-leon-iii-cupra-2-0-tsi-280-a",
+        "batch19-seat-leon-iii-cupra-2-0-tsi-280-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Leon III Cupra 2.0 TSI 280 start/stop (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-seat-leon-iii-cupra-2-0-tsi-280-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 206,
+              "max": 206
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 206 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon III Cupra 2.0 TSI 280 start/stop (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Seat Leon III Cupra 2.0 TSI (280 Hp) start/stop technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/seat-leon-iii-cupra-2.0-tsi-280hp-start-stop-19386",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-seat-leon-iii-cupra-2-0-tsi-280-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 206,
+              "max": 206
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 206 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon III Cupra 2.0 TSI 280 start/stop (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Seat Leon 3 2.0 TSI 280HP CUPRA technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Seat/68278/Seat-Leon-3-20-TSI-280HP-CUPRA.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-seat-leon-iii-cupra-2-0-tsi-265",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 2 L Inline-4 turbocharged 195 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Leon III Cupra 2.0 TSI 265 start/stop (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; SEAT Leon III Cupra 2.0 TSI 265 start/stop (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; SEAT Leon III Cupra 2.0 TSI 265 start/stop (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; SEAT Leon III Cupra 2.0 TSI 265 start/stop (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; SEAT Leon III Cupra 2.0 TSI 265 start/stop (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 195,
+        "max": 195
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-seat-leon-iii-cupra-2-0-tsi-265-a",
+        "batch19-seat-leon-iii-cupra-2-0-tsi-265-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Leon III Cupra 2.0 TSI 265 start/stop (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-seat-leon-iii-cupra-2-0-tsi-265-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 195,
+              "max": 195
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 195 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon III Cupra 2.0 TSI 265 start/stop (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Seat Leon III Cupra 2.0 TSI (265 Hp) start/stop technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/seat-leon-iii-cupra-2.0-tsi-265hp-start-stop-19385",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-seat-leon-iii-cupra-2-0-tsi-265-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 195,
+              "max": 195
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 195 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon III Cupra 2.0 TSI 265 start/stop (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Seat Leon 3 2.0 TSI 265HP CUPRA technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Seat/68067/Seat-Leon-3-20-TSI-265HP-CUPRA.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-seat-leon-iii-fr-1-8-tsi-180",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.8 L Inline-4 turbocharged 132 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Leon III FR 1.8 TSI 180 start/stop (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; SEAT Leon III FR 1.8 TSI 180 start/stop (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; SEAT Leon III FR 1.8 TSI 180 start/stop (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; SEAT Leon III FR 1.8 TSI 180 start/stop (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; SEAT Leon III FR 1.8 TSI 180 start/stop (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-seat-leon-iii-fr-1-8-tsi-180-a",
+        "batch19-seat-leon-iii-fr-1-8-tsi-180-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Leon III FR 1.8 TSI 180 start/stop (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-seat-leon-iii-fr-1-8-tsi-180-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 132,
+              "max": 132
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 132 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon III FR 1.8 TSI 180 start/stop (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Seat Leon III FR 1.8 TSI (180 Hp) start/stop technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/seat-leon-iii-fr-1.8-tsi-180hp-start-stop-19401",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-seat-leon-iii-fr-1-8-tsi-180-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 132,
+              "max": 132
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 132 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon III FR 1.8 TSI 180 start/stop (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Seat Leon 3  FR 1.8 TSI 180HP Start&Stop technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Seat/63685/Seat-Leon-3--FR-18-TSI-180HP-Start-Stop.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-3-series-sedan-e90-330xi-258",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3 L Inline-6 naturallyAspirated 190 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 3 Series Sedan (E90) 330xi 258 Steptronic (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (E90) 330xi 258 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (E90) 330xi 258 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (E90) 330xi 258 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (E90) 330xi 258 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 190,
+        "max": 190
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-3-series-sedan-e90-330xi-258-a",
+        "batch19-bmw-3-series-sedan-e90-330xi-258-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 3 Series Sedan (E90) 330xi 258 Steptronic (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-3-series-sedan-e90-330xi-258-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 190,
+              "max": 190
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 190 kW and 300 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (E90) 330xi 258 Steptronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 3 Series Sedan (E90) 330xi (258 Hp) Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/bmw-3-series-sedan-e90-330xi-258hp-steptronic-45534",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-3-series-sedan-e90-330xi-258-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 190,
+              "max": 190
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 190 kW and 300 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (E90) 330xi 258 Steptronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E90 3 Series 330xi technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5035/BMW-E90-3-Series-330xi.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-3-series-sedan-e90-330xd-231",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3 L Inline-6 turbocharged 170 kW / 500 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 3 Series Sedan (E90) 330xd 231 DPF Steptronic (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (E90) 330xd 231 DPF Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (E90) 330xd 231 DPF Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (E90) 330xd 231 DPF Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 3 Series Sedan (E90) 330xd 231 DPF Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-3-series-sedan-e90-330xd-231-a",
+        "batch19-bmw-3-series-sedan-e90-330xd-231-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 3 Series Sedan (E90) 330xd 231 DPF Steptronic (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-3-series-sedan-e90-330xd-231-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 170,
+              "max": 170
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 170 kW and 500 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (E90) 330xd 231 DPF Steptronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 3 Series Sedan (E90) 330xd (231 Hp) DPF Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/bmw-3-series-sedan-e90-330xd-231hp-dpf-steptronic-45531",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-3-series-sedan-e90-330xd-231-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 170,
+              "max": 170
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 170 kW and 500 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 3 Series Sedan (E90) 330xd 231 DPF Steptronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E90 3 Series 330xd technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5038/BMW-E90-3-Series-330xd.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-alfa-romeo-166-936-3-0-i-v6-24v-220",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 3 L V6 naturallyAspirated 162 kW / 265 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2003",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 166 (936) 3.0 i V6 24V 220 Automatic (Europe market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Alfa Romeo 166 (936) 3.0 i V6 24V 220 Automatic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Alfa Romeo 166 (936) 3.0 i V6 24V 220 Automatic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Alfa Romeo 166 (936) 3.0 i V6 24V 220 Automatic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Alfa Romeo 166 (936) 3.0 i V6 24V 220 Automatic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162
+      },
+      "torqueNm": {
+        "min": 265,
+        "max": 265
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-alfa-romeo-166-936-3-0-i-v6-24v-220-a",
+        "batch19-alfa-romeo-166-936-3-0-i-v6-24v-220-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 166 (936) 3.0 i V6 24V 220 Automatic (Europe market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-alfa-romeo-166-936-3-0-i-v6-24v-220-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 265,
+              "max": 265
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 162 kW and 265 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 166 (936) 3.0 i V6 24V 220 Automatic (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Alfa Romeo 166 (936) 3.0 i V6 24V (220 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2003,
+          "url": "https://www.auto-data.net/en/alfa-romeo-166-936-3.0-i-v6-24v-220hp-automatic-31089",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-alfa-romeo-166-936-3-0-i-v6-24v-220-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 265,
+              "max": 265
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 162 kW and 265 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 166 (936) 3.0 i V6 24V 220 Automatic (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Alfa Romeo 166 3.0 V6 Sportronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2003,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1052/Alfa-Romeo-166-30-V6-Sportronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-alfa-romeo-166-936-2-5-i-v6-24v-188",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 2.5 L V6 naturallyAspirated 138 kW / 221 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2003",
+    "displacement": "2.5 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 166 (936) 2.5 i V6 24V 188 (Europe market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Alfa Romeo 166 (936) 2.5 i V6 24V 188 (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Alfa Romeo 166 (936) 2.5 i V6 24V 188 (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Alfa Romeo 166 (936) 2.5 i V6 24V 188 (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Alfa Romeo 166 (936) 2.5 i V6 24V 188 (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 138,
+        "max": 138
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-alfa-romeo-166-936-2-5-i-v6-24v-188-a",
+        "batch19-alfa-romeo-166-936-2-5-i-v6-24v-188-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 166 (936) 2.5 i V6 24V 188 (Europe market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-alfa-romeo-166-936-2-5-i-v6-24v-188-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 138,
+              "max": 138
+            },
+            "performance.torqueNm": {
+              "min": 221,
+              "max": 221
+            }
+          },
+          "pageNotes": [
+            "2.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 138 kW and 221 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 166 (936) 2.5 i V6 24V 188 (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Alfa Romeo 166 (936) 2.5 i V6 24V (188 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2003,
+          "url": "https://www.auto-data.net/en/alfa-romeo-166-936-2.5-i-v6-24v-188hp-1287",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-alfa-romeo-166-936-2-5-i-v6-24v-188-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 138,
+              "max": 138
+            },
+            "performance.torqueNm": {
+              "min": 221,
+              "max": 221
+            }
+          },
+          "pageNotes": [
+            "2.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 138 kW and 221 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 166 (936) 2.5 i V6 24V 188 (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Alfa Romeo 166 2.5 V6 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2003,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1051/Alfa-Romeo-166-25-V6.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-alfa-romeo-166-936-2-0-16v-twin-spark-155",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 2 L Inline-4 naturallyAspirated 114 kW / 187 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1998",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 166 (936) 2.0 16V Twin Spark 155 (Europe market, 1998 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Alfa Romeo 166 (936) 2.0 16V Twin Spark 155 (Europe market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Alfa Romeo 166 (936) 2.0 16V Twin Spark 155 (Europe market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Alfa Romeo 166 (936) 2.0 16V Twin Spark 155 (Europe market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Alfa Romeo 166 (936) 2.0 16V Twin Spark 155 (Europe market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114
+      },
+      "torqueNm": {
+        "min": 187,
+        "max": 187
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-alfa-romeo-166-936-2-0-16v-twin-spark-155-a",
+        "batch19-alfa-romeo-166-936-2-0-16v-twin-spark-155-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 166 (936) 2.0 16V Twin Spark 155 (Europe market, 1998 specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-alfa-romeo-166-936-2-0-16v-twin-spark-155-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 114,
+              "max": 114
+            },
+            "performance.torqueNm": {
+              "min": 187,
+              "max": 187
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 114 kW and 187 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1998 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 166 (936) 2.0 16V Twin Spark 155 (Europe market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Alfa Romeo 166 (936) 2.0 16V Twin Spark (155 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 1998,
+          "url": "https://www.auto-data.net/en/alfa-romeo-166-936-2.0-16v-twin-spark-155hp-1281",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-alfa-romeo-166-936-2-0-16v-twin-spark-155-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 114,
+              "max": 114
+            },
+            "performance.torqueNm": {
+              "min": 187,
+              "max": 187
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 114 kW and 187 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1998 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 166 (936) 2.0 16V Twin Spark 155 (Europe market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Alfa Romeo 166 2.0 TS 16v technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 1998,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1043/Alfa-Romeo-166-20-TS-16v.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a6-sedan-4g-c7-3-0-bitdi-v6-313",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 3 L V6 turbocharged 230 kW / 650 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 313 quattro Tiptronic (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 313 quattro Tiptronic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 313 quattro Tiptronic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 313 quattro Tiptronic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 313 quattro Tiptronic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 230,
+        "max": 230
+      },
+      "torqueNm": {
+        "min": 650,
+        "max": 650
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a6-sedan-4g-c7-3-0-bitdi-v6-313-a",
+        "batch19-audi-a6-sedan-4g-c7-3-0-bitdi-v6-313-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 313 quattro Tiptronic (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a6-sedan-4g-c7-3-0-bitdi-v6-313-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 230,
+              "max": 230
+            },
+            "performance.torqueNm": {
+              "min": 650,
+              "max": 650
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, directInjection; 230 kW and 650 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 313 quattro Tiptronic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 (313 Hp) quattro Tiptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/audi-a6-limousine-4g-c7-3.0-bitdi-v6-313hp-quattro-tiptronic-18161",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a6-sedan-4g-c7-3-0-bitdi-v6-313-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 230,
+              "max": 230
+            },
+            "performance.torqueNm": {
+              "min": 650,
+              "max": 650
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, directInjection; 230 kW and 650 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A6 Sedan (4G, C7) 3.0 BiTDI V6 313 quattro Tiptronic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A6 (C7) 3.0 BiTDI 313HP Quattro Tiptronic 8 sp. technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/59235/Audi-A6-(C7)-30-BiTDI-313HP-Quattro-Tiptronic-8-sp.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-audi-a6-sedan-4g-c7-2-8-fsi-v6-204",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.8 L V6 naturallyAspirated 150 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2011",
+    "displacement": "2.8 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A6 Sedan (4G, C7) 2.8 FSI V6 204 quattro S tronic (Europe market, 2011 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.8 L; Audi A6 Sedan (4G, C7) 2.8 FSI V6 204 quattro S tronic (Europe market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.8 L; Audi A6 Sedan (4G, C7) 2.8 FSI V6 204 quattro S tronic (Europe market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.8 L; Audi A6 Sedan (4G, C7) 2.8 FSI V6 204 quattro S tronic (Europe market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.8 L; Audi A6 Sedan (4G, C7) 2.8 FSI V6 204 quattro S tronic (Europe market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-audi-a6-sedan-4g-c7-2-8-fsi-v6-204-a",
+        "batch19-audi-a6-sedan-4g-c7-2-8-fsi-v6-204-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A6 Sedan (4G, C7) 2.8 FSI V6 204 quattro S tronic (Europe market, 2011 specification)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-audi-a6-sedan-4g-c7-2-8-fsi-v6-204-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 150,
+              "max": 150
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "2.8 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 150 kW and 280 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2011 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A6 Sedan (4G, C7) 2.8 FSI V6 204 quattro S tronic (Europe market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Audi A6 Sedan (4G, C7) 2.8 FSI V6 (204 Hp) quattro S tronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2011,
+          "url": "https://www.auto-data.net/en/audi-a6-limousine-4g-c7-2.8-fsi-v6-204hp-quattro-s-tronic-18153",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-audi-a6-sedan-4g-c7-2-8-fsi-v6-204-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 150,
+              "max": 150
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "2.8 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 150 kW and 280 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2011 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A6 Sedan (4G, C7) 2.8 FSI V6 204 quattro S tronic (Europe market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Audi A6 (C7) 2.8 FSI technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2011,
+          "url": "https://www.ultimatespecs.com/car-specs/Audi/26095/Audi-A6-(C7)-28-FSI.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v40-2012-2-0-d4-177",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-5 turbocharged 130 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "2 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V40 (2012) 2.0 D4 177 Automatic (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 D4 177 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 D4 177 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 D4 177 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 D4 177 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v40-2012-2-0-d4-177-a",
+        "batch19-volvo-v40-2012-2-0-d4-177-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V40 (2012) 2.0 D4 177 Automatic (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v40-2012-2-0-d4-177-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, directInjection; 130 kW and 400 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 2.0 D4 177 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V40 (2012) 2.0 D4 (177 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/volvo-v40-2012-2.0-d4-177hp-automatic-17575",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v40-2012-2-0-d4-177-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, directInjection; 130 kW and 400 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 2.0 D4 177 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V40 II D4 Kinetic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/59322/Volvo-V40-II-D4-Kinetic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v40-2012-2-5-t5-254",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2.5 L Inline-5 turbocharged 187 kW / 360 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "2.5 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V40 (2012) 2.5 T5 254 Automatic (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo V40 (2012) 2.5 T5 254 Automatic (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo V40 (2012) 2.5 T5 254 Automatic (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo V40 (2012) 2.5 T5 254 Automatic (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo V40 (2012) 2.5 T5 254 Automatic (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 187,
+        "max": 187
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v40-2012-2-5-t5-254-a",
+        "batch19-volvo-v40-2012-2-5-t5-254-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V40 (2012) 2.5 T5 254 Automatic (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v40-2012-2-5-t5-254-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 187,
+              "max": 187
+            },
+            "performance.torqueNm": {
+              "min": 360,
+              "max": 360
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, directInjection; 187 kW and 360 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 2.5 T5 254 Automatic (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V40 (2012) 2.5 T5 (254 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/volvo-v40-2012-2.5-t5-254hp-automatic-18334",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v40-2012-2-5-t5-254-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 187,
+              "max": 187
+            },
+            "performance.torqueNm": {
+              "min": 360,
+              "max": 360
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, directInjection; 187 kW and 360 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 2.5 T5 254 Automatic (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V40 II T5 Kinetic Geartronic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/63926/Volvo-V40-II-T5-Kinetic-Geartronic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v40-2012-2-0-t5-245",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-4 turbocharged 180 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V40 (2012) 2.0 T5 245 Automatic (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 T5 245 Automatic (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 T5 245 Automatic (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 T5 245 Automatic (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 T5 245 Automatic (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 180,
+        "max": 180
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v40-2012-2-0-t5-245-a",
+        "batch19-volvo-v40-2012-2-0-t5-245-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V40 (2012) 2.0 T5 245 Automatic (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v40-2012-2-0-t5-245-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 180,
+              "max": 180
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 180 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 2.0 T5 245 Automatic (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V40 (2012) 2.0 T5 (245 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/volvo-v40-2012-2.0-t5-245hp-automatic-21737",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v40-2012-2-0-t5-245-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 180,
+              "max": 180
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 180 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 2.0 T5 245 Automatic (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V40 II T5 Momentum Auto technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/69514/Volvo-V40-II-T5-Momentum-Auto.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v40-2012-2-0-d3-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-5 turbocharged 110 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "2 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V40 (2012) 2.0 D3 150 Automatic (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 D3 150 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 D3 150 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 D3 150 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Volvo V40 (2012) 2.0 D3 150 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v40-2012-2-0-d3-150-a",
+        "batch19-volvo-v40-2012-2-0-d3-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V40 (2012) 2.0 D3 150 Automatic (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v40-2012-2-0-d3-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 350 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 2.0 D3 150 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V40 (2012) 2.0 D3 (150 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/volvo-v40-2012-2.0-d3-150hp-automatic-17573",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v40-2012-2-0-d3-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 350 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 2.0 D3 150 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V40 II D3 Kinetic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/59316/Volvo-V40-II-D3-Kinetic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v40-2012-1-6-t4-180",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 1.6 L Inline-4 turbocharged 132 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V40 (2012) 1.6 T4 180 Automatic (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Volvo V40 (2012) 1.6 T4 180 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Volvo V40 (2012) 1.6 T4 180 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Volvo V40 (2012) 1.6 T4 180 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Volvo V40 (2012) 1.6 T4 180 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v40-2012-1-6-t4-180-a",
+        "batch19-volvo-v40-2012-1-6-t4-180-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V40 (2012) 1.6 T4 180 Automatic (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v40-2012-1-6-t4-180-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 132,
+              "max": 132
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 132 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 1.6 T4 180 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V40 (2012) 1.6 T4 (180 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/volvo-v40-2012-1.6-t4-180hp-automatic-17578",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v40-2012-1-6-t4-180-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 132,
+              "max": 132
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 132 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 (2012) 1.6 T4 180 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V40 II T4 R-Design technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/63888/Volvo-V40-II-T4-R-Design.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-c-class-w204-c-200-cdi-blueefficiency-136",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2.1 L Inline-4 turbocharged 100 kW / 360 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011",
+    "displacement": "2.1 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY 136 (Europe market, 2011 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.1 L; Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY 136 (Europe market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.1 L; Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY 136 (Europe market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.1 L; Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY 136 (Europe market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.1 L; Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY 136 (Europe market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-c-class-w204-c-200-cdi-blueefficiency-136-a",
+        "batch19-mercedes-benz-c-class-w204-c-200-cdi-blueefficiency-136-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY 136 (Europe market, 2011 specification)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-c-class-w204-c-200-cdi-blueefficiency-136-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 360,
+              "max": 360
+            }
+          },
+          "pageNotes": [
+            "2.1 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 360 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2011 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY 136 (Europe market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY (136 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2011,
+          "url": "https://www.auto-data.net/en/mercedes-benz-c-class-w204-c-200-cdi-blueefficiency-136hp-44272",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-c-class-w204-c-200-cdi-blueefficiency-136-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 360,
+              "max": 360
+            }
+          },
+          "pageNotes": [
+            "2.1 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 360 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2011 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W204) C 200 CDI BlueEFFICIENCY 136 (Europe market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz C Class (W204 2011) Sedan 200 CDI BlueEFFICIENCY technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2011,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/24802/Mercedes-Benz-C-Class-(W204-2011)-Sedan-200-CDI-BlueEFFICIENCY.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-c-class-w204-c-350-v6-272",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3.5 L V6 naturallyAspirated 200 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2007",
+    "displacement": "3.5 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C-class (W204) C 350 V6 272 7G-TRONIC (Europe market, 2007 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Mercedes-Benz C-class (W204) C 350 V6 272 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Mercedes-Benz C-class (W204) C 350 V6 272 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Mercedes-Benz C-class (W204) C 350 V6 272 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Mercedes-Benz C-class (W204) C 350 V6 272 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 200,
+        "max": 200
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-c-class-w204-c-350-v6-272-a",
+        "batch19-mercedes-benz-c-class-w204-c-350-v6-272-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C-class (W204) C 350 V6 272 7G-TRONIC (Europe market, 2007 specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-c-class-w204-c-350-v6-272-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 200 kW and 350 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2007 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W204) C 350 V6 272 7G-TRONIC (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz C-class (W204) C 350 V6 (272 Hp) 7G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2007,
+          "url": "https://www.auto-data.net/en/mercedes-benz-c-class-w204-c-350-v6-272hp-7g-tronic-12547",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-c-class-w204-c-350-v6-272-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 200 kW and 350 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2007 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W204) C 350 V6 272 7G-TRONIC (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz W204 Class C 350 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2007,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/2451/Mercedes-Benz-W204-Class-C-350.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-c-class-w204-c-320-cdi-v6-224",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3 L V6 turbocharged 165 kW / 510 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2007",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C-class (W204) C 320 CDI V6 224 7G-TRONIC (Europe market, 2007 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz C-class (W204) C 320 CDI V6 224 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz C-class (W204) C 320 CDI V6 224 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz C-class (W204) C 320 CDI V6 224 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz C-class (W204) C 320 CDI V6 224 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165
+      },
+      "torqueNm": {
+        "min": 510,
+        "max": 510
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-c-class-w204-c-320-cdi-v6-224-a",
+        "batch19-mercedes-benz-c-class-w204-c-320-cdi-v6-224-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C-class (W204) C 320 CDI V6 224 7G-TRONIC (Europe market, 2007 specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-c-class-w204-c-320-cdi-v6-224-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 165,
+              "max": 165
+            },
+            "performance.torqueNm": {
+              "min": 510,
+              "max": 510
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, commonRail; 165 kW and 510 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2007 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W204) C 320 CDI V6 224 7G-TRONIC (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz C-class (W204) C 320 CDI V6 (224 Hp) 7G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2007,
+          "url": "https://www.auto-data.net/en/mercedes-benz-c-class-w204-c-320-cdi-v6-224hp-7g-tronic-44270",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-c-class-w204-c-320-cdi-v6-224-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 165,
+              "max": 165
+            },
+            "performance.torqueNm": {
+              "min": 510,
+              "max": 510
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, commonRail; 165 kW and 510 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2007 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W204) C 320 CDI V6 224 7G-TRONIC (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz W204 Class C 320 CDI technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2007,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/2449/Mercedes-Benz-W204-Class-C-320-CDI.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-c-class-w204-c-280-v6-231",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3 L V6 naturallyAspirated 170 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2007",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C-class (W204) C 280 V6 231 7G-TRONIC (Europe market, 2007 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz C-class (W204) C 280 V6 231 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz C-class (W204) C 280 V6 231 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz C-class (W204) C 280 V6 231 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz C-class (W204) C 280 V6 231 7G-TRONIC (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-c-class-w204-c-280-v6-231-a",
+        "batch19-mercedes-benz-c-class-w204-c-280-v6-231-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C-class (W204) C 280 V6 231 7G-TRONIC (Europe market, 2007 specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-c-class-w204-c-280-v6-231-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 170,
+              "max": 170
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 170 kW and 300 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2007 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W204) C 280 V6 231 7G-TRONIC (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz C-class (W204) C 280 V6 (231 Hp) 7G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2007,
+          "url": "https://www.auto-data.net/en/mercedes-benz-c-class-w204-c-280-v6-231hp-7g-tronic-43164",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-c-class-w204-c-280-v6-231-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 170,
+              "max": 170
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 170 kW and 300 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2007 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C-class (W204) C 280 V6 231 7G-TRONIC (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz W204 Class C 280 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2007,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/2452/Mercedes-Benz-W204-Class-C-280.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-220-cdi-170",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2.1 L Inline-4 turbocharged 125 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "2.1 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI 170 7G-TRONIC PLUS (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.1 L; Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI 170 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.1 L; Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI 170 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.1 L; Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI 170 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.1 L; Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI 170 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-220-cdi-170-a",
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-220-cdi-170-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI 170 7G-TRONIC PLUS (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-220-cdi-170-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.1 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 125 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI 170 7G-TRONIC PLUS (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI (170 Hp) 7G-TRONIC PLUS technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w212-facelift-2013-e-220-cdi-170hp-7g-tronic-plus-18876",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-220-cdi-170-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.1 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 125 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 220 CDI 170 7G-TRONIC PLUS (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W212 2013) E220 CDI Auto technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/65412/Mercedes-Benz-E-Class-(W212-2013)-E220-CDI-Auto.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-s-v8-585",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 5.5 L V8 turbocharged 430 kW / 800 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "5.5 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 585 4MATIC AMG SPEEDSHIFT MCT (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 585 4MATIC AMG SPEEDSHIFT MCT (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 585 4MATIC AMG SPEEDSHIFT MCT (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 585 4MATIC AMG SPEEDSHIFT MCT (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 585 4MATIC AMG SPEEDSHIFT MCT (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 430,
+        "max": 430
+      },
+      "torqueNm": {
+        "min": 800,
+        "max": 800
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-s-v8-585-a",
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-s-v8-585-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 585 4MATIC AMG SPEEDSHIFT MCT (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-s-v8-585-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 430,
+              "max": 430
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "5.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, turbocharged, directInjection; 430 kW and 800 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 585 4MATIC AMG SPEEDSHIFT MCT (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 (585 Hp) 4MATIC AMG SPEEDSHIFT MCT technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w212-facelift-2013-amg-e-63-s-v8-585hp-4matic-amg-speedshift-mct-18734",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-s-v8-585-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 430,
+              "max": 430
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "5.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, turbocharged, directInjection; 430 kW and 800 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 S V8 585 4MATIC AMG SPEEDSHIFT MCT (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W212 2013) E63 AMG S-Model 4MATIC technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/70042/Mercedes-Benz-E-Class-(W212-2013)-E63-AMG-S-Model-4MATIC.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-v8-557",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 5.5 L V8 turbocharged 410 kW / 720 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "5.5 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 557 AMG SPEEDSHIFT MCT (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 557 AMG SPEEDSHIFT MCT (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 557 AMG SPEEDSHIFT MCT (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 557 AMG SPEEDSHIFT MCT (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 557 AMG SPEEDSHIFT MCT (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 410,
+        "max": 410
+      },
+      "torqueNm": {
+        "min": 720,
+        "max": 720
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-v8-557-a",
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-v8-557-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 557 AMG SPEEDSHIFT MCT (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-v8-557-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 410,
+              "max": 410
+            },
+            "performance.torqueNm": {
+              "min": 720,
+              "max": 720
+            }
+          },
+          "pageNotes": [
+            "5.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, turbocharged, directInjection; 410 kW and 720 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 557 AMG SPEEDSHIFT MCT (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 (557 Hp) AMG SPEEDSHIFT MCT technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w212-facelift-2013-amg-e-63-v8-557hp-amg-speedshift-mct-18736",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-amg-e-63-v8-557-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 410,
+              "max": 410
+            },
+            "performance.torqueNm": {
+              "min": 720,
+              "max": 720
+            }
+          },
+          "pageNotes": [
+            "5.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, turbocharged, directInjection; 410 kW and 720 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) AMG E 63 V8 557 AMG SPEEDSHIFT MCT (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W212 2013) E63 AMG 4MATIC technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/70041/Mercedes-Benz-E-Class-(W212-2013)-E63-AMG-4MATIC.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-500-v8-408",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 4.7 L V8 turbocharged 300 kW / 600 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "4.7 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 408 7G-TRONIC PLUS (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.7 L; Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 408 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.7 L; Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 408 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.7 L; Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 408 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.7 L; Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 408 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-500-v8-408-a",
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-500-v8-408-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 408 7G-TRONIC PLUS (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-500-v8-408-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 300,
+              "max": 300
+            },
+            "performance.torqueNm": {
+              "min": 600,
+              "max": 600
+            }
+          },
+          "pageNotes": [
+            "4.7 L V8, DOHC, 32 valves and 4 total camshafts; petrol, turbocharged, directInjection; 300 kW and 600 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 408 7G-TRONIC PLUS (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 (408 Hp) 7G-TRONIC PLUS technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w212-facelift-2013-e-500-v8-408hp-7g-tronic-plus-18738",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-500-v8-408-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 300,
+              "max": 300
+            },
+            "performance.torqueNm": {
+              "min": 600,
+              "max": 600
+            }
+          },
+          "pageNotes": [
+            "4.7 L V8, DOHC, 32 valves and 4 total camshafts; petrol, turbocharged, directInjection; 300 kW and 600 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 500 V8 408 7G-TRONIC PLUS (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W212 2013) E500 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/65472/Mercedes-Benz-E-Class-(W212-2013)-E500.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-400-v6-3-0-333",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3 L V6 turbocharged 245 kW / 480 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 333 7G-TRONIC PLUS (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 333 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 333 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 333 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 333 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 245,
+        "max": 245
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-400-v6-3-0-333-a",
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-400-v6-3-0-333-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 333 7G-TRONIC PLUS (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-400-v6-3-0-333-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 245,
+              "max": 245
+            },
+            "performance.torqueNm": {
+              "min": 480,
+              "max": 480
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, turbocharged, directInjection; 245 kW and 480 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 333 7G-TRONIC PLUS (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 (333 Hp) 7G-TRONIC PLUS technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w212-facelift-2013-e-400-v6-3.0-333hp-7g-tronic-plus-18740",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-400-v6-3-0-333-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 245,
+              "max": 245
+            },
+            "performance.torqueNm": {
+              "min": 480,
+              "max": 480
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, turbocharged, directInjection; 245 kW and 480 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 400 V6 3.0 333 7G-TRONIC PLUS (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W212 2013) E400 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/65777/Mercedes-Benz-E-Class-(W212-2013)-E400.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-v6-306",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3.5 L V6 naturallyAspirated 225 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "3.5 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 306 7G-TRONIC PLUS (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 306 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 306 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 306 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 306 7G-TRONIC PLUS (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 225,
+        "max": 225
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-v6-306-a",
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-v6-306-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 306 7G-TRONIC PLUS (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-v6-306-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 225,
+              "max": 225
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 225 kW and 370 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 306 7G-TRONIC PLUS (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 (306 Hp) 7G-TRONIC PLUS technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w212-facelift-2013-e-350-v6-306hp-7g-tronic-plus-18742",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-v6-306-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 225,
+              "max": 225
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 225 kW and 370 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 350 V6 306 7G-TRONIC PLUS (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W212 2013) E350 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/64714/Mercedes-Benz-E-Class-(W212-2013)-E350.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-bluetec-v6-252",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3 L V6 turbocharged 185 kW / 620 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 252 9G-TRONIC (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 252 9G-TRONIC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 252 9G-TRONIC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 252 9G-TRONIC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 252 9G-TRONIC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 185,
+        "max": 185
+      },
+      "torqueNm": {
+        "min": 620,
+        "max": 620
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-bluetec-v6-252-a",
+        "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-bluetec-v6-252-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 252 9G-TRONIC (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-bluetec-v6-252-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 620,
+              "max": 620
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, directInjection; 185 kW and 620 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 252 9G-TRONIC (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 (252 Hp) 9G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2013,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w212-facelift-2013-e-350-bluetec-v6-252hp-9g-tronic-18727",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w212-facelift-2013-e-350-bluetec-v6-252-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 620,
+              "max": 620
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, directInjection; 185 kW and 620 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2013 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W212, facelift 2013) E 350 BlueTEC V6 252 9G-TRONIC (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W212 2013) E350 BlueTEC technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2013,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/65436/Mercedes-Benz-E-Class-(W212-2013)-E350-BlueTEC.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-amg-e-63-v8-514",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 6.2 L V8 naturallyAspirated 378 kW / 630 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "6.2 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 514 7G-TRONIC (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 6.2 L; Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 514 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 6.2 L; Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 514 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 6.2 L; Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 514 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 6.2 L; Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 514 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 378,
+        "max": 378
+      },
+      "torqueNm": {
+        "min": 630,
+        "max": 630
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w211-facelift-2006-amg-e-63-v8-514-a",
+        "batch19-mercedes-benz-e-class-w211-facelift-2006-amg-e-63-v8-514-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 514 7G-TRONIC (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-amg-e-63-v8-514-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 378,
+              "max": 378
+            },
+            "performance.torqueNm": {
+              "min": 630,
+              "max": 630
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 378 kW and 630 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 514 7G-TRONIC (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 (514 Hp) 7G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w211-facelift-2006-amg-e-63-v8-514hp-7g-tronic-12906",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-amg-e-63-v8-514-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 378,
+              "max": 378
+            },
+            "performance.torqueNm": {
+              "min": 630,
+              "max": 630
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 378 kW and 630 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W211, facelift 2006) AMG E 63 V8 514 7G-TRONIC (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W211) 63 AMG technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/1381/Mercedes-Benz-E-Class-(W211)-63-AMG.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-500-v8-388",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 5.5 L V8 naturallyAspirated 285 kW / 530 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "5.5 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 388 7G-TRONIC (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 388 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 388 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 388 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 388 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 285,
+        "max": 285
+      },
+      "torqueNm": {
+        "min": 530,
+        "max": 530
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w211-facelift-2006-e-500-v8-388-a",
+        "batch19-mercedes-benz-e-class-w211-facelift-2006-e-500-v8-388-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 388 7G-TRONIC (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-500-v8-388-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 285,
+              "max": 285
+            },
+            "performance.torqueNm": {
+              "min": 530,
+              "max": 530
+            }
+          },
+          "pageNotes": [
+            "5.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 285 kW and 530 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 388 7G-TRONIC (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 (388 Hp) 7G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w211-facelift-2006-e-500-v8-388hp-7g-tronic-12902",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-500-v8-388-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 285,
+              "max": 285
+            },
+            "performance.torqueNm": {
+              "min": 530,
+              "max": 530
+            }
+          },
+          "pageNotes": [
+            "5.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 285 kW and 530 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W211, facelift 2006) E 500 V8 388 7G-TRONIC (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W211) 500 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/1380/Mercedes-Benz-E-Class-(W211)-500.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-420-cdi-v8-314",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 4 L V8 turbocharged 231 kW / 730 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 314 7G-TRONIC (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 L; Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 314 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 L; Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 314 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 L; Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 314 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 L; Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 314 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 231,
+        "max": 231
+      },
+      "torqueNm": {
+        "min": 730,
+        "max": 730
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w211-facelift-2006-e-420-cdi-v8-314-a",
+        "batch19-mercedes-benz-e-class-w211-facelift-2006-e-420-cdi-v8-314-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 314 7G-TRONIC (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-420-cdi-v8-314-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 231,
+              "max": 231
+            },
+            "performance.torqueNm": {
+              "min": 730,
+              "max": 730
+            }
+          },
+          "pageNotes": [
+            "4 L V8, DOHC, 32 valves and 4 total camshafts; diesel, turbocharged, commonRail; 231 kW and 730 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 314 7G-TRONIC (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 (314 Hp) 7G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w211-facelift-2006-e-420-cdi-v8-314hp-7g-tronic-37048",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-420-cdi-v8-314-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 231,
+              "max": 231
+            },
+            "performance.torqueNm": {
+              "min": 730,
+              "max": 730
+            }
+          },
+          "pageNotes": [
+            "4 L V8, DOHC, 32 valves and 4 total camshafts; diesel, turbocharged, commonRail; 231 kW and 730 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W211, facelift 2006) E 420 CDI V8 314 7G-TRONIC (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W211) 420 CDI technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/2570/Mercedes-Benz-E-Class-(W211)-420-CDI.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-320-cdi-v6-224",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3 L V6 turbocharged 165 kW / 540 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 224 7G-TRONIC (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 224 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 224 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 224 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 224 7G-TRONIC (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165
+      },
+      "torqueNm": {
+        "min": 540,
+        "max": 540
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-mercedes-benz-e-class-w211-facelift-2006-e-320-cdi-v6-224-a",
+        "batch19-mercedes-benz-e-class-w211-facelift-2006-e-320-cdi-v6-224-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 224 7G-TRONIC (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-320-cdi-v6-224-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 165,
+              "max": 165
+            },
+            "performance.torqueNm": {
+              "min": 540,
+              "max": 540
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, commonRail; 165 kW and 540 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 224 7G-TRONIC (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 (224 Hp) 7G-TRONIC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/mercedes-benz-e-class-w211-facelift-2006-e-320-cdi-v6-224hp-7g-tronic-12895",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-mercedes-benz-e-class-w211-facelift-2006-e-320-cdi-v6-224-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 165,
+              "max": 165
+            },
+            "performance.torqueNm": {
+              "min": 540,
+              "max": 540
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, commonRail; 165 kW and 540 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz E-class (W211, facelift 2006) E 320 CDI V6 224 7G-TRONIC (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Mercedes Benz E Class (W211) 320 CDI technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/1385/Mercedes-Benz-E-Class-(W211)-320-CDI.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v70-ii-facelift-2004-2-4-d5-185",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2.4 L Inline-5 turbocharged 136 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "2.4 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V70 II (facelift 2004) 2.4 D5 185 AWD (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 D5 185 AWD (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 D5 185 AWD (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 D5 185 AWD (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 D5 185 AWD (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 136,
+        "max": 136
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v70-ii-facelift-2004-2-4-d5-185-a",
+        "batch19-volvo-v70-ii-facelift-2004-2-4-d5-185-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V70 II (facelift 2004) 2.4 D5 185 AWD (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v70-ii-facelift-2004-2-4-d5-185-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 136,
+              "max": 136
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, commonRail; 136 kW and 400 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V70 II (facelift 2004) 2.4 D5 185 AWD (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V70 II (facelift 2004) 2.4 D5 (185 Hp) AWD technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/volvo-v70-ii-facelift-2004-2.4-d5-185hp-awd-9244",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v70-ii-facelift-2004-2-4-d5-185-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 136,
+              "max": 136
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, commonRail; 136 kW and 400 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V70 II (facelift 2004) 2.4 D5 185 AWD (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V70 II D5 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/4690/Volvo-V70-II-D5.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v70-ii-facelift-2004-2-5t-210",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2.5 L Inline-5 turbocharged 154 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "2.5 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V70 II (facelift 2004) 2.5T 210 Geartronic (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo V70 II (facelift 2004) 2.5T 210 Geartronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo V70 II (facelift 2004) 2.5T 210 Geartronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo V70 II (facelift 2004) 2.5T 210 Geartronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo V70 II (facelift 2004) 2.5T 210 Geartronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 154,
+        "max": 154
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v70-ii-facelift-2004-2-5t-210-a",
+        "batch19-volvo-v70-ii-facelift-2004-2-5t-210-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V70 II (facelift 2004) 2.5T 210 Geartronic (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v70-ii-facelift-2004-2-5t-210-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 154,
+              "max": 154
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 154 kW and 320 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V70 II (facelift 2004) 2.5T 210 Geartronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V70 II (facelift 2004) 2.5T (210 Hp) Geartronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/volvo-v70-ii-facelift-2004-2.5t-210hp-geartronic-42644",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v70-ii-facelift-2004-2-5t-210-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 154,
+              "max": 154
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 154 kW and 320 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V70 II (facelift 2004) 2.5T 210 Geartronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V70 II 2.5T technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/4699/Volvo-V70-II-25T.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v70-ii-facelift-2004-2-4-d-163",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2.4 L Inline-5 turbocharged 120 kW / 340 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "2.4 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V70 II (facelift 2004) 2.4 D 163 AWD Automatic (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 D 163 AWD Automatic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 D 163 AWD Automatic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 D 163 AWD Automatic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 D 163 AWD Automatic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v70-ii-facelift-2004-2-4-d-163-a",
+        "batch19-volvo-v70-ii-facelift-2004-2-4-d-163-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V70 II (facelift 2004) 2.4 D 163 AWD Automatic (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v70-ii-facelift-2004-2-4-d-163-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 340 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V70 II (facelift 2004) 2.4 D 163 AWD Automatic (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V70 II (facelift 2004) 2.4 D (163 Hp) AWD Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/volvo-v70-ii-facelift-2004-2.4-d-163hp-awd-automatic-9242",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v70-ii-facelift-2004-2-4-d-163-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 340 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V70 II (facelift 2004) 2.4 D 163 AWD Automatic (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V70 II 2.4D technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/4693/Volvo-V70-II-24D.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-volvo-v70-ii-facelift-2004-2-4-140",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2.4 L Inline-5 naturallyAspirated 103 kW / 220 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2004",
+    "displacement": "2.4 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V70 II (facelift 2004) 2.4 140 Geartronic (Europe market, 2004 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 140 Geartronic (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 140 Geartronic (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 140 Geartronic (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Volvo V70 II (facelift 2004) 2.4 140 Geartronic (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-volvo-v70-ii-facelift-2004-2-4-140-a",
+        "batch19-volvo-v70-ii-facelift-2004-2-4-140-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V70 II (facelift 2004) 2.4 140 Geartronic (Europe market, 2004 specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-volvo-v70-ii-facelift-2004-2-4-140-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 103 kW and 220 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V70 II (facelift 2004) 2.4 140 Geartronic (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Volvo V70 II (facelift 2004) 2.4 (140 Hp) Geartronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2004,
+          "url": "https://www.auto-data.net/en/volvo-v70-ii-facelift-2004-2.4-140hp-geartronic-42638",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-volvo-v70-ii-facelift-2004-2-4-140-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 103 kW and 220 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V70 II (facelift 2004) 2.4 140 Geartronic (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Volvo V70 II 2.4 140 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2004,
+          "url": "https://www.ultimatespecs.com/car-specs/Volvo/4674/Volvo-V70-II-24-140.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-5-series-e60-520d-163",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2 L Inline-4 turbocharged 120 kW / 340 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 5 Series (E60) 520d 163 Steptronic (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 5 Series (E60) 520d 163 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 5 Series (E60) 520d 163 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 5 Series (E60) 520d 163 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; BMW 5 Series (E60) 520d 163 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-5-series-e60-520d-163-a",
+        "batch19-bmw-5-series-e60-520d-163-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 5 Series (E60) 520d 163 Steptronic (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-5-series-e60-520d-163-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 340 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 520d 163 Steptronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 5 Series (E60) 520d (163 Hp) Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/bmw-5-series-e60-520d-163hp-steptronic-52687",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-5-series-e60-520d-163-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 340 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 520d 163 Steptronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E60 5 Series 520d technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5102/BMW-E60-5-Series-520d.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-5-series-e60-550i-367",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 4.8 L V8 naturallyAspirated 270 kW / 490 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "4.8 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 5 Series (E60) 550i 367 Steptronic (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.8 L; BMW 5 Series (E60) 550i 367 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.8 L; BMW 5 Series (E60) 550i 367 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.8 L; BMW 5 Series (E60) 550i 367 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.8 L; BMW 5 Series (E60) 550i 367 Steptronic (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 270,
+        "max": 270
+      },
+      "torqueNm": {
+        "min": 490,
+        "max": 490
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-5-series-e60-550i-367-a",
+        "batch19-bmw-5-series-e60-550i-367-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 5 Series (E60) 550i 367 Steptronic (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-5-series-e60-550i-367-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 490,
+              "max": 490
+            }
+          },
+          "pageNotes": [
+            "4.8 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 270 kW and 490 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 550i 367 Steptronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 5 Series (E60) 550i (367 Hp) Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/bmw-5-series-e60-550i-367hp-steptronic-21201",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-5-series-e60-550i-367-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 490,
+              "max": 490
+            }
+          },
+          "pageNotes": [
+            "4.8 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 270 kW and 490 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 550i 367 Steptronic (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E60 5 Series 550i technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5104/BMW-E60-5-Series-550i.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-5-series-e60-545i-333",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 4.4 L V8 naturallyAspirated 245 kW / 450 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2003",
+    "displacement": "4.4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 5 Series (E60) 545i 333 Steptronic (Europe market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; BMW 5 Series (E60) 545i 333 Steptronic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; BMW 5 Series (E60) 545i 333 Steptronic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; BMW 5 Series (E60) 545i 333 Steptronic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; BMW 5 Series (E60) 545i 333 Steptronic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 245,
+        "max": 245
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-5-series-e60-545i-333-a",
+        "batch19-bmw-5-series-e60-545i-333-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 5 Series (E60) 545i 333 Steptronic (Europe market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-5-series-e60-545i-333-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 245,
+              "max": 245
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "4.4 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 245 kW and 450 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 545i 333 Steptronic (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 5 Series (E60) 545i (333 Hp) Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2003,
+          "url": "https://www.auto-data.net/en/bmw-5-series-e60-545i-333hp-steptronic-21200",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-5-series-e60-545i-333-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 245,
+              "max": 245
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "4.4 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 245 kW and 450 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 545i 333 Steptronic (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E60 5 Series 545i technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2003,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5105/BMW-E60-5-Series-545i.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-5-series-e60-540i-306",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 4 L V8 naturallyAspirated 225 kW / 390 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 5 Series (E60) 540i 306 Steptronic (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 L; BMW 5 Series (E60) 540i 306 Steptronic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 L; BMW 5 Series (E60) 540i 306 Steptronic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 L; BMW 5 Series (E60) 540i 306 Steptronic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 L; BMW 5 Series (E60) 540i 306 Steptronic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 225,
+        "max": 225
+      },
+      "torqueNm": {
+        "min": 390,
+        "max": 390
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-5-series-e60-540i-306-a",
+        "batch19-bmw-5-series-e60-540i-306-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 5 Series (E60) 540i 306 Steptronic (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-5-series-e60-540i-306-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 225,
+              "max": 225
+            },
+            "performance.torqueNm": {
+              "min": 390,
+              "max": 390
+            }
+          },
+          "pageNotes": [
+            "4 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 225 kW and 390 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 540i 306 Steptronic (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 5 Series (E60) 540i (306 Hp) Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/bmw-5-series-e60-540i-306hp-steptronic-21199",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-5-series-e60-540i-306-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 225,
+              "max": 225
+            },
+            "performance.torqueNm": {
+              "min": 390,
+              "max": 390
+            }
+          },
+          "pageNotes": [
+            "4 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 225 kW and 390 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 540i 306 Steptronic (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E60 5 Series 540i technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5106/BMW-E60-5-Series-540i.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-5-series-e60-535d-272",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3 L Inline-6 turbocharged 200 kW / 560 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2004",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 5 Series (E60) 535d 272 Steptronic (Europe market, 2004 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 535d 272 Steptronic (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 535d 272 Steptronic (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 535d 272 Steptronic (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 535d 272 Steptronic (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 200,
+        "max": 200
+      },
+      "torqueNm": {
+        "min": 560,
+        "max": 560
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-5-series-e60-535d-272-a",
+        "batch19-bmw-5-series-e60-535d-272-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 5 Series (E60) 535d 272 Steptronic (Europe market, 2004 specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-5-series-e60-535d-272-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 560,
+              "max": 560
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 200 kW and 560 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 535d 272 Steptronic (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 5 Series (E60) 535d (272 Hp) Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2004,
+          "url": "https://www.auto-data.net/en/bmw-5-series-e60-535d-272hp-steptronic-9609",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-5-series-e60-535d-272-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 560,
+              "max": 560
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 200 kW and 560 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 535d 272 Steptronic (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E60 5 Series 535d technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2004,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5097/BMW-E60-5-Series-535d.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-5-series-e60-530i-231",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3 L Inline-6 naturallyAspirated 170 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2003",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 5 Series (E60) 530i 231 Steptronic (Europe market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 530i 231 Steptronic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 530i 231 Steptronic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 530i 231 Steptronic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 530i 231 Steptronic (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-5-series-e60-530i-231-a",
+        "batch19-bmw-5-series-e60-530i-231-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 5 Series (E60) 530i 231 Steptronic (Europe market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-5-series-e60-530i-231-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 170,
+              "max": 170
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 170 kW and 300 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 530i 231 Steptronic (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 5 Series (E60) 530i (231 Hp) Steptronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2003,
+          "url": "https://www.auto-data.net/en/bmw-5-series-e60-530i-231hp-steptronic-21195",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-5-series-e60-530i-231-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 170,
+              "max": 170
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 170 kW and 300 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 530i 231 Steptronic (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E60 5 Series 530i technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2003,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5109/BMW-E60-5-Series-530i.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-bmw-5-series-e60-530d-218",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3 L Inline-6 turbocharged 160 kW / 500 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2004",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 5 Series (E60) 530d 218 Steptronic DPF (Europe market, 2004 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 530d 218 Steptronic DPF (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 530d 218 Steptronic DPF (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 530d 218 Steptronic DPF (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; BMW 5 Series (E60) 530d 218 Steptronic DPF (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 160,
+        "max": 160
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-bmw-5-series-e60-530d-218-a",
+        "batch19-bmw-5-series-e60-530d-218-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 5 Series (E60) 530d 218 Steptronic DPF (Europe market, 2004 specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-bmw-5-series-e60-530d-218-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 160,
+              "max": 160
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 160 kW and 500 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 530d 218 Steptronic DPF (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "BMW 5 Series (E60) 530d (218 Hp) Steptronic DPF technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2004,
+          "url": "https://www.auto-data.net/en/bmw-5-series-e60-530d-218hp-steptronic-dpf-52696",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-bmw-5-series-e60-530d-218-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 160,
+              "max": 160
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 160 kW and 500 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 5 Series (E60) 530d 218 Steptronic DPF (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "BMW E60 5 Series 530d technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2004,
+          "url": "https://www.ultimatespecs.com/car-specs/BMW/5100/BMW-E60-5-Series-530d.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-alfa-romeo-159-1-9-jtdm-16v-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.9 L Inline-4 turbocharged 110 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "1.9 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 159 1.9 JTDM 16V 150 Q-Tronic (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTDM 16V 150 Q-Tronic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTDM 16V 150 Q-Tronic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTDM 16V 150 Q-Tronic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTDM 16V 150 Q-Tronic (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-alfa-romeo-159-1-9-jtdm-16v-150-a",
+        "batch19-alfa-romeo-159-1-9-jtdm-16v-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 159 1.9 JTDM 16V 150 Q-Tronic (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-alfa-romeo-159-1-9-jtdm-16v-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 1.9 JTDM 16V 150 Q-Tronic (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Alfa Romeo 159 1.9 JTDM 16V (150 Hp) Q-Tronic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/alfa-romeo-159-1.9-jtdm-16v-150hp-q-tronic-1540",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-alfa-romeo-159-1-9-jtdm-16v-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 1.9 JTDM 16V 150 Q-Tronic (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Alfa Romeo 159 1.9 JTDm 16v technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1035/Alfa-Romeo-159-19-JTDm-16v.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-alfa-romeo-159-2-2-jts-185",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 2.2 L Inline-4 naturallyAspirated 136 kW / 230 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "2.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 159 2.2 JTS 185 Selespeed (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Alfa Romeo 159 2.2 JTS 185 Selespeed (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Alfa Romeo 159 2.2 JTS 185 Selespeed (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Alfa Romeo 159 2.2 JTS 185 Selespeed (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Alfa Romeo 159 2.2 JTS 185 Selespeed (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 136,
+        "max": 136
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-alfa-romeo-159-2-2-jts-185-a",
+        "batch19-alfa-romeo-159-2-2-jts-185-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 159 2.2 JTS 185 Selespeed (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-alfa-romeo-159-2-2-jts-185-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 136,
+              "max": 136
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 136 kW and 230 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 2.2 JTS 185 Selespeed (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Alfa Romeo 159 2.2 JTS (185 Hp) Selespeed technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/alfa-romeo-159-2.2-jts-185hp-selespeed-41196",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-alfa-romeo-159-2-2-jts-185-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 136,
+              "max": 136
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 136 kW and 230 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 2.2 JTS 185 Selespeed (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Alfa Romeo 159 2.2 JTS technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1038/Alfa-Romeo-159-22-JTS.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-alfa-romeo-159-1-9-jts-160",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.9 L Inline-4 naturallyAspirated 118 kW / 190 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "1.9 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 159 1.9 JTS 160 (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTS 160 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTS 160 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTS 160 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTS 160 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 118,
+        "max": 118
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-alfa-romeo-159-1-9-jts-160-a",
+        "batch19-alfa-romeo-159-1-9-jts-160-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 159 1.9 JTS 160 (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-alfa-romeo-159-1-9-jts-160-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 118,
+              "max": 118
+            },
+            "performance.torqueNm": {
+              "min": 190,
+              "max": 190
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 118 kW and 190 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 1.9 JTS 160 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Alfa Romeo 159 1.9 JTS (160 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/alfa-romeo-159-1.9-jts-160hp-1541",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-alfa-romeo-159-1-9-jts-160-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 118,
+              "max": 118
+            },
+            "performance.torqueNm": {
+              "min": 190,
+              "max": 190
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 118 kW and 190 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 1.9 JTS 160 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Alfa Romeo 159 1.9 JTS technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1037/Alfa-Romeo-159-19-JTS.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-alfa-romeo-159-1-9-jtdm-8v-120",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.9 L Inline-4 turbocharged 88 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "1.9 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 159 1.9 JTDM 8V 120 (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTDM 8V 120 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTDM 8V 120 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTDM 8V 120 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.9 L; Alfa Romeo 159 1.9 JTDM 8V 120 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-alfa-romeo-159-1-9-jtdm-8v-120-a",
+        "batch19-alfa-romeo-159-1-9-jtdm-8v-120-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 159 1.9 JTDM 8V 120 (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-alfa-romeo-159-1-9-jtdm-8v-120-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 88 kW and 280 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 1.9 JTDM 8V 120 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Alfa Romeo 159 1.9 JTDM 8V (120 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/alfa-romeo-159-1.9-jtdm-8v-120hp-1538",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-alfa-romeo-159-1-9-jtdm-8v-120-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 88 kW and 280 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 1.9 JTDM 8V 120 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Alfa Romeo 159 1.9 JTDm 8v technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1034/Alfa-Romeo-159-19-JTDm-8v.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-alfa-romeo-159-1-8-mpi-140",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.8 L Inline-4 naturallyAspirated 103 kW / 175 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 159 1.8 MPI 140 (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Alfa Romeo 159 1.8 MPI 140 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Alfa Romeo 159 1.8 MPI 140 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Alfa Romeo 159 1.8 MPI 140 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Alfa Romeo 159 1.8 MPI 140 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 175,
+        "max": 175
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-alfa-romeo-159-1-8-mpi-140-a",
+        "batch19-alfa-romeo-159-1-8-mpi-140-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 159 1.8 MPI 140 (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-alfa-romeo-159-1-8-mpi-140-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 175,
+              "max": 175
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 103 kW and 175 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 1.8 MPI 140 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Alfa Romeo 159 1.8 MPI (140 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/alfa-romeo-159-1.8-mpi-140hp-1537",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-alfa-romeo-159-1-8-mpi-140-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 175,
+              "max": 175
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 103 kW and 175 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 159 1.8 MPI 140 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Alfa Romeo 159 1.8 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2005,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1033/Alfa-Romeo-159-18.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-renault-megane-iv-gt-1-6-energy-dci-163",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.6 L Inline-4 turbocharged 120 kW / 380 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Megane IV GT 1.6 Energy dCi 163 EDC (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Megane IV GT 1.6 Energy dCi 163 EDC (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Megane IV GT 1.6 Energy dCi 163 EDC (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Megane IV GT 1.6 Energy dCi 163 EDC (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Megane IV GT 1.6 Energy dCi 163 EDC (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-renault-megane-iv-gt-1-6-energy-dci-163-a",
+        "batch19-renault-megane-iv-gt-1-6-energy-dci-163-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Megane IV GT 1.6 Energy dCi 163 EDC (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-renault-megane-iv-gt-1-6-energy-dci-163-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 120 kW and 380 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2017 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane IV GT 1.6 Energy dCi 163 EDC (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Renault Megane IV GT 1.6 Energy dCi (163 Hp) EDC technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2017,
+          "url": "https://www.auto-data.net/en/renault-megane-iv-gt-1.6-energy-dci-163hp-edc-22556",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-renault-megane-iv-gt-1-6-energy-dci-163-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 120 kW and 380 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2017 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane IV GT 1.6 Energy dCi 163 EDC (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Renault Megane 4 Phase 1 1.6 dCi 165HP EDC technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2017,
+          "url": "https://www.ultimatespecs.com/car-specs/Renault/109775/Renault-Megane-4-Phase-1-16-dCi-165HP-EDC.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-renault-laguna-iii-2-0-dci-fap-178",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 2 L Inline-4 turbocharged 131 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2008",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Laguna III 2.0 dCi FAP 178 (Europe market, 2008 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna III 2.0 dCi FAP 178 (Europe market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna III 2.0 dCi FAP 178 (Europe market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna III 2.0 dCi FAP 178 (Europe market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna III 2.0 dCi FAP 178 (Europe market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-renault-laguna-iii-2-0-dci-fap-178-a",
+        "batch19-renault-laguna-iii-2-0-dci-fap-178-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Laguna III 2.0 dCi FAP 178 (Europe market, 2008 specification)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-renault-laguna-iii-2-0-dci-fap-178-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 131,
+              "max": 131
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 131 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2008 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Laguna III 2.0 dCi FAP 178 (Europe market, 2008 specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Renault Laguna III 2.0 dCi FAP (178 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2008,
+          "url": "https://www.auto-data.net/en/renault-laguna-iii-2.0-dci-fap-178hp-10293",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-renault-laguna-iii-2-0-dci-fap-178-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 131,
+              "max": 131
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 131 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2008 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Laguna III 2.0 dCi FAP 178 (Europe market, 2008 specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Renault Laguna 3 Coupe Monaco GP dCi 180 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2008,
+          "url": "https://www.ultimatespecs.com/car-specs/Renault/40679/Renault-Laguna-3-Coupe-Monaco-GP-dCi-180.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-renault-laguna-iii-2-0-16v-turbo-170",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 2 L Inline-4 turbocharged 125 kW / 270 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2008",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Laguna III 2.0 16V Turbo 170 Automatic (Europe market, 2008 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna III 2.0 16V Turbo 170 Automatic (Europe market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna III 2.0 16V Turbo 170 Automatic (Europe market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna III 2.0 16V Turbo 170 Automatic (Europe market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna III 2.0 16V Turbo 170 Automatic (Europe market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-renault-laguna-iii-2-0-16v-turbo-170-a",
+        "batch19-renault-laguna-iii-2-0-16v-turbo-170-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Laguna III 2.0 16V Turbo 170 Automatic (Europe market, 2008 specification)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-renault-laguna-iii-2-0-16v-turbo-170-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 125 kW and 270 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2008 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Laguna III 2.0 16V Turbo 170 Automatic (Europe market, 2008 specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Renault Laguna III 2.0 16V Turbo (170 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2008,
+          "url": "https://www.auto-data.net/en/renault-laguna-iii-2.0-16v-turbo-170hp-automatic-10288",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-renault-laguna-iii-2-0-16v-turbo-170-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 125 kW and 270 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2008 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Laguna III 2.0 16V Turbo 170 Automatic (Europe market, 2008 specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Renault Laguna 3 Coupe 2.0T 170 Auto technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2008,
+          "url": "https://www.ultimatespecs.com/car-specs/Renault/137855/Renault-Laguna-3-Coupe-20T-170-Auto.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-citroen-c5-ii-phase-ii-2012-2-0-bluehdi-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 2 L Inline-4 turbocharged 110 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C5 II (Phase II, 2012) 2.0 BlueHDi 150 S&S (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Citroen C5 II (Phase II, 2012) 2.0 BlueHDi 150 S&S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Citroen C5 II (Phase II, 2012) 2.0 BlueHDi 150 S&S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Citroen C5 II (Phase II, 2012) 2.0 BlueHDi 150 S&S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Citroen C5 II (Phase II, 2012) 2.0 BlueHDi 150 S&S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-citroen-c5-ii-phase-ii-2012-2-0-bluehdi-150-a",
+        "batch19-citroen-c5-ii-phase-ii-2012-2-0-bluehdi-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C5 II (Phase II, 2012) 2.0 BlueHDi 150 S&S (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-citroen-c5-ii-phase-ii-2012-2-0-bluehdi-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 370 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C5 II (Phase II, 2012) 2.0 BlueHDi 150 S&S (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Citroen C5 II (Phase II, 2012) 2.0 BlueHDi (150 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/citroen-c5-ii-phase-ii-2012-2.0-bluehdi-150hp-s-s-24001",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-citroen-c5-ii-phase-ii-2012-2-0-bluehdi-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 370 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C5 II (Phase II, 2012) 2.0 BlueHDi 150 S&S (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Citroen C5 II BlueHDi 150 S&S Feel technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Citroen/73489/Citroen-C5-II-BlueHDi-150-S-S-Feel.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
     "id": "toyota-1zz-fe",
     "code": "1ZZ-FE",
     "aliases": [
@@ -212318,6 +229181,1539 @@ window.AUTOHUB_ENGINE_DATA = {
     }
   },
   {
+    "id": "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 1.8 L Inline-4 naturallyAspirated 108 kW / 180 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 108,
+        "max": 108
+      },
+      "torqueNm": {
+        "min": 180,
+        "max": 180
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147-a",
+        "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 108,
+              "max": 108
+            },
+            "performance.torqueNm": {
+              "min": 180,
+              "max": 180
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 108 kW and 180 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Avensis III (facelift 2015) 1.8 Valvematic (147 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2016,
+          "url": "https://www.auto-data.net/en/toyota-avensis-iii-facelift-2015-1.8-valvematic-147hp-21983",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-1-8-valvematic-147-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 108,
+              "max": 108
+            },
+            "performance.torqueNm": {
+              "min": 180,
+              "max": 180
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 108 kW and 180 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 1.8 Valvematic 147 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Avensis 3rd Gen (2015 Restyling) 1.8 Valvematic technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2016,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/105592/Toyota-Avensis-3rd-Gen-(2015-Restyling)-18-Valvematic.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 2 L Inline-4 naturallyAspirated 112 kW / 196 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 196
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152-a",
+        "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 112,
+              "max": 112
+            },
+            "performance.torqueNm": {
+              "min": 196,
+              "max": 196
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 112 kW and 196 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Avensis III (facelift 2015) 2.0 Valvematic (152 Hp) Multidrive S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-avensis-iii-facelift-2015-2.0-valvematic-152hp-multidrive-s-21985",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-valvematic-152-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 112,
+              "max": 112
+            },
+            "performance.torqueNm": {
+              "min": 196,
+              "max": 196
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 112 kW and 196 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 2.0 Valvematic 152 Multidrive S (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Avensis 3rd Gen (2015 Restyling) 2.0 Valvematic HPT Multidrive S technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71789/Toyota-Avensis-3rd-Gen-(2015-Restyling)-20-Valvematic-HPT-Multidrive-S.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 2 L Inline-4 turbocharged 105 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143-a",
+        "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 105,
+              "max": 105
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 105 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Avensis III (facelift 2015) 2.0 D-4D (143 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-avensis-iii-facelift-2015-2.0-d-4d-143hp-21987",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-2-0-d-4d-143-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 105,
+              "max": 105
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 105 kW and 320 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 2.0 D-4D 143 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Avensis 3rd Gen (2015 Restyling) 2.0 D-4D technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71791/Toyota-Avensis-3rd-Gen-(2015-Restyling)-20-D-4D.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 1.6 L Inline-4 turbocharged 82 kW / 270 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 82,
+        "max": 82
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112-a",
+        "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 82,
+              "max": 82
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 82 kW and 270 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Avensis III (facelift 2015) 1.6 D-4D (112 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-avensis-iii-facelift-2015-1.6-d-4d-112hp-21986",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-avensis-iii-facelift-2015-1-6-d-4d-112-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 82,
+              "max": 82
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 82 kW and 270 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Avensis III (facelift 2015) 1.6 D-4D 112 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Avensis 3rd Gen (2015 Restyling) 1.6 D-4D technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71790/Toyota-Avensis-3rd-Gen-(2015-Restyling)-16-D-4D.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-auris-ii-1-8-vvt-i-136",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 1.8 L Inline-4 naturallyAspirated 73 kW / 142 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-auris-ii-1-8-vvt-i-136-a",
+        "batch19-toyota-auris-ii-1-8-vvt-i-136-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-auris-ii-1-8-vvt-i-136-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 73,
+              "max": 73
+            },
+            "performance.torqueNm": {
+              "min": 142,
+              "max": 142
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 73 kW and 142 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Auris II 1.8 VVT-i (136 Hp) Hybrid e-CVT technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-auris-ii-1.8-vvt-i-136hp-hybrid-e-cvt-19315",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-auris-ii-1-8-vvt-i-136-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 73,
+              "max": 73
+            },
+            "performance.torqueNm": {
+              "min": 142,
+              "max": 142
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 73 kW and 142 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Auris II 1.8 VVT-i 136 Hybrid e-CVT (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Auris 2 (2015 Restyling) 1.8 VVT-i Hybrid technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71783/Toyota-Auris-2-(2015-Restyling)-18-VVT-i-Hybrid.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-toyota-auris-ii-1-4-d-4d-90",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Toyota 1.4 L Inline-4 turbocharged 66 kW / 205 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-toyota-auris-ii-1-4-d-4d-90-a",
+        "batch19-toyota-auris-ii-1-4-d-4d-90-b"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-toyota-auris-ii-1-4-d-4d-90-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, directInjection; 66 kW and 205 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Toyota Auris II 1.4 D-4D (90 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/toyota-auris-ii-1.4-d-4d-90hp-automatic-23833",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-toyota-auris-ii-1-4-d-4d-90-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, directInjection; 66 kW and 205 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Toyota Auris II 1.4 D-4D 90 Automatic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Toyota Auris 2 (2015 Restyling) 1.4 D-4D technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Toyota/71780/Toyota-Auris-2-(2015-Restyling)-14-D-4D.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-honda-civic-viii-hatchback-5d-2-2-d-140",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Honda 2.2 L Inline-4 turbocharged 103 kW / 340 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2006",
+    "displacement": "2.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-honda-civic-viii-hatchback-5d-2-2-d-140-a",
+        "batch19-honda-civic-viii-hatchback-5d-2-2-d-140-b"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-honda-civic-viii-hatchback-5d-2-2-d-140-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 103 kW and 340 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Honda Civic VIII Hatchback 5D 2.2 D (140 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2006,
+          "url": "https://www.auto-data.net/en/honda-civic-viii-hatchback-5d-2.2-d-140hp-12220",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-honda-civic-viii-hatchback-5d-2-2-d-140-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 103 kW and 340 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2006 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic VIII Hatchback 5D 2.2 D 140 (Europe market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Honda Civic VIII 2.2 i-CTDi technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2006,
+          "url": "https://www.ultimatespecs.com/car-specs/Honda/852/Honda-Civic-VIII-22-i-CTDi.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
     "id": "hyundai-g4kd",
     "code": "G4KD",
     "aliases": [
@@ -220627,6 +239023,2415 @@ window.AUTOHUB_ENGINE_DATA = {
           },
           "owner": "ProfessCars",
           "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-1-6-crdi-128",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 94 kW / 260 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2012",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 94,
+        "max": 94
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-1-6-crdi-128-a",
+        "batch19-hyundai-i30-ii-1-6-crdi-128-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-1-6-crdi-128-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 94,
+              "max": 94
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 94 kW and 260 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II 1.6 CRDi (128 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-1.6-crdi-128hp-automatic-18543",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-1-6-crdi-128-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 94,
+              "max": 94
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 94 kW and 260 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 1.6 CRDI 128HP Style technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/59146/Hyundai-i30-II-16-CRDI-128HP-Style.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-1-6-crdi-110",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 81 kW / 260 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2012",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-1-6-crdi-110-a",
+        "batch19-hyundai-i30-ii-1-6-crdi-110-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-1-6-crdi-110-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 260 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II 1.6 CRDi (110 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-1.6-crdi-110hp-automatic-18541",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-1-6-crdi-110-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 260 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 1.6 CRDI 110HP City technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/59143/Hyundai-i30-II-16-CRDI-110HP-City.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-1-4-crdi-90",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.4 L Inline-4 turbocharged 66 kW / 220 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2012",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-1-4-crdi-90-a",
+        "batch19-hyundai-i30-ii-1-4-crdi-90-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-1-4-crdi-90-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 66 kW and 220 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II 1.4 CRDi (90 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-1.4-crdi-90hp-18539",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-1-4-crdi-90-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 66 kW and 220 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 1.4 CRDI 90HP City technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/59141/Hyundai-i30-II-14-CRDI-90HP-City.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 naturallyAspirated 99 kW / 164 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 99,
+        "max": 99
+      },
+      "torqueNm": {
+        "min": 164,
+        "max": 164
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 99,
+              "max": 99
+            },
+            "performance.torqueNm": {
+              "min": 164,
+              "max": 164
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 99 kW and 164 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 GDI (135 Hp) DCT blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-gdi-135hp-dct-blue-25734",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 99,
+              "max": 99
+            },
+            "performance.torqueNm": {
+              "min": 164,
+              "max": 164
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 99 kW and 164 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 GDi 135HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70830/Hyundai-i30-II-2015-16-GDi-135HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 100 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 CRDi (136 Hp) DCT blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-crdi-136hp-dct-blue-23681",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 CRDi 136HP 7DCT technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70837/Hyundai-i30-II-2015-16-CRDi-136HP-7DCT.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 100 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 CRDi (136 Hp) blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-crdi-136hp-blue-23696",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 CRDi 136HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70836/Hyundai-i30-II-2015-16-CRDi-136HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 81 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 CRDi (110 Hp) DCT blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-crdi-110hp-dct-blue-23669",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 CRDi 110HP 7DCT technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70835/Hyundai-i30-II-2015-16-CRDi-110HP-7DCT.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 81 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 CRDi (110 Hp) blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-crdi-110hp-blue-23649",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 CRDi 110HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70834/Hyundai-i30-II-2015-16-CRDi-110HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-120",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 naturallyAspirated 88 kW / 156 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 156,
+        "max": 156
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-120-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-120-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-120-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 156,
+              "max": 156
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 88 kW and 156 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 (120 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-120hp-automatic-23682",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-120-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 156,
+              "max": 156
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 88 kW and 156 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 MPi 120HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70828/Hyundai-i30-II-2015-16-MPi-120HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.4 L Inline-4 turbocharged 66 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 66 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.4 CRDi (90 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.4-crdi-90hp-23658",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 66 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.4 CRDi 90HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70833/Hyundai-i30-II-2015-14-CRDi-90HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-100",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.4 L Inline-4 naturallyAspirated 74 kW / 134 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74
+      },
+      "torqueNm": {
+        "min": 134,
+        "max": 134
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-4-100-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-4-100-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-100-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 134,
+              "max": 134
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 74 kW and 134 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.4 (100 Hp) blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.4-100hp-blue-23717",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-100-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 134,
+              "max": 134
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 74 kW and 134 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.4 MPi 100HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70827/Hyundai-i30-II-2015-14-MPi-100HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
           "contentRelationship": "originalEditorial"
         }
       ]
@@ -256091,6 +276896,1101 @@ window.AUTOHUB_ENGINE_DATA = {
           },
           "owner": "Cars-Data.com",
           "editorialTeam": "Cars-Data.com editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 1.5 L Inline-4 turbocharged 134 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 134,
+        "max": 134
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 134,
+              "max": 134
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 134 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost (182 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-1.5-ecoboost-182hp-s-s-20112",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 134,
+              "max": 134
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 134 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 1.5 EcoBoost 182HP Sport technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70139/Ford-Focus-3-2014-15-EcoBoost-182HP-Sport.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 2 L Inline-4 turbocharged 110 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 370 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 2.0 TDCi (150 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-2.0-tdci-150hp-s-s-20072",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 370 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 2.0 TDCi 150HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70142/Ford-Focus-3-2014-20-TDCi-150HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 1.6 L Inline-4 naturallyAspirated 92 kW / 159 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 92
+      },
+      "torqueNm": {
+        "min": 159,
+        "max": 159
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 92,
+              "max": 92
+            },
+            "performance.torqueNm": {
+              "min": 159,
+              "max": 159
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 92 kW and 159 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT (125 Hp) PowerShift technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-1.6-ti-vct-125hp-powershift-20117",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 92,
+              "max": 92
+            },
+            "performance.torqueNm": {
+              "min": 159,
+              "max": 159
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 92 kW and 159 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 1.6 TI-VCT 125HP PowerShift Trend technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70154/Ford-Focus-3-2014-16-TI-VCT-125HP-PowerShift-Trend.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 1.6 L Inline-4 turbocharged 70 kW / 215 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 70,
+        "max": 70
+      },
+      "torqueNm": {
+        "min": 215,
+        "max": 215
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 215,
+              "max": 215
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 8 valves and 2 total camshafts; diesel, turbocharged, directInjection; 70 kW and 215 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 1.6 TDCi (95 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-1.6-tdci-95hp-s-s-20070",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 215,
+              "max": 215
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 8 valves and 2 total camshafts; diesel, turbocharged, directInjection; 70 kW and 215 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 1.6 TDCi 95HP Trend technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70145/Ford-Focus-3-2014-16-TDCi-95HP-Trend.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 1.5 L Inline-4 turbocharged 110 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost (150 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-1.5-ecoboost-150hp-s-s-20111",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 1.5 EcoBoost 150HP Titanium technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70138/Ford-Focus-3-2014-15-EcoBoost-150HP-Titanium.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
           "contentRelationship": "originalEditorial"
         }
       ]
