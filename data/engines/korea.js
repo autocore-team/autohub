@@ -8318,5 +8318,2414 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.korea = [
         }
       ]
     }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-1-6-crdi-128",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 94 kW / 260 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2012",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 94,
+        "max": 94
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-1-6-crdi-128-a",
+        "batch19-hyundai-i30-ii-1-6-crdi-128-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-1-6-crdi-128-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 94,
+              "max": 94
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 94 kW and 260 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II 1.6 CRDi (128 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-1.6-crdi-128hp-automatic-18543",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-1-6-crdi-128-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 94,
+              "max": 94
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 94 kW and 260 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.6 CRDi 128 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 1.6 CRDI 128HP Style technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/59146/Hyundai-i30-II-16-CRDI-128HP-Style.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-1-6-crdi-110",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 81 kW / 260 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2012",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-1-6-crdi-110-a",
+        "batch19-hyundai-i30-ii-1-6-crdi-110-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-1-6-crdi-110-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 260 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II 1.6 CRDi (110 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-1.6-crdi-110hp-automatic-18541",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-1-6-crdi-110-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 260 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.6 CRDi 110 Automatic (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 1.6 CRDI 110HP City technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/59143/Hyundai-i30-II-16-CRDI-110HP-City.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-1-4-crdi-90",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.4 L Inline-4 turbocharged 66 kW / 220 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2012",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-1-4-crdi-90-a",
+        "batch19-hyundai-i30-ii-1-4-crdi-90-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-1-4-crdi-90-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 66 kW and 220 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II 1.4 CRDi (90 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2012,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-1.4-crdi-90hp-18539",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-1-4-crdi-90-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 66 kW and 220 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II 1.4 CRDi 90 (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 1.4 CRDI 90HP City technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2012,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/59141/Hyundai-i30-II-14-CRDI-90HP-City.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 naturallyAspirated 99 kW / 164 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 99,
+        "max": 99
+      },
+      "torqueNm": {
+        "min": 164,
+        "max": 164
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 99,
+              "max": 99
+            },
+            "performance.torqueNm": {
+              "min": 164,
+              "max": 164
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 99 kW and 164 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 GDI (135 Hp) DCT blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-gdi-135hp-dct-blue-25734",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-gdi-135-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 99,
+              "max": 99
+            },
+            "performance.torqueNm": {
+              "min": 164,
+              "max": 164
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 99 kW and 164 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 GDI 135 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 GDi 135HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70830/Hyundai-i30-II-2015-16-GDi-135HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 100 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 CRDi (136 Hp) DCT blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-crdi-136hp-dct-blue-23681",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 CRDi 136HP 7DCT technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70837/Hyundai-i30-II-2015-16-CRDi-136HP-7DCT.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 100 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 CRDi (136 Hp) blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-crdi-136hp-blue-23696",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-136-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 100 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 136 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 CRDi 136HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70836/Hyundai-i30-II-2015-16-CRDi-136HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 81 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 CRDi (110 Hp) DCT blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-crdi-110hp-dct-blue-23669",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 DCT blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 CRDi 110HP 7DCT technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70835/Hyundai-i30-II-2015-16-CRDi-110HP-7DCT.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 turbocharged 81 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 CRDi (110 Hp) blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-crdi-110hp-blue-23649",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-crdi-110-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 81 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 CRDi 110 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 CRDi 110HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70834/Hyundai-i30-II-2015-16-CRDi-110HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-120",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.6 L Inline-4 naturallyAspirated 88 kW / 156 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 156,
+        "max": 156
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-120-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-6-120-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-120-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 156,
+              "max": 156
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 88 kW and 156 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.6 (120 Hp) Automatic technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.6-120hp-automatic-23682",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-6-120-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 156,
+              "max": 156
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 88 kW and 156 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.6 120 Automatic (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.6 MPi 120HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70828/Hyundai-i30-II-2015-16-MPi-120HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.4 L Inline-4 turbocharged 66 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 66 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.4 CRDi (90 Hp) technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.4-crdi-90hp-23658",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-crdi-90-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 66 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.4 CRDi 90 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.4 CRDi 90HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70833/Hyundai-i30-II-2015-14-CRDi-90HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-100",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.4 L Inline-4 naturallyAspirated 74 kW / 134 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74
+      },
+      "torqueNm": {
+        "min": 134,
+        "max": 134
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-hyundai-i30-ii-facelift-2015-1-4-100-a",
+        "batch19-hyundai-i30-ii-facelift-2015-1-4-100-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-100-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 134,
+              "max": 134
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 74 kW and 134 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Hyundai i30 II (facelift 2015) 1.4 (100 Hp) blue technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2015,
+          "url": "https://www.auto-data.net/en/hyundai-i30-ii-facelift-2015-1.4-100hp-blue-23717",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-hyundai-i30-ii-facelift-2015-1-4-100-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 134,
+              "max": 134
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 74 kW and 134 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 II (facelift 2015) 1.4 100 blue (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Hyundai i30 II 2015 1.4 MPi 100HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Hyundai/70827/Hyundai-i30-II-2015-14-MPi-100HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];

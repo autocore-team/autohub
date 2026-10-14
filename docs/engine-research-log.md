@@ -1767,3 +1767,13 @@ Manufacturer distribution: Alfa Romeo 4, Cadillac 4, Chrysler 4, CUPRA 4, Dodge 
 Source distribution across 200 evidence pages: encyCARpedia 100, Automobile-Catalog sources 46, Auto-Data.net 35, Ultimate Specs 14 and Cars-Data.com 5. All URLs are exact application/variant pages; model indexes, generation overviews, search results and compare pages were rejected.
 
 The resulting canonical dataset contains 1602 records: 1513 verified and 89 legacyPending. Regional totals are Europe 821, Japan 491, Korea 68, North America 222 and South America 0. The first 1502 records retain baseline order and semantic identity. Full semantic SHA-256: `efb5f2d15f722b239f710f1513dd70da8d671a895609aa055727509cb493b803`.
+
+## Engine Throughput Batch 19 — final production audit (2026-10-14)
+
+Batch 19 started from the clean 1602-record baseline at `a05119f`, with semantic SHA-256 `efb5f2d15f722b239f710f1513dd70da8d671a895609aa055727509cb493b803`. Source-first discovery produced 184 exact-variant provisional pairs from Auto-Data.net and Ultimate Specs. The audit rejected 81 rows: 64 normalized batch collisions, ten baseline specification collisions, four repeated primary URLs, one reused baseline URL, two incomplete injection mappings and two source pairs whose fuel/aspiration descriptions disagreed. The remaining 103 qualified records supplied 100 production entries and three audited reserves.
+
+All 100 accepted records use manually reviewed `applicationScopedSpecification` identities, `evidenceBasis: corroborated` and `completeness: core`. Each has two independent Tier B exact-variant pages on separate domains covering application, year, market, displacement, layout, total valves, total camshafts, fuel, aspiration, injection, power and torque. RPM is intentionally omitted. Common-rail evidence is stored as `commonRail` only when both pages support that specificity; otherwise the shared, less specific `directInjection` classification is used. Source wording alone is not allowed to split an otherwise identical diesel specification.
+
+Manufacturer distribution: Alfa Romeo 8, Audi 9, BMW 13, Citroen 1, Ford 5, Honda 1, Hyundai 11, Mercedes-Benz 17, Renault 3, SEAT 3, Škoda 7, Toyota 6, Volkswagen 3 and Volvo 13. Regional additions are Europe 77, Japan 7, Korea 11 and North America 5; all exact applications use Europe market scope. The evidence set contains 200 unique URLs: 100 Auto-Data.net and 100 Ultimate Specs pages.
+
+Existing regional order and the first 1602 records remain unchanged. The resulting dataset contains 1702 records: 1613 verified and 89 legacyPending; Europe 898, Japan 498, Korea 79, North America 227 and South America 0. Full semantic SHA-256: `909d563c0284f73f74baa4f91b17f4e20fb50f59e1f6504a5647988731f9e811`.

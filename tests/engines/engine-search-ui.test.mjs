@@ -187,7 +187,7 @@ function validateSyntheticDesignation(record) {
 const batch12BaselineLimits = { europe: 345, japan: 416, korea: 50, 'north-america': 110, 'south-america': 0 };
 const batch12BaselineRecords = sourceData.regionFiles.flatMap((file) => file.records.slice(0, batch12BaselineLimits[file.region]));
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(batch12BaselineRecords)).digest('hex');
-check(records.length === 1602, `Engine count changed: expected 1602, found ${records.length}`);
+check(records.length === 1702, `Engine count changed: expected 1702, found ${records.length}`);
 check(
   semanticHash === '470d47d40d34f08bbe9b35749541f747f9ec7e9880bc25609ceb1c4c3a8e096c',
   `First 921-record baseline semantic hash changed: ${semanticHash}`
@@ -829,22 +829,22 @@ pass(`Batch 10 preserves the original 765 records and validates 26 reconciled di
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
-    { region: 'europe', engineCount: 821, manufacturerCount: 46 },
-    { region: 'japan', engineCount: 491, manufacturerCount: 21 },
-    { region: 'korea', engineCount: 68, manufacturerCount: 6 },
-    { region: 'north-america', engineCount: 222, manufacturerCount: 30 }
+    { region: 'europe', engineCount: 898, manufacturerCount: 46 },
+    { region: 'japan', engineCount: 498, manufacturerCount: 21 },
+    { region: 'korea', engineCount: 79, manufacturerCount: 7 },
+    { region: 'north-america', engineCount: 227, manufacturerCount: 30 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 1602, 'Regional engineCount sum does not equal 1602');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 1702, 'Regional engineCount sum does not equal 1702');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
   check(renderedSummary.includes(String(summary.engineCount)), `${summary.region} summary is missing its engine count`);
   check(!/·\s*engines\b/.test(renderedSummary), `${summary.region} summary renders “· engines” without a count`);
 }
-pass('region classification and Batch 16R counts are correct');
+pass('region classification and Batch 19 counts are correct');
 
 check(!summaries.some((summary) => summary.region === 'south-america'), 'Empty South America region is visible');
 const futureSouthAmericaRecord = {

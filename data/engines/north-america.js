@@ -35467,5 +35467,1100 @@ window.AUTOHUB_ENGINE_DATA_REGIONS["north-america"] = [
         }
       ]
     }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 1.5 L Inline-4 turbocharged 134 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 134,
+        "max": 134
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 134,
+              "max": 134
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 134 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost (182 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-1.5-ecoboost-182hp-s-s-20112",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-182-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 134,
+              "max": 134
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 134 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 182 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 1.5 EcoBoost 182HP Sport technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70139/Ford-Focus-3-2014-15-EcoBoost-182HP-Sport.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 2 L Inline-4 turbocharged 110 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 370 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 2.0 TDCi (150 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-2.0-tdci-150hp-s-s-20072",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-2-0-tdci-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, directInjection; 110 kW and 370 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 2.0 TDCi 150 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 2.0 TDCi 150HP technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70142/Ford-Focus-3-2014-20-TDCi-150HP.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 1.6 L Inline-4 naturallyAspirated 92 kW / 159 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 92
+      },
+      "torqueNm": {
+        "min": 159,
+        "max": 159
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 92,
+              "max": 92
+            },
+            "performance.torqueNm": {
+              "min": 159,
+              "max": 159
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 92 kW and 159 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT (125 Hp) PowerShift technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-1.6-ti-vct-125hp-powershift-20117",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-ti-vct-125-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 92,
+              "max": 92
+            },
+            "performance.torqueNm": {
+              "min": 159,
+              "max": 159
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 92 kW and 159 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.6 Ti-VCT 125 PowerShift (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 1.6 TI-VCT 125HP PowerShift Trend technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70154/Ford-Focus-3-2014-16-TI-VCT-125HP-PowerShift-Trend.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 1.6 L Inline-4 turbocharged 70 kW / 215 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 70,
+        "max": 70
+      },
+      "torqueNm": {
+        "min": 215,
+        "max": 215
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 215,
+              "max": 215
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 8 valves and 2 total camshafts; diesel, turbocharged, directInjection; 70 kW and 215 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 1.6 TDCi (95 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-1.6-tdci-95hp-s-s-20070",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-6-tdci-95-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 215,
+              "max": 215
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 8 valves and 2 total camshafts; diesel, turbocharged, directInjection; 70 kW and 215 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.6 TDCi 95 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 1.6 TDCi 95HP Trend technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70145/Ford-Focus-3-2014-16-TDCi-95HP-Trend.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 1.5 L Inline-4 turbocharged 110 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150-a",
+        "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150-b"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "title": "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost (150 Hp) S&S technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2014,
+          "url": "https://www.auto-data.net/en/ford-focus-iii-sedan-facelift-2014-1.5-ecoboost-150hp-s-s-20111",
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch19-ford-focus-iii-sedan-facelift-2014-1-5-ecoboost-150-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "page": 1,
+          "checkedAt": "2026-10-14",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2014 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus III Sedan (facelift 2014) 1.5 EcoBoost 150 S&S (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "title": "Ford Focus 3 2014 1.5 EcoBoost 150HP Titanium technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2014,
+          "url": "https://www.ultimatespecs.com/car-specs/Ford/70138/Ford-Focus-3-2014-15-EcoBoost-150HP-Titanium.html",
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];
