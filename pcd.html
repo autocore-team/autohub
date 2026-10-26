@@ -500,6 +500,7 @@
 
   <script src="pcd-data.js"></script>
   <script src="assets/js/pcd-search.js"></script>
+  <script src="assets/js/pcd-security.js"></script>
   <script>
     const translations = {
       en: {
@@ -795,6 +796,7 @@
     const quickFiltersEl = document.getElementById('quickFilters');
     const resultSummaryEl = document.getElementById('resultSummary');
     const searchApi = typeof PCD_SEARCH !== 'undefined' ? PCD_SEARCH : null;
+    const { escapeHtml, safeHttpsUrl } = PCD_SECURITY;
     const popularPcdFilters = ['5x100', '5x108', '5x110', '5x112', '5x114.3', '5x120', '6x139.7'];
 
     function t(key) {
@@ -995,7 +997,7 @@
       results.forEach((brandResult) => {
           const brand = brandResult.brand;
           const button = document.createElement('button');
-          button.innerHTML = `<span class="list-row"><span>${brand.name}</span><span class="count">${brandResult.models.length}</span></span>`;
+          button.innerHTML = `<span class="list-row"><span>${escapeHtml(brand.name)}</span><span class="count">${escapeHtml(brandResult.models.length)}</span></span>`;
           button.className = selectedBrand === brand ? 'selected' : '';
           button.onclick = () => {
             selectedBrand = brand;
@@ -1026,7 +1028,7 @@
       models.forEach((modelResult) => {
         const model = modelResult.model;
         const button = document.createElement('button');
-        button.innerHTML = `<span class="list-row"><span>${model.name}</span><span class="count">${modelResult.records.length}</span></span>`;
+        button.innerHTML = `<span class="list-row"><span>${escapeHtml(model.name)}</span><span class="count">${escapeHtml(modelResult.records.length)}</span></span>`;
         button.className = selectedModel === model ? 'selected' : '';
         button.onclick = () => {
           selectedModel = model;
@@ -1067,30 +1069,37 @@
       const fastenerDetails = record.fastenerDetails
         ? `${record.fastenerDetails.seat}${record.fastenerDetails.lengthMm ? `, ${record.fastenerDetails.lengthMm} mm` : ''}`
         : '';
-      const variants = (record.variants || []).map(variant => `<li><strong>${variant.name}</strong> — ${yearRanges(variant.years)}${variant.notes?.length ? `; ${variant.notes.join(' ')}` : ''}</li>`).join('');
-      const restrictions = (record.restrictions || []).map(item => `<li>${item}</li>`).join('');
+      const variants = (record.variants || []).map(variant => `<li><strong>${escapeHtml(variant.name)}</strong> — ${escapeHtml(yearRanges(variant.years))}${variant.notes?.length ? `; ${escapeHtml(variant.notes.join(' '))}` : ''}</li>`).join('');
+      const restrictions = (record.restrictions || []).map(item => `<li>${escapeHtml(item)}</li>`).join('');
       const fitments = (record.fitments || []).map(item => `<tr>
-        <td>${item.wheel.widthIn}Jx${item.wheel.diameterIn} ET${item.wheel.offsetEt}${item.wheel.position && item.wheel.position !== 'all' ? ` (${item.wheel.position})` : ''}</td>
-        <td>${item.tire?.size || t('noTireClaim')}</td>
-        <td>${fitmentScope(item)}</td>
+        <td>${escapeHtml(item.wheel.widthIn)}Jx${escapeHtml(item.wheel.diameterIn)} ET${escapeHtml(item.wheel.offsetEt)}${item.wheel.position && item.wheel.position !== 'all' ? ` (${escapeHtml(item.wheel.position)})` : ''}</td>
+        <td>${escapeHtml(item.tire?.size || t('noTireClaim'))}</td>
+        <td>${escapeHtml(fitmentScope(item))}</td>
       </tr>`).join('');
-      const sources = (record.sources || []).map(item => `<div class="source-item">
-        <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.publisher}: ${item.title}</a>
-        <small>${item.type} · ${item.pages} · ${t('sourceFields')}: ${item.fields.join(', ')}</small>
-        <small>${t('sourceLimitations')}: ${item.limitations}</small>
-      </div>`).join('');
-      return `<section class="record-details" data-record-id="${record.id}">
-        <h4>${record.generation} <span class="tag ${verified ? 'verified' : ''}">${statusLabel(record.status)}</span></h4>
+      const sources = (record.sources || []).map(item => {
+        const safeUrl = safeHttpsUrl(item.url);
+        const sourceLabel = `${escapeHtml(item.publisher)}: ${escapeHtml(item.title)}`;
+        const sourceTitle = safeUrl
+          ? `<a href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener noreferrer">${sourceLabel}</a>`
+          : `<span>${sourceLabel}</span>`;
+        return `<div class="source-item">
+        ${sourceTitle}
+        <small>${escapeHtml(item.type)} · ${escapeHtml(item.pages)} · ${escapeHtml(t('sourceFields'))}: ${escapeHtml((item.fields || []).join(', '))}</small>
+        <small>${escapeHtml(t('sourceLimitations'))}: ${escapeHtml(item.limitations)}</small>
+      </div>`;
+      }).join('');
+      return `<section class="record-details" data-record-id="${escapeHtml(record.id)}">
+        <h4>${escapeHtml(record.generation)} <span class="tag ${verified ? 'verified' : ''}">${escapeHtml(statusLabel(record.status))}</span></h4>
         <div class="record-meta">
-          <span>${t('torque')}: ${record.torque || '-'}</span>
-          ${fastenerDetails ? `<span>${t('fastener')}: ${fastenerDetails}</span>` : ''}
-          ${record.lastVerifiedAt ? `<span>${t('verifiedOn')}: ${record.lastVerifiedAt}</span>` : ''}
+          <span>${escapeHtml(t('torque'))}: ${escapeHtml(record.torque || '-')}</span>
+          ${fastenerDetails ? `<span>${escapeHtml(t('fastener'))}: ${escapeHtml(fastenerDetails)}</span>` : ''}
+          ${record.lastVerifiedAt ? `<span>${escapeHtml(t('verifiedOn'))}: ${escapeHtml(record.lastVerifiedAt)}</span>` : ''}
         </div>
-        <div class="notice">${verified ? t('verifiedScopeWarning') : t('legacyWarning')}</div>
-        ${variants ? `<h4>${t('variants')}</h4><ul class="compact-list">${variants}</ul>` : ''}
-        ${fitments ? `<h4>${t('combinations')}</h4><div class="table-scroll"><table><thead><tr><th>${t('wheel')}</th><th>${t('tire')}</th><th>${t('scope')}</th></tr></thead><tbody>${fitments}</tbody></table></div>` : ''}
-        ${restrictions ? `<h4>${t('restrictions')}</h4><ul class="compact-list">${restrictions}</ul>` : ''}
-        ${sources ? `<h4>${t('sources')}</h4><div class="source-list">${sources}</div>` : ''}
+        <div class="notice">${escapeHtml(verified ? t('verifiedScopeWarning') : t('legacyWarning'))}</div>
+        ${variants ? `<h4>${escapeHtml(t('variants'))}</h4><ul class="compact-list">${variants}</ul>` : ''}
+        ${fitments ? `<h4>${escapeHtml(t('combinations'))}</h4><div class="table-scroll"><table><thead><tr><th>${escapeHtml(t('wheel'))}</th><th>${escapeHtml(t('tire'))}</th><th>${escapeHtml(t('scope'))}</th></tr></thead><tbody>${fitments}</tbody></table></div>` : ''}
+        ${restrictions ? `<h4>${escapeHtml(t('restrictions'))}</h4><ul class="compact-list">${restrictions}</ul>` : ''}
+        ${sources ? `<h4>${escapeHtml(t('sources'))}</h4><div class="source-list">${sources}</div>` : ''}
       </section>`;
     }
 
@@ -1112,42 +1121,42 @@
       }[noticeState];
       const rows = records.map(record => `
         <tr>
-          <td>${record.generation || ''}</td>
-          <td>${record.years || ''}</td>
-          <td>${record.market || ''}</td>
-          <td><strong>${record.pcd || ''}</strong></td>
-          <td>${record.centerBore || ''} mm</td>
-          <td>${record.thread || ''}</td>
-          <td>${fastenerLabel(record.fastener)}</td>
-          <td>${record.offset || ''}</td>
-          <td><span class="tag ${record.status === 'verified' ? 'verified' : ''}">${statusLabel(record.status)}</span></td>
+          <td>${escapeHtml(record.generation || '')}</td>
+          <td>${escapeHtml(record.years || '')}</td>
+          <td>${escapeHtml(record.market || '')}</td>
+          <td><strong>${escapeHtml(record.pcd || '')}</strong></td>
+          <td>${escapeHtml(record.centerBore || '')} mm</td>
+          <td>${escapeHtml(record.thread || '')}</td>
+          <td>${escapeHtml(fastenerLabel(record.fastener))}</td>
+          <td>${escapeHtml(record.offset || '')}</td>
+          <td><span class="tag ${record.status === 'verified' ? 'verified' : ''}">${escapeHtml(statusLabel(record.status))}</span></td>
         </tr>
       `).join('');
       const specSummary = `
         <div class="spec-grid" aria-label="Key wheel fitment values">
-          <div class="spec-card"><span>PCD</span><strong>${uniqueRecordValues(records, 'pcd')}</strong></div>
-          <div class="spec-card"><span>${t('centerBore')}</span><strong>${uniqueRecordValues(records, 'centerBore', ' mm')}</strong></div>
-          <div class="spec-card"><span>${t('thread')}</span><strong>${uniqueRecordValues(records, 'thread')}</strong></div>
-          <div class="spec-card"><span>ET</span><strong>${uniqueRecordValues(records, 'offset')}</strong></div>
+          <div class="spec-card"><span>PCD</span><strong>${escapeHtml(uniqueRecordValues(records, 'pcd'))}</strong></div>
+          <div class="spec-card"><span>${escapeHtml(t('centerBore'))}</span><strong>${escapeHtml(uniqueRecordValues(records, 'centerBore', ' mm'))}</strong></div>
+          <div class="spec-card"><span>${escapeHtml(t('thread'))}</span><strong>${escapeHtml(uniqueRecordValues(records, 'thread'))}</strong></div>
+          <div class="spec-card"><span>ET</span><strong>${escapeHtml(uniqueRecordValues(records, 'offset'))}</strong></div>
         </div>
       `;
       detailsEl.innerHTML = `
-        <h3 class="details-title">${modelTitle()}</h3>
+        <h3 class="details-title">${escapeHtml(modelTitle())}</h3>
         ${specSummary}
-        <div class="notice" data-verification-notice="${noticeState}">${t(noticeKey)}</div>
+        <div class="notice" data-verification-notice="${noticeState}">${escapeHtml(t(noticeKey))}</div>
         <div class="table-scroll">
           <table>
             <thead>
               <tr>
-                <th>${t('generation')}</th>
-                <th>${t('years')}</th>
-                <th>${t('market')}</th>
+                <th>${escapeHtml(t('generation'))}</th>
+                <th>${escapeHtml(t('years'))}</th>
+                <th>${escapeHtml(t('market'))}</th>
                 <th>PCD</th>
-                <th>${t('centerBore')}</th>
-                <th>${t('thread')}</th>
-                <th>${t('fastener')}</th>
+                <th>${escapeHtml(t('centerBore'))}</th>
+                <th>${escapeHtml(t('thread'))}</th>
+                <th>${escapeHtml(t('fastener'))}</th>
                 <th>ET</th>
-                <th>${t('status')}</th>
+                <th>${escapeHtml(t('status'))}</th>
               </tr>
             </thead>
             <tbody>${rows}</tbody>
@@ -1155,8 +1164,8 @@
         </div>
         ${records.map(renderRecordDetails).join('')}
         <div class="guide">
-          <strong>${t('guideTitle')}</strong>
-          ${t('guideText')}
+          <strong>${escapeHtml(t('guideTitle'))}</strong>
+          ${escapeHtml(t('guideText'))}
         </div>
       `;
     }
@@ -1209,6 +1218,3 @@
 </footer>
 </body>
 </html>
-
-
-
