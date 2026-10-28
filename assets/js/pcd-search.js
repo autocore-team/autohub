@@ -178,6 +178,47 @@
     };
   }
 
+  function makers(data) {
+    const seen = new Set();
+    return data
+      .filter((brand) => brand?.slug && brand?.name && !seen.has(brand.slug) && seen.add(brand.slug))
+      .slice()
+      .sort((left, right) => left.name.localeCompare(right.name));
+  }
+
+  function modelsForMake(data, makerSlug) {
+    const brand = data.find((item) => item.slug === makerSlug);
+    if (!brand) return [];
+    const seen = new Set();
+    return brand.models
+      .filter((model) => model?.slug && model?.name && !seen.has(model.slug) && seen.add(model.slug))
+      .slice()
+      .sort((left, right) => left.name.localeCompare(right.name));
+  }
+
+  function selectMake(data, currentModel, makerSlug) {
+    const selectedBrand = data.find((brand) => brand.slug === makerSlug) || null;
+    const selectedModel = selectedBrand && currentModel && selectedBrand.models.includes(currentModel)
+      ? currentModel
+      : null;
+    return { selectedBrand, selectedModel };
+  }
+
+  function urlForState(pathname, search, state) {
+    const params = new URLSearchParams(search);
+    const query = String(state.query || '').trim();
+    if (query) params.set('search', query);
+    else params.delete('search');
+    if (state.language && state.language !== 'en') params.set('lang', state.language);
+    else params.delete('lang');
+    if (state.selectedBrand?.slug) params.set('make', state.selectedBrand.slug);
+    else params.delete('make');
+    if (state.selectedBrand?.slug && state.selectedModel?.slug) params.set('model', state.selectedModel.slug);
+    else params.delete('model');
+    const queryString = params.toString();
+    return queryString ? `${pathname}?${queryString}` : pathname;
+  }
+
   return {
     normalizeSearchText,
     scoreRecord,
@@ -185,6 +226,10 @@
     uniqueSelection,
     verificationNoticeState,
     resolveSelection,
-    resolveUrlState
+    resolveUrlState,
+    makers,
+    modelsForMake,
+    selectMake,
+    urlForState
   };
 });
