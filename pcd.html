@@ -113,7 +113,8 @@
       font-size: 13px;
       font-weight: 700;
     }
-    input {
+    input,
+    select {
       width: 100%;
       min-height: 42px;
       border: 1px solid var(--line);
@@ -121,6 +122,14 @@
       padding: 0 12px;
       font-size: 15px;
       background: #fff;
+    }
+    input:focus-visible,
+    select:focus-visible,
+    button:focus-visible,
+    summary:focus-visible,
+    a:focus-visible {
+      outline: 3px solid #5eead4;
+      outline-offset: 2px;
     }
     .copy-link {
       min-height: 42px;
@@ -138,11 +147,88 @@
       background: var(--accent-dark);
       color: #fff;
     }
-    .layout {
+    .vehicle-selector {
+      margin: 14px 0 12px;
+      padding: 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .selector-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+    .selector-header h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .selector-grid {
       display: grid;
-      grid-template-columns: 210px 290px 1fr;
-      gap: 16px;
-      align-items: start;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: end;
+    }
+    .selector-field {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+    }
+    .selector-field label {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .selector-field input,
+    .selector-field select {
+      min-height: 46px;
+      font-size: 16px;
+    }
+    .selector-field select:disabled {
+      color: #64748b;
+      background: #f1f5f9;
+      cursor: not-allowed;
+    }
+    .reset-selector {
+      min-height: 46px;
+      border: 1px solid #99d5cf;
+      background: #e6f6f4;
+      color: var(--accent-dark);
+      font-weight: 700;
+      padding: 0 16px;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .reset-selector:hover {
+      background: #ccfbf1;
+    }
+    .results-panel {
+      margin: 0 0 14px;
+    }
+    .browse-makes {
+      margin: 0 0 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .browse-makes summary {
+      min-height: 46px;
+      padding: 13px 16px;
+      cursor: pointer;
+      color: var(--text);
+      font-weight: 700;
+    }
+    .browse-makes[open] summary {
+      border-bottom: 1px solid var(--line);
+    }
+    .browse-makes .list {
+      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+      padding: 12px;
+    }
+    .browse-makes .list button {
+      min-height: 44px;
     }
     .panel {
       background: var(--panel);
@@ -404,9 +490,6 @@
     .source-item a { color:var(--accent-dark);font-weight:700 }
     .source-item small { display:block;color:var(--muted);margin-top:4px }
     @media (max-width: 900px) {
-      .layout {
-        grid-template-columns: 1fr;
-      }
       .spec-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
@@ -415,6 +498,16 @@
       }
     }
     @media (max-width: 520px) {
+      .selector-header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .selector-grid {
+        grid-template-columns: 1fr;
+      }
+      .reset-selector {
+        width: 100%;
+      }
       .spec-grid {
         grid-template-columns: 1fr;
       }
@@ -464,7 +557,38 @@
       <button type="button" class="copy-link" id="copyLink" data-i18n="copyLink">Copy link</button>
     </div>
     <div class="quick-filters" id="quickFilters" aria-label="Popular PCD filters"></div>
+
+    <section class="vehicle-selector" aria-labelledby="vehicleSelectorTitle">
+      <div class="selector-header">
+        <h2 id="vehicleSelectorTitle" data-i18n="vehicleSelector">Vehicle selector</h2>
+        <button type="button" class="reset-selector" id="resetSelector" data-i18n="resetSelector">Clear / Reset</button>
+      </div>
+      <div class="selector-grid">
+        <div class="selector-field">
+          <label for="makeSelect" data-i18n="makeLabel">Make</label>
+          <input id="makeSelect" type="search" list="makeOptions" role="combobox" aria-autocomplete="list" aria-controls="makeOptions" autocomplete="off" placeholder="Type or choose a make">
+          <datalist id="makeOptions"></datalist>
+        </div>
+        <div class="selector-field">
+          <label for="modelSelect" data-i18n="modelLabel">Model</label>
+          <select id="modelSelect" disabled>
+            <option value="" data-i18n="chooseMakeFirst">Choose a make first</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
     <div class="summary" id="resultSummary"></div>
+
+    <section class="panel results-panel" aria-labelledby="sizesTitle">
+      <h2 id="sizesTitle" data-i18n="sizes">Sizes</h2>
+      <div id="details" aria-live="polite" aria-atomic="false"></div>
+    </section>
+
+    <details class="browse-makes" id="browseMakes">
+      <summary data-i18n="browseMakes">Browse all makes</summary>
+      <div class="list" id="brands"></div>
+    </details>
 
     <section class="static-links" aria-label="Popular wheel fitment pages">
       <h2 data-i18n="popularSearches">Popular wheel fitment searches</h2>
@@ -475,23 +599,6 @@
         <a href="pcd/vw/golf-5.html" data-i18n="popularVwGolf" data-no-lang>VW Golf center bore</a>
         <a href="pcd/bolt-pattern/5x108.html" data-i18n="popular5x108" data-no-lang>5x108 bolt pattern cars</a>
         <a href="pcd/bolt-pattern/5x110.html" data-i18n="popular5x110" data-no-lang>5x110 bolt pattern cars</a>
-      </div>
-    </section>
-
-    <section class="layout">
-      <div class="panel">
-        <h2 data-i18n="makes">Makes</h2>
-        <div class="list" id="brands"></div>
-      </div>
-
-      <div class="panel">
-        <h2 data-i18n="models">Models</h2>
-        <div class="list" id="models"></div>
-      </div>
-
-      <div class="panel">
-        <h2 data-i18n="sizes">Sizes</h2>
-        <div id="details"></div>
       </div>
     </section>
 
@@ -520,6 +627,13 @@
         makes: 'Makes',
         models: 'Models',
         sizes: 'Sizes',
+        vehicleSelector: 'Vehicle selector',
+        makeLabel: 'Make',
+        makePlaceholder: 'Type or choose a make',
+        modelLabel: 'Model',
+        chooseMakeFirst: 'Choose a make first',
+        resetSelector: 'Clear / Reset',
+        browseMakes: 'Browse all makes',
         searchLabel: 'Search by vehicle or wheel specification',
         search: 'Search: Audi A4, Golf, 5x112, 57.1',
         copyLink: 'Copy link',
@@ -589,6 +703,13 @@
         makes: 'Marcas',
         models: 'Modelos',
         sizes: 'Medidas',
+        vehicleSelector: 'Selector de vehículo',
+        makeLabel: 'Marca',
+        makePlaceholder: 'Escribe o elige una marca',
+        modelLabel: 'Modelo',
+        chooseMakeFirst: 'Elige primero una marca',
+        resetSelector: 'Borrar / Restablecer',
+        browseMakes: 'Ver todas las marcas',
         searchLabel: 'Buscar por vehículo o especificación de rueda',
         search: 'Buscar: Audi A4, Golf, 5x112, 57.1',
         copyLink: 'Copiar enlace',
@@ -658,6 +779,13 @@
         makes: 'Marques',
         models: 'Modèles',
         sizes: 'Dimensions',
+        vehicleSelector: 'Sélecteur de véhicule',
+        makeLabel: 'Marque',
+        makePlaceholder: 'Saisissez ou choisissez une marque',
+        modelLabel: 'Modèle',
+        chooseMakeFirst: "Choisissez d’abord une marque",
+        resetSelector: 'Effacer / Réinitialiser',
+        browseMakes: 'Parcourir toutes les marques',
         searchLabel: 'Rechercher par véhicule ou caractéristique de roue',
         search: 'Recherche: Audi A4, Golf, 5x112, 57.1',
         copyLink: 'Copier le lien',
@@ -727,6 +855,13 @@
         makes: 'Marken',
         models: 'Modelle',
         sizes: 'Größen',
+        vehicleSelector: 'Fahrzeugauswahl',
+        makeLabel: 'Marke',
+        makePlaceholder: 'Marke eingeben oder auswählen',
+        modelLabel: 'Modell',
+        chooseMakeFirst: 'Zuerst eine Marke wählen',
+        resetSelector: 'Löschen / Zurücksetzen',
+        browseMakes: 'Alle Marken durchsuchen',
         searchLabel: 'Nach Fahrzeug oder Radspezifikation suchen',
         search: 'Suche: Audi A4, Golf, 5x112, 57.1',
         copyLink: 'Link kopieren',
@@ -789,15 +924,19 @@
     let activeQuickFilter = '';
 
     const brandsEl = document.getElementById('brands');
-    const modelsEl = document.getElementById('models');
     const detailsEl = document.getElementById('details');
     const searchEl = document.getElementById('search');
+    const makeSelectEl = document.getElementById('makeSelect');
+    const makeOptionsEl = document.getElementById('makeOptions');
+    const modelSelectEl = document.getElementById('modelSelect');
+    const resetSelectorEl = document.getElementById('resetSelector');
     const copyLinkEl = document.getElementById('copyLink');
     const quickFiltersEl = document.getElementById('quickFilters');
     const resultSummaryEl = document.getElementById('resultSummary');
     const searchApi = typeof PCD_SEARCH !== 'undefined' ? PCD_SEARCH : null;
     const { escapeHtml, safeHttpsUrl } = PCD_SECURITY;
     const popularPcdFilters = ['5x100', '5x108', '5x110', '5x112', '5x114.3', '5x120', '6x139.7'];
+    const availableMakes = searchApi ? searchApi.makers(data) : data;
 
     function t(key) {
       return translations[lang][key] || translations.en[key] || key;
@@ -854,32 +993,19 @@
       }
     }
 
-    function updateUrlState() {
-      const params = new URLSearchParams(window.location.search);
-      const query = searchEl.value.trim();
-      if (query) {
-        params.set('search', query);
-      } else {
-        params.delete('search');
-      }
-      if (lang && lang !== 'en') {
-        params.set('lang', lang);
-      } else {
-        params.delete('lang');
-      }
-      if (selectedBrand) {
-        params.set('make', selectedBrand.slug);
-      } else {
-        params.delete('make');
-      }
-      if (selectedBrand && selectedModel) {
-        params.set('model', selectedModel.slug);
-      } else {
-        params.delete('model');
-      }
-      const queryString = params.toString();
-      const nextUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
-      window.history.replaceState(null, '', nextUrl);
+    function updateUrlState(mode = 'replace') {
+      const nextUrl = searchApi
+        ? searchApi.urlForState(window.location.pathname, window.location.search, {
+          query: searchEl.value,
+          language: lang,
+          selectedBrand,
+          selectedModel
+        })
+        : window.location.pathname;
+      const currentUrl = `${window.location.pathname}${window.location.search}`;
+      if (nextUrl === currentUrl) return;
+      if (mode === 'push') window.history.pushState({ pcdSelector: true }, '', nextUrl);
+      else window.history.replaceState({ pcdSelector: true }, '', nextUrl);
     }
 
     function initFromUrl() {
@@ -945,6 +1071,65 @@
       }
     }
 
+    function makeFromInput(value) {
+      const normalized = searchApi ? searchApi.normalizeSearchText(value) : value.trim().toLowerCase();
+      return availableMakes.find((brand) => {
+        const name = searchApi ? searchApi.normalizeSearchText(brand.name) : brand.name.toLowerCase();
+        const slug = searchApi ? searchApi.normalizeSearchText(brand.slug) : brand.slug.toLowerCase();
+        return normalized === name || normalized === slug;
+      }) || null;
+    }
+
+    function renderMakeOptions() {
+      makeOptionsEl.innerHTML = availableMakes.map((brand) => `<option value="${escapeHtml(brand.name)}"></option>`).join('');
+    }
+
+    function renderModelSelect() {
+      const models = selectedBrand && searchApi ? searchApi.modelsForMake(data, selectedBrand.slug) : [];
+      modelSelectEl.disabled = !selectedBrand;
+      const prompt = selectedBrand ? t('chooseModel') : t('chooseMakeFirst');
+      modelSelectEl.innerHTML = `<option value="">${escapeHtml(prompt)}</option>${models.map((model) => `
+        <option value="${escapeHtml(model.slug)}"${selectedModel === model ? ' selected' : ''}>${escapeHtml(model.name)}</option>
+      `).join('')}`;
+      if (!selectedModel) modelSelectEl.value = '';
+    }
+
+    function syncSelectorControls() {
+      makeSelectEl.value = selectedBrand?.name || '';
+      renderMakeOptions();
+      renderModelSelect();
+    }
+
+    function chooseMake(brand, historyMode = 'push') {
+      const changed = selectedBrand !== brand;
+      selectedBrand = brand;
+      if (changed) selectedModel = null;
+      syncSelectorControls();
+      updateUrlState(historyMode);
+      renderBrands();
+      renderDetails();
+    }
+
+    function chooseModel(model, historyMode = 'push') {
+      selectedModel = model;
+      renderModelSelect();
+      updateUrlState(historyMode);
+      renderDetails();
+    }
+
+    function clearSelector(historyMode = 'push') {
+      selectedBrand = null;
+      selectedModel = null;
+      activeQuickFilter = '';
+      searchEl.value = '';
+      syncSelectorControls();
+      updateUrlState(historyMode);
+      renderQuickFilters();
+      renderSummary();
+      renderBrands();
+      renderDetails();
+    }
+
     function renderQuickFilters() {
       quickFiltersEl.innerHTML = popularPcdFilters.map((pcd) => `
         <button type="button" class="${activeQuickFilter === pcd ? 'selected' : ''}" data-pcd="${pcd}" aria-pressed="${activeQuickFilter === pcd}">${pcd}</button>
@@ -956,11 +1141,11 @@
           searchEl.value = activeQuickFilter;
           syncSelectionWithQuery();
           selectUniqueSearchResult();
-          updateUrlState();
+          updateUrlState('push');
           renderQuickFilters();
           renderSummary();
-          renderBrands(searchEl.value);
-          renderModels();
+          renderBrands();
+          syncSelectorControls();
           renderDetails();
         });
       });
@@ -977,67 +1162,38 @@
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
       resetCopyButton();
+      makeSelectEl.placeholder = t('makePlaceholder');
+      syncSelectorControls();
       renderQuickFilters();
       renderSummary();
-      renderModels();
       renderDetails();
     }
 
     function renderBrands(filter = '') {
       brandsEl.innerHTML = '';
-      const results = searchResults(filter);
+      const normalized = searchApi ? searchApi.normalizeSearchText(filter) : filter.trim().toLowerCase();
+      const results = availableMakes.filter((brand) => {
+        if (!normalized) return true;
+        const label = searchApi ? searchApi.normalizeSearchText(`${brand.name} ${brand.slug}`) : `${brand.name} ${brand.slug}`.toLowerCase();
+        return label.includes(normalized);
+      });
 
       if (!results.length) {
         brandsEl.innerHTML = `<div class="empty">${t('noMakes')}</div>`;
-        modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
-        detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
         return;
       }
 
-      results.forEach((brandResult) => {
-          const brand = brandResult.brand;
+      results.forEach((brand) => {
           const button = document.createElement('button');
-          button.innerHTML = `<span class="list-row"><span>${escapeHtml(brand.name)}</span><span class="count">${escapeHtml(brandResult.models.length)}</span></span>`;
+          button.type = 'button';
+          button.innerHTML = `<span class="list-row"><span>${escapeHtml(brand.name)}</span><span class="count">${escapeHtml(brand.models.length)}</span></span>`;
           button.className = selectedBrand === brand ? 'selected' : '';
+          button.setAttribute('aria-pressed', String(selectedBrand === brand));
           button.onclick = () => {
-            selectedBrand = brand;
-            selectedModel = null;
-            updateUrlState();
-            renderBrands(searchEl.value);
-            renderModels();
-            renderDetails();
+            chooseMake(brand);
           };
           brandsEl.appendChild(button);
         });
-    }
-
-    function renderModels() {
-      modelsEl.innerHTML = '';
-      if (!selectedBrand) {
-        modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
-        return;
-      }
-      const brandResult = matchingBrand(selectedBrand);
-      const models = brandResult?.models || [];
-
-      if (!models.length) {
-        modelsEl.innerHTML = `<div class="empty">${t('noModels')}</div>`;
-        return;
-      }
-
-      models.forEach((modelResult) => {
-        const model = modelResult.model;
-        const button = document.createElement('button');
-        button.innerHTML = `<span class="list-row"><span>${escapeHtml(model.name)}</span><span class="count">${escapeHtml(modelResult.records.length)}</span></span>`;
-        button.className = selectedModel === model ? 'selected' : '';
-        button.onclick = () => {
-          selectedModel = model;
-          updateUrlState();
-          renderModels();
-          renderDetails();
-        };
-        modelsEl.appendChild(button);
-      });
     }
 
     function uniqueRecordValues(records, key, suffix = '') {
@@ -1173,12 +1329,43 @@
     document.querySelectorAll('[data-lang]').forEach((button) => {
       button.addEventListener('click', () => {
         lang = button.dataset.lang;
-        updateUrlState();
+        updateUrlState('push');
         translatePage();
       });
     });
 
     copyLinkEl.addEventListener('click', copyCurrentLink);
+    resetSelectorEl.addEventListener('click', () => clearSelector());
+
+    makeSelectEl.addEventListener('input', () => {
+      renderBrands(makeSelectEl.value);
+    });
+
+    function commitMakeInput() {
+      const brand = makeFromInput(makeSelectEl.value);
+      if (brand) {
+        chooseMake(brand);
+        return;
+      }
+      selectedBrand = null;
+      selectedModel = null;
+      renderModelSelect();
+      updateUrlState('push');
+      renderDetails();
+    }
+
+    makeSelectEl.addEventListener('change', commitMakeInput);
+    makeSelectEl.addEventListener('keydown', (event) => {
+      if (event.key !== 'Enter') return;
+      event.preventDefault();
+      commitMakeInput();
+    });
+
+    modelSelectEl.addEventListener('change', () => {
+      const model = searchApi?.modelsForMake(data, selectedBrand?.slug)
+        .find((item) => item.slug === modelSelectEl.value) || null;
+      chooseModel(model);
+    });
 
     searchEl.addEventListener('input', () => {
       const normalizedSearch = searchApi ? searchApi.normalizeSearchText(searchEl.value) : searchEl.value.trim();
@@ -1186,14 +1373,22 @@
       syncSelectionWithQuery();
       selectUniqueSearchResult();
       updateUrlState();
+      syncSelectorControls();
       renderQuickFilters();
       renderSummary();
-      renderBrands(searchEl.value);
-      renderModels();
+      renderBrands();
       renderDetails();
     });
+
+    window.addEventListener('popstate', () => {
+      initFromUrl();
+      translatePage();
+      renderBrands();
+    });
+
     initFromUrl();
-    renderBrands(searchEl.value);
+    syncSelectorControls();
+    renderBrands();
     renderQuickFilters();
     renderSummary();
     translatePage();
