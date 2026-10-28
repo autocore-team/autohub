@@ -792,6 +792,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-audi-rs4-b7-2008-5x112',
+            generation: 'B7',
+            aliases: [
+              'Audi RS4 2008',
+              'B7',
+              '5x112'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET24',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-91',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi RS4 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/rs4/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi RS4 B7, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-91',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS4 RS4 QB6 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS4/RS4%20QB6%20%282006%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -1668,6 +1737,144 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-audi-s4-b7-2008-5x112',
+            generation: 'B7',
+            aliases: [
+              'Audi S4 2008',
+              'B7',
+              '5x112'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-92',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S4 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/s4/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi S4 B7, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-92',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S4 S4 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S4/S4%20%282003%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-audi-s4-c4-1994-5x112',
+            generation: 'C4',
+            aliases: [
+              'Audi S4 1994',
+              'C4',
+              '5x112'
+            ],
+            years: '1994-1994',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-237',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S4 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/s4/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi S4 C4, 1994, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-237',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S4 S4 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S4/S4%20%281991%20-%201994%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-1994',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -2406,6 +2613,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-audi-tt-rs-8j-2011-5x112',
+            generation: '8J',
+            aliases: [
+              'Audi TT RS 2011',
+              '8J',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-1',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi TT RS 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/tt-rs/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi TT RS 8J, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-1',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi TT RS TT RS wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/TT%20RS/TT%20RS%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -2479,6 +2755,444 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cabriolet',
+        slug: 'cabriolet',
+        records: [
+          {
+            id: 'pcd-b3-audi-cabriolet-b4-2000-4x108',
+            generation: 'B4',
+            aliases: [
+              'Audi Cabriolet 2000',
+              'B4',
+              '4x108'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-203',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi Cabriolet 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/cabriolet/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi Cabriolet B4, 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-203',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi Cabriolet Cabriolet wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/Cabriolet/Cabriolet%20%281991%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '80',
+        slug: '80',
+        records: [
+          {
+            id: 'pcd-b3-audi-80-b4-1996-4x108',
+            generation: 'B4',
+            aliases: [
+              'Audi 80 1996',
+              'B4',
+              '4x108'
+            ],
+            years: '1996-1996',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-233',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi 80 1996 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/80/1996/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi 80 B4, 1996, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-233',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi 80 80 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/80/80%20%281986%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1986-1996',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-audi-80-b2-facelift-1986-4x100',
+            generation: 'B2 Facelift',
+            aliases: [
+              'Audi 80 1986',
+              'B2 Facelift',
+              '4x100'
+            ],
+            years: '1986-1986',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-258',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi 80 1986 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/80/1986/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi 80 B2 Facelift, 1986, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-258',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi 80 80 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/80/80%20%281978%20-%201986%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1978-1986',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Coupe',
+        slug: 'coupe',
+        records: [
+          {
+            id: 'pcd-b3-audi-coupe-b3-1996-4x108',
+            generation: 'B3',
+            aliases: [
+              'Audi Coupe 1996',
+              'B3',
+              '4x108'
+            ],
+            years: '1996-1996',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-234',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi Coupe 1996 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/coupe/1996/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi Coupe B3, 1996, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-234',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi Coupe Coupe wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/Coupe/Coupe%20%281989%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-1996',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-audi-coupe-b2-facelift-1987-4x108',
+            generation: 'B2 Facelift',
+            aliases: [
+              'Audi Coupe 1987',
+              'B2 Facelift',
+              '4x108'
+            ],
+            years: '1987-1987',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-255',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi Coupe 1987 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/coupe/1987/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi Coupe B2 Facelift, 1987, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-255',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi Coupe Coupe wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/Coupe/Coupe%20%281980%20-%201988%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1980-1988',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '100',
+        slug: '100',
+        records: [
+          {
+            id: 'pcd-b3-audi-100-c4-1994-5x112',
+            generation: 'C4',
+            aliases: [
+              'Audi 100 1994',
+              'C4',
+              '5x112'
+            ],
+            years: '1994-1994',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-236',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi 100 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/100/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Audi 100 C4, 1994, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-236',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi 100 100 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/100/100%20%281990%20-%201994%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-1994',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -3478,6 +4192,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Felicia',
+        slug: 'felicia',
+        records: [
+          {
+            id: 'pcd-b3-skoda-felicia-type-791-2001-4x100',
+            generation: 'Type 791',
+            aliases: [
+              'Skoda Felicia 2001',
+              'Type 791',
+              '4x100'
+            ],
+            years: '2001-2001',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-200',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Skoda Felicia 2001 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/skoda/felicia/2001/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Skoda Felicia Type 791, 2001, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-200',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Felicia Felicia wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Felicia/Felicia%20%281994%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -4489,6 +5278,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Alhambra',
+        slug: 'alhambra',
+        records: [
+          {
+            id: 'pcd-b3-seat-alhambra-mk1-7m-2006-5x112',
+            generation: 'Mk1 (7M)',
+            aliases: [
+              'Seat Alhambra 2006',
+              'Mk1 (7M)',
+              '5x112'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '170 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-131',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Seat Alhambra 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/seat/alhambra/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Seat Alhambra Mk1 (7M), 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-131',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Alhambra Alhambra wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Alhambra/Alhambra%20%282001%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Marbella',
+        slug: 'marbella',
+        records: [
+          {
+            id: 'pcd-b3-seat-marbella-141a-1998-4x98',
+            generation: '141A',
+            aliases: [
+              'Seat Marbella 1998',
+              '141A',
+              '4x98'
+            ],
+            years: '1998-1998',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-227',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Seat Marbella 1998 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/seat/marbella/1998/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Seat Marbella 141A, 1998, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-227',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Marbella Marbella wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Marbella/Marbella%20%281987%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1987-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -5708,6 +6647,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b3-volkswagen-polo-mk2-86c-facelift-1994-4x100',
+            generation: 'Mk2 (86C) Facelift',
+            aliases: [
+              'Volkswagen Polo 1994',
+              'Mk2 (86C) Facelift',
+              '4x100'
+            ],
+            years: '1994-1994',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-241',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Polo 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/polo/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Polo Mk2 (86C) Facelift, 1994, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-241',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Polo Polo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Polo/Polo%20%281981%20-%201994%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1981-1994',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -5928,6 +6936,144 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-volkswagen-caddy-iii-facelift-typ-2k-2011-5x112',
+            generation: 'III Facelift (Typ 2K)',
+            aliases: [
+              'Volkswagen Caddy 2011',
+              'III Facelift (Typ 2K)',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-52',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Caddy 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/caddy/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Caddy III Facelift (Typ 2K), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-52',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Caddy Caddy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Caddy/Caddy%20%282003%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2020',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-volkswagen-caddy-ii-typ-9k-9u-2003-4x100',
+            generation: 'II (Typ 9K/9U)',
+            aliases: [
+              'Volkswagen Caddy 2003',
+              'II (Typ 9K/9U)',
+              '4x100'
+            ],
+            years: '2003-2003',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-181',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Caddy 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/caddy/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Caddy II (Typ 9K/9U), 2003, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-181',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Caddy Caddy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Caddy/Caddy%20%281996%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -6741,6 +7887,882 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-volkswagen-phaeton-2002-2010-2010-5x112',
+            generation: '2002 .. 2010',
+            aliases: [
+              'Volkswagen Phaeton 2010',
+              '2002 .. 2010',
+              '5x112'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-79',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Phaeton 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/phaeton/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Phaeton 2002 .. 2010, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-79',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Phaeton Phaeton wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Phaeton/Phaeton%20%282002%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Jetta',
+        slug: 'jetta',
+        records: [
+          {
+            id: 'pcd-b3-volkswagen-jetta-a6-2011-5x112',
+            generation: 'A6',
+            aliases: [
+              'Volkswagen Jetta 2011',
+              'A6',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-53',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Jetta 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/jetta/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Jetta A6, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-53',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Jetta Jetta wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Jetta/Jetta%20%282005%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-volkswagen-jetta-a1-1984-4x100',
+            generation: 'A1',
+            aliases: [
+              'Volkswagen Jetta 1984',
+              'A1',
+              '4x100'
+            ],
+            years: '1984-1984',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-260',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Jetta 1984 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/jetta/1984/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Jetta A1, 1984, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-260',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Jetta Jetta wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Jetta/Jetta%20%281979%20-%201984%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1979-1984',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-volkswagen-jetta-a4-2005-5x100',
+            generation: 'A4',
+            aliases: [
+              'Volkswagen Jetta 2005',
+              'A4',
+              '5x100'
+            ],
+            years: '2005-2005',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-345',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Jetta 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/jetta/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Jetta A4, 2005, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-345',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Jetta Jetta wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Jetta/Jetta%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-volkswagen-jetta-a2-1992-4x100',
+            generation: 'A2',
+            aliases: [
+              'Volkswagen Jetta 1992',
+              'A2',
+              '4x100'
+            ],
+            years: '1992-1992',
+            market: 'US',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-362',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Jetta 1992 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/jetta/1992/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Jetta A2, 1992, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-362',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Jetta Jetta wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Jetta/Jetta%20%281985%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1985-1992',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Fox',
+        slug: 'fox',
+        records: [
+          {
+            id: 'pcd-b3-volkswagen-fox-ii-2010-5x100',
+            generation: 'II',
+            aliases: [
+              'Volkswagen Fox 2010',
+              'II',
+              '5x100'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-78',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Fox 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/fox/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Fox II, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-78',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Fox Fox wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Fox/Fox%20%282005%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Bora',
+        slug: 'bora',
+        records: [
+          {
+            id: 'pcd-b3-volkswagen-bora-a4-1j-2005-5x100',
+            generation: 'A4 (1J)',
+            aliases: [
+              'Volkswagen Bora 2005',
+              'A4 (1J)',
+              '5x100'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-154',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Bora 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/bora/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Bora A4 (1J), 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-154',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Bora Bora wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Bora/Bora%20%281998%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lupo',
+        slug: 'lupo',
+        records: [
+          {
+            id: 'pcd-b3-volkswagen-lupo-1998-2005-2005-4x100',
+            generation: '1998 .. 2005',
+            aliases: [
+              'Volkswagen Lupo 2005',
+              '1998 .. 2005',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-155',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Lupo 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/lupo/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Lupo 1998 .. 2005, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-155',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Lupo Lupo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Lupo/Lupo%20%281998%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sharan',
+        slug: 'sharan',
+        records: [
+          {
+            id: 'pcd-b3-volkswagen-sharan-mk1-7m-facelift-2001-5x112',
+            generation: 'Mk1 (7M) Facelift',
+            aliases: [
+              'Volkswagen Sharan 2001',
+              'Mk1 (7M) Facelift',
+              '5x112'
+            ],
+            years: '2001-2001',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '170 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-202',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Sharan 2001 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/sharan/2001/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Sharan Mk1 (7M) Facelift, 2001, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-202',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Sharan Sharan wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Sharan/Sharan%20%281995%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Vento',
+        slug: 'vento',
+        records: [
+          {
+            id: 'pcd-b3-volkswagen-vento-a3-1998-4x100',
+            generation: 'A3',
+            aliases: [
+              'Volkswagen Vento 1998',
+              'A3',
+              '4x100'
+            ],
+            years: '1998-1998',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-228',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Vento 1998 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/vento/1998/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Vento A3, 1998, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-228',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Vento Vento wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Vento/Vento%20%281992%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Corrado',
+        slug: 'corrado',
+        records: [
+          {
+            id: 'pcd-b3-volkswagen-corrado-53l-1993-4x100',
+            generation: '53L',
+            aliases: [
+              'Volkswagen Corrado 1993',
+              '53L',
+              '4x100'
+            ],
+            years: '1993-1993',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-245',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Corrado 1993 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/corrado/1993/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen Corrado 53L, 1993, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-245',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Corrado Corrado wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Corrado/Corrado%20%281988%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1988-1996',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EOS',
+        slug: 'eos',
+        records: [
+          {
+            id: 'pcd-b3-volkswagen-eos-1f-2006-5x112',
+            generation: '1F',
+            aliases: [
+              'Volkswagen EOS 2006',
+              '1F',
+              '5x112'
+            ],
+            years: '2006-2006',
+            market: 'Japan',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-283',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen EOS 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/eos/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volkswagen EOS 1F, 2006, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-283',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen EOS EOS wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/EOS/EOS%20%282006%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-2015',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -8693,6 +10715,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-bmw-m5-iii-e39-2003-5x120',
+            generation: 'III (E39)',
+            aliases: [
+              'BMW M5 2003',
+              'III (E39)',
+              '5x120'
+            ],
+            years: '2003-2003',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '74.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-172',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW M5 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/bmw/m5/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; BMW M5 III (E39), 2003, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-172',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M5 M5 E39 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/M5/M5%20E39%20%281998%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -9664,6 +11755,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '3 Serie',
+        slug: '3-serie',
+        records: [
+          {
+            id: 'pcd-b3-bmw-3-serie-ii-e30-1990-4x100',
+            generation: 'II (E30)',
+            aliases: [
+              'BMW 3 Serie 1990',
+              'II (E30)',
+              '4x100'
+            ],
+            years: '1990-1990',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-251',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW 3 Serie 1990 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/bmw/3-series/1990/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; BMW 3 Serie II (E30), 1990, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-251',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 3 Serie 3 Serie E30 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/3%20Serie/3%20Serie%20E30%20%281982%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1982-1990',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -10004,6 +12170,807 @@ const PCD_DATA = [
             sources: []
           }
         ]
+      },
+      {
+        name: 'SL',
+        slug: 'sl',
+        records: [
+          {
+            id: 'pcd-b3-mercedes-sl-r230-facelift-2011-5x112',
+            generation: 'R230 Facelift',
+            aliases: [
+              'Mercedes-Benz SL 2011',
+              'R230 Facelift',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-26',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes SL 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/sl/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes SL R230 Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-26',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SL SL R230 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SL/SL%20R230%20%282008%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2008-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mercedes-sl-r230-2006-5x112',
+            generation: 'R230',
+            aliases: [
+              'Mercedes-Benz SL 2006',
+              'R230',
+              '5x112'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-122',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes SL 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/sl/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes SL R230, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-122',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SL SL R230 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SL/SL%20R230%20%282001%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SLK',
+        slug: 'slk',
+        records: [
+          {
+            id: 'pcd-b3-mercedes-slk-r171-facelift-2011-5x112',
+            generation: 'R171 Facelift',
+            aliases: [
+              'Mercedes-Benz SLK 2011',
+              'R171 Facelift',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-27',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes SLK 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/slk/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes SLK R171 Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-27',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SLK SLK R171 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SLK/SLK%20R171%20%282004%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mercedes-slk-r171-2004-5x112',
+            generation: 'R171',
+            aliases: [
+              'Mercedes-Benz SLK 2004',
+              'R171',
+              '5x112'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-166',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes SLK 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/slk/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes SLK R171, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-166',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SLK SLK R170 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SLK/SLK%20R170%20%281996%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Viano',
+        slug: 'viano',
+        records: [
+          {
+            id: 'pcd-b3-mercedes-viano-w639-facelift-2011-5x112',
+            generation: 'W639 Facelift',
+            aliases: [
+              'Mercedes-Benz Viano 2011',
+              'W639 Facelift',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET54',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-28',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes Viano 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/viano/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes Viano W639 Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-28',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Viano Viano W639 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Viano/Viano%20W639%20%282004%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mercedes-viano-w638-2003-5x112',
+            generation: 'W638',
+            aliases: [
+              'Mercedes-Benz Viano 2003',
+              'W638',
+              '5x112'
+            ],
+            years: '2003-2003',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-174',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes Viano 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/viano/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes Viano W638, 2003, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-174',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Viano Viano W638 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Viano/Viano%20W638%20%281996%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Vito',
+        slug: 'vito',
+        records: [
+          {
+            id: 'pcd-b3-mercedes-vito-w639-facelift-2011-5x112',
+            generation: 'W639 Facelift',
+            aliases: [
+              'Mercedes-Benz Vito 2011',
+              'W639 Facelift',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET54',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-29',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes Vito 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/vito/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes Vito W639 Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-29',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Vito Vito W639 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Vito/Vito%20W639%20%282003%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mercedes-vito-w638-2003-5x112',
+            generation: 'W638',
+            aliases: [
+              'Mercedes-Benz Vito 2003',
+              'W638',
+              '5x112'
+            ],
+            years: '2003-2003',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '180 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-175',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes Vito 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/vito/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes Vito W638, 2003, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-175',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Vito Vito W638 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Vito/Vito%20W638%20%281996%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CLK',
+        slug: 'clk',
+        records: [
+          {
+            id: 'pcd-b3-mercedes-clk-br209-facelift-2009-5x112',
+            generation: 'Br209 Facelift',
+            aliases: [
+              'Mercedes-Benz CLK 2009',
+              'Br209 Facelift',
+              '5x112'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-85',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes CLK 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/clk/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes CLK Br209 Facelift, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-85',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes CLK CLK W209 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/CLK/CLK%20W209%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sprinter',
+        slug: 'sprinter',
+        records: [
+          {
+            id: 'pcd-b3-mercedes-sprinter-i-t1n-w901-905-facelift-2006-5x130',
+            generation: 'I T1N (W901-905) Facelift',
+            aliases: [
+              'Mercedes-Benz Sprinter 2006',
+              'I T1N (W901-905) Facelift',
+              '5x130'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET75',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-123',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes Sprinter 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/sprinter/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes Sprinter I T1N (W901-905) Facelift, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-123',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Sprinter Sprinter wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Sprinter/Sprinter%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Vaneo',
+        slug: 'vaneo',
+        records: [
+          {
+            id: 'pcd-b3-mercedes-vaneo-w414-2005-5x112',
+            generation: 'W414',
+            aliases: [
+              'Mercedes-Benz Vaneo 2005',
+              'W414',
+              '5x112'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-139',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mercedes Vaneo 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mercedes-benz/vaneo/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mercedes Vaneo W414, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-139',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Vaneo Vaneo W414 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Vaneo/Vaneo%20W414%20%282002%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -10146,6 +13113,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b3-toyota-camry-i-v10-1983-5x100',
+            generation: 'I (V10)',
+            aliases: [
+              'Toyota Camry 1983',
+              'I (V10)',
+              '5x100'
+            ],
+            years: '1983-1983',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-261',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Camry 1983 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/camry/1983/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Camry I (V10), 1983, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-261',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Camry Camry wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Camry/Camry%20%281982%20-%201986%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1982-1986',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -10965,6 +14001,144 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-toyota-supra-iv-a80-2002-5x114-3',
+            generation: 'IV (A80)',
+            aliases: [
+              'Toyota Supra 2002',
+              'IV (A80)',
+              '5x114.3'
+            ],
+            years: '2002-2002',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-295',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Supra 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/supra/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Supra IV (A80), 2002, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-295',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Supra Supra MK4 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Supra/Supra%20MK4%20%281992%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-toyota-supra-iii-a70-1993-5x114-3',
+            generation: 'III (A70)',
+            aliases: [
+              'Toyota Supra 1993',
+              'III (A70)',
+              '5x114.3'
+            ],
+            years: '1993-1993',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-319',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Supra 1993 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/supra/1993/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Supra III (A70), 1993, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-319',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Supra Supra MK3 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Supra/Supra%20MK3%20%281986%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1986-1993',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -11184,6 +14358,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-toyota-crown-athlete-ii-s180-2008-5x114-3',
+            generation: 'II (S180)',
+            aliases: [
+              'Toyota Crown Athlete 2008',
+              'II (S180)',
+              '5x114.3'
+            ],
+            years: '2008-2008',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-279',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Crown Athlete 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/crown-athlete/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Crown Athlete II (S180), 2008, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-279',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Crown Athlete Crown Athlete wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Crown%20Athlete/Crown%20Athlete%20%282003%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -11332,6 +14575,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-toyota-verso-2009-2012-2011-5x114-3',
+            generation: '2009 .. 2012',
+            aliases: [
+              'Toyota Verso 2011',
+              '2009 .. 2012',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-51',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Verso 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/verso/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Verso 2009 .. 2012, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-51',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Verso Verso wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Verso/Verso%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -11711,6 +15023,1257 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Corolla Verso',
+        slug: 'corolla-verso',
+        records: [
+          {
+            id: 'pcd-b3-toyota-corolla-verso-ii-2009-5x114-3',
+            generation: 'II',
+            aliases: [
+              'Toyota Corolla Verso 2009',
+              'II',
+              '5x114.3'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-89',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Corolla Verso 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/corolla-verso/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Corolla Verso II, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-89',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Corolla Verso Corolla Verso wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Corolla%20Verso/Corolla%20Verso%20%282004%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-toyota-corolla-verso-i-2004-4x100',
+            generation: 'I',
+            aliases: [
+              'Toyota Corolla Verso 2004',
+              'I',
+              '4x100'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-171',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Corolla Verso 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/corolla-verso/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Corolla Verso I, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-171',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Corolla Verso Corolla Verso wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Corolla%20Verso/Corolla%20Verso%20%282002%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Avensis Verso',
+        slug: 'avensis-verso',
+        records: [
+          {
+            id: 'pcd-b3-toyota-avensis-verso-facelift-2005-5x114-3',
+            generation: 'Facelift',
+            aliases: [
+              'Toyota Avensis Verso 2005',
+              'Facelift',
+              '5x114.3'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-152',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Avensis Verso 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/avensis-verso/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Avensis Verso Facelift, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-152',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Avensis Verso Avensis Verso wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Avensis%20Verso/Avensis%20Verso%20%282001%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Celica',
+        slug: 'celica',
+        records: [
+          {
+            id: 'pcd-b3-toyota-celica-vii-t230-2005-5x100',
+            generation: 'VII (T230)',
+            aliases: [
+              'Toyota Celica 2005',
+              'VII (T230)',
+              '5x100'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-153',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Celica 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/celica/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Celica VII (T230), 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-153',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Celica Celica wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Celica/Celica%20%281999%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-toyota-celica-vi-t200-1999-5x100',
+            generation: 'VI (T200)',
+            aliases: [
+              'Toyota Celica 1999',
+              'VI (T200)',
+              '5x100'
+            ],
+            years: '1999-1999',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-308',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Celica 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/celica/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Celica VI (T200), 1999, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-308',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Celica Celica wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Celica/Celica%20%281993%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Avensis',
+        slug: 'avensis',
+        records: [
+          {
+            id: 'pcd-b3-toyota-avensis-t220-2003-5x100',
+            generation: 'T220',
+            aliases: [
+              'Toyota Avensis 2003',
+              'T220',
+              '5x100'
+            ],
+            years: '2003-2003',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-180',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Avensis 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/avensis/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Avensis T220, 2003, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-180',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Avensis Avensis wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Avensis/Avensis%20%281998%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Picnic',
+        slug: 'picnic',
+        records: [
+          {
+            id: 'pcd-b3-toyota-picnic-xm10-2001-5x114-3',
+            generation: 'XM10',
+            aliases: [
+              'Toyota Picnic 2001',
+              'XM10',
+              '5x114.3'
+            ],
+            years: '2001-2001',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-201',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Picnic 2001 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/picnic/2001/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Picnic XM10, 2001, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-201',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Picnic Picnic wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Picnic/Picnic%20%281996%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-toyota-picnic-xm20-facelift-2009-5x114-3',
+            generation: 'XM20 Facelift',
+            aliases: [
+              'Toyota Picnic 2009',
+              'XM20 Facelift',
+              '5x114.3'
+            ],
+            years: '2009-2009',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-370',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Picnic 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/picnic/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Picnic XM20 Facelift, 2009, Southeast Asian Market (SAM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-370',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Picnic Picnic wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Picnic/Picnic%20%282001%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Previa',
+        slug: 'previa',
+        records: [
+          {
+            id: 'pcd-b3-toyota-previa-i-xr10-xr20-2000-5x114-3',
+            generation: 'I (XR10/XR20)',
+            aliases: [
+              'Toyota Previa 2000',
+              'I (XR10/XR20)',
+              '5x114.3'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-213',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Previa 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/previa/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Previa I (XR10/XR20), 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-213',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Previa Previa wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Previa/Previa%20%281990%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'MR2',
+        slug: 'mr2',
+        records: [
+          {
+            id: 'pcd-b3-toyota-mr2-ii-w20-1999-5x114-3',
+            generation: 'II (W20)',
+            aliases: [
+              'Toyota MR2 1999',
+              'II (W20)',
+              '5x114.3'
+            ],
+            years: '1999-1999',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-223',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota MR2 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/mr2/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota MR2 II (W20), 1999, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-223',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota MR2 MR2 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/MR2/MR2%20%281989%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Altezza',
+        slug: 'altezza',
+        records: [
+          {
+            id: 'pcd-b3-toyota-altezza-1998-2005-2005-5x114-3',
+            generation: '1998 .. 2005',
+            aliases: [
+              'Toyota Altezza 2005',
+              '1998 .. 2005',
+              '5x114.3'
+            ],
+            years: '2005-2005',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-286',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Altezza 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/altezza/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Altezza 1998 .. 2005, 2005, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-286',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Altezza Altezza wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Altezza/Altezza%20%281998%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'BB',
+        slug: 'bb',
+        records: [
+          {
+            id: 'pcd-b3-toyota-bb-i-2005-4x100',
+            generation: 'I',
+            aliases: [
+              'Toyota BB 2005',
+              'I',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-287',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota BB 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/bb/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota BB I, 2005, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-287',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota BB BB wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/BB/BB%20%282000%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tercel',
+        slug: 'tercel',
+        records: [
+          {
+            id: 'pcd-b3-toyota-tercel-v-l50-1999-4x100',
+            generation: 'V (L50)',
+            aliases: [
+              'Toyota Tercel 1999',
+              'V (L50)',
+              '4x100'
+            ],
+            years: '1999-1999',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-309',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Tercel 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/tercel/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Tercel V (L50), 1999, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-309',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Tercel Tercel wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Tercel/Tercel%20%281990%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-toyota-tercel-iv-l40-1990-4x100',
+            generation: 'IV (L40)',
+            aliases: [
+              'Toyota Tercel 1990',
+              'IV (L40)',
+              '4x100'
+            ],
+            years: '1990-1990',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-323',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Tercel 1990 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/tercel/1990/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Tercel IV (L40), 1990, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-323',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Tercel Tercel wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Tercel/Tercel%20%281981%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1981-1990',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Carina',
+        slug: 'carina',
+        records: [
+          {
+            id: 'pcd-b3-toyota-carina-vii-t210-1997-5x100',
+            generation: 'VII (T210)',
+            aliases: [
+              'Toyota Carina 1997',
+              'VII (T210)',
+              '5x100'
+            ],
+            years: '1997-1997',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-310',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Carina 1997 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/carina/1997/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Carina VII (T210), 1997, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-310',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Carina Carina wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Carina/Carina%20%281992%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-1997',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Starlet',
+        slug: 'starlet',
+        records: [
+          {
+            id: 'pcd-b3-toyota-starlet-iv-p80-facelift-1995-4x100',
+            generation: 'IV (P80) Facelift',
+            aliases: [
+              'Toyota Starlet 1995',
+              'IV (P80) Facelift',
+              '4x100'
+            ],
+            years: '1995-1995',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-315',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Starlet 1995 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/starlet/1995/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Starlet IV (P80) Facelift, 1995, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-315',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Starlet Starlet wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Starlet/Starlet%20%281990%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Highlander',
+        slug: 'highlander',
+        records: [
+          {
+            id: 'pcd-b3-toyota-highlander-i-xu20-2005-5x114-3',
+            generation: 'I (XU20)',
+            aliases: [
+              'Toyota Highlander 2005',
+              'I (XU20)',
+              '5x114.3'
+            ],
+            years: '2005-2005',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-344',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Highlander 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/highlander/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Toyota Highlander I (XU20), 2005, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-344',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Highlander Highlander wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Highlander/Highlander%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -11801,6 +16364,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b3-honda-civic-iv-ed-ee-ef-sh-1991-4x100',
+            generation: 'IV (ED/EE/EF/SH)',
+            aliases: [
+              'Honda Civic 1991',
+              'IV (ED/EE/EF/SH)',
+              '4x100'
+            ],
+            years: '1991-1991',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-321',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Civic 1991 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/civic/1991/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Honda Civic IV (ED/EE/EF/SH), 1991, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-321',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Civic Civic wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Civic/Civic%20%281987%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1987-1991',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -11827,6 +16459,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b3-honda-accord-iii-ca-1989-4x100',
+            generation: 'III (CA)',
+            aliases: [
+              'Honda Accord 1989',
+              'III (CA)',
+              '4x100'
+            ],
+            years: '1989-1989',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-324',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Accord 1989 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/accord/1989/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Honda Accord III (CA), 1989, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-324',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Accord Accord wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Accord/Accord%20%281982%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1982-1990',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -12377,6 +17078,306 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Jazz',
+        slug: 'jazz',
+        records: [
+          {
+            id: 'pcd-b3-honda-jazz-ge-gg-gp-2011-4x100',
+            generation: 'GE, GG, GP',
+            aliases: [
+              'Honda Jazz 2011',
+              'GE, GG, GP',
+              '4x100'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-17',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Jazz 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/jazz/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Honda Jazz GE, GG, GP, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-17',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Jazz Jazz wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Jazz/Jazz%20%282008%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2008-2015',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'FR-V',
+        slug: 'fr-v',
+        records: [
+          {
+            id: 'pcd-b3-honda-fr-v-be-2009-5x114-3',
+            generation: 'BE',
+            aliases: [
+              'Honda FR-V 2009',
+              'BE',
+              '5x114.3'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-83',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda FR-V 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/fr-v/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Honda FR-V BE, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-83',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda FR-V FR-V wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/FR-V/FR-V%20%282005%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Civic Type R',
+        slug: 'civic-type-r',
+        records: [
+          {
+            id: 'pcd-b3-honda-civic-type-r-fn-2008-5x114-3',
+            generation: 'FN',
+            aliases: [
+              'Honda Civic Type R 2008',
+              'FN',
+              '5x114.3'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-97',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Civic Type R 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/civic-type-r/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Honda Civic Type R FN, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-97',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Civic Type R Civic Type R wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Civic%20Type%20R/Civic%20Type%20R%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2007-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Logo',
+        slug: 'logo',
+        records: [
+          {
+            id: 'pcd-b3-honda-logo-facelift-2002-4x100',
+            generation: 'Facelift',
+            aliases: [
+              'Honda Logo 2002',
+              'Facelift',
+              '4x100'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-185',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Logo 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/logo/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Honda Logo Facelift, 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-185',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Logo Logo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Logo/Logo%20%281999%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -12407,6 +17408,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b3-nissan-micra-i-k10-facelift-1992-4x100',
+            generation: 'I (K10) Facelift',
+            aliases: [
+              'Nissan Micra 1992',
+              'I (K10) Facelift',
+              '4x100'
+            ],
+            years: '1992-1992',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '59.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-247',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Micra 1992 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/micra/1992/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Micra I (K10) Facelift, 1992, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-247',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Micra Micra wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Micra/Micra%20%281982%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1982-1992',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -12837,6 +17907,144 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-nissan-almera-ii-n16-2006-4x114-3',
+            generation: 'II (N16)',
+            aliases: [
+              'Nissan Almera 2006',
+              'II (N16)',
+              '4x114.3'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-127',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Almera 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/almera/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Almera II (N16), 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-127',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Almera Almera wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Almera/Almera%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-nissan-almera-i-n15-2000-4x100',
+            generation: 'I (N15)',
+            aliases: [
+              'Nissan Almera 2000',
+              'I (N15)',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '59.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-207',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Almera 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/almera/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Almera I (N15), 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-207',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Almera Almera wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Almera/Almera%20%281995%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -13206,6 +18414,144 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-nissan-sunny-n14-1993-4x100',
+            generation: 'N14',
+            aliases: [
+              'Nissan Sunny 1993',
+              'N14',
+              '4x100'
+            ],
+            years: '1993-1993',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '59.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-244',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Sunny 1993 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/sunny/1993/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Sunny N14, 1993, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-244',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Sunny Sunny wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Sunny/Sunny%20%281991%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-1995',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-nissan-sunny-n13-1989-4x100',
+            generation: 'N13',
+            aliases: [
+              'Nissan Sunny 1989',
+              'N13',
+              '4x100'
+            ],
+            years: '1989-1989',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '59.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-254',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Sunny 1989 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/sunny/1989/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Sunny N13, 1989, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-254',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Sunny Sunny wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Sunny/Sunny%20%281986%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1986-1991',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -13279,6 +18625,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-nissan-maxima-v-a33-2006-5x114-3',
+            generation: 'V (A33)',
+            aliases: [
+              'Nissan Maxima 2006',
+              'V (A33)',
+              '5x114.3'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-129',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Maxima 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/maxima/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Maxima V (A33), 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-129',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Maxima Maxima wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Maxima/Maxima%20%282004%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -13581,6 +18996,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-nissan-cube-ii-z11-2008-4x100',
+            generation: 'II (Z11)',
+            aliases: [
+              'Nissan Cube 2008',
+              'II (Z11)',
+              '4x100'
+            ],
+            years: '2008-2008',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-278',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Cube 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/cube/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Cube II (Z11), 2008, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-278',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Cube Cube wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Cube/Cube%20%282002%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -13654,6 +19138,1407 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Pathfinder',
+        slug: 'pathfinder',
+        records: [
+          {
+            id: 'pcd-b3-nissan-pathfinder-iii-r51-2010-6x114-3',
+            generation: 'III (R51)',
+            aliases: [
+              'Nissan Pathfinder 2010',
+              'III (R51)',
+              '6x114.3'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '6x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-71',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Pathfinder 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/pathfinder/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Pathfinder III (R51), 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-71',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Pathfinder Pathfinder wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Pathfinder/Pathfinder%20%282005%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Kubistar',
+        slug: 'kubistar',
+        records: [
+          {
+            id: 'pcd-b3-nissan-kubistar-2003-2008-2008-4x100',
+            generation: '2003 .. 2008',
+            aliases: [
+              'Nissan Kubistar 2008',
+              '2003 .. 2008',
+              '4x100'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-101',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Kubistar 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/kubistar/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Kubistar 2003 .. 2008, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-101',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Kubistar Kubistar wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Kubistar/Kubistar%20%282003%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Almera Tino',
+        slug: 'almera-tino',
+        records: [
+          {
+            id: 'pcd-b3-nissan-almera-tino-v10-2006-5x114-3',
+            generation: 'V10',
+            aliases: [
+              'Nissan Almera Tino 2006',
+              'V10',
+              '5x114.3'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-128',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Almera Tino 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/almera-tino/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Almera Tino V10, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-128',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Almera Tino Almera Tino wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Almera%20Tino/Almera%20Tino%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '350Z',
+        slug: '350z',
+        records: [
+          {
+            id: 'pcd-b3-nissan-350z-2002-2009-2005-5x114-3',
+            generation: '2002 .. 2009',
+            aliases: [
+              'Nissan 350Z 2005',
+              '2002 .. 2009',
+              '5x114.3'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-142',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan 350Z 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/350z/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan 350Z 2002 .. 2009, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-142',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan 350Z 350Z wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/350Z/350Z%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Primera',
+        slug: 'primera',
+        records: [
+          {
+            id: 'pcd-b3-nissan-primera-ii-p11-facelift-2002-4x114-3',
+            generation: 'II (P11) Facelift',
+            aliases: [
+              'Nissan Primera 2002',
+              'II (P11) Facelift',
+              '4x114.3'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-187',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Primera 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/primera/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Primera II (P11) Facelift, 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-187',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Primera Primera wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Primera/Primera%20%281996%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-nissan-primera-iii-p12-2003-5x114-3',
+            generation: 'III (P12)',
+            aliases: [
+              'Nissan Primera 2003',
+              'III (P12)',
+              '5x114.3'
+            ],
+            years: '2003-2003',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-289',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Primera 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/primera/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Primera III (P12), 2003, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-289',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Primera Primera wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Primera/Primera%20%282002%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-nissan-primera-ii-p11-1996-4x114-3',
+            generation: 'II (P11)',
+            aliases: [
+              'Nissan Primera 1996',
+              'II (P11)',
+              '4x114.3'
+            ],
+            years: '1996-1996',
+            market: 'Japan',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-312',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Primera 1996 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/primera/1996/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Primera II (P11), 1996, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-312',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Primera Primera wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Primera/Primera%20%281990%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-1996',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'X-Trail',
+        slug: 'x-trail',
+        records: [
+          {
+            id: 'pcd-b3-nissan-x-trail-i-2002-5x114-3',
+            generation: 'I',
+            aliases: [
+              'Nissan X-Trail 2002',
+              'I',
+              '5x114.3'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-188',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan X-Trail 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/x-trail/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan X-Trail I, 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-188',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan X-Trail X-Trail wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/X-Trail/X-Trail%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-nissan-x-trail-ii-facelift-2011-5x114-3',
+            generation: 'II Facelift',
+            aliases: [
+              'Nissan X-Trail 2011',
+              'II Facelift',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-266',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan X-Trail 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/x-trail/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan X-Trail II Facelift, 2011, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-266',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan X-Trail X-Trail wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/X-Trail/X-Trail%20%282007%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2007-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '200SX',
+        slug: '200sx',
+        records: [
+          {
+            id: 'pcd-b3-nissan-200sx-ii-s14-1999-5x114-3',
+            generation: 'II (S14)',
+            aliases: [
+              'Nissan 200SX 1999',
+              'II (S14)',
+              '5x114.3'
+            ],
+            years: '1999-1999',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-220',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan 200SX 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/200sx/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan 200SX II (S14), 1999, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-220',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan 200SX 200SX S15 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/200SX/200SX%20S15%20%281999%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Prairie',
+        slug: 'prairie',
+        records: [
+          {
+            id: 'pcd-b3-nissan-prairie-i-m10-1987-4x114-3',
+            generation: 'I (M10)',
+            aliases: [
+              'Nissan Prairie 1987',
+              'I (M10)',
+              '4x114.3'
+            ],
+            years: '1987-1987',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-257',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Prairie 1987 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/prairie/1987/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Prairie I (M10), 1987, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-257',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Prairie Prairie wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Prairie/Prairie%20%281983%20-%201988%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1983-1988',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-nissan-prairie-ii-m11-1995-4x114-3',
+            generation: 'II (M11)',
+            aliases: [
+              'Nissan Prairie 1995',
+              'II (M11)',
+              '4x114.3'
+            ],
+            years: '1995-1995',
+            market: 'Japan',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-314',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Prairie 1995 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/prairie/1995/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Prairie II (M11), 1995, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-314',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Prairie Prairie wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Prairie/Prairie%20%281988%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1988-1995',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Fuga',
+        slug: 'fuga',
+        records: [
+          {
+            id: 'pcd-b3-nissan-fuga-i-y50-facelift-2009-5x114-3',
+            generation: 'I (Y50) Facelift',
+            aliases: [
+              'Nissan Fuga 2009',
+              'I (Y50) Facelift',
+              '5x114.3'
+            ],
+            years: '2009-2009',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-274',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Fuga 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/fuga/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Fuga I (Y50) Facelift, 2009, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-274',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Fuga Fuga wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Fuga/Fuga%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Skyline',
+        slug: 'skyline',
+        records: [
+          {
+            id: 'pcd-b3-nissan-skyline-xi-v35-2002-5x114-3',
+            generation: 'XI (V35)',
+            aliases: [
+              'Nissan Skyline 2002',
+              'XI (V35)',
+              '5x114.3'
+            ],
+            years: '2002-2002',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-294',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Skyline 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/skyline/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Skyline XI (V35), 2002, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-294',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Skyline Skyline R34 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Skyline/Skyline%20R34%20%281998%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Altima',
+        slug: 'altima',
+        records: [
+          {
+            id: 'pcd-b3-nissan-altima-iii-2006-5x114-3',
+            generation: 'III',
+            aliases: [
+              'Nissan Altima 2006',
+              'III',
+              '5x114.3'
+            ],
+            years: '2006-2006',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-338',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Altima 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/altima/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Altima III, 2006, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-338',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Altima Altima wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Altima/Altima%20%282002%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sentra',
+        slug: 'sentra',
+        records: [
+          {
+            id: 'pcd-b3-nissan-sentra-v-b15-2006-4x114-3',
+            generation: 'V (B15)',
+            aliases: [
+              'Nissan Sentra 2006',
+              'V (B15)',
+              '4x114.3'
+            ],
+            years: '2006-2006',
+            market: 'US',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-339',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Sentra 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/sentra/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Sentra V (B15), 2006, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-339',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Sentra Sentra wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Sentra/Sentra%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '300ZX',
+        slug: '300zx',
+        records: [
+          {
+            id: 'pcd-b3-nissan-300zx-i-z31-1985-4x114-3',
+            generation: 'I (Z31)',
+            aliases: [
+              'Nissan 300ZX 1985',
+              'I (Z31)',
+              '4x114.3'
+            ],
+            years: '1985-1985',
+            market: 'US',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-365',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan 300ZX 1985 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/300zx/1985/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan 300ZX I (Z31), 1985, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-365',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan 300ZX 300ZX Z31 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/300ZX/300ZX%20Z31%20%281984%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1984-1990',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Navara',
+        slug: 'navara',
+        records: [
+          {
+            id: 'pcd-b3-nissan-navara-d40-2010-6x114-3',
+            generation: 'D40',
+            aliases: [
+              'Nissan Navara 2010',
+              'D40',
+              '6x114.3'
+            ],
+            years: '2010-2010',
+            market: 'some markets',
+            pcd: '6x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '136 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-368',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Navara 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/navara/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Navara D40, 2010, Australian Domestic Market (AUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-368',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Navara Navara wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Navara/Navara%20%282005%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Platina',
+        slug: 'platina',
+        records: [
+          {
+            id: 'pcd-b3-nissan-platina-i-lb-2010-4x100',
+            generation: 'I (LB)',
+            aliases: [
+              'Nissan Platina 2010',
+              'I (LB)',
+              '4x100'
+            ],
+            years: '2010-2010',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-369',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Platina 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/platina/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Nissan Platina I (LB), 2010, Mexican domestic market (MXNDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-369',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Platina Platina wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Platina/Platina%20%282002%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -14363,6 +21248,144 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-mazda-premacy-cp-2005-5x114-3',
+            generation: 'CP',
+            aliases: [
+              'Mazda Premacy 2005',
+              'CP',
+              '5x114.3'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-138',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda Premacy 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/premacy/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda Premacy CP, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-138',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Premacy Premacy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Premacy/Premacy%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mazda-premacy-cr-2010-5x114-3',
+            generation: 'CR',
+            aliases: [
+              'Mazda Premacy 2010',
+              'CR',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-272',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda Premacy 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/premacy/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda Premacy CR, 2010, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-272',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Premacy Premacy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Premacy/Premacy%20%282010%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2010-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -14511,6 +21534,969 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '323',
+        slug: '323',
+        records: [
+          {
+            id: 'pcd-b3-mazda-323-vi-bj-2004-4x100',
+            generation: 'VI (BJ)',
+            aliases: [
+              'Mazda 323 2004',
+              'VI (BJ)',
+              '4x100'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-164',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda 323 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/323/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda 323 VI (BJ), 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-164',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 323 323 4 gaatts wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/323/323%204%20gaatts%20%281989%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tribute',
+        slug: 'tribute',
+        records: [
+          {
+            id: 'pcd-b3-mazda-tribute-cd1-2004-5x114-3',
+            generation: 'CD1',
+            aliases: [
+              'Mazda Tribute 2004',
+              'CD1',
+              '5x114.3'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-165',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda Tribute 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/tribute/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda Tribute CD1, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-165',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Tribute Tribute wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Tribute/Tribute%20%282001%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '626',
+        slug: '626',
+        records: [
+          {
+            id: 'pcd-b3-mazda-626-gf-gw-2002-5x114-3',
+            generation: 'GF/GW',
+            aliases: [
+              'Mazda 626 2002',
+              'GF/GW',
+              '5x114.3'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-186',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda 626 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/626/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda 626 GF/GW, 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-186',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 626 626 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/626/626%20%281997%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1997-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mazda-626-ge-1997-5x114-3',
+            generation: 'GE',
+            aliases: [
+              'Mazda 626 1997',
+              'GE',
+              '5x114.3'
+            ],
+            years: '1997-1997',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-230',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda 626 1997 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/626/1997/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda 626 GE, 1997, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-230',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 626 626 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/626/626%20%281992%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-1997',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mazda-626-gc-1985-4x114-3',
+            generation: 'GC',
+            aliases: [
+              'Mazda 626 1985',
+              'GC',
+              '4x114.3'
+            ],
+            years: '1985-1985',
+            market: 'US',
+            pcd: '4x114.3',
+            centerBore: '59.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-364',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda 626 1985 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/626/1985/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda 626 GC, 1985, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-364',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 626 626 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/626/626%20%281983%20-%201987%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1983-1987',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Xedos 9',
+        slug: 'xedos-9',
+        records: [
+          {
+            id: 'pcd-b3-mazda-xedos-9-ta-facelift-2000-5x114-3',
+            generation: 'TA Facelift',
+            aliases: [
+              'Mazda Xedos 9 2000',
+              'TA Facelift',
+              '5x114.3'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-206',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda Xedos 9 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/xedos-9/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda Xedos 9 TA Facelift, 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-206',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Xedos 9 Xedos 9 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Xedos%209/Xedos%209%20%281992%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'MX-3',
+        slug: 'mx-3',
+        records: [
+          {
+            id: 'pcd-b3-mazda-mx-3-ec-1999-4x100',
+            generation: 'EC',
+            aliases: [
+              'Mazda MX-3 1999',
+              'EC',
+              '4x100'
+            ],
+            years: '1999-1999',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-218',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda MX-3 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/mx-3/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda MX-3 EC, 1999, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-218',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda MX-3 MX-3 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/MX-3/MX-3%20%281991%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Xedos 6',
+        slug: 'xedos-6',
+        records: [
+          {
+            id: 'pcd-b3-mazda-xedos-6-ca-facelift-1999-5x114-3',
+            generation: 'CA Facelift',
+            aliases: [
+              'Mazda Xedos 6 1999',
+              'CA Facelift',
+              '5x114.3'
+            ],
+            years: '1999-1999',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-219',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda Xedos 6 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/xedos-6/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda Xedos 6 CA Facelift, 1999, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-219',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Xedos 6 Xedos 6 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Xedos%206/Xedos%206%20%281992%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'MX-5',
+        slug: 'mx-5',
+        records: [
+          {
+            id: 'pcd-b3-mazda-mx-5-i-na-1997-4x100',
+            generation: 'I (NA)',
+            aliases: [
+              'Mazda MX-5 1997',
+              'I (NA)',
+              '4x100'
+            ],
+            years: '1997-1997',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-231',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda MX-5 1997 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/mx-5/1997/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda MX-5 I (NA), 1997, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-231',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda MX-5 MX-5 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/MX-5/MX-5%20%281990%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '929',
+        slug: '929',
+        records: [
+          {
+            id: 'pcd-b3-mazda-929-hb-1987-4x114-3',
+            generation: 'HB',
+            aliases: [
+              'Mazda 929 1987',
+              'HB',
+              '4x114.3'
+            ],
+            years: '1987-1987',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '59.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-256',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda 929 1987 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/929/1987/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda 929 HB, 1987, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-256',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 929 929 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/929/929%20%281981%20-%201987%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1981-1987',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'MPV',
+        slug: 'mpv',
+        records: [
+          {
+            id: 'pcd-b3-mazda-mpv-lw-2006-5x114-3',
+            generation: 'LW',
+            aliases: [
+              'Mazda MPV 2006',
+              'LW',
+              '5x114.3'
+            ],
+            years: '2006-2006',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '128 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-282',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda MPV 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/mpv/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda MPV LW, 2006, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-282',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda MPV MPV wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/MPV/MPV%20%282002%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Demio',
+        slug: 'demio',
+        records: [
+          {
+            id: 'pcd-b3-mazda-demio-i-dw-facelift-2002-4x100',
+            generation: 'I (DW) Facelift',
+            aliases: [
+              'Mazda Demio 2002',
+              'I (DW) Facelift',
+              '4x100'
+            ],
+            years: '2002-2002',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-293',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda Demio 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/demio/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda Demio I (DW) Facelift, 2002, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-293',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Demio Demio wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Demio/Demio%20%281998%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'MX-6',
+        slug: 'mx-6',
+        records: [
+          {
+            id: 'pcd-b3-mazda-mx-6-ge-1994-5x114-3',
+            generation: 'GE',
+            aliases: [
+              'Mazda MX-6 1994',
+              'GE',
+              '5x114.3'
+            ],
+            years: '1994-1994',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-316',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda MX-6 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/mx-6/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mazda MX-6 GE, 1994, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-316',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda MX-6 MX-6 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/MX-6/MX-6%20%281992%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-1997',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -14899,6 +22885,213 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-subaru-legacy-bm-br-2011-5x100',
+            generation: 'BM/BR',
+            aliases: [
+              'Subaru Legacy 2011',
+              'BM/BR',
+              '5x100'
+            ],
+            years: '2011-2011',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-269',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Legacy 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/legacy/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Legacy BM/BR, 2011, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-269',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Legacy Legacy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Legacy/Legacy%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-subaru-legacy-bl-bp-facelift-2009-5x100',
+            generation: 'BL/BP Facelift',
+            aliases: [
+              'Subaru Legacy 2009',
+              'BL/BP Facelift',
+              '5x100'
+            ],
+            years: '2009-2009',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '78 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-275',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Legacy 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/legacy/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Legacy BL/BP Facelift, 2009, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-275',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Legacy Legacy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Legacy/Legacy%20%282003%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-subaru-legacy-be-bh-2003-5x100',
+            generation: 'BE/BH',
+            aliases: [
+              'Subaru Legacy 2003',
+              'BE/BH',
+              '5x100'
+            ],
+            years: '2003-2003',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '78 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-290',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Legacy 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/legacy/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Legacy BE/BH, 2003, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-290',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Legacy Legacy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Legacy/Legacy%20%281989%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -15051,6 +23244,657 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'B9 Tribeca',
+        slug: 'b9-tribeca',
+        records: [
+          {
+            id: 'pcd-b3-subaru-b9-tribeca-b9-2007-5x114-3',
+            generation: 'B9',
+            aliases: [
+              'Subaru B9 Tribeca 2007',
+              'B9',
+              '5x114.3'
+            ],
+            years: '2007-2007',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-112',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru B9 Tribeca 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/b9-tribeca/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru B9 Tribeca B9, 2007, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-112',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru B9 Tribeca B9 Tribeca wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/B9%20Tribeca/B9%20Tribeca%20%282005%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Impreza WRX STi',
+        slug: 'impreza-wrx-sti',
+        records: [
+          {
+            id: 'pcd-b3-subaru-impreza-wrx-sti-gd-facelift-2004-5x100',
+            generation: 'GD Facelift',
+            aliases: [
+              'Subaru Impreza WRX STi 2004',
+              'GD Facelift',
+              '5x100'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET53',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-170',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Impreza WRX STi 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/impreza-wrx-sti/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Impreza WRX STi GD Facelift, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-170',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Impreza WRX STi Impreza WRX STi wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Impreza%20WRX%20STi/Impreza%20WRX%20STi%20%282000%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-subaru-impreza-wrx-sti-gr-gv-facelift-2011-5x114-3',
+            generation: 'GR/GV Facelift',
+            aliases: [
+              'Subaru Impreza WRX STi 2011',
+              'GR/GV Facelift',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-268',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Impreza WRX STi 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/impreza-wrx-sti/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Impreza WRX STi GR/GV Facelift, 2011, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-268',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Impreza WRX STi Impreza WRX STi wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Impreza%20WRX%20STi/Impreza%20WRX%20STi%20%282007%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2007-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Justy',
+        slug: 'justy',
+        records: [
+          {
+            id: 'pcd-b3-subaru-justy-sf-2003-4x114-3',
+            generation: 'SF',
+            aliases: [
+              'Subaru Justy 2003',
+              'SF',
+              '4x114.3'
+            ],
+            years: '2003-2003',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '50 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-178',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Justy 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/justy/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Justy SF, 2003, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-178',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Justy Justy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Justy/Justy%20%281995%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-subaru-justy-ka-facelift-1994-4x100',
+            generation: 'KA Facelift',
+            aliases: [
+              'Subaru Justy 1994',
+              'KA Facelift',
+              '4x100'
+            ],
+            years: '1994-1994',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '59.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '78 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-317',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Justy 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/justy/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Justy KA Facelift, 1994, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-317',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Justy Justy wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Justy/Justy%20%281984%20-%201994%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1984-1994',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Outback',
+        slug: 'outback',
+        records: [
+          {
+            id: 'pcd-b3-subaru-outback-br-2011-5x100',
+            generation: 'BR',
+            aliases: [
+              'Subaru Outback 2011',
+              'BR',
+              '5x100'
+            ],
+            years: '2011-2011',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-270',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Outback 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/outback/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Outback BR, 2011, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-270',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Outback Outback wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Outback/Outback%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-subaru-outback-bp-facelift-2009-5x100',
+            generation: 'BP Facelift',
+            aliases: [
+              'Subaru Outback 2009',
+              'BP Facelift',
+              '5x100'
+            ],
+            years: '2009-2009',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-276',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Outback 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/outback/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Outback BP Facelift, 2009, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-276',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Outback Outback wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Outback/Outback%20%282004%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-subaru-outback-bh-2003-5x100',
+            generation: 'BH',
+            aliases: [
+              'Subaru Outback 2003',
+              'BH',
+              '5x100'
+            ],
+            years: '2003-2003',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-291',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Outback 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/outback/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Outback BH, 2003, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-291',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Outback Outback wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Outback/Outback%20%281998%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Vivio',
+        slug: 'vivio',
+        records: [
+          {
+            id: 'pcd-b3-subaru-vivio-kk-kw-1999-4x100',
+            generation: 'KK\\KW',
+            aliases: [
+              'Subaru Vivio 1999',
+              'KK\\KW',
+              '4x100'
+            ],
+            years: '1999-1999',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '59.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '78 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-307',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Vivio 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/subaru/vivio/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Subaru Vivio KK\\KW, 1999, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-307',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Vivio Vivio wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Vivio/Vivio%20%281992%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -15107,6 +23951,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b3-mitsubishi-lancer-v-ca-1990-4x114-3',
+            generation: 'V (CA)',
+            aliases: [
+              'Mitsubishi Lancer 1990',
+              'V (CA)',
+              '4x114.3'
+            ],
+            years: '1990-1990',
+            market: 'Japan',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-322',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Lancer 1990 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/lancer/1990/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Lancer V (CA), 1990, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-322',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Lancer Lancer wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Lancer/Lancer%20%281988%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1988-1992',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -15359,6 +24272,888 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mitsubishi-space-star-dg-2004-4x114-3',
+            generation: 'DG',
+            aliases: [
+              'Mitsubishi Space Star 2004',
+              'DG',
+              '4x114.3'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-167',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Space Star 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/space-star/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Space Star DG, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-167',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Space Star Space Star wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Space%20Star/Space%20Star%20%281998%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ASX',
+        slug: 'asx',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-asx-i-2011-5x114-3',
+            generation: 'I',
+            aliases: [
+              'Mitsubishi ASX 2011',
+              'I',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-30',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi ASX 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/asx/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi ASX I, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-30',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi ASX ASX wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/ASX/ASX%20%282010%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2010-2023',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Grandis',
+        slug: 'grandis',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-grandis-na-2010-5x114-3',
+            generation: 'NA',
+            aliases: [
+              'Mitsubishi Grandis 2010',
+              'NA',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-69',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Grandis 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/grandis/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Grandis NA, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-69',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Grandis Grandis wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Grandis/Grandis%20%282004%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Pajero Pinin',
+        slug: 'pajero-pinin',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-pajero-pinin-h7-2006-5x114-3',
+            generation: 'H7',
+            aliases: [
+              'Mitsubishi Pajero Pinin 2006',
+              'H7',
+              '5x114.3'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-126',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Pajero Pinin 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/pajero-pinin/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Pajero Pinin H7, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-126',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Pajero Pinin Pajero Pinin wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Pajero%20Pinin/Pajero%20Pinin%20%282000%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Space Wagon',
+        slug: 'space-wagon',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-space-wagon-iii-n50-2004-5x114-3',
+            generation: 'III (N50)',
+            aliases: [
+              'Mitsubishi Space Wagon 2004',
+              'III (N50)',
+              '5x114.3'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-168',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Space Wagon 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/space-wagon/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Space Wagon III (N50), 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-168',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Space Wagon Space Wagon wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Space%20Wagon/Space%20Wagon%20%281999%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mitsubishi-space-wagon-ii-n30-n40-1998-4x114-3',
+            generation: 'II (N30/N40)',
+            aliases: [
+              'Mitsubishi Space Wagon 1998',
+              'II (N30/N40)',
+              '4x114.3'
+            ],
+            years: '1998-1998',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-224',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Space Wagon 1998 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/space-wagon/1998/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Space Wagon II (N30/N40), 1998, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-224',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Space Wagon Space Wagon wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Space%20Wagon/Space%20Wagon%20%281991%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sigma',
+        slug: 'sigma',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-sigma-fa-1996-5x114-3',
+            generation: 'FA',
+            aliases: [
+              'Mitsubishi Sigma 1996',
+              'FA',
+              '5x114.3'
+            ],
+            years: '1996-1996',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-235',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Sigma 1996 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/sigma/1996/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Sigma FA, 1996, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-235',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Sigma Sigma wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Sigma/Sigma%20%281991%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-1997',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Pajero',
+        slug: 'pajero',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-pajero-v80-v90-2011-6x139-7',
+            generation: 'V80/V90',
+            aliases: [
+              'Mitsubishi Pajero 2011',
+              'V80/V90',
+              '6x139.7'
+            ],
+            years: '2011-2011',
+            market: 'Japan',
+            pcd: '6x139.7',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-264',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Pajero 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/pajero/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Pajero V80/V90, 2011, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-264',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Pajero Pajero wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Pajero/Pajero%20%282007%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2007-2021',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'FTO',
+        slug: 'fto',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-fto-de-facelift-2001-5x114-3',
+            generation: 'DE Facelift',
+            aliases: [
+              'Mitsubishi FTO 2001',
+              'DE Facelift',
+              '5x114.3'
+            ],
+            years: '2001-2001',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-297',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi FTO 2001 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/fto/2001/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi FTO DE Facelift, 2001, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-297',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi FTO FTO wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/FTO/FTO%20%281994%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Galant',
+        slug: 'galant',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-galant-ea-ec-2000-4x114-3',
+            generation: 'EA/EC',
+            aliases: [
+              'Mitsubishi Galant 2000',
+              'EA/EC',
+              '4x114.3'
+            ],
+            years: '2000-2000',
+            market: 'Japan',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-301',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Galant 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/galant/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Galant EA/EC, 2000, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-301',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Galant Galant wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Galant/Galant%20%281993%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-mitsubishi-galant-e3-1992-4x114-3',
+            generation: 'E3',
+            aliases: [
+              'Mitsubishi Galant 1992',
+              'E3',
+              '4x114.3'
+            ],
+            years: '1992-1992',
+            market: 'Japan',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-320',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Galant 1992 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/galant/1992/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Galant E3, 1992, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-320',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Galant Galant wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Galant/Galant%20%281989%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-1992',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Eclipse',
+        slug: 'eclipse',
+        records: [
+          {
+            id: 'pcd-b3-mitsubishi-eclipse-d3-1999-5x114-3',
+            generation: 'D3',
+            aliases: [
+              'Mitsubishi Eclipse 1999',
+              'D3',
+              '5x114.3'
+            ],
+            years: '1999-1999',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-306',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Eclipse 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/eclipse/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mitsubishi Eclipse D3, 1999, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-306',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Eclipse Eclipse wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Eclipse/Eclipse%20%281990%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -16129,6 +25924,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-suzuki-alto-v-ha23-2002-4x100',
+            generation: 'V (HA23)',
+            aliases: [
+              'Suzuki Alto 2002',
+              'V (HA23)',
+              '4x100'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-193',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Alto 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/alto/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Suzuki Alto V (HA23), 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-193',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Alto Alto wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Alto/Alto%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -16277,6 +26141,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-suzuki-baleno-i-facelift-2002-4x100',
+            generation: 'I Facelift',
+            aliases: [
+              'Suzuki Baleno 2002',
+              'I Facelift',
+              '4x100'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-194',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Baleno 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/baleno/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Suzuki Baleno I Facelift, 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-194',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Baleno Baleno wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Baleno/Baleno%20%281995%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -16577,6 +26510,225 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Grand Vitara',
+        slug: 'grand-vitara',
+        records: [
+          {
+            id: 'pcd-b3-suzuki-grand-vitara-ii-jt-2011-5x114-3',
+            generation: 'II (JT)',
+            aliases: [
+              'Suzuki Grand Vitara 2011',
+              'II (JT)',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-48',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Grand Vitara 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/grand-vitara/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Suzuki Grand Vitara II (JT), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-48',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Grand Vitara Grand Vitara wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Grand%20Vitara/Grand%20Vitara%20%282005%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2021',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-suzuki-grand-vitara-i-ft-gt-2005-5x139-7',
+            generation: 'I (FT/GT)',
+            aliases: [
+              'Suzuki Grand Vitara 2005',
+              'I (FT/GT)',
+              '5x139.7'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x139.7',
+            centerBore: '108.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-150',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Grand Vitara 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/grand-vitara/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Suzuki Grand Vitara I (FT/GT), 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-150',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Grand Vitara Grand Vitara wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Grand%20Vitara/Grand%20Vitara%20%281998%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Liana',
+        slug: 'liana',
+        records: [
+          {
+            id: 'pcd-b3-suzuki-liana-er-2007-4x100',
+            generation: 'ER',
+            aliases: [
+              'Suzuki Liana 2007',
+              'ER',
+              '4x100'
+            ],
+            years: '2007-2007',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-113',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Liana 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/liana/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Suzuki Liana ER, 2007, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-113',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Liana Liana wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Liana/Liana%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -17136,6 +27288,144 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-hyundai-accent-ii-lc2-facelift-2006-4x100',
+            generation: 'II (LC2) Facelift',
+            aliases: [
+              'Hyundai Accent 2006',
+              'II (LC2) Facelift',
+              '4x100'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-117',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Accent 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/accent/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Accent II (LC2) Facelift, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-117',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Accent Accent wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Accent/Accent%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-hyundai-accent-iii-mc-2011-4x100',
+            generation: 'III (MC)',
+            aliases: [
+              'Hyundai Accent 2011',
+              'III (MC)',
+              '4x100'
+            ],
+            years: '2011-2011',
+            market: 'US',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-327',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Accent 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/accent/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Accent III (MC), 2011, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-327',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Accent Accent wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Accent/Accent%20%282006%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -17663,6 +27953,525 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Getz',
+        slug: 'getz',
+        records: [
+          {
+            id: 'pcd-b3-hyundai-getz-facelift-2011-4x100',
+            generation: 'Facelift',
+            aliases: [
+              'Hyundai Getz 2011',
+              'Facelift',
+              '4x100'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-18',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Getz 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/getz/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Getz Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-18',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Getz Getz wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Getz/Getz%20%282002%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Matrix',
+        slug: 'matrix',
+        records: [
+          {
+            id: 'pcd-b3-hyundai-matrix-fc-facelift-2010-4x114-3',
+            generation: 'FC Facelift',
+            aliases: [
+              'Hyundai Matrix 2010',
+              'FC Facelift',
+              '4x114.3'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-66',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Matrix 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/matrix/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Matrix FC Facelift, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-66',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Matrix Matrix wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Matrix/Matrix%20%282001%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Trajet',
+        slug: 'trajet',
+        records: [
+          {
+            id: 'pcd-b3-hyundai-trajet-fo-2008-5x114-3',
+            generation: 'FO',
+            aliases: [
+              'Hyundai Trajet 2008',
+              'FO',
+              '5x114.3'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-99',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Trajet 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/trajet/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Trajet FO, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-99',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Trajet Trajet wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Trajet/Trajet%20%281999%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Coupe',
+        slug: 'coupe',
+        records: [
+          {
+            id: 'pcd-b3-hyundai-coupe-gk-facelift-2006-5x114-3',
+            generation: 'GK Facelift',
+            aliases: [
+              'Hyundai Coupe 2006',
+              'GK Facelift',
+              '5x114.3'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-118',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Coupe 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/coupe/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Coupe GK Facelift, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-118',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Coupe Coupe wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Coupe/Coupe%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-hyundai-coupe-rd2-2001-4x114-3',
+            generation: 'RD2',
+            aliases: [
+              'Hyundai Coupe 2001',
+              'RD2',
+              '4x114.3'
+            ],
+            years: '2001-2001',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-196',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Coupe 2001 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/coupe/2001/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Coupe RD2, 2001, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-196',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Coupe Coupe wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Coupe/Coupe%20%281996%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Elantra',
+        slug: 'elantra',
+        records: [
+          {
+            id: 'pcd-b3-hyundai-elantra-iii-xd-facelift-2006-4x114-3',
+            generation: 'III (XD) Facelift',
+            aliases: [
+              'Hyundai Elantra 2006',
+              'III (XD) Facelift',
+              '4x114.3'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-119',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Elantra 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/elantra/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Elantra III (XD) Facelift, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-119',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Elantra Elantra wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Elantra/Elantra%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lantra',
+        slug: 'lantra',
+        records: [
+          {
+            id: 'pcd-b3-hyundai-lantra-ii-j3-2000-4x114-3',
+            generation: 'II (J3)',
+            aliases: [
+              'Hyundai Lantra 2000',
+              'II (J3)',
+              '4x114.3'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-205',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Lantra 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/lantra/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Hyundai Lantra II (J3), 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-205',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Lantra Lantra wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Lantra/Lantra%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -18066,6 +28875,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-kia-cerato-i-ld-2008-4x114-3',
+            generation: 'I (LD)',
+            aliases: [
+              'Kia Cerato 2008',
+              'I (LD)',
+              '4x114.3'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-100',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Cerato 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/cerato/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Kia Cerato I (LD), 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-100',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Cerato Cerato wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Cerato/Cerato%20%282003%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -18512,6 +29390,369 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-kia-carens-i-rs-facelift-2006-4x114-3',
+            generation: 'I (RS) Facelift',
+            aliases: [
+              'Kia Carens 2006',
+              'I (RS) Facelift',
+              '4x114.3'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-121',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Carens 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/carens/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Kia Carens I (RS) Facelift, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-121',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Carens Carens wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Carens/Carens%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Magentis',
+        slug: 'magentis',
+        records: [
+          {
+            id: 'pcd-b3-kia-magentis-ii-facelift-2010-5x114-3',
+            generation: 'II Facelift',
+            aliases: [
+              'Kia Magentis 2010',
+              'II Facelift',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-68',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Magentis 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/magentis/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Kia Magentis II Facelift, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-68',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Magentis Magentis wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Magentis/Magentis%20%282005%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-kia-magentis-i-facelift-2005-4x114-3',
+            generation: 'I Facelift',
+            aliases: [
+              'Kia Magentis 2005',
+              'I Facelift',
+              '4x114.3'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-137',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Magentis 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/magentis/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Kia Magentis I Facelift, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-137',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Magentis Magentis wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Magentis/Magentis%20%282000%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Shuma',
+        slug: 'shuma',
+        records: [
+          {
+            id: 'pcd-b3-kia-shuma-fb-facelift-2004-4x100',
+            generation: 'FB Facelift',
+            aliases: [
+              'Kia Shuma 2004',
+              'FB Facelift',
+              '4x100'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-163',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Shuma 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/shuma/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Kia Shuma FB Facelift, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-163',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Shuma Shuma wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Shuma/Shuma%20%281998%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Optima',
+        slug: 'optima',
+        records: [
+          {
+            id: 'pcd-b3-kia-optima-ii-mg-facelift-2010-5x114-3',
+            generation: 'II (MG) Facelift',
+            aliases: [
+              'Kia Optima 2010',
+              'II (MG) Facelift',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '107 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-329',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Optima 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/optima/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Kia Optima II (MG) Facelift, 2010, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-329',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Optima Optima wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Optima/Optima%20%282010%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2010-2020',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       }
@@ -18654,6 +29895,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b3-ford-fiesta-ii-1989-4x108',
+            generation: 'II',
+            aliases: [
+              'Ford Fiesta 1989',
+              'II',
+              '4x108'
+            ],
+            years: '1989-1989',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-253',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Fiesta 1989 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/fiesta/1989/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Fiesta II, 1989, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-253',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Fiesta Fiesta wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Fiesta/Fiesta%20%281983%20-%201989%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1983-1989',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -19020,6 +30330,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-ford-escape-i-ba-za-2004-5x114-3',
+            generation: 'I (BA/ZA)',
+            aliases: [
+              'Ford Escape 2004',
+              'I (BA/ZA)',
+              '5x114.3'
+            ],
+            years: '2004-2004',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-347',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Escape 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/escape/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Escape I (BA/ZA), 2004, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-347',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Escape Escape wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Escape/Escape%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -19168,6 +30547,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-ford-kuga-i-c394-2011-5x108',
+            generation: 'I (C394)',
+            aliases: [
+              'Ford Kuga 2011',
+              'I (C394)',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-14',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Kuga 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/kuga/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Kuga I (C394), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-14',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Kuga Kuga wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Kuga/Kuga%20%282008%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2008-2013',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -19906,6 +31354,819 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C Max',
+        slug: 'c-max',
+        records: [
+          {
+            id: 'pcd-b3-ford-c-max-i-c214-2010-5x108',
+            generation: 'I (C214)',
+            aliases: [
+              'Ford C Max 2010',
+              'I (C214)',
+              '5x108'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-65',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford C Max 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/c-max/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford C Max I (C214), 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-65',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford C Max C Max wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/C%20Max/C%20Max%20%282003%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mondeo',
+        slug: 'mondeo',
+        records: [
+          {
+            id: 'pcd-b3-ford-mondeo-ii-2007-5x108',
+            generation: 'II',
+            aliases: [
+              'Ford Mondeo 2007',
+              'II',
+              '5x108'
+            ],
+            years: '2007-2007',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-109',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Mondeo 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/mondeo/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Mondeo II, 2007, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-109',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Mondeo Mondeo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Mondeo/Mondeo%20%282000%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cougar',
+        slug: 'cougar',
+        records: [
+          {
+            id: 'pcd-b3-ford-cougar-1998-2002-2002-4x108',
+            generation: '1998 .. 2002',
+            aliases: [
+              'Ford Cougar 2002',
+              '1998 .. 2002',
+              '4x108'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '128 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-183',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Cougar 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/cougar/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Cougar 1998 .. 2002, 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-183',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Cougar Cougar wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Cougar/Cougar%20%281999%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Escort',
+        slug: 'escort',
+        records: [
+          {
+            id: 'pcd-b3-ford-escort-vii-2000-4x108',
+            generation: 'VII',
+            aliases: [
+              'Ford Escort 2000',
+              'VII',
+              '4x108'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-204',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Escort 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/escort/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Escort VII, 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-204',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Escort Escort wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Escort/Escort%20%281990%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Scorpio',
+        slug: 'scorpio',
+        records: [
+          {
+            id: 'pcd-b3-ford-scorpio-i-1994-5x112',
+            generation: 'I',
+            aliases: [
+              'Ford Scorpio 1994',
+              'I',
+              '5x112'
+            ],
+            years: '1994-1994',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-239',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Scorpio 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/scorpio/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Scorpio I, 1994, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-239',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Scorpio Scorpio wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Scorpio/Scorpio%20%281985%20-%201994%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1985-1994',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Orion',
+        slug: 'orion',
+        records: [
+          {
+            id: 'pcd-b3-ford-orion-iii-gal-1993-4x108',
+            generation: 'III (GAL)',
+            aliases: [
+              'Ford Orion 1993',
+              'III (GAL)',
+              '4x108'
+            ],
+            years: '1993-1993',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-242',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Orion 1993 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/orion/1993/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Orion III (GAL), 1993, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-242',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Orion Orion wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Orion/Orion%20%281990%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-ford-orion-ii-aff-1990-4x108',
+            generation: 'II (AFF)',
+            aliases: [
+              'Ford Orion 1990',
+              'II (AFF)',
+              '4x108'
+            ],
+            years: '1990-1990',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-252',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Orion 1990 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/orion/1990/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Orion II (AFF), 1990, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-252',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Orion Orion wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Orion/Orion%20%281983%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1983-1990',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sierra',
+        slug: 'sierra',
+        records: [
+          {
+            id: 'pcd-b3-ford-sierra-facelift-1993-4x108',
+            generation: 'Facelift',
+            aliases: [
+              'Ford Sierra 1993',
+              'Facelift',
+              '4x108'
+            ],
+            years: '1993-1993',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-243',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Sierra 1993 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/sierra/1993/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Sierra Facelift, 1993, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-243',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Sierra Sierra wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Sierra/Sierra%20%281982%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1982-1993',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Probe',
+        slug: 'probe',
+        records: [
+          {
+            id: 'pcd-b3-ford-probe-ii-1997-5x114-3',
+            generation: 'II',
+            aliases: [
+              'Ford Probe 1997',
+              'II',
+              '5x114.3'
+            ],
+            years: '1997-1997',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-353',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Probe 1997 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/probe/1997/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Probe II, 1997, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-353',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Probe Probe wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Probe/Probe%20%281993%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-ford-probe-i-1992-5x114-3',
+            generation: 'I',
+            aliases: [
+              'Ford Probe 1992',
+              'I',
+              '5x114.3'
+            ],
+            years: '1992-1992',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '59.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-361',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Probe 1992 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/probe/1992/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Probe I, 1992, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-361',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Probe Probe wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Probe/Probe%20%281989%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-1992',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Thunderbird',
+        slug: 'thunderbird',
+        records: [
+          {
+            id: 'pcd-b3-ford-thunderbird-x-1997-5x108',
+            generation: 'X',
+            aliases: [
+              'Ford Thunderbird 1997',
+              'X',
+              '5x108'
+            ],
+            years: '1997-1997',
+            market: 'US',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-354',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Thunderbird 1997 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/thunderbird/1997/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ford Thunderbird X, 1997, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-354',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Thunderbird Thunderbird wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Thunderbird/Thunderbird%20%281989%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -20781,6 +33042,819 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Kalos',
+        slug: 'kalos',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-kalos-2005-2008-2008-4x100',
+            generation: '2005 .. 2008',
+            aliases: [
+              'Chevrolet Kalos 2008',
+              '2005 .. 2008',
+              '4x100'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-93',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Kalos 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/kalos/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet Kalos 2005 .. 2008, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-93',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Kalos Kalos wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Kalos/Kalos%20%282002%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Rezzo',
+        slug: 'rezzo',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-rezzo-u100-2008-4x114-3',
+            generation: 'U100',
+            aliases: [
+              'Chevrolet Rezzo 2008',
+              'U100',
+              '4x114.3'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-94',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Rezzo 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/rezzo/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet Rezzo U100, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-94',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Rezzo Rezzo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Rezzo/Rezzo%20%282001%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Matiz',
+        slug: 'matiz',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-matiz-i-2004-4x114-3',
+            generation: 'I',
+            aliases: [
+              'Chevrolet Matiz 2004',
+              'I',
+              '4x114.3'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '69.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-159',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Matiz 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/matiz/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet Matiz I, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-159',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Matiz Matiz wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Matiz/Matiz%20%281998%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tahoe',
+        slug: 'tahoe',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-tahoe-iii-gmt900-2011-6x139-7',
+            generation: 'III (GMT900)',
+            aliases: [
+              'Chevrolet Tahoe 2011',
+              'III (GMT900)',
+              '6x139.7'
+            ],
+            years: '2011-2011',
+            market: 'US',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-325',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Tahoe 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/tahoe/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet Tahoe III (GMT900), 2011, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-325',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Tahoe Tahoe wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Tahoe/Tahoe%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-chevrolet-tahoe-ii-gmt800-2005-6x139-7',
+            generation: 'II (GMT800)',
+            aliases: [
+              'Chevrolet Tahoe 2005',
+              'II (GMT800)',
+              '6x139.7'
+            ],
+            years: '2005-2005',
+            market: 'US',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-341',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Tahoe 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/tahoe/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet Tahoe II (GMT800), 2005, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-341',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Tahoe Tahoe wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Tahoe/Tahoe%20%281996%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SSR',
+        slug: 'ssr',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-ssr-2003-2006-2006-6x127',
+            generation: '2003 .. 2006',
+            aliases: [
+              'Chevrolet SSR 2006',
+              '2003 .. 2006',
+              '6x127'
+            ],
+            years: '2006-2006',
+            market: 'US',
+            pcd: '6x127',
+            centerBore: '78.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-336',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet SSR 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/ssr/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet SSR 2003 .. 2006, 2006, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-336',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet SSR SSR wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/SSR/SSR%20%282003%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S10',
+        slug: 's10',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-s10-ii-facelift-2003-5x120-65',
+            generation: 'II Facelift',
+            aliases: [
+              'Chevrolet S10 2003',
+              'II Facelift',
+              '5x120.65'
+            ],
+            years: '2003-2003',
+            market: 'US',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET13',
+            torque: '129 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-348',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet S10 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/s10/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet S10 II Facelift, 2003, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-348',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet S10 S10 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/S10/S10%20%281994%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-chevrolet-s10-i-1993-5x120-65',
+            generation: 'I',
+            aliases: [
+              'Chevrolet S10 1993',
+              'I',
+              '5x120.65'
+            ],
+            years: '1993-1993',
+            market: 'US',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET0',
+            torque: '129 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-360',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet S10 1993 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/s10/1993/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet S10 I, 1993, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-360',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet S10 S10 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/S10/S10%20%281982%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1982-1993',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Monte Carlo',
+        slug: 'monte-carlo',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-monte-carlo-v-1999-5x115',
+            generation: 'V',
+            aliases: [
+              'Chevrolet Monte Carlo 1999',
+              'V',
+              '5x115'
+            ],
+            years: '1999-1999',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-352',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Monte Carlo 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/monte-carlo/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet Monte Carlo V, 1999, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-352',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Monte Carlo Monte Carlo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Monte%20Carlo/Monte%20Carlo%20%281995%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Beretta',
+        slug: 'beretta',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-beretta-1987-1996-1996-5x100',
+            generation: '1987 .. 1996',
+            aliases: [
+              'Chevrolet Beretta 1996',
+              '1987 .. 1996',
+              '5x100'
+            ],
+            years: '1996-1996',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-356',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Beretta 1996 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/beretta/1996/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet Beretta 1987 .. 1996, 1996, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-356',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Beretta Beretta wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Beretta/Beretta%20%281989%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-1996',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Corsica',
+        slug: 'corsica',
+        records: [
+          {
+            id: 'pcd-b3-chevrolet-corsica-1987-1996-1989-5x100',
+            generation: '1987 .. 1996',
+            aliases: [
+              'Chevrolet Corsica 1989',
+              '1987 .. 1996',
+              '5x100'
+            ],
+            years: '1989-1989',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-363',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Corsica 1989 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/corsica/1989/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chevrolet Corsica 1987 .. 1996, 1989, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-363',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Corsica Corsica wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Corsica/Corsica%20%281989%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-1996',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -21022,6 +34096,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-jeep-compass-i-mk-facelift-2011-5x114-3',
+            generation: 'I (MK) Facelift',
+            aliases: [
+              'Jeep Compass 2011',
+              'I (MK) Facelift',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-22',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Jeep Compass 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/jeep/compass/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Jeep Compass I (MK) Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-22',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jeep Compass Compass wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Jeep/Compass/Compass%20%282006%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -21278,6 +34421,375 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-dodge-grand-caravan-iv-rs-2007-5x114-3',
+            generation: 'IV (RS)',
+            aliases: [
+              'Dodge Grand Caravan 2007',
+              'IV (RS)',
+              '5x114.3'
+            ],
+            years: '2007-2007',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-334',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dodge Grand Caravan 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/dodge/grand-caravan/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Dodge Grand Caravan IV (RS), 2007, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-334',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Grand Caravan Grand Caravan wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Grand%20Caravan/Grand%20Caravan%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Caliber',
+        slug: 'caliber',
+        records: [
+          {
+            id: 'pcd-b3-dodge-caliber-pm-2011-5x114-3',
+            generation: 'PM',
+            aliases: [
+              'Dodge Caliber 2011',
+              'PM',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-8',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dodge Caliber 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/dodge/caliber/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Dodge Caliber PM, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-8',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Caliber Caliber wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Caliber/Caliber%20%282006%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Journey',
+        slug: 'journey',
+        records: [
+          {
+            id: 'pcd-b3-dodge-journey-jc49-2010-5x127',
+            generation: 'JC49',
+            aliases: [
+              'Dodge Journey 2010',
+              'JC49',
+              '5x127'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x127',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-62',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dodge Journey 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/dodge/journey/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Dodge Journey JC49, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-62',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Journey Journey wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Journey/Journey%20%282008%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2008-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Caravan',
+        slug: 'caravan',
+        records: [
+          {
+            id: 'pcd-b3-dodge-caravan-iv-rs-2007-5x114-3',
+            generation: 'IV (RS)',
+            aliases: [
+              'Dodge Caravan 2007',
+              'IV (RS)',
+              '5x114.3'
+            ],
+            years: '2007-2007',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-333',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dodge Caravan 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/dodge/caravan/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Dodge Caravan IV (RS), 2007, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-333',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Caravan Caravan wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Caravan/Caravan%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Neon',
+        slug: 'neon',
+        records: [
+          {
+            id: 'pcd-b3-dodge-neon-ii-2005-5x100',
+            generation: 'II',
+            aliases: [
+              'Dodge Neon 2005',
+              'II',
+              '5x100'
+            ],
+            years: '2005-2005',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-342',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dodge Neon 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/dodge/neon/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Dodge Neon II, 2005, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-342',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Neon Neon wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Neon/Neon%20%282000%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       }
@@ -21414,6 +34926,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b3-chrysler-pacifica-i-cs-facelift-2008-5x127',
+            generation: 'I (CS) Facelift',
+            aliases: [
+              'Chrysler Pacifica 2008',
+              'I (CS) Facelift',
+              '5x127'
+            ],
+            years: '2008-2008',
+            market: 'US',
+            pcd: '5x127',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-332',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chrysler Pacifica 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chrysler/pacifica/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chrysler Pacifica I (CS) Facelift, 2008, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-332',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Pacifica Pacifica wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Pacifica/Pacifica%20%282004%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -21489,6 +35070,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-chrysler-voyager-iii-gs-2000-5x114-3',
+            generation: 'III (GS)',
+            aliases: [
+              'Chrysler Voyager 2000',
+              'III (GS)',
+              '5x114.3'
+            ],
+            years: '2000-2000',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-351',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chrysler Voyager 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chrysler/voyager/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chrysler Voyager III (GS), 2000, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-351',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Voyager Voyager wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Voyager/Voyager%20%281991%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -21562,6 +35212,150 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-chrysler-grand-voyager-iv-rg-2007-5x114-3',
+            generation: 'IV (RG)',
+            aliases: [
+              'Chrysler Grand Voyager 2007',
+              'IV (RG)',
+              '5x114.3'
+            ],
+            years: '2007-2007',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-104',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chrysler Grand Voyager 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chrysler/grand-voyager/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chrysler Grand Voyager IV (RG), 2007, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-104',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Grand Voyager Grand Voyager wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Grand%20Voyager/Grand%20Voyager%20%282000%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sebring',
+        slug: 'sebring',
+        records: [
+          {
+            id: 'pcd-b3-chrysler-sebring-jr-st-2006-5x100',
+            generation: 'JR/ST',
+            aliases: [
+              'Chrysler Sebring 2006',
+              'JR/ST',
+              '5x100'
+            ],
+            years: '2006-2006',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-337',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chrysler Sebring 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chrysler/sebring/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Chrysler Sebring JR/ST, 2006, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-337',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Sebring Sebring wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Sebring/Sebring%20%281995%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -22718,6 +36512,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-peugeot-308-i-t7-2011-4x108',
+            generation: 'I (T7)',
+            aliases: [
+              'Peugeot 308 2011',
+              'I (T7)',
+              '4x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-37',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 308 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/308/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot 308 I (T7), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-37',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 308 308 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/308/308%20%282007%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2007-2013',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -22791,6 +36654,213 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-peugeot-boxer-iii-250-2011-5x118',
+            generation: 'III (250)',
+            aliases: [
+              'Peugeot Boxer 2011',
+              'III (250)',
+              '5x118'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-39',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Boxer 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/boxer/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot Boxer III (250), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-39',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Boxer Boxer wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Boxer/Boxer%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-peugeot-boxer-ii-244-2006-5x118',
+            generation: 'II (244)',
+            aliases: [
+              'Peugeot Boxer 2006',
+              'II (244)',
+              '5x118'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-130',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Boxer 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/boxer/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot Boxer II (244), 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-130',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Boxer Boxer wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Boxer/Boxer%20%282002%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-peugeot-boxer-i-230-2001-5x118',
+            generation: 'I (230)',
+            aliases: [
+              'Peugeot Boxer 2001',
+              'I (230)',
+              '5x118'
+            ],
+            years: '2001-2001',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-199',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Boxer 2001 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/boxer/2001/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot Boxer I (230), 2001, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-199',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Boxer Boxer wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Boxer/Boxer%20%281994%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -23235,6 +37305,681 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '508',
+        slug: '508',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-508-i-w23-2011-5x108',
+            generation: 'I (W23)',
+            aliases: [
+              'Peugeot 508 2011',
+              'I (W23)',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-38',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 508 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/508/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot 508 I (W23), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-38',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 508 508 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/508/508%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2011-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Partner Tepee',
+        slug: 'partner-tepee',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-partner-tepee-b9-2011-4x108',
+            generation: 'B9',
+            aliases: [
+              'Peugeot Partner Tepee 2011',
+              'B9',
+              '4x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-40',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Partner Tepee 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/partner-tepee/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot Partner Tepee B9, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-40',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Partner Tepee Partner Tepee wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Partner%20Tepee/Partner%20Tepee%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2008-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '407',
+        slug: '407',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-407-i-2010-5x108',
+            generation: 'I',
+            aliases: [
+              'Peugeot 407 2010',
+              'I',
+              '5x108'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-73',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 407 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/407/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot 407 I, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-73',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 407 407 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/407/407%20%282004%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '607',
+        slug: '607',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-607-i-2010-5x108',
+            generation: 'I',
+            aliases: [
+              'Peugeot 607 2010',
+              'I',
+              '5x108'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-74',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 607 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/607/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot 607 I, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-74',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 607 607 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/607/607%20%282000%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '307',
+        slug: '307',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-307-ii-2009-4x108',
+            generation: 'II',
+            aliases: [
+              'Peugeot 307 2009',
+              'II',
+              '4x108'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-86',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 307 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/307/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot 307 II, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-86',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 307 307 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/307/307%20%282001%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Partner',
+        slug: 'partner',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-partner-i-m49-m59-2008-4x108',
+            generation: 'I (M49/M59)',
+            aliases: [
+              'Peugeot Partner 2008',
+              'I (M49/M59)',
+              '4x108'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-103',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Partner 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/partner/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot Partner I (M49/M59), 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-103',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Partner Partner wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Partner/Partner%20%281996%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '406',
+        slug: '406',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-406-i-2004-4x108',
+            generation: 'I',
+            aliases: [
+              'Peugeot 406 2004',
+              'I',
+              '4x108'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-169',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 406 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/406/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot 406 I, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-169',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 406 406 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/406/406%20%281995%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '806',
+        slug: '806',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-806-i-2002-5x98',
+            generation: 'I',
+            aliases: [
+              'Peugeot 806 2002',
+              'I',
+              '5x98'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-189',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 806 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/806/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot 806 I, 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-189',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 806 806 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/806/806%20%281994%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '605',
+        slug: '605',
+        records: [
+          {
+            id: 'pcd-b3-peugeot-605-phase2-2000-5x108',
+            generation: 'phase2',
+            aliases: [
+              'Peugeot 605 2000',
+              'phase2',
+              '5x108'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-210',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 605 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/605/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Peugeot 605 phase2, 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-210',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 605 605 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/605/605%20%281990%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -24327,6 +39072,144 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-renault-espace-iii-je0-2002-5x108',
+            generation: 'III (JE0)',
+            aliases: [
+              'Renault Espace 2002',
+              'III (JE0)',
+              '5x108'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-190',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Espace 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/renault/espace/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Renault Espace III (JE0), 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-190',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Espace Espace wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Espace/Espace%20%281997%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1997-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-renault-espace-i-j11-1991-4x100',
+            generation: 'I (J11)',
+            aliases: [
+              'Renault Espace 1991',
+              'I (J11)',
+              '4x100'
+            ],
+            years: '1991-1991',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-248',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Espace 1991 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/renault/espace/1991/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Renault Espace I (J11), 1991, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-248',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Espace Espace wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Espace/Espace%20%281984%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1984-1991',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -24475,6 +39358,294 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-renault-laguna-ii-x74-2007-5x108',
+            generation: 'II (X74)',
+            aliases: [
+              'Renault Laguna 2007',
+              'II (X74)',
+              '5x108'
+            ],
+            years: '2007-2007',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-111',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Laguna 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/renault/laguna/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Renault Laguna II (X74), 2007, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-111',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Laguna Laguna 2 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Laguna/Laguna%202%20%282000%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Grand Scenic',
+        slug: 'grand-scenic',
+        records: [
+          {
+            id: 'pcd-b3-renault-grand-scenic-iii-jz-2011-5x114-3',
+            generation: 'III (JZ)',
+            aliases: [
+              'Renault Grand Scenic 2011',
+              'III (JZ)',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-44',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Grand Scenic 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/renault/grand-scenic/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Renault Grand Scenic III (JZ), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-44',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Grand Scenic Grand Scenic wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Grand%20Scenic/Grand%20Scenic%20%282009%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-renault-grand-scenic-ii-jm-facelift-2009-4x100',
+            generation: 'II (JM) Facelift',
+            aliases: [
+              'Renault Grand Scenic 2009',
+              'II (JM) Facelift',
+              '4x100'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-87',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Grand Scenic 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/renault/grand-scenic/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Renault Grand Scenic II (JM) Facelift, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-87',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Grand Scenic Grand Scenic wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Grand%20Scenic/Grand%20Scenic%20%282003%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Master',
+        slug: 'master',
+        records: [
+          {
+            id: 'pcd-b3-renault-master-ii-fd-jd-facelift-2010-5x130',
+            generation: 'II (FD/JD) Facelift',
+            aliases: [
+              'Renault Master 2010',
+              'II (FD/JD) Facelift',
+              '5x130'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x130',
+            centerBore: '89.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET66',
+            torque: '155 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-75',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Master 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/renault/master/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Renault Master II (FD/JD) Facelift, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-75',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Master Master wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Master/Master%20%281998%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -24801,6 +39972,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-citroen-jumper-i-244-facelift-2006-5x118',
+            generation: 'I (244) Facelift',
+            aliases: [
+              'Citroen Jumper 2006',
+              'I (244) Facelift',
+              '5x118'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-115',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen Jumper 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/jumper/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen Jumper I (244) Facelift, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-115',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Jumper Jumper wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Jumper/Jumper%20%281994%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -25253,6 +40493,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-citroen-relay-ii-250-2011-5x118',
+            generation: 'II (250)',
+            aliases: [
+              'Citroen Relay 2011',
+              'II (250)',
+              '5x118'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-4',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen Relay 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/relay/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen Relay II (250), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-4',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Relay Relay wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Relay/Relay%20%282010%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2010-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -25401,6 +40710,669 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C3 Pluriel',
+        slug: 'c3-pluriel',
+        records: [
+          {
+            id: 'pcd-b3-citroen-c3-pluriel-h-2010-4x108',
+            generation: 'H',
+            aliases: [
+              'Citroen C3 Pluriel 2010',
+              'H',
+              '4x108'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-60',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen C3 Pluriel 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/c3-pluriel/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen C3 Pluriel H, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-60',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C3 Pluriel C3 Pluriel wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C3%20Pluriel/C3%20Pluriel%20%282003%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Xsara Picasso',
+        slug: 'xsara-picasso',
+        records: [
+          {
+            id: 'pcd-b3-citroen-xsara-picasso-n68-2010-4x108',
+            generation: 'N68',
+            aliases: [
+              'Citroen Xsara Picasso 2010',
+              'N68',
+              '4x108'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-61',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen Xsara Picasso 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/xsara-picasso/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen Xsara Picasso N68, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-61',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Xsara Picasso Xsara Picasso wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Xsara%20Picasso/Xsara%20Picasso%20%281999%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C2',
+        slug: 'c2',
+        records: [
+          {
+            id: 'pcd-b3-citroen-c2-jm-2009-4x108',
+            generation: 'JM',
+            aliases: [
+              'Citroen C2 2009',
+              'JM',
+              '4x108'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET24',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-82',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen C2 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/c2/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen C2 JM, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-82',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C2 C2 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C2/C2%20%282003%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C5',
+        slug: 'c5',
+        records: [
+          {
+            id: 'pcd-b3-citroen-c5-i-dc-de-facelift-2008-4x108',
+            generation: 'I (DC/DE) Facelift',
+            aliases: [
+              'Citroen C5 2008',
+              'I (DC/DE) Facelift',
+              '4x108'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-96',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen C5 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/c5/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen C5 I (DC/DE) Facelift, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-96',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C5 C5 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C5/C5%20%282004%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-citroen-c5-i-dc-de-2004-4x108',
+            generation: 'I (DC/DE)',
+            aliases: [
+              'Citroen C5 2004',
+              'I (DC/DE)',
+              '4x108'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-160',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen C5 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/c5/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen C5 I (DC/DE), 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-160',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C5 C5 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C5/C5%20%282001%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Xsara',
+        slug: 'xsara',
+        records: [
+          {
+            id: 'pcd-b3-citroen-xsara-n-facelift-2004-4x108',
+            generation: 'N Facelift',
+            aliases: [
+              'Citroen Xsara 2004',
+              'N Facelift',
+              '4x108'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET24',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-161',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen Xsara 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/xsara/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen Xsara N Facelift, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-161',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Xsara Xsara wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Xsara/Xsara%20%281997%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1997-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'BX',
+        slug: 'bx',
+        records: [
+          {
+            id: 'pcd-b3-citroen-bx-i-1994-4x108',
+            generation: 'I',
+            aliases: [
+              'Citroen BX 1994',
+              'I',
+              '4x108'
+            ],
+            years: '1994-1994',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '83 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-238',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen BX 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/bx/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen BX I, 1994, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-238',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen BX BX wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/BX/BX%20%281982%20-%201994%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1982-1994',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX',
+        slug: 'cx',
+        records: [
+          {
+            id: 'pcd-b3-citroen-cx-ii-1992-5x98',
+            generation: 'II',
+            aliases: [
+              'Citroen CX 1992',
+              'II',
+              '5x98'
+            ],
+            years: '1992-1992',
+            market: 'EU',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-246',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen CX 1992 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/cx/1992/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen CX II, 1992, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-246',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen CX CX wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/CX/CX%20%281985%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1985-1992',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-citroen-cx-i-1985-5x98',
+            generation: 'I',
+            aliases: [
+              'Citroen CX 1985',
+              'I',
+              '5x98'
+            ],
+            years: '1985-1985',
+            market: 'EU',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-259',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen CX 1985 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/cx/1985/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Citroen CX I, 1985, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-259',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen CX CX wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/CX/CX%20%281974%20-%201985%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1974-1985',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -26327,6 +42299,813 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-volvo-c30-2006-2009-2009-5x108',
+            generation: '2006 .. 2009',
+            aliases: [
+              'Volvo C30 2009',
+              '2006 .. 2009',
+              '5x108'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-90',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo C30 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/c30/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo C30 2006 .. 2009, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-90',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo C30 C30 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/C30/C30%20%282006%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S40',
+        slug: 's40',
+        records: [
+          {
+            id: 'pcd-b3-volvo-s40-ii-facelift-2011-5x108',
+            generation: 'II Facelift',
+            aliases: [
+              'Volvo S40 2011',
+              'II Facelift',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-56',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo S40 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/s40/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo S40 II Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-56',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo S40 S40 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/S40/S40%20%282004%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S80',
+        slug: 's80',
+        records: [
+          {
+            id: 'pcd-b3-volvo-s80-ii-facelift-2011-5x108',
+            generation: 'II Facelift',
+            aliases: [
+              'Volvo S80 2011',
+              'II Facelift',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-57',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo S80 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/s80/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo S80 II Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-57',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo S80 S80 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/S80/S80%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-volvo-s80-i-2006-5x108',
+            generation: 'I',
+            aliases: [
+              'Volvo S80 2006',
+              'I',
+              '5x108'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-134',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo S80 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/s80/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo S80 I, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-134',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo S80 S80 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/S80/S80%20%281998%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'V50',
+        slug: 'v50',
+        records: [
+          {
+            id: 'pcd-b3-volvo-v50-facelift-2011-5x108',
+            generation: 'Facelift',
+            aliases: [
+              'Volvo V50 2011',
+              'Facelift',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-58',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo V50 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/v50/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo V50 Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-58',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo V50 V50 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/V50/V50%20%282004%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'V70',
+        slug: 'v70',
+        records: [
+          {
+            id: 'pcd-b3-volvo-v70-iii-2011-5x108',
+            generation: 'III',
+            aliases: [
+              'Volvo V70 2011',
+              'III',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-59',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo V70 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/v70/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo V70 III, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-59',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo V70 V70 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/V70/V70%20%282007%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2007-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-volvo-v70-i-2000-5x108',
+            generation: 'I',
+            aliases: [
+              'Volvo V70 2000',
+              'I',
+              '5x108'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.75',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-215',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo V70 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/v70/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo V70 I, 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-215',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo V70 V70 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/V70/V70%20%281997%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1997-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C70',
+        slug: 'c70',
+        records: [
+          {
+            id: 'pcd-b3-volvo-c70-i-2005-5x108',
+            generation: 'I',
+            aliases: [
+              'Volvo C70 2005',
+              'I',
+              '5x108'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.75',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-158',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo C70 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/c70/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo C70 I, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-158',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo C70 C70 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/C70/C70%20%281998%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '940',
+        slug: '940',
+        records: [
+          {
+            id: 'pcd-b3-volvo-940-1989-1998-1998-5x108',
+            generation: '1989 .. 1998',
+            aliases: [
+              'Volvo 940 1998',
+              '1989 .. 1998',
+              '5x108'
+            ],
+            years: '1998-1998',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-229',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo 940 1998 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/940/1998/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo 940 1989 .. 1998, 1998, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-229',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo 940 940 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/940/940%20%281990%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1990-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '850',
+        slug: '850',
+        records: [
+          {
+            id: 'pcd-b3-volvo-850-1991-1997-1997-5x108',
+            generation: '1991 .. 1997',
+            aliases: [
+              'Volvo 850 1997',
+              '1991 .. 1997',
+              '5x108'
+            ],
+            years: '1997-1997',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.75',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-232',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo 850 1997 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/850/1997/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo 850 1991 .. 1997, 1997, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-232',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo 850 850 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/850/850%20%281993%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-1997',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '360',
+        slug: '360',
+        records: [
+          {
+            id: 'pcd-b3-volvo-360-1983-1991-1991-4x100',
+            generation: '1983 .. 1991',
+            aliases: [
+              'Volvo 360 1991',
+              '1983 .. 1991',
+              '4x100'
+            ],
+            years: '1991-1991',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '52.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-250',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo 360 1991 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/360/1991/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Volvo 360 1983 .. 1991, 1991, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-250',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo 360 360 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/360/360%20%281983%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1983-1991',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       }
@@ -26611,6 +43390,144 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-fiat-ducato-iii-250-2011-5x118',
+            generation: 'III (250)',
+            aliases: [
+              'Fiat Ducato 2011',
+              'III (250)',
+              '5x118'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-12',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Ducato 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/ducato/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Ducato III (250), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-12',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Ducato Ducato wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Ducato/Ducato%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2010-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-fiat-ducato-ii-244-facelift-2006-5x118',
+            generation: 'II (244) Facelift',
+            aliases: [
+              'Fiat Ducato 2006',
+              'II (244) Facelift',
+              '5x118'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-116',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Ducato 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/ducato/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Ducato II (244) Facelift, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-116',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Ducato Ducato wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Ducato/Ducato%20%281994%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -27132,6 +44049,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-fiat-strada-178-2003-4x98',
+            generation: '178',
+            aliases: [
+              'Fiat Strada 2003',
+              '178',
+              '4x98'
+            ],
+            years: '2003-2003',
+            market: 'some markets',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-371',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Strada 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/strada/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Strada 178, 2003, Latin American domestic market (LADM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-371',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Strada Strada wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Strada/Strada%20%281996%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -27280,6 +44266,819 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Punto Evo',
+        slug: 'punto-evo',
+        records: [
+          {
+            id: 'pcd-b3-fiat-punto-evo-199-2011-4x100',
+            generation: '199',
+            aliases: [
+              'Fiat Punto Evo 2011',
+              '199',
+              '4x100'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-13',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Punto Evo 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/punto-evo/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Punto Evo 199, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-13',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Punto Evo Punto Evo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Punto%20Evo/Punto%20Evo%20%282009%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Multipla',
+        slug: 'multipla',
+        records: [
+          {
+            id: 'pcd-b3-fiat-multipla-186-facelift-2010-4x98',
+            generation: '186 Facelift',
+            aliases: [
+              'Fiat Multipla 2010',
+              '186 Facelift',
+              '4x98'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31.5',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-63',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Multipla 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/multipla/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Multipla 186 Facelift, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-63',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Multipla Multipla wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Multipla/Multipla%20%281999%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ulysse',
+        slug: 'ulysse',
+        records: [
+          {
+            id: 'pcd-b3-fiat-ulysse-179-2010-5x98',
+            generation: '179',
+            aliases: [
+              'Fiat Ulysse 2010',
+              '179',
+              '5x98'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-64',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Ulysse 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/ulysse/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Ulysse 179, 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-64',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Ulysse Ulysse wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Ulysse/Ulysse%20%282003%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-fiat-ulysse-220-1999-5x98',
+            generation: '220',
+            aliases: [
+              'Fiat Ulysse 1999',
+              '220',
+              '5x98'
+            ],
+            years: '1999-1999',
+            market: 'EU',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-217',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Ulysse 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/ulysse/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Ulysse 220, 1999, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-217',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Ulysse Ulysse wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Ulysse/Ulysse%20%281994%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Croma',
+        slug: 'croma',
+        records: [
+          {
+            id: 'pcd-b3-fiat-croma-194-2007-5x110',
+            generation: '194',
+            aliases: [
+              'Fiat Croma 2007',
+              '194',
+              '5x110'
+            ],
+            years: '2007-2007',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-105',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Croma 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/croma/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Croma 194, 2007, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-105',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Croma Croma wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Croma/Croma%20%282005%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Punto',
+        slug: 'punto',
+        records: [
+          {
+            id: 'pcd-b3-fiat-punto-188-facelift-2007-4x98',
+            generation: '188 Facelift',
+            aliases: [
+              'Fiat Punto 2007',
+              '188 Facelift',
+              '4x98'
+            ],
+            years: '2007-2007',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-106',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Punto 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/punto/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Punto 188 Facelift, 2007, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-106',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Punto Punto wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Punto/Punto%20%281999%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-fiat-punto-176-1999-4x98',
+            generation: '176',
+            aliases: [
+              'Fiat Punto 1999',
+              '176',
+              '4x98'
+            ],
+            years: '1999-1999',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-216',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Punto 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/punto/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Punto 176, 1999, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-216',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Punto Punto wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Punto/Punto%20%281993%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Stilo',
+        slug: 'stilo',
+        records: [
+          {
+            id: 'pcd-b3-fiat-stilo-192-2007-4x98',
+            generation: '192',
+            aliases: [
+              'Fiat Stilo 2007',
+              '192',
+              '4x98'
+            ],
+            years: '2007-2007',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-107',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Stilo 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/stilo/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Stilo 192, 2007, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-107',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Stilo Stilo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Stilo/Stilo%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Barchetta',
+        slug: 'barchetta',
+        records: [
+          {
+            id: 'pcd-b3-fiat-barchetta-183-2005-4x98',
+            generation: '183',
+            aliases: [
+              'Fiat Barchetta 2005',
+              '183',
+              '4x98'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-135',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Barchetta 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/barchetta/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Barchetta 183, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-135',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Barchetta Barchetta wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Barchetta/Barchetta%20%281995%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Seicento',
+        slug: 'seicento',
+        records: [
+          {
+            id: 'pcd-b3-fiat-seicento-187-2005-4x98',
+            generation: '187',
+            aliases: [
+              'Fiat Seicento 2005',
+              '187',
+              '4x98'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-136',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Seicento 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/seicento/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Seicento 187, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-136',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Seicento Seicento wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Seicento/Seicento%20%281998%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Marea',
+        slug: 'marea',
+        records: [
+          {
+            id: 'pcd-b3-fiat-marea-185-2001-4x98',
+            generation: '185',
+            aliases: [
+              'Fiat Marea 2001',
+              '185',
+              '4x98'
+            ],
+            years: '2001-2001',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-195',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Marea 2001 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/marea/2001/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fiat Marea 185, 2001, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-195',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Marea Marea wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Marea/Marea%20%281996%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -27503,6 +45302,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Cooper',
+        slug: 'cooper',
+        records: [
+          {
+            id: 'pcd-b3-mini-cooper-i-2006-4x100',
+            generation: 'I',
+            aliases: [
+              'Mini Cooper 2006',
+              'I',
+              '4x100'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-124',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mini Cooper 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mini/cooper/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Mini Cooper I, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-124',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini Cooper Cooper wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mini/Cooper/Cooper%20%282001%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -27710,6 +45584,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Boxster',
+        slug: 'boxster',
+        records: [
+          {
+            id: 'pcd-b3-porsche-boxster-ii-987-facelift-2011-5x130',
+            generation: 'II (987) Facelift',
+            aliases: [
+              'Porsche Boxster 2011',
+              'II (987) Facelift',
+              '5x130'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-41',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Porsche Boxster 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/porsche/boxster/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Porsche Boxster II (987) Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-41',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche Boxster Boxster wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/Boxster/Boxster%20%281996%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cayman',
+        slug: 'cayman',
+        records: [
+          {
+            id: 'pcd-b3-porsche-cayman-i-987-facelift-2011-5x130',
+            generation: 'I (987) Facelift',
+            aliases: [
+              'Porsche Cayman 2011',
+              'I (987) Facelift',
+              '5x130'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-42',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Porsche Cayman 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/porsche/cayman/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Porsche Cayman I (987) Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-42',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche Cayman Cayman wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/Cayman/Cayman%20%282004%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2004-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Panamera',
+        slug: 'panamera',
+        records: [
+          {
+            id: 'pcd-b3-porsche-panamera-g1-970-2011-5x130',
+            generation: 'G1 (970)',
+            aliases: [
+              'Porsche Panamera 2011',
+              'G1 (970)',
+              '5x130'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-43',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Porsche Panamera 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/porsche/panamera/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Porsche Panamera G1 (970), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-43',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche Panamera Panamera wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/Panamera/Panamera%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -28814,6 +46913,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Arnage',
+        slug: 'arnage',
+        records: [
+          {
+            id: 'pcd-b3-bentley-arnage-i-facelift-2002-5x120',
+            generation: 'I Facelift',
+            aliases: [
+              'Bentley Arnage 2002',
+              'I Facelift',
+              '5x120'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-182',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Bentley Arnage 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/bentley/arnage/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Bentley Arnage I Facelift, 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-182',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bentley Arnage Arnage wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Bentley/Arnage/Arnage%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -28966,6 +47140,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'LaCrosse',
+        slug: 'lacrosse',
+        records: [
+          {
+            id: 'pcd-b3-buick-lacrosse-i-facelift-2009-5x115',
+            generation: 'I Facelift',
+            aliases: [
+              'Buick LaCrosse 2009',
+              'I Facelift',
+              '5x115'
+            ],
+            years: '2009-2009',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-330',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick LaCrosse 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/lacrosse/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Buick LaCrosse I Facelift, 2009, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-330',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick LaCrosse LaCrosse wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Buick/LaCrosse/LaCrosse%20%282009%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Park Avenue',
+        slug: 'park-avenue',
+        records: [
+          {
+            id: 'pcd-b3-buick-park-avenue-ii-2005-5x115',
+            generation: 'II',
+            aliases: [
+              'Buick Park Avenue 2005',
+              'II',
+              '5x115'
+            ],
+            years: '2005-2005',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-340',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick Park Avenue 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/park-avenue/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Buick Park Avenue II, 2005, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-340',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick Park Avenue Park Avenue wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Buick/Park%20Avenue/Park%20Avenue%20%281991%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Roadmaster',
+        slug: 'roadmaster',
+        records: [
+          {
+            id: 'pcd-b3-buick-roadmaster-1991-1996-1996-5x127',
+            generation: '1991 .. 1996',
+            aliases: [
+              'Buick Roadmaster 1996',
+              '1991 .. 1996',
+              '5x127'
+            ],
+            years: '1996-1996',
+            market: 'US',
+            pcd: '5x127',
+            centerBore: '78.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET8',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-355',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick Roadmaster 1996 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/roadmaster/1996/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Buick Roadmaster 1991 .. 1996, 1996, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-355',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick Roadmaster Roadmaster wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Buick/Roadmaster/Roadmaster%20%281991%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -29501,6 +47900,300 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'BLS',
+        slug: 'bls',
+        records: [
+          {
+            id: 'pcd-b3-cadillac-bls-gm-epsilon-2009-5x110',
+            generation: 'GM Epsilon',
+            aliases: [
+              'Cadillac BLS 2009',
+              'GM Epsilon',
+              '5x110'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-81',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac BLS 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/cadillac/bls/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Cadillac BLS GM Epsilon, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-81',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac BLS BLS wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/BLS/BLS%20%282005%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XLR',
+        slug: 'xlr',
+        records: [
+          {
+            id: 'pcd-b3-cadillac-xlr-y-body-2009-5x120-65',
+            generation: 'Y-body',
+            aliases: [
+              'Cadillac XLR 2009',
+              'Y-body',
+              '5x120.65'
+            ],
+            years: '2009-2009',
+            market: 'US',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET61',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-331',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac XLR 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/cadillac/xlr/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Cadillac XLR Y-body, 2009, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-331',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac XLR XLR wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/XLR/XLR%20%282003%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Seville',
+        slug: 'seville',
+        records: [
+          {
+            id: 'pcd-b3-cadillac-seville-g-body-2004-5x115',
+            generation: 'G-body',
+            aliases: [
+              'Cadillac Seville 2004',
+              'G-body',
+              '5x115'
+            ],
+            years: '2004-2004',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-346',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac Seville 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/cadillac/seville/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Cadillac Seville G-body, 2004, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-346',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac Seville Seville wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/Seville/Seville%20%281998%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-cadillac-seville-k-body-iv-1994-5x115',
+            generation: 'K-body IV',
+            aliases: [
+              'Cadillac Seville 1994',
+              'K-body IV',
+              '5x115'
+            ],
+            years: '1994-1994',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-358',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac Seville 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/cadillac/seville/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Cadillac Seville K-body IV, 1994, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-358',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac Seville Seville wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/Seville/Seville%20%281992%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-1997',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -29961,6 +48654,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-dacia-duster-i-hs-2011-5x114-3',
+            generation: 'I (HS)',
+            aliases: [
+              'Dacia Duster 2011',
+              'I (HS)',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-5',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dacia Duster 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/dacia/duster/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Dacia Duster I (HS), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-5',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dacia Duster Duster wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dacia/Duster/Duster%20%282010%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2010-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -30184,6 +48946,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-dacia-logan-mcv-i-l90-u90-facelift-2011-4x100',
+            generation: 'I (L90/U90)Facelift',
+            aliases: [
+              'Dacia Logan MCV 2011',
+              'I (L90/U90)Facelift',
+              '4x100'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-6',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dacia Logan MCV 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/dacia/logan-mcv/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Dacia Logan MCV I (L90/U90)Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-6',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dacia Logan MCV Logan MCV wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dacia/Logan%20MCV/Logan%20MCV%20%282005%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2013',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -30571,6 +49402,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-gmc-terrain-gm-theta-2011-5x120',
+            generation: 'GM Theta',
+            aliases: [
+              'GMC Terrain 2011',
+              'GM Theta',
+              '5x120'
+            ],
+            years: '2011-2011',
+            market: 'US',
+            pcd: '5x120',
+            centerBore: '66.9',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-326',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'GMC Terrain 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/gmc/terrain/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; GMC Terrain GM Theta, 2011, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-326',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'GMC Terrain Terrain wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/GMC/Terrain/Terrain%20%282010%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2010-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -31337,6 +50237,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'XK Serie',
+        slug: 'xk-serie',
+        records: [
+          {
+            id: 'pcd-b3-jaguar-xk-serie-x150-2011-5x108',
+            generation: 'X150',
+            aliases: [
+              'Jaguar XK Serie 2011',
+              'X150',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-21',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Jaguar XK Serie 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/jaguar/xk/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Jaguar XK Serie X150, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-21',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jaguar XK Serie XK Serie wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Jaguar/XK%20Serie/XK%20Serie%20%282006%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-2015',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S-Type',
+        slug: 's-type',
+        records: [
+          {
+            id: 'pcd-b3-jaguar-s-type-ccx-2006-5x108',
+            generation: 'CCX',
+            aliases: [
+              'Jaguar S-Type 2006',
+              'CCX',
+              '5x108'
+            ],
+            years: '2006-2006',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '128 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-120',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Jaguar S-Type 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/jaguar/s-type/2006/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Jaguar S-Type CCX, 2006, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-120',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jaguar S-Type S-Type wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Jaguar/S-Type/S-Type%20%281999%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -31497,6 +50547,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b3-opel-corsa-b-s93-2000-4x100',
+            generation: 'B (S93)',
+            aliases: [
+              'Opel Corsa 2000',
+              'B (S93)',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-208',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Corsa 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/corsa/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Corsa B (S93), 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-208',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Corsa Corsa B wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Corsa/Corsa%20B%20%281993%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
           }
         ]
       },
@@ -31570,6 +50689,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-opel-movano-i-a-2010-5x130',
+            generation: 'I (A)',
+            aliases: [
+              'Opel Movano 2010',
+              'I (A)',
+              '5x130'
+            ],
+            years: '2010-2010',
+            market: 'EU',
+            pcd: '5x130',
+            centerBore: '89.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET66',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-72',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Movano 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/vauxhall/movano/2010/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Movano I (A), 2010, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-72',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Movano Movano wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Movano/Movano%20%282000%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -31720,6 +50908,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-opel-combo-c-2001-4x100',
+            generation: 'C',
+            aliases: [
+              'Opel Combo 2001',
+              'C',
+              '4x100'
+            ],
+            years: '2001-2001',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-198',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Combo 2001 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/vauxhall/combo/2001/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Combo C, 2001, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-198',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Combo Combo wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Combo/Combo%20%281994%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -32168,6 +51425,750 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Corsa OPC',
+        slug: 'corsa-opc',
+        records: [
+          {
+            id: 'pcd-b3-opel-corsa-opc-a-2011-5x110',
+            generation: 'A',
+            aliases: [
+              'Opel Corsa OPC 2011',
+              'A',
+              '5x110'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-34',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Corsa OPC 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/corsa-opc/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Corsa OPC A, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-34',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Corsa OPC Corsa D OPC wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Corsa%20OPC/Corsa%20D%20OPC%20%282007%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2007-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Insignia',
+        slug: 'insignia',
+        records: [
+          {
+            id: 'pcd-b3-opel-insignia-a-g09-2011-5x120',
+            generation: 'A (G09)',
+            aliases: [
+              'Opel Insignia 2011',
+              'A (G09)',
+              '5x120'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-35',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Insignia 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/vauxhall/insignia/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Insignia A (G09), 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-35',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Insignia Insignia wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Insignia/Insignia%20%282008%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2008-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Insignia OPC',
+        slug: 'insignia-opc',
+        records: [
+          {
+            id: 'pcd-b3-opel-insignia-opc-a-2011-5x120',
+            generation: 'A',
+            aliases: [
+              'Opel Insignia OPC 2011',
+              'A',
+              '5x120'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-36',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Insignia OPC 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/insignia-opc/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Insignia OPC A, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-36',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Insignia OPC Insignia OPC wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Insignia%20OPC/Insignia%20OPC%20%282008%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2008-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Vectra',
+        slug: 'vectra',
+        records: [
+          {
+            id: 'pcd-b3-opel-vectra-c-facelift-2008-5x110',
+            generation: 'C Facelift',
+            aliases: [
+              'Opel Vectra 2008',
+              'C Facelift',
+              '5x110'
+            ],
+            years: '2008-2008',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-102',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Vectra 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/vectra/2008/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Vectra C Facelift, 2008, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-102',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Vectra Vectra C wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Vectra/Vectra%20C%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2002-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Speedster',
+        slug: 'speedster',
+        records: [
+          {
+            id: 'pcd-b3-opel-speedster-2000-2005-2005-5x110',
+            generation: '2000 .. 2005',
+            aliases: [
+              'Opel Speedster 2005',
+              '2000 .. 2005',
+              '5x110'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET26',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-143',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Speedster 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/speedster/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Speedster 2000 .. 2005, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-143',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Speedster Speedster wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Speedster/Speedster%20%282000%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Zafira',
+        slug: 'zafira',
+        records: [
+          {
+            id: 'pcd-b3-opel-zafira-a-2005-5x110',
+            generation: 'A',
+            aliases: [
+              'Opel Zafira 2005',
+              'A',
+              '5x110'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-144',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Zafira 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/vauxhall/zafira/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Zafira A, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-144',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Zafira Zafira wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Zafira/Zafira%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Omega',
+        slug: 'omega',
+        records: [
+          {
+            id: 'pcd-b3-opel-omega-b-2003-5x110',
+            generation: 'B',
+            aliases: [
+              'Opel Omega 2003',
+              'B',
+              '5x110'
+            ],
+            years: '2003-2003',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-177',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Omega 2003 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/omega/2003/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Omega B, 2003, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-177',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Omega Omega B wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Omega/Omega%20B%20%281994%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-opel-omega-a-1994-5x110',
+            generation: 'A',
+            aliases: [
+              'Opel Omega 1994',
+              'A',
+              '5x110'
+            ],
+            years: '1994-1994',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-240',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Omega 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/omega/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Omega A, 1994, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-240',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Omega Omega A wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Omega/Omega%20A%20%281986%20-%201994%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1986-1994',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tigra',
+        slug: 'tigra',
+        records: [
+          {
+            id: 'pcd-b3-opel-tigra-a-2000-4x100',
+            generation: 'A',
+            aliases: [
+              'Opel Tigra 2000',
+              'A',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-209',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Tigra 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/vauxhall/tigra/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Tigra A, 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-209',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Tigra Tigra wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Tigra/Tigra%20%281994%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Monterey',
+        slug: 'monterey',
+        records: [
+          {
+            id: 'pcd-b3-opel-monterey-a-facelift-1999-6x139-7',
+            generation: 'A Facelift',
+            aliases: [
+              'Opel Monterey 1999',
+              'A Facelift',
+              '6x139.7'
+            ],
+            years: '1999-1999',
+            market: 'EU',
+            pcd: '6x139.7',
+            centerBore: '100.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '118 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-221',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Monterey 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/monterey/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Opel Monterey A Facelift, 1999, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-221',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Monterey Monterey wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Monterey/Monterey%20%281991%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1991-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -32245,6 +52246,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Latigo CS',
+        slug: 'latigo-cs',
+        records: [
+          {
+            id: 'pcd-b3-fisker-latigo-cs-i-2007-5x120',
+            generation: 'I',
+            aliases: [
+              'Fisker Latigo CS 2007',
+              'I',
+              '5x120'
+            ],
+            years: '2007-2007',
+            market: 'US',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET10',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-335',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fisker Latigo CS 2007 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fisker/latigo-cs/2007/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Fisker Latigo CS I, 2007, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-335',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fisker Latigo CS Latigo CS wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fisker/Latigo%20CS/Latigo%20CS%20%282005%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -32867,6 +52943,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'ZS',
+        slug: 'zs',
+        records: [
+          {
+            id: 'pcd-b3-mg-zs-2001-2005-2005-4x100',
+            generation: '2001 .. 2005',
+            aliases: [
+              'MG ZS 2005',
+              '2001 .. 2005',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-140',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG ZS 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mg/zs/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; MG ZS 2001 .. 2005, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-140',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG ZS ZS wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/MG/ZS/ZS%20%282001%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2001-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -33254,6 +53405,600 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Cuore',
+        slug: 'cuore',
+        records: [
+          {
+            id: 'pcd-b3-daihatsu-cuore-l276-2011-4x100',
+            generation: 'L276',
+            aliases: [
+              'Daihatsu Cuore 2011',
+              'L276',
+              '4x100'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-7',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Cuore 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/cuore/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Daihatsu Cuore L276, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-7',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Cuore Cuore wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Cuore/Cuore%20%282003%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sirion',
+        slug: 'sirion',
+        records: [
+          {
+            id: 'pcd-b3-daihatsu-sirion-m100-2004-4x100',
+            generation: 'M100',
+            aliases: [
+              'Daihatsu Sirion 2004',
+              'M100',
+              '4x100'
+            ],
+            years: '2004-2004',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-162',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Sirion 2004 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/sirion/2004/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Daihatsu Sirion M100, 2004, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-162',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Sirion Sirion wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Sirion/Sirion%20%281998%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mira Gino',
+        slug: 'mira-gino',
+        records: [
+          {
+            id: 'pcd-b3-daihatsu-mira-gino-l650-2009-4x100',
+            generation: 'L650',
+            aliases: [
+              'Daihatsu Mira Gino 2009',
+              'L650',
+              '4x100'
+            ],
+            years: '2009-2009',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-273',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Mira Gino 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/mira-gino/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Daihatsu Mira Gino L650, 2009, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-273',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Mira Gino Mira Gino wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Mira%20Gino/Mira%20Gino%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2006-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'YRV',
+        slug: 'yrv',
+        records: [
+          {
+            id: 'pcd-b3-daihatsu-yrv-m200-2005-4x100',
+            generation: 'M200',
+            aliases: [
+              'Daihatsu YRV 2005',
+              'M200',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-284',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu YRV 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/yrv/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Daihatsu YRV M200, 2005, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-284',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu YRV YRV wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/YRV/YRV%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Applause',
+        slug: 'applause',
+        records: [
+          {
+            id: 'pcd-b3-daihatsu-applause-a100-facelift-2000-4x100',
+            generation: 'A100 Facelift',
+            aliases: [
+              'Daihatsu Applause 2000',
+              'A100 Facelift',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-299',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Applause 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/applause/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Daihatsu Applause A100 Facelift, 2000, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-299',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Applause Applause wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Applause/Applause%20%281989%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Charade',
+        slug: 'charade',
+        records: [
+          {
+            id: 'pcd-b3-daihatsu-charade-g200-2000-4x100',
+            generation: 'G200',
+            aliases: [
+              'Daihatsu Charade 2000',
+              'G200',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '99 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-300',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Charade 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/charade/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Daihatsu Charade G200, 2000, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-300',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Charade Charade wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Charade/Charade%20%281993%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-daihatsu-charade-g100-1993-4x100',
+            generation: 'G100',
+            aliases: [
+              'Daihatsu Charade 1993',
+              'G100',
+              '4x100'
+            ],
+            years: '1993-1993',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '99 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-318',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Charade 1993 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/charade/1993/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Daihatsu Charade G100, 1993, Japanese domestic market (JDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-318',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Charade Charade wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Charade/Charade%20%281987%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1987-1993',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Gran Move',
+        slug: 'gran-move',
+        records: [
+          {
+            id: 'pcd-b3-daihatsu-gran-move-1996-2002-2002-4x100',
+            generation: '1996 .. 2002',
+            aliases: [
+              'Daihatsu Gran Move 2002',
+              '1996 .. 2002',
+              '4x100'
+            ],
+            years: '2002-2002',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-372',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Gran Move 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/gran-move/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Daihatsu Gran Move 1996 .. 2002, 2002, Southeast Asian Market (SAM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-372',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Gran Move Gran Move wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Gran%20Move/Gran%20Move%20%281997%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1997-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -33331,6 +54076,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ypsilon',
+        slug: 'ypsilon',
+        records: [
+          {
+            id: 'pcd-b3-lancia-ypsilon-ii-type-843-facelift-2011-4x98',
+            generation: 'II (Type 843) Facelift',
+            aliases: [
+              'Lancia Ypsilon 2011',
+              'II (Type 843) Facelift',
+              '4x98'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-24',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lancia Ypsilon 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/lancia/ypsilon/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Lancia Ypsilon II (Type 843) Facelift, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-24',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lancia Ypsilon Ypsilon wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lancia/Ypsilon/Ypsilon%20%282003%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2003-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
@@ -33493,6 +54313,1731 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-saab-9-3-i-ys3d-2002-5x110',
+            generation: 'I (YS3D)',
+            aliases: [
+              'Saab 9-3 2002',
+              'I (YS3D)',
+              '5x110'
+            ],
+            years: '2002-2002',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-191',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Saab 9-3 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/saab/9-3/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Saab 9-3 I (YS3D), 2002, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-191',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-3 9-3 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-3/9-3%20%281998%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1998-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '9-3X',
+        slug: '9-3x',
+        records: [
+          {
+            id: 'pcd-b3-saab-9-3x-ys3d-2011-5x110',
+            generation: 'YS3D',
+            aliases: [
+              'Saab 9-3X 2011',
+              'YS3D',
+              '5x110'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-45',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Saab 9-3X 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/saab/9-3x/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Saab 9-3X YS3D, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-45',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-3X 9-3X wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-3X/9-3X%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '9-4X',
+        slug: '9-4x',
+        records: [
+          {
+            id: 'pcd-b3-saab-9-4x-2011-2011-2011-6x120',
+            generation: '2011 .. 2011',
+            aliases: [
+              'Saab 9-4X 2011',
+              '2011 .. 2011',
+              '6x120'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '6x120',
+            centerBore: '66.9',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET53',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-46',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Saab 9-4X 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/saab/9-4x/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Saab 9-4X 2011 .. 2011, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-46',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-4X 9-4X wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-4X/9-4X%20%282011%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2011-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '9-5',
+        slug: '9-5',
+        records: [
+          {
+            id: 'pcd-b3-saab-9-5-i-ys3e-facelift-2009-5x110',
+            generation: 'I (YS3E) Facelift',
+            aliases: [
+              'Saab 9-5 2009',
+              'I (YS3E) Facelift',
+              '5x110'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-88',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Saab 9-5 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/saab/9-5/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Saab 9-5 I (YS3E) Facelift, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-88',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-5 9-5 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-5/9-5%20%282005%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2005-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-saab-9-5-i-ys3e-2005-5x110',
+            generation: 'I (YS3E)',
+            aliases: [
+              'Saab 9-5 2005',
+              'I (YS3E)',
+              '5x110'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-149',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Saab 9-5 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/saab/9-5/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Saab 9-5 I (YS3E), 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-149',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-5 9-5 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-5/9-5%20%281997%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1997-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '900',
+        slug: '900',
+        records: [
+          {
+            id: 'pcd-b3-saab-900-ii-ng-1998-5x110',
+            generation: 'II (NG)',
+            aliases: [
+              'Saab 900 1998',
+              'II (NG)',
+              '5x110'
+            ],
+            years: '1998-1998',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-226',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Saab 900 1998 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/saab/900/1998/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Saab 900 II (NG), 1998, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-226',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 900 900 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/900/900%20%281994%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1994-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Ferrari',
+    slug: 'ferrari',
+    models: [
+      {
+        name: '458 Italia',
+        slug: '458-italia',
+        records: [
+          {
+            id: 'pcd-b3-ferrari-458-italia-2009-2015-2011-5x114-3',
+            generation: '2009 .. 2015',
+            aliases: [
+              'Ferrari 458 Italia 2011',
+              '2009 .. 2015',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-9',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ferrari 458 Italia 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ferrari/458-italia/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ferrari 458 Italia 2009 .. 2015, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-9',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari 458 Italia 458 Italia wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/458%20Italia/458%20Italia%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2010-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '458 Spider',
+        slug: '458-spider',
+        records: [
+          {
+            id: 'pcd-b3-ferrari-458-spider-2011-2015-2011-5x114-3',
+            generation: '2011 .. 2015',
+            aliases: [
+              'Ferrari 458 Spider 2011',
+              '2011 .. 2015',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ferrari 458 Spider 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ferrari/458-spider/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ferrari 458 Spider 2011 .. 2015, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari 458 Spider 458 Spider wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/458%20Spider/458%20Spider%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2011-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'California',
+        slug: 'california',
+        records: [
+          {
+            id: 'pcd-b3-ferrari-california-2008-2014-2011-5x114-3',
+            generation: '2008 .. 2014',
+            aliases: [
+              'Ferrari California 2011',
+              '2008 .. 2014',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-11',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ferrari California 2011 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ferrari/california/2011/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Ferrari California 2008 .. 2014, 2011, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-11',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari California California wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/California/California%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2009-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Lada',
+    slug: 'lada',
+    models: [
+      {
+        name: 'Niva',
+        slug: 'niva',
+        records: [
+          {
+            id: 'pcd-b3-lada-niva-2121x-2131x-2009-5x139-7',
+            generation: '2121x/2131x',
+            aliases: [
+              'Lada Niva 2009',
+              '2121x/2131x',
+              '5x139.7'
+            ],
+            years: '2009-2009',
+            market: 'EU',
+            pcd: '5x139.7',
+            centerBore: '98.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET58',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-84',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lada Niva 2009 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/lada/niva/2009/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Lada Niva 2121x/2131x, 2009, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-84',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lada Niva Niva wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lada/Niva/Niva%20%281977%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1977-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Rover',
+    slug: 'rover',
+    models: [
+      {
+        name: '25',
+        slug: '25',
+        records: [
+          {
+            id: 'pcd-b3-rover-25-facelift-2005-4x100',
+            generation: 'Facelift',
+            aliases: [
+              'Rover 25 2005',
+              'Facelift',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-146',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Rover 25 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/rover/25/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Rover 25 Facelift, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-146',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover 25 25 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/25/25%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '45',
+        slug: '45',
+        records: [
+          {
+            id: 'pcd-b3-rover-45-facelift-2005-4x100',
+            generation: 'Facelift',
+            aliases: [
+              'Rover 45 2005',
+              'Facelift',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-147',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Rover 45 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/rover/45/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Rover 45 Facelift, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-147',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover 45 45 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/45/45%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '75',
+        slug: '75',
+        records: [
+          {
+            id: 'pcd-b3-rover-75-facelift-2005-5x100',
+            generation: 'Facelift',
+            aliases: [
+              'Rover 75 2005',
+              'Facelift',
+              '5x100'
+            ],
+            years: '2005-2005',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-148',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Rover 75 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/rover/75/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Rover 75 Facelift, 2005, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-148',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover 75 75 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/75/75%20%281999%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '200-Serie',
+        slug: '200-serie',
+        records: [
+          {
+            id: 'pcd-b3-rover-200-serie-iii-rf-2000-4x100',
+            generation: 'III (RF)',
+            aliases: [
+              'Rover 200-Serie 2000',
+              'III (RF)',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-211',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Rover 200-Serie 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/rover/200/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Rover 200-Serie III (RF), 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-211',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover 200-Serie 200-Serie wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/200-Serie/200-Serie%20%281996%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1996-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '400-Serie',
+        slug: '400-serie',
+        records: [
+          {
+            id: 'pcd-b3-rover-400-serie-ii-rt-2000-4x100',
+            generation: 'II (RT)',
+            aliases: [
+              'Rover 400-Serie 2000',
+              'II (RT)',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-212',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Rover 400-Serie 2000 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/rover/400/2000/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Rover 400-Serie II (RT), 2000, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-212',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover 400-Serie 400-Serie wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/400-Serie/400-Serie%20%281989%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1989-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '600-Serie',
+        slug: '600-serie',
+        records: [
+          {
+            id: 'pcd-b3-rover-600-serie-1993-1999-1999-4x114-3',
+            generation: '1993 .. 1999',
+            aliases: [
+              'Rover 600-Serie 1999',
+              '1993 .. 1999',
+              '4x114.3'
+            ],
+            years: '1999-1999',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-222',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Rover 600-Serie 1999 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/rover/600/1999/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Rover 600-Serie 1993 .. 1999, 1999, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-222',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover 600-Serie 600-Serie wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/600-Serie/600-Serie%20%281993%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '800-Serie',
+        slug: '800-serie',
+        records: [
+          {
+            id: 'pcd-b3-rover-800-serie-facelift-1998-4x114-3',
+            generation: 'Facelift',
+            aliases: [
+              'Rover 800-Serie 1998',
+              'Facelift',
+              '4x114.3'
+            ],
+            years: '1998-1998',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-225',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Rover 800-Serie 1998 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/rover/800/1998/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Rover 800-Serie Facelift, 1998, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-225',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover 800-Serie 800-Serie wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/800-Serie/800-Serie%20%281992%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1992-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-rover-800-serie-1986-1991-1991-4x114-3',
+            generation: '1986 .. 1991',
+            aliases: [
+              'Rover 800-Serie 1991',
+              '1986 .. 1991',
+              '4x114.3'
+            ],
+            years: '1991-1991',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-249',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Rover 800-Serie 1991 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/rover/800/1991/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Rover 800-Serie 1986 .. 1991, 1991, European domestic market (EUDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-249',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover 800-Serie 800-Serie wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/800-Serie/800-Serie%20%281986%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1986-1991',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Pontiac',
+    slug: 'pontiac',
+    models: [
+      {
+        name: 'Grand Am',
+        slug: 'grand-am',
+        records: [
+          {
+            id: 'pcd-b3-pontiac-grand-am-n-body-2005-5x115',
+            generation: 'N-body',
+            aliases: [
+              'Pontiac Grand Am 2005',
+              'N-body',
+              '5x115'
+            ],
+            years: '2005-2005',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-343',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Pontiac Grand Am 2005 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/pontiac/grand-am/2005/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Pontiac Grand Am N-body, 2005, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-343',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Grand Am Grand Am wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Grand%20Am/Grand%20Am%20%281999%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1999-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Firebird',
+        slug: 'firebird',
+        records: [
+          {
+            id: 'pcd-b3-pontiac-firebird-f-body-iv-facelift-2002-5x120-65',
+            generation: 'F-body IV Facelift',
+            aliases: [
+              'Pontiac Firebird 2002',
+              'F-body IV Facelift',
+              '5x120.65'
+            ],
+            years: '2002-2002',
+            market: 'US',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-350',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Pontiac Firebird 2002 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/pontiac/firebird/2002/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Pontiac Firebird F-body IV Facelift, 2002, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-350',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Firebird Firebird wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Firebird/Firebird%20%281993%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1993-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b3-pontiac-firebird-f-body-iii-1983-5x120-65',
+            generation: 'F-body III',
+            aliases: [
+              'Pontiac Firebird 1983',
+              'F-body III',
+              '5x120.65'
+            ],
+            years: '1983-1983',
+            market: 'US',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET12',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-366',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Pontiac Firebird 1983 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/pontiac/firebird/1983/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Pontiac Firebird F-body III, 1983, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-366',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Firebird Firebird wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Firebird/Firebird%20%281982%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1982-1992',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sunfire',
+        slug: 'sunfire',
+        records: [
+          {
+            id: 'pcd-b3-pontiac-sunfire-j-body-1995-5x100',
+            generation: 'J-body',
+            aliases: [
+              'Pontiac Sunfire 1995',
+              'J-body',
+              '5x100'
+            ],
+            years: '1995-1995',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-357',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Pontiac Sunfire 1995 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/pontiac/sunfire/1995/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Pontiac Sunfire J-body, 1995, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-357',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Sunfire Sunfire wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Sunfire/Sunfire%20%281995%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1995-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sunbird',
+        slug: 'sunbird',
+        records: [
+          {
+            id: 'pcd-b3-pontiac-sunbird-j-body-ii-1994-5x100',
+            generation: 'J-Body II',
+            aliases: [
+              'Pontiac Sunbird 1994',
+              'J-Body II',
+              '5x100'
+            ],
+            years: '1994-1994',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b3-src-avto-359',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Pontiac Sunbird 1994 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/pontiac/sunbird/1994/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact model-year page; Pontiac Sunbird J-Body II, 1994, US domestic market (USDM)',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Professional technical reference; independently corroborated for production use.'
+              },
+              {
+                id: 'pcd-b3-src-wheel-359',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Sunbird Sunbird wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Sunbird/Sunbird%20%281988%20-%201994%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Exact generation page covering 1988-1994',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
           }
