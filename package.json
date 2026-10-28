@@ -9,6 +9,7 @@
     "pcd:batch1:test": "node tests/pcd/pcd-batch-1-production.test.mjs",
     "pcd:batch2:test": "node tests/pcd/pcd-batch-2-production.test.mjs",
     "pcd:batch3:test": "node tests/pcd/pcd-batch-3-production.test.mjs",
+    "pcd:batch4:test": "node tests/pcd/pcd-batch-4-production.test.mjs",
     "pcd:security:test": "node tests/pcd/pcd-security.test.mjs",
     "engines:validate": "node scripts/engines/validate-engine-data.mjs",
     "engines:legacy-identity-migration-policy:test": "node scripts/engines/legacy-identity-migration-policy.test.mjs",
@@ -20,6 +21,6 @@
     "engines:compare": "node scripts/engines/semantic-compare-engine-data.mjs",
     "engines:legacy-compare": "node scripts/engines/semantic-compare-engine-data.mjs --legacy-head",
     "engines:check": "npm run engines:legacy-identity-migration-policy:test && npm run engines:verification-policy:test && npm run engines:validate && npm run engines:generate:check && npm run engines:smoke && npm run engines:compare",
-    "test": "npm run site:contract && npm run pcd:check && npm run pcd:test && npm run pcd:batch1:test && npm run pcd:batch2:test && npm run pcd:batch3:test && npm run pcd:security:test && npm run engines:ui && npm run engines:check"
+    "test": "npm run site:contract && npm run pcd:check && npm run pcd:test && npm run pcd:batch1:test && npm run pcd:batch2:test && npm run pcd:batch3:test && npm run pcd:batch4:test && npm run pcd:security:test && npm run engines:ui && npm run engines:check"
   }
 }
