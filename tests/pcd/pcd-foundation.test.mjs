@@ -87,10 +87,10 @@ function offsetLabel(record) {
 
 const source = loadPcdSource();
 const summary = validatePcdData(source);
-check(summary.records === 909, `Expected 909 PCD records, found ${summary.records}`);
-check(summary.makers === 59, `Expected 59 PCD makers, found ${summary.makers}`);
-check(summary.models === 665, `Expected 665 PCD models, found ${summary.models}`);
-check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15 && summary.statuses.corroborated === 613, 'Expected 281 legacyPending, 15 verified and 613 corroborated records');
+check(summary.records === 1109, `Expected 1109 PCD records, found ${summary.records}`);
+check(summary.makers === 67, `Expected 67 PCD makers, found ${summary.makers}`);
+check(summary.models === 766, `Expected 766 PCD models, found ${summary.models}`);
+check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15 && summary.statuses.corroborated === 813, 'Expected 281 legacyPending, 15 verified and 813 corroborated records');
 check(source.records.filter((record) => record.verificationStatus === 'legacyPending').every((record) => record.sources.length === 0 && record.lastVerifiedAt === null), 'Legacy records gained invented sources or verification dates');
 check(source.records.filter((record) => record.verificationStatus === 'verified').every((record) => record.sources.length > 0 && ['2026-09-21', '2026-09-24'].includes(record.lastVerifiedAt)), 'Verified batch date/source policy failed');
 console.log('PASS PCD schema and verified batch counts');
@@ -118,10 +118,10 @@ check(generatedPcdFile(source) === generated, 'PCD generation is not idempotent'
 console.log('PASS generated PCD contract and idempotent generation');
 
 const requiredQueries = new Map([
-  ['Audi A4', 3],
+  ['Audi A4', 4],
   ['BMW E46', 3],
   ['Volvo S70', 1],
-  ['Opel Astra', 5],
+  ['Opel Astra', 8],
   ['Golf 5', 1],
   ['Golf VI', 4],
   ['Audi A3 8P', 3],
@@ -137,30 +137,30 @@ const requiredQueries = new Map([
   ['Octavia 1Z 5E NX', 5],
   ['Leon 1P 5F KL', 6],
   ['Touran 1T 5T', 3],
-  ['5x112', 163],
-  ['5×112', 163],
-  ['M14x1.5', 282]
+  ['5x112', 220],
+  ['5×112', 220],
+  ['M14x1.5', 366]
 ]);
 for (const [query, expectedRecords] of requiredQueries) {
   const databaseResults = search.searchDatabase(publicData, query);
   const results = flattenResults(databaseResults);
   check(results.length === expectedRecords, `${query} returned ${results.length} records instead of ${expectedRecords}`);
-  if (['Audi A4', 'BMW E46', 'Volvo S70', 'Opel Astra', 'Golf 5'].includes(query)) {
+  if (['BMW E46', 'Volvo S70', 'Golf 5'].includes(query)) {
     const inferred = search.uniqueSelection(databaseResults);
     check(inferred.selectedBrand && inferred.selectedModel, `${query} did not resolve to visible record details`);
   }
   console.log(`PASS PCD search "${query}": ${results.length} record${results.length === 1 ? '' : 's'}`);
 }
 check(search.normalizeSearchText('5×112') === '5x112', 'Multiplication-sign normalization failed');
-check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 163, 'PCD hyphen normalization failed');
-check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 282, 'Thread hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 220, 'PCD hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 366, 'Thread hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'gOlF-5')).length === 1, 'Case/hyphen normalization failed');
-check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 11, 'Volkswagen alias search failed');
+check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 14, 'Volkswagen alias search failed');
 check(flattenResults(search.searchDatabase(publicData, 'Golf V')).length === 1, 'Golf generation alias search failed');
 
 const noticeCases = [
   ['Volvo S70', 'verified-only'],
-  ['Audi A4', 'legacy-only'],
+  ['Audi A4', 'mixed'],
   ['VW Golf', 'mixed']
 ];
 for (const [query, expectedState] of noticeCases) {
@@ -270,7 +270,7 @@ function canonical(value) {
   if (value && typeof value === 'object') return Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonical(value[key])]));
   return value;
 }
-const unrelatedRecords = source.records.filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !batch02VerifiedIds.has(record.id) && !batch02LegacyIds.has(record.id));
+const unrelatedRecords = source.records.filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !batch02VerifiedIds.has(record.id) && !batch02LegacyIds.has(record.id));
 check(unrelatedRecords.length === 275, `Expected 275 unrelated records, found ${unrelatedRecords.length}`);
 const unrelatedHash = crypto.createHash('sha256').update(JSON.stringify(canonical(unrelatedRecords))).digest('hex');
 check(unrelatedHash === '7741403851985ed036295d7352b15bb2ca1b1bc7184ecda7c8d17d79723472f6', `Unrelated records changed: ${unrelatedHash}`);
@@ -296,7 +296,7 @@ console.log('PASS verified splits, source coverage, banned values and vehicle-pa
 
 for (const pattern of ['5x108', '5x110']) {
   const expected = source.records
-    .filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && pcdLabel(record) === pattern)
+    .filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && pcdLabel(record) === pattern)
     .map((record) => [
       record.maker,
       record.model,
