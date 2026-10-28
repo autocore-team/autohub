@@ -794,6 +794,1695 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'A7',
+        slug: 'a7',
+        records: [
+          {
+            id: 'pcd-b2-audi-a7-4g8-facelift-2018-5x112',
+            generation: '4G8 Facelift',
+            aliases: [
+              'Audi A7 2018',
+              '4G8 Facelift',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-a7-2018-4g8-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi A7 2018 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/a7/2018/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2018 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2018 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-a7-2018-4g8-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A7 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/A7/A7%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Q2',
+        slug: 'q2',
+        records: [
+          {
+            id: 'pcd-b2-audi-q2-ga-2020-5x112',
+            generation: 'GA',
+            aliases: [
+              'Audi Q2 2020',
+              'GA',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-q2-2020-ga',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi Q2 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/q2/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-q2-2020-ga',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi Q2 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/Q2/Q2%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Q7',
+        slug: 'q7',
+        records: [
+          {
+            id: 'pcd-b2-audi-q7-4m-facelift-2023-5x112',
+            generation: '4M Facelift',
+            aliases: [
+              'Audi Q7 2023',
+              '4M Facelift',
+              '5x112'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-q7-2023-4m-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi Q7 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/q7/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 Australian Domestic Market (AUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-q7-2023-4m-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi Q7 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/Q7/Q7%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-audi-q7-4l-facelift-2012-5x130',
+            generation: '4L Facelift',
+            aliases: [
+              'Audi Q7 2012',
+              '4L Facelift',
+              '5x130'
+            ],
+            years: '2012-2012',
+            market: 'US',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-q7-2012-4l-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi Q7 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/q7/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-q7-2012-4l-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi Q7 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/Q7/Q7%20%282005%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RS Q3',
+        slug: 'rs-q3',
+        records: [
+          {
+            id: 'pcd-b2-audi-rs-q3-f3-2023-5x112',
+            generation: 'F3',
+            aliases: [
+              'Audi RS Q3 2023',
+              'F3',
+              '5x112'
+            ],
+            years: '2023-2023',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-rs-q3-2023-f3',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi RS Q3 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/rs-q3/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-rs-q3-2023-f3',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS Q3 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS%20Q3/RS%20Q3%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RS5',
+        slug: 'rs5',
+        records: [
+          {
+            id: 'pcd-b2-audi-rs5-f5-facelift-2024-5x112',
+            generation: 'F5 Facelift',
+            aliases: [
+              'Audi RS5 2024',
+              'F5 Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET24',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-rs5-2024-f5-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi RS5 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/rs5/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-rs5-2024-f5-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS5 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS5/RS5%20F5%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-audi-rs5-8t-8f-2016-5x112',
+            generation: '8T/8F',
+            aliases: [
+              'Audi RS5 2016',
+              '8T/8F',
+              '5x112'
+            ],
+            years: '2016-2016',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET24',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-rs5-2016-8t-8f',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi RS5 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/rs5/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 Southeast Asian Market (SAM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-rs5-2016-8t-8f',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS5 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS5/RS5%20%282010%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RS6',
+        slug: 'rs6',
+        records: [
+          {
+            id: 'pcd-b2-audi-rs6-c8-facelift-2024-5x112',
+            generation: 'C8 Facelift',
+            aliases: [
+              'Audi RS6 2024',
+              'C8 Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET19',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-rs6-2024-c8-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi RS6 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/rs6/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-rs6-2024-c8-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS6 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS6/RS6%20C8%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S3',
+        slug: 's3',
+        records: [
+          {
+            id: 'pcd-b2-audi-s3-8y-2024-5x112',
+            generation: '8Y',
+            aliases: [
+              'Audi S3 2024',
+              '8Y',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s3-2024-8y',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S3 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s3/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s3-2024-8y',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S3 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S3/S3%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-audi-s3-8v-2016-5x112',
+            generation: '8V',
+            aliases: [
+              'Audi S3 2016',
+              '8V',
+              '5x112'
+            ],
+            years: '2016-2016',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s3-2016-8v',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S3 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s3/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s3-2016-8v',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S3 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S3/S3%20%282012%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S4',
+        slug: 's4',
+        records: [
+          {
+            id: 'pcd-b2-audi-s4-b9-facelift-2024-5x112',
+            generation: 'B9 Facelift',
+            aliases: [
+              'Audi S4 2024',
+              'B9 Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s4-2024-b9-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S4 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s4/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s4-2024-b9-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S4 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S4/S4%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-audi-s4-b8-facelift-2015-5x112',
+            generation: 'B8 Facelift',
+            aliases: [
+              'Audi S4 2015',
+              'B8 Facelift',
+              '5x112'
+            ],
+            years: '2015-2015',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s4-2015-b8-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S4 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s4/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s4-2015-b8-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S4 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S4/S4%20%282009%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S5',
+        slug: 's5',
+        records: [
+          {
+            id: 'pcd-b2-audi-s5-f5-2020-5x112',
+            generation: 'F5',
+            aliases: [
+              'Audi S5 2020',
+              'F5',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET29',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s5-2020-f5',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S5 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s5/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s5-2020-f5',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S5 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S5/S5%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S6',
+        slug: 's6',
+        records: [
+          {
+            id: 'pcd-b2-audi-s6-c8-facelift-2024-5x112',
+            generation: 'C8 Facelift',
+            aliases: [
+              'Audi S6 2024',
+              'C8 Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s6-2024-c8-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S6 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s6/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s6-2024-c8-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S6 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S6/S6%20C8%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-audi-s6-c7-facelift-2018-5x112',
+            generation: 'C7 Facelift',
+            aliases: [
+              'Audi S6 2018',
+              'C7 Facelift',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s6-2018-c7-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S6 2018 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s6/2018/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2018 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2018 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s6-2018-c7-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S6 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S6/S6%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S7',
+        slug: 's7',
+        records: [
+          {
+            id: 'pcd-b2-audi-s7-4k8-facelift-2024-5x112',
+            generation: '4K8 Facelift',
+            aliases: [
+              'Audi S7 2024',
+              '4K8 Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s7-2024-4k8-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S7 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s7/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s7-2024-4k8-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S7 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S7/S7%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-audi-s7-4g8-facelift-2018-5x112',
+            generation: '4G8 Facelift',
+            aliases: [
+              'Audi S7 2018',
+              '4G8 Facelift',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-s7-2018-4g8-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi S7 2018 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/s7/2018/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2018 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2018 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-s7-2018-4g8-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S7 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S7/S7%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SQ2',
+        slug: 'sq2',
+        records: [
+          {
+            id: 'pcd-b2-audi-sq2-ga-facelift-2024-5x112',
+            generation: 'GA Facelift',
+            aliases: [
+              'Audi SQ2 2024',
+              'GA Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-sq2-2024-ga-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi SQ2 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/sq2/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-sq2-2024-ga-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi SQ2 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/SQ2/SQ2%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SQ5',
+        slug: 'sq5',
+        records: [
+          {
+            id: 'pcd-b2-audi-sq5-fy-2020-5x112',
+            generation: 'FY',
+            aliases: [
+              'Audi SQ5 2020',
+              'FY',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-sq5-2020-fy',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi SQ5 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/sq5/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-sq5-2020-fy',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi SQ5 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/SQ5/SQ5%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SQ7',
+        slug: 'sq7',
+        records: [
+          {
+            id: 'pcd-b2-audi-sq7-4m-facelift-2024-5x112',
+            generation: '4M Facelift',
+            aliases: [
+              'Audi SQ7 2024',
+              '4M Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'Japan',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-sq7-2024-4m-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi SQ7 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/sq7/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Japanese domestic market (JDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-sq7-2024-4m-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi SQ7 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/SQ7/SQ7%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'A1 Citycarver',
+        slug: 'a1-citycarver',
+        records: [
+          {
+            id: 'pcd-b2-audi-a1-citycarver-gb-2022-5x100',
+            generation: 'GB',
+            aliases: [
+              'Audi A1 Citycarver 2022',
+              'GB',
+              '5x100'
+            ],
+            years: '2022-2022',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-a1-citycarver-2022-gb',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi A1 Citycarver 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/a1-citycarver/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-a1-citycarver-2022-gb',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A1 Citycarver generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/A1%20Citycarver/A1%20Citycarver%20%282019%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'TT RS',
+        slug: 'tt-rs',
+        records: [
+          {
+            id: 'pcd-b2-audi-tt-rs-fv-facelift-2022-5x112',
+            generation: 'FV Facelift',
+            aliases: [
+              'Audi TT RS 2022',
+              'FV Facelift',
+              '5x112'
+            ],
+            years: '2022-2022',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-tt-rs-2022-fv-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi TT RS 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/tt-rs/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-tt-rs-2022-fv-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi TT RS generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/TT%20RS/TT%20RS%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RS3',
+        slug: 'rs3',
+        records: [
+          {
+            id: 'pcd-b2-audi-rs3-8p-2012-5x112',
+            generation: '8P',
+            aliases: [
+              'Audi RS3 2012',
+              '8P',
+              '5x112'
+            ],
+            years: '2012-2012',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-audi-rs3-2012-8p',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi RS3 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/audi/rs3/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-audi-rs3-2012-8p',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS3 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS3/RS3%20%282011%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1643,6 +3332,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Elroq',
+        slug: 'elroq',
+        records: [
+          {
+            id: 'pcd-b2-skoda-elroq-2024-2026-2024-5x112',
+            generation: '2024 .. 2026',
+            aliases: [
+              'Skoda Elroq 2024',
+              '2024 .. 2026',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-skoda-elroq-2024-2024-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Skoda Elroq 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/skoda/elroq/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-skoda-elroq-2024-2024-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Elroq generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Elroq/Elroq%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Citigo',
+        slug: 'citigo',
+        records: [
+          {
+            id: 'pcd-b2-skoda-citigo-i-j2-2019-4x100',
+            generation: 'I (J2)',
+            aliases: [
+              'Skoda Citigo 2019',
+              'I (J2)',
+              '4x100'
+            ],
+            years: '2019-2019',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-skoda-citigo-2019-i-j2',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Skoda Citigo 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/skoda/citigo/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-skoda-citigo-2019-i-j2',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Citigo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Citigo/Citigo%20%282012%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2275,6 +4114,381 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mii',
+        slug: 'mii',
+        records: [
+          {
+            id: 'pcd-b2-seat-mii-kf-aa-2019-4x100',
+            generation: 'KF (AA)',
+            aliases: [
+              'Seat Mii 2019',
+              'KF (AA)',
+              '4x100'
+            ],
+            years: '2019-2019',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-seat-mii-2019-kf-aa',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Seat Mii 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/seat/mii/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-seat-mii-2019-kf-aa',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Mii generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Mii/Mii%20%282012%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Altea',
+        slug: 'altea',
+        records: [
+          {
+            id: 'pcd-b2-seat-altea-5p-2015-5x112',
+            generation: '5P',
+            aliases: [
+              'Seat Altea 2015',
+              '5P',
+              '5x112'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-seat-altea-2015-5p',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Seat Altea 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/seat/altea/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-seat-altea-2015-5p',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Altea generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Altea/Altea%20%282004%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Altea Freetrack',
+        slug: 'altea-freetrack',
+        records: [
+          {
+            id: 'pcd-b2-seat-altea-freetrack-5p-2015-5x112',
+            generation: '5P',
+            aliases: [
+              'Seat Altea Freetrack 2015',
+              '5P',
+              '5x112'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-seat-altea-freetrack-2015-5p',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Seat Altea Freetrack 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/seat/altea-freetrack/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-seat-altea-freetrack-2015-5p',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Altea Freetrack generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Altea%20Freetrack/Altea%20Freetrack%20%282007%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Altea XL',
+        slug: 'altea-xl',
+        records: [
+          {
+            id: 'pcd-b2-seat-altea-xl-5p-2015-5x112',
+            generation: '5P',
+            aliases: [
+              'Seat Altea XL 2015',
+              '5P',
+              '5x112'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-seat-altea-xl-2015-5p',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Seat Altea XL 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/seat/altea-xl/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-seat-altea-xl-2015-5p',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Altea XL generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Altea%20XL/Altea%20XL%20%282006%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Exeo',
+        slug: 'exeo',
+        records: [
+          {
+            id: 'pcd-b2-seat-exeo-3r-2013-5x112',
+            generation: '3R',
+            aliases: [
+              'Seat Exeo 2013',
+              '3R',
+              '5x112'
+            ],
+            years: '2013-2013',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-seat-exeo-2013-3r',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Seat Exeo 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/seat/exeo/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-seat-exeo-2013-3r',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Exeo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Exeo/Exeo%20%282009%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -3789,6 +6003,744 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Grand California',
+        slug: 'grand-california',
+        records: [
+          {
+            id: 'pcd-b2-volkswagen-grand-california-2018-2026-2024-5x120',
+            generation: '2018 .. 2026',
+            aliases: [
+              'Volkswagen Grand California 2024',
+              '2018 .. 2026',
+              '5x120'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-grand-california-2024-2018-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Grand California 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/grand-california/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-grand-california-2024-2018-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Grand California generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Grand%20California/Grand%20California%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Multivan',
+        slug: 'multivan',
+        records: [
+          {
+            id: 'pcd-b2-volkswagen-multivan-t6-1-facelift-2022-5x120',
+            generation: 'T6.1 Facelift',
+            aliases: [
+              'Volkswagen Multivan 2022',
+              'T6.1 Facelift',
+              '5x120'
+            ],
+            years: '2022-2022',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-multivan-2022-t6-1-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Multivan 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/multivan/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-multivan-2022-t6-1-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Multivan generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Multivan/Multivan%20T6%20%282015%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-volkswagen-multivan-t5-facelift-2015-5x120',
+            generation: 'T5 Facelift',
+            aliases: [
+              'Volkswagen Multivan 2015',
+              'T5 Facelift',
+              '5x120'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: '180 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-multivan-2015-t5-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Multivan 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/multivan/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-multivan-2015-t5-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Multivan generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Multivan/Multivan%20T5%20%282002%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'T-Cross',
+        slug: 't-cross',
+        records: [
+          {
+            id: 'pcd-b2-volkswagen-t-cross-i-c11-2024-5x100',
+            generation: 'I (C11)',
+            aliases: [
+              'Volkswagen T-Cross 2024',
+              'I (C11)',
+              '5x100'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-t-cross-2024-i-c11',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen T-Cross 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/t-cross/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-t-cross-2024-i-c11',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen T-Cross generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/T-Cross/T-Cross%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'T-Roc',
+        slug: 't-roc',
+        records: [
+          {
+            id: 'pcd-b2-volkswagen-t-roc-i-a11-ac7-facelift-2024-5x112',
+            generation: 'I (A11/AC7) Facelift',
+            aliases: [
+              'Volkswagen T-Roc 2024',
+              'I (A11/AC7) Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-t-roc-2024-i-a11-ac7-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen T-Roc 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/t-roc/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-t-roc-2024-i-a11-ac7-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen T-Roc generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/T-Roc/T-Roc%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Touareg',
+        slug: 'touareg',
+        records: [
+          {
+            id: 'pcd-b2-volkswagen-touareg-ii-cr-2023-5x112',
+            generation: 'II (CR)',
+            aliases: [
+              'Volkswagen Touareg 2023',
+              'II (CR)',
+              '5x112'
+            ],
+            years: '2023-2023',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET28',
+            torque: '180 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-touareg-2023-ii-cr',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Touareg 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/touareg/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-touareg-2023-ii-cr',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Touareg generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Touareg/Touareg%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Up',
+        slug: 'up',
+        records: [
+          {
+            id: 'pcd-b2-volkswagen-up-i-facelift-2022-4x100',
+            generation: 'I Facelift',
+            aliases: [
+              'Volkswagen Up 2022',
+              'I Facelift',
+              '4x100'
+            ],
+            years: '2022-2022',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-up-2022-i-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Up 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/up/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-up-2022-i-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Up generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Up/Up%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf Sportsvan',
+        slug: 'golf-sportsvan',
+        records: [
+          {
+            id: 'pcd-b2-volkswagen-golf-sportsvan-mk7-5g-facelift-2020-5x112',
+            generation: 'Mk7 (5G) Facelift',
+            aliases: [
+              'Volkswagen Golf Sportsvan 2020',
+              'Mk7 (5G) Facelift',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-golf-sportsvan-2020-mk7-5g-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Golf Sportsvan 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/golf-sportsvan/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-golf-sportsvan-2020-mk7-5g-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf Sportsvan generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%20Sportsvan/Golf%20Sportsvan%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-volkswagen-golf-sportsvan-mk7-5g-2017-5x112',
+            generation: 'Mk7 (5G)',
+            aliases: [
+              'Volkswagen Golf Sportsvan 2017',
+              'Mk7 (5G)',
+              '5x112'
+            ],
+            years: '2017-2017',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-golf-sportsvan-2017-mk7-5g',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Golf Sportsvan 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/golf-sportsvan/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-golf-sportsvan-2017-mk7-5g',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf Sportsvan generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%20Sportsvan/Golf%20Sportsvan%20%282014%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Phaeton',
+        slug: 'phaeton',
+        records: [
+          {
+            id: 'pcd-b2-volkswagen-phaeton-facelift-2016-5x112',
+            generation: 'Facelift',
+            aliases: [
+              'Volkswagen Phaeton 2016',
+              'Facelift',
+              '5x112'
+            ],
+            years: '2016-2016',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volkswagen-phaeton-2016-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Phaeton 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volkswagen/phaeton/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volkswagen-phaeton-2016-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Phaeton generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Phaeton/Phaeton%20%282002%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -5968,6 +8920,750 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'i4',
+        slug: 'i4',
+        records: [
+          {
+            id: 'pcd-b2-bmw-i4-g26-2024-5x112',
+            generation: 'G26',
+            aliases: [
+              'BMW i4 2024',
+              'G26',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-i4-2024-g26',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW i4 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/i4/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-i4-2024-g26',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW i4 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/i4/i4%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'I5',
+        slug: 'i5',
+        records: [
+          {
+            id: 'pcd-b2-bmw-i5-g60-g61-g68-2024-5x112',
+            generation: 'G60/G61/G68',
+            aliases: [
+              'BMW I5 2024',
+              'G60/G61/G68',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET28',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-i5-2024-g60-g61-g68',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW I5 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/i5/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-i5-2024-g60-g61-g68',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW I5 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/I5/I5%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'iX1',
+        slug: 'ix1',
+        records: [
+          {
+            id: 'pcd-b2-bmw-ix1-u11-u12-2024-5x112',
+            generation: 'U11/U12',
+            aliases: [
+              'BMW iX1 2024',
+              'U11/U12',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-ix1-2024-u11-u12',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW iX1 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/ix1/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-ix1-2024-u11-u12',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW iX1 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/iX1/iX1%20U11%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'iX2',
+        slug: 'ix2',
+        records: [
+          {
+            id: 'pcd-b2-bmw-ix2-u10-2024-5x112',
+            generation: 'U10',
+            aliases: [
+              'BMW iX2 2024',
+              'U10',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-ix2-2024-u10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW iX2 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/ix2/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-ix2-2024-u10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW iX2 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/iX2/iX2%20U10%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'iX3',
+        slug: 'ix3',
+        records: [
+          {
+            id: 'pcd-b2-bmw-ix3-g08-lci-2024-5x112',
+            generation: 'G08 LCI',
+            aliases: [
+              'BMW iX3 2024',
+              'G08 LCI',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-ix3-2024-g08-lci',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW iX3 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/ix3/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-ix3-2024-g08-lci',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW iX3 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/iX3/iX3%20G08%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M2',
+        slug: 'm2',
+        records: [
+          {
+            id: 'pcd-b2-bmw-m2-f87-lci-2019-5x120',
+            generation: 'F87 LCI',
+            aliases: [
+              'BMW M2 2019',
+              'F87 LCI',
+              '5x120'
+            ],
+            years: '2019-2019',
+            market: 'US',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET29',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-m2-2019-f87-lci',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW M2 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/m2/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-m2-2019-f87-lci',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M2 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/M2/M2%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'X2',
+        slug: 'x2',
+        records: [
+          {
+            id: 'pcd-b2-bmw-x2-u10-2024-5x112',
+            generation: 'U10',
+            aliases: [
+              'BMW X2 2024',
+              'U10',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-x2-2024-u10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW X2 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/x2/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-x2-2024-u10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW X2 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/X2/X2%20U10%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-bmw-x2-f39-2023-5x112',
+            generation: 'F39',
+            aliases: [
+              'BMW X2 2023',
+              'F39',
+              '5x112'
+            ],
+            years: '2023-2023',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-x2-2023-f39',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW X2 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/x2/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-x2-2023-f39',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW X2 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/X2/X2%20F39%20%282018%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'X6',
+        slug: 'x6',
+        records: [
+          {
+            id: 'pcd-b2-bmw-x6-iii-g06-lci-2024-5x112',
+            generation: 'III (G06) LCI',
+            aliases: [
+              'BMW X6 2024',
+              'III (G06) LCI',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-x6-2024-iii-g06-lci',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW X6 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/x6/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-x6-2024-iii-g06-lci',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW X6 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/X6/X6%20G06%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'i8',
+        slug: 'i8',
+        records: [
+          {
+            id: 'pcd-b2-bmw-i8-facelift-2020-5x112',
+            generation: 'Facelift',
+            aliases: [
+              'BMW i8 2020',
+              'Facelift',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-bmw-i8-2020-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW i8 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/bmw/i8/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-bmw-i8-2020-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW i8 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/i8/i8%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6827,6 +10523,1194 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'BZ4X',
+        slug: 'bz4x',
+        records: [
+          {
+            id: 'pcd-b2-toyota-bz4x-ea10-2024-5x114-3',
+            generation: 'EA10',
+            aliases: [
+              'Toyota BZ4X 2024',
+              'EA10',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-bz4x-2024-ea10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota BZ4X 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/bz4x/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-bz4x-2024-ea10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota BZ4X generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/BZ4X/BZ4X%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Corolla Cross',
+        slug: 'corolla-cross',
+        records: [
+          {
+            id: 'pcd-b2-toyota-corolla-cross-xg10-2024-5x114-3',
+            generation: 'XG10',
+            aliases: [
+              'Toyota Corolla Cross 2024',
+              'XG10',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-corolla-cross-2024-xg10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Corolla Cross 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/corolla-cross/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-corolla-cross-2024-xg10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Corolla Cross generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Corolla%20Cross/Corolla%20Cross%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ProAce',
+        slug: 'proace',
+        records: [
+          {
+            id: 'pcd-b2-toyota-proace-ii-2024-5x108',
+            generation: 'II',
+            aliases: [
+              'Toyota ProAce 2024',
+              'II',
+              '5x108'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-proace-2024-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota ProAce 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/proace/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-proace-2024-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota ProAce generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/ProAce/ProAce%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sienna',
+        slug: 'sienna',
+        records: [
+          {
+            id: 'pcd-b2-toyota-sienna-iv-xl40-2024-5x114-3',
+            generation: 'IV (XL40)',
+            aliases: [
+              'Toyota Sienna 2024',
+              'IV (XL40)',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-sienna-2024-iv-xl40',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Sienna 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/sienna/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-sienna-2024-iv-xl40',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Sienna generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Sienna/Sienna%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-toyota-sienna-iii-xl30-2016-5x114-3',
+            generation: 'III (XL30)',
+            aliases: [
+              'Toyota Sienna 2016',
+              'III (XL30)',
+              '5x114.3'
+            ],
+            years: '2016-2016',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-sienna-2016-iii-xl30',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Sienna 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/sienna/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-sienna-2016-iii-xl30',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Sienna generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Sienna/Sienna%20%282011%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Supra',
+        slug: 'supra',
+        records: [
+          {
+            id: 'pcd-b2-toyota-supra-v-a90-j29-db-2024-5x112',
+            generation: 'V (A90/J29/DB)',
+            aliases: [
+              'Toyota Supra 2024',
+              'V (A90/J29/DB)',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-supra-2024-v-a90-j29-db',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Supra 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/supra/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-supra-2024-v-a90-j29-db',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Supra generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Supra/Supra%20MK5%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Auris',
+        slug: 'auris',
+        records: [
+          {
+            id: 'pcd-b2-toyota-auris-e150-facelift-2012-5x114-3',
+            generation: 'E150 Facelift',
+            aliases: [
+              'Toyota Auris 2012',
+              'E150 Facelift',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-auris-2012-e150-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Auris 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/auris/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-auris-2012-e150-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Auris generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Auris/Auris%20%282007%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Crown Athlete',
+        slug: 'crown-athlete',
+        records: [
+          {
+            id: 'pcd-b2-toyota-crown-athlete-iv-s210-facelift-2018-5x114-3',
+            generation: 'IV (S210) Facelift',
+            aliases: [
+              'Toyota Crown Athlete 2018',
+              'IV (S210) Facelift',
+              '5x114.3'
+            ],
+            years: '2018-2018',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-crown-athlete-2018-iv-s210-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Crown Athlete 2018 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/crown-athlete/2018/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2018 Japanese domestic market (JDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2018 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-crown-athlete-2018-iv-s210-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Crown Athlete generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Crown%20Athlete/Crown%20Athlete%20%282012%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-toyota-crown-athlete-iii-s200-2012-5x114-3',
+            generation: 'III (S200)',
+            aliases: [
+              'Toyota Crown Athlete 2012',
+              'III (S200)',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-crown-athlete-2012-iii-s200',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Crown Athlete 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/crown-athlete/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 Japanese domestic market (JDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-crown-athlete-2012-iii-s200',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Crown Athlete generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Crown%20Athlete/Crown%20Athlete%20%282008%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GT 86',
+        slug: 'gt-86',
+        records: [
+          {
+            id: 'pcd-b2-toyota-gt-86-facelift-2020-5x100',
+            generation: 'Facelift',
+            aliases: [
+              'Toyota GT 86 2020',
+              'Facelift',
+              '5x100'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-gt-86-2020-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota GT 86 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/gt-86/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-gt-86-2020-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota GT 86 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/GT%2086/GT%2086%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Verso',
+        slug: 'verso',
+        records: [
+          {
+            id: 'pcd-b2-toyota-verso-facelift-2018-5x114-3',
+            generation: 'Facelift',
+            aliases: [
+              'Toyota Verso 2018',
+              'Facelift',
+              '5x114.3'
+            ],
+            years: '2018-2018',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-verso-2018-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Verso 2018 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/verso/2018/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2018 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2018 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-verso-2018-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Verso generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Verso/Verso%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Urban Cruiser',
+        slug: 'urban-cruiser',
+        records: [
+          {
+            id: 'pcd-b2-toyota-urban-cruiser-xp110-2014-5x100',
+            generation: 'XP110',
+            aliases: [
+              'Toyota Urban Cruiser 2014',
+              'XP110',
+              '5x100'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-urban-cruiser-2014-xp110',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Urban Cruiser 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/urban-cruiser/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-urban-cruiser-2014-xp110',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Urban Cruiser generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Urban%20Cruiser/Urban%20Cruiser%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Aygo',
+        slug: 'aygo',
+        records: [
+          {
+            id: 'pcd-b2-toyota-aygo-i-ab10-2014-4x100',
+            generation: 'I (AB10)',
+            aliases: [
+              'Toyota Aygo 2014',
+              'I (AB10)',
+              '4x100'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-aygo-2014-i-ab10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Aygo 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/aygo/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-aygo-2014-i-ab10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Aygo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Aygo/Aygo%20%282005%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'IQ',
+        slug: 'iq',
+        records: [
+          {
+            id: 'pcd-b2-toyota-iq-2008-2016-2015-4x100',
+            generation: '2008 .. 2016',
+            aliases: [
+              'Toyota IQ 2015',
+              '2008 .. 2016',
+              '4x100'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-iq-2015-2008-2016',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota IQ 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/iq/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-iq-2015-2008-2016',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota IQ generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/IQ/IQ%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mark X',
+        slug: 'mark-x',
+        records: [
+          {
+            id: 'pcd-b2-toyota-mark-x-ii-facelift-2016-5x114-3',
+            generation: 'II Facelift',
+            aliases: [
+              'Toyota Mark X 2016',
+              'II Facelift',
+              '5x114.3'
+            ],
+            years: '2016-2016',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-mark-x-2016-ii-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Mark X 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/mark-x/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 Japanese domestic market (JDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-mark-x-2016-ii-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Mark X generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Mark%20X/Mark%20X%20%282009%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Verso S',
+        slug: 'verso-s',
+        records: [
+          {
+            id: 'pcd-b2-toyota-verso-s-2010-2015-2015-5x100',
+            generation: '2010 .. 2015',
+            aliases: [
+              'Toyota Verso S 2015',
+              '2010 .. 2015',
+              '5x100'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-toyota-verso-s-2015-2010-2015',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Verso S 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/toyota/verso-s/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-toyota-verso-s-2015-2010-2015',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Verso S generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Verso%20S/Verso%20S%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7189,6 +12073,306 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'WR-V',
+        slug: 'wr-v',
+        records: [
+          {
+            id: 'pcd-b2-honda-wr-v-2017-2026-2023-4x100',
+            generation: '2017 .. 2026',
+            aliases: [
+              'Honda WR-V 2023',
+              '2017 .. 2026',
+              '4x100'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET53',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-honda-wr-v-2023-2017-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda WR-V 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/honda/wr-v/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 South African Domestic Market (SADM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-honda-wr-v-2023-2017-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda WR-V generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/WR-V/WR-V%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XR-V',
+        slug: 'xr-v',
+        records: [
+          {
+            id: 'pcd-b2-honda-xr-v-ru-facelift-2022-5x114-3',
+            generation: 'RU Facelift',
+            aliases: [
+              'Honda XR-V 2022',
+              'RU Facelift',
+              '5x114.3'
+            ],
+            years: '2022-2022',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-honda-xr-v-2022-ru-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda XR-V 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/honda/xr-v/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 Chinese Domestic Market (CHDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-honda-xr-v-2022-ru-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda XR-V generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/XR-V/XR-V%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Insight',
+        slug: 'insight',
+        records: [
+          {
+            id: 'pcd-b2-honda-insight-ze2-facelift-2014-4x100',
+            generation: 'ZE2 Facelift',
+            aliases: [
+              'Honda Insight 2014',
+              'ZE2 Facelift',
+              '4x100'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-honda-insight-2014-ze2-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Insight 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/honda/insight/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-honda-insight-2014-ze2-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Insight generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Insight/Insight%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Legend',
+        slug: 'legend',
+        records: [
+          {
+            id: 'pcd-b2-honda-legend-kb-facelift-2012-5x120',
+            generation: 'KB Facelift',
+            aliases: [
+              'Honda Legend 2012',
+              'KB Facelift',
+              '5x120'
+            ],
+            years: '2012-2012',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-honda-legend-2012-kb-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Legend 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/honda/legend/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-honda-legend-2012-kb-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Legend generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Legend/Legend%20%282004%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -7576,6 +12760,900 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Almera',
+        slug: 'almera',
+        records: [
+          {
+            id: 'pcd-b2-nissan-almera-n17-facelift-2023-4x100',
+            generation: 'N17 Facelift',
+            aliases: [
+              'Nissan Almera 2023',
+              'N17 Facelift',
+              '4x100'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-almera-2023-n17-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Almera 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/almera/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 Southeast Asian Market (SAM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-almera-2023-n17-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Almera generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Almera/Almera%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Interstar',
+        slug: 'interstar',
+        records: [
+          {
+            id: 'pcd-b2-nissan-interstar-m1-m2-2024-5x130',
+            generation: 'M1/M2',
+            aliases: [
+              'Nissan Interstar 2024',
+              'M1/M2',
+              '5x130'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x130',
+            centerBore: '89.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET66',
+            torque: '172 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-interstar-2024-m1-m2',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Interstar 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/interstar/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-interstar-2024-m1-m2',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Interstar generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Interstar/Interstar%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Note',
+        slug: 'note',
+        records: [
+          {
+            id: 'pcd-b2-nissan-note-iii-e13-facelift-2024-4x100',
+            generation: 'III (E13) Facelift',
+            aliases: [
+              'Nissan Note 2024',
+              'III (E13) Facelift',
+              '4x100'
+            ],
+            years: '2024-2024',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-note-2024-iii-e13-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Note 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/note/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Japanese domestic market (JDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-note-2024-iii-e13-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Note generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Note/Note%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-nissan-note-i-e11-facelift-2013-4x100',
+            generation: 'I (E11) Facelift',
+            aliases: [
+              'Nissan Note 2013',
+              'I (E11) Facelift',
+              '4x100'
+            ],
+            years: '2013-2013',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-note-2013-i-e11-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Note 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/note/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-note-2013-i-e11-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Note generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Note/Note%20%282006%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Patrol',
+        slug: 'patrol',
+        records: [
+          {
+            id: 'pcd-b2-nissan-patrol-vi-y62-facelift-ii-2024-6x139-7',
+            generation: 'VI (Y62) Facelift II',
+            aliases: [
+              'Nissan Patrol 2024',
+              'VI (Y62) Facelift II',
+              '6x139.7'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '133 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-patrol-2024-vi-y62-facelift-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Patrol 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/patrol/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Southeast Asian Market (SAM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-patrol-2024-vi-y62-facelift-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Patrol generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Patrol/Patrol%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sunny',
+        slug: 'sunny',
+        records: [
+          {
+            id: 'pcd-b2-nissan-sunny-n17-facelift-2024-4x100',
+            generation: 'N17 Facelift',
+            aliases: [
+              'Nissan Sunny 2024',
+              'N17 Facelift',
+              '4x100'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-sunny-2024-n17-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Sunny 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/sunny/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 North African Domestic Market (NADM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-sunny-2024-n17-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Sunny generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Sunny/Sunny%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Maxima',
+        slug: 'maxima',
+        records: [
+          {
+            id: 'pcd-b2-nissan-maxima-viii-a36-facelift-2023-5x114-3',
+            generation: 'VIII (A36) Facelift',
+            aliases: [
+              'Nissan Maxima 2023',
+              'VIII (A36) Facelift',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-maxima-2023-viii-a36-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Maxima 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/maxima/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-maxima-2023-viii-a36-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Maxima generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Maxima/Maxima%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'NV200',
+        slug: 'nv200',
+        records: [
+          {
+            id: 'pcd-b2-nissan-nv200-2009-2019-2019-4x114-3',
+            generation: '2009 .. 2019',
+            aliases: [
+              'Nissan NV200 2019',
+              '2009 .. 2019',
+              '4x114.3'
+            ],
+            years: '2019-2019',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-nv200-2019-2009-2019',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan NV200 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/nv200/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-nv200-2019-2009-2019',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan NV200 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/NV200/NV200%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'NV250',
+        slug: 'nv250',
+        records: [
+          {
+            id: 'pcd-b2-nissan-nv250-2019-2022-2022-5x108',
+            generation: '2019 .. 2022',
+            aliases: [
+              'Nissan NV250 2022',
+              '2019 .. 2022',
+              '5x108'
+            ],
+            years: '2022-2022',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-nv250-2022-2019-2022',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan NV250 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/nv250/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-nv250-2022-2019-2022',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan NV250 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/NV250/NV250%20%282019%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'NV400',
+        slug: 'nv400',
+        records: [
+          {
+            id: 'pcd-b2-nissan-nv400-2011-2021-2020-5x130',
+            generation: '2011 .. 2021',
+            aliases: [
+              'Nissan NV400 2020',
+              '2011 .. 2021',
+              '5x130'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '5x130',
+            centerBore: '89.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET66',
+            torque: '235 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-nv400-2020-2011-2021',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan NV400 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/nv400/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-nv400-2020-2011-2021',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan NV400 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/NV400/NV400%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cube',
+        slug: 'cube',
+        records: [
+          {
+            id: 'pcd-b2-nissan-cube-iii-z12-2014-4x114-3',
+            generation: 'III (Z12)',
+            aliases: [
+              'Nissan Cube 2014',
+              'III (Z12)',
+              '4x114.3'
+            ],
+            years: '2014-2014',
+            market: 'US',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-cube-2014-iii-z12',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Cube 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/cube/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-cube-2014-iii-z12',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Cube generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Cube/Cube%20%282008%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Pixo',
+        slug: 'pixo',
+        records: [
+          {
+            id: 'pcd-b2-nissan-pixo-2009-2013-2013-4x100',
+            generation: '2009 .. 2013',
+            aliases: [
+              'Nissan Pixo 2013',
+              '2009 .. 2013',
+              '4x100'
+            ],
+            years: '2013-2013',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-nissan-pixo-2013-2009-2013',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Pixo 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/nissan/pixo/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-nissan-pixo-2013-2009-2013',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Pixo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Pixo/Pixo%20%282009%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -7983,6 +14061,456 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX-60',
+        slug: 'cx-60',
+        records: [
+          {
+            id: 'pcd-b2-mazda-cx-60-kh-2024-5x114-3',
+            generation: 'KH',
+            aliases: [
+              'Mazda CX-60 2024',
+              'KH',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mazda-cx-60-2024-kh',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda CX-60 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mazda/cx-60/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mazda-cx-60-2024-kh',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda CX-60 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/CX-60/CX-60%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX-80',
+        slug: 'cx-80',
+        records: [
+          {
+            id: 'pcd-b2-mazda-cx-80-kl-2024-5x114-3',
+            generation: 'KL',
+            aliases: [
+              'Mazda CX-80 2024',
+              'KL',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mazda-cx-80-2024-kl',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda CX-80 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mazda/cx-80/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mazda-cx-80-2024-kl',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda CX-80 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/CX-80/CX-80%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mazda2 Hybrid',
+        slug: 'mazda2-hybrid',
+        records: [
+          {
+            id: 'pcd-b2-mazda-mazda2-hybrid-xp210-2024-5x100',
+            generation: 'XP210',
+            aliases: [
+              'Mazda Mazda2 Hybrid 2024',
+              'XP210',
+              '5x100'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mazda-mazda2-hybrid-2024-xp210',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda Mazda2 Hybrid 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mazda/mazda2-hybrid/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mazda-mazda2-hybrid-2024-xp210',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Mazda2 Hybrid generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Mazda2%20Hybrid/Mazda2%20Hybrid%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Premacy',
+        slug: 'premacy',
+        records: [
+          {
+            id: 'pcd-b2-mazda-premacy-cw-2018-5x114-3',
+            generation: 'CW',
+            aliases: [
+              'Mazda Premacy 2018',
+              'CW',
+              '5x114.3'
+            ],
+            years: '2018-2018',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mazda-premacy-2018-cw',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda Premacy 2018 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mazda/premacy/2018/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2018 Japanese domestic market (JDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2018 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mazda-premacy-2018-cw',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Premacy generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Premacy/Premacy%20%282010%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX-7',
+        slug: 'cx-7',
+        records: [
+          {
+            id: 'pcd-b2-mazda-cx-7-er-facelift-2012-5x114-3',
+            generation: 'ER Facelift',
+            aliases: [
+              'Mazda CX-7 2012',
+              'ER Facelift',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mazda-cx-7-2012-er-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda CX-7 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mazda/cx-7/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mazda-cx-7-2012-er-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda CX-7 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/CX-7/CX-7%20%282007%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RX-8',
+        slug: 'rx-8',
+        records: [
+          {
+            id: 'pcd-b2-mazda-rx-8-se-facelift-2012-5x114-3',
+            generation: 'SE Facelift',
+            aliases: [
+              'Mazda RX-8 2012',
+              'SE Facelift',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mazda-rx-8-2012-se-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda RX-8 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mazda/rx-8/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mazda-rx-8-2012-se-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda RX-8 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/RX-8/RX-8%20%282003%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -8444,6 +14972,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Solterra',
+        slug: 'solterra',
+        records: [
+          {
+            id: 'pcd-b2-subaru-solterra-ea10-2024-5x114-3',
+            generation: 'EA10',
+            aliases: [
+              'Subaru Solterra 2024',
+              'EA10',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-subaru-solterra-2024-ea10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Subaru Solterra 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/subaru/solterra/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-subaru-solterra-2024-ea10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Solterra generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Solterra/Solterra%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -9147,6 +15750,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'IS F',
+        slug: 'is-f',
+        records: [
+          {
+            id: 'pcd-b2-lexus-is-f-xe20-2014-5x114-3',
+            generation: 'XE20',
+            aliases: [
+              'Lexus IS F 2014',
+              'XE20',
+              '5x114.3'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-lexus-is-f-2014-xe20',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lexus IS F 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/lexus/is-f/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-lexus-is-f-2014-xe20',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus IS F generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lexus/IS%20F/IS%20F%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -9524,6 +16202,381 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Baleno',
+        slug: 'baleno',
+        records: [
+          {
+            id: 'pcd-b2-suzuki-baleno-iii-wb-2020-4x100',
+            generation: 'III (WB)',
+            aliases: [
+              'Suzuki Baleno 2020',
+              'III (WB)',
+              '4x100'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-suzuki-baleno-2020-iii-wb',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Baleno 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/suzuki/baleno/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-suzuki-baleno-2020-iii-wb',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Baleno generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Baleno/Baleno%20%282015%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E-Vitara',
+        slug: 'e-vitara',
+        records: [
+          {
+            id: 'pcd-b2-suzuki-e-vitara-2024-2026-2024-5x114-3',
+            generation: '2024 .. 2026',
+            aliases: [
+              'Suzuki E-Vitara 2024',
+              '2024 .. 2026',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '80 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-suzuki-e-vitara-2024-2024-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki E-Vitara 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/suzuki/e-vitara/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-suzuki-e-vitara-2024-2024-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki E-Vitara generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/E-Vitara/E-Vitara%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Invicto',
+        slug: 'invicto',
+        records: [
+          {
+            id: 'pcd-b2-suzuki-invicto-2022-2026-2024-5x114-3',
+            generation: '2022 .. 2026',
+            aliases: [
+              'Suzuki Invicto 2024',
+              '2022 .. 2026',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-suzuki-invicto-2024-2022-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Invicto 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/suzuki/invicto/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Southeast Asian Market (SAM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-suzuki-invicto-2024-2022-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Invicto generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Invicto/Invicto%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Swace',
+        slug: 'swace',
+        records: [
+          {
+            id: 'pcd-b2-suzuki-swace-i-e210-2024-5x114-3',
+            generation: 'I (E210)',
+            aliases: [
+              'Suzuki Swace 2024',
+              'I (E210)',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-suzuki-swace-2024-i-e210',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Swace 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/suzuki/swace/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-suzuki-swace-2024-i-e210',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Swace generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Swace/Swace%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Splash',
+        slug: 'splash',
+        records: [
+          {
+            id: 'pcd-b2-suzuki-splash-xb32-2015-4x100',
+            generation: 'XB32',
+            aliases: [
+              'Suzuki Splash 2015',
+              'XB32',
+              '4x100'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-suzuki-splash-2015-xb32',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Splash 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/suzuki/splash/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-suzuki-splash-2015-xb32',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Splash generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Splash/Splash%20%282008%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -9941,6 +16994,675 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Accent',
+        slug: 'accent',
+        records: [
+          {
+            id: 'pcd-b2-hyundai-accent-v-hc-facelift-2024-4x100',
+            generation: 'V (HC) Facelift',
+            aliases: [
+              'Hyundai Accent 2024',
+              'V (HC) Facelift',
+              '4x100'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '107 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-accent-2024-v-hc-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Accent 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/accent/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Southeast Asian Market (SAM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-accent-2024-v-hc-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Accent generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Accent/Accent%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-hyundai-accent-iv-rb-rc-2017-4x100',
+            generation: 'IV (RB/RC)',
+            aliases: [
+              'Hyundai Accent 2017',
+              'IV (RB/RC)',
+              '4x100'
+            ],
+            years: '2017-2017',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '88 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-accent-2017-iv-rb-rc',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Accent 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/accent/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 Australian Domestic Market (AUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-accent-2017-iv-rb-rc',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Accent generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Accent/Accent%20%282010%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Inster',
+        slug: 'inster',
+        records: [
+          {
+            id: 'pcd-b2-hyundai-inster-ax1-2024-4x100',
+            generation: 'AX1',
+            aliases: [
+              'Hyundai Inster 2024',
+              'AX1',
+              '4x100'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-inster-2024-ax1',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Inster 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/inster/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-inster-2024-ax1',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Inster generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Inster/Inster%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'IONIQ 5 N',
+        slug: 'ioniq-5-n',
+        records: [
+          {
+            id: 'pcd-b2-hyundai-ioniq-5-n-ne-2024-5x114-3',
+            generation: 'NE',
+            aliases: [
+              'Hyundai IONIQ 5 N 2024',
+              'NE',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '185 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-ioniq-5-n-2024-ne',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai IONIQ 5 N 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/ioniq-5-n/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-ioniq-5-n-2024-ne',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai IONIQ 5 N generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/IONIQ%205%20N/IONIQ%205%20N%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'IONIQ 6',
+        slug: 'ioniq-6',
+        records: [
+          {
+            id: 'pcd-b2-hyundai-ioniq-6-ce-2024-5x114-3',
+            generation: 'CE',
+            aliases: [
+              'Hyundai IONIQ 6 2024',
+              'CE',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: '118 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-ioniq-6-2024-ce',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai IONIQ 6 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/ioniq-6/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-ioniq-6-2024-ce',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai IONIQ 6 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/IONIQ%206/IONIQ%206%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'i40',
+        slug: 'i40',
+        records: [
+          {
+            id: 'pcd-b2-hyundai-i40-vf-facelift-2019-5x114-3',
+            generation: 'VF Facelift',
+            aliases: [
+              'Hyundai i40 2019',
+              'VF Facelift',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-i40-2019-vf-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai i40 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/i40/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-i40-2019-vf-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai i40 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/i40/i40%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ioniq',
+        slug: 'ioniq',
+        records: [
+          {
+            id: 'pcd-b2-hyundai-ioniq-ae-facelift-2023-5x114-3',
+            generation: 'AE Facelift',
+            aliases: [
+              'Hyundai Ioniq 2023',
+              'AE Facelift',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '118 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-ioniq-2023-ae-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Ioniq 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/ioniq/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-ioniq-2023-ae-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Ioniq generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Ioniq/Ioniq%20%282016%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Veloster',
+        slug: 'veloster',
+        records: [
+          {
+            id: 'pcd-b2-hyundai-veloster-ii-js-2020-5x114-3',
+            generation: 'II (JS)',
+            aliases: [
+              'Hyundai Veloster 2020',
+              'II (JS)',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-veloster-2020-ii-js',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Veloster 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/veloster/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-veloster-2020-ii-js',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Veloster generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Veloster/Veloster%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ix35',
+        slug: 'ix35',
+        records: [
+          {
+            id: 'pcd-b2-hyundai-ix35-i-lm-2013-5x114-3',
+            generation: 'I (LM)',
+            aliases: [
+              'Hyundai ix35 2013',
+              'I (LM)',
+              '5x114.3'
+            ],
+            years: '2013-2013',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-hyundai-ix35-2013-i-lm',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai ix35 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/hyundai/ix35/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-hyundai-ix35-2013-i-lm',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai ix35 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/ix35/ix35%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -10200,6 +17922,594 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cerato',
+        slug: 'cerato',
+        records: [
+          {
+            id: 'pcd-b2-kia-cerato-iv-bd-2020-5x114-3',
+            generation: 'IV (BD)',
+            aliases: [
+              'Kia Cerato 2020',
+              'IV (BD)',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '117 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-kia-cerato-2020-iv-bd',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Cerato 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/kia/cerato/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 Australian Domestic Market (AUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-kia-cerato-2020-iv-bd',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Cerato generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Cerato/Cerato%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-kia-cerato-ii-td-2013-5x114-3',
+            generation: 'II (TD)',
+            aliases: [
+              'Kia Cerato 2013',
+              'II (TD)',
+              '5x114.3'
+            ],
+            years: '2013-2013',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-kia-cerato-2013-ii-td',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Cerato 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/kia/cerato/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-kia-cerato-2013-ii-td',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Cerato generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Cerato/Cerato%20%282008%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EV3',
+        slug: 'ev3',
+        records: [
+          {
+            id: 'pcd-b2-kia-ev3-sv-2024-5x114-3',
+            generation: 'SV',
+            aliases: [
+              'Kia EV3 2024',
+              'SV',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-kia-ev3-2024-sv',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia EV3 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/kia/ev3/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-kia-ev3-2024-sv',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia EV3 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/EV3/EV3%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EV5',
+        slug: 'ev5',
+        records: [
+          {
+            id: 'pcd-b2-kia-ev5-ov-2024-5x114-3',
+            generation: 'OV',
+            aliases: [
+              'Kia EV5 2024',
+              'OV',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-kia-ev5-2024-ov',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia EV5 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/kia/ev5/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-kia-ev5-2024-ov',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia EV5 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/EV5/EV5%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Soul',
+        slug: 'soul',
+        records: [
+          {
+            id: 'pcd-b2-kia-soul-i-am-facelift-2013-5x114-3',
+            generation: 'I (AM) Facelift',
+            aliases: [
+              'Kia Soul 2013',
+              'I (AM) Facelift',
+              '5x114.3'
+            ],
+            years: '2013-2013',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-kia-soul-2013-i-am-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Soul 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/kia/soul/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-kia-soul-2013-i-am-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Soul generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Soul/Soul%20%282009%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-kia-soul-ii-ps-facelift-2019-5x114-3',
+            generation: 'II (PS) Facelift',
+            aliases: [
+              'Kia Soul 2019',
+              'II (PS) Facelift',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-kia-soul-2019-ii-ps-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Soul 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/kia/soul/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 Latin American domestic market (LADM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-kia-soul-2019-ii-ps-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Soul generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Soul/Soul%20%282019%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Stinger',
+        slug: 'stinger',
+        records: [
+          {
+            id: 'pcd-b2-kia-stinger-ck-facelift-2022-5x114-3',
+            generation: 'CK Facelift',
+            aliases: [
+              'Kia Stinger 2022',
+              'CK Facelift',
+              '5x114.3'
+            ],
+            years: '2022-2022',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-kia-stinger-2022-ck-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Stinger 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/kia/stinger/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 Southeast Asian Market (SAM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-kia-stinger-2022-ck-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Stinger generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Stinger/Stinger%20%282017%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Carens',
+        slug: 'carens',
+        records: [
+          {
+            id: 'pcd-b2-kia-carens-ii-un-2012-5x114-3',
+            generation: 'II (UN)',
+            aliases: [
+              'Kia Carens 2012',
+              'II (UN)',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-kia-carens-2012-ii-un',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Carens 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/kia/carens/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-kia-carens-2012-ii-un',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Carens generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Carens/Carens%20%282006%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -10862,6 +19172,744 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Tourneo',
+        slug: 'tourneo',
+        records: [
+          {
+            id: 'pcd-b2-ford-tourneo-ii-2024-5x160',
+            generation: 'II',
+            aliases: [
+              'Ford Tourneo 2024',
+              'II',
+              '5x160'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x160',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-tourneo-2024-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Tourneo 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/tourneo/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Chinese Domestic Market (CHDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-tourneo-2024-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Tourneo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Tourneo/Tourneo%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Transit Connect',
+        slug: 'transit-connect',
+        records: [
+          {
+            id: 'pcd-b2-ford-transit-connect-ii-2019-5x108',
+            generation: 'II',
+            aliases: [
+              'Ford Transit Connect 2019',
+              'II',
+              '5x108'
+            ],
+            years: '2019-2019',
+            market: 'US',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-transit-connect-2019-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Transit Connect 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/transit-connect/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-transit-connect-2019-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Transit Connect generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Transit%20Connect/Transit%20Connect%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-ford-transit-connect-i-facelift-2013-5x108',
+            generation: 'I Facelift',
+            aliases: [
+              'Ford Transit Connect 2013',
+              'I Facelift',
+              '5x108'
+            ],
+            years: '2013-2013',
+            market: 'US',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-transit-connect-2013-i-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Transit Connect 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/transit-connect/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-transit-connect-2013-i-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Transit Connect generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Transit%20Connect/Transit%20Connect%20%282003%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Transit Custom',
+        slug: 'transit-custom',
+        records: [
+          {
+            id: 'pcd-b2-ford-transit-custom-ii-2024-6x120',
+            generation: 'II',
+            aliases: [
+              'Ford Transit Custom 2024',
+              'II',
+              '6x120'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '6x120',
+            centerBore: '74.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '204 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-transit-custom-2024-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Transit Custom 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/transit-custom/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-transit-custom-2024-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Transit Custom generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Transit%20Custom/Transit%20Custom%20%282023%20-%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EcoSport',
+        slug: 'ecosport',
+        records: [
+          {
+            id: 'pcd-b2-ford-ecosport-ii-b515-facelift-2022-4x108',
+            generation: 'II (B515) Facelift',
+            aliases: [
+              'Ford EcoSport 2022',
+              'II (B515) Facelift',
+              '4x108'
+            ],
+            years: '2022-2022',
+            market: 'US',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET37.5',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-ecosport-2022-ii-b515-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford EcoSport 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/ecosport/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-ecosport-2022-ii-b515-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford EcoSport generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/EcoSport/EcoSport%20%282014%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Galaxy',
+        slug: 'galaxy',
+        records: [
+          {
+            id: 'pcd-b2-ford-galaxy-iii-cd390-facelift-2023-5x108',
+            generation: 'III (CD390) Facelift',
+            aliases: [
+              'Ford Galaxy 2023',
+              'III (CD390) Facelift',
+              '5x108'
+            ],
+            years: '2023-2023',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '220 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-galaxy-2023-iii-cd390-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Galaxy 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/galaxy/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-galaxy-2023-iii-cd390-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Galaxy generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Galaxy/Galaxy%20%282015%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-ford-galaxy-ii-wa6-facelift-2015-5x108',
+            generation: 'II (WA6) Facelift',
+            aliases: [
+              'Ford Galaxy 2015',
+              'II (WA6) Facelift',
+              '5x108'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '170 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-galaxy-2015-ii-wa6-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Galaxy 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/galaxy/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-galaxy-2015-ii-wa6-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Galaxy generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Galaxy/Galaxy%20%282006%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'B Max',
+        slug: 'b-max',
+        records: [
+          {
+            id: 'pcd-b2-ford-b-max-2012-2017-2017-4x108',
+            generation: '2012 .. 2017',
+            aliases: [
+              'Ford B Max 2017',
+              '2012 .. 2017',
+              '4x108'
+            ],
+            years: '2017-2017',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET37.5',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-b-max-2017-2012-2017',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford B Max 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/b-max/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-b-max-2017-2012-2017',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford B Max generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/B%20Max/B%20Max%20%282012%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Courier',
+        slug: 'courier',
+        records: [
+          {
+            id: 'pcd-b2-ford-courier-facelift-2013-4x108',
+            generation: 'Facelift',
+            aliases: [
+              'Ford Courier 2013',
+              'Facelift',
+              '4x108'
+            ],
+            years: '2013-2013',
+            market: 'some markets',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-courier-2013-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Courier 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/courier/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 Latin American domestic market (LADM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-courier-2013-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Courier generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Courier/Courier%20%282000%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S Max',
+        slug: 's-max',
+        records: [
+          {
+            id: 'pcd-b2-ford-s-max-i-cd340-facelift-2015-5x108',
+            generation: 'I (CD340) Facelift',
+            aliases: [
+              'Ford S Max 2015',
+              'I (CD340) Facelift',
+              '5x108'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '170 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-ford-s-max-2015-i-cd340-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford S Max 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/ford/s-max/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-ford-s-max-2015-i-cd340-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford S Max generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/S%20Max/S%20Max%20%282006%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -11214,6 +20262,525 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Corvette',
+        slug: 'corvette',
+        records: [
+          {
+            id: 'pcd-b2-chevrolet-corvette-c7-2019-5x120-65',
+            generation: 'C7',
+            aliases: [
+              'Chevrolet Corvette 2019',
+              'C7',
+              '5x120.65'
+            ],
+            years: '2019-2019',
+            market: 'US',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chevrolet-corvette-2019-c7',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Corvette 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chevrolet/corvette/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chevrolet-corvette-2019-c7',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Corvette generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Corvette/Corvette%20C7%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-chevrolet-corvette-c6-2013-5x120-65',
+            generation: 'C6',
+            aliases: [
+              'Chevrolet Corvette 2013',
+              'C6',
+              '5x120.65'
+            ],
+            years: '2013-2013',
+            market: 'US',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET56',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chevrolet-corvette-2013-c6',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Corvette 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chevrolet/corvette/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chevrolet-corvette-2013-c6',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Corvette generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Corvette/Corvette%20C6%20%282004%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tracker',
+        slug: 'tracker',
+        records: [
+          {
+            id: 'pcd-b2-chevrolet-tracker-iii-2016-5x105',
+            generation: 'III',
+            aliases: [
+              'Chevrolet Tracker 2016',
+              'III',
+              '5x105'
+            ],
+            years: '2016-2016',
+            market: 'some markets',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chevrolet-tracker-2016-iii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Tracker 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chevrolet/tracker/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 Chinese Domestic Market (CHDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chevrolet-tracker-2016-iii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Tracker generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Tracker/Tracker%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Traverse',
+        slug: 'traverse',
+        records: [
+          {
+            id: 'pcd-b2-chevrolet-traverse-i-facelift-2017-6x132',
+            generation: 'I Facelift',
+            aliases: [
+              'Chevrolet Traverse 2017',
+              'I Facelift',
+              '6x132'
+            ],
+            years: '2017-2017',
+            market: 'US',
+            pcd: '6x132',
+            centerBore: '74.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chevrolet-traverse-2017-i-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Traverse 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chevrolet/traverse/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chevrolet-traverse-2017-i-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Traverse generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Traverse/Traverse%20%282009%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Avalanche',
+        slug: 'avalanche',
+        records: [
+          {
+            id: 'pcd-b2-chevrolet-avalanche-2007-2013-2013-6x139-7',
+            generation: '2007 .. 2013',
+            aliases: [
+              'Chevrolet Avalanche 2013',
+              '2007 .. 2013',
+              '6x139.7'
+            ],
+            years: '2013-2013',
+            market: 'US',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chevrolet-avalanche-2013-2007-2013',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Avalanche 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chevrolet/avalanche/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chevrolet-avalanche-2013-2007-2013',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Avalanche generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Avalanche/Avalanche%20%282007%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Epica',
+        slug: 'epica',
+        records: [
+          {
+            id: 'pcd-b2-chevrolet-epica-v250-2012-4x114-3',
+            generation: 'V250',
+            aliases: [
+              'Chevrolet Epica 2012',
+              'V250',
+              '4x114.3'
+            ],
+            years: '2012-2012',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chevrolet-epica-2012-v250',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Epica 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chevrolet/epica/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chevrolet-epica-2012-v250',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Epica generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Epica/Epica%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lacetti',
+        slug: 'lacetti',
+        records: [
+          {
+            id: 'pcd-b2-chevrolet-lacetti-j200-2013-4x114-3',
+            generation: 'J200',
+            aliases: [
+              'Chevrolet Lacetti 2013',
+              'J200',
+              '4x114.3'
+            ],
+            years: '2013-2013',
+            market: 'EU',
+            pcd: '4x114.3',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chevrolet-lacetti-2013-j200',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Lacetti 2013 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chevrolet/lacetti/2013/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2013 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2013 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chevrolet-lacetti-2013-j200',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Lacetti generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Lacetti/Lacetti%20%282002%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -11459,6 +21026,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Patriot',
+        slug: 'patriot',
+        records: [
+          {
+            id: 'pcd-b2-jeep-patriot-mk-facelift-2017-5x114-3',
+            generation: 'MK Facelift',
+            aliases: [
+              'Jeep Patriot 2017',
+              'MK Facelift',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-jeep-patriot-2017-mk-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Jeep Patriot 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/jeep/patriot/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-jeep-patriot-2017-mk-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jeep Patriot generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Jeep/Patriot/Patriot%20%282007%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -11561,6 +21203,81 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          }
+        ]
+      },
+      {
+        name: 'Grand Caravan',
+        slug: 'grand-caravan',
+        records: [
+          {
+            id: 'pcd-b2-dodge-grand-caravan-v-rt-facelift-2020-5x127',
+            generation: 'V (RT) Facelift',
+            aliases: [
+              'Dodge Grand Caravan 2020',
+              'V (RT) Facelift',
+              '5x127'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x127',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-dodge-grand-caravan-2020-v-rt-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dodge Grand Caravan 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/dodge/grand-caravan/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-dodge-grand-caravan-2020-v-rt-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Grand Caravan generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Grand%20Caravan/Grand%20Caravan%20%282008%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
           }
         ]
       }
@@ -11697,6 +21414,156 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          }
+        ]
+      },
+      {
+        name: 'Voyager',
+        slug: 'voyager',
+        records: [
+          {
+            id: 'pcd-b2-chrysler-voyager-v-rt-2016-5x127',
+            generation: 'V (RT)',
+            aliases: [
+              'Chrysler Voyager 2016',
+              'V (RT)',
+              '5x127'
+            ],
+            years: '2016-2016',
+            market: 'US',
+            pcd: '5x127',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chrysler-voyager-2016-v-rt',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chrysler Voyager 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chrysler/voyager/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chrysler-voyager-2016-v-rt',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Voyager generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Voyager/Voyager%20%282008%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Grand Voyager',
+        slug: 'grand-voyager',
+        records: [
+          {
+            id: 'pcd-b2-chrysler-grand-voyager-v-rt-2015-5x127',
+            generation: 'V (RT)',
+            aliases: [
+              'Chrysler Grand Voyager 2015',
+              'V (RT)',
+              '5x127'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x127',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-chrysler-grand-voyager-2015-v-rt',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chrysler Grand Voyager 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/chrysler/grand-voyager/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-chrysler-grand-voyager-2015-v-rt',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Grand Voyager generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Grand%20Voyager/Grand%20Voyager%20%282008%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
           }
         ]
       }
@@ -12853,6 +22720,525 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Boxer',
+        slug: 'boxer',
+        records: [
+          {
+            id: 'pcd-b2-peugeot-boxer-iv-290-2024-5x118',
+            generation: 'IV (290)',
+            aliases: [
+              'Peugeot Boxer 2024',
+              'IV (290)',
+              '5x118'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-peugeot-boxer-2024-iv-290',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Boxer 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/peugeot/boxer/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-peugeot-boxer-2024-iv-290',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Boxer generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Boxer/Boxer%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Expert',
+        slug: 'expert',
+        records: [
+          {
+            id: 'pcd-b2-peugeot-expert-iii-k0-2024-5x108',
+            generation: 'III (K0)',
+            aliases: [
+              'Peugeot Expert 2024',
+              'III (K0)',
+              '5x108'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-peugeot-expert-2024-iii-k0',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Expert 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/peugeot/expert/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-peugeot-expert-2024-iii-k0',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Expert generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Expert/Expert%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-peugeot-expert-ii-2016-5x108',
+            generation: 'II',
+            aliases: [
+              'Peugeot Expert 2016',
+              'II',
+              '5x108'
+            ],
+            years: '2016-2016',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-peugeot-expert-2016-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Expert 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/peugeot/expert/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-peugeot-expert-2016-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Expert generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Expert/Expert%20%282006%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '108',
+        slug: '108',
+        records: [
+          {
+            id: 'pcd-b2-peugeot-108-ab10-2022-4x100',
+            generation: 'AB10',
+            aliases: [
+              'Peugeot 108 2022',
+              'AB10',
+              '4x100'
+            ],
+            years: '2022-2022',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-peugeot-108-2022-ab10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 108 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/peugeot/108/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-peugeot-108-2022-ab10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 108 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/108/108%20%282014%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Bipper',
+        slug: 'bipper',
+        records: [
+          {
+            id: 'pcd-b2-peugeot-bipper-iii-225-2018-4x98',
+            generation: 'III (225)',
+            aliases: [
+              'Peugeot Bipper 2018',
+              'III (225)',
+              '4x98'
+            ],
+            years: '2018-2018',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-peugeot-bipper-2018-iii-225',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Bipper 2018 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/peugeot/bipper/2018/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2018 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2018 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-peugeot-bipper-2018-iii-225',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Bipper generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Bipper/Bipper%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '4008',
+        slug: '4008',
+        records: [
+          {
+            id: 'pcd-b2-peugeot-4008-i-gs-2017-5x114-3',
+            generation: 'I (GS)',
+            aliases: [
+              'Peugeot 4008 2017',
+              'I (GS)',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-peugeot-4008-2017-i-gs',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot 4008 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/peugeot/4008/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-peugeot-4008-2017-i-gs',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 4008 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/4008/4008%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RCZ',
+        slug: 'rcz',
+        records: [
+          {
+            id: 'pcd-b2-peugeot-rcz-i-2015-5x108',
+            generation: 'I',
+            aliases: [
+              'Peugeot RCZ 2015',
+              'I',
+              '5x108'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-peugeot-rcz-2015-i',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot RCZ 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/peugeot/rcz/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-peugeot-rcz-2015-i',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot RCZ generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/RCZ/RCZ%20%282010%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -13270,6 +23656,825 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '5 E-Tech',
+        slug: '5-e-tech',
+        records: [
+          {
+            id: 'pcd-b2-renault-5-e-tech-2024-2026-2024-5x114-3',
+            generation: '2024 .. 2026',
+            aliases: [
+              'Renault 5 E-Tech 2024',
+              '2024 .. 2026',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-5-e-tech-2024-2024-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault 5 E-Tech 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/5-e-tech/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-5-e-tech-2024-2024-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault 5 E-Tech generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/5%20E-Tech/5%20E-Tech%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Arkana',
+        slug: 'arkana',
+        records: [
+          {
+            id: 'pcd-b2-renault-arkana-ljc-2022-5x114-3',
+            generation: 'LJC',
+            aliases: [
+              'Renault Arkana 2022',
+              'LJC',
+              '5x114.3'
+            ],
+            years: '2022-2022',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-arkana-2022-ljc',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Arkana 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/arkana/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 Russian Domestic Market (RUSSIA) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-arkana-2022-ljc',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Arkana generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Arkana/Arkana%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Koleos',
+        slug: 'koleos',
+        records: [
+          {
+            id: 'pcd-b2-renault-koleos-ii-hc-facelift-2023-5x114-3',
+            generation: 'II (HC) Facelift',
+            aliases: [
+              'Renault Koleos 2023',
+              'II (HC) Facelift',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-koleos-2023-ii-hc-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Koleos 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/koleos/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-koleos-2023-ii-hc-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Koleos generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Koleos/Koleos%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Kwid',
+        slug: 'kwid',
+        records: [
+          {
+            id: 'pcd-b2-renault-kwid-i-bw-facelift-2024-3x100',
+            generation: 'I (BW) Facelift',
+            aliases: [
+              'Renault Kwid 2024',
+              'I (BW) Facelift',
+              '3x100'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '3x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '91 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-kwid-2024-i-bw-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Kwid 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/kwid/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Southeast Asian Market (SAM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-kwid-2024-i-bw-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Kwid generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Kwid/Kwid%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Trafic',
+        slug: 'trafic',
+        records: [
+          {
+            id: 'pcd-b2-renault-trafic-iii-x82-facelift-2024-5x114-3',
+            generation: 'III (X82) Facelift',
+            aliases: [
+              'Renault Trafic 2024',
+              'III (X82) Facelift',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-trafic-2024-iii-x82-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Trafic 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/trafic/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-trafic-2024-iii-x82-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Trafic generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Trafic/Trafic%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Twizy',
+        slug: 'twizy',
+        records: [
+          {
+            id: 'pcd-b2-renault-twizy-mam-2024-3x98',
+            generation: 'MAM',
+            aliases: [
+              'Renault Twizy 2024',
+              'MAM',
+              '3x98'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '3x98',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET23.5',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-twizy-2024-mam',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Twizy 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/twizy/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-twizy-2024-mam',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Twizy generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Twizy/Twizy%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Zoe',
+        slug: 'zoe',
+        records: [
+          {
+            id: 'pcd-b2-renault-zoe-bfm-2019-4x100',
+            generation: 'BFM',
+            aliases: [
+              'Renault Zoe 2019',
+              'BFM',
+              '4x100'
+            ],
+            years: '2019-2019',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-zoe-2019-bfm',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Zoe 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/zoe/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-zoe-2019-bfm',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Zoe generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Zoe/Zoe%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Espace',
+        slug: 'espace',
+        records: [
+          {
+            id: 'pcd-b2-renault-espace-v-jfc-2017-5x114-3',
+            generation: 'V (JFC)',
+            aliases: [
+              'Renault Espace 2017',
+              'V (JFC)',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-espace-2017-v-jfc',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Espace 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/espace/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-espace-2017-v-jfc',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Espace generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Espace/Espace%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-renault-espace-iv-j81-2014-5x108',
+            generation: 'IV (J81)',
+            aliases: [
+              'Renault Espace 2014',
+              'IV (J81)',
+              '5x108'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-espace-2014-iv-j81',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Espace 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/espace/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-espace-2014-iv-j81',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Espace generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Espace/Espace%20%282002%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Fluence',
+        slug: 'fluence',
+        records: [
+          {
+            id: 'pcd-b2-renault-fluence-l30-facelift-2017-5x114-3',
+            generation: 'L30 Facelift',
+            aliases: [
+              'Renault Fluence 2017',
+              'L30 Facelift',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-fluence-2017-l30-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Fluence 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/fluence/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 Russian Domestic Market (RUSSIA) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-fluence-2017-l30-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Fluence generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Fluence/Fluence%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Laguna',
+        slug: 'laguna',
+        records: [
+          {
+            id: 'pcd-b2-renault-laguna-iii-x91-facelift-2015-5x114-3',
+            generation: 'III (X91) Facelift',
+            aliases: [
+              'Renault Laguna 2015',
+              'III (X91) Facelift',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-renault-laguna-2015-iii-x91-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Laguna 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/renault/laguna/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-renault-laguna-2015-iii-x91-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Laguna generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Laguna/Laguna%203%20%282007%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -13746,6 +24951,456 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C-Elysee',
+        slug: 'c-elysee',
+        records: [
+          {
+            id: 'pcd-b2-citroen-c-elysee-facelift-2020-4x108',
+            generation: 'Facelift',
+            aliases: [
+              'Citroen C-Elysee 2020',
+              'Facelift',
+              '4x108'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET23',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-citroen-c-elysee-2020-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen C-Elysee 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/citroen/c-elysee/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-citroen-c-elysee-2020-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C-Elysee generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C-Elysee/C-Elysee%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C6',
+        slug: 'c6',
+        records: [
+          {
+            id: 'pcd-b2-citroen-c6-i-2012-5x108',
+            generation: 'I',
+            aliases: [
+              'Citroen C6 2012',
+              'I',
+              '5x108'
+            ],
+            years: '2012-2012',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-citroen-c6-2012-i',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen C6 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/citroen/c6/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-citroen-c6-2012-i',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C6 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C6/C6%20%282005%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Jumpy',
+        slug: 'jumpy',
+        records: [
+          {
+            id: 'pcd-b2-citroen-jumpy-ii-2016-5x108',
+            generation: 'II',
+            aliases: [
+              'Citroen Jumpy 2016',
+              'II',
+              '5x108'
+            ],
+            years: '2016-2016',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-citroen-jumpy-2016-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen Jumpy 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/citroen/jumpy/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-citroen-jumpy-2016-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Jumpy generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Jumpy/Jumpy%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Relay',
+        slug: 'relay',
+        records: [
+          {
+            id: 'pcd-b2-citroen-relay-ii-290-facelift-2017-5x118',
+            generation: 'II (290) Facelift',
+            aliases: [
+              'Citroen Relay 2017',
+              'II (290) Facelift',
+              '5x118'
+            ],
+            years: '2017-2017',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-citroen-relay-2017-ii-290-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen Relay 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/citroen/relay/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-citroen-relay-2017-ii-290-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Relay generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Relay/Relay%20%282010%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C-crosser',
+        slug: 'c-crosser',
+        records: [
+          {
+            id: 'pcd-b2-citroen-c-crosser-gs-2012-5x114-3',
+            generation: 'GS',
+            aliases: [
+              'Citroen C-crosser 2012',
+              'GS',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-citroen-c-crosser-2012-gs',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen C-crosser 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/citroen/c-crosser/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-citroen-c-crosser-2012-gs',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C-crosser generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C-crosser/C-crosser%20%282007%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C4 Aircross',
+        slug: 'c4-aircross',
+        records: [
+          {
+            id: 'pcd-b2-citroen-c4-aircross-i-2017-5x114-3',
+            generation: 'I',
+            aliases: [
+              'Citroen C4 Aircross 2017',
+              'I',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-citroen-c4-aircross-2017-i',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen C4 Aircross 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/citroen/c4-aircross/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-citroen-c4-aircross-2017-i',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C4 Aircross generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C4%20Aircross/C4%20Aircross%20%282012%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -14524,6 +26179,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'XC70',
+        slug: 'xc70',
+        records: [
+          {
+            id: 'pcd-b2-volvo-xc70-iii-facelift-2016-5x108',
+            generation: 'III Facelift',
+            aliases: [
+              'Volvo XC70 2016',
+              'III Facelift',
+              '5x108'
+            ],
+            years: '2016-2016',
+            market: 'US',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volvo-xc70-2016-iii-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo XC70 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volvo/xc70/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volvo-xc70-2016-iii-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo XC70 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/XC70/XC70%20%282007%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C30',
+        slug: 'c30',
+        records: [
+          {
+            id: 'pcd-b2-volvo-c30-facelift-2014-5x108',
+            generation: 'Facelift',
+            aliases: [
+              'Volvo C30 2014',
+              'Facelift',
+              '5x108'
+            ],
+            years: '2014-2014',
+            market: 'US',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-volvo-c30-2014-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo C30 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/volvo/c30/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-volvo-c30-2014-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo C30 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/C30/C30%20%282006%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -14956,6 +26761,525 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Scudo',
+        slug: 'scudo',
+        records: [
+          {
+            id: 'pcd-b2-fiat-scudo-507-2024-5x108',
+            generation: '507',
+            aliases: [
+              'Fiat Scudo 2024',
+              '507',
+              '5x108'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-fiat-scudo-2024-507',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Scudo 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/fiat/scudo/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-fiat-scudo-2024-507',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Scudo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Scudo/Scudo%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-fiat-scudo-270-2016-5x108',
+            generation: '270',
+            aliases: [
+              'Fiat Scudo 2016',
+              '270',
+              '5x108'
+            ],
+            years: '2016-2016',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-fiat-scudo-2016-270',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Scudo 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/fiat/scudo/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-fiat-scudo-2016-270',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Scudo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Scudo/Scudo%20%282007%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '124 Spider',
+        slug: '124-spider',
+        records: [
+          {
+            id: 'pcd-b2-fiat-124-spider-348-2020-4x100',
+            generation: '348',
+            aliases: [
+              'Fiat 124 Spider 2020',
+              '348',
+              '4x100'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-fiat-124-spider-2020-348',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat 124 Spider 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/fiat/124-spider/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-fiat-124-spider-2020-348',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat 124 Spider generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/124%20Spider/124%20Spider%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Talento',
+        slug: 'talento',
+        records: [
+          {
+            id: 'pcd-b2-fiat-talento-296-2020-5x114-3',
+            generation: '296',
+            aliases: [
+              'Fiat Talento 2020',
+              '296',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-fiat-talento-2020-296',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Talento 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/fiat/talento/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-fiat-talento-2020-296',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Talento generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Talento/Talento%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Strada',
+        slug: 'strada',
+        records: [
+          {
+            id: 'pcd-b2-fiat-strada-278-2012-4x98',
+            generation: '278',
+            aliases: [
+              'Fiat Strada 2012',
+              '278',
+              '4x98'
+            ],
+            years: '2012-2012',
+            market: 'some markets',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-fiat-strada-2012-278',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Strada 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/fiat/strada/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 Latin American domestic market (LADM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-fiat-strada-2012-278',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Strada generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Strada/Strada%20%281996%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Bravo',
+        slug: 'bravo',
+        records: [
+          {
+            id: 'pcd-b2-fiat-bravo-198-2015-4x98',
+            generation: '198',
+            aliases: [
+              'Fiat Bravo 2015',
+              '198',
+              '4x98'
+            ],
+            years: '2015-2015',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-fiat-bravo-2015-198',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Bravo 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/fiat/bravo/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-fiat-bravo-2015-198',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Bravo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Bravo/Bravo%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sedici',
+        slug: 'sedici',
+        records: [
+          {
+            id: 'pcd-b2-fiat-sedici-189-facelift-2014-5x114-3',
+            generation: '189 Facelift',
+            aliases: [
+              'Fiat Sedici 2014',
+              '189 Facelift',
+              '5x114.3'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-fiat-sedici-2014-189-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Sedici 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/fiat/sedici/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-fiat-sedici-2014-189-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Sedici generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Sedici/Sedici%20%282006%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -15953,6 +28277,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'TLX',
+        slug: 'tlx',
+        records: [
+          {
+            id: 'pcd-b2-acura-tlx-i-ub1-ub2-ub3-ub4-facelift-2020-5x114-3',
+            generation: 'I (UB1/UB2/UB3/UB4) Facelift',
+            aliases: [
+              'Acura TLX 2020',
+              'I (UB1/UB2/UB3/UB4) Facelift',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-acura-tlx-2020-i-ub1-ub2-ub3-ub4-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Acura TLX 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/acura/tlx/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-acura-tlx-2020-i-ub1-ub2-ub3-ub4-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Acura TLX generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Acura/TLX/TLX%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -16105,6 +28504,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '4C',
+        slug: '4c',
+        records: [
+          {
+            id: 'pcd-b2-alfa-romeo-4c-960-2020-5x98',
+            generation: '960',
+            aliases: [
+              'Alfa Romeo 4C 2020',
+              '960',
+              '5x98'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-alfa-romeo-4c-2020-960',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Alfa Romeo 4C 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/alfa-romeo/4c/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-alfa-romeo-4c-2020-960',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo 4C generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/4C/4C%20%282013%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mito',
+        slug: 'mito',
+        records: [
+          {
+            id: 'pcd-b2-alfa-romeo-mito-955-2016-4x98',
+            generation: '955',
+            aliases: [
+              'Alfa Romeo Mito 2016',
+              '955',
+              '4x98'
+            ],
+            years: '2016-2016',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-alfa-romeo-mito-2016-955',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Alfa Romeo Mito 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/alfa-romeo/mito/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-alfa-romeo-mito-2016-955',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Mito generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Mito/Mito%20%282008%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -16342,6 +28891,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Encore',
+        slug: 'encore',
+        records: [
+          {
+            id: 'pcd-b2-buick-encore-ii-2022-5x105',
+            generation: 'II',
+            aliases: [
+              'Buick Encore 2022',
+              'II',
+              '5x105'
+            ],
+            years: '2022-2022',
+            market: 'some markets',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-buick-encore-2022-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick Encore 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/buick/encore/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 Chinese Domestic Market (CHDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-buick-encore-2022-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick Encore generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Buick/Encore/Encore%20%282012%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -16652,6 +29276,231 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'CT6',
+        slug: 'ct6',
+        records: [
+          {
+            id: 'pcd-b2-cadillac-ct6-i-facelift-2020-5x120',
+            generation: 'I Facelift',
+            aliases: [
+              'Cadillac CT6 2020',
+              'I Facelift',
+              '5x120'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x120',
+            centerBore: '66.9',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-cadillac-ct6-2020-i-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac CT6 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/cadillac/ct6/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-cadillac-ct6-2020-i-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac CT6 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/CT6/CT6%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ATS',
+        slug: 'ats',
+        records: [
+          {
+            id: 'pcd-b2-cadillac-ats-gm-alpha-ii-2019-5x115',
+            generation: 'GM Alpha II',
+            aliases: [
+              'Cadillac ATS 2019',
+              'GM Alpha II',
+              '5x115'
+            ],
+            years: '2019-2019',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-cadillac-ats-2019-gm-alpha-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac ATS 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/cadillac/ats/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-cadillac-ats-2019-gm-alpha-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac ATS generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/ATS/ATS%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CT6-V',
+        slug: 'ct6-v',
+        records: [
+          {
+            id: 'pcd-b2-cadillac-ct6-v-gm-omega-2020-5x120',
+            generation: 'GM Omega',
+            aliases: [
+              'Cadillac CT6-V 2020',
+              'GM Omega',
+              '5x120'
+            ],
+            years: '2020-2020',
+            market: 'US',
+            pcd: '5x120',
+            centerBore: '66.9',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-cadillac-ct6-v-2020-gm-omega',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac CT6-V 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/cadillac/ct6-v/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-cadillac-ct6-v-2020-gm-omega',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac CT6-V generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/CT6-V/CT6-V%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -16879,6 +29728,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tavascan',
+        slug: 'tavascan',
+        records: [
+          {
+            id: 'pcd-b2-cupra-tavascan-2023-2026-2024-5x112',
+            generation: '2023 .. 2026',
+            aliases: [
+              'Cupra Tavascan 2024',
+              '2023 .. 2026',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-cupra-tavascan-2024-2023-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cupra Tavascan 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/cupra/tavascan/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-cupra-tavascan-2024-2023-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cupra Tavascan generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cupra/Tavascan/Tavascan%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Terramar',
+        slug: 'terramar',
+        records: [
+          {
+            id: 'pcd-b2-cupra-terramar-2024-2026-2024-5x112',
+            generation: '2024 .. 2026',
+            aliases: [
+              'Cupra Terramar 2024',
+              '2024 .. 2026',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-cupra-terramar-2024-2024-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cupra Terramar 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/cupra/terramar/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-cupra-terramar-2024-2024-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cupra Terramar generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cupra/Terramar/Terramar%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -17185,6 +30184,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Jogger',
+        slug: 'jogger',
+        records: [
+          {
+            id: 'pcd-b2-dacia-jogger-i-facelift-2024-4x100',
+            generation: 'I Facelift',
+            aliases: [
+              'Dacia Jogger 2024',
+              'I Facelift',
+              '4x100'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-dacia-jogger-2024-i-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Dacia Jogger 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/dacia/jogger/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-dacia-jogger-2024-i-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dacia Jogger generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Dacia/Jogger/Jogger%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -17732,6 +30806,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Q30',
+        slug: 'q30',
+        records: [
+          {
+            id: 'pcd-b2-infiniti-q30-2015-2021-2020-5x112',
+            generation: '2015 .. 2021',
+            aliases: [
+              'Infiniti Q30 2020',
+              '2015 .. 2021',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-infiniti-q30-2020-2015-2021',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Infiniti Q30 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/infiniti/q30/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-infiniti-q30-2020-2015-2021',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Infiniti Q30 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Infiniti/Q30/Q30%20%282015%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Q60',
+        slug: 'q60',
+        records: [
+          {
+            id: 'pcd-b2-infiniti-q60-cv36-2015-5x114-3',
+            generation: 'CV36',
+            aliases: [
+              'Infiniti Q60 2015',
+              'CV36',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-infiniti-q60-2015-cv36',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Infiniti Q60 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/infiniti/q60/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-infiniti-q60-2015-cv36',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Infiniti Q60 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Infiniti/Q60/Q60%20%282013%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -17959,6 +31183,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XJ',
+        slug: 'xj',
+        records: [
+          {
+            id: 'pcd-b2-jaguar-xj-x351-2020-5x108',
+            generation: 'X351',
+            aliases: [
+              'Jaguar XJ 2020',
+              'X351',
+              '5x108'
+            ],
+            years: '2020-2020',
+            market: 'Japan',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-jaguar-xj-2020-x351',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Jaguar XJ 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/jaguar/xj/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 Japanese domestic market (JDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-jaguar-xj-2020-x351',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jaguar XJ generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Jaguar/XJ/XJ%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XF',
+        slug: 'xf',
+        records: [
+          {
+            id: 'pcd-b2-jaguar-xf-x250-facelift-2015-5x108',
+            generation: 'X250 Facelift',
+            aliases: [
+              'Jaguar XF 2015',
+              'X250 Facelift',
+              '5x108'
+            ],
+            years: '2015-2015',
+            market: 'US',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-jaguar-xf-2015-x250-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Jaguar XF 2015 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/jaguar/xf/2015/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2015 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2015 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-jaguar-xf-2015-x250-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jaguar XF generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Jaguar/XF/XF%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
@@ -18271,6 +31645,1854 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Combo',
+        slug: 'combo',
+        records: [
+          {
+            id: 'pcd-b2-opel-combo-d-2018-5x98',
+            generation: 'D',
+            aliases: [
+              'Opel Combo 2018',
+              'D',
+              '5x98'
+            ],
+            years: '2018-2018',
+            market: 'EU',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-opel-combo-2018-d',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Combo 2018 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/opel/combo/2018/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2018 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2018 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-opel-combo-2018-d',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Combo generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Combo/Combo%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2018 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Vivaro',
+        slug: 'vivaro',
+        records: [
+          {
+            id: 'pcd-b2-opel-vivaro-b-2019-5x114-3',
+            generation: 'B',
+            aliases: [
+              'Opel Vivaro 2019',
+              'B',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-opel-vivaro-2019-b',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Vivaro 2019 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/opel/vivaro/2019/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2019 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2019 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-opel-vivaro-2019-b',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Vivaro generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Vivaro/Vivaro%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2019 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b2-opel-vivaro-a-2014-5x118',
+            generation: 'A',
+            aliases: [
+              'Opel Vivaro 2014',
+              'A',
+              '5x118'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '142 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-opel-vivaro-2014-a',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Vivaro 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/opel/vivaro/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-opel-vivaro-2014-a',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Vivaro generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Vivaro/Vivaro%20%282001%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Adam',
+        slug: 'adam',
+        records: [
+          {
+            id: 'pcd-b2-opel-adam-sccs-2020-4x100',
+            generation: 'SCCS',
+            aliases: [
+              'Opel Adam 2020',
+              'SCCS',
+              '4x100'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-opel-adam-2020-sccs',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Adam 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/opel/adam/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-opel-adam-2020-sccs',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Adam generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Adam/Adam%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Crossland X',
+        slug: 'crossland-x',
+        records: [
+          {
+            id: 'pcd-b2-opel-crossland-x-2017-2020-2020-4x108',
+            generation: '2017 .. 2020',
+            aliases: [
+              'Opel Crossland X 2020',
+              '2017 .. 2020',
+              '4x108'
+            ],
+            years: '2020-2020',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-opel-crossland-x-2020-2017-2020',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Crossland X 2020 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/opel/crossland-x/2020/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2020 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2020 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-opel-crossland-x-2020-2017-2020',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Crossland X generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Crossland%20X/Crossland%20X%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ampera',
+        slug: 'ampera',
+        records: [
+          {
+            id: 'pcd-b2-opel-ampera-d1joi-2016-5x115',
+            generation: 'D1JOI',
+            aliases: [
+              'Opel Ampera 2016',
+              'D1JOI',
+              '5x115'
+            ],
+            years: '2016-2016',
+            market: 'EU',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-opel-ampera-2016-d1joi',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Ampera 2016 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/opel/ampera/2016/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2016 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2016 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-opel-ampera-2016-d1joi',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Ampera generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Ampera/Ampera%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Meriva',
+        slug: 'meriva',
+        records: [
+          {
+            id: 'pcd-b2-opel-meriva-b-facelift-2017-5x110',
+            generation: 'B Facelift',
+            aliases: [
+              'Opel Meriva 2017',
+              'B Facelift',
+              '5x110'
+            ],
+            years: '2017-2017',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-opel-meriva-2017-b-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel Meriva 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/opel/meriva/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-opel-meriva-2017-b-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Meriva generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Meriva/Meriva%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Fisker',
+    slug: 'fisker',
+    models: [
+      {
+        name: 'Ocean',
+        slug: 'ocean',
+        records: [
+          {
+            id: 'pcd-b2-fisker-ocean-2022-2025-2024-5x114-3',
+            generation: '2022 .. 2025',
+            aliases: [
+              'Fisker Ocean 2024',
+              '2022 .. 2025',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-fisker-ocean-2024-2022-2025',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fisker Ocean 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/fisker/ocean/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-fisker-ocean-2024-2022-2025',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fisker Ocean generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fisker/Ocean/Ocean%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'MAN',
+    slug: 'man',
+    models: [
+      {
+        name: 'TGE',
+        slug: 'tge',
+        records: [
+          {
+            id: 'pcd-b2-man-tge-sy-sz-2022-5x120',
+            generation: 'SY/SZ',
+            aliases: [
+              'MAN TGE 2022',
+              'SY/SZ',
+              '5x120'
+            ],
+            years: '2022-2022',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-man-tge-2022-sy-sz',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MAN TGE 2022 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/man/tge/2022/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2022 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2022 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-man-tge-2022-sy-sz',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MAN TGE generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/MAN/TGE/TGE%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2022 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Maxus',
+    slug: 'maxus',
+    models: [
+      {
+        name: 'EV80 Plus',
+        slug: 'ev80-plus',
+        records: [
+          {
+            id: 'pcd-b2-maxus-ev80-plus-2022-2025-2024-5x130',
+            generation: '2022 .. 2025',
+            aliases: [
+              'Maxus EV80 Plus 2024',
+              '2022 .. 2025',
+              '5x130'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET66',
+            torque: '180 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-maxus-ev80-plus-2024-2022-2025',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Maxus EV80 Plus 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/maxus/ev80-plus/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Chinese Domestic Market (CHDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-maxus-ev80-plus-2024-2022-2025',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maxus EV80 Plus generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Maxus/EV80%20Plus/EV80%20Plus%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EV80 Pro',
+        slug: 'ev80-pro',
+        records: [
+          {
+            id: 'pcd-b2-maxus-ev80-pro-2023-2026-2024-5x130',
+            generation: '2023 .. 2026',
+            aliases: [
+              'Maxus EV80 Pro 2024',
+              '2023 .. 2026',
+              '5x130'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET66',
+            torque: '180 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-maxus-ev80-pro-2024-2023-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Maxus EV80 Pro 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/maxus/ev80-pro/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Chinese Domestic Market (CHDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-maxus-ev80-pro-2024-2023-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maxus EV80 Pro generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Maxus/EV80%20Pro/EV80%20Pro%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EV80',
+        slug: 'ev80',
+        records: [
+          {
+            id: 'pcd-b2-maxus-ev80-2015-2023-2023-5x130',
+            generation: '2015 .. 2023',
+            aliases: [
+              'Maxus EV80 2023',
+              '2015 .. 2023',
+              '5x130'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET66',
+            torque: '180 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-maxus-ev80-2023-2015-2023',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Maxus EV80 2023 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/maxus/ev80/2023/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2023 Chinese Domestic Market (CHDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2023 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-maxus-ev80-2023-2015-2023',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maxus EV80 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Maxus/EV80/EV80%20%282015%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'MG',
+    slug: 'mg',
+    models: [
+      {
+        name: 'Astor',
+        slug: 'astor',
+        records: [
+          {
+            id: 'pcd-b2-mg-astor-zs11-2024-5x100',
+            generation: 'ZS11',
+            aliases: [
+              'MG Astor 2024',
+              'ZS11',
+              '5x100'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mg-astor-2024-zs11',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG Astor 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mg/astor/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Southeast Asian Market (SAM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mg-astor-2024-zs11',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG Astor generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/MG/Astor/Astor%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'HS',
+        slug: 'hs',
+        records: [
+          {
+            id: 'pcd-b2-mg-hs-i-as23-facelift-2024-5x112',
+            generation: 'I (AS23) Facelift',
+            aliases: [
+              'MG HS 2024',
+              'I (AS23) Facelift',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mg-hs-2024-i-as23-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG HS 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mg/hs/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mg-hs-2024-i-as23-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG HS generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/MG/HS/HS%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RX5',
+        slug: 'rx5',
+        records: [
+          {
+            id: 'pcd-b2-mg-rx5-2023-2026-2024-5x112',
+            generation: '2023 .. 2026',
+            aliases: [
+              'MG RX5 2024',
+              '2023 .. 2026',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mg-rx5-2024-2023-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG RX5 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mg/rx5/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Latin American domestic market (LADM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mg-rx5-2024-2023-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG RX5 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/MG/RX5/RX5%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ZS EV',
+        slug: 'zs-ev',
+        records: [
+          {
+            id: 'pcd-b2-mg-zs-ev-ii-2024-5x112',
+            generation: 'II',
+            aliases: [
+              'MG ZS EV 2024',
+              'II',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-mg-zs-ev-2024-ii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG ZS EV 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/mg/zs-ev/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-mg-zs-ev-2024-ii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG ZS EV generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/MG/ZS%20EV/ZS%20EV%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'XPeng',
+    slug: 'xpeng',
+    models: [
+      {
+        name: 'G9',
+        slug: 'g9',
+        records: [
+          {
+            id: 'pcd-b2-xpeng-g9-2022-2026-2024-5x112',
+            generation: '2022 .. 2026',
+            aliases: [
+              'XPeng G9 2024',
+              '2022 .. 2026',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-xpeng-g9-2024-2022-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'XPeng G9 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/xpeng/g9/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-xpeng-g9-2024-2022-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'XPeng G9 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/XPeng/G9/G9%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'P7',
+        slug: 'p7',
+        records: [
+          {
+            id: 'pcd-b2-xpeng-p7-2020-2024-2024-5x112',
+            generation: '2020 .. 2024',
+            aliases: [
+              'XPeng P7 2024',
+              '2020 .. 2024',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'EU',
+            pcd: '5x112',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-xpeng-p7-2024-2020-2024',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'XPeng P7 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/xpeng/p7/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-xpeng-p7-2024-2020-2024',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'XPeng P7 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/XPeng/P7/P7%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'P7i',
+        slug: 'p7i',
+        records: [
+          {
+            id: 'pcd-b2-xpeng-p7i-2023-2026-2024-5x112',
+            generation: '2023 .. 2026',
+            aliases: [
+              'XPeng P7i 2024',
+              '2023 .. 2026',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-xpeng-p7i-2024-2023-2026',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'XPeng P7i 2024 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/xpeng/p7i/2024/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2024 Chinese Domestic Market (CHDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2024 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-xpeng-p7i-2024-2023-2026',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'XPeng P7i generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/XPeng/P7i/P7i%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Daihatsu',
+    slug: 'daihatsu',
+    models: [
+      {
+        name: 'Terios',
+        slug: 'terios',
+        records: [
+          {
+            id: 'pcd-b2-daihatsu-terios-j200-2017-5x114-3',
+            generation: 'J200',
+            aliases: [
+              'Daihatsu Terios 2017',
+              'J200',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '66.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-daihatsu-terios-2017-j200',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Terios 2017 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/daihatsu/terios/2017/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2017 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2017 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-daihatsu-terios-2017-j200',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Terios generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Terios/Terios%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2017 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Materia',
+        slug: 'materia',
+        records: [
+          {
+            id: 'pcd-b2-daihatsu-materia-m400-2012-4x100',
+            generation: 'M400',
+            aliases: [
+              'Daihatsu Materia 2012',
+              'M400',
+              '4x100'
+            ],
+            years: '2012-2012',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-daihatsu-materia-2012-m400',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Materia 2012 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/daihatsu/materia/2012/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2012 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2012 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-daihatsu-materia-2012-m400',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Materia generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Materia/Materia%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Lancia',
+    slug: 'lancia',
+    models: [
+      {
+        name: 'Delta',
+        slug: 'delta',
+        records: [
+          {
+            id: 'pcd-b2-lancia-delta-844-2014-4x98',
+            generation: '844',
+            aliases: [
+              'Lancia Delta 2014',
+              '844',
+              '4x98'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-lancia-delta-2014-844',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lancia Delta 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/lancia/delta/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-lancia-delta-2014-844',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lancia Delta generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lancia/Delta/Delta%20%282008%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Lincoln',
+    slug: 'lincoln',
+    models: [
+      {
+        name: 'Navigator',
+        slug: 'navigator',
+        records: [
+          {
+            id: 'pcd-b2-lincoln-navigator-iii-2014-6x135',
+            generation: 'III',
+            aliases: [
+              'Lincoln Navigator 2014',
+              'III',
+              '6x135'
+            ],
+            years: '2014-2014',
+            market: 'US',
+            pcd: '6x135',
+            centerBore: '87.1',
+            thread: 'M14x2',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-lincoln-navigator-2014-iii',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lincoln Navigator 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/lincoln/navigator/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 US domestic market (USDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-lincoln-navigator-2014-iii',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lincoln Navigator generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lincoln/Navigator/Navigator%20%282007%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Saab',
+    slug: 'saab',
+    models: [
+      {
+        name: '9-3',
+        slug: '9-3',
+        records: [
+          {
+            id: 'pcd-b2-saab-9-3-ii-ys3f-facelift-2014-5x110',
+            generation: 'II (YS3F) Facelift',
+            aliases: [
+              'Saab 9-3 2014',
+              'II (YS3F) Facelift',
+              '5x110'
+            ],
+            years: '2014-2014',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-28',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'avtoref-b2-saab-9-3-2014-ii-ys3f-facelift',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Saab 9-3 2014 wheel and tire fitment',
+                url: 'https://avtoreference.com/en/auto/saab/9-3/2014/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: '2014 European domestic market (EUDM) specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'wheelSizes',
+                  'tireSizes'
+                ],
+                limitations: 'Exact 2014 application scope only; wheel torque is taken from the separate generation-level reference.'
+              },
+              {
+                id: 'wheelfit-b2-saab-9-3-2014-ii-ys3f-facelift',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-3 generation wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-3/9-3%20%282003%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-28',
+                pages: 'Generation specification table',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
           }
