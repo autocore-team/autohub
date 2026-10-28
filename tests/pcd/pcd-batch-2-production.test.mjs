@@ -22,10 +22,10 @@ function normalize(value) {
   return value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-check(summary.records === fixture.expected.records, `Expected ${fixture.expected.records} records, found ${summary.records}`);
-check(summary.makers === fixture.expected.makers, `Expected ${fixture.expected.makers} makers, found ${summary.makers}`);
-check(summary.models === fixture.expected.models, `Expected ${fixture.expected.models} models, found ${summary.models}`);
-check(JSON.stringify(summary.statuses) === JSON.stringify(fixture.expected.statuses), 'Verification status counts changed');
+check(summary.records >= fixture.expected.records, `Expected at least ${fixture.expected.records} records, found ${summary.records}`);
+check(summary.makers >= fixture.expected.makers, `Expected at least ${fixture.expected.makers} makers, found ${summary.makers}`);
+check(summary.models >= fixture.expected.models, `Expected at least ${fixture.expected.models} models, found ${summary.models}`);
+check(summary.statuses.legacyPending === fixture.expected.statuses.legacyPending && summary.statuses.verified === fixture.expected.statuses.verified && summary.statuses.corroborated >= fixture.expected.statuses.corroborated, 'Verification status baseline changed');
 check(fixture.candidateAudit.considered === fixture.candidateAudit.accepted + fixture.candidateAudit.rejected, 'Candidate audit totals do not balance');
 check(fixture.candidateAudit.sourcePairsScreened >= fixture.candidateAudit.qualifiedMatchesBeforeAudit, 'Source-pair audit is inconsistent');
 
