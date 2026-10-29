@@ -1,0 +1,556 @@
+{
+  "batch": "pcd-production-batch-5",
+  "candidateAudit": {
+    "sourcePagesScreened": 2034,
+    "qualifiedMatchesBeforeAudit": 301,
+    "considered": 301,
+    "rejected": 70,
+    "accepted": 231,
+    "baselineOrEarlierPoolSemanticCollisions": 10,
+    "consolidatedOrDuplicateSources": 8,
+    "finalSemanticCollisionsRemoved": 52,
+    "semanticCollisionsRemoved": 62
+  },
+  "baseline": {
+    "records": 1109,
+    "semanticHash": "9c42746f5392342d44b3544b59340efcbf6f5ace887306e44190feb86ba89b23",
+    "orderHash": "e504c9cf5511571d55d7f796753f3f12eec591c9057e63fa1ed29fb253ed99d7"
+  },
+  "expected": {
+    "records": 1340,
+    "makers": 72,
+    "models": 939,
+    "statuses": {
+      "legacyPending": 281,
+      "verified": 15,
+      "corroborated": 1044
+    },
+    "batchStatuses": {
+      "verified": 0,
+      "corroborated": 231
+    },
+    "markets": {
+      "US": 0,
+      "EU": 0,
+      "JP": 0,
+      "OTHER": 0,
+      "GLOBAL": 231
+    },
+    "sourceUrls": 462
+  },
+  "removed": [
+    {
+      "id": "pcd-b5-acura-vigor-acura-vigor-1992-4x114-3",
+      "reason": "badge-engineered Honda application"
+    },
+    {
+      "id": "pcd-b5-aston-martin-cygnet-aston-martin-cygnet-2011-4x100",
+      "reason": "badge-engineered Toyota iQ application"
+    },
+    {
+      "id": "pcd-b5-audi-a4-audi-a4-b6-2000-5x112",
+      "reason": "baseline semantic collision with audi-a4-b6-b7-2000-2008-5x112"
+    },
+    {
+      "id": "pcd-b5-audi-a4-audi-a4-b8-2015-5x112",
+      "reason": "baseline semantic collision with audi-a4-b8-b9-2008-2026-5x112"
+    },
+    {
+      "id": "pcd-b5-audi-a4-audi-a4-b7-2004-5x112",
+      "reason": "baseline semantic collision with audi-a4-b6-b7-2000-2008-5x112"
+    },
+    {
+      "id": "pcd-b5-audi-a6-audi-a6-c8-2018-5x112",
+      "reason": "baseline semantic collision with audi-a6-c7-c8-2011-2026-5x112"
+    },
+    {
+      "id": "pcd-b5-audi-s1-sportback-audi-s1-sportback-2014-5x100",
+      "reason": "body-style overlap with the same S1 generation"
+    },
+    {
+      "id": "pcd-b5-audi-tt-coupe-1-8t-audi-tt-coupe-1-8t-1998-5x100",
+      "reason": "trim/body-style overlap with the TT generation"
+    },
+    {
+      "id": "pcd-b5-bmw-1-serie-bmw-1-serie-e87-2007-5x120",
+      "reason": "shared exact-generation source URL and body-style consolidation"
+    },
+    {
+      "id": "pcd-b5-bmw-1-serie-bmw-1-serie-e82-2007-5x120",
+      "reason": "shared exact-generation source URL and body-style consolidation"
+    },
+    {
+      "id": "pcd-b5-bmw-1-serie-bmw-1-serie-e88-2007-5x120",
+      "reason": "shared exact-generation source URL and body-style consolidation"
+    },
+    {
+      "id": "pcd-b5-bmw-3-serie-bmw-3-serie-e92-2006-5x120",
+      "reason": "shared exact-generation source URL and body-style consolidation"
+    },
+    {
+      "id": "pcd-b5-bmw-3-serie-bmw-3-serie-e91-2005-5x120",
+      "reason": "shared exact-generation source URL and body-style consolidation"
+    },
+    {
+      "id": "pcd-b5-bmw-3-serie-bmw-3-serie-e93-2007-5x120",
+      "reason": "shared exact-generation source URL and body-style consolidation"
+    },
+    {
+      "id": "pcd-b5-bmw-3-serie-bmw-3-serie-e46-4-meme-jantes-1998-5x120",
+      "reason": "ambiguous translated generation label"
+    },
+    {
+      "id": "pcd-b5-bmw-5-serie-bmw-5-serie-e60-2004-5x120",
+      "reason": "shared exact-generation source URL and body-style consolidation"
+    },
+    {
+      "id": "pcd-b5-bmw-5-serie-bmw-5-serie-f11-2010-5x120",
+      "reason": "body-style overlap with the F10 generation"
+    },
+    {
+      "id": "pcd-b5-bmw-6-serie-bmw-6-serie-f13-2011-5x120",
+      "reason": "shared exact-generation source URL and body-style consolidation"
+    },
+    {
+      "id": "pcd-b5-bmw-6-serie-bmw-6-serie-e64-2003-5x120",
+      "reason": "body-style overlap with the E63 generation"
+    },
+    {
+      "id": "pcd-b5-bmw-x3-bmw-x3-e83-2004-5x120",
+      "reason": "baseline semantic collision with bmw-x3-e83-f25-2003-2017-5x120"
+    },
+    {
+      "id": "pcd-b5-bmw-x5-bmw-x5-f15-2013-5x120",
+      "reason": "baseline semantic collision with bmw-x5-e70-f15-2006-2018-5x120"
+    },
+    {
+      "id": "pcd-b5-chevrolet-alero-chevrolet-alero-1998-5x115",
+      "reason": "badge-engineered Oldsmobile application"
+    },
+    {
+      "id": "pcd-b5-chrysler-crossfire-chrysler-crossfire-2002-5x112",
+      "reason": "badge-engineered Mercedes application"
+    },
+    {
+      "id": "pcd-b5-citroen-nemo-citroen-nemo-2008-4x98",
+      "reason": "badge-engineered Fiorino/Bipper application"
+    },
+    {
+      "id": "pcd-b5-dodge-caravan-dodge-caravan-2007-5x114-3",
+      "reason": "baseline semantic collision with pcd-b3-dodge-caravan-iv-rs-2007-5x114-3"
+    },
+    {
+      "id": "pcd-b5-fiat-600e-fiat-600e-2023-4x108",
+      "reason": "alternate spelling of the Fiat 600 electric application"
+    },
+    {
+      "id": "pcd-b5-fiat-freemont-fiat-freemont-2011-5x127",
+      "reason": "badge-engineered Dodge Journey application"
+    },
+    {
+      "id": "pcd-b5-ford-focus-st170-ford-focus-st170-2002-4x108",
+      "reason": "trim overlap with the Focus generation"
+    },
+    {
+      "id": "pcd-b5-ford-focus-ford-focus-st-2005-5x108",
+      "reason": "trim overlap with the Focus generation"
+    },
+    {
+      "id": "pcd-b5-ford-s-max-ford-s-max-2015-5x108",
+      "reason": "baseline semantic collision with pcd-b2-ford-s-max-i-cd340-facelift-2015-5x108"
+    },
+    {
+      "id": "pcd-b5-ford-transit-custom-2-7t-2-9t-3-1t-ford-transit-custom-2-7t-2-9t-3-1t-2013-5x160",
+      "reason": "load-rating variant overlap with Transit Custom"
+    },
+    {
+      "id": "pcd-b5-honda-civic-hybrid-honda-civic-hybrid-2006-5x114-3",
+      "reason": "powertrain trim overlap with the Civic generation"
+    },
+    {
+      "id": "pcd-b5-honda-civic-type-r-honda-civic-type-r-2001-5x114-3",
+      "reason": "performance trim overlap with the Civic generation"
+    },
+    {
+      "id": "pcd-b5-kia-ceed-gt-kia-ceed-gt-2013-5x114-3",
+      "reason": "performance trim overlap with the Ceed generation"
+    },
+    {
+      "id": "pcd-b5-kia-pro-ceed-kia-pro-ceed-2008-5x114-3",
+      "reason": "body-style overlap with the Ceed generation"
+    },
+    {
+      "id": "pcd-b5-lancia-voyager-lancia-voyager-2011-5x127",
+      "reason": "badge-engineered Chrysler application"
+    },
+    {
+      "id": "pcd-b5-lexus-rx200t-lexus-rx200t-2015-5x114-3",
+      "reason": "powertrain label overlap with the RX generation"
+    },
+    {
+      "id": "pcd-b5-lexus-rx270-lexus-rx270-2009-5x114-3",
+      "reason": "powertrain label overlap with the RX generation"
+    },
+    {
+      "id": "pcd-b5-lexus-rx330-lexus-rx330-2003-5x114-3",
+      "reason": "powertrain label overlap with the RX generation"
+    },
+    {
+      "id": "pcd-b5-lexus-rx400h-lexus-rx400h-2003-5x114-3",
+      "reason": "powertrain label overlap with the RX generation"
+    },
+    {
+      "id": "pcd-b5-lexus-rx300-lexus-rx300-1997-5x114-3",
+      "reason": "powertrain label overlap with the RX generation"
+    },
+    {
+      "id": "pcd-b5-lexus-rx450h-lexus-rx450h-2009-5x114-3",
+      "reason": "powertrain label overlap with the RX generation"
+    },
+    {
+      "id": "pcd-b5-lexus-rx350-lexus-rx350-2006-5x114-3",
+      "reason": "powertrain label overlap with the RX generation"
+    },
+    {
+      "id": "pcd-b5-lotus-emira-back-lotus-emira-back-2022-5x114-3",
+      "reason": "front/rear axle split is not a standalone vehicle position"
+    },
+    {
+      "id": "pcd-b5-lotus-emira-front-lotus-emira-front-2022-5x114-3",
+      "reason": "front/rear axle split is not a standalone vehicle position"
+    },
+    {
+      "id": "pcd-b5-lotus-exige-s3-back-lotus-exige-s3-back-2011-5x114-3",
+      "reason": "front/rear axle split is not a standalone vehicle position"
+    },
+    {
+      "id": "pcd-b5-lotus-exige-s3-front-lotus-exige-s3-front-2011-5x110",
+      "reason": "front/rear axle split is not a standalone vehicle position"
+    },
+    {
+      "id": "pcd-b5-man-etge-man-etge-2018-5x120",
+      "reason": "badge-engineered Volkswagen Crafter application"
+    },
+    {
+      "id": "pcd-b5-mg-zr-mg-zr-2001-4x100",
+      "reason": "badge-engineered Rover application"
+    },
+    {
+      "id": "pcd-b5-mitsubishi-carisma-1-6-1-8gdi-1-9td-mitsubishi-carisma-1-6-1-8gdi-1-9td-2000-4x114-3",
+      "reason": "engine-trim overlap with the Carisma application"
+    },
+    {
+      "id": "pcd-b5-mitsubishi-carisma-mitsubishi-carisma-1-8i-1995-4x114-3",
+      "reason": "engine-trim overlap with the Carisma application"
+    },
+    {
+      "id": "pcd-b5-mitsubishi-lancer-2-0i-mitsubishi-lancer-2-0i-2003-5x114-3",
+      "reason": "engine-trim overlap with the Lancer generation"
+    },
+    {
+      "id": "pcd-b5-nissan-qashqai-nissan-qashqai-j12-2022-5x114-3",
+      "reason": "baseline semantic collision with nissan-qashqai-j10-j11-j12-2006-2026-5x114-3"
+    },
+    {
+      "id": "pcd-b5-nissan-qashqai-nissan-qashqai-j11-2013-5x114-3",
+      "reason": "baseline semantic collision with nissan-qashqai-j10-j11-j12-2006-2026-5x114-3"
+    },
+    {
+      "id": "pcd-b5-opel-adam-s-opel-adam-s-2015-5x110",
+      "reason": "trim overlap with the Adam generation"
+    },
+    {
+      "id": "pcd-b5-opel-adam-rocks-opel-adam-rocks-2014-4x100",
+      "reason": "trim overlap with the Adam generation"
+    },
+    {
+      "id": "pcd-b5-peugeot-206cc-peugeot-206cc-2001-4x108",
+      "reason": "body-style overlap with the 206 generation"
+    },
+    {
+      "id": "pcd-b5-peugeot-107-peugeot-107-2005-4x100",
+      "reason": "badge-engineered C1/Aygo application"
+    },
+    {
+      "id": "pcd-b5-peugeot-307cc-peugeot-307cc-2003-4x108",
+      "reason": "body-style overlap with the 307 generation"
+    },
+    {
+      "id": "pcd-b5-peugeot-308cc-peugeot-308cc-2007-4x108",
+      "reason": "body-style overlap with the 308 generation"
+    },
+    {
+      "id": "pcd-b5-peugeot-4007-peugeot-4007-2007-5x114-3",
+      "reason": "badge-engineered Mitsubishi Outlander application"
+    },
+    {
+      "id": "pcd-b5-peugeot-407-coupe-peugeot-407-coupe-2005-5x108",
+      "reason": "body-style overlap with the 407 generation"
+    },
+    {
+      "id": "pcd-b5-peugeot-807-peugeot-807-2002-5x98",
+      "reason": "badge-engineered Citroen C8 application"
+    },
+    {
+      "id": "pcd-b5-peugeot-expert-peugeot-expert-1996-5x98",
+      "reason": "badge-engineered Citroen Jumpy application"
+    },
+    {
+      "id": "pcd-b5-pontiac-g5-pontiac-g5-2005-5x110",
+      "reason": "badge-engineered Chevrolet application"
+    },
+    {
+      "id": "pcd-b5-pontiac-g8-pontiac-g8-2008-5x120",
+      "reason": "badge-engineered Holden application"
+    },
+    {
+      "id": "pcd-b5-pontiac-torrent-pontiac-torrent-2005-5x115",
+      "reason": "badge-engineered Chevrolet application"
+    },
+    {
+      "id": "pcd-b5-ram-promaster-city-ram-promaster-city-2013-5x98",
+      "reason": "badge-engineered Fiat Doblo application"
+    },
+    {
+      "id": "pcd-b5-ram-promaster-ram-promaster-2013-5x130",
+      "reason": "badge-engineered Fiat Ducato application"
+    },
+    {
+      "id": "pcd-b5-ram-ram-700-pickup-ram-ram-700-pickup-2014-4x98",
+      "reason": "badge-engineered Fiat Strada application"
+    }
+  ],
+  "ids": [
+    "pcd-b5-abarth-500e-abarth-500e-2023-4x98",
+    "pcd-b5-abarth-595-abarth-595-2022-4x98",
+    "pcd-b5-alfa-romeo-145-alfa-romeo-145-1994-4x98",
+    "pcd-b5-alfa-romeo-146-alfa-romeo-146-1995-4x98",
+    "pcd-b5-alfa-romeo-147-alfa-romeo-147-2001-5x98",
+    "pcd-b5-alfa-romeo-159-alfa-romeo-159-2005-5x110",
+    "pcd-b5-alfa-romeo-156-alfa-romeo-156-1997-5x98",
+    "pcd-b5-alfa-romeo-gt-alfa-romeo-gt-2003-5x98",
+    "pcd-b5-alfa-romeo-gtv-v6-alfa-romeo-gtv-v6-1983-5x98",
+    "pcd-b5-alfa-romeo-gtv-alfa-romeo-gtv-1995-5x98",
+    "pcd-b5-alfa-romeo-spider-v6-alfa-romeo-spider-v6-1995-5x98",
+    "pcd-b5-alpina-b4-alpina-b4-2022-5x112",
+    "pcd-b5-alpina-b3-alpina-b3-2013-5x120",
+    "pcd-b5-alpine-a290-alpine-a290-2024-5x114-3",
+    "pcd-b5-alpina-b10-alpina-b10-1988-5x120",
+    "pcd-b5-aston-martin-db11-aston-martin-db11-2016-5x128",
+    "pcd-b5-audi-100-audi-100-1982-4x108",
+    "pcd-b5-audi-a2-audi-a2-1-2-tdi-2000-4x100",
+    "pcd-b5-audi-a2-audi-a2-1999-5x100",
+    "pcd-b5-audi-a3-audi-a3-8p-2003-5x112",
+    "pcd-b5-audi-a3-audi-a3-8l-1996-5x100",
+    "pcd-b5-audi-a4-audi-a4-b5-1994-5x112",
+    "pcd-b5-audi-a3-audi-a3-8y-2020-5x112",
+    "pcd-b5-audi-a5-audi-a5-2016-5x112",
+    "pcd-b5-audi-allroad-audi-allroad-2012-5x112",
+    "pcd-b5-audi-all-road-audi-all-road-2000-5x112",
+    "pcd-b5-audi-s1-audi-s1-2014-5x100",
+    "pcd-b5-audi-rs6-audi-rs6-c5-2002-5x112",
+    "pcd-b5-audi-s8-audi-s8-4h-2011-5x112",
+    "pcd-b5-audi-s8-audi-s8-4e-2006-5x112",
+    "pcd-b5-audi-tt-audi-tt-2014-5x112",
+    "pcd-b5-bentley-brooklands-bentley-brooklands-2008-5x120",
+    "pcd-b5-bmw-1-serie-bmw-1-serie-e81-2007-5x120",
+    "pcd-b5-bmw-1-serie-m-bmw-1-serie-m-e82-2011-5x120",
+    "pcd-b5-bmw-1-serie-sedan-bmw-1-serie-sedan-f52-2017-5x112",
+    "pcd-b5-bmw-2-serie-active-tourer-bmw-2-serie-active-tourer-u06-2022-5x112",
+    "pcd-b5-bmw-2-serie-bmw-2-serie-f44-2021-5x112",
+    "pcd-b5-bmw-3-serie-bmw-3-serie-e90-2005-5x120",
+    "pcd-b5-bmw-3-serie-gran-turismo-bmw-3-serie-gran-turismo-f34-2013-5x120",
+    "pcd-b5-bmw-4-serie-bmw-4-serie-g22-g23-g26-2020-5x112",
+    "pcd-b5-bmw-5-serie-bmw-5-serie-e34-1988-5x120",
+    "pcd-b5-bmw-5-serie-bmw-5-serie-e39-1995-5x120",
+    "pcd-b5-bmw-6-serie-bmw-6-serie-e63-2003-5x120",
+    "pcd-b5-bmw-5-serie-gt-bmw-5-serie-gt-f07-2009-5x120",
+    "pcd-b5-bmw-5-serie-bmw-5-serie-f10-2010-5x120",
+    "pcd-b5-bmw-5-serie-bmw-5-serie-g30-g31-2017-5x112",
+    "pcd-b5-bmw-5-serie-bmw-5-serie-g60-g61-g68-2024-5x112",
+    "pcd-b5-bmw-5-serie-bmw-5-serie-e61-2004-5x120",
+    "pcd-b5-bmw-6-serie-bmw-6-serie-f12-2011-5x120",
+    "pcd-b5-bmw-8-serie-bmw-8-serie-e31-1989-5x120",
+    "pcd-b5-bmw-i3-bmw-i3-2013-5x112",
+    "pcd-b5-bmw-8-serie-bmw-8-serie-g15-2018-5x112",
+    "pcd-b5-bmw-i7-bmw-i7-2022-5x112",
+    "pcd-b5-bmw-7-serie-bmw-7-serie-f01-2008-5x120",
+    "pcd-b5-bmw-m1-bmw-m1-1979-5x120",
+    "pcd-b5-bmw-m3-bmw-m3-f80-2014-5x120",
+    "pcd-b5-bmw-m4-bmw-m4-f82-2014-5x120",
+    "pcd-b5-bmw-m5-bmw-m5-f10-2011-5x120",
+    "pcd-b5-bmw-m8-bmw-m8-2019-5x112",
+    "pcd-b5-bmw-x4-bmw-x4-f26-2014-5x120",
+    "pcd-b5-bmw-x5-m-bmw-x5-m-f15-2013-5x120",
+    "pcd-b5-bmw-x6-bmw-x6-f16-2014-5x120",
+    "pcd-b5-bmw-z1-bmw-z1-1989-4x100",
+    "pcd-b5-byd-dolphin-plus-byd-dolphin-plus-2023-5x114-3",
+    "pcd-b5-byd-dolphin-byd-dolphin-2021-5x114-3",
+    "pcd-b5-byd-seal-byd-seal-2022-5x120",
+    "pcd-b5-byd-han-byd-han-2022-5x120",
+    "pcd-b5-byd-etp3-byd-etp3-2014-5x120",
+    "pcd-b5-byd-m3-byd-m3-2014-5x120",
+    "pcd-b5-byd-t3-byd-t3-2014-5x120",
+    "pcd-b5-byd-tang-byd-tang-2021-5x120",
+    "pcd-b5-cadillac-ct5-cadillac-ct5-2020-5x120",
+    "pcd-b5-chevrolet-aveo-chevrolet-aveo-2006-4x100",
+    "pcd-b5-chevrolet-corvette-chevrolet-corvette-c8-2020-5x120",
+    "pcd-b5-chevrolet-lanos-chevrolet-lanos-1997-4x100",
+    "pcd-b5-chevrolet-leganza-chevrolet-leganza-1998-5x114-3",
+    "pcd-b5-chevrolet-silverado-chevrolet-silverado-1999-6x139-7",
+    "pcd-b5-chevrolet-spark-m300-chevrolet-spark-m300-2010-4x100",
+    "pcd-b5-chevrolet-tacuma-chevrolet-tacuma-2001-4x114-3",
+    "pcd-b5-chevrolet-spark-m400-chevrolet-spark-m400-2016-4x100",
+    "pcd-b5-chrysler-300c-chrysler-300c-2004-5x115",
+    "pcd-b5-chevrolet-volt-chevrolet-volt-2012-5x115",
+    "pcd-b5-chrysler-300m-chrysler-300m-1998-5x114-3",
+    "pcd-b5-chrysler-le-baron-chrysler-le-baron-1987-5x100",
+    "pcd-b5-chrysler-neon-chrysler-neon-1994-5x100",
+    "pcd-b5-chrysler-pt-cruiser-chrysler-pt-cruiser-2000-5x100",
+    "pcd-b5-citroen-c3-aircross-citroen-c3-aircross-2017-4x108",
+    "pcd-b5-citroen-c3-citroen-c3-pluriel-2010-4x108",
+    "pcd-b5-citroen-c3-picasso-citroen-c3-picasso-2009-4x108",
+    "pcd-b5-citroen-c4-cactus-citroen-c4-cactus-2014-4x108",
+    "pcd-b5-citroen-c4-grand-picasso-citroen-c4-grand-picasso-2013-5x108",
+    "pcd-b5-citroen-c8-citroen-c8-2002-5x98",
+    "pcd-b5-citroen-ds3-citroen-ds3-2010-4x108",
+    "pcd-b5-citroen-ds5-citroen-ds5-2012-4x108",
+    "pcd-b5-citroen-ds4-citroen-ds4-2011-4x108",
+    "pcd-b5-citroen-jumpy-citroen-jumpy-1996-5x98",
+    "pcd-b5-citroen-saxo-citroen-saxo-1996-4x108",
+    "pcd-b5-citroen-spacetourer-citroen-spacetourer-2024-5x108",
+    "pcd-b5-dacia-lodgy-dacia-lodgy-2012-4x100",
+    "pcd-b5-daihatsu-hijet-daihatsu-hijet-1987-4x110",
+    "pcd-b5-daihatsu-rocky-daihatsu-rocky-1992-5x139-7",
+    "pcd-b5-dodge-avenger-dodge-avenger-2007-5x114-3",
+    "pcd-b5-dodge-challenger-dodge-challenger-2008-5x115",
+    "pcd-b5-dodge-neon-srt4-dodge-neon-srt4-2003-5x100",
+    "pcd-b5-ds-ds-3-crossback-ds-ds-3-crossback-2018-4x108",
+    "pcd-b5-ds-ds-7-ds-ds-7-2023-5x108",
+    "pcd-b5-faw-hongqi-e-hs9-faw-hongqi-e-hs9-2020-5x130",
+    "pcd-b5-faw-hongqi-h9-faw-hongqi-h9-2020-5x114-3",
+    "pcd-b5-faw-hongqi-e-hs3-faw-hongqi-e-hs3-2018-5x114-3",
+    "pcd-b5-ferrari-575-ferrari-575-2005-5x108",
+    "pcd-b5-ferrari-f12-tdf-ferrari-f12-tdf-2015-5x114-3",
+    "pcd-b5-ferrari-ff-ferrari-ff-2011-5x114-3",
+    "pcd-b5-ferrari-gtc4-lusso-ferrari-gtc4-lusso-2016-5x114-3",
+    "pcd-b5-fiat-600-fiat-600-2023-4x108",
+    "pcd-b5-fiat-cinquecento-fiat-cinquecento-1991-4x98",
+    "pcd-b5-fiat-brava-fiat-brava-1995-4x98",
+    "pcd-b5-fiat-albea-fiat-albea-2002-4x98",
+    "pcd-b5-fiat-doblo-maxi-fiat-doblo-maxi-2010-5x98",
+    "pcd-b5-fiat-e-doblo-fiat-e-doblo-2022-5x98",
+    "pcd-b5-fiat-fiorino-fiat-fiorino-1989-4x98",
+    "pcd-b5-fiat-grand-punto-fiat-grand-punto-2005-4x100",
+    "pcd-b5-fiat-idea-fiat-idea-2003-4x98",
+    "pcd-b5-fiat-linea-fiat-linea-2007-4x98",
+    "pcd-b5-fisker-karma-fisker-karma-2011-5x130",
+    "pcd-b5-fisker-tramonto-fisker-tramonto-2005-5x112",
+    "pcd-b5-ford-courier-ford-courier-1995-4x108",
+    "pcd-b5-ford-excursion-ford-excursion-2000-8x170",
+    "pcd-b5-ford-f250-ford-f250-1999-8x170",
+    "pcd-b5-ford-f350-ford-f350-1997-8x170",
+    "pcd-b5-ford-flex-ford-flex-2009-5x114-3",
+    "pcd-b5-ford-focus-ford-focus-i-1998-4x108",
+    "pcd-b5-ford-kuga-ford-kuga-i-2013-5x108",
+    "pcd-b5-ford-mustang-mach-e-ford-mustang-mach-e-2020-5x108",
+    "pcd-b5-ford-transit-custom-3-3t-ford-transit-custom-3-3t-2013-5x160",
+    "pcd-b5-genesis-gv70-genesis-gv70-2020-5x114-3",
+    "pcd-b5-honda-accord-coupe-honda-accord-coupe-1998-5x114-3",
+    "pcd-b5-honda-cr-z-honda-cr-z-2010-5x114-3",
+    "pcd-b5-honda-crx-honda-crx-1992-4x100",
+    "pcd-b5-honda-hr-v-honda-hr-v-1999-5x114-3",
+    "pcd-b5-honda-nsx-honda-nsx-1990-5x114-3",
+    "pcd-b5-hyundai-atos-hyundai-atos-1997-4x114-3",
+    "pcd-b5-hyundai-getz-cross-hyundai-getz-cross-2007-4x100",
+    "pcd-b5-hyundai-h-1-h200-hyundai-h-1-h200-1996-5x120",
+    "pcd-b5-hyundai-i10-hyundai-i10-i-2008-4x100",
+    "pcd-b5-hyundai-i20-hyundai-i20-i-2008-4x100",
+    "pcd-b5-hyundai-ioniq-5-hyundai-ioniq-5-2021-5x114-3",
+    "pcd-b5-hyundai-veloster-hyundai-veloster-2011-5x114-3",
+    "pcd-b5-hyundai-xg-hyundai-xg-1998-5x114-3",
+    "pcd-b5-hyundai-tucson-hyundai-tucson-i-2004-5x114-3",
+    "pcd-b5-infiniti-qx50-infiniti-qx50-2018-5x114-3",
+    "pcd-b5-infiniti-qx80-infiniti-qx80-2024-6x139-7",
+    "pcd-b5-isuzu-d-max-isuzu-d-max-2002-6x139-7",
+    "pcd-b5-jaguar-f-type-jaguar-f-type-2017-5x108",
+    "pcd-b5-iveco-daily-double-iveco-daily-double-1999-6x170",
+    "pcd-b5-jaguar-xe-jaguar-xe-2015-5x108",
+    "pcd-b5-jaguar-xf-serie-jaguar-xf-serie-2008-5x108",
+    "pcd-b5-jeep-gladiator-jeep-gladiator-2019-5x127",
+    "pcd-b5-jeep-renegade-jeep-renegade-2014-5x110",
+    "pcd-b5-kia-ceed-kia-ceed-i-2012-5x114-3",
+    "pcd-b5-kia-e-soul-kia-e-soul-2019-5x114-3",
+    "pcd-b5-kia-pride-kia-pride-1995-4x114-3",
+    "pcd-b5-kia-niro-kia-niro-2016-5x114-3",
+    "pcd-b5-lada-kalina-lada-kalina-2004-4x98",
+    "pcd-b5-lada-priora-lada-priora-2007-4x98",
+    "pcd-b5-lancia-musa-lancia-musa-2004-4x98",
+    "pcd-b5-lancia-y-lancia-y-1995-4x98",
+    "pcd-b5-land-rover-discovery-iii-land-rover-discovery-iii-2005-5x120",
+    "pcd-b5-land-rover-freelander-land-rover-freelander-1998-5x114-3",
+    "pcd-b5-land-rover-evoque-land-rover-evoque-2011-5x108",
+    "pcd-b5-land-rover-freelander-ii-land-rover-freelander-ii-2006-5x108",
+    "pcd-b5-land-rover-range-rover-iii-land-rover-range-rover-iii-2002-5x120",
+    "pcd-b5-land-rover-range-rover-iv-land-rover-range-rover-iv-2012-5x120",
+    "pcd-b5-lexus-ct200h-lexus-ct200h-2011-5x100",
+    "pcd-b5-lexus-es-lexus-es-2018-5x114-3",
+    "pcd-b5-lexus-gs300h-lexus-gs300h-2012-5x114-3",
+    "pcd-b5-lexus-is-lexus-is-1999-5x114-3",
+    "pcd-b5-lexus-ls430-lexus-ls430-2001-5x114-3",
+    "pcd-b5-lexus-ls600-lexus-ls600-2006-5x120",
+    "pcd-b5-lexus-nx-lexus-nx-2014-5x114-3",
+    "pcd-b5-lexus-rx-lexus-rx-2015-5x114-3",
+    "pcd-b5-lexus-rz-lexus-rz-2023-5x114-3",
+    "pcd-b5-lexus-tx-lexus-tx-2023-5x120",
+    "pcd-b5-lexus-ux-lexus-ux-2018-5x114-3",
+    "pcd-b5-lincoln-corsair-lincoln-corsair-2019-5x108",
+    "pcd-b5-lincoln-nautilus-lincoln-nautilus-2019-5x108",
+    "pcd-b5-maxus-edeliver-9-maxus-edeliver-9-2020-5x160",
+    "pcd-b5-maxus-edeliver-7-maxus-edeliver-7-2023-5x160",
+    "pcd-b5-maxus-ev90-maxus-ev90-2019-5x160",
+    "pcd-b5-mazda-323-mazda-323-1980-4x114-3",
+    "pcd-b5-mazda-5-mazda-5-2010-5x114-3",
+    "pcd-b5-mazda-3-mazda-3-2003-5x114-3",
+    "pcd-b5-mazda-6-mazda-6-2002-5x114-3",
+    "pcd-b5-mazda-cx-3-mazda-cx-3-2015-5x114-3",
+    "pcd-b5-mazda-cx-5-mazda-cx-5-2017-5x114-3",
+    "pcd-b5-mazda-mazda3-mps-mazda-mazda3-mps-2009-5x114-3",
+    "pcd-b5-mazda-mazda3-mazda-mazda3-2019-5x114-3",
+    "pcd-b5-mercedes-clk-w208-mercedes-clk-w208-1996-5x112",
+    "pcd-b5-mercedes-sprinter-dual-mercedes-sprinter-dual-2018-6x205",
+    "pcd-b5-mercedes-vito-mercedes-vito-w447-2014-5x112",
+    "pcd-b5-mg-ehs-mg-ehs-2020-5x112",
+    "pcd-b5-mg-mg3-mg-mg3-2017-4x100",
+    "pcd-b5-mg-rx6-mg-rx6-2020-5x112",
+    "pcd-b5-mitsubishi-lancer-evo-mitsubishi-lancer-evo-x-2008-5x114-3",
+    "pcd-b5-nissan-100nx-nissan-100nx-1990-4x100",
+    "pcd-b5-nissan-murano-nissan-murano-z50-2004-5x114-3",
+    "pcd-b5-opel-cascada-opel-cascada-2013-5x115",
+    "pcd-b5-opel-insignia-country-tourer-opel-insignia-country-tourer-2013-5x120",
+    "pcd-b5-opel-tigra-twin-top-opel-tigra-twin-top-2004-4x100",
+    "pcd-b5-opel-zafira-opel-zafira-2005-5x110",
+    "pcd-b5-opel-zafira-tourer-opel-zafira-tourer-2011-5x115",
+    "pcd-b5-peugeot-207-peugeot-207-2006-4x108",
+    "pcd-b5-peugeot-206-peugeot-206-1998-4x108",
+    "pcd-b5-peugeot-306-peugeot-306-1993-4x108",
+    "pcd-b5-peugeot-boxer-maxi-peugeot-boxer-maxi-2006-5x130",
+    "pcd-b5-peugeot-e-208-peugeot-e-208-2023-4x108",
+    "pcd-b5-pontiac-bonneville-pontiac-bonneville-1988-5x115",
+    "pcd-b5-pontiac-g6-pontiac-g6-2004-5x110",
+    "pcd-b5-pontiac-solstice-pontiac-solstice-2005-5x110",
+    "pcd-b5-porsche-911-991-turbo-s-porsche-911-991-turbo-s-2013-5x130",
+    "pcd-b5-porsche-911-993-porsche-911-993-1995-5x130",
+    "pcd-b5-porsche-911-930-carrera-porsche-911-930-carrera-1975-5x130",
+    "pcd-b5-porsche-911-996-porsche-911-996-1997-5x130",
+    "pcd-b5-porsche-968-porsche-968-1991-5x130",
+    "pcd-b5-porsche-cayman-718-porsche-cayman-718-2016-5x130",
+    "pcd-b5-porsche-macan-porsche-macan-2014-5x112",
+    "pcd-b5-porsche-boxster-porsche-boxster-718-2016-5x130",
+    "pcd-b5-ram-ram-2500-pickup-ram-ram-2500-pickup-2011-8x165-1",
+    "pcd-b5-ram-ram-3500-pickup-ram-ram-3500-pickup-2011-8x165-1",
+    "pcd-b5-ram-ram-1500-ram-ram-1500-2011-5x139-7",
+    "pcd-b5-renault-4-e-tech-renault-4-e-tech-2025-5x114-3",
+    "pcd-b5-renault-clio-grandtour-renault-clio-grandtour-2013-4x100"
+  ]
+}
