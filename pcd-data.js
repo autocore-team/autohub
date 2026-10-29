@@ -256,6 +256,213 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-audi-a3-audi-a3-8p-2003-5x112',
+            generation: 'Audi A3 8P',
+            aliases: [
+              'Audi A3 2003',
+              'Audi A3 8P',
+              '5x112'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-a3-audi-a3-8p-2003-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi A3 8P wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/a3-8p',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2012; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-a3-audi-a3-8p-2003-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/A3/A3%208P%20%282003%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-audi-a3-audi-a3-8l-1996-5x100',
+            generation: 'Audi A3 8L',
+            aliases: [
+              'Audi A3 1996',
+              'Audi A3 8L',
+              '5x100'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-a3-audi-a3-8l-1996-5x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi A3 8L wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/a3-8l',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2003; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-a3-audi-a3-8l-1996-5x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/A3/A3%208L%20%281996%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-audi-a3-audi-a3-8y-2020-5x112',
+            generation: 'Audi A3 8Y',
+            aliases: [
+              'Audi A3 2020',
+              'Audi A3 8Y',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-a3-audi-a3-8y-2020-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi A3 8Y wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/a3-8y',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-a3-audi-a3-8y-2020-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/A3/A3%208Y%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -322,6 +529,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-audi-a4-audi-a4-b5-1994-5x112',
+            generation: 'Audi A4 B5',
+            aliases: [
+              'Audi A4 1994',
+              'Audi A4 B5',
+              '5x112'
+            ],
+            years: '1994-1994',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-a4-audi-a4-b5-1994-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi A4 B5 wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/a4-b5',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1994-2000; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-a4-audi-a4-b5-1994-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/A4/A4%20B5%20%281994%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1994-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -348,6 +624,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-audi-a5-audi-a5-2016-5x112',
+            generation: 'Audi A5',
+            aliases: [
+              'Audi A5 2016',
+              'Audi A5',
+              '5x112'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET29',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-a5-audi-a5-2016-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi A5 wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/a5',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2016; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-a5-audi-a5-2016-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/A5/A5%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -561,6 +906,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-audi-tt-audi-tt-2014-5x112',
+            generation: 'Audi TT',
+            aliases: [
+              'Audi TT 2014',
+              'Audi TT',
+              '5x112'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-tt-audi-tt-2014-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi TT wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/tt',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2023; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-tt-audi-tt-2014-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi TT wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/TT/TT%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -1720,6 +2134,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-audi-rs6-audi-rs6-c5-2002-5x112',
+            generation: 'Audi RS6 C5',
+            aliases: [
+              'Audi RS6 2002',
+              'Audi RS6 C5',
+              '5x112'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-rs6-audi-rs6-c5-2002-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi RS6 C5 wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/rs6-c5',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2004; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-rs6-audi-rs6-c5-2002-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS6/RS6%20C5%20%282002%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -3812,6 +4295,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-audi-100-audi-100-1982-4x108',
+            generation: 'Audi 100',
+            aliases: [
+              'Audi 100 1982',
+              'Audi 100',
+              '4x108'
+            ],
+            years: '1982-1982',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-100-audi-100-1982-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi 100 wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/100',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1982-1990; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-100-audi-100-1982-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi 100 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/100/100%20%281982%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1982-1990',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -4407,6 +4959,519 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; OEM wheel and tyre are taken from the detailed original-fitment table.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'A2',
+        slug: 'a2',
+        records: [
+          {
+            id: 'pcd-b5-audi-a2-audi-a2-1-2-tdi-2000-4x100',
+            generation: 'Audi A2 1.2 TDI',
+            aliases: [
+              'Audi A2 2000',
+              'Audi A2 1.2 TDI',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-a2-audi-a2-1-2-tdi-2000-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi A2 1.2 TDI wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/a2-1-2-tdi',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2000-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-a2-audi-a2-1-2-tdi-2000-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A2 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/A2/A2%20%282000%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2000-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-audi-a2-audi-a2-1999-5x100',
+            generation: 'Audi A2',
+            aliases: [
+              'Audi A2 1999',
+              'Audi A2',
+              '5x100'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-a2-audi-a2-1999-5x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi A2 wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/a2',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-a2-audi-a2-1999-5x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A2 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/A2/A2%20%281999%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Allroad',
+        slug: 'allroad',
+        records: [
+          {
+            id: 'pcd-b5-audi-allroad-audi-allroad-2012-5x112',
+            generation: 'Audi Allroad',
+            aliases: [
+              'Audi Allroad 2012',
+              'Audi Allroad',
+              '5x112'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-allroad-audi-allroad-2012-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi Allroad wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/allroad',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2016; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-allroad-audi-allroad-2012-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi Allroad wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/Allroad/Allroad%20%282012%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'All-Road',
+        slug: 'all-road',
+        records: [
+          {
+            id: 'pcd-b5-audi-all-road-audi-all-road-2000-5x112',
+            generation: 'Audi All-Road',
+            aliases: [
+              'Audi All-Road 2000',
+              'Audi All-Road',
+              '5x112'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-all-road-audi-all-road-2000-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi All-Road wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/all-road',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2000-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-all-road-audi-all-road-2000-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi All-Road wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/All-Road/All-Road%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2000-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S1',
+        slug: 's1',
+        records: [
+          {
+            id: 'pcd-b5-audi-s1-audi-s1-2014-5x100',
+            generation: 'Audi S1',
+            aliases: [
+              'Audi S1 2014',
+              'Audi S1',
+              '5x100'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-s1-audi-s1-2014-5x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi S1 wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/s1',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-s1-audi-s1-2014-5x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S1 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/S1/S1%20%282014%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S8',
+        slug: 's8',
+        records: [
+          {
+            id: 'pcd-b5-audi-s8-audi-s8-4h-2011-5x112',
+            generation: 'Audi S8 4H',
+            aliases: [
+              'Audi S8 2011',
+              'Audi S8 4H',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-s8-audi-s8-4h-2011-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi S8 4H wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/s8-4h',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-s8-audi-s8-4h-2011-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S8 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/S8/S8%204H%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-audi-s8-audi-s8-4e-2006-5x112',
+            generation: 'Audi S8 4E',
+            aliases: [
+              'Audi S8 2006',
+              'Audi S8 4E',
+              '5x112'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-audi-s8-audi-s8-4e-2006-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Audi S8 4E wheel fitment',
+                url: 'https://monentraxe.fr/en/audi/s8-4e',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-audi-s8-audi-s8-4e-2006-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S8 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/S8/S8%204E%20%282006%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -13752,6 +14817,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-bmw-m5-bmw-m5-f10-2011-5x120',
+            generation: 'BMW M5 F10',
+            aliases: [
+              'BMW M5 2011',
+              'BMW M5 F10',
+              '5x120'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-m5-bmw-m5-f10-2011-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW M5 F10 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/m5-f10',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-m5-bmw-m5-f10-2011-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/M5/M5%20F10%20%282011%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -13825,6 +14959,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-x4-bmw-x4-f26-2014-5x120',
+            generation: 'BMW X4 F26',
+            aliases: [
+              'BMW X4 2014',
+              'BMW X4 F26',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-x4-bmw-x4-f26-2014-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW X4 F26 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/x4-f26',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-x4-bmw-x4-f26-2014-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW X4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/X4/X4%20F26%20%282014%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -14646,6 +15849,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-bmw-x6-bmw-x6-f16-2014-5x120',
+            generation: 'BMW X6 F16',
+            aliases: [
+              'BMW X6 2014',
+              'BMW X6 F16',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '74.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-x6-bmw-x6-f16-2014-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW X6 F16 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/x6-f16',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2019; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-x6-bmw-x6-f16-2014-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW X6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/X6/X6%20F16%20%282014%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2019',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -14796,6 +16068,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-bmw-3-serie-bmw-3-serie-e90-2005-5x120',
+            generation: 'BMW 3 Serie E90',
+            aliases: [
+              'BMW 3 Serie 2005',
+              'BMW 3 Serie E90',
+              '5x120'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-3-serie-bmw-3-serie-e90-2005-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 3 Serie E90 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/3-serie-e90',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2011; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-3-serie-bmw-3-serie-e90-2005-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 3 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/3%20Serie/3%20Serie%20E90%20%282004%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -14869,6 +16210,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-7-serie-bmw-7-serie-f01-2008-5x120',
+            generation: 'BMW 7 Serie F01',
+            aliases: [
+              'BMW 7 Serie 2008',
+              'BMW 7 Serie F01',
+              '5x120'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-7-serie-bmw-7-serie-f01-2008-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 7 Serie F01 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/7-serie-f01',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2015; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-7-serie-bmw-7-serie-f01-2008-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 7 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/7%20Serie/7%20Serie%20F01%20%282008%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2015',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -15019,6 +16429,1914 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '1 Serie',
+        slug: '1-serie',
+        records: [
+          {
+            id: 'pcd-b5-bmw-1-serie-bmw-1-serie-e81-2007-5x120',
+            generation: 'BMW 1 Serie E81',
+            aliases: [
+              'BMW 1 Serie 2007',
+              'BMW 1 Serie E81',
+              '5x120'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-1-serie-bmw-1-serie-e81-2007-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 1 Serie E81 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/1-serie-e81',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2011; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-1-serie-bmw-1-serie-e81-2007-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 1 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/1%20Serie/1%20Serie%20E81%20%282007%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '1 Serie M',
+        slug: '1-serie-m',
+        records: [
+          {
+            id: 'pcd-b5-bmw-1-serie-m-bmw-1-serie-m-e82-2011-5x120',
+            generation: 'BMW 1 Serie M E82',
+            aliases: [
+              'BMW 1 Serie M 2011',
+              'BMW 1 Serie M E82',
+              '5x120'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-1-serie-m-bmw-1-serie-m-e82-2011-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 1 Serie M E82 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/1-serie-m-e87',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2012; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-1-serie-m-bmw-1-serie-m-e82-2011-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 1 Serie M wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/1%20Serie%20M/1%20Serie%20M%20E87%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '1 Serie Sedan',
+        slug: '1-serie-sedan',
+        records: [
+          {
+            id: 'pcd-b5-bmw-1-serie-sedan-bmw-1-serie-sedan-f52-2017-5x112',
+            generation: 'BMW 1 Serie Sedan F52',
+            aliases: [
+              'BMW 1 Serie Sedan 2017',
+              'BMW 1 Serie Sedan F52',
+              '5x112'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET54',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-1-serie-sedan-bmw-1-serie-sedan-f52-2017-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 1 Serie Sedan F52 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/1-serie-sedan-f52',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-1-serie-sedan-bmw-1-serie-sedan-f52-2017-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 1 Serie Sedan wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/1%20Serie%20Sedan/1%20Serie%20Sedan%20F52%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '2 Serie Active Tourer',
+        slug: '2-serie-active-tourer',
+        records: [
+          {
+            id: 'pcd-b5-bmw-2-serie-active-tourer-bmw-2-serie-active-tourer-u06-2022-5x112',
+            generation: 'BMW 2 Serie Active Tourer U06',
+            aliases: [
+              'BMW 2 Serie Active Tourer 2022',
+              'BMW 2 Serie Active Tourer U06',
+              '5x112'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-2-serie-active-tourer-bmw-2-serie-active-tourer-u06-2022-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 2 Serie Active Tourer U06 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/2-serie-active-tourer-u06',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-2-serie-active-tourer-bmw-2-serie-active-tourer-u06-2022-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 2 Serie Active Tourer wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/2%20Serie%20Active%20Tourer/2%20Serie%20Active%20Tourer%20U06%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '2 Serie',
+        slug: '2-serie',
+        records: [
+          {
+            id: 'pcd-b5-bmw-2-serie-bmw-2-serie-f44-2021-5x112',
+            generation: 'BMW 2 Serie F44',
+            aliases: [
+              'BMW 2 Serie 2021',
+              'BMW 2 Serie F44',
+              '5x112'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-2-serie-bmw-2-serie-f44-2021-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 2 Serie F44 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/2-serie-f44',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2021-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-2-serie-bmw-2-serie-f44-2021-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 2 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/2%20Serie/2%20Serie%20F44%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2021-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '3 Serie Gran Turismo',
+        slug: '3-serie-gran-turismo',
+        records: [
+          {
+            id: 'pcd-b5-bmw-3-serie-gran-turismo-bmw-3-serie-gran-turismo-f34-2013-5x120',
+            generation: 'BMW 3 Serie Gran Turismo F34',
+            aliases: [
+              'BMW 3 Serie Gran Turismo 2013',
+              'BMW 3 Serie Gran Turismo F34',
+              '5x120'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-3-serie-gran-turismo-bmw-3-serie-gran-turismo-f34-2013-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 3 Serie Gran Turismo F34 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/3-serie-gran-turismo-f34',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2019; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-3-serie-gran-turismo-bmw-3-serie-gran-turismo-f34-2013-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 3 Serie Gran Turismo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/3%20Serie%20Gran%20Turismo/3%20Serie%20Gran%20Turismo%20F34%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2019',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '4 Serie',
+        slug: '4-serie',
+        records: [
+          {
+            id: 'pcd-b5-bmw-4-serie-bmw-4-serie-g22-g23-g26-2020-5x112',
+            generation: 'BMW 4 Serie G22-G23-G26',
+            aliases: [
+              'BMW 4 Serie 2020',
+              'BMW 4 Serie G22-G23-G26',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-4-serie-bmw-4-serie-g22-g23-g26-2020-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 4 Serie G22-G23-G26 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/4-serie-g22-g23-g26',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-4-serie-bmw-4-serie-g22-g23-g26-2020-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 4 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/4%20Serie/4%20Serie%20G22-G23-G26%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '5 Serie',
+        slug: '5-serie',
+        records: [
+          {
+            id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e34-1988-5x120',
+            generation: 'BMW 5 Serie E34',
+            aliases: [
+              'BMW 5 Serie 1988',
+              'BMW 5 Serie E34',
+              '5x120'
+            ],
+            years: '1988-1988',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e34-1988-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 5 Serie E34 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/5-serie-e34',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1988-1995; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e34-1988-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 5 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/5%20Serie/5%20Serie%20E34%20%281988%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1988-1995',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e39-1995-5x120',
+            generation: 'BMW 5 Serie E39',
+            aliases: [
+              'BMW 5 Serie 1995',
+              'BMW 5 Serie E39',
+              '5x120'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '74.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e39-1995-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 5 Serie E39 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/5-serie-e39',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2003; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e39-1995-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 5 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/5%20Serie/5%20Serie%20E39%20%281995%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-5-serie-bmw-5-serie-f10-2010-5x120',
+            generation: 'BMW 5 Serie F10',
+            aliases: [
+              'BMW 5 Serie 2010',
+              'BMW 5 Serie F10',
+              '5x120'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-f10-2010-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 5 Serie F10 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/5-serie-f10',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-f10-2010-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 5 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/5%20Serie/5%20Serie%20F10%20%282010%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-5-serie-bmw-5-serie-g30-g31-2017-5x112',
+            generation: 'BMW 5 Serie G30-G31',
+            aliases: [
+              'BMW 5 Serie 2017',
+              'BMW 5 Serie G30-G31',
+              '5x112'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-g30-g31-2017-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 5 Serie G30-G31 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/5-serie-g30-g31',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-2024; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-g30-g31-2017-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 5 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/5%20Serie/5%20Serie%20G30-G31%20%282017%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-2024',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-5-serie-bmw-5-serie-g60-g61-g68-2024-5x112',
+            generation: 'BMW 5 Serie G60-G61-G68',
+            aliases: [
+              'BMW 5 Serie 2024',
+              'BMW 5 Serie G60-G61-G68',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET23',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-g60-g61-g68-2024-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 5 Serie G60-G61-G68 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/5-serie-g60-g61-g68',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2024-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-g60-g61-g68-2024-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 5 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/5%20Serie/5%20Serie%20G60-G61-G68%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2024-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e61-2004-5x120',
+            generation: 'BMW 5 Serie E61',
+            aliases: [
+              'BMW 5 Serie 2004',
+              'BMW 5 Serie E61',
+              '5x120'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e61-2004-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 5 Serie E61 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/5-serie-e61',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-5-serie-bmw-5-serie-e61-2004-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 5 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/5%20Serie/5%20Serie%20E61%20%282004%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '6 Serie',
+        slug: '6-serie',
+        records: [
+          {
+            id: 'pcd-b5-bmw-6-serie-bmw-6-serie-e63-2003-5x120',
+            generation: 'BMW 6 Serie E63',
+            aliases: [
+              'BMW 6 Serie 2003',
+              'BMW 6 Serie E63',
+              '5x120'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-6-serie-bmw-6-serie-e63-2003-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 6 Serie E63 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/6-serie-e63',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-6-serie-bmw-6-serie-e63-2003-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 6 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/6%20Serie/6%20Serie%20E63%20%282003%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-6-serie-bmw-6-serie-f12-2011-5x120',
+            generation: 'BMW 6 Serie F12',
+            aliases: [
+              'BMW 6 Serie 2011',
+              'BMW 6 Serie F12',
+              '5x120'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-6-serie-bmw-6-serie-f12-2011-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 6 Serie F12 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/6-serie-f12',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-6-serie-bmw-6-serie-f12-2011-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 6 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/6%20Serie/6%20Serie%20F12%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '5 Serie GT',
+        slug: '5-serie-gt',
+        records: [
+          {
+            id: 'pcd-b5-bmw-5-serie-gt-bmw-5-serie-gt-f07-2009-5x120',
+            generation: 'BMW 5 Serie GT F07',
+            aliases: [
+              'BMW 5 Serie GT 2009',
+              'BMW 5 Serie GT F07',
+              '5x120'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-5-serie-gt-bmw-5-serie-gt-f07-2009-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 5 Serie GT F07 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/5-serie-gt-f07',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-5-serie-gt-bmw-5-serie-gt-f07-2009-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 5 Serie GT wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/5%20Serie%20GT/5%20Serie%20GT%20F07%20%282009%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '8 Serie',
+        slug: '8-serie',
+        records: [
+          {
+            id: 'pcd-b5-bmw-8-serie-bmw-8-serie-e31-1989-5x120',
+            generation: 'BMW 8 Serie E31',
+            aliases: [
+              'BMW 8 Serie 1989',
+              'BMW 8 Serie E31',
+              '5x120'
+            ],
+            years: '1989-1989',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET10',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-8-serie-bmw-8-serie-e31-1989-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 8 Serie E31 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/8-serie-e31',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1989-1999; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-8-serie-bmw-8-serie-e31-1989-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 8 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/8%20Serie/8%20Serie%20E31%20%281989%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1989-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-bmw-8-serie-bmw-8-serie-g15-2018-5x112',
+            generation: 'BMW 8 Serie G15',
+            aliases: [
+              'BMW 8 Serie 2018',
+              'BMW 8 Serie G15',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-8-serie-bmw-8-serie-g15-2018-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW 8 Serie G15 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/8-serie-g15',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-8-serie-bmw-8-serie-g15-2018-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 8 Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/8%20Serie/8%20Serie%20G15%20%28%202018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'i3',
+        slug: 'i3',
+        records: [
+          {
+            id: 'pcd-b5-bmw-i3-bmw-i3-2013-5x112',
+            generation: 'BMW i3',
+            aliases: [
+              'BMW i3 2013',
+              'BMW i3',
+              '5x112'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-i3-bmw-i3-2013-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW i3 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/i3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2022; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-i3-bmw-i3-2013-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW i3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/i3/i3%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'i7',
+        slug: 'i7',
+        records: [
+          {
+            id: 'pcd-b5-bmw-i7-bmw-i7-2022-5x112',
+            generation: 'BMW i7',
+            aliases: [
+              'BMW i7 2022',
+              'BMW i7',
+              '5x112'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET26',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-i7-bmw-i7-2022-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW i7 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/i7',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-i7-bmw-i7-2022-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW i7 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/i7/i7%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M1',
+        slug: 'm1',
+        records: [
+          {
+            id: 'pcd-b5-bmw-m1-bmw-m1-1979-5x120',
+            generation: 'BMW M1',
+            aliases: [
+              'BMW M1 1979',
+              'BMW M1',
+              '5x120'
+            ],
+            years: '1979-1979',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-m1-bmw-m1-1979-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW M1 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/m1',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1979-1981; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-m1-bmw-m1-1979-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M1 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/M1/M1%20%281979%20-%201981%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1979-1981',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M3',
+        slug: 'm3',
+        records: [
+          {
+            id: 'pcd-b5-bmw-m3-bmw-m3-f80-2014-5x120',
+            generation: 'BMW M3 F80',
+            aliases: [
+              'BMW M3 2014',
+              'BMW M3 F80',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-m3-bmw-m3-f80-2014-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW M3 F80 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/m3-f80',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-m3-bmw-m3-f80-2014-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/M3/M3%20F80%20%282014%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M4',
+        slug: 'm4',
+        records: [
+          {
+            id: 'pcd-b5-bmw-m4-bmw-m4-f82-2014-5x120',
+            generation: 'BMW M4 F82',
+            aliases: [
+              'BMW M4 2014',
+              'BMW M4 F82',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-m4-bmw-m4-f82-2014-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW M4 F82 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/m4-f82',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-m4-bmw-m4-f82-2014-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/M4/M4%20F82%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M8',
+        slug: 'm8',
+        records: [
+          {
+            id: 'pcd-b5-bmw-m8-bmw-m8-2019-5x112',
+            generation: 'BMW M8',
+            aliases: [
+              'BMW M8 2019',
+              'BMW M8',
+              '5x112'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-m8-bmw-m8-2019-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW M8 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/m8',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-m8-bmw-m8-2019-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M8 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/M8/M8%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'X5 M',
+        slug: 'x5-m',
+        records: [
+          {
+            id: 'pcd-b5-bmw-x5-m-bmw-x5-m-f15-2013-5x120',
+            generation: 'BMW X5 M F15',
+            aliases: [
+              'BMW X5 M 2013',
+              'BMW X5 M F15',
+              '5x120'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '74.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-x5-m-bmw-x5-m-f15-2013-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW X5 M F15 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/x5-m-f15',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-x5-m-bmw-x5-m-f15-2013-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW X5 M wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/X5%20M/X5%20M%20F15%20%282013%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Z1',
+        slug: 'z1',
+        records: [
+          {
+            id: 'pcd-b5-bmw-z1-bmw-z1-1989-4x100',
+            generation: 'BMW Z1',
+            aliases: [
+              'BMW Z1 1989',
+              'BMW Z1',
+              '4x100'
+            ],
+            years: '1989-1989',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bmw-z1-bmw-z1-1989-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BMW Z1 wheel fitment',
+                url: 'https://monentraxe.fr/en/bmw/z1',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1989-1991; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bmw-z1-bmw-z1-1989-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW Z1 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/Z1/Z1%20%281989%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1989-1991',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -21456,6 +24774,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-honda-hr-v-honda-hr-v-1999-5x114-3',
+            generation: 'Honda HR-V',
+            aliases: [
+              'Honda HR-V 1999',
+              'Honda HR-V',
+              '5x114.3'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-honda-hr-v-honda-hr-v-1999-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Honda HR-V wheel fitment',
+                url: 'https://monentraxe.fr/en/honda/hr-v',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2005; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-honda-hr-v-honda-hr-v-1999-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda HR-V wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Honda/HR-V/HR-V%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -22513,6 +25900,306 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Accord Coupe',
+        slug: 'accord-coupe',
+        records: [
+          {
+            id: 'pcd-b5-honda-accord-coupe-honda-accord-coupe-1998-5x114-3',
+            generation: 'Honda Accord Coupe',
+            aliases: [
+              'Honda Accord Coupe 1998',
+              'Honda Accord Coupe',
+              '5x114.3'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-honda-accord-coupe-honda-accord-coupe-1998-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Honda Accord Coupe wheel fitment',
+                url: 'https://monentraxe.fr/en/honda/accord-coupe',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2001; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-honda-accord-coupe-honda-accord-coupe-1998-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Accord Coupe wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Honda/Accord%20Coupe/Accord%20Coupe%20%281998%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CR-Z',
+        slug: 'cr-z',
+        records: [
+          {
+            id: 'pcd-b5-honda-cr-z-honda-cr-z-2010-5x114-3',
+            generation: 'Honda CR-Z',
+            aliases: [
+              'Honda CR-Z 2010',
+              'Honda CR-Z',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-honda-cr-z-honda-cr-z-2010-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Honda CR-Z wheel fitment',
+                url: 'https://monentraxe.fr/en/honda/cr-z',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-honda-cr-z-honda-cr-z-2010-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda CR-Z wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Honda/CR-Z/CR-Z%20%282010%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CRX',
+        slug: 'crx',
+        records: [
+          {
+            id: 'pcd-b5-honda-crx-honda-crx-1992-4x100',
+            generation: 'Honda CRX',
+            aliases: [
+              'Honda CRX 1992',
+              'Honda CRX',
+              '4x100'
+            ],
+            years: '1992-1992',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-honda-crx-honda-crx-1992-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Honda CRX wheel fitment',
+                url: 'https://monentraxe.fr/en/honda/crx',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1992-1999; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-honda-crx-honda-crx-1992-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda CRX wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Honda/CRX/CRX%20%281992%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1992-1999',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'NSX',
+        slug: 'nsx',
+        records: [
+          {
+            id: 'pcd-b5-honda-nsx-honda-nsx-1990-5x114-3',
+            generation: 'Honda NSX',
+            aliases: [
+              'Honda NSX 1990',
+              'Honda NSX',
+              '5x114.3'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '70.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-honda-nsx-honda-nsx-1990-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Honda NSX wheel fitment',
+                url: 'https://monentraxe.fr/en/honda/nsx',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1990-2005; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-honda-nsx-honda-nsx-1990-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda NSX wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Honda/NSX/NSX%20%281990%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1990-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -23097,6 +26784,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-nissan-murano-nissan-murano-z50-2004-5x114-3',
+            generation: 'Nissan Murano Z50',
+            aliases: [
+              'Nissan Murano 2004',
+              'Nissan Murano Z50',
+              '5x114.3'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-nissan-murano-nissan-murano-z50-2004-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Nissan Murano Z50 wheel fitment',
+                url: 'https://monentraxe.fr/en/nissan/murano-z50',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2008; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-nissan-murano-nissan-murano-z50-2004-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Murano wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Murano/Murano%20%282004%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -26022,6 +29778,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '100NX',
+        slug: '100nx',
+        records: [
+          {
+            id: 'pcd-b5-nissan-100nx-nissan-100nx-1990-4x100',
+            generation: 'Nissan 100NX',
+            aliases: [
+              'Nissan 100NX 1990',
+              'Nissan 100NX',
+              '4x100'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '59.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-nissan-100nx-nissan-100nx-1990-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Nissan 100NX wheel fitment',
+                url: 'https://monentraxe.fr/en/nissan/100nx',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1990-1996; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-nissan-100nx-nissan-100nx-1990-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan 100NX wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/100NX/100NX%20%281990%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1990-1996',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -26078,6 +29909,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-mazda-mazda3-mazda-mazda3-2019-5x114-3',
+            generation: 'Mazda Mazda3',
+            aliases: [
+              'Mazda Mazda3 2019',
+              'Mazda Mazda3',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '127 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mazda-mazda3-mazda-mazda3-2019-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mazda Mazda3 wheel fitment',
+                url: 'https://monentraxe.fr/en/mazda/mazda3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2019; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mazda-mazda3-mazda-mazda3-2019-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Mazda3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Mazda3/Mazda3%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -26130,6 +30030,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-mazda-cx-3-mazda-cx-3-2015-5x114-3',
+            generation: 'Mazda CX-3',
+            aliases: [
+              'Mazda CX-3 2015',
+              'Mazda CX-3',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mazda-cx-3-mazda-cx-3-2015-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mazda CX-3 wheel fitment',
+                url: 'https://monentraxe.fr/en/mazda/cx-3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2015-2024; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mazda-cx-3-mazda-cx-3-2015-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda CX-3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/CX-3/CX-3%20%282015%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2015-2024',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -26156,6 +30125,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-mazda-cx-5-mazda-cx-5-2017-5x114-3',
+            generation: 'Mazda CX-5',
+            aliases: [
+              'Mazda CX-5 2017',
+              'Mazda CX-5',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mazda-cx-5-mazda-cx-5-2017-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mazda CX-5 wheel fitment',
+                url: 'https://monentraxe.fr/en/mazda/cx-5',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mazda-cx-5-mazda-cx-5-2017-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda CX-5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/CX-5/CX-5%20%282017%20-%202025%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-2025',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -27158,6 +31196,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-mazda-323-mazda-323-1980-4x114-3',
+            generation: 'Mazda 323',
+            aliases: [
+              'Mazda 323 1980',
+              'Mazda 323',
+              '4x114.3'
+            ],
+            years: '1980-1980',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '59.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mazda-323-mazda-323-1980-4x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mazda 323 wheel fitment',
+                url: 'https://monentraxe.fr/en/mazda/323',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1977-1980; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mazda-323-mazda-323-1980-4x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 323 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/323/323%20%281980%20-%201985%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1980-1985',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -28112,6 +32219,306 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '5',
+        slug: '5',
+        records: [
+          {
+            id: 'pcd-b5-mazda-5-mazda-5-2010-5x114-3',
+            generation: 'Mazda 5',
+            aliases: [
+              'Mazda 5 2010',
+              'Mazda 5',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mazda-5-mazda-5-2010-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mazda 5 wheel fitment',
+                url: 'https://monentraxe.fr/en/mazda/5',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mazda-5-mazda-5-2010-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/5/5%20%282010%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2015',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '3',
+        slug: '3',
+        records: [
+          {
+            id: 'pcd-b5-mazda-3-mazda-3-2003-5x114-3',
+            generation: 'Mazda 3',
+            aliases: [
+              'Mazda 3 2003',
+              'Mazda 3',
+              '5x114.3'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mazda-3-mazda-3-2003-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mazda 3 wheel fitment',
+                url: 'https://monentraxe.fr/en/mazda/3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2009; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mazda-3-mazda-3-2003-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/3/3%20%282003%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '6',
+        slug: '6',
+        records: [
+          {
+            id: 'pcd-b5-mazda-6-mazda-6-2002-5x114-3',
+            generation: 'Mazda 6',
+            aliases: [
+              'Mazda 6 2002',
+              'Mazda 6',
+              '5x114.3'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mazda-6-mazda-6-2002-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mazda 6 wheel fitment',
+                url: 'https://monentraxe.fr/en/mazda/6',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2008; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mazda-6-mazda-6-2002-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/6/6%20%282002%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mazda3 MPS',
+        slug: 'mazda3-mps',
+        records: [
+          {
+            id: 'pcd-b5-mazda-mazda3-mps-mazda-mazda3-mps-2009-5x114-3',
+            generation: 'Mazda Mazda3 MPS',
+            aliases: [
+              'Mazda Mazda3 MPS 2009',
+              'Mazda Mazda3 MPS',
+              '5x114.3'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mazda-mazda3-mps-mazda-mazda3-mps-2009-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mazda Mazda3 MPS wheel fitment',
+                url: 'https://monentraxe.fr/en/mazda/mazda3-mps',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2013; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mazda-mazda3-mps-mazda-mazda3-mps-2009-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Mazda3 MPS wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/Mazda3%20MPS/Mazda3%20MPS%20%282009%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2013',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -31268,6 +35675,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Lancer EVO',
+        slug: 'lancer-evo',
+        records: [
+          {
+            id: 'pcd-b5-mitsubishi-lancer-evo-mitsubishi-lancer-evo-x-2008-5x114-3',
+            generation: 'Mitsubishi Lancer EVO X',
+            aliases: [
+              'Mitsubishi Lancer EVO 2008',
+              'Mitsubishi Lancer EVO X',
+              '5x114.3'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mitsubishi-lancer-evo-mitsubishi-lancer-evo-x-2008-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mitsubishi Lancer EVO X wheel fitment',
+                url: 'https://monentraxe.fr/en/mitsubishi/lancer-evo-x',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mitsubishi-lancer-evo-mitsubishi-lancer-evo-x-2008-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Lancer EVO wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Lancer%20EVO/Lancer%20EVO%20X%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -31324,6 +35806,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-lexus-is-lexus-is-1999-5x114-3',
+            generation: 'Lexus IS',
+            aliases: [
+              'Lexus IS 1999',
+              'Lexus IS',
+              '5x114.3'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-is-lexus-is-1999-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus IS wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/is',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2005; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-is-lexus-is-1999-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus IS wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/IS/IS%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -31350,6 +35901,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-lexus-es-lexus-es-2018-5x114-3',
+            generation: 'Lexus ES',
+            aliases: [
+              'Lexus ES 2018',
+              'Lexus ES',
+              '5x114.3'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-es-lexus-es-2018-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus ES wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/es',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-es-lexus-es-2018-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus ES wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/ES/ES%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -31445,6 +36065,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-lexus-rx-lexus-rx-2015-5x114-3',
+            generation: 'Lexus RX',
+            aliases: [
+              'Lexus RX 2015',
+              'Lexus RX',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-rx-lexus-rx-2015-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus RX wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/rx',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2015-2022; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-rx-lexus-rx-2015-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus RX wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/RX/RX%20%282015%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2015-2022',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -31471,6 +36160,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-lexus-nx-lexus-nx-2014-5x114-3',
+            generation: 'Lexus NX',
+            aliases: [
+              'Lexus NX 2014',
+              'Lexus NX',
+              '5x114.3'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-nx-lexus-nx-2014-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus NX wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/nx',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2020; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-nx-lexus-nx-2014-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus NX wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/NX/NX%20%282014%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2020',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -31497,6 +36255,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-lexus-ux-lexus-ux-2018-5x114-3',
+            generation: 'Lexus UX',
+            aliases: [
+              'Lexus UX 2018',
+              'Lexus UX',
+              '5x114.3'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-ux-lexus-ux-2018-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus UX wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/ux',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-ux-lexus-ux-2018-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus UX wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/UX/UX%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -31795,6 +36622,456 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CT200h',
+        slug: 'ct200h',
+        records: [
+          {
+            id: 'pcd-b5-lexus-ct200h-lexus-ct200h-2011-5x100',
+            generation: 'Lexus CT200h',
+            aliases: [
+              'Lexus CT200h 2011',
+              'Lexus CT200h',
+              '5x100'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-ct200h-lexus-ct200h-2011-5x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus CT200h wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/ct200h',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-ct200h-lexus-ct200h-2011-5x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus CT200h wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/CT200h/CT200h%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GS300h',
+        slug: 'gs300h',
+        records: [
+          {
+            id: 'pcd-b5-lexus-gs300h-lexus-gs300h-2012-5x114-3',
+            generation: 'Lexus GS300h',
+            aliases: [
+              'Lexus GS300h 2012',
+              'Lexus GS300h',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-gs300h-lexus-gs300h-2012-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus GS300h wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/gs300h',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2020; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-gs300h-lexus-gs300h-2012-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus GS300h wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/GS300h/GS300h%20%282012%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2020',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'LS430',
+        slug: 'ls430',
+        records: [
+          {
+            id: 'pcd-b5-lexus-ls430-lexus-ls430-2001-5x114-3',
+            generation: 'Lexus LS430',
+            aliases: [
+              'Lexus LS430 2001',
+              'Lexus LS430',
+              '5x114.3'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-ls430-lexus-ls430-2001-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus LS430 wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/ls430',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2001-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-ls430-lexus-ls430-2001-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus LS430 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/LS430/LS430%20%282001%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2001-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'LS600',
+        slug: 'ls600',
+        records: [
+          {
+            id: 'pcd-b5-lexus-ls600-lexus-ls600-2006-5x120',
+            generation: 'Lexus LS600',
+            aliases: [
+              'Lexus LS600 2006',
+              'Lexus LS600',
+              '5x120'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-ls600-lexus-ls600-2006-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus LS600 wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/ls600',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-ls600-lexus-ls600-2006-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus LS600 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/LS600/LS600%20%282006%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RZ',
+        slug: 'rz',
+        records: [
+          {
+            id: 'pcd-b5-lexus-rz-lexus-rz-2023-5x114-3',
+            generation: 'Lexus RZ',
+            aliases: [
+              'Lexus RZ 2023',
+              'Lexus RZ',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-rz-lexus-rz-2023-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus RZ wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/rz',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-rz-lexus-rz-2023-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus RZ wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/RZ/RZ%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'TX',
+        slug: 'tx',
+        records: [
+          {
+            id: 'pcd-b5-lexus-tx-lexus-tx-2023-5x120',
+            generation: 'Lexus TX',
+            aliases: [
+              'Lexus TX 2023',
+              'Lexus TX',
+              '5x120'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '60.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lexus-tx-lexus-tx-2023-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lexus TX wheel fitment',
+                url: 'https://monentraxe.fr/en/lexus/tx',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lexus-tx-lexus-tx-2023-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus TX wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/TX/TX%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -33373,6 +38650,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-hyundai-i10-hyundai-i10-i-2008-4x100',
+            generation: 'Hyundai i10 I',
+            aliases: [
+              'Hyundai i10 2008',
+              'Hyundai i10 I',
+              '4x100'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-i10-hyundai-i10-i-2008-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai i10 I wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/i10',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2013; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-i10-hyundai-i10-i-2008-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai i10 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/i10/i10%20%282008%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2013',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -33399,6 +38745,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-hyundai-i20-hyundai-i20-i-2008-4x100',
+            generation: 'Hyundai i20 I',
+            aliases: [
+              'Hyundai i20 2008',
+              'Hyundai i20 I',
+              '4x100'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-i20-hyundai-i20-i-2008-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai i20 I wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/i20',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2015; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-i20-hyundai-i20-i-2008-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai i20 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/i20/i20%20%282008%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2015',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -33477,6 +38892,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-hyundai-tucson-hyundai-tucson-i-2004-5x114-3',
+            generation: 'Hyundai Tucson I',
+            aliases: [
+              'Hyundai Tucson 2004',
+              'Hyundai Tucson I',
+              '5x114.3'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-tucson-hyundai-tucson-i-2004-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai Tucson I wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/tucson',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-tucson-hyundai-tucson-i-2004-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Tucson wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Tucson/Tucson%20%282004%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -34486,6 +39970,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2020 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-hyundai-veloster-hyundai-veloster-2011-5x114-3',
+            generation: 'Hyundai Veloster',
+            aliases: [
+              'Hyundai Veloster 2011',
+              'Hyundai Veloster',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-veloster-hyundai-veloster-2011-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai Veloster wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/veloster',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-veloster-hyundai-veloster-2011-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Veloster wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Veloster/Veloster%20%282011%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -35157,6 +40710,381 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Atos',
+        slug: 'atos',
+        records: [
+          {
+            id: 'pcd-b5-hyundai-atos-hyundai-atos-1997-4x114-3',
+            generation: 'Hyundai Atos',
+            aliases: [
+              'Hyundai Atos 1997',
+              'Hyundai Atos',
+              '4x114.3'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-atos-hyundai-atos-1997-4x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai Atos wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/atos',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2000; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-atos-hyundai-atos-1997-4x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Atos wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Atos/Atos%20%281997%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Getz Cross',
+        slug: 'getz-cross',
+        records: [
+          {
+            id: 'pcd-b5-hyundai-getz-cross-hyundai-getz-cross-2007-4x100',
+            generation: 'Hyundai Getz Cross',
+            aliases: [
+              'Hyundai Getz Cross 2007',
+              'Hyundai Getz Cross',
+              '4x100'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-getz-cross-hyundai-getz-cross-2007-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai Getz Cross wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/getz-cross',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2008; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-getz-cross-hyundai-getz-cross-2007-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Getz Cross wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Getz%20Cross/Getz%20Cross%20%282007%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'H-1 H200',
+        slug: 'h-1-h200',
+        records: [
+          {
+            id: 'pcd-b5-hyundai-h-1-h200-hyundai-h-1-h200-1996-5x120',
+            generation: 'Hyundai H-1 H200',
+            aliases: [
+              'Hyundai H-1 H200 1996',
+              'Hyundai H-1 H200',
+              '5x120'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-h-1-h200-hyundai-h-1-h200-1996-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai H-1 H200 wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/h-1-h200',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2007; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-h-1-h200-hyundai-h-1-h200-1996-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai H-1 H200 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/H-1%20H200/H-1%20H200%20%281996%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'IONIQ 5',
+        slug: 'ioniq-5',
+        records: [
+          {
+            id: 'pcd-b5-hyundai-ioniq-5-hyundai-ioniq-5-2021-5x114-3',
+            generation: 'Hyundai IONIQ 5',
+            aliases: [
+              'Hyundai IONIQ 5 2021',
+              'Hyundai IONIQ 5',
+              '5x114.3'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '118 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-ioniq-5-hyundai-ioniq-5-2021-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai IONIQ 5 wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/ioniq-5',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2021-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-ioniq-5-hyundai-ioniq-5-2021-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai IONIQ 5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/IONIQ%205/IONIQ%205%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2021-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XG',
+        slug: 'xg',
+        records: [
+          {
+            id: 'pcd-b5-hyundai-xg-hyundai-xg-1998-5x114-3',
+            generation: 'Hyundai XG',
+            aliases: [
+              'Hyundai XG 1998',
+              'Hyundai XG',
+              '5x114.3'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-hyundai-xg-hyundai-xg-1998-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Hyundai XG wheel fitment',
+                url: 'https://monentraxe.fr/en/hyundai/xg',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-hyundai-xg-hyundai-xg-1998-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai XG wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/XG/XG%20%281998%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -35239,6 +41167,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-kia-ceed-kia-ceed-i-2012-5x114-3',
+            generation: 'Kia Ceed I',
+            aliases: [
+              'Kia Ceed 2012',
+              'Kia Ceed I',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-kia-ceed-kia-ceed-i-2012-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Kia Ceed I wheel fitment',
+                url: 'https://monentraxe.fr/en/kia/ceed',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2012; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-kia-ceed-kia-ceed-i-2012-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Ceed wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Kia/Ceed/Ceed%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -35265,6 +41262,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-kia-niro-kia-niro-2016-5x114-3',
+            generation: 'Kia Niro',
+            aliases: [
+              'Kia Niro 2016',
+              'Kia Niro',
+              '5x114.3'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-kia-niro-kia-niro-2016-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Kia Niro wheel fitment',
+                url: 'https://monentraxe.fr/en/kia/niro',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-2022; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-kia-niro-kia-niro-2016-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Niro wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Kia/Niro/Niro%20%282016%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-2022',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -36440,6 +42506,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'e-Soul',
+        slug: 'e-soul',
+        records: [
+          {
+            id: 'pcd-b5-kia-e-soul-kia-e-soul-2019-5x114-3',
+            generation: 'Kia e-Soul',
+            aliases: [
+              'Kia e-Soul 2019',
+              'Kia e-Soul',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-kia-e-soul-kia-e-soul-2019-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Kia e-Soul wheel fitment',
+                url: 'https://monentraxe.fr/en/kia/e-soul',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-2024; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-kia-e-soul-kia-e-soul-2019-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia e-Soul wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Kia/e-Soul/e-Soul%20%282019%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-2024',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Pride',
+        slug: 'pride',
+        records: [
+          {
+            id: 'pcd-b5-kia-pride-kia-pride-1995-4x114-3',
+            generation: 'Kia Pride',
+            aliases: [
+              'Kia Pride 1995',
+              'Kia Pride',
+              '4x114.3'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '59.5',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '88 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-kia-pride-kia-pride-1995-4x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Kia Pride wheel fitment',
+                url: 'https://monentraxe.fr/en/kia/pride',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2000; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-kia-pride-kia-pride-1995-4x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Pride wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Kia/Pride/Pride%20%281995%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -36522,6 +42738,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-genesis-gv70-genesis-gv70-2020-5x114-3',
+            generation: 'Genesis GV70',
+            aliases: [
+              'Genesis GV70 2020',
+              'Genesis GV70',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-genesis-gv70-genesis-gv70-2020-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Genesis GV70 wheel fitment',
+                url: 'https://monentraxe.fr/en/genesis/gv70',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-genesis-gv70-genesis-gv70-2020-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Genesis GV70 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Genesis/GV70/GV70%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -36966,6 +43251,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-ford-focus-ford-focus-i-1998-4x108',
+            generation: 'Ford Focus I',
+            aliases: [
+              'Ford Focus 1998',
+              'Ford Focus I',
+              '4x108'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-focus-ford-focus-i-1998-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford Focus I wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/focus',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2004; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-focus-ford-focus-i-1998-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Focus wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Focus/Focus%20%281998%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -37782,6 +44136,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-ford-kuga-ford-kuga-i-2013-5x108',
+            generation: 'Ford Kuga I',
+            aliases: [
+              'Ford Kuga 2013',
+              'Ford Kuga I',
+              '5x108'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-kuga-ford-kuga-i-2013-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford Kuga I wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/kuga',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2013; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-kuga-ford-kuga-i-2013-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Kuga wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Kuga/Kuga%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2019',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -38443,6 +44866,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-ford-courier-ford-courier-1995-4x108',
+            generation: 'Ford Courier',
+            aliases: [
+              'Ford Courier 1995',
+              'Ford Courier',
+              '4x108'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-courier-ford-courier-1995-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford Courier wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/courier',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2000; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-courier-ford-courier-1995-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Courier wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Courier/Courier%20%281995%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -39484,6 +45976,456 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Excursion',
+        slug: 'excursion',
+        records: [
+          {
+            id: 'pcd-b5-ford-excursion-ford-excursion-2000-8x170',
+            generation: 'Ford Excursion',
+            aliases: [
+              'Ford Excursion 2000',
+              'Ford Excursion',
+              '8x170'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '8x170',
+            centerBore: '124.9',
+            thread: 'M14x2',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET10',
+            torque: '220 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-excursion-ford-excursion-2000-8x170-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford Excursion wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/excursion',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2000-2005; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-excursion-ford-excursion-2000-8x170-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Excursion wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Excursion/Excursion%20%282000%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2000-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'F250',
+        slug: 'f250',
+        records: [
+          {
+            id: 'pcd-b5-ford-f250-ford-f250-1999-8x170',
+            generation: 'Ford F250',
+            aliases: [
+              'Ford F250 1999',
+              'Ford F250',
+              '8x170'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '8x170',
+            centerBore: '124.9',
+            thread: 'M14x2',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET10',
+            torque: '220 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-f250-ford-f250-1999-8x170-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford F250 wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/f250',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2007; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-f250-ford-f250-1999-8x170-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford F250 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/F250/F250%20%281999%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2007',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'F350',
+        slug: 'f350',
+        records: [
+          {
+            id: 'pcd-b5-ford-f350-ford-f350-1997-8x170',
+            generation: 'Ford F350',
+            aliases: [
+              'Ford F350 1997',
+              'Ford F350',
+              '8x170'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '8x170',
+            centerBore: '124.9',
+            thread: 'M14x2',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET10',
+            torque: '220 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-f350-ford-f350-1997-8x170-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford F350 wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/f350',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2004; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-f350-ford-f350-1997-8x170-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford F350 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/F350/F350%20%281997%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Flex',
+        slug: 'flex',
+        records: [
+          {
+            id: 'pcd-b5-ford-flex-ford-flex-2009-5x114-3',
+            generation: 'Ford Flex',
+            aliases: [
+              'Ford Flex 2009',
+              'Ford Flex',
+              '5x114.3'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-flex-ford-flex-2009-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford Flex wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/flex',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2019; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-flex-ford-flex-2009-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Flex wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Flex/Flex%20%282009%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2019',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mustang Mach-E',
+        slug: 'mustang-mach-e',
+        records: [
+          {
+            id: 'pcd-b5-ford-mustang-mach-e-ford-mustang-mach-e-2020-5x108',
+            generation: 'Ford Mustang Mach-E',
+            aliases: [
+              'Ford Mustang Mach-E 2020',
+              'Ford Mustang Mach-E',
+              '5x108'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '204 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-mustang-mach-e-ford-mustang-mach-e-2020-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford Mustang Mach-E wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/mustang-mach-e',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-mustang-mach-e-ford-mustang-mach-e-2020-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Mustang Mach-E wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Mustang%20Mach-E/Mustang%20Mach-E%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Transit Custom 3.3t',
+        slug: 'transit-custom-3-3t',
+        records: [
+          {
+            id: 'pcd-b5-ford-transit-custom-3-3t-ford-transit-custom-3-3t-2013-5x160',
+            generation: 'Ford Transit Custom 3.3t',
+            aliases: [
+              'Ford Transit Custom 3.3t 2013',
+              'Ford Transit Custom 3.3t',
+              '5x160'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x160',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ford-transit-custom-3-3t-ford-transit-custom-3-3t-2013-5x160-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ford Transit Custom 3.3t wheel fitment',
+                url: 'https://monentraxe.fr/en/ford/transit-custom-3-3t',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ford-transit-custom-3-3t-ford-transit-custom-3-3t-2013-5x160-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Transit Custom 3.3t wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Transit%20Custom%203.3t/Transit%20Custom%203.3t%20%282013%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2023',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -40045,6 +46987,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-chevrolet-corvette-chevrolet-corvette-c8-2020-5x120',
+            generation: 'Chevrolet Corvette C8',
+            aliases: [
+              'Chevrolet Corvette 2020',
+              'Chevrolet Corvette C8',
+              '5x120'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '66.9',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET54',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-corvette-chevrolet-corvette-c8-2020-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Corvette C8 wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/corvette-c8',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-corvette-chevrolet-corvette-c8-2020-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Corvette wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Corvette/Corvette%20C8%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -41305,6 +48316,606 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Aveo',
+        slug: 'aveo',
+        records: [
+          {
+            id: 'pcd-b5-chevrolet-aveo-chevrolet-aveo-2006-4x100',
+            generation: 'Chevrolet Aveo',
+            aliases: [
+              'Chevrolet Aveo 2006',
+              'Chevrolet Aveo',
+              '4x100'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.5',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-aveo-chevrolet-aveo-2006-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Aveo wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/aveo',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2011; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-aveo-chevrolet-aveo-2006-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Aveo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Aveo/Aveo%20%282006%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lanos',
+        slug: 'lanos',
+        records: [
+          {
+            id: 'pcd-b5-chevrolet-lanos-chevrolet-lanos-1997-4x100',
+            generation: 'Chevrolet Lanos',
+            aliases: [
+              'Chevrolet Lanos 1997',
+              'Chevrolet Lanos',
+              '4x100'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-lanos-chevrolet-lanos-1997-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Lanos wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/lanos',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2004; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-lanos-chevrolet-lanos-1997-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Lanos wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Lanos/Lanos%20%281997%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Leganza',
+        slug: 'leganza',
+        records: [
+          {
+            id: 'pcd-b5-chevrolet-leganza-chevrolet-leganza-1998-5x114-3',
+            generation: 'Chevrolet Leganza',
+            aliases: [
+              'Chevrolet Leganza 1998',
+              'Chevrolet Leganza',
+              '5x114.3'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-leganza-chevrolet-leganza-1998-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Leganza wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/leganza',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2003; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-leganza-chevrolet-leganza-1998-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Leganza wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Leganza/Leganza%20%281998%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Silverado',
+        slug: 'silverado',
+        records: [
+          {
+            id: 'pcd-b5-chevrolet-silverado-chevrolet-silverado-1999-6x139-7',
+            generation: 'Chevrolet Silverado',
+            aliases: [
+              'Chevrolet Silverado 1999',
+              'Chevrolet Silverado',
+              '6x139.7'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-silverado-chevrolet-silverado-1999-6x139-7-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Silverado wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/silverado',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2005; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-silverado-chevrolet-silverado-1999-6x139-7-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Silverado wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Silverado/Silverado%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Spark M300',
+        slug: 'spark-m300',
+        records: [
+          {
+            id: 'pcd-b5-chevrolet-spark-m300-chevrolet-spark-m300-2010-4x100',
+            generation: 'Chevrolet Spark M300',
+            aliases: [
+              'Chevrolet Spark M300 2010',
+              'Chevrolet Spark M300',
+              '4x100'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-spark-m300-chevrolet-spark-m300-2010-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Spark M300 wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/spark-m300',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2023; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-spark-m300-chevrolet-spark-m300-2010-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Spark M300 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Spark%20M300/Spark%20M300%20%282010%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2023',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tacuma',
+        slug: 'tacuma',
+        records: [
+          {
+            id: 'pcd-b5-chevrolet-tacuma-chevrolet-tacuma-2001-4x114-3',
+            generation: 'Chevrolet Tacuma',
+            aliases: [
+              'Chevrolet Tacuma 2001',
+              'Chevrolet Tacuma',
+              '4x114.3'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-tacuma-chevrolet-tacuma-2001-4x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Tacuma wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/tacuma',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2001-2008; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-tacuma-chevrolet-tacuma-2001-4x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Tacuma wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Tacuma/Tacuma%20%282001%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2001-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Spark M400',
+        slug: 'spark-m400',
+        records: [
+          {
+            id: 'pcd-b5-chevrolet-spark-m400-chevrolet-spark-m400-2016-4x100',
+            generation: 'Chevrolet Spark M400',
+            aliases: [
+              'Chevrolet Spark M400 2016',
+              'Chevrolet Spark M400',
+              '4x100'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-spark-m400-chevrolet-spark-m400-2016-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Spark M400 wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/spark-m400',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-2023; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-spark-m400-chevrolet-spark-m400-2016-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Spark M400 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Spark%20M400/Spark%20M400%20%282016%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-2023',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Volt',
+        slug: 'volt',
+        records: [
+          {
+            id: 'pcd-b5-chevrolet-volt-chevrolet-volt-2012-5x115',
+            generation: 'Chevrolet Volt',
+            aliases: [
+              'Chevrolet Volt 2012',
+              'Chevrolet Volt',
+              '5x115'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chevrolet-volt-chevrolet-volt-2012-5x115-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chevrolet Volt wheel fitment',
+                url: 'https://monentraxe.fr/en/chevrolet/volt',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chevrolet-volt-chevrolet-volt-2012-5x115-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Volt wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Volt/Volt%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -41473,6 +49084,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-jeep-renegade-jeep-renegade-2014-5x110',
+            generation: 'Jeep Renegade',
+            aliases: [
+              'Jeep Renegade 2014',
+              'Jeep Renegade',
+              '5x110'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '136 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-jeep-renegade-jeep-renegade-2014-5x110-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Jeep Renegade wheel fitment',
+                url: 'https://monentraxe.fr/en/jeep/renegade',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-jeep-renegade-jeep-renegade-2014-5x110-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jeep Renegade wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Jeep/Renegade/Renegade%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -41694,6 +49374,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Gladiator',
+        slug: 'gladiator',
+        records: [
+          {
+            id: 'pcd-b5-jeep-gladiator-jeep-gladiator-2019-5x127',
+            generation: 'Jeep Gladiator',
+            aliases: [
+              'Jeep Gladiator 2019',
+              'Jeep Gladiator',
+              '5x127'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x127',
+            centerBore: '71.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '176 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-jeep-gladiator-jeep-gladiator-2019-5x127-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Jeep Gladiator wheel fitment',
+                url: 'https://monentraxe.fr/en/jeep/gladiator',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-jeep-gladiator-jeep-gladiator-2019-5x127-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jeep Gladiator wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Jeep/Gladiator/Gladiator%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -41750,6 +49505,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-dodge-challenger-dodge-challenger-2008-5x115',
+            generation: 'Dodge Challenger',
+            aliases: [
+              'Dodge Challenger 2008',
+              'Dodge Challenger',
+              '5x115'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET24',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-dodge-challenger-dodge-challenger-2008-5x115-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Dodge Challenger wheel fitment',
+                url: 'https://monentraxe.fr/en/dodge/challenger',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2023; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-dodge-challenger-dodge-challenger-2008-5x115-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Challenger wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Challenger/Challenger%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -42242,6 +50066,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Avenger',
+        slug: 'avenger',
+        records: [
+          {
+            id: 'pcd-b5-dodge-avenger-dodge-avenger-2007-5x114-3',
+            generation: 'Dodge Avenger',
+            aliases: [
+              'Dodge Avenger 2007',
+              'Dodge Avenger',
+              '5x114.3'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-dodge-avenger-dodge-avenger-2007-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Dodge Avenger wheel fitment',
+                url: 'https://monentraxe.fr/en/dodge/avenger',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2014; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-dodge-avenger-dodge-avenger-2007-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Avenger wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Avenger/Avenger%20%282007%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Neon SRT4',
+        slug: 'neon-srt4',
+        records: [
+          {
+            id: 'pcd-b5-dodge-neon-srt4-dodge-neon-srt4-2003-5x100',
+            generation: 'Dodge Neon SRT4',
+            aliases: [
+              'Dodge Neon SRT4 2003',
+              'Dodge Neon SRT4',
+              '5x100'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-dodge-neon-srt4-dodge-neon-srt4-2003-5x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Dodge Neon SRT4 wheel fitment',
+                url: 'https://monentraxe.fr/en/dodge/neon-srt4',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2005; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-dodge-neon-srt4-dodge-neon-srt4-2003-5x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dodge Neon SRT4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Dodge/Neon%20SRT4/Neon%20SRT4%20%282003%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -42367,6 +50341,225 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-ram-ram-2500-pickup-ram-ram-2500-pickup-2011-8x165-1',
+            generation: 'RAM RAM 2500 Pickup',
+            aliases: [
+              'Ram RAM 2500 Pickup 2011',
+              'RAM RAM 2500 Pickup',
+              '8x165.1'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '8x165.1',
+            centerBore: '121.3',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '175 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ram-ram-2500-pickup-ram-ram-2500-pickup-2011-8x165-1-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'RAM RAM 2500 Pickup wheel fitment',
+                url: 'https://monentraxe.fr/en/ram/ram-2500-pickup',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ram-ram-2500-pickup-ram-ram-2500-pickup-2011-8x165-1-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ram RAM 2500 Pickup wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/RAM/RAM%202500%20Pickup/RAM%202500%20Pickup%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RAM 3500 Pickup',
+        slug: 'ram-3500-pickup',
+        records: [
+          {
+            id: 'pcd-b5-ram-ram-3500-pickup-ram-ram-3500-pickup-2011-8x165-1',
+            generation: 'RAM RAM 3500 Pickup',
+            aliases: [
+              'Ram RAM 3500 Pickup 2011',
+              'RAM RAM 3500 Pickup',
+              '8x165.1'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '8x165.1',
+            centerBore: '121.3',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '175 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ram-ram-3500-pickup-ram-ram-3500-pickup-2011-8x165-1-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'RAM RAM 3500 Pickup wheel fitment',
+                url: 'https://monentraxe.fr/en/ram/ram-3500-pickup',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ram-ram-3500-pickup-ram-ram-3500-pickup-2011-8x165-1-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ram RAM 3500 Pickup wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/RAM/RAM%203500%20Pickup/RAM%203500%20Pickup%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RAM 1500',
+        slug: 'ram-1500',
+        records: [
+          {
+            id: 'pcd-b5-ram-ram-1500-ram-ram-1500-2011-5x139-7',
+            generation: 'RAM RAM 1500',
+            aliases: [
+              'Ram RAM 1500 2011',
+              'RAM RAM 1500',
+              '5x139.7'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x139.7',
+            centerBore: '77.8',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET26',
+            torque: '175 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ram-ram-1500-ram-ram-1500-2011-5x139-7-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'RAM RAM 1500 wheel fitment',
+                url: 'https://monentraxe.fr/en/ram/ram-1500',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ram-ram-1500-ram-ram-1500-2011-5x139-7-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ram RAM 1500 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/RAM/RAM%201500/RAM%201500%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       }
@@ -42425,6 +50618,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-chrysler-pt-cruiser-chrysler-pt-cruiser-2000-5x100',
+            generation: 'Chrysler PT Cruiser',
+            aliases: [
+              'Chrysler PT Cruiser 2000',
+              'Chrysler PT Cruiser',
+              '5x100'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chrysler-pt-cruiser-chrysler-pt-cruiser-2000-5x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chrysler PT Cruiser wheel fitment',
+                url: 'https://monentraxe.fr/en/chrysler/pt-cruiser',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2000-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chrysler-pt-cruiser-chrysler-pt-cruiser-2000-5x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler PT Cruiser wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/PT%20Cruiser/PT%20Cruiser%20%282000%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2000-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -42881,6 +51143,306 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '300C',
+        slug: '300c',
+        records: [
+          {
+            id: 'pcd-b5-chrysler-300c-chrysler-300c-2004-5x115',
+            generation: 'Chrysler 300C',
+            aliases: [
+              'Chrysler 300C 2004',
+              'Chrysler 300C',
+              '5x115'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chrysler-300c-chrysler-300c-2004-5x115-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chrysler 300C wheel fitment',
+                url: 'https://monentraxe.fr/en/chrysler/300c',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2022; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chrysler-300c-chrysler-300c-2004-5x115-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler 300C wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/300C/300C%20%282004%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2022',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '300M',
+        slug: '300m',
+        records: [
+          {
+            id: 'pcd-b5-chrysler-300m-chrysler-300m-1998-5x114-3',
+            generation: 'Chrysler 300M',
+            aliases: [
+              'Chrysler 300M 1998',
+              'Chrysler 300M',
+              '5x114.3'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '71.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chrysler-300m-chrysler-300m-1998-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chrysler 300M wheel fitment',
+                url: 'https://monentraxe.fr/en/chrysler/300m',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2004; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chrysler-300m-chrysler-300m-1998-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler 300M wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/300M/300M%20%281998%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Le Baron',
+        slug: 'le-baron',
+        records: [
+          {
+            id: 'pcd-b5-chrysler-le-baron-chrysler-le-baron-1987-5x100',
+            generation: 'Chrysler Le Baron',
+            aliases: [
+              'Chrysler Le Baron 1987',
+              'Chrysler Le Baron',
+              '5x100'
+            ],
+            years: '1987-1987',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chrysler-le-baron-chrysler-le-baron-1987-5x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chrysler Le Baron wheel fitment',
+                url: 'https://monentraxe.fr/en/chrysler/le-baron',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1987-1995; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chrysler-le-baron-chrysler-le-baron-1987-5x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Le Baron wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Le%20Baron/Le%20Baron%20%281987%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1987-1995',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Neon',
+        slug: 'neon',
+        records: [
+          {
+            id: 'pcd-b5-chrysler-neon-chrysler-neon-1994-5x100',
+            generation: 'Chrysler Neon',
+            aliases: [
+              'Chrysler Neon 1994',
+              'Chrysler Neon',
+              '5x100'
+            ],
+            years: '1994-1994',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-chrysler-neon-chrysler-neon-1994-5x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Chrysler Neon wheel fitment',
+                url: 'https://monentraxe.fr/en/chrysler/neon',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1994-2005; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-chrysler-neon-chrysler-neon-1994-5x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Neon wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Neon/Neon%20%281994%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1994-2005',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -46229,6 +54791,381 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '207',
+        slug: '207',
+        records: [
+          {
+            id: 'pcd-b5-peugeot-207-peugeot-207-2006-4x108',
+            generation: 'Peugeot 207',
+            aliases: [
+              'Peugeot 207 2006',
+              'Peugeot 207',
+              '4x108'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-peugeot-207-peugeot-207-2006-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Peugeot 207 wheel fitment',
+                url: 'https://monentraxe.fr/en/peugeot/207',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2014; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-peugeot-207-peugeot-207-2006-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 207 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/207/207%20%282006%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '206',
+        slug: '206',
+        records: [
+          {
+            id: 'pcd-b5-peugeot-206-peugeot-206-1998-4x108',
+            generation: 'Peugeot 206',
+            aliases: [
+              'Peugeot 206 1998',
+              'Peugeot 206',
+              '4x108'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-peugeot-206-peugeot-206-1998-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Peugeot 206 wheel fitment',
+                url: 'https://monentraxe.fr/en/peugeot/206',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2009; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-peugeot-206-peugeot-206-1998-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 206 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/206/206%20%281998%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '306',
+        slug: '306',
+        records: [
+          {
+            id: 'pcd-b5-peugeot-306-peugeot-306-1993-4x108',
+            generation: 'Peugeot 306',
+            aliases: [
+              'Peugeot 306 1993',
+              'Peugeot 306',
+              '4x108'
+            ],
+            years: '1993-1993',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-peugeot-306-peugeot-306-1993-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Peugeot 306 wheel fitment',
+                url: 'https://monentraxe.fr/en/peugeot/306',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1993-2002; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-peugeot-306-peugeot-306-1993-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 306 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/306/306%20%281993%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1993-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Boxer Maxi',
+        slug: 'boxer-maxi',
+        records: [
+          {
+            id: 'pcd-b5-peugeot-boxer-maxi-peugeot-boxer-maxi-2006-5x130',
+            generation: 'Peugeot Boxer Maxi',
+            aliases: [
+              'Peugeot Boxer Maxi 2006',
+              'Peugeot Boxer Maxi',
+              '5x130'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-peugeot-boxer-maxi-peugeot-boxer-maxi-2006-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Peugeot Boxer Maxi wheel fitment',
+                url: 'https://monentraxe.fr/en/peugeot/boxer-maxi',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-peugeot-boxer-maxi-peugeot-boxer-maxi-2006-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Boxer Maxi wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Boxer%20Maxi/Boxer%20Maxi%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'e-208',
+        slug: 'e-208',
+        records: [
+          {
+            id: 'pcd-b5-peugeot-e-208-peugeot-e-208-2023-4x108',
+            generation: 'Peugeot e-208',
+            aliases: [
+              'Peugeot e-208 2023',
+              'Peugeot e-208',
+              '4x108'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-peugeot-e-208-peugeot-e-208-2023-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Peugeot e-208 wheel fitment',
+                url: 'https://monentraxe.fr/en/peugeot/e-208',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-peugeot-e-208-peugeot-e-208-2023-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot e-208 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/e-208/e-208%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -48471,6 +57408,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '4 E-Tech',
+        slug: '4-e-tech',
+        records: [
+          {
+            id: 'pcd-b5-renault-4-e-tech-renault-4-e-tech-2025-5x114-3',
+            generation: 'Renault 4 E-Tech',
+            aliases: [
+              'Renault 4 E-Tech 2025',
+              'Renault 4 E-Tech',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-renault-4-e-tech-renault-4-e-tech-2025-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Renault 4 E-Tech wheel fitment',
+                url: 'https://monentraxe.fr/en/renault/4-e-tech',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2025-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-renault-4-e-tech-renault-4-e-tech-2025-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault 4 E-Tech wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/4%20E-Tech/4%20E-Tech%20%282025%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2025-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Clio GrandTour',
+        slug: 'clio-grandtour',
+        records: [
+          {
+            id: 'pcd-b5-renault-clio-grandtour-renault-clio-grandtour-2013-4x100',
+            generation: 'Renault Clio GrandTour',
+            aliases: [
+              'Renault Clio GrandTour 2013',
+              'Renault Clio GrandTour',
+              '4x100'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-renault-clio-grandtour-renault-clio-grandtour-2013-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Renault Clio GrandTour wheel fitment',
+                url: 'https://monentraxe.fr/en/renault/clio-grandtour',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2023; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-renault-clio-grandtour-renault-clio-grandtour-2013-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Clio GrandTour wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Clio%20GrandTour/Clio%20GrandTour%20%282013%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2023',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -48501,6 +57588,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-citroen-c3-citroen-c3-pluriel-2010-4x108',
+            generation: 'Citroen C3 Pluriel',
+            aliases: [
+              'Citroen C3 2010',
+              'Citroen C3 Pluriel',
+              '4x108'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-c3-citroen-c3-pluriel-2010-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen C3 Pluriel wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/c3-pluriel',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-c3-citroen-c3-pluriel-2010-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C3/C3%20%282010%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -49008,6 +58164,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-citroen-spacetourer-citroen-spacetourer-2024-5x108',
+            generation: 'Citroen SpaceTourer',
+            aliases: [
+              'Citroen SpaceTourer 2024',
+              'Citroen SpaceTourer',
+              '5x108'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-spacetourer-citroen-spacetourer-2024-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen SpaceTourer wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/spacetourer',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-2024; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-spacetourer-citroen-spacetourer-2024-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen SpaceTourer wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/SpaceTourer/SpaceTourer%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2024-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -49375,6 +58600,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-citroen-jumpy-citroen-jumpy-1996-5x98',
+            generation: 'Citroen Jumpy',
+            aliases: [
+              'Citroen Jumpy 1996',
+              'Citroen Jumpy',
+              '5x98'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-jumpy-citroen-jumpy-1996-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen Jumpy wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/jumpy',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-jumpy-citroen-jumpy-1996-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Jumpy wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Jumpy/Jumpy%20%281996%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -50400,6 +59694,681 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C3 Aircross',
+        slug: 'c3-aircross',
+        records: [
+          {
+            id: 'pcd-b5-citroen-c3-aircross-citroen-c3-aircross-2017-4x108',
+            generation: 'Citroen C3 Aircross',
+            aliases: [
+              'Citroen C3 Aircross 2017',
+              'Citroen C3 Aircross',
+              '4x108'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET23',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-c3-aircross-citroen-c3-aircross-2017-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen C3 Aircross wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/c3-aircross',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-c3-aircross-citroen-c3-aircross-2017-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C3 Aircross wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C3%20Aircross/C3%20Aircross%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C3 Picasso',
+        slug: 'c3-picasso',
+        records: [
+          {
+            id: 'pcd-b5-citroen-c3-picasso-citroen-c3-picasso-2009-4x108',
+            generation: 'Citroen C3 Picasso',
+            aliases: [
+              'Citroen C3 Picasso 2009',
+              'Citroen C3 Picasso',
+              '4x108'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-c3-picasso-citroen-c3-picasso-2009-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen C3 Picasso wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/c3-picasso',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-c3-picasso-citroen-c3-picasso-2009-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C3 Picasso wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C3%20Picasso/C3%20Picasso%20%282009%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C4 Cactus',
+        slug: 'c4-cactus',
+        records: [
+          {
+            id: 'pcd-b5-citroen-c4-cactus-citroen-c4-cactus-2014-4x108',
+            generation: 'Citroen C4 Cactus',
+            aliases: [
+              'Citroen C4 Cactus 2014',
+              'Citroen C4 Cactus',
+              '4x108'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET19',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-c4-cactus-citroen-c4-cactus-2014-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen C4 Cactus wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/c4-cactus',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2023; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-c4-cactus-citroen-c4-cactus-2014-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C4 Cactus wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C4%20Cactus/C4%20Cactus%20%282014%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-2023',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C4 Grand Picasso',
+        slug: 'c4-grand-picasso',
+        records: [
+          {
+            id: 'pcd-b5-citroen-c4-grand-picasso-citroen-c4-grand-picasso-2013-5x108',
+            generation: 'Citroen C4 Grand Picasso',
+            aliases: [
+              'Citroen C4 Grand Picasso 2013',
+              'Citroen C4 Grand Picasso',
+              '5x108'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-c4-grand-picasso-citroen-c4-grand-picasso-2013-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen C4 Grand Picasso wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/c4-grand-picasso',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2021; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-c4-grand-picasso-citroen-c4-grand-picasso-2013-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C4 Grand Picasso wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C4%20Grand%20Picasso/C4%20Grand%20Picasso%20%282013%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2021',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C8',
+        slug: 'c8',
+        records: [
+          {
+            id: 'pcd-b5-citroen-c8-citroen-c8-2002-5x98',
+            generation: 'Citroen C8',
+            aliases: [
+              'Citroen C8 2002',
+              'Citroen C8',
+              '5x98'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-c8-citroen-c8-2002-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen C8 wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/c8',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2014; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-c8-citroen-c8-2002-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C8 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C8/C8%20%282002%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2014',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'DS3',
+        slug: 'ds3',
+        records: [
+          {
+            id: 'pcd-b5-citroen-ds3-citroen-ds3-2010-4x108',
+            generation: 'Citroen DS3',
+            aliases: [
+              'Citroen DS3 2010',
+              'Citroen DS3',
+              '4x108'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-ds3-citroen-ds3-2010-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen DS3 wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/ds3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2016; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-ds3-citroen-ds3-2010-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen DS3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/DS3/DS3%20%282010%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'DS5',
+        slug: 'ds5',
+        records: [
+          {
+            id: 'pcd-b5-citroen-ds5-citroen-ds5-2012-4x108',
+            generation: 'Citroen DS5',
+            aliases: [
+              'Citroen DS5 2012',
+              'Citroen DS5',
+              '4x108'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-ds5-citroen-ds5-2012-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen DS5 wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/ds5',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-ds5-citroen-ds5-2012-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen DS5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/DS5/DS5%20%282012%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'DS4',
+        slug: 'ds4',
+        records: [
+          {
+            id: 'pcd-b5-citroen-ds4-citroen-ds4-2011-4x108',
+            generation: 'Citroen DS4',
+            aliases: [
+              'Citroen DS4 2011',
+              'Citroen DS4',
+              '4x108'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-ds4-citroen-ds4-2011-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen DS4 wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/ds4',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-ds4-citroen-ds4-2011-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen DS4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/DS4/DS4%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Saxo',
+        slug: 'saxo',
+        records: [
+          {
+            id: 'pcd-b5-citroen-saxo-citroen-saxo-1996-4x108',
+            generation: 'Citroen Saxo',
+            aliases: [
+              'Citroen Saxo 1996',
+              'Citroen Saxo',
+              '4x108'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET24',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-citroen-saxo-citroen-saxo-1996-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Citroen Saxo wheel fitment',
+                url: 'https://monentraxe.fr/en/citroen/saxo',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2003; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-citroen-saxo-citroen-saxo-1996-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Saxo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Saxo/Saxo%20%281996%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -53344,6 +63313,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-fiat-fiorino-fiat-fiorino-1989-4x98',
+            generation: 'Fiat Fiorino',
+            aliases: [
+              'Fiat Fiorino 1989',
+              'Fiat Fiorino',
+              '4x98'
+            ],
+            years: '1989-1989',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-fiorino-fiat-fiorino-1989-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat Fiorino wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/fiorino',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1989-2001; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-fiorino-fiat-fiorino-1989-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Fiorino wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Fiorino/Fiorino%20%281989%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1989-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -54964,6 +65002,681 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '600',
+        slug: '600',
+        records: [
+          {
+            id: 'pcd-b5-fiat-600-fiat-600-2023-4x108',
+            generation: 'Fiat 600',
+            aliases: [
+              'Fiat 600 2023',
+              'Fiat 600',
+              '4x108'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-600-fiat-600-2023-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat 600 wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/600',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-600-fiat-600-2023-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat 600 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/600/600%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cinquecento',
+        slug: 'cinquecento',
+        records: [
+          {
+            id: 'pcd-b5-fiat-cinquecento-fiat-cinquecento-1991-4x98',
+            generation: 'Fiat Cinquecento',
+            aliases: [
+              'Fiat Cinquecento 1991',
+              'Fiat Cinquecento',
+              '4x98'
+            ],
+            years: '1991-1991',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-cinquecento-fiat-cinquecento-1991-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat Cinquecento wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/cinquecento',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1991-1998; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-cinquecento-fiat-cinquecento-1991-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Cinquecento wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Cinquecento/Cinquecento%20%281991%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1991-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Brava',
+        slug: 'brava',
+        records: [
+          {
+            id: 'pcd-b5-fiat-brava-fiat-brava-1995-4x98',
+            generation: 'Fiat Brava',
+            aliases: [
+              'Fiat Brava 1995',
+              'Fiat Brava',
+              '4x98'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-brava-fiat-brava-1995-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat Brava wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/brava',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2001; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-brava-fiat-brava-1995-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Brava wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Brava/Brava%20%281995%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2001',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Albea',
+        slug: 'albea',
+        records: [
+          {
+            id: 'pcd-b5-fiat-albea-fiat-albea-2002-4x98',
+            generation: 'Fiat Albea',
+            aliases: [
+              'Fiat Albea 2002',
+              'Fiat Albea',
+              '4x98'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-albea-fiat-albea-2002-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat Albea wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/albea',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2012; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-albea-fiat-albea-2002-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Albea wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Albea/Albea%20%282002%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Doblo Maxi',
+        slug: 'doblo-maxi',
+        records: [
+          {
+            id: 'pcd-b5-fiat-doblo-maxi-fiat-doblo-maxi-2010-5x98',
+            generation: 'Fiat Doblo Maxi',
+            aliases: [
+              'Fiat Doblo Maxi 2010',
+              'Fiat Doblo Maxi',
+              '5x98'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-doblo-maxi-fiat-doblo-maxi-2010-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat Doblo Maxi wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/doblo-maxi',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2022; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-doblo-maxi-fiat-doblo-maxi-2010-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Doblo Maxi wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Doblo%20Maxi/Doblo%20Maxi%20%282010%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2010-2022',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'e-Doblo',
+        slug: 'e-doblo',
+        records: [
+          {
+            id: 'pcd-b5-fiat-e-doblo-fiat-e-doblo-2022-5x98',
+            generation: 'Fiat e-Doblo',
+            aliases: [
+              'Fiat e-Doblo 2022',
+              'Fiat e-Doblo',
+              '5x98'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-e-doblo-fiat-e-doblo-2022-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat e-Doblo wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/e-doblo',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-e-doblo-fiat-e-doblo-2022-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat e-Doblo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/e-Doblo/e-Doblo%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Grand Punto',
+        slug: 'grand-punto',
+        records: [
+          {
+            id: 'pcd-b5-fiat-grand-punto-fiat-grand-punto-2005-4x100',
+            generation: 'Fiat Grand Punto',
+            aliases: [
+              'Fiat Grand Punto 2005',
+              'Fiat Grand Punto',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-grand-punto-fiat-grand-punto-2005-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat Grand Punto wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/grand-punto',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2009; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-grand-punto-fiat-grand-punto-2005-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Grand Punto wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Grand%20Punto/Grand%20Punto%20%282005%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Idea',
+        slug: 'idea',
+        records: [
+          {
+            id: 'pcd-b5-fiat-idea-fiat-idea-2003-4x98',
+            generation: 'Fiat Idea',
+            aliases: [
+              'Fiat Idea 2003',
+              'Fiat Idea',
+              '4x98'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-idea-fiat-idea-2003-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat Idea wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/idea',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2016; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-idea-fiat-idea-2003-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Idea wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Idea/Idea%20%282003%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Linea',
+        slug: 'linea',
+        records: [
+          {
+            id: 'pcd-b5-fiat-linea-fiat-linea-2007-4x98',
+            generation: 'Fiat Linea',
+            aliases: [
+              'Fiat Linea 2007',
+              'Fiat Linea',
+              '4x98'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fiat-linea-fiat-linea-2007-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fiat Linea wheel fitment',
+                url: 'https://monentraxe.fr/en/fiat/linea',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2016; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fiat-linea-fiat-linea-2007-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Linea wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Linea/Linea%20%282007%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -55509,6 +66222,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-porsche-macan-porsche-macan-2014-5x112',
+            generation: 'Porsche Macan',
+            aliases: [
+              'Porsche Macan 2014',
+              'Porsche Macan',
+              '5x112'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET26',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-porsche-macan-porsche-macan-2014-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Porsche Macan wheel fitment',
+                url: 'https://monentraxe.fr/en/porsche/macan',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-porsche-macan-porsche-macan-2014-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche Macan wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/Macan/Macan%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -55685,6 +66467,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-porsche-boxster-porsche-boxster-718-2016-5x130',
+            generation: 'Porsche Boxster 718',
+            aliases: [
+              'Porsche Boxster 2016',
+              'Porsche Boxster 718',
+              '5x130'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-porsche-boxster-porsche-boxster-718-2016-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Porsche Boxster 718 wheel fitment',
+                url: 'https://monentraxe.fr/en/porsche/boxster-718',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-porsche-boxster-porsche-boxster-718-2016-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche Boxster wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/Boxster/Boxster%20%282012%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2016',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -55837,6 +66688,456 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '911 991 Turbo S',
+        slug: '911-991-turbo-s',
+        records: [
+          {
+            id: 'pcd-b5-porsche-911-991-turbo-s-porsche-911-991-turbo-s-2013-5x130',
+            generation: 'Porsche 911 991 Turbo S',
+            aliases: [
+              'Porsche 911 991 Turbo S 2013',
+              'Porsche 911 991 Turbo S',
+              '5x130'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-porsche-911-991-turbo-s-porsche-911-991-turbo-s-2013-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Porsche 911 991 Turbo S wheel fitment',
+                url: 'https://monentraxe.fr/en/porsche/911-991-turbo-s',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-porsche-911-991-turbo-s-porsche-911-991-turbo-s-2013-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 991 Turbo S wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20991%20Turbo%20S/911%20991%20Turbo%20S%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 993',
+        slug: '911-993',
+        records: [
+          {
+            id: 'pcd-b5-porsche-911-993-porsche-911-993-1995-5x130',
+            generation: 'Porsche 911 993',
+            aliases: [
+              'Porsche 911 993 1995',
+              'Porsche 911 993',
+              '5x130'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-porsche-911-993-porsche-911-993-1995-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Porsche 911 993 wheel fitment',
+                url: 'https://monentraxe.fr/en/porsche/911-993',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-1998; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-porsche-911-993-porsche-911-993-1995-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 993 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20993/911%20993%20%281995%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-1998',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 930 Carrera',
+        slug: '911-930-carrera',
+        records: [
+          {
+            id: 'pcd-b5-porsche-911-930-carrera-porsche-911-930-carrera-1975-5x130',
+            generation: 'Porsche 911 930 Carrera',
+            aliases: [
+              'Porsche 911 930 Carrera 1975',
+              'Porsche 911 930 Carrera',
+              '5x130'
+            ],
+            years: '1975-1975',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-porsche-911-930-carrera-porsche-911-930-carrera-1975-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Porsche 911 930 Carrera wheel fitment',
+                url: 'https://monentraxe.fr/en/porsche/911-930-carrera',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1975-1989; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-porsche-911-930-carrera-porsche-911-930-carrera-1975-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 930 Carrera wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20930%20Carrera/911%20930%20Carrera%20%281975%20-%201989%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1975-1989',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 996',
+        slug: '911-996',
+        records: [
+          {
+            id: 'pcd-b5-porsche-911-996-porsche-911-996-1997-5x130',
+            generation: 'Porsche 911 996',
+            aliases: [
+              'Porsche 911 996 1997',
+              'Porsche 911 996',
+              '5x130'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-porsche-911-996-porsche-911-996-1997-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Porsche 911 996 wheel fitment',
+                url: 'https://monentraxe.fr/en/porsche/911-996',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2004; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-porsche-911-996-porsche-911-996-1997-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 996 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20996/911%20996%20%281997%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2004',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '968',
+        slug: '968',
+        records: [
+          {
+            id: 'pcd-b5-porsche-968-porsche-968-1991-5x130',
+            generation: 'Porsche 968',
+            aliases: [
+              'Porsche 968 1991',
+              'Porsche 968',
+              '5x130'
+            ],
+            years: '1991-1991',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-porsche-968-porsche-968-1991-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Porsche 968 wheel fitment',
+                url: 'https://monentraxe.fr/en/porsche/968',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1991-1995; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-porsche-968-porsche-968-1991-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 968 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/968/968%20%281991%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1991-1995',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cayman 718',
+        slug: 'cayman-718',
+        records: [
+          {
+            id: 'pcd-b5-porsche-cayman-718-porsche-cayman-718-2016-5x130',
+            generation: 'Porsche Cayman 718',
+            aliases: [
+              'Porsche Cayman 718 2016',
+              'Porsche Cayman 718',
+              '5x130'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-porsche-cayman-718-porsche-cayman-718-2016-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Porsche Cayman 718 wheel fitment',
+                url: 'https://monentraxe.fr/en/porsche/cayman-718',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-porsche-cayman-718-porsche-cayman-718-2016-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche Cayman 718 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/Cayman%20718/Cayman%20718%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -55887,6 +67188,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b5-land-rover-freelander-land-rover-freelander-1998-5x114-3',
+            generation: 'Land Rover Freelander',
+            aliases: [
+              'Land Rover Freelander 1998',
+              'Land Rover Freelander',
+              '5x114.3'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-land-rover-freelander-land-rover-freelander-1998-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Land Rover Freelander wheel fitment',
+                url: 'https://monentraxe.fr/en/land-rover/freelander',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-land-rover-freelander-land-rover-freelander-1998-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Land Rover Freelander wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Land%20Rover/Freelander/Freelander%20%281998%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1998-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -56165,6 +67535,375 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b5-land-rover-evoque-land-rover-evoque-2011-5x108',
+            generation: 'Land Rover Evoque',
+            aliases: [
+              'Land Rover Evoque 2011',
+              'Land Rover Evoque',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '133 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-land-rover-evoque-land-rover-evoque-2011-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Land Rover Evoque wheel fitment',
+                url: 'https://monentraxe.fr/en/land-rover/evoque',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-land-rover-evoque-land-rover-evoque-2011-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Land Rover Evoque wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Land%20Rover/Evoque/Evoque%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Discovery III',
+        slug: 'discovery-iii',
+        records: [
+          {
+            id: 'pcd-b5-land-rover-discovery-iii-land-rover-discovery-iii-2005-5x120',
+            generation: 'Land Rover Discovery III',
+            aliases: [
+              'Land Rover Discovery III 2005',
+              'Land Rover Discovery III',
+              '5x120'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-land-rover-discovery-iii-land-rover-discovery-iii-2005-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Land Rover Discovery III wheel fitment',
+                url: 'https://monentraxe.fr/en/land-rover/discovery-iii',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2009; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-land-rover-discovery-iii-land-rover-discovery-iii-2005-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Land Rover Discovery III wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Land%20Rover/Discovery%20III/Discovery%20III%20%282005%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Freelander II',
+        slug: 'freelander-ii',
+        records: [
+          {
+            id: 'pcd-b5-land-rover-freelander-ii-land-rover-freelander-ii-2006-5x108',
+            generation: 'Land Rover Freelander II',
+            aliases: [
+              'Land Rover Freelander II 2006',
+              'Land Rover Freelander II',
+              '5x108'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-land-rover-freelander-ii-land-rover-freelander-ii-2006-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Land Rover Freelander II wheel fitment',
+                url: 'https://monentraxe.fr/en/land-rover/freelander-ii',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-land-rover-freelander-ii-land-rover-freelander-ii-2006-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Land Rover Freelander II wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Land%20Rover/Freelander%20II/Freelander%20II%20%282006%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Range Rover III',
+        slug: 'range-rover-iii',
+        records: [
+          {
+            id: 'pcd-b5-land-rover-range-rover-iii-land-rover-range-rover-iii-2002-5x120',
+            generation: 'Land Rover Range Rover III',
+            aliases: [
+              'Land Rover Range Rover III 2002',
+              'Land Rover Range Rover III',
+              '5x120'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-land-rover-range-rover-iii-land-rover-range-rover-iii-2002-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Land Rover Range Rover III wheel fitment',
+                url: 'https://monentraxe.fr/en/land-rover/range-rover-iii',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2009; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-land-rover-range-rover-iii-land-rover-range-rover-iii-2002-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Land Rover Range Rover III wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Land%20Rover/Range%20Rover%20III/Range%20Rover%20III%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Range Rover IV',
+        slug: 'range-rover-iv',
+        records: [
+          {
+            id: 'pcd-b5-land-rover-range-rover-iv-land-rover-range-rover-iv-2012-5x120',
+            generation: 'Land Rover Range Rover IV',
+            aliases: [
+              'Land Rover Range Rover IV 2012',
+              'Land Rover Range Rover IV',
+              '5x120'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-land-rover-range-rover-iv-land-rover-range-rover-iv-2012-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Land Rover Range Rover IV wheel fitment',
+                url: 'https://monentraxe.fr/en/land-rover/range-rover-iv',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2021; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-land-rover-range-rover-iv-land-rover-range-rover-iv-2012-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Land Rover Range Rover IV wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Land%20Rover/Range%20Rover%20IV/Range%20Rover%20IV%20%282009%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2009-2021',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -57147,6 +68886,681 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '145',
+        slug: '145',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-145-alfa-romeo-145-1994-4x98',
+            generation: 'Alfa Romeo 145',
+            aliases: [
+              'Alfa Romeo 145 1994',
+              'Alfa Romeo 145',
+              '4x98'
+            ],
+            years: '1994-1994',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '83 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-145-alfa-romeo-145-1994-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo 145 wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/145',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1994-2000; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-145-alfa-romeo-145-1994-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo 145 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/145/145%20%281994%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1994-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '146',
+        slug: '146',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-146-alfa-romeo-146-1995-4x98',
+            generation: 'Alfa Romeo 146',
+            aliases: [
+              'Alfa Romeo 146 1995',
+              'Alfa Romeo 146',
+              '4x98'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '83 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-146-alfa-romeo-146-1995-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo 146 wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/146',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2000; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-146-alfa-romeo-146-1995-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo 146 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/146/146%20%281995%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2000',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '147',
+        slug: '147',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-147-alfa-romeo-147-2001-5x98',
+            generation: 'Alfa Romeo 147',
+            aliases: [
+              'Alfa Romeo 147 2001',
+              'Alfa Romeo 147',
+              '5x98'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '83 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-147-alfa-romeo-147-2001-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo 147 wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/147',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2001-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-147-alfa-romeo-147-2001-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo 147 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/147/147%20%282001%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2001-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '159',
+        slug: '159',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-159-alfa-romeo-159-2005-5x110',
+            generation: 'Alfa Romeo 159',
+            aliases: [
+              'Alfa Romeo 159 2005',
+              'Alfa Romeo 159',
+              '5x110'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-159-alfa-romeo-159-2005-5x110-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo 159 wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/159',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2012; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-159-alfa-romeo-159-2005-5x110-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo 159 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/159/159%20%282005%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '156',
+        slug: '156',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-156-alfa-romeo-156-1997-5x98',
+            generation: 'Alfa Romeo 156',
+            aliases: [
+              'Alfa Romeo 156 1997',
+              'Alfa Romeo 156',
+              '5x98'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-156-alfa-romeo-156-1997-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo 156 wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/156',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-156-alfa-romeo-156-1997-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo 156 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/156/156%20%281997%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1997-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GT',
+        slug: 'gt',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-gt-alfa-romeo-gt-2003-5x98',
+            generation: 'Alfa Romeo GT',
+            aliases: [
+              'Alfa Romeo GT 2003',
+              'Alfa Romeo GT',
+              '5x98'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-gt-alfa-romeo-gt-2003-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo GT wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/gt',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2010; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-gt-alfa-romeo-gt-2003-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo GT wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/GT/GT%20%282003%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2003-2010',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GTV V6',
+        slug: 'gtv-v6',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-gtv-v6-alfa-romeo-gtv-v6-1983-5x98',
+            generation: 'Alfa Romeo GTV V6',
+            aliases: [
+              'Alfa Romeo GTV V6 1983',
+              'Alfa Romeo GTV V6',
+              '5x98'
+            ],
+            years: '1983-1983',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '83 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-gtv-v6-alfa-romeo-gtv-v6-1983-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo GTV V6 wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/gtv-v6',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1983-1987; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-gtv-v6-alfa-romeo-gtv-v6-1983-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo GTV V6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/GTV%20V6/GTV%20V6%20%281983%20-%201987%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1983-1987',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GTV',
+        slug: 'gtv',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-gtv-alfa-romeo-gtv-1995-5x98',
+            generation: 'Alfa Romeo GTV',
+            aliases: [
+              'Alfa Romeo GTV 1995',
+              'Alfa Romeo GTV',
+              '5x98'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '83 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-gtv-alfa-romeo-gtv-1995-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo GTV wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/gtv',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-gtv-alfa-romeo-gtv-1995-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo GTV wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/GTV/GTV%20%281995%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Spider V6',
+        slug: 'spider-v6',
+        records: [
+          {
+            id: 'pcd-b5-alfa-romeo-spider-v6-alfa-romeo-spider-v6-1995-5x98',
+            generation: 'Alfa Romeo Spider V6',
+            aliases: [
+              'Alfa Romeo Spider V6 1995',
+              'Alfa Romeo Spider V6',
+              '5x98'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '83 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alfa-romeo-spider-v6-alfa-romeo-spider-v6-1995-5x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alfa Romeo Spider V6 wheel fitment',
+                url: 'https://monentraxe.fr/en/alfa-romeo/spider-v6',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alfa-romeo-spider-v6-alfa-romeo-spider-v6-1995-5x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Spider V6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Spider%20V6/Spider%20V6%20%281995%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -57443,6 +69857,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Brooklands',
+        slug: 'brooklands',
+        records: [
+          {
+            id: 'pcd-b5-bentley-brooklands-bentley-brooklands-2008-5x120',
+            generation: 'Bentley Brooklands',
+            aliases: [
+              'Bentley Brooklands 2008',
+              'Bentley Brooklands',
+              '5x120'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-bentley-brooklands-bentley-brooklands-2008-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Bentley Brooklands wheel fitment',
+                url: 'https://monentraxe.fr/en/bentley/brooklands',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2011; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-bentley-brooklands-bentley-brooklands-2008-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bentley Brooklands wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Bentley/Brooklands/Brooklands%20%282008%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -58940,6 +71429,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'CT5',
+        slug: 'ct5',
+        records: [
+          {
+            id: 'pcd-b5-cadillac-ct5-cadillac-ct5-2020-5x120',
+            generation: 'Cadillac CT5',
+            aliases: [
+              'Cadillac CT5 2020',
+              'Cadillac CT5',
+              '5x120'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '66.9',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-cadillac-ct5-cadillac-ct5-2020-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Cadillac CT5 wheel fitment',
+                url: 'https://monentraxe.fr/en/cadillac/ct5',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-cadillac-ct5-cadillac-ct5-2020-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac CT5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/CT5/CT5%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -60412,6 +72976,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Lodgy',
+        slug: 'lodgy',
+        records: [
+          {
+            id: 'pcd-b5-dacia-lodgy-dacia-lodgy-2012-4x100',
+            generation: 'Dacia Lodgy',
+            aliases: [
+              'Dacia Lodgy 2012',
+              'Dacia Lodgy',
+              '4x100'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-dacia-lodgy-dacia-lodgy-2012-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Dacia Lodgy wheel fitment',
+                url: 'https://monentraxe.fr/en/dacia/lodgy',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-dacia-lodgy-dacia-lodgy-2012-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dacia Lodgy wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Dacia/Lodgy/Lodgy%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -60707,6 +73346,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'DS 3 Crossback',
+        slug: 'ds-3-crossback',
+        records: [
+          {
+            id: 'pcd-b5-ds-ds-3-crossback-ds-ds-3-crossback-2018-4x108',
+            generation: 'DS DS 3 Crossback',
+            aliases: [
+              'DS DS 3 Crossback 2018',
+              'DS DS 3 Crossback',
+              '4x108'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ds-ds-3-crossback-ds-ds-3-crossback-2018-4x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'DS DS 3 Crossback wheel fitment',
+                url: 'https://monentraxe.fr/en/ds/ds-3-crossback',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-2021; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ds-ds-3-crossback-ds-ds-3-crossback-2018-4x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'DS DS 3 Crossback wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/DS/DS%203%20Crossback/DS%203%20Crossback%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'DS 7',
+        slug: 'ds-7',
+        records: [
+          {
+            id: 'pcd-b5-ds-ds-7-ds-ds-7-2023-5x108',
+            generation: 'DS DS 7',
+            aliases: [
+              'DS DS 7 2023',
+              'DS DS 7',
+              '5x108'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ds-ds-7-ds-ds-7-2023-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'DS DS 7 wheel fitment',
+                url: 'https://monentraxe.fr/en/ds/ds-7',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ds-ds-7-ds-ds-7-2023-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'DS DS 7 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/DS/DS%207/DS%207%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -61524,6 +74313,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'QX50',
+        slug: 'qx50',
+        records: [
+          {
+            id: 'pcd-b5-infiniti-qx50-infiniti-qx50-2018-5x114-3',
+            generation: 'Infiniti QX50',
+            aliases: [
+              'Infiniti QX50 2018',
+              'Infiniti QX50',
+              '5x114.3'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-infiniti-qx50-infiniti-qx50-2018-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Infiniti QX50 wheel fitment',
+                url: 'https://monentraxe.fr/en/infiniti/qx50',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-infiniti-qx50-infiniti-qx50-2018-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Infiniti QX50 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Infiniti/QX50/QX50%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'QX80',
+        slug: 'qx80',
+        records: [
+          {
+            id: 'pcd-b5-infiniti-qx80-infiniti-qx80-2024-6x139-7',
+            generation: 'Infiniti QX80',
+            aliases: [
+              'Infiniti QX80 2024',
+              'Infiniti QX80',
+              '6x139.7'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '77.8',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: '133 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-infiniti-qx80-infiniti-qx80-2024-6x139-7-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Infiniti QX80 wheel fitment',
+                url: 'https://monentraxe.fr/en/infiniti/qx80',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2024-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-infiniti-qx80-infiniti-qx80-2024-6x139-7-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Infiniti QX80 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Infiniti/QX80/QX80%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2024-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -62051,6 +74990,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'F-Type',
+        slug: 'f-type',
+        records: [
+          {
+            id: 'pcd-b5-jaguar-f-type-jaguar-f-type-2017-5x108',
+            generation: 'Jaguar F-Type',
+            aliases: [
+              'Jaguar F-Type 2017',
+              'Jaguar F-Type',
+              '5x108'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-jaguar-f-type-jaguar-f-type-2017-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Jaguar F-Type wheel fitment',
+                url: 'https://monentraxe.fr/en/jaguar/f-type',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2012-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-jaguar-f-type-jaguar-f-type-2017-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jaguar F-Type wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Jaguar/F-Type/F-Type%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XE',
+        slug: 'xe',
+        records: [
+          {
+            id: 'pcd-b5-jaguar-xe-jaguar-xe-2015-5x108',
+            generation: 'Jaguar XE',
+            aliases: [
+              'Jaguar XE 2015',
+              'Jaguar XE',
+              '5x108'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-jaguar-xe-jaguar-xe-2015-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Jaguar XE wheel fitment',
+                url: 'https://monentraxe.fr/en/jaguar/xe',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2015-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-jaguar-xe-jaguar-xe-2015-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jaguar XE wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Jaguar/XE/XE%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2015-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XF Serie',
+        slug: 'xf-serie',
+        records: [
+          {
+            id: 'pcd-b5-jaguar-xf-serie-jaguar-xf-serie-2008-5x108',
+            generation: 'Jaguar XF Serie',
+            aliases: [
+              'Jaguar XF Serie 2008',
+              'Jaguar XF Serie',
+              '5x108'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-jaguar-xf-serie-jaguar-xf-serie-2008-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Jaguar XF Serie wheel fitment',
+                url: 'https://monentraxe.fr/en/jaguar/xf-serie',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2015; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-jaguar-xf-serie-jaguar-xf-serie-2008-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jaguar XF Serie wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Jaguar/XF%20Serie/XF%20Serie%20%282008%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2008-2015',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -64097,6 +77261,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-opel-zafira-opel-zafira-2005-5x110',
+            generation: 'Opel Zafira',
+            aliases: [
+              'Opel Zafira 2005',
+              'Opel Zafira',
+              '5x110'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-opel-zafira-opel-zafira-2005-5x110-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Opel Zafira wheel fitment',
+                url: 'https://monentraxe.fr/en/opel/zafira',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2005; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-opel-zafira-opel-zafira-2005-5x110-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Zafira wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Zafira/Zafira%20%282005%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2011',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       },
@@ -64677,6 +77910,306 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Cascada',
+        slug: 'cascada',
+        records: [
+          {
+            id: 'pcd-b5-opel-cascada-opel-cascada-2013-5x115',
+            generation: 'Opel Cascada',
+            aliases: [
+              'Opel Cascada 2013',
+              'Opel Cascada',
+              '5x115'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-opel-cascada-opel-cascada-2013-5x115-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Opel Cascada wheel fitment',
+                url: 'https://monentraxe.fr/en/opel/cascada',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2019; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-opel-cascada-opel-cascada-2013-5x115-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Cascada wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Cascada/Cascada%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2019',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Insignia Country Tourer',
+        slug: 'insignia-country-tourer',
+        records: [
+          {
+            id: 'pcd-b5-opel-insignia-country-tourer-opel-insignia-country-tourer-2013-5x120',
+            generation: 'Opel Insignia Country Tourer',
+            aliases: [
+              'Opel Insignia Country Tourer 2013',
+              'Opel Insignia Country Tourer',
+              '5x120'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-opel-insignia-country-tourer-opel-insignia-country-tourer-2013-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Opel Insignia Country Tourer wheel fitment',
+                url: 'https://monentraxe.fr/en/opel/insignia-country-tourer',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-opel-insignia-country-tourer-opel-insignia-country-tourer-2013-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Insignia Country Tourer wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Insignia%20Country%20Tourer/Insignia%20Country%20Tourer%20%282013%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tigra Twin Top',
+        slug: 'tigra-twin-top',
+        records: [
+          {
+            id: 'pcd-b5-opel-tigra-twin-top-opel-tigra-twin-top-2004-4x100',
+            generation: 'Opel Tigra Twin Top',
+            aliases: [
+              'Opel Tigra Twin Top 2004',
+              'Opel Tigra Twin Top',
+              '4x100'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-opel-tigra-twin-top-opel-tigra-twin-top-2004-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Opel Tigra Twin Top wheel fitment',
+                url: 'https://monentraxe.fr/en/opel/tigra-twin-top',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-opel-tigra-twin-top-opel-tigra-twin-top-2004-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Tigra Twin Top wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Tigra%20Twin%20Top/Tigra%20Twin%20Top%20%282004%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Zafira Tourer',
+        slug: 'zafira-tourer',
+        records: [
+          {
+            id: 'pcd-b5-opel-zafira-tourer-opel-zafira-tourer-2011-5x115',
+            generation: 'Opel Zafira Tourer',
+            aliases: [
+              'Opel Zafira Tourer 2011',
+              'Opel Zafira Tourer',
+              '5x115'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-opel-zafira-tourer-opel-zafira-tourer-2011-5x115-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Opel Zafira Tourer wheel fitment',
+                url: 'https://monentraxe.fr/en/opel/zafira-tourer',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-opel-zafira-tourer-opel-zafira-tourer-2011-5x115-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Zafira Tourer wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Zafira%20Tourer/Zafira%20Tourer%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -64829,6 +78362,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Karma',
+        slug: 'karma',
+        records: [
+          {
+            id: 'pcd-b5-fisker-karma-fisker-karma-2011-5x130',
+            generation: 'Fisker Karma',
+            aliases: [
+              'Fisker Karma 2011',
+              'Fisker Karma',
+              '5x130'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '67',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fisker-karma-fisker-karma-2011-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fisker Karma wheel fitment',
+                url: 'https://monentraxe.fr/en/fisker/karma',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2013; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fisker-karma-fisker-karma-2011-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fisker Karma wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fisker/Karma/Karma%20%282011%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2013',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tramonto',
+        slug: 'tramonto',
+        records: [
+          {
+            id: 'pcd-b5-fisker-tramonto-fisker-tramonto-2005-5x112',
+            generation: 'Fisker Tramonto',
+            aliases: [
+              'Fisker Tramonto 2005',
+              'Fisker Tramonto',
+              '5x112'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.7',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-fisker-tramonto-fisker-tramonto-2005-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Fisker Tramonto wheel fitment',
+                url: 'https://monentraxe.fr/en/fisker/tramonto',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2008; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-fisker-tramonto-fisker-tramonto-2005-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fisker Tramonto wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fisker/Tramonto/Tramonto%20%282005%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2008',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -65141,6 +78824,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2023 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'eDeliver 9',
+        slug: 'edeliver-9',
+        records: [
+          {
+            id: 'pcd-b5-maxus-edeliver-9-maxus-edeliver-9-2020-5x160',
+            generation: 'Maxus eDeliver 9',
+            aliases: [
+              'Maxus eDeliver 9 2020',
+              'Maxus eDeliver 9',
+              '5x160'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x160',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-maxus-edeliver-9-maxus-edeliver-9-2020-5x160-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Maxus eDeliver 9 wheel fitment',
+                url: 'https://monentraxe.fr/en/maxus/edeliver-9',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-maxus-edeliver-9-maxus-edeliver-9-2020-5x160-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maxus eDeliver 9 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maxus/eDeliver%209/eDeliver%209%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'eDeliver 7',
+        slug: 'edeliver-7',
+        records: [
+          {
+            id: 'pcd-b5-maxus-edeliver-7-maxus-edeliver-7-2023-5x160',
+            generation: 'Maxus eDeliver 7',
+            aliases: [
+              'Maxus eDeliver 7 2023',
+              'Maxus eDeliver 7',
+              '5x160'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x160',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-maxus-edeliver-7-maxus-edeliver-7-2023-5x160-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Maxus eDeliver 7 wheel fitment',
+                url: 'https://monentraxe.fr/en/maxus/edeliver-7',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-maxus-edeliver-7-maxus-edeliver-7-2023-5x160-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maxus eDeliver 7 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maxus/eDeliver%207/eDeliver%207%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EV90',
+        slug: 'ev90',
+        records: [
+          {
+            id: 'pcd-b5-maxus-ev90-maxus-ev90-2019-5x160',
+            generation: 'Maxus EV90',
+            aliases: [
+              'Maxus EV90 2019',
+              'Maxus EV90',
+              '5x160'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x160',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-maxus-ev90-maxus-ev90-2019-5x160-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Maxus EV90 wheel fitment',
+                url: 'https://monentraxe.fr/en/maxus/ev90',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-maxus-ev90-maxus-ev90-2019-5x160-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maxus EV90 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maxus/EV90/EV90%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -65665,6 +79573,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'eHS',
+        slug: 'ehs',
+        records: [
+          {
+            id: 'pcd-b5-mg-ehs-mg-ehs-2020-5x112',
+            generation: 'MG eHS',
+            aliases: [
+              'MG eHS 2020',
+              'MG eHS',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mg-ehs-mg-ehs-2020-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'MG eHS wheel fitment',
+                url: 'https://monentraxe.fr/en/mg/ehs',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mg-ehs-mg-ehs-2020-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG eHS wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/MG/eHS/eHS%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'MG3',
+        slug: 'mg3',
+        records: [
+          {
+            id: 'pcd-b5-mg-mg3-mg-mg3-2017-4x100',
+            generation: 'MG MG3',
+            aliases: [
+              'MG MG3 2017',
+              'MG MG3',
+              '4x100'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mg-mg3-mg-mg3-2017-4x100-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'MG MG3 wheel fitment',
+                url: 'https://monentraxe.fr/en/mg/mg3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mg-mg3-mg-mg3-2017-4x100-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG MG3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/MG/MG3/MG3%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2017-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'RX6',
+        slug: 'rx6',
+        records: [
+          {
+            id: 'pcd-b5-mg-rx6-mg-rx6-2020-5x112',
+            generation: 'MG RX6',
+            aliases: [
+              'MG RX6 2020',
+              'MG RX6',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mg-rx6-mg-rx6-2020-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'MG RX6 wheel fitment',
+                url: 'https://monentraxe.fr/en/mg/rx6',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mg-rx6-mg-rx6-2020-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG RX6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/MG/RX6/RX6%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -66650,6 +80783,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Hijet',
+        slug: 'hijet',
+        records: [
+          {
+            id: 'pcd-b5-daihatsu-hijet-daihatsu-hijet-1987-4x110',
+            generation: 'Daihatsu Hijet',
+            aliases: [
+              'Daihatsu Hijet 1987',
+              'Daihatsu Hijet',
+              '4x110'
+            ],
+            years: '1987-1987',
+            market: 'Global',
+            pcd: '4x110',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-daihatsu-hijet-daihatsu-hijet-1987-4x110-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Daihatsu Hijet wheel fitment',
+                url: 'https://monentraxe.fr/en/daihatsu/hijet',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1987-1993; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-daihatsu-hijet-daihatsu-hijet-1987-4x110-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Hijet wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Hijet/Hijet%20%281987%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1987-1993',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Rocky',
+        slug: 'rocky',
+        records: [
+          {
+            id: 'pcd-b5-daihatsu-rocky-daihatsu-rocky-1992-5x139-7',
+            generation: 'Daihatsu Rocky',
+            aliases: [
+              'Daihatsu Rocky 1992',
+              'Daihatsu Rocky',
+              '5x139.7'
+            ],
+            years: '1992-1992',
+            market: 'Global',
+            pcd: '5x139.7',
+            centerBore: '108',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET19',
+            torque: '99 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-daihatsu-rocky-daihatsu-rocky-1992-5x139-7-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Daihatsu Rocky wheel fitment',
+                url: 'https://monentraxe.fr/en/daihatsu/rocky',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1987-1992; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-daihatsu-rocky-daihatsu-rocky-1992-5x139-7-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Rocky wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Rocky/Rocky%20%281992%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1992-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -66806,6 +81089,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Musa',
+        slug: 'musa',
+        records: [
+          {
+            id: 'pcd-b5-lancia-musa-lancia-musa-2004-4x98',
+            generation: 'Lancia Musa',
+            aliases: [
+              'Lancia Musa 2004',
+              'Lancia Musa',
+              '4x98'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lancia-musa-lancia-musa-2004-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lancia Musa wheel fitment',
+                url: 'https://monentraxe.fr/en/lancia/musa',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2012; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lancia-musa-lancia-musa-2004-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lancia Musa wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lancia/Musa/Musa%20%282004%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2012',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Y',
+        slug: 'y',
+        records: [
+          {
+            id: 'pcd-b5-lancia-y-lancia-y-1995-4x98',
+            generation: 'Lancia Y',
+            aliases: [
+              'Lancia Y 1995',
+              'Lancia Y',
+              '4x98'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lancia-y-lancia-y-1995-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lancia Y wheel fitment',
+                url: 'https://monentraxe.fr/en/lancia/y',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2003; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lancia-y-lancia-y-1995-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lancia Y wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lancia/Y/Y%20%281995%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1995-2003',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -66883,6 +81316,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2014 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Corsair',
+        slug: 'corsair',
+        records: [
+          {
+            id: 'pcd-b5-lincoln-corsair-lincoln-corsair-2019-5x108',
+            generation: 'Lincoln Corsair',
+            aliases: [
+              'Lincoln Corsair 2019',
+              'Lincoln Corsair',
+              '5x108'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lincoln-corsair-lincoln-corsair-2019-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lincoln Corsair wheel fitment',
+                url: 'https://monentraxe.fr/en/lincoln/corsair',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lincoln-corsair-lincoln-corsair-2019-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lincoln Corsair wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lincoln/Corsair/Corsair%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Nautilus',
+        slug: 'nautilus',
+        records: [
+          {
+            id: 'pcd-b5-lincoln-nautilus-lincoln-nautilus-2019-5x108',
+            generation: 'Lincoln Nautilus',
+            aliases: [
+              'Lincoln Nautilus 2019',
+              'Lincoln Nautilus',
+              '5x108'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '220 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lincoln-nautilus-lincoln-nautilus-2019-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lincoln Nautilus wheel fitment',
+                url: 'https://monentraxe.fr/en/lincoln/nautilus',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-2023; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lincoln-nautilus-lincoln-nautilus-2019-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lincoln Nautilus wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lincoln/Nautilus/Nautilus%20%282019%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2019-2023',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -67711,6 +82294,306 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '575',
+        slug: '575',
+        records: [
+          {
+            id: 'pcd-b5-ferrari-575-ferrari-575-2005-5x108',
+            generation: 'Ferrari 575',
+            aliases: [
+              'Ferrari 575 2005',
+              'Ferrari 575',
+              '5x108'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ferrari-575-ferrari-575-2005-5x108-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ferrari 575 wheel fitment',
+                url: 'https://monentraxe.fr/en/ferrari/575',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ferrari-575-ferrari-575-2005-5x108-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari 575 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/575/575%20%282005%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'F12 tdf',
+        slug: 'f12-tdf',
+        records: [
+          {
+            id: 'pcd-b5-ferrari-f12-tdf-ferrari-f12-tdf-2015-5x114-3',
+            generation: 'Ferrari F12 tdf',
+            aliases: [
+              'Ferrari F12 tdf 2015',
+              'Ferrari F12 tdf',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ferrari-f12-tdf-ferrari-f12-tdf-2015-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ferrari F12 tdf wheel fitment',
+                url: 'https://monentraxe.fr/en/ferrari/f12-tdf',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2015-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ferrari-f12-tdf-ferrari-f12-tdf-2015-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari F12 tdf wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/F12%20tdf/F12%20tdf%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2015-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'FF',
+        slug: 'ff',
+        records: [
+          {
+            id: 'pcd-b5-ferrari-ff-ferrari-ff-2011-5x114-3',
+            generation: 'Ferrari FF',
+            aliases: [
+              'Ferrari FF 2011',
+              'Ferrari FF',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ferrari-ff-ferrari-ff-2011-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ferrari FF wheel fitment',
+                url: 'https://monentraxe.fr/en/ferrari/ff',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2017; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ferrari-ff-ferrari-ff-2011-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari FF wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/FF/FF%20%282011%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2011-2017',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GTC4 Lusso',
+        slug: 'gtc4-lusso',
+        records: [
+          {
+            id: 'pcd-b5-ferrari-gtc4-lusso-ferrari-gtc4-lusso-2016-5x114-3',
+            generation: 'Ferrari GTC4 Lusso',
+            aliases: [
+              'Ferrari GTC4 Lusso 2016',
+              'Ferrari GTC4 Lusso',
+              '5x114.3'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-ferrari-gtc4-lusso-ferrari-gtc4-lusso-2016-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Ferrari GTC4 Lusso wheel fitment',
+                url: 'https://monentraxe.fr/en/ferrari/gtc4-lusso',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-ferrari-gtc4-lusso-ferrari-gtc4-lusso-2016-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari GTC4 Lusso wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/GTC4%20Lusso/GTC4%20Lusso%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -67954,6 +82837,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; ET and OEM wheel are established by the two exact-year sources.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Kalina',
+        slug: 'kalina',
+        records: [
+          {
+            id: 'pcd-b5-lada-kalina-lada-kalina-2004-4x98',
+            generation: 'Lada Kalina',
+            aliases: [
+              'Lada Kalina 2004',
+              'Lada Kalina',
+              '4x98'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lada-kalina-lada-kalina-2004-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lada Kalina wheel fitment',
+                url: 'https://monentraxe.fr/en/lada/kalina',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lada-kalina-lada-kalina-2004-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lada Kalina wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lada/Kalina/Kalina%20%282004%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Priora',
+        slug: 'priora',
+        records: [
+          {
+            id: 'pcd-b5-lada-priora-lada-priora-2007-4x98',
+            generation: 'Lada Priora',
+            aliases: [
+              'Lada Priora 2007',
+              'Lada Priora',
+              '4x98'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-lada-priora-lada-priora-2007-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Lada Priora wheel fitment',
+                url: 'https://monentraxe.fr/en/lada/priora',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-lada-priora-lada-priora-2007-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lada Priora wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lada/Priora/Priora%20%282007%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2007-2018',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -68933,6 +83966,231 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Bonneville',
+        slug: 'bonneville',
+        records: [
+          {
+            id: 'pcd-b5-pontiac-bonneville-pontiac-bonneville-1988-5x115',
+            generation: 'Pontiac Bonneville',
+            aliases: [
+              'Pontiac Bonneville 1988',
+              'Pontiac Bonneville',
+              '5x115'
+            ],
+            years: '1988-1988',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-pontiac-bonneville-pontiac-bonneville-1988-5x115-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Pontiac Bonneville wheel fitment',
+                url: 'https://monentraxe.fr/en/pontiac/bonneville',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1988-1991; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-pontiac-bonneville-pontiac-bonneville-1988-5x115-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Bonneville wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Bonneville/Bonneville%20%281988%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1988-1991',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'G6',
+        slug: 'g6',
+        records: [
+          {
+            id: 'pcd-b5-pontiac-g6-pontiac-g6-2004-5x110',
+            generation: 'Pontiac G6',
+            aliases: [
+              'Pontiac G6 2004',
+              'Pontiac G6',
+              '5x110'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-pontiac-g6-pontiac-g6-2004-5x110-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Pontiac G6 wheel fitment',
+                url: 'https://monentraxe.fr/en/pontiac/g6',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2009; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-pontiac-g6-pontiac-g6-2004-5x110-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac G6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/G6/G6%20%282004%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2004-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Solstice',
+        slug: 'solstice',
+        records: [
+          {
+            id: 'pcd-b5-pontiac-solstice-pontiac-solstice-2005-5x110',
+            generation: 'Pontiac Solstice',
+            aliases: [
+              'Pontiac Solstice 2005',
+              'Pontiac Solstice',
+              '5x110'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-pontiac-solstice-pontiac-solstice-2005-5x110-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Pontiac Solstice wheel fitment',
+                url: 'https://monentraxe.fr/en/pontiac/solstice',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2009; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-pontiac-solstice-pontiac-solstice-2005-5x110-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Solstice wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Solstice/Solstice%20%282005%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2005-2009',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -69384,6 +84642,225 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b5-alpina-b4-alpina-b4-2022-5x112',
+            generation: 'Alpina B4',
+            aliases: [
+              'Alpina B4 2022',
+              'Alpina B4',
+              '5x112'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alpina-b4-alpina-b4-2022-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alpina B4 wheel fitment',
+                url: 'https://monentraxe.fr/en/alpina/b4',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alpina-b4-alpina-b4-2022-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alpina B4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alpina/B4/B4%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'B3',
+        slug: 'b3',
+        records: [
+          {
+            id: 'pcd-b5-alpina-b3-alpina-b3-2013-5x120',
+            generation: 'Alpina B3',
+            aliases: [
+              'Alpina B3 2013',
+              'Alpina B3',
+              '5x120'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alpina-b3-alpina-b3-2013-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alpina B3 wheel fitment',
+                url: 'https://monentraxe.fr/en/alpina/b3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2019; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alpina-b3-alpina-b3-2013-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alpina B3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alpina/B3/B3%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2013-2019',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'B10',
+        slug: 'b10',
+        records: [
+          {
+            id: 'pcd-b5-alpina-b10-alpina-b10-1988-5x120',
+            generation: 'Alpina B10',
+            aliases: [
+              'Alpina B10 1988',
+              'Alpina B10',
+              '5x120'
+            ],
+            years: '1988-1988',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET12',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alpina-b10-alpina-b10-1988-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alpina B10 wheel fitment',
+                url: 'https://monentraxe.fr/en/alpina/b10',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1988-1996; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alpina-b10-alpina-b10-1988-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alpina B10 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alpina/B10/B10%20%281988%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1988-1996',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
           }
         ]
       }
@@ -69613,6 +85090,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E-HS9',
+        slug: 'e-hs9',
+        records: [
+          {
+            id: 'pcd-b5-faw-hongqi-e-hs9-faw-hongqi-e-hs9-2020-5x130',
+            generation: 'Faw - Hongqi E-HS9',
+            aliases: [
+              'Faw - Hongqi E-HS9 2020',
+              'Faw - Hongqi E-HS9',
+              '5x130'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-faw-hongqi-e-hs9-faw-hongqi-e-hs9-2020-5x130-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Faw - Hongqi E-HS9 wheel fitment',
+                url: 'https://monentraxe.fr/en/faw-hongqi/e-hs9',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-faw-hongqi-e-hs9-faw-hongqi-e-hs9-2020-5x130-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Faw - Hongqi E-HS9 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Faw%20-%20Hongqi/E-HS9/E-HS9%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'H9',
+        slug: 'h9',
+        records: [
+          {
+            id: 'pcd-b5-faw-hongqi-h9-faw-hongqi-h9-2020-5x114-3',
+            generation: 'Faw - Hongqi H9',
+            aliases: [
+              'Faw - Hongqi H9 2020',
+              'Faw - Hongqi H9',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-faw-hongqi-h9-faw-hongqi-h9-2020-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Faw - Hongqi H9 wheel fitment',
+                url: 'https://monentraxe.fr/en/faw-hongqi/h9',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-faw-hongqi-h9-faw-hongqi-h9-2020-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Faw - Hongqi H9 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Faw%20-%20Hongqi/H9/H9%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2020-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E-HS3',
+        slug: 'e-hs3',
+        records: [
+          {
+            id: 'pcd-b5-faw-hongqi-e-hs3-faw-hongqi-e-hs3-2018-5x114-3',
+            generation: 'Faw - Hongqi E-HS3',
+            aliases: [
+              'Faw - Hongqi E-HS3 2018',
+              'Faw - Hongqi E-HS3',
+              '5x114.3'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-faw-hongqi-e-hs3-faw-hongqi-e-hs3-2018-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Faw - Hongqi E-HS3 wheel fitment',
+                url: 'https://monentraxe.fr/en/faw-hongqi/e-hs3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-faw-hongqi-e-hs3-faw-hongqi-e-hs3-2018-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Faw - Hongqi E-HS3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Faw%20-%20Hongqi/E-HS3/E-HS3%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -70290,6 +85992,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'DB11',
+        slug: 'db11',
+        records: [
+          {
+            id: 'pcd-b5-aston-martin-db11-aston-martin-db11-2016-5x128',
+            generation: 'Aston Martin DB11',
+            aliases: [
+              'Aston Martin DB11 2016',
+              'Aston Martin DB11',
+              '5x128'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x128',
+            centerBore: '75.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-aston-martin-db11-aston-martin-db11-2016-5x128-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Aston Martin DB11 wheel fitment',
+                url: 'https://monentraxe.fr/en/aston-martin/db11',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-2023; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-aston-martin-db11-aston-martin-db11-2016-5x128-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Aston Martin DB11 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Aston%20Martin/DB11/DB11%20%282016%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-2023',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -70366,6 +86143,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'A290',
+        slug: 'a290',
+        records: [
+          {
+            id: 'pcd-b5-alpine-a290-alpine-a290-2024-5x114-3',
+            generation: 'Alpine A290',
+            aliases: [
+              'Alpine A290 2024',
+              'Alpine A290',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '73.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-alpine-a290-alpine-a290-2024-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Alpine A290 wheel fitment',
+                url: 'https://monentraxe.fr/en/alpine/a290',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2024-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-alpine-a290-alpine-a290-2024-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alpine A290 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alpine/A290/A290%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2024-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
@@ -70520,6 +86372,1161 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Abarth',
+    slug: 'abarth',
+    models: [
+      {
+        name: '500e',
+        slug: '500e',
+        records: [
+          {
+            id: 'pcd-b5-abarth-500e-abarth-500e-2023-4x98',
+            generation: 'Abarth 500e',
+            aliases: [
+              'Abarth 500e 2023',
+              'Abarth 500e',
+              '4x98'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-abarth-500e-abarth-500e-2023-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Abarth 500e wheel fitment',
+                url: 'https://monentraxe.fr/en/abarth/500e',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-abarth-500e-abarth-500e-2023-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Abarth 500e wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Abarth/500e/500e%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '595',
+        slug: '595',
+        records: [
+          {
+            id: 'pcd-b5-abarth-595-abarth-595-2022-4x98',
+            generation: 'Abarth 595',
+            aliases: [
+              'Abarth 595 2022',
+              'Abarth 595',
+              '4x98'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-abarth-595-abarth-595-2022-4x98-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Abarth 595 wheel fitment',
+                url: 'https://monentraxe.fr/en/abarth/595',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2016-2022; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-abarth-595-abarth-595-2022-4x98-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Abarth 595 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Abarth/595/595%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'BYD',
+    slug: 'byd',
+    models: [
+      {
+        name: 'Dolphin Plus',
+        slug: 'dolphin-plus',
+        records: [
+          {
+            id: 'pcd-b5-byd-dolphin-plus-byd-dolphin-plus-2023-5x114-3',
+            generation: 'BYD Dolphin Plus',
+            aliases: [
+              'BYD Dolphin Plus 2023',
+              'BYD Dolphin Plus',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-byd-dolphin-plus-byd-dolphin-plus-2023-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BYD Dolphin Plus wheel fitment',
+                url: 'https://monentraxe.fr/en/byd/dolphin-plus',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-byd-dolphin-plus-byd-dolphin-plus-2023-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD Dolphin Plus wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/Dolphin%20Plus/Dolphin%20Plus%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2023-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Dolphin',
+        slug: 'dolphin',
+        records: [
+          {
+            id: 'pcd-b5-byd-dolphin-byd-dolphin-2021-5x114-3',
+            generation: 'BYD Dolphin',
+            aliases: [
+              'BYD Dolphin 2021',
+              'BYD Dolphin',
+              '5x114.3'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-byd-dolphin-byd-dolphin-2021-5x114-3-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BYD Dolphin wheel fitment',
+                url: 'https://monentraxe.fr/en/byd/dolphin',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2021-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-byd-dolphin-byd-dolphin-2021-5x114-3-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD Dolphin wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/Dolphin/Dolphin%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2021-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Seal',
+        slug: 'seal',
+        records: [
+          {
+            id: 'pcd-b5-byd-seal-byd-seal-2022-5x120',
+            generation: 'BYD Seal',
+            aliases: [
+              'BYD Seal 2022',
+              'BYD Seal',
+              '5x120'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-byd-seal-byd-seal-2022-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BYD Seal wheel fitment',
+                url: 'https://monentraxe.fr/en/byd/seal',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-byd-seal-byd-seal-2022-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD Seal wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/Seal/Seal%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Han',
+        slug: 'han',
+        records: [
+          {
+            id: 'pcd-b5-byd-han-byd-han-2022-5x120',
+            generation: 'BYD Han',
+            aliases: [
+              'BYD Han 2022',
+              'BYD Han',
+              '5x120'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-byd-han-byd-han-2022-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BYD Han wheel fitment',
+                url: 'https://monentraxe.fr/en/byd/han',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-byd-han-byd-han-2022-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD Han wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/Han/Han%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2022-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Etp3',
+        slug: 'etp3',
+        records: [
+          {
+            id: 'pcd-b5-byd-etp3-byd-etp3-2014-5x120',
+            generation: 'BYD Etp3',
+            aliases: [
+              'BYD Etp3 2014',
+              'BYD Etp3',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-byd-etp3-byd-etp3-2014-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BYD Etp3 wheel fitment',
+                url: 'https://monentraxe.fr/en/byd/etp3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-byd-etp3-byd-etp3-2014-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD Etp3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/Etp3/Etp3%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M3',
+        slug: 'm3',
+        records: [
+          {
+            id: 'pcd-b5-byd-m3-byd-m3-2014-5x120',
+            generation: 'BYD M3',
+            aliases: [
+              'BYD M3 2014',
+              'BYD M3',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-byd-m3-byd-m3-2014-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BYD M3 wheel fitment',
+                url: 'https://monentraxe.fr/en/byd/m3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-byd-m3-byd-m3-2014-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD M3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/M3/M3%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'T3',
+        slug: 't3',
+        records: [
+          {
+            id: 'pcd-b5-byd-t3-byd-t3-2014-5x120',
+            generation: 'BYD T3',
+            aliases: [
+              'BYD T3 2014',
+              'BYD T3',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-byd-t3-byd-t3-2014-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BYD T3 wheel fitment',
+                url: 'https://monentraxe.fr/en/byd/t3',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-byd-t3-byd-t3-2014-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD T3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/T3/T3%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tang',
+        slug: 'tang',
+        records: [
+          {
+            id: 'pcd-b5-byd-tang-byd-tang-2021-5x120',
+            generation: 'BYD Tang',
+            aliases: [
+              'BYD Tang 2021',
+              'BYD Tang',
+              '5x120'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-byd-tang-byd-tang-2021-5x120-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'BYD Tang wheel fitment',
+                url: 'https://monentraxe.fr/en/byd/tang',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2021-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-byd-tang-byd-tang-2021-5x120-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD Tang wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/Tang/Tang%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2021-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Isuzu',
+    slug: 'isuzu',
+    models: [
+      {
+        name: 'D-Max',
+        slug: 'd-max',
+        records: [
+          {
+            id: 'pcd-b5-isuzu-d-max-isuzu-d-max-2002-6x139-7',
+            generation: 'Isuzu D-Max',
+            aliases: [
+              'Isuzu D-Max 2002',
+              'Isuzu D-Max',
+              '6x139.7'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '100.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-isuzu-d-max-isuzu-d-max-2002-6x139-7-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Isuzu D-Max wheel fitment',
+                url: 'https://monentraxe.fr/en/isuzu/d-max',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-isuzu-d-max-isuzu-d-max-2002-6x139-7-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Isuzu D-Max wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Isuzu/D-Max/D-Max%20%282002%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2002-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Iveco',
+    slug: 'iveco',
+    models: [
+      {
+        name: 'Daily Double',
+        slug: 'daily-double',
+        records: [
+          {
+            id: 'pcd-b5-iveco-daily-double-iveco-daily-double-1999-6x170',
+            generation: 'Iveco Daily Double',
+            aliases: [
+              'Iveco Daily Double 1999',
+              'Iveco Daily Double',
+              '6x170'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '6x170',
+            centerBore: '130.1',
+            thread: 'M18x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET109',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-iveco-daily-double-iveco-daily-double-1999-6x170-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Iveco Daily Double wheel fitment',
+                url: 'https://monentraxe.fr/en/iveco/daily-double',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2006; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-iveco-daily-double-iveco-daily-double-1999-6x170-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Iveco Daily Double wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Iveco/Daily%20Double/Daily%20Double%20%281999%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1999-2006',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Mercedes',
+    slug: 'mercedes',
+    models: [
+      {
+        name: 'CLK W208',
+        slug: 'clk-w208',
+        records: [
+          {
+            id: 'pcd-b5-mercedes-clk-w208-mercedes-clk-w208-1996-5x112',
+            generation: 'Mercedes CLK W208',
+            aliases: [
+              'Mercedes CLK W208 1996',
+              'Mercedes CLK W208',
+              '5x112'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mercedes-clk-w208-mercedes-clk-w208-1996-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mercedes CLK W208 wheel fitment',
+                url: 'https://monentraxe.fr/en/mercedes/clk-w208',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2002; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mercedes-clk-w208-mercedes-clk-w208-1996-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes CLK W208 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/CLK%20W208/CLK%20W208%20%281996%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 1996-2002',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sprinter Dual',
+        slug: 'sprinter-dual',
+        records: [
+          {
+            id: 'pcd-b5-mercedes-sprinter-dual-mercedes-sprinter-dual-2018-6x205',
+            generation: 'Mercedes Sprinter Dual',
+            aliases: [
+              'Mercedes Sprinter Dual 2018',
+              'Mercedes Sprinter Dual',
+              '6x205'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '6x205',
+            centerBore: '161',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET63',
+            torque: '210 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mercedes-sprinter-dual-mercedes-sprinter-dual-2018-6x205-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mercedes Sprinter Dual wheel fitment',
+                url: 'https://monentraxe.fr/en/mercedes/sprinter-dual',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2006-2018; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mercedes-sprinter-dual-mercedes-sprinter-dual-2018-6x205-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Sprinter Dual wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Sprinter%20Dual/Sprinter%20Dual%20%282018%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2018-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Vito',
+        slug: 'vito',
+        records: [
+          {
+            id: 'pcd-b5-mercedes-vito-mercedes-vito-w447-2014-5x112',
+            generation: 'Mercedes Vito W447',
+            aliases: [
+              'Mercedes Vito 2014',
+              'Mercedes Vito W447',
+              '5x112'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b5-mercedes-vito-mercedes-vito-w447-2014-5x112-mon',
+                type: 'technicalReference',
+                publisher: 'MonEntraxe.fr',
+                title: 'Mercedes Vito W447 wheel fitment',
+                url: 'https://monentraxe.fr/en/mercedes/vito-w640',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present; verified original fitment summary',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Professional exact-generation reference; fastener form is independently established by the second exact-generation source.'
+              },
+              {
+                id: 'pcd-b5-mercedes-vito-mercedes-vito-w447-2014-5x112-wf',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Vito wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Vito/Vito%20W640%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact generation page covering 2014-present',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque',
+                  'tireSizes'
+                ],
+                limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
           }
