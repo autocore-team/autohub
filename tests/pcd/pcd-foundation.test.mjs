@@ -87,10 +87,10 @@ function offsetLabel(record) {
 
 const source = loadPcdSource();
 const summary = validatePcdData(source);
-check(summary.records === 2302, `Expected 2302 PCD records, found ${summary.records}`);
+check(summary.records === 2577, `Expected 2577 PCD records, found ${summary.records}`);
 check(summary.makers === 92, `Expected 92 PCD makers, found ${summary.makers}`);
-check(summary.models === 1524, `Expected 1524 PCD models, found ${summary.models}`);
-check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15 && summary.statuses.corroborated === 2006, 'Expected 281 legacyPending, 15 verified and 2006 corroborated records');
+check(summary.models === 1649, `Expected 1649 PCD models, found ${summary.models}`);
+check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15 && summary.statuses.corroborated === 2281, 'Expected 281 legacyPending, 15 verified and 2281 corroborated records');
 check(source.records.filter((record) => record.verificationStatus === 'legacyPending').every((record) => record.sources.length === 0 && record.lastVerifiedAt === null), 'Legacy records gained invented sources or verification dates');
 check(source.records.filter((record) => record.verificationStatus === 'verified').every((record) => record.sources.length > 0 && ['2026-09-21', '2026-09-24'].includes(record.lastVerifiedAt)), 'Verified batch date/source policy failed');
 console.log('PASS PCD schema and verified batch counts');
@@ -122,12 +122,12 @@ const requiredQueries = new Map([
   ['BMW E46', 4],
   ['Volvo S70', 1],
   ['Opel Astra', 9],
-  ['Golf 5', 1],
+  ['Golf 5', 5],
   ['Golf VI', 4],
   ['Audi A3 8P', 4],
   ['Octavia II', 3],
   ['Octavia vRS', 1],
-  ['Octavia Scout', 1],
+  ['Octavia Scout', 2],
   ['Seat Leon II', 4],
   ['Touran I', 2],
   ['CrossTouran', 1],
@@ -137,25 +137,25 @@ const requiredQueries = new Map([
   ['Octavia 1Z 5E NX', 5],
   ['Leon 1P 5F KL', 6],
   ['Touran 1T 5T', 3],
-  ['5x112', 343],
-  ['5×112', 343],
+  ['5x112', 408],
+  ['5×112', 408],
   ['M14x1.5', 433]
 ]);
 for (const [query, expectedRecords] of requiredQueries) {
   const databaseResults = search.searchDatabase(publicData, query);
   const results = flattenResults(databaseResults);
   check(results.length === expectedRecords, `${query} returned ${results.length} records instead of ${expectedRecords}`);
-  if (['Volvo S70', 'Golf 5'].includes(query)) {
+  if (query === 'Volvo S70') {
     const inferred = search.uniqueSelection(databaseResults);
     check(inferred.selectedBrand && inferred.selectedModel, `${query} did not resolve to visible record details`);
   }
   console.log(`PASS PCD search "${query}": ${results.length} record${results.length === 1 ? '' : 's'}`);
 }
 check(search.normalizeSearchText('5×112') === '5x112', 'Multiplication-sign normalization failed');
-check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 343, 'PCD hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 408, 'PCD hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 433, 'Thread hyphen normalization failed');
-check(flattenResults(search.searchDatabase(publicData, 'gOlF-5')).length === 1, 'Case/hyphen normalization failed');
-check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 18, 'Volkswagen alias search failed');
+check(flattenResults(search.searchDatabase(publicData, 'gOlF-5')).length === 5, 'Case/hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 31, 'Volkswagen alias search failed');
 check(flattenResults(search.searchDatabase(publicData, 'Golf V')).length === 1, 'Golf generation alias search failed');
 
 const noticeCases = [
@@ -270,7 +270,7 @@ function canonical(value) {
   if (value && typeof value === 'object') return Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonical(value[key])]));
   return value;
 }
-const unrelatedRecords = source.records.filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !record.id.startsWith('pcd-b5-') && !record.id.startsWith('pcd-b6-') && !record.id.startsWith('pcd-b7-') && !record.id.startsWith('pcd-b8-') && !record.id.startsWith('pcd-b9-') && !batch02VerifiedIds.has(record.id) && !batch02LegacyIds.has(record.id));
+const unrelatedRecords = source.records.filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !record.id.startsWith('pcd-b5-') && !record.id.startsWith('pcd-b6-') && !record.id.startsWith('pcd-b7-') && !record.id.startsWith('pcd-b8-') && !record.id.startsWith('pcd-b9-') && !record.id.startsWith('pcd-b10-') && !batch02VerifiedIds.has(record.id) && !batch02LegacyIds.has(record.id));
 check(unrelatedRecords.length === 275, `Expected 275 unrelated records, found ${unrelatedRecords.length}`);
 const unrelatedHash = crypto.createHash('sha256').update(JSON.stringify(canonical(unrelatedRecords))).digest('hex');
 check(unrelatedHash === '7741403851985ed036295d7352b15bb2ca1b1bc7184ecda7c8d17d79723472f6', `Unrelated records changed: ${unrelatedHash}`);
@@ -296,7 +296,7 @@ console.log('PASS verified splits, source coverage, banned values and vehicle-pa
 
 for (const pattern of ['5x108', '5x110']) {
   const expected = source.records
-    .filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !record.id.startsWith('pcd-b5-') && !record.id.startsWith('pcd-b6-') && !record.id.startsWith('pcd-b7-') && !record.id.startsWith('pcd-b8-') && !record.id.startsWith('pcd-b9-') && pcdLabel(record) === pattern)
+    .filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !record.id.startsWith('pcd-b5-') && !record.id.startsWith('pcd-b6-') && !record.id.startsWith('pcd-b7-') && !record.id.startsWith('pcd-b8-') && !record.id.startsWith('pcd-b9-') && !record.id.startsWith('pcd-b10-') && pcdLabel(record) === pattern)
     .map((record) => [
       record.maker,
       record.model,

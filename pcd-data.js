@@ -3419,6 +3419,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-audi-s6-2003-5x112',
+            generation: '1999–2003',
+            aliases: [
+              'Audi S6 2003',
+              'S6 1999–2003',
+              '5x112'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-13',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi S6 1999–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/s6/1999-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2003); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-13',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S6 1999–2003 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/S6/S6%20%281999%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2003); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -4287,6 +4356,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; OEM wheel and tyre are taken from the detailed original-fitment table.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-audi-rs3-2020-5x112',
+            generation: '2015–2020',
+            aliases: [
+              'Audi RS3 2020',
+              'RS3 2015–2020',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-11',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi RS3 2015–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/rs3/2015-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-11',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS3 2015–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS3/RS3%20%282015%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -5202,6 +5340,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-audi-rs7-sportback-2018-5x112',
+            generation: '2013–2018',
+            aliases: [
+              'Audi RS7 Sportback 2018',
+              'RS7 Sportback 2013–2018',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-12',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi RS7 Sportback 2013–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/rs7-sportback/2013-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-12',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi RS7 Sportback 2013–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/RS7%20Sportback/RS7%20Sportback%20%282013%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -7013,6 +7220,231 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'A5 Sportback',
+        slug: 'a5-sportback',
+        records: [
+          {
+            id: 'pcd-b10-audi-a5-sportback-2016-5x112',
+            generation: '2009–2016',
+            aliases: [
+              'Audi A5 Sportback 2016',
+              'A5 Sportback 2009–2016',
+              '5x112'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-9',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi A5 Sportback 2009–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/a5-sportback/2009-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-9',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A5 Sportback 2009–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/A5%20Sportback/A5%20Sportback%20%282009%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Q7 V12TDI',
+        slug: 'q7-v12tdi',
+        records: [
+          {
+            id: 'pcd-b10-audi-q7-v12tdi-2012-5x130',
+            generation: '2008–2012',
+            aliases: [
+              'Audi Q7 V12TDI 2012',
+              'Q7 V12TDI 2008–2012',
+              '5x130'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET53',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-10',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi Q7 V12TDI 2008–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/q7-v12tdi/2008-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi Q7 V12TDI 2008–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/Q7%20V12TDI/Q7%20V12TDI%20%282008%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'TT cabriolet 1.8T',
+        slug: 'tt-cabriolet-1-8t',
+        records: [
+          {
+            id: 'pcd-b10-audi-tt-cabriolet-1-8t-2006-5x100',
+            generation: '1999–2006',
+            aliases: [
+              'Audi TT cabriolet 1.8T 2006',
+              'TT cabriolet 1.8T 1999–2006',
+              '5x100'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-14',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi TT cabriolet 1.8T 1999–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/tt-cabriolet-1-8t/1999-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-14',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi TT cabriolet 1.8T 1999–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Audi/TT%20cabriolet%201.8T/TT%20cabriolet%201.8T%20%281999%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -8127,6 +8559,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b10-skoda-yeti-2018-5x112',
+            generation: '2014–2018',
+            aliases: [
+              'Skoda Yeti 2018',
+              'Yeti 2014–2018',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-228',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Skoda Yeti 2014–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/skoda/yeti/2014-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-228',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Yeti 2014–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Yeti/Yeti%20%282014%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -8944,6 +9445,231 @@ const PCD_DATA = [
                   'centerBore'
                 ],
                 limitations: 'Independent exact-year application reference confirming generation, PCD and centre bore; fastener, ET and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Fabia RS',
+        slug: 'fabia-rs',
+        records: [
+          {
+            id: 'pcd-b10-skoda-fabia-rs-2021-5x100',
+            generation: '2014–2021',
+            aliases: [
+              'Skoda Fabia RS 2021',
+              'Fabia RS 2014–2021',
+              '5x100'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-225',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Skoda Fabia RS 2014–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/skoda/fabia-rs/2014-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-225',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Fabia RS 2014–2021 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Fabia%20RS/Fabia%20RS%20%282014%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Fabia Scout',
+        slug: 'fabia-scout',
+        records: [
+          {
+            id: 'pcd-b10-skoda-fabia-scout-2014-5x100',
+            generation: '2009–2014',
+            aliases: [
+              'Skoda Fabia Scout 2014',
+              'Fabia Scout 2009–2014',
+              '5x100'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-226',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Skoda Fabia Scout 2009–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/skoda/fabia-scout/2009-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-226',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Fabia Scout 2009–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Fabia%20Scout/Fabia%20Scout%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Octavia Scout',
+        slug: 'octavia-scout',
+        records: [
+          {
+            id: 'pcd-b10-skoda-octavia-scout-2009-5x112',
+            generation: '2007–2009',
+            aliases: [
+              'Skoda Octavia Scout 2009',
+              'Octavia Scout 2007–2009',
+              '5x112'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-227',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Skoda Octavia Scout 2007–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/skoda/octavia-scout/2007-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-227',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Octavia Scout 2007–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Octavia%20Scout/Octavia%20Scout%20%282007%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -10149,6 +10875,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-seat-alhambra-2001-5x112',
+            generation: '1996–2010',
+            aliases: [
+              'Seat Alhambra 2001',
+              'Alhambra 1996–2010',
+              '5x112'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '170 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-216',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Alhambra 1996–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/alhambra/1996-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-216',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Alhambra 1996–2010 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Alhambra/Alhambra%20%281996%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -10372,6 +11167,594 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cordoba',
+        slug: 'cordoba',
+        records: [
+          {
+            id: 'pcd-b10-seat-cordoba-2002-4x100',
+            generation: '1993–2002',
+            aliases: [
+              'Seat Cordoba 2002',
+              'Cordoba 1993–2002',
+              '4x100'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-217',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Cordoba 1993–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/cordoba/1993-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-217',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Cordoba 1993–2002 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Cordoba/Cordoba%20%281993%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-seat-cordoba-2008-5x100',
+            generation: '2002–2008',
+            aliases: [
+              'Seat Cordoba 2008',
+              'Cordoba 2002–2008',
+              '5x100'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-218',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Cordoba 2002–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/cordoba/2002-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-218',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Cordoba 2002–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Cordoba/Cordoba%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ibiza ST',
+        slug: 'ibiza-st',
+        records: [
+          {
+            id: 'pcd-b10-seat-ibiza-st-2016-5x100',
+            generation: '2010–2016',
+            aliases: [
+              'Seat Ibiza ST 2016',
+              'Ibiza ST 2010–2016',
+              '5x100'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-219',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Ibiza ST 2010–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/ibiza-st/2010-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-219',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Ibiza ST 2010–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Ibiza%20ST/Ibiza%20ST%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Leon Cupra',
+        slug: 'leon-cupra',
+        records: [
+          {
+            id: 'pcd-b10-seat-leon-cupra-2020-5x112',
+            generation: '2014–2020',
+            aliases: [
+              'Seat Leon Cupra 2020',
+              'Leon Cupra 2014–2020',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-220',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Leon Cupra 2014–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/leon-cupra/2014-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-220',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Leon Cupra 2014–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Leon%20Cupra/Leon%20Cupra%20%282014%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-seat-leon-cupra-2026-5x112',
+            generation: '2020–present',
+            aliases: [
+              'Seat Leon Cupra 2026',
+              'Leon Cupra 2020–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-221',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Leon Cupra 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/leon-cupra/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-221',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Leon Cupra 2020–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Leon%20Cupra/Leon%20Cupra%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Leon Cupra R',
+        slug: 'leon-cupra-r',
+        records: [
+          {
+            id: 'pcd-b10-seat-leon-cupra-r-2006-5x100',
+            generation: '2002–2006',
+            aliases: [
+              'Seat Leon Cupra R 2006',
+              'Leon Cupra R 2002–2006',
+              '5x100'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-222',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Leon Cupra R 2002–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/leon-cupra-r/2002-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-222',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Leon Cupra R 2002–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Leon%20Cupra%20R/Leon%20Cupra%20R%20%282002%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Leon Cupra Sportstourer',
+        slug: 'leon-cupra-sportstourer',
+        records: [
+          {
+            id: 'pcd-b10-seat-leon-cupra-sportstourer-2026-5x112',
+            generation: '2020–present',
+            aliases: [
+              'Seat Leon Cupra Sportstourer 2026',
+              'Leon Cupra Sportstourer 2020–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-223',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Leon Cupra Sportstourer 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/leon-cupra-sportstourer/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-223',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Leon Cupra Sportstourer 2020–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Leon%20Cupra%20Sportstourer/Leon%20Cupra%20Sportstourer%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Leon Cupra ST',
+        slug: 'leon-cupra-st',
+        records: [
+          {
+            id: 'pcd-b10-seat-leon-cupra-st-2020-5x112',
+            generation: '2015–2020',
+            aliases: [
+              'Seat Leon Cupra ST 2020',
+              'Leon Cupra ST 2015–2020',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-224',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Leon Cupra ST 2015–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/leon-cupra-st/2015-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-224',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Leon Cupra ST 2015–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Seat/Leon%20Cupra%20ST/Leon%20Cupra%20ST%20%282015%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -12072,6 +13455,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-volkswagen-transporter-1990-5x112',
+            generation: '1979–1992',
+            aliases: [
+              'Volkswagen Transporter 1990',
+              'Transporter 1979–1992',
+              '5x112'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-270',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Transporter 1979–1992 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/transporter/1979-1992/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1992); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-270',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Transporter 1979–1992 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Transporter/Transporter%20T3%20%281979%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1992); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -14068,6 +15520,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; ET and OEM wheel are established by the two exact-year sources.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-volkswagen-jetta-1999-4x100',
+            generation: '1992–1999',
+            aliases: [
+              'Volkswagen Jetta 1999',
+              'Jetta 1992–1999',
+              '4x100'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-267',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Jetta 1992–1999 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/jetta/1992-1999/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–1999); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-267',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Jetta 1992–1999 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Jetta/Jetta%20%281992%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–1999); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -16604,6 +18125,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-volkswagen-beetle-1967-5x205',
+            generation: '1946–1967',
+            aliases: [
+              'Volkswagen Beetle 1967',
+              'Beetle 1946–1967',
+              '5x205'
+            ],
+            years: '1967-1967',
+            market: 'Global',
+            pcd: '5x205',
+            centerBore: '161',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-253',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Beetle 1946–1967 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/beetle/1946-1967/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1946–1967); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-253',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Beetle 1946–1967 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Beetle/Beetle%20%281946%20-%201969%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1946–1967); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -17365,6 +18955,1131 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 3',
+        slug: 'golf-3',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-3-1997-4x100',
+            generation: '1991–1997',
+            aliases: [
+              'Volkswagen Golf 3 1997',
+              'Golf 3 1991–1997',
+              '4x100'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-254',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 3 1991–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-3/1991-1997/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-254',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 3 1991–1997 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%203/Golf%203%20%281991%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 3 GTI,VR6',
+        slug: 'golf-3-gti-vr6',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-3-gti-vr6-1997-5x100',
+            generation: '1991–1997',
+            aliases: [
+              'Volkswagen Golf 3 GTI,VR6 1997',
+              'Golf 3 GTI,VR6 1991–1997',
+              '5x100'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-255',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 3 GTI,VR6 1991–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-3-gti-vr6/1991-1997/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-255',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 3 GTI,VR6 1991–1997 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%203%20GTI%2CVR6/Golf%203%20GTI%2CVR6%20%281991%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 4',
+        slug: 'golf-4',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-4-2003-5x100',
+            generation: '1997–2003',
+            aliases: [
+              'Volkswagen Golf 4 2003',
+              'Golf 4 1997–2003',
+              '5x100'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-256',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 4 1997–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-4/1997-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2003); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-256',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 4 1997–2003 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%204/Golf%204%20%281997%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2003); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 4 R32',
+        slug: 'golf-4-r32',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-4-r32-2004-5x100',
+            generation: '2002–2004',
+            aliases: [
+              'Volkswagen Golf 4 R32 2004',
+              'Golf 4 R32 2002–2004',
+              '5x100'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-257',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 4 R32 2002–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-4-r32/2002-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-257',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 4 R32 2002–2004 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%204%20R32/Golf%204%20R32%20%282002%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 5',
+        slug: 'golf-5',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-5-2008-5x112',
+            generation: '2003–2008',
+            aliases: [
+              'Volkswagen Golf 5 2008',
+              'Golf 5 2003–2008',
+              '5x112'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-258',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 5 2003–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-5/2003-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-258',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 5 2003–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%205/Golf%205%20%282003%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 5 GTI',
+        slug: 'golf-5-gti',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-5-gti-2008-5x112',
+            generation: '2004–2008',
+            aliases: [
+              'Volkswagen Golf 5 GTI 2008',
+              'Golf 5 GTI 2004–2008',
+              '5x112'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-259',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 5 GTI 2004–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-5-gti/2004-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-259',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 5 GTI 2004–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%205%20GTI/Golf%205%20GTI%20%282004%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 5 Plus',
+        slug: 'golf-5-plus',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-5-plus-2009-5x112',
+            generation: '2005–2009',
+            aliases: [
+              'Volkswagen Golf 5 Plus 2009',
+              'Golf 5 Plus 2005–2009',
+              '5x112'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-260',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 5 Plus 2005–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-5-plus/2005-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-260',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 5 Plus 2005–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%205%20Plus/Golf%205%20Plus%20%282005%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 5 R32',
+        slug: 'golf-5-r32',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-5-r32-2008-5x112',
+            generation: '2005–2008',
+            aliases: [
+              'Volkswagen Golf 5 R32 2008',
+              'Golf 5 R32 2005–2008',
+              '5x112'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-261',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 5 R32 2005–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-5-r32/2005-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-261',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 5 R32 2005–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%205%20R32/Golf%205%20R32%20%282005%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 6',
+        slug: 'golf-6',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-6-2012-5x112',
+            generation: '2008–2012',
+            aliases: [
+              'Volkswagen Golf 6 2012',
+              'Golf 6 2008–2012',
+              '5x112'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-262',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 6 2008–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-6/2008-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-262',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 6 2008–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%206/Golf%206%20%282008%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 6 Plus',
+        slug: 'golf-6-plus',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-6-plus-2014-5x112',
+            generation: '2009–2014',
+            aliases: [
+              'Volkswagen Golf 6 Plus 2014',
+              'Golf 6 Plus 2009–2014',
+              '5x112'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-263',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 6 Plus 2009–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-6-plus/2009-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-263',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 6 Plus 2009–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%206%20Plus/Golf%206%20Plus%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 7',
+        slug: 'golf-7',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-7-2020-5x112',
+            generation: '2012–2020',
+            aliases: [
+              'Volkswagen Golf 7 2020',
+              'Golf 7 2012–2020',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-264',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 7 2012–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-7/2012-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-264',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 7 2012–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%207/Golf%207%20%282012%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 7 R',
+        slug: 'golf-7-r',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-7-r-2020-5x112',
+            generation: '2013–2020',
+            aliases: [
+              'Volkswagen Golf 7 R 2020',
+              'Golf 7 R 2013–2020',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-265',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 7 R 2013–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-7-r/2013-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-265',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 7 R 2013–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%207%20R/Golf%207%20R%20%282013%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 8',
+        slug: 'golf-8',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-golf-8-2026-5x112',
+            generation: '2019–present',
+            aliases: [
+              'Volkswagen Golf 8 2026',
+              'Golf 8 2019–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-266',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 8 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-8/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-266',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 8 2019–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%208/Golf%208%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lupo GTI',
+        slug: 'lupo-gti',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-lupo-gti-2005-4x100',
+            generation: '2002–2005',
+            aliases: [
+              'Volkswagen Lupo GTI 2005',
+              'Lupo GTI 2002–2005',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-268',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Lupo GTI 2002–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/lupo-gti/2002-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-268',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Lupo GTI 2002–2005 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Lupo%20GTI/Lupo%20GTI%20%282002%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Multivan T7',
+        slug: 'multivan-t7',
+        records: [
+          {
+            id: 'pcd-b10-volkswagen-multivan-t7-2024-5x120',
+            generation: '2021–2024',
+            aliases: [
+              'Volkswagen Multivan T7 2024',
+              'Multivan T7 2021–2024',
+              '5x120'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '65.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-269',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Multivan T7 2021–2024 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/multivan-t7/2021-2024/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–2024); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-269',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Multivan T7 2021–2024 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Multivan%20T7/Multivan%20T7%20%282021%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–2024); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -25435,6 +28150,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'M6 Cabriolet',
+        slug: 'm6-cabriolet',
+        records: [
+          {
+            id: 'pcd-b10-bmw-m6-cabriolet-2018-5x120',
+            generation: '2012–2018',
+            aliases: [
+              'BMW M6 Cabriolet 2018',
+              'M6 Cabriolet 2012–2018',
+              '5x120'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-17',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'BMW M6 Cabriolet 2012–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bmw/m6-cabriolet/2012-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-17',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M6 Cabriolet 2012–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/M6%20Cabriolet/M6%20F12%20Cabriolet%20%282012%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M6 Gran Coupe',
+        slug: 'm6-gran-coupe',
+        records: [
+          {
+            id: 'pcd-b10-bmw-m6-gran-coupe-2018-5x120',
+            generation: '2013–2018',
+            aliases: [
+              'BMW M6 Gran Coupe 2018',
+              'M6 Gran Coupe 2013–2018',
+              '5x120'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-18',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'BMW M6 Gran Coupe 2013–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bmw/m6-gran-coupe/2013-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-18',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW M6 Gran Coupe 2013–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/BMW/M6%20Gran%20Coupe/M6%20F14%20Gran%20Coupe%20%282013%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -28424,6 +31289,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-toyota-aygo-x-2026-5x100',
+            generation: '2025–present',
+            aliases: [
+              'Toyota Aygo X 2026',
+              'Aygo X 2025–present',
+              '5x100'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-240',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Aygo X 2025–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/aygo-x/2025-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2025–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-240',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Aygo X 2025–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Aygo%20X/Aygo%20X%20%282025%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2025–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -30558,6 +33492,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-toyota-mark-x-2019-5x114-3',
+            generation: '2016–2019',
+            aliases: [
+              'Toyota Mark X 2019',
+              'Mark X 2016–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-246',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Mark X 2016–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/mark-x/2016-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-246',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Mark X 2016–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Mark%20X/Mark%20X%20%282016%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -31615,6 +34618,144 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-toyota-previa-2006-5x114-3',
+            generation: '2000–2006',
+            aliases: [
+              'Toyota Previa 2006',
+              'Previa 2000–2006',
+              '5x114.3'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-248',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Previa 2000–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/previa/2000-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-248',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Previa 2000–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Previa/Previa%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-toyota-previa-2019-5x114-3',
+            generation: '2006–2019',
+            aliases: [
+              'Toyota Previa 2019',
+              'Previa 2006–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-249',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Previa 2006–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/previa/2006-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-249',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Previa 2006–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Previa/Previa%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -31737,6 +34878,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-toyota-mr2-2007-4x100',
+            generation: '1999–2007',
+            aliases: [
+              'Toyota MR2 2007',
+              'MR2 1999–2007',
+              '4x100'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-247',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota MR2 1999–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/mr2/1999-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-247',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota MR2 1999–2007 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/MR2/MR2%20%281999%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -32348,6 +35558,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-toyota-starlet-1989-4x100',
+            generation: '1984–1989',
+            aliases: [
+              'Toyota Starlet 1989',
+              'Starlet 1984–1989',
+              '4x100'
+            ],
+            years: '1989-1989',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-251',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Starlet 1984–1989 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/starlet/1984-1989/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1989); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-251',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Starlet 1984–1989 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Starlet/Starlet%20%281984%20-%201989%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1989); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -33792,6 +37071,519 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Corolla EU',
+        slug: 'corolla-eu',
+        records: [
+          {
+            id: 'pcd-b10-toyota-corolla-eu-2019-5x114-3',
+            generation: '2016–2019',
+            aliases: [
+              'Toyota Corolla EU 2019',
+              'Corolla EU 2016–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-241',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Corolla EU 2016–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/corolla-eu/2016-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2019); model label explicitly scopes EU',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-241',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Corolla EU 2016–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Corolla%20EU/Corolla%20EU%20%282016%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2019); model label explicitly scopes EU',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-toyota-corolla-eu-2026-5x114-3',
+            generation: '2019–present',
+            aliases: [
+              'Toyota Corolla EU 2026',
+              'Corolla EU 2019–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-242',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Corolla EU 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/corolla-eu/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); model label explicitly scopes EU',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-242',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Corolla EU 2019–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Corolla%20EU/Corolla%20EU%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); model label explicitly scopes EU',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Corolla US',
+        slug: 'corolla-us',
+        records: [
+          {
+            id: 'pcd-b10-toyota-corolla-us-2019-5x100',
+            generation: '2013–2019',
+            aliases: [
+              'Toyota Corolla US 2019',
+              'Corolla US 2013–2019',
+              '5x100'
+            ],
+            years: '2019-2019',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-243',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Corolla US 2013–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/corolla-us/2013-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2019); model label explicitly scopes US',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-243',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Corolla US 2013–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Corolla%20US/Corolla%20US%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2019); model label explicitly scopes US',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-toyota-corolla-us-2026-5x100',
+            generation: '2018–present',
+            aliases: [
+              'Toyota Corolla US 2026',
+              'Corolla US 2018–present',
+              '5x100'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-244',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Corolla US 2018–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/corolla-us/2018-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–present); model label explicitly scopes US',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-244',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Corolla US 2018–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Corolla%20US/Corolla%20US%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–present); model label explicitly scopes US',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Land Cruiser',
+        slug: 'land-cruiser',
+        records: [
+          {
+            id: 'pcd-b10-toyota-land-cruiser-2002-6x139-7',
+            generation: '1996–2009',
+            aliases: [
+              'Toyota Land Cruiser 2002',
+              'Land Cruiser 1996–2009',
+              '6x139.7'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '106',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-245',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Land Cruiser 1996–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/land-cruiser/1996-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-245',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Land Cruiser 1996–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Land%20Cruiser/Land%20Cruiser%20J90%20%281996%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Prius Wagon',
+        slug: 'prius-wagon',
+        records: [
+          {
+            id: 'pcd-b10-toyota-prius-wagon-2021-5x114-3',
+            generation: '2011–2021',
+            aliases: [
+              'Toyota Prius Wagon 2021',
+              'Prius Wagon 2011–2021',
+              '5x114.3'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-250',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Prius Wagon 2011–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/prius-wagon/2011-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-250',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Prius Wagon 2011–2021 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Prius%20Wagon/Prius%20Wagon%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Yaris Verso',
+        slug: 'yaris-verso',
+        records: [
+          {
+            id: 'pcd-b10-toyota-yaris-verso-2007-4x100',
+            generation: '1999–2007',
+            aliases: [
+              'Toyota Yaris Verso 2007',
+              'Yaris Verso 1999–2007',
+              '4x100'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-252',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Yaris Verso 1999–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/yaris-verso/1999-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-252',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Yaris Verso 1999–2007 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Yaris%20Verso/Yaris%20Verso%20%281999%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -34757,6 +38549,144 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-honda-pilot-2008-5x114-3',
+            generation: '2003–2008',
+            aliases: [
+              'Honda Pilot 2008',
+              'Pilot 2003–2008',
+              '5x114.3'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-74',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Pilot 2003–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/pilot/2003-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-74',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Pilot 2003–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Pilot/Pilot%20%282003%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-honda-pilot-2015-5x120',
+            generation: '2008–2015',
+            aliases: [
+              'Honda Pilot 2015',
+              'Pilot 2008–2015',
+              '5x120'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-75',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Pilot 2008–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/pilot/2008-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-75',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Pilot 2008–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Pilot/Pilot%20%282008%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -35143,6 +39073,144 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2012 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-honda-legend-1990-4x114-3',
+            generation: '1985–1990',
+            aliases: [
+              'Honda Legend 1990',
+              'Legend 1985–1990',
+              '4x114.3'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-72',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Legend 1985–1990 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/legend/1985-1990/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1990); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-72',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Legend 1985–1990 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Legend/Legend%20%281985%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1990); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-honda-legend-2004-5x114-3',
+            generation: '1995–2004',
+            aliases: [
+              'Honda Legend 2004',
+              'Legend 1995–2004',
+              '5x114.3'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-73',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Legend 1995–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/legend/1995-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-73',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Legend 1995–2004 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Legend/Legend%20%281991%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -35216,6 +39284,144 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-honda-jazz-2008-4x100',
+            generation: '2002–2008',
+            aliases: [
+              'Honda Jazz 2008',
+              'Jazz 2002–2008',
+              '4x100'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-70',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Jazz 2002–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/jazz/2002-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-70',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Jazz 2002–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Jazz/Jazz%20%282002%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-honda-jazz-2022-4x100',
+            generation: '2013–2022',
+            aliases: [
+              'Honda Jazz 2022',
+              'Jazz 2013–2022',
+              '4x100'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-71',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Jazz 2013–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/jazz/2013-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-71',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Jazz 2013–2022 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Jazz/Jazz%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -35435,6 +39641,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-honda-civic-type-r-2005-5x114-3',
+            generation: '2001–2005',
+            aliases: [
+              'Honda Civic Type R 2005',
+              'Civic Type R 2001–2005',
+              '5x114.3'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-68',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Civic Type R 2001–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/civic-type-r/2001-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-68',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Civic Type R 2001–2005 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Civic%20Type%20R/Civic%20Type%20R%20%282001%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -36900,6 +41175,225 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-honda-elysion-2015-5x114-3',
+            generation: '2004–2015',
+            aliases: [
+              'Honda Elysion 2015',
+              'Elysion 2004–2015',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-69',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Elysion 2004–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/elysion/2004-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-69',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Elysion 2004–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Elysion/Elysion%20%282004%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Civic Hybrid',
+        slug: 'civic-hybrid',
+        records: [
+          {
+            id: 'pcd-b10-honda-civic-hybrid-2011-5x114-3',
+            generation: '2006–2011',
+            aliases: [
+              'Honda Civic Hybrid 2011',
+              'Civic Hybrid 2006–2011',
+              '5x114.3'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-67',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Civic Hybrid 2006–2011 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/civic-hybrid/2006-2011/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-67',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Civic Hybrid 2006–2011 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Civic%20Hybrid/Civic%20Hybrid%20%282006%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ridgeline',
+        slug: 'ridgeline',
+        records: [
+          {
+            id: 'pcd-b10-honda-ridgeline-2015-5x120',
+            generation: '2005–2015',
+            aliases: [
+              'Honda Ridgeline 2015',
+              'Ridgeline 2005–2015',
+              '5x120'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-76',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Ridgeline 2005–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/ridgeline/2005-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-76',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Ridgeline 2005–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Honda/Ridgeline/Ridgeline%20%282005%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       }
@@ -37048,6 +41542,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-nissan-micra-2025-4x100',
+            generation: '2017–2025',
+            aliases: [
+              'Nissan Micra 2025',
+              'Micra 2017–2025',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-162',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Micra 2017–2025 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/micra/2017-2025/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2025); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-162',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Micra 2017–2025 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Micra/Micra%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2025); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -38389,6 +42952,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2013 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-nissan-note-2022-4x100',
+            generation: '2012–2022',
+            aliases: [
+              'Nissan Note 2022',
+              'Note 2012–2022',
+              '4x100'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-164',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Note 2012–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/note/2012-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-164',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Note 2012–2022 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Note/Note%20%282013%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -38862,6 +43494,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-nissan-sunny-1986-4x114-3',
+            generation: '1982–1986',
+            aliases: [
+              'Nissan Sunny 1986',
+              'Sunny 1982–1986',
+              '4x114.3'
+            ],
+            years: '1986-1986',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-170',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Sunny 1982–1986 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/sunny/1982-1986/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1986); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-170',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Sunny 1982–1986 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Sunny/Sunny%20%281982%20-%201986%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1986); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -41610,6 +46311,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-nissan-navara-2026-6x114-3',
+            generation: '2014–present',
+            aliases: [
+              'Nissan Navara 2026',
+              'Navara 2014–present',
+              '6x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '6x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-163',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Navara 2014–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/navara/2014-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-163',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Navara 2014–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Navara/Navara%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -43836,6 +48606,669 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Bluebird',
+        slug: 'bluebird',
+        records: [
+          {
+            id: 'pcd-b10-nissan-bluebird-1997-4x114-3',
+            generation: '1991–1997',
+            aliases: [
+              'Nissan Bluebird 1997',
+              'Bluebird 1991–1997',
+              '4x114.3'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-161',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Bluebird 1991–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/bluebird/1991-1997/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-161',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Bluebird 1991–1997 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Bluebird/Bluebird%20%281983%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'NV300',
+        slug: 'nv300',
+        records: [
+          {
+            id: 'pcd-b10-nissan-nv300-2021-5x114-3',
+            generation: '2016–2021',
+            aliases: [
+              'Nissan NV300 2021',
+              'NV300 2016–2021',
+              '5x114.3'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-165',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan NV300 2016–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/nv300/2016-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-165',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan NV300 2016–2021 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/NV300/NV300%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Pickup King Cab',
+        slug: 'pickup-king-cab',
+        records: [
+          {
+            id: 'pcd-b10-nissan-pickup-king-cab-2015-6x139-7',
+            generation: '1997–2015',
+            aliases: [
+              'Nissan Pickup King Cab 2015',
+              'Pickup King Cab 1997–2015',
+              '6x139.7'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '100.3',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-166',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Pickup King Cab 1997–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/pickup-king-cab/1997-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-166',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Pickup King Cab 1997–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Pickup%20King%20Cab/Pickup%20King%20Cab%20%282004%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Qashqai Plus 2',
+        slug: 'qashqai-plus-2',
+        records: [
+          {
+            id: 'pcd-b10-nissan-qashqai-plus-2-2013-5x114-3',
+            generation: '2008–2013',
+            aliases: [
+              'Nissan Qashqai Plus 2 2013',
+              'Qashqai Plus 2 2008–2013',
+              '5x114.3'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '113 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-167',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Qashqai Plus 2 2008–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/qashqai-plus-2/2008-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-167',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Qashqai Plus 2 2008–2013 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Qashqai%20Plus%202/Qashqai%20Plus%202%20J10%20%282008%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Stagea',
+        slug: 'stagea',
+        records: [
+          {
+            id: 'pcd-b10-nissan-stagea-2001-5x114-3',
+            generation: '1996–2001',
+            aliases: [
+              'Nissan Stagea 2001',
+              'Stagea 1996–2001',
+              '5x114.3'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-168',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Stagea 1996–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/stagea/1996-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2001); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-168',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Stagea 1996–2001 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Stagea/Stagea%20%281996%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2001); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-nissan-stagea-2007-5x114-3',
+            generation: '2001–2007',
+            aliases: [
+              'Nissan Stagea 2007',
+              'Stagea 2001–2007',
+              '5x114.3'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-169',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Stagea 2001–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/stagea/2001-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-169',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Stagea 2001–2007 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Stagea/Stagea%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Teana',
+        slug: 'teana',
+        records: [
+          {
+            id: 'pcd-b10-nissan-teana-2008-5x114-3',
+            generation: '2006–2008',
+            aliases: [
+              'Nissan Teana 2008',
+              'Teana 2006–2008',
+              '5x114.3'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-171',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Teana 2006–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/teana/2006-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-171',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Teana 2006–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Teana/Teana%20%282006%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-nissan-teana-2019-5x114-3',
+            generation: '2008–2019',
+            aliases: [
+              'Nissan Teana 2019',
+              'Teana 2008–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-172',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Teana 2008–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/teana/2008-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-172',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Teana 2008–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Teana/Teana%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Urvan King',
+        slug: 'urvan-king',
+        records: [
+          {
+            id: 'pcd-b10-nissan-urvan-king-1995-6x139-7',
+            generation: '1987–1995',
+            aliases: [
+              'Nissan Urvan King 1995',
+              'Urvan King 1987–1995',
+              '6x139.7'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '100',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-173',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Urvan King 1987–1995 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/urvan-king/1987-1995/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1995); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-173',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Urvan King 1987–1995 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Urvan%20King/Urvan%20King%20%281987%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1995); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -45524,6 +50957,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mazda-323-1989-4x114-3',
+            generation: '1985–1989',
+            aliases: [
+              'Mazda 323 1989',
+              '323 1985–1989',
+              '4x114.3'
+            ],
+            years: '1989-1989',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '59.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-96',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda 323 1985–1989 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/323/1985-1989/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1989); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-96',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 323 1985–1989 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/323/323%20%281985%20-%201989%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1989); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -46437,6 +51939,144 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mazda-mx-5-2015-5x114-3',
+            generation: '2005–2015',
+            aliases: [
+              'Mazda MX-5 2015',
+              'MX-5 2005–2015',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-101',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda MX-5 2005–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/mx-5/2005-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-101',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda MX-5 2005–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/MX-5/MX-5%20%282005%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mazda-mx-5-2026-4x100',
+            generation: '2015–present',
+            aliases: [
+              'Mazda MX-5 2026',
+              'MX-5 2015–present',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-102',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda MX-5 2015–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/mx-5/2015-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-102',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda MX-5 2015–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/MX-5/MX-5%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -46647,6 +52287,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mazda-929-1992-5x114-3',
+            generation: '1987–1992',
+            aliases: [
+              'Mazda 929 1992',
+              '929 1987–1992',
+              '5x114.3'
+            ],
+            years: '1992-1992',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-97',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda 929 1987–1992 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/929/1987-1992/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1992); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-97',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 929 1987–1992 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/929/929%20%281987%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1992); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -47485,6 +53194,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mazda-121-1996-4x100',
+            generation: '1991–1996',
+            aliases: [
+              'Mazda 121 1996',
+              '121 1991–1996',
+              '4x100'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-95',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda 121 1991–1996 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/121/1991-1996/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1996); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-95',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 121 1991–1996 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/121/121%20%281991%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1996); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -48168,6 +53946,219 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mazda-cx-9-2023-5x114-3',
+            generation: '2016–2023',
+            aliases: [
+              'Mazda Cx 9 2023',
+              'Cx 9 2016–2023',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-98',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda Cx 9 2016–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/cx-9/2016-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2023); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-98',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda Cx 9 2016–2023 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/CX-9/CX-9%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2023); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E2000,2200',
+        slug: 'e2000-2200',
+        records: [
+          {
+            id: 'pcd-b10-mazda-e2000-2200-1999-6x139-7',
+            generation: '1983–1999',
+            aliases: [
+              'Mazda E2000,2200 1999',
+              'E2000,2200 1983–1999',
+              '6x139.7'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '93.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-99',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda E2000,2200 1983–1999 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/e2000-2200/1983-1999/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1983–1999); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-99',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda E2000,2200 1983–1999 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/E2000%2C2200/E2000%2C2200%20%281983%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1983–1999); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mazda-e2000-2200-2005-6x139-7',
+            generation: '1999–2005',
+            aliases: [
+              'Mazda E2000,2200 2005',
+              'E2000,2200 1999–2005',
+              '6x139.7'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '93.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-100',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda E2000,2200 1999–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/e2000-2200/1999-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-100',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda E2000,2200 1999–2005 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mazda/E2000%2C2200/E2000%2C2200%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -48970,6 +54961,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-subaru-legacy-2020-5x114-3',
+            generation: '2015–2020',
+            aliases: [
+              'Subaru Legacy 2020',
+              'Legacy 2015–2020',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-231',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Subaru Legacy 2015–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/subaru/legacy/2015-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-231',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Legacy 2015–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Legacy/Legacy%20%282015%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -49619,6 +55679,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-subaru-justy-2007-4x100',
+            generation: '2003–2007',
+            aliases: [
+              'Subaru Justy 2007',
+              'Justy 2003–2007',
+              '4x100'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-230',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Subaru Justy 2003–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/subaru/justy/2003-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-230',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru Justy 2003–2007 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/Justy/Justy%20%282004%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -50313,6 +56442,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-subaru-xv-2017-5x100',
+            generation: '2012–2017',
+            aliases: [
+              'Subaru XV 2017',
+              'XV 2012–2017',
+              '5x100'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-232',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Subaru XV 2012–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/subaru/xv/2012-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2017); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-232',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Subaru XV 2012–2017 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Subaru/XV/XV%20%282011%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2017); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -52508,6 +58706,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mitsubishi-pajero-1991-6x139-7',
+            generation: '1982–1991',
+            aliases: [
+              'Mitsubishi Pajero 1991',
+              'Pajero 1982–1991',
+              '6x139.7'
+            ],
+            years: '1991-1991',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '107.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET22',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-159',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Pajero 1982–1991 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/pajero/1982-1991/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1991); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-159',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Pajero 1982–1991 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Pajero/Pajero%20%281982%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1991); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -53013,6 +59280,282 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mitsubishi-lancer-evo-1998-5x114-3',
+            generation: '1998–1998',
+            aliases: [
+              'Mitsubishi Lancer EVO 1998',
+              'Lancer EVO 1998–1998',
+              '5x114.3'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-155',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Lancer EVO 1998–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/lancer-evo/1998-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-155',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Lancer EVO 1998–1998 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Lancer%20EVO/Lancer%20EVO%20V%20%281998%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mitsubishi-lancer-evo-2001-5x114-3',
+            generation: '1999–2001',
+            aliases: [
+              'Mitsubishi Lancer EVO 2001',
+              'Lancer EVO 1999–2001',
+              '5x114.3'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-156',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Lancer EVO 1999–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/lancer-evo/1999-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2001); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-156',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Lancer EVO 1999–2001 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Lancer%20EVO/Lancer%20EVO%20VI%20%281999%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2001); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mitsubishi-lancer-evo-2002-5x114-3',
+            generation: '2001–2002',
+            aliases: [
+              'Mitsubishi Lancer EVO 2002',
+              'Lancer EVO 2001–2002',
+              '5x114.3'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-157',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Lancer EVO 2001–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/lancer-evo/2001-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-157',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Lancer EVO 2001–2002 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Lancer%20EVO/Lancer%20EVO%20VII%20%282001%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mitsubishi-lancer-evo-2005-5x114-3',
+            generation: '2003–2005',
+            aliases: [
+              'Mitsubishi Lancer EVO 2005',
+              'Lancer EVO 2003–2005',
+              '5x114.3'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-158',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Lancer EVO 2003–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/lancer-evo/2003-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-158',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Lancer EVO 2003–2005 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Lancer%20EVO/Lancer%20EVO%20VIII%20%282003%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -54589,6 +61132,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Carisma 1.6, 1.8GDi,1.9TD',
+        slug: 'carisma-1-6-1-8gdi-1-9td',
+        records: [
+          {
+            id: 'pcd-b10-mitsubishi-carisma-1-6-1-8gdi-1-9td-2004-4x114-3',
+            generation: '2000–2004',
+            aliases: [
+              'Mitsubishi Carisma 1.6, 1.8GDi,1.9TD 2004',
+              'Carisma 1.6, 1.8GDi,1.9TD 2000–2004',
+              '4x114.3'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-153',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Carisma 1.6, 1.8GDi,1.9TD 2000–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/carisma-1-6-1-8gdi-1-9td/2000-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-153',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Carisma 1.6, 1.8GDi,1.9TD 2000–2004 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Carisma%201.6%2C%201.8GDi%2C1.9TD/Carisma%201.6%2C%201.8GDi%2C1.9TD%20%282000%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lancer 2.0i',
+        slug: 'lancer-2-0i',
+        records: [
+          {
+            id: 'pcd-b10-mitsubishi-lancer-2-0i-2008-5x114-3',
+            generation: '2003–2008',
+            aliases: [
+              'Mitsubishi Lancer 2.0i 2008',
+              'Lancer 2.0i 2003–2008',
+              '5x114.3'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-154',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Lancer 2.0i 2003–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/lancer-2-0i/2003-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-154',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Lancer 2.0i 2003–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Lancer%202.0i/Lancer%202.0i%20%282003%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Pajero Wagon',
+        slug: 'pajero-wagon',
+        records: [
+          {
+            id: 'pcd-b10-mitsubishi-pajero-wagon-2006-6x139-7',
+            generation: '2000–2006',
+            aliases: [
+              'Mitsubishi Pajero Wagon 2006',
+              'Pajero Wagon 2000–2006',
+              '6x139.7'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-160',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Pajero Wagon 2000–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/pajero-wagon/2000-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-160',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Pajero Wagon 2000–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Pajero%20Wagon/Pajero%20Wagon%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -58120,6 +64888,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-suzuki-across-2026-5x114-3',
+            generation: '2026–present',
+            aliases: [
+              'Suzuki Across 2026',
+              'Across 2026–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-233',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki Across 2026–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/across/2026-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2026–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-233',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Across 2026–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Across/Across%20%282026%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2026–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -59382,6 +66219,144 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-suzuki-swift-sport-2010-5x114-3',
+            generation: '2006–2010',
+            aliases: [
+              'Suzuki Swift Sport 2010',
+              'Swift Sport 2006–2010',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-235',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki Swift Sport 2006–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/swift-sport/2006-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-235',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Swift Sport 2006–2010 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Swift%20Sport/Swift%20Sport%20%282006%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-suzuki-swift-sport-2017-5x114-3',
+            generation: '2011–2017',
+            aliases: [
+              'Suzuki Swift Sport 2017',
+              'Swift Sport 2011–2017',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-236',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki Swift Sport 2011–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/swift-sport/2011-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2017); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-236',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Swift Sport 2011–2017 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Swift%20Sport/Swift%20Sport%20%282011%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2017); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -59524,6 +66499,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-suzuki-vitara-1998-5x139-7',
+            generation: '1988–1998',
+            aliases: [
+              'Suzuki Vitara 1998',
+              'Vitara 1988–1998',
+              '5x139.7'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x139.7',
+            centerBore: '108.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-239',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki Vitara 1988–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/vitara/1988-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1988–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-239',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Vitara 1988–1998 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Vitara/Vitara%20%281988%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1988–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -59987,6 +67031,225 @@ const PCD_DATA = [
                   'centerBore'
                 ],
                 limitations: 'Independent exact-year application reference confirming generation, PCD and centre bore; fastener, ET and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Carry',
+        slug: 'carry',
+        records: [
+          {
+            id: 'pcd-b10-suzuki-carry-2013-4x100',
+            generation: '1999–2013',
+            aliases: [
+              'Suzuki Carry 2013',
+              'Carry 1999–2013',
+              '4x100'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-234',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki Carry 1999–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/carry/1999-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-234',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Carry 1999–2013 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Carry/Carry%20%281999%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SX4',
+        slug: 'sx4',
+        records: [
+          {
+            id: 'pcd-b10-suzuki-sx4-2015-5x114-3',
+            generation: '2006–2018',
+            aliases: [
+              'Suzuki SX4 2015',
+              'SX4 2006–2018',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-237',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki SX4 2006–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/sx4/2006-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-237',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki SX4 2006–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/SX4/SX4%20%282006%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-suzuki-sx4-2021-5x114-3',
+            generation: '2013–2022',
+            aliases: [
+              'Suzuki SX4 2021',
+              'SX4 2013–2022',
+              '5x114.3'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-238',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki SX4 2013–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/sx4/2013-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-238',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki SX4 2013–2022 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/SX4/SX4%20%282017%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -60601,6 +67864,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-hyundai-i30-2012-5x114-3',
+            generation: '2007–2012',
+            aliases: [
+              'Hyundai i30 2012',
+              'i30 2007–2012',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-79',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Hyundai i30 2007–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/hyundai/i30/2007-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-79',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai i30 2007–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/i30/i30%20%282007%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -63813,6 +71145,144 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-hyundai-excel-2006-4x100',
+            generation: '2000–2006',
+            aliases: [
+              'Hyundai Excel 2006',
+              'Excel 2000–2006',
+              '4x100'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-77',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Hyundai Excel 2000–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/hyundai/excel/2000-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-77',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Excel 2000–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Excel/Excel%20%282000%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-hyundai-excel-2011-4x100',
+            generation: '2006–2011',
+            aliases: [
+              'Hyundai Excel 2011',
+              'Excel 2006–2011',
+              '4x100'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-78',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Hyundai Excel 2006–2011 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/hyundai/excel/2006-2011/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-78',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Excel 2006–2011 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Excel/Excel%20%282006%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -64784,6 +72254,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-kia-cerato-2019-5x114-3',
+            generation: '2013–2019',
+            aliases: [
+              'Kia Cerato 2019',
+              'Cerato 2013–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-84',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Kia Cerato 2013–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/kia/cerato/2013-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-84',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Cerato 2013–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Cerato/Cerato%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -65847,6 +73386,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-kia-optima-2005-4x114-3',
+            generation: '2000–2006',
+            aliases: [
+              'Kia Optima 2005',
+              'Optima 2000–2006',
+              '4x114.3'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-86',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Kia Optima 2000–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/kia/optima/2000-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-86',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Optima 2000–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Optima/Optima%20%282000%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -67369,6 +74977,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Bongo',
+        slug: 'bongo',
+        records: [
+          {
+            id: 'pcd-b10-kia-bongo-2026-6x139-7',
+            generation: '2005–present',
+            aliases: [
+              'Kia Bongo 2026',
+              'Bongo 2005–present',
+              '6x139.7'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '110',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-82',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Kia Bongo 2005–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/kia/bongo/2005-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-82',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Bongo 2005–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Bongo/Bongo%20%282000%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ceed GT',
+        slug: 'ceed-gt',
+        records: [
+          {
+            id: 'pcd-b10-kia-ceed-gt-2026-5x114-3',
+            generation: '2018–2026',
+            aliases: [
+              'Kia Ceed GT 2026',
+              'Ceed GT 2018–2026',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-83',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Kia Ceed GT 2018–2026 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/kia/ceed-gt/2018-2026/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–2026); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-83',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Ceed GT 2018–2026 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Ceed%20GT/Ceed%20GT%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–2026); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Niro EV',
+        slug: 'niro-ev',
+        records: [
+          {
+            id: 'pcd-b10-kia-niro-ev-2026-5x114-3',
+            generation: '2022–2026',
+            aliases: [
+              'Kia Niro EV 2026',
+              'Niro EV 2022–2026',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-85',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Kia Niro EV 2022–2026 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/kia/niro-ev/2022-2026/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–2026); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-85',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Niro EV 2022–2026 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Kia/Niro%20EV/Niro%20EV%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–2026); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -70302,6 +78135,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2015 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-ford-s-max-2023-5x108',
+            generation: '2015–2023',
+            aliases: [
+              'Ford S Max 2023',
+              'S Max 2015–2023',
+              '5x108'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '170 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-59',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford S Max 2015–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/s-max/2015-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2023); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-59',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford S Max 2015–2023 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/S%20Max/S%20Max%20%282015%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2023); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -70377,6 +78279,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-ford-c-max-2019-5x108',
+            generation: '2010–2019',
+            aliases: [
+              'Ford C Max 2019',
+              'C Max 2010–2019',
+              '5x108'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-44',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford C Max 2010–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/c-max/2010-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-44',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford C Max 2010–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/C%20Max/C%20Max%20%282010%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -70450,6 +78421,282 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-mondeo-2000-4x108',
+            generation: '1992–2000',
+            aliases: [
+              'Ford Mondeo 2000',
+              'Mondeo 1992–2000',
+              '4x108'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-55',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Mondeo 1992–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/mondeo/1992-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-55',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Mondeo 1992–2000 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Mondeo/Mondeo%20%281993%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-mondeo-2014-5x108',
+            generation: '2007–2014',
+            aliases: [
+              'Ford Mondeo 2014',
+              'Mondeo 2007–2014',
+              '5x108'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52.5',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-56',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Mondeo 2007–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/mondeo/2007-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-56',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Mondeo 2007–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Mondeo/Mondeo%20%282007%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-mondeo-2022-5x108',
+            generation: '2014–2022',
+            aliases: [
+              'Ford Mondeo 2022',
+              'Mondeo 2014–2022',
+              '5x108'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-57',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Mondeo 2014–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/mondeo/2014-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-57',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Mondeo 2014–2022 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Mondeo/Mondeo%20%282014%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-mondeo-2026-5x108',
+            generation: '2022–present',
+            aliases: [
+              'Ford Mondeo 2026',
+              'Mondeo 2022–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-58',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Mondeo 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/mondeo/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-58',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Mondeo 2022–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Mondeo/Mondeo%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -70738,6 +78985,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-escort-1990-4x108',
+            generation: '1986–1996',
+            aliases: [
+              'Ford Escort 1990',
+              'Escort 1986–1996',
+              '4x108'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-45',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Escort 1986–1996 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/escort/1986-1996/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–1996); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-45',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Escort 1986–1996 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Escort/Escort%20%281985%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–1996); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -71515,6 +79831,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-ford-f150-2008-6x135',
+            generation: '2004–2008',
+            aliases: [
+              'Ford F150 2008',
+              'F150 2004–2008',
+              '6x135'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '6x135',
+            centerBore: '87.1',
+            thread: 'M14x2.00',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-46',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford F150 2004–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/f150/2004-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-46',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford F150 2004–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/F150/F150%20%282004%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -72038,6 +80423,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-f250-2016-8x170',
+            generation: '2011–2016',
+            aliases: [
+              'Ford F250 2016',
+              'F250 2011–2016',
+              '8x170'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '8x170',
+            centerBore: '124.9',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '220 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-47',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford F250 2011–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/f250/2011-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-47',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford F250 2011–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/F250/F250%20%282011%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -72827,6 +81281,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-ford-ka-2016-4x98',
+            generation: '2008–2016',
+            aliases: [
+              'Ford Ka 2016',
+              'Ka 2008–2016',
+              '4x98'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '88 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-53',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Ka 2008–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/ka/2008-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-53',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Ka 2008–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Ka/Ka%20%282008%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -72880,6 +81403,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-maverick-2007-5x114-3',
+            generation: '2000–2007',
+            aliases: [
+              'Ford Maverick 2007',
+              'Maverick 2000–2007',
+              '5x114.3'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-54',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Maverick 2000–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/maverick/2000-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-54',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Maverick 2000–2007 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Maverick/Maverick%20%282000%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -74246,6 +82838,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-ford-tourneo-connect-2022-5x108',
+            generation: '2012–2022',
+            aliases: [
+              'Ford Tourneo Connect 2022',
+              'Tourneo Connect 2012–2022',
+              '5x108'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-60',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Tourneo Connect 2012–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/tourneo-connect/2012-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-60',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Tourneo Connect 2012–2022 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Tourneo%20Connect/Tourneo%20Connect%20%282013%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -74321,6 +82982,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-ford-transit-2000-5x160',
+            generation: '1986–2000',
+            aliases: [
+              'Ford Transit 2000',
+              'Transit 1986–2000',
+              '5x160'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x160',
+            centerBore: '65.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET56',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-61',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Transit 1986–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/transit/1986-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-61',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Transit 1986–2000 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Transit/Transit%20%281987%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -74394,6 +83124,369 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Focus RS',
+        slug: 'focus-rs',
+        records: [
+          {
+            id: 'pcd-b10-ford-focus-rs-2003-4x108',
+            generation: '2002–2003',
+            aliases: [
+              'Ford Focus RS 2003',
+              'Focus RS 2002–2003',
+              '4x108'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-48',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Focus RS 2002–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/focus-rs/2002-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2003); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-48',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Focus RS 2002–2003 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Focus%20RS/Focus%20RS%20%282002%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2003); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-focus-rs-2011-5x108',
+            generation: '2009–2011',
+            aliases: [
+              'Ford Focus RS 2011',
+              'Focus RS 2009–2011',
+              '5x108'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-49',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Focus RS 2009–2011 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/focus-rs/2009-2011/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-49',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Focus RS 2009–2011 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Focus%20RS/Focus%20RS%20%282009%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-ford-focus-rs-2018-5x108',
+            generation: '2016–2018',
+            aliases: [
+              'Ford Focus RS 2018',
+              'Focus RS 2016–2018',
+              '5x108'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-50',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Focus RS 2016–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/focus-rs/2016-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-50',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Focus RS 2016–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Focus%20RS/Focus%20RS%20%282016%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Focus ST',
+        slug: 'focus-st',
+        records: [
+          {
+            id: 'pcd-b10-ford-focus-st-2013-5x108',
+            generation: '2005–2013',
+            aliases: [
+              'Ford Focus ST 2013',
+              'Focus ST 2005–2013',
+              '5x108'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47.5',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-51',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Focus ST 2005–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/focus-st/2005-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-51',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Focus ST 2005–2013 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Focus%20ST/Focus%20ST%20%282005%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Focus ST170',
+        slug: 'focus-st170',
+        records: [
+          {
+            id: 'pcd-b10-ford-focus-st170-2004-4x108',
+            generation: '2002–2004',
+            aliases: [
+              'Ford Focus ST170 2004',
+              'Focus ST170 2002–2004',
+              '4x108'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47.5',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-52',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Focus ST170 2002–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/focus-st170/2002-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-52',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Focus ST170 2002–2004 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ford/Focus%20ST170/Focus%20ST170%20%282002%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -77622,6 +86715,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-chevrolet-silverado-2010-6x139-7',
+            generation: '2006–2010',
+            aliases: [
+              'Chevrolet Silverado 2010',
+              'Silverado 2006–2010',
+              '6x139.7'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-28',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Silverado 2006–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/silverado/2006-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-28',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Silverado 2006–2010 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Silverado/Silverado%20%282006%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -79376,6 +88538,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-chevrolet-colorado-2017-6x139-7',
+            generation: '2011–2020',
+            aliases: [
+              'Chevrolet Colorado 2017',
+              'Colorado 2011–2020',
+              '6x139.7'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '99.5',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-26',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Colorado 2011–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/colorado/2011-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-26',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Colorado 2011–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Colorado/Colorado%20%282009%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -79806,6 +89037,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-chevrolet-cavalier-2005-5x100',
+            generation: '1994–2005',
+            aliases: [
+              'Chevrolet Cavalier 2005',
+              'Cavalier 1994–2005',
+              '5x100'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-25',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Cavalier 1994–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/cavalier/1994-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-25',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Cavalier 1994–2005 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Cavalier/Cavalier%20%281982%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -80230,6 +89530,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Jimny',
+        slug: 'jimny',
+        records: [
+          {
+            id: 'pcd-b10-chevrolet-jimny-2018-5x120-65',
+            generation: '1998–2018',
+            aliases: [
+              'Chevrolet Jimny 2018',
+              'Jimny 1998–2018',
+              '5x120.65'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-27',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Jimny 1998–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/jimny/1998-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-27',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Jimny 1998–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Jimny/Jimny%20%281998%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Silverado 2500',
+        slug: 'silverado-2500',
+        records: [
+          {
+            id: 'pcd-b10-chevrolet-silverado-2500-2026-8x180',
+            generation: '2019–present',
+            aliases: [
+              'Chevrolet Silverado 2500 2026',
+              'Silverado 2500 2019–present',
+              '8x180'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '8x180',
+            centerBore: '124',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET0',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-29',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Silverado 2500 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/silverado-2500/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-29',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Silverado 2500 2019–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Silverado%202500/Silverado%202500%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -83202,6 +92652,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Promaster',
+        slug: 'promaster',
+        records: [
+          {
+            id: 'pcd-b10-ram-promaster-2026-5x130',
+            generation: '2013–present',
+            aliases: [
+              'Ram Promaster 2026',
+              'Promaster 2013–present',
+              '5x130'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-194',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ram Promaster 2013–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ram/promaster/2013-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-194',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ram Promaster 2013–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/RAM/Promaster/Promaster%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Promaster City',
+        slug: 'promaster-city',
+        records: [
+          {
+            id: 'pcd-b10-ram-promaster-city-2022-5x98',
+            generation: '2015–2022',
+            aliases: [
+              'Ram Promaster City 2022',
+              'Promaster City 2015–2022',
+              '5x98'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-195',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ram Promaster City 2015–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ram/promaster-city/2015-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-195',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ram Promaster City 2015–2022 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/RAM/Promaster%20City/Promaster%20City%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -84939,6 +94539,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '300C 4x4',
+        slug: '300c-4x4',
+        records: [
+          {
+            id: 'pcd-b10-chrysler-300c-4x4-2023-5x115',
+            generation: '2010–2023',
+            aliases: [
+              'Chrysler 300C 4x4 2023',
+              '300C 4x4 2010–2023',
+              '5x115'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-30',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chrysler 300C 4x4 2010–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chrysler/300c-4x4/2010-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2023); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-30',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler 300C 4x4 2010–2023 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/300C%204x4/300C%204x4%20%282004%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2023); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Caravan',
+        slug: 'caravan',
+        records: [
+          {
+            id: 'pcd-b10-chrysler-caravan-2000-5x114-3',
+            generation: '1995–2000',
+            aliases: [
+              'Chrysler Caravan 2000',
+              'Caravan 1995–2000',
+              '5x114.3'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '71.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-31',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chrysler Caravan 1995–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chrysler/caravan/1995-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-31',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Caravan 1995–2000 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Caravan/Caravan%20%281991%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -86292,6 +96042,75 @@ const PCD_DATA = [
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-peugeot-3008-2016-4x108',
+            generation: '2009–2016',
+            aliases: [
+              'Peugeot 3008 2016',
+              '3008 2009–2016',
+              '4x108'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-182',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot 3008 2009–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/3008/2009-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-182',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 3008 2009–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/3008/3008%20%282009%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -86929,6 +96748,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2016 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-peugeot-expert-2006-5x98',
+            generation: '1995–2006',
+            aliases: [
+              'Peugeot Expert 2006',
+              'Expert 1995–2006',
+              '5x98'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-184',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot Expert 1995–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/expert/1995-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-184',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Expert 1995–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Expert/Expert%20%281996%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -90632,6 +100520,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '4007',
+        slug: '4007',
+        records: [
+          {
+            id: 'pcd-b10-peugeot-4007-2012-5x114-3',
+            generation: '2007–2012',
+            aliases: [
+              'Peugeot 4007 2012',
+              '4007 2007–2012',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-183',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot 4007 2007–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/4007/2007-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-183',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 4007 2007–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/4007/4007%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -91344,6 +101307,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-renault-kangoo-2026-5x114-3',
+            generation: '2020–present',
+            aliases: [
+              'Renault Kangoo 2026',
+              'Kangoo 2020–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-202',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Kangoo 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/kangoo/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-202',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Kangoo 2020–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Kangoo/Kangoo%203%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -92538,6 +102570,144 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation reference; OEM wheel and tyre are taken from the detailed original-fitment table.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-renault-espace-1996-5x108',
+            generation: '1991–1996',
+            aliases: [
+              'Renault Espace 1996',
+              'Espace 1991–1996',
+              '5x108'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-200',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Espace 1991–1996 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/espace/1991-1996/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1996); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-200',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Espace 1991–1996 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Espace/Espace%20%281991%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1996); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-renault-espace-2026-5x114-3',
+            generation: '2023–present',
+            aliases: [
+              'Renault Espace 2026',
+              'Espace 2023–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-201',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Espace 2023–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/espace/2023-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-201',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Espace 2023–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Espace/Espace%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -93670,6 +103840,144 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-renault-twingo-2007-4x100',
+            generation: '1992–2007',
+            aliases: [
+              'Renault Twingo 2007',
+              'Twingo 1992–2007',
+              '4x100'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-208',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Twingo 1992–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/twingo/1992-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-208',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Twingo 1992–2007 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Twingo/Twingo%20%281993%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-renault-twingo-2014-4x100',
+            generation: '2007–2014',
+            aliases: [
+              'Renault Twingo 2014',
+              'Twingo 2007–2014',
+              '4x100'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET29',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-209',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Twingo 2007–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/twingo/2007-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-209',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Twingo 2007–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Twingo/Twingo%20%282007%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -95258,6 +105566,144 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-renault-megane-scenic-2009-4x100',
+            generation: '2004–2009',
+            aliases: [
+              'Renault Megane Scenic 2009',
+              'Megane Scenic 2004–2009',
+              '4x100'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-204',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Megane Scenic 2004–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/megane-scenic/2004-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-204',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Megane Scenic 2004–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Megane%20Scenic/Megane%20Scenic%20%282004%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-renault-megane-scenic-2016-5x114-3',
+            generation: '2009–2016',
+            aliases: [
+              'Renault Megane Scenic 2016',
+              'Megane Scenic 2009–2016',
+              '5x114.3'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-205',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Megane Scenic 2009–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/megane-scenic/2009-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-205',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Megane Scenic 2009–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Megane%20Scenic/Megane%20Scenic%20%282009%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -95396,6 +105842,75 @@ const PCD_DATA = [
                   'centerBore'
                 ],
                 limitations: 'Independent exact-year application reference confirming generation, PCD and centre bore; fastener, ET and torque are not taken from this source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-renault-safrane-2016-5x114-3',
+            generation: '2010–2016',
+            aliases: [
+              'Renault Safrane 2016',
+              'Safrane 2010–2016',
+              '5x114.3'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-207',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Safrane 2010–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/safrane/2010-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-207',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Safrane 2010–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Safrane/Safrane%20%282010%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -95617,6 +106132,450 @@ const PCD_DATA = [
                   'centerBore'
                 ],
                 limitations: 'Independent exact-year application reference confirming generation, PCD and centre bore; fastener, ET and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '5',
+        slug: '5',
+        records: [
+          {
+            id: 'pcd-b10-renault-5-1996-4x100',
+            generation: '1984–1996',
+            aliases: [
+              'Renault 5 1996',
+              '5 1984–1996',
+              '4x100'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-196',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault 5 1984–1996 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/5/1984-1996/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1996); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-196',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault 5 1984–1996 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/5/5%20%281985%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1996); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Clio Kombi',
+        slug: 'clio-kombi',
+        records: [
+          {
+            id: 'pcd-b10-renault-clio-kombi-2012-4x100',
+            generation: '2008–2012',
+            aliases: [
+              'Renault Clio Kombi 2012',
+              'Clio Kombi 2008–2012',
+              '4x100'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-197',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Clio Kombi 2008–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/clio-kombi/2008-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-197',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Clio Kombi 2008–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Clio%20Kombi/Clio%20Kombi%20%282008%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Clio Sport',
+        slug: 'clio-sport',
+        records: [
+          {
+            id: 'pcd-b10-renault-clio-sport-2013-5x108',
+            generation: '2006–2013',
+            aliases: [
+              'Renault Clio Sport 2013',
+              'Clio Sport 2006–2013',
+              '5x108'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-198',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Clio Sport 2006–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/clio-sport/2006-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-198',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Clio Sport 2006–2013 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Clio%20Sport/Clio%20Sport%20%282006%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-renault-clio-sport-2019-5x114-3',
+            generation: '2013–2019',
+            aliases: [
+              'Renault Clio Sport 2019',
+              'Clio Sport 2013–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-199',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Clio Sport 2013–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/clio-sport/2013-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-199',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Clio Sport 2013–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Clio%20Sport/Clio%20Sport%20%282013%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Megane 2.0 dCi',
+        slug: 'megane-2-0-dci',
+        records: [
+          {
+            id: 'pcd-b10-renault-megane-2-0-dci-2008-5x108',
+            generation: '2005–2008',
+            aliases: [
+              'Renault Megane 2.0 dCi 2008',
+              'Megane 2.0 dCi 2005–2008',
+              '5x108'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-203',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Megane 2.0 dCi 2005–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/megane-2-0-dci/2005-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-203',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Megane 2.0 dCi 2005–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Megane%202.0%20dCi/Megane%202.0%20dCi%20%282005%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Megane Scenic RX-4',
+        slug: 'megane-scenic-rx-4',
+        records: [
+          {
+            id: 'pcd-b10-renault-megane-scenic-rx-4-2009-5x108',
+            generation: '2007–2009',
+            aliases: [
+              'Renault Megane Scenic RX-4 2009',
+              'Megane Scenic RX-4 2007–2009',
+              '5x108'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-206',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Megane Scenic RX-4 2007–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/megane-scenic-rx-4/2007-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-206',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Megane Scenic RX-4 2007–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Renault/Megane%20Scenic%20RX-4/Megane%20Scenic%20RX-4%20%282007%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -97534,6 +108493,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-citroen-c5-2017-5x108',
+            generation: '2008–2021',
+            aliases: [
+              'Citroen C5 2017',
+              'C5 2008–2021',
+              '5x108'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-33',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen C5 2008–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/c5/2008-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-33',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C5 2008–2021 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C5/C5%20%282008%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -98968,6 +109996,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-citroen-jumper-maxi-2006-5x130',
+            generation: '1994–2006',
+            aliases: [
+              'Citroen Jumper Maxi 2006',
+              'Jumper Maxi 1994–2006',
+              '5x130'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-34',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen Jumper Maxi 1994–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/jumper-maxi/1994-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-34',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Jumper Maxi 1994–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Jumper%20Maxi/Jumper%20Maxi%20%281994%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -99116,6 +110213,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-citroen-relay-maxi-2006-5x130',
+            generation: '1994–2006',
+            aliases: [
+              'Citroen Relay Maxi 2006',
+              'Relay Maxi 1994–2006',
+              '5x130'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-35',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen Relay Maxi 1994–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/relay-maxi/1994-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-35',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Relay Maxi 1994–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Relay%20Maxi/Relay%20Maxi%20%281994%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -99341,6 +110507,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C-Zero',
+        slug: 'c-zero',
+        records: [
+          {
+            id: 'pcd-b10-citroen-c-zero-2020-4x100',
+            generation: '2010–2020',
+            aliases: [
+              'Citroen C-Zero 2020',
+              'C-Zero 2010–2020',
+              '4x100'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-32',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen C-Zero 2010–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/c-zero/2010-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-32',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C-Zero 2010–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C-Zero/C-Zero%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -100107,6 +111348,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-year application reference confirming generation, PCD and centre bore; fastener, ET and torque are not taken from this source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-volvo-s60-2009-5x108',
+            generation: '2000–2009',
+            aliases: [
+              'Volvo S60 2009',
+              'S60 2000–2009',
+              '5x108'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-273',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo S60 2000–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/s60/2000-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-273',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo S60 2000–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/S60/S60%20%282000%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -100574,6 +111884,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-volvo-s40-2004-4x114-3',
+            generation: '1995–2004',
+            aliases: [
+              'Volvo S40 2004',
+              'S40 1995–2004',
+              '4x114.3'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-272',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo S40 1995–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/s40/1995-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-272',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo S40 1995–2004 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/S40/S40%20%281996%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -101004,6 +112383,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-volvo-v70-2007-5x108',
+            generation: '2000–2007',
+            aliases: [
+              'Volvo V70 2007',
+              'V70 2000–2007',
+              '5x108'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-275',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo V70 2000–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/v70/2000-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-275',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo V70 2000–2007 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/V70/V70%20%282000%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -101762,6 +113210,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-volvo-960-1997-5x108',
+            generation: '1994–1997',
+            aliases: [
+              'Volvo 960 1997',
+              '960 1994–1997',
+              '5x108'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.75',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-271',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo 960 1994–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/960/1994-1997/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-271',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo 960 1994–1997 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/960/960%20%281994%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -102807,6 +114324,81 @@ const PCD_DATA = [
                   'centerBore'
                 ],
                 limitations: 'Independent exact-year application reference confirming generation, PCD and centre bore; fastener, ET and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'V60 Polestar',
+        slug: 'v60-polestar',
+        records: [
+          {
+            id: 'pcd-b10-volvo-v60-polestar-2018-5x108',
+            generation: '2014–2018',
+            aliases: [
+              'Volvo V60 Polestar 2018',
+              'V60 Polestar 2014–2018',
+              '5x108'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-274',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo V60 Polestar 2014–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/v60-polestar/2014-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-274',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo V60 Polestar 2014–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Volvo/V60%20Polestar/V60%20Polestar%20%282014%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -107126,6 +118718,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-fiat-doblo-2026-5x98',
+            generation: '2022–present',
+            aliases: [
+              'Fiat Doblo 2026',
+              'Doblo 2022–present',
+              '5x98'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-42',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Doblo 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/doblo/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-42',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Doblo 2022–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Doblo/Doblo%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -107199,6 +118860,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-fiat-ducato-maxi-2006-5x130',
+            generation: '1994–2006',
+            aliases: [
+              'Fiat Ducato Maxi 2006',
+              'Ducato Maxi 1994–2006',
+              '5x130'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-43',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Ducato Maxi 1994–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/ducato-maxi/1994-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-43',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Ducato Maxi 1994–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Ducato%20Maxi/Ducato%20Maxi%20%281994%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -107789,6 +119519,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mini-countryman-2016-5x120',
+            generation: '2010–2016',
+            aliases: [
+              'Mini Countryman 2016',
+              'Countryman 2010–2016',
+              '5x120'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-152',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini Countryman 2010–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/countryman/2010-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-152',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini Countryman 2010–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mini/Countryman/Countryman%20%282010%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -107911,6 +119710,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mini-cooper-2014-4x100',
+            generation: '2006–2014',
+            aliases: [
+              'Mini Cooper 2014',
+              'Cooper 2006–2014',
+              '4x100'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-147',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini Cooper 2006–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/cooper/2006-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-147',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini Cooper 2006–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mini/Cooper/Cooper%20%282006%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -108346,6 +120214,294 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cooper Clubman S',
+        slug: 'cooper-clubman-s',
+        records: [
+          {
+            id: 'pcd-b10-mini-cooper-clubman-s-2014-4x100',
+            generation: '2007–2014',
+            aliases: [
+              'Mini Cooper Clubman S 2014',
+              'Cooper Clubman S 2007–2014',
+              '4x100'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-148',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini Cooper Clubman S 2007–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/cooper-clubman-s/2007-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-148',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini Cooper Clubman S 2007–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mini/Cooper%20Clubman%20S/Cooper%20Clubman%20S%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cooper S',
+        slug: 'cooper-s',
+        records: [
+          {
+            id: 'pcd-b10-mini-cooper-s-2006-4x100',
+            generation: '2001–2006',
+            aliases: [
+              'Mini Cooper S 2006',
+              'Cooper S 2001–2006',
+              '4x100'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-149',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini Cooper S 2001–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/cooper-s/2001-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-149',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini Cooper S 2001–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mini/Cooper%20S/Cooper%20S%20%282001%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mini-cooper-s-2014-4x100',
+            generation: '2006–2014',
+            aliases: [
+              'Mini Cooper S 2014',
+              'Cooper S 2006–2014',
+              '4x100'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-150',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini Cooper S 2006–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/cooper-s/2006-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-150',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini Cooper S 2006–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mini/Cooper%20S/Cooper%20S%20%282006%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mini-cooper-s-2024-5x112',
+            generation: '2013–2024',
+            aliases: [
+              'Mini Cooper S 2024',
+              'Cooper S 2013–2024',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-151',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini Cooper S 2013–2024 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/cooper-s/2013-2024/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2024); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-151',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini Cooper S 2013–2024 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mini/Cooper%20S/Cooper%20S%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2024); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -108845,6 +121001,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-porsche-cayman-2016-5x130',
+            generation: '2013–2016',
+            aliases: [
+              'Porsche Cayman 2016',
+              'Cayman 2013–2016',
+              '5x130'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-193',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche Cayman 2013–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/cayman/2013-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-193',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche Cayman 2013–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/Cayman/Cayman%20%282012%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -109825,6 +122050,531 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 993 Turbo',
+        slug: '911-993-turbo',
+        records: [
+          {
+            id: 'pcd-b10-porsche-911-993-turbo-1998-5x130',
+            generation: '1995–1998',
+            aliases: [
+              'Porsche 911 993 Turbo 1998',
+              '911 993 Turbo 1995–1998',
+              '5x130'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-186',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche 911 993 Turbo 1995–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/911-993-turbo/1995-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-186',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 993 Turbo 1995–1998 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20993%20Turbo/911%20993%20Turbo%20%281995%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 996 Turbo',
+        slug: '911-996-turbo',
+        records: [
+          {
+            id: 'pcd-b10-porsche-911-996-turbo-2005-5x130',
+            generation: '1999–2005',
+            aliases: [
+              'Porsche 911 996 Turbo 2005',
+              '911 996 Turbo 1999–2005',
+              '5x130'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-187',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche 911 996 Turbo 1999–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/911-996-turbo/1999-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-187',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 996 Turbo 1999–2005 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20996%20Turbo/911%20996%20Turbo%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 997 Carrera',
+        slug: '911-997-carrera',
+        records: [
+          {
+            id: 'pcd-b10-porsche-911-997-carrera-2012-5x130',
+            generation: '2004–2012',
+            aliases: [
+              'Porsche 911 997 Carrera 2012',
+              '911 997 Carrera 2004–2012',
+              '5x130'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-188',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche 911 997 Carrera 2004–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/911-997-carrera/2004-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-188',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 997 Carrera 2004–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20997%20Carrera/911%20997%20Carrera%20%282004%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 997 GT2',
+        slug: '911-997-gt2',
+        records: [
+          {
+            id: 'pcd-b10-porsche-911-997-gt2-2009-5x130',
+            generation: '2007–2009',
+            aliases: [
+              'Porsche 911 997 GT2 2009',
+              '911 997 GT2 2007–2009',
+              '5x130'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET53',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-189',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche 911 997 GT2 2007–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/911-997-gt2/2007-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-189',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 997 GT2 2007–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20997%20GT2/911%20997%20GT2%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 997 GT3',
+        slug: '911-997-gt3',
+        records: [
+          {
+            id: 'pcd-b10-porsche-911-997-gt3-2009-5x130',
+            generation: '2006–2009',
+            aliases: [
+              'Porsche 911 997 GT3 2009',
+              '911 997 GT3 2006–2009',
+              '5x130'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET53',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-190',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche 911 997 GT3 2006–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/911-997-gt3/2006-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-190',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 997 GT3 2006–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20997%20GT3/911%20997%20GT3%20%282006%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 997 GT3 RS',
+        slug: '911-997-gt3-rs',
+        records: [
+          {
+            id: 'pcd-b10-porsche-911-997-gt3-rs-2009-5x130',
+            generation: '2006–2009',
+            aliases: [
+              'Porsche 911 997 GT3 RS 2009',
+              '911 997 GT3 RS 2006–2009',
+              '5x130'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET53',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-191',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche 911 997 GT3 RS 2006–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/911-997-gt3-rs/2006-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-191',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 997 GT3 RS 2006–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20997%20GT3%20RS/911%20997%20GT3%20RS%20%282006%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '911 997 Turbo',
+        slug: '911-997-turbo',
+        records: [
+          {
+            id: 'pcd-b10-porsche-911-997-turbo-2009-5x130',
+            generation: '2006–2009',
+            aliases: [
+              'Porsche 911 997 Turbo 2009',
+              '911 997 Turbo 2006–2009',
+              '5x130'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-192',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche 911 997 Turbo 2006–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/911-997-turbo/2006-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-192',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche 911 997 Turbo 2006–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Porsche/911%20997%20Turbo/911%20997%20Turbo%20%282006%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -111225,6 +123975,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Range Rover V',
+        slug: 'range-rover-v',
+        records: [
+          {
+            id: 'pcd-b10-land-rover-range-rover-v-2026-5x120',
+            generation: '2022–present',
+            aliases: [
+              'Land Rover Range Rover V 2026',
+              'Range Rover V 2022–present',
+              '5x120'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-88',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Land Rover Range Rover V 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/land-rover/range-rover-v/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-88',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Land Rover Range Rover V 2022–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Land%20Rover/Range%20Rover%20V/Range%20Rover%20V%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -114579,6 +127404,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Alfetta GT',
+        slug: 'alfetta-gt',
+        records: [
+          {
+            id: 'pcd-b10-alfa-romeo-alfetta-gt-1987-4x98',
+            generation: '1974–1987',
+            aliases: [
+              'Alfa Romeo Alfetta GT 1987',
+              'Alfetta GT 1974–1987',
+              '4x98'
+            ],
+            years: '1987-1987',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-6',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Alfetta GT 1974–1987 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/alfetta-gt/1974-1987/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1974–1987); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-6',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Alfetta GT 1974–1987 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Alfetta%20GT/Alfetta%20GT%20%281972%20-%201987%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1974–1987); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -115487,6 +128387,144 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-bentley-continental-gtc-2010-5x112',
+            generation: '2003–2010',
+            aliases: [
+              'Bentley Continental GTC 2010',
+              'Continental GTC 2003–2010',
+              '5x112'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-15',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Bentley Continental GTC 2003–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bentley/continental-gtc/2003-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-15',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bentley Continental GTC 2003–2010 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Bentley/Continental%20GTC/Continental%20GTC%20%282003%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-bentley-continental-gtc-2018-5x112',
+            generation: '2011–2018',
+            aliases: [
+              'Bentley Continental GTC 2018',
+              'Continental GTC 2011–2018',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-16',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Bentley Continental GTC 2011–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bentley/continental-gtc/2011-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-16',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bentley Continental GTC 2011–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Bentley/Continental%20GTC/Continental%20GTC%20%282011%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -116561,6 +129599,294 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Century',
+        slug: 'century',
+        records: [
+          {
+            id: 'pcd-b10-buick-century-1981-5x120-65',
+            generation: '1977–1981',
+            aliases: [
+              'Buick Century 1981',
+              'Century 1977–1981',
+              '5x120.65'
+            ],
+            years: '1981-1981',
+            market: 'Global',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET0',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-19',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Buick Century 1977–1981 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/buick/century/1977-1981/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1977–1981); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-19',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick Century 1977–1981 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Buick/Century/Century%20%281977%20-%201985%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1977–1981); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-buick-century-1990-5x100',
+            generation: '1982–1990',
+            aliases: [
+              'Buick Century 1990',
+              'Century 1982–1990',
+              '5x100'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-20',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Buick Century 1982–1990 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/buick/century/1982-1990/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1990); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-20',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick Century 1982–1990 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Buick/Century/Century%20%281982%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1990); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-buick-century-1997-5x115',
+            generation: '1990–1997',
+            aliases: [
+              'Buick Century 1997',
+              'Century 1990–1997',
+              '5x115'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-21',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Buick Century 1990–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/buick/century/1990-1997/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1990–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-21',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick Century 1990–1997 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Buick/Century/Century%20%281990%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1990–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Riviera',
+        slug: 'riviera',
+        records: [
+          {
+            id: 'pcd-b10-buick-riviera-1993-5x115',
+            generation: '1986–1993',
+            aliases: [
+              'Buick Riviera 1993',
+              'Riviera 1986–1993',
+              '5x115'
+            ],
+            years: '1993-1993',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-22',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Buick Riviera 1986–1993 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/buick/riviera/1986-1993/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–1993); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-22',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick Riviera 1986–1993 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Buick/Riviera/Riviera%20%281986%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–1993); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -118791,6 +132117,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-cadillac-cts-2014-5x120-65',
+            generation: '2007–2014',
+            aliases: [
+              'Cadillac Cts 2014',
+              'Cts 2007–2014',
+              '5x120.65'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120.65',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-23',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Cadillac Cts 2007–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/cadillac/cts/2007-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-23',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac Cts 2007–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/CTS/CTS%20%282007%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -118864,6 +132259,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CTS-V',
+        slug: 'cts-v',
+        records: [
+          {
+            id: 'pcd-b10-cadillac-cts-v-2014-5x120-65',
+            generation: '2008–2014',
+            aliases: [
+              'Cadillac CTS-V 2014',
+              'CTS-V 2008–2014',
+              '5x120.65'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120.65',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-24',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Cadillac CTS-V 2008–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/cadillac/cts-v/2008-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-24',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac CTS-V 2008–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/CTS-V/CTS-V%20%282008%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -119648,6 +133118,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Leon Sportstourer',
+        slug: 'leon-sportstourer',
+        records: [
+          {
+            id: 'pcd-b10-cupra-leon-sportstourer-2026-5x112',
+            generation: '2020–present',
+            aliases: [
+              'Cupra Leon Sportstourer 2026',
+              'Leon Sportstourer 2020–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-36',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Cupra Leon Sportstourer 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/cupra/leon-sportstourer/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-36',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cupra Leon Sportstourer 2020–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Cupra/Leon%20Sportstourer/Leon%20Sportstourer%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -122742,6 +136287,231 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Sierra 1500',
+        slug: 'sierra-1500',
+        records: [
+          {
+            id: 'pcd-b10-gmc-sierra-1500-2026-6x139-7',
+            generation: '2018–present',
+            aliases: [
+              'GMC Sierra 1500 2026',
+              'Sierra 1500 2018–present',
+              '6x139.7'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-62',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'GMC Sierra 1500 2018–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/gmc/sierra-1500/2018-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-62',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'GMC Sierra 1500 2018–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/GMC/Sierra%201500/Sierra%201500%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sierra 2500',
+        slug: 'sierra-2500',
+        records: [
+          {
+            id: 'pcd-b10-gmc-sierra-2500-2026-8x180',
+            generation: '2019–present',
+            aliases: [
+              'GMC Sierra 2500 2026',
+              'Sierra 2500 2019–present',
+              '8x180'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '8x180',
+            centerBore: '124',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET0',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-63',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'GMC Sierra 2500 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/gmc/sierra-2500/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-63',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'GMC Sierra 2500 2019–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/GMC/Sierra%202500/Sierra%202500%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sierra 3500',
+        slug: 'sierra-3500',
+        records: [
+          {
+            id: 'pcd-b10-gmc-sierra-3500-2026-8x180',
+            generation: '2019–present',
+            aliases: [
+              'GMC Sierra 3500 2026',
+              'Sierra 3500 2019–present',
+              '8x180'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '8x180',
+            centerBore: '124',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET0',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-64',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'GMC Sierra 3500 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/gmc/sierra-3500/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-64',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'GMC Sierra 3500 2019–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/GMC/Sierra%203500/Sierra%203500%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -124187,6 +137957,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'FX 30,35,37,45,50',
+        slug: 'fx-30-35-37-45-50',
+        records: [
+          {
+            id: 'pcd-b10-infiniti-fx-30-35-37-45-50-2008-5x114-3',
+            generation: '2002–2008',
+            aliases: [
+              'Infiniti FX 30,35,37,45,50 2008',
+              'FX 30,35,37,45,50 2002–2008',
+              '5x114.3'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-80',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Infiniti FX 30,35,37,45,50 2002–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/infiniti/fx-30-35-37-45-50/2002-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-80',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Infiniti FX 30,35,37,45,50 2002–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Infiniti/FX%2030%2C35%2C37%2C45%2C50/FX%2030%2C35%2C37%2C45%2C50%20%282003%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -125039,6 +138884,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-jaguar-s-type-2008-5x108',
+            generation: '2006–2008',
+            aliases: [
+              'Jaguar S-Type 2008',
+              'S-Type 2006–2008',
+              '5x108'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.5',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-81',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Jaguar S-Type 2006–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/jaguar/s-type/2006-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-81',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jaguar S-Type 2006–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Jaguar/S-Type/S-Type%20%282006%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -126093,6 +140007,144 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-opel-corsa-1993-4x100',
+            generation: '1982–1993',
+            aliases: [
+              'Opel Corsa 1993',
+              'Corsa 1982–1993',
+              '4x100'
+            ],
+            years: '1993-1993',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-175',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Corsa 1982–1993 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/corsa/1982-1993/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1993); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-175',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Corsa 1982–1993 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Corsa/Corsa%20A%20%281982%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1993); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-opel-corsa-2019-4x100',
+            generation: '2014–2019',
+            aliases: [
+              'Opel Corsa 2019',
+              'Corsa 2014–2019',
+              '4x100'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-176',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Corsa 2014–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/corsa/2014-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-176',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Corsa 2014–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Corsa/Corsa%20E%20%282014%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -127285,6 +141337,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-opel-insignia-2022-5x115',
+            generation: '2017–2022',
+            aliases: [
+              'Opel Insignia 2022',
+              'Insignia 2017–2022',
+              '5x115'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.2',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-177',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Insignia 2017–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/insignia/2017-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-177',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Insignia 2017–2022 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Insignia/Insignia%20%282017%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2022); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -131113,6 +145234,375 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Ampera-e',
+        slug: 'ampera-e',
+        records: [
+          {
+            id: 'pcd-b10-opel-ampera-e-2021-5x105',
+            generation: '2017–2021',
+            aliases: [
+              'Opel Ampera-e 2021',
+              'Ampera-e 2017–2021',
+              '5x105'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-174',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Ampera-e 2017–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/ampera-e/2017-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-174',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Ampera-e 2017–2021 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Ampera-e/Ampera-e%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Kadett',
+        slug: 'kadett',
+        records: [
+          {
+            id: 'pcd-b10-opel-kadett-1984-4x100',
+            generation: '1979–1984',
+            aliases: [
+              'Opel Kadett 1984',
+              'Kadett 1979–1984',
+              '4x100'
+            ],
+            years: '1984-1984',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-178',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Kadett 1979–1984 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/kadett/1979-1984/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1984); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-178',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Kadett 1979–1984 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Kadett/Kadett%20D%20%281979%20-%201984%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1984); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-opel-kadett-1993-4x100',
+            generation: '1984–1993',
+            aliases: [
+              'Opel Kadett 1993',
+              'Kadett 1984–1993',
+              '4x100'
+            ],
+            years: '1993-1993',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-179',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Kadett 1984–1993 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/kadett/1984-1993/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1993); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-179',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Kadett 1984–1993 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Kadett/Kadett%20E%20%281984%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1993); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Vectra OPC',
+        slug: 'vectra-opc',
+        records: [
+          {
+            id: 'pcd-b10-opel-vectra-opc-2008-5x110',
+            generation: '2005–2008',
+            aliases: [
+              'Opel Vectra OPC 2008',
+              'Vectra OPC 2005–2008',
+              '5x110'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-180',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Vectra OPC 2005–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/vectra-opc/2005-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-180',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Vectra OPC 2005–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Vectra%20OPC/Vectra%20C%20OPC%20%282005%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Zafira OPC',
+        slug: 'zafira-opc',
+        records: [
+          {
+            id: 'pcd-b10-opel-zafira-opc-2011-5x110',
+            generation: '2006–2011',
+            aliases: [
+              'Opel Zafira OPC 2011',
+              'Zafira OPC 2006–2011',
+              '5x110'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-181',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Zafira OPC 2006–2011 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/zafira-opc/2006-2011/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-181',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Zafira OPC 2006–2011 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Opel/Zafira%20OPC/Zafira%20OPC%20%282006%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -134799,6 +149289,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; PCD, bore, fastener, thread and ET agree with the paired exact-generation publisher.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-daihatsu-cuore-2002-4x100',
+            generation: '1999–2002',
+            aliases: [
+              'Daihatsu Cuore 2002',
+              'Cuore 1999–2002',
+              '4x100'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-37',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Daihatsu Cuore 1999–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/daihatsu/cuore/1999-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-37',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Cuore 1999–2002 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Cuore/Cuore%20%281999%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -136993,6 +151552,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Flavia',
+        slug: 'flavia',
+        records: [
+          {
+            id: 'pcd-b10-lancia-flavia-2015-5x114-3',
+            generation: '2011–2015',
+            aliases: [
+              'Lancia Flavia 2015',
+              'Flavia 2011–2015',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-87',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lancia Flavia 2011–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lancia/flavia/2011-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-87',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lancia Flavia 2011–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lancia/Flavia/Flavia%20%282011%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -137119,6 +151753,144 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-lincoln-navigator-2002-5x135',
+            generation: '1997–2002',
+            aliases: [
+              'Lincoln Navigator 2002',
+              'Navigator 1997–2002',
+              '5x135'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x135',
+            centerBore: '87.1',
+            thread: 'M14x2.00',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET14',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-90',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lincoln Navigator 1997–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lincoln/navigator/1997-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-90',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lincoln Navigator 1997–2002 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lincoln/Navigator/Navigator%20%281998%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-lincoln-navigator-2006-6x135',
+            generation: '2002–2006',
+            aliases: [
+              'Lincoln Navigator 2006',
+              'Navigator 2002–2006',
+              '6x135'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '6x135',
+            centerBore: '87.1',
+            thread: 'M14x2.00',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-91',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lincoln Navigator 2002–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lincoln/navigator/2002-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-91',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lincoln Navigator 2002–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lincoln/Navigator/Navigator%20%282002%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -137811,6 +152583,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Continental',
+        slug: 'continental',
+        records: [
+          {
+            id: 'pcd-b10-lincoln-continental-2001-5x108',
+            generation: '1994–2002',
+            aliases: [
+              'Lincoln Continental 2001',
+              'Continental 1994–2002',
+              '5x108'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-89',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lincoln Continental 1994–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lincoln/continental/1994-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-89',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lincoln Continental 1994–2002 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Lincoln/Continental/Continental%20%281988%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -138383,6 +153230,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-saab-9-5-2014-5x120',
+            generation: '2010–2014',
+            aliases: [
+              'Saab 9-5 2014',
+              '9-5 2010–2014',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-214',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Saab 9-5 2010–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/saab/9-5/2010-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-214',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-5 2010–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-5/9-5%20%282010%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -138651,6 +153567,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '9-2X',
+        slug: '9-2x',
+        records: [
+          {
+            id: 'pcd-b10-saab-9-2x-2006-5x100',
+            generation: '2004–2006',
+            aliases: [
+              'Saab 9-2X 2006',
+              '9-2X 2004–2006',
+              '5x100'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-213',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Saab 9-2X 2004–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/saab/9-2x/2004-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-213',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-2X 2004–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-2X/9-2X%20%282004%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '9-7X',
+        slug: '9-7x',
+        records: [
+          {
+            id: 'pcd-b10-saab-9-7x-2008-6x127',
+            generation: '2005–2008',
+            aliases: [
+              'Saab 9-7X 2008',
+              '9-7X 2005–2008',
+              '6x127'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '6x127',
+            centerBore: '78.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-215',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Saab 9-7X 2005–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/saab/9-7x/2005-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-215',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9-7X 2005–2008 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Saab/9-7X/9-7X%20%282005%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -139786,6 +154852,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '360 Spider',
+        slug: '360-spider',
+        records: [
+          {
+            id: 'pcd-b10-ferrari-360-spider-2004-5x108',
+            generation: '1999–2004',
+            aliases: [
+              'Ferrari 360 Spider 2004',
+              '360 Spider 1999–2004',
+              '5x108'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-40',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ferrari 360 Spider 1999–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ferrari/360-spider/1999-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-40',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari 360 Spider 1999–2004 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/360%20Spider/360%20Spider%20%281999%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '488 Spider',
+        slug: '488-spider',
+        records: [
+          {
+            id: 'pcd-b10-ferrari-488-spider-2020-5x114-3',
+            generation: '2015–2020',
+            aliases: [
+              'Ferrari 488 Spider 2020',
+              '488 Spider 2015–2020',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-41',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ferrari 488 Spider 2015–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ferrari/488-spider/2015-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-41',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari 488 Spider 2015–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/488%20Spider/488%20Spider%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -141340,6 +156556,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'MGF Roadster',
+        slug: 'mgf-roadster',
+        records: [
+          {
+            id: 'pcd-b10-rover-mgf-roadster-2002-4x95-25',
+            generation: '1995–2002',
+            aliases: [
+              'Rover MGF Roadster 2002',
+              'MGF Roadster 1995–2002',
+              '4x95.25'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '4x95.25',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET28',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-212',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Rover MGF Roadster 1995–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/rover/mgf-roadster/1995-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-212',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rover MGF Roadster 1995–2002 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rover/MGF%20Roadster/MGF%20Roadster%20%281996%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -143013,6 +158304,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Torrent',
+        slug: 'torrent',
+        records: [
+          {
+            id: 'pcd-b10-pontiac-torrent-2009-5x115',
+            generation: '2005–2009',
+            aliases: [
+              'Pontiac Torrent 2009',
+              'Torrent 2005–2009',
+              '5x115'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-185',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Pontiac Torrent 2005–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/pontiac/torrent/2005-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-185',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Torrent 2005–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Torrent/Torrent%20%282005%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -143606,6 +158972,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-alpina-b3-2025-5x112',
+            generation: '2020–2025',
+            aliases: [
+              'Alpina B3 2025',
+              'B3 2020–2025',
+              '5x112'
+            ],
+            years: '2025-2025',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-7',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alpina B3 2020–2025 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alpina/b3/2020-2025/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–2025); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-7',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alpina B3 2020–2025 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Alpina/B3/B3%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–2025); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -146405,6 +161840,81 @@ const PCD_DATA = [
                   'centerBore'
                 ],
                 limitations: 'Independent exact-year application reference confirming generation, PCD and centre bore; fastener, ET and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cygnet',
+        slug: 'cygnet',
+        records: [
+          {
+            id: 'pcd-b10-aston-martin-cygnet-2013-4x100',
+            generation: '2011–2013',
+            aliases: [
+              'Aston Martin Cygnet 2013',
+              'Cygnet 2011–2013',
+              '4x100'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-8',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Aston Martin Cygnet 2011–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/aston-martin/cygnet/2011-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-8',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Aston Martin Cygnet 2011–2013 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Aston%20Martin/Cygnet/Cygnet%20%282011%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -149216,6 +164726,144 @@ const PCD_DATA = [
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mercedes-sl-2001-5x112',
+            generation: '1989–2001',
+            aliases: [
+              'Mercedes SL 2001',
+              'SL 1989–2001',
+              '5x112'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-141',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes SL 1989–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/sl/1989-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1989–2001); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-141',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SL 1989–2001 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SL/SL%20R129%20%281989%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1989–2001); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-sl-1989-5x112',
+            generation: '1971–1989',
+            aliases: [
+              'Mercedes SL 1989',
+              'SL 1971–1989',
+              '5x112'
+            ],
+            years: '1989-1989',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-142',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes SL 1971–1989 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/sl/1971-1989/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1971–1989); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-142',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SL 1971–1989 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SL/SL%20W107%20%281971%20-%201989%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1971–1989); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -149269,6 +164917,213 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-a-klasse-2004-5x112',
+            generation: '1997–2004',
+            aliases: [
+              'Mercedes A-Klasse 2004',
+              'A-Klasse 1997–2004',
+              '5x112'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET54',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-103',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes A-Klasse 1997–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/a-klasse/1997-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-103',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes A-Klasse 1997–2004 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/A-Klasse/A-Klasse%20W168%20%281997%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-a-klasse-2012-5x112',
+            generation: '2004–2012',
+            aliases: [
+              'Mercedes A-Klasse 2012',
+              'A-Klasse 2004–2012',
+              '5x112'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-104',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes A-Klasse 2004–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/a-klasse/2004-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-104',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes A-Klasse 2004–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/A-Klasse/A-Klasse%20W169%20%282004%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-a-klasse-2018-5x112',
+            generation: '2012–2018',
+            aliases: [
+              'Mercedes A-Klasse 2018',
+              'A-Klasse 2012–2018',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-105',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes A-Klasse 2012–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/a-klasse/2012-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-105',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes A-Klasse 2012–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/A-Klasse/A-Klasse%20W176%20%282012%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -149379,6 +165234,282 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-c-klasse-2021-5x112',
+            generation: '2014–2021',
+            aliases: [
+              'Mercedes C-Klasse 2021',
+              'C-Klasse 2014–2021',
+              '5x112'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET56',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-107',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes C-Klasse 2014–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/c-klasse/2014-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-107',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes C-Klasse 2014–2021 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/C-Klasse/C-Klasse%20C205%20%282015%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2021); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-c-klasse-2000-5x112',
+            generation: '1993–2000',
+            aliases: [
+              'Mercedes C-Klasse 2000',
+              'C-Klasse 1993–2000',
+              '5x112'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-108',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes C-Klasse 1993–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/c-klasse/1993-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-108',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes C-Klasse 1993–2000 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/C-Klasse/C-Klasse%20W202%20%281993%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-c-klasse-2007-5x112',
+            generation: '2000–2007',
+            aliases: [
+              'Mercedes C-Klasse 2007',
+              'C-Klasse 2000–2007',
+              '5x112'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-109',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes C-Klasse 2000–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/c-klasse/2000-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-109',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes C-Klasse 2000–2007 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/C-Klasse/C-Klasse%20W203%20%282000%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2007); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-c-klasse-2013-5x112',
+            generation: '2007–2013',
+            aliases: [
+              'Mercedes C-Klasse 2013',
+              'C-Klasse 2007–2013',
+              '5x112'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-110',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes C-Klasse 2007–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/c-klasse/2007-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-110',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes C-Klasse 2007–2013 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/C-Klasse/C-Klasse%20W204%20%282007%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -149863,6 +165994,351 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mercedes-e-klasse-2016-5x112',
+            generation: '2009–2016',
+            aliases: [
+              'Mercedes E-Klasse 2016',
+              'E-Klasse 2009–2016',
+              '5x112'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-118',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse 2009–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse/2009-2016-2/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-118',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse 2009–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse/E-Klasse%20C207%20%282009%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-e-klasse-1985-5x112',
+            generation: '1975–1986',
+            aliases: [
+              'Mercedes E-Klasse 1985',
+              'E-Klasse 1975–1986',
+              '5x112'
+            ],
+            years: '1985-1985',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-119',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse 1975–1986 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse/1975-1986/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1975–1986); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-119',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse 1975–1986 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse/E-Klasse%20W123%20%281976%20-%201985%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1975–1986); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-e-klasse-1995-5x112',
+            generation: '1985–1997',
+            aliases: [
+              'Mercedes E-Klasse 1995',
+              'E-Klasse 1985–1997',
+              '5x112'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-120',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse 1985–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse/1985-1997/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-120',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse 1985–1997 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse/E-Klasse%20W124%20%281985%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1997); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-e-klasse-2002-5x112',
+            generation: '1995–2002',
+            aliases: [
+              'Mercedes E-Klasse 2002',
+              'E-Klasse 1995–2002',
+              '5x112'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-121',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse 1995–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse/1995-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-121',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse 1995–2002 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse/E-Klasse%20W210%20%281995%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-e-klasse-2009-5x112',
+            generation: '2002–2009',
+            aliases: [
+              'Mercedes E-Klasse 2009',
+              'E-Klasse 2002–2009',
+              '5x112'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-122',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse 2002–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse/2002-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-122',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse 2002–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse/E-Klasse%20W211%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -149971,6 +166447,213 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-g-klasse-1991-5x130',
+            generation: '1979–1991',
+            aliases: [
+              'Mercedes G-Klasse 1991',
+              'G-Klasse 1979–1991',
+              '5x130'
+            ],
+            years: '1991-1991',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET63',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-127',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes G-Klasse 1979–1991 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/g-klasse/1979-1991/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1991); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-127',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes G-Klasse 1979–1991 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/G-Klasse/G-Klasse%20W460%20%281979%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1991); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-g-klasse-1997-5x130',
+            generation: '1992–2001',
+            aliases: [
+              'Mercedes G-Klasse 1997',
+              'G-Klasse 1992–2001',
+              '5x130'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET63',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-128',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes G-Klasse 1992–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/g-klasse/1992-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2001); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-128',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes G-Klasse 1992–2001 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/G-Klasse/G-Klasse%20W461%20%281991%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2001); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-g-klasse-2018-5x130',
+            generation: '1990–2018',
+            aliases: [
+              'Mercedes G-Klasse 2018',
+              'G-Klasse 1990–2018',
+              '5x130'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET63',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-129',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes G-Klasse 1990–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/g-klasse/1990-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1990–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-129',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes G-Klasse 1990–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/G-Klasse/G-Klasse%20W463%20%281990%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1990–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -150207,6 +166890,144 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mercedes-m-klasse-2005-5x112',
+            generation: '2002–2005',
+            aliases: [
+              'Mercedes M-Klasse 2005',
+              'M-Klasse 2002–2005',
+              '5x112'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-132',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes M-Klasse 2002–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/m-klasse/2002-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-132',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes M-Klasse 2002–2005 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/M-Klasse/M-Klasse%20W163%20%282002%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-m-klasse-2011-5x112',
+            generation: '2005–2011',
+            aliases: [
+              'Mercedes M-Klasse 2011',
+              'M-Klasse 2005–2011',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET56',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-133',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes M-Klasse 2005–2011 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/m-klasse/2005-2011/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-133',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes M-Klasse 2005–2011 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/M-Klasse/M-Klasse%20W164%20%282005%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
           }
         ]
       },
@@ -150439,6 +167260,282 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-s-klasse-1980-5x112',
+            generation: '1972–1980',
+            aliases: [
+              'Mercedes S-Klasse 1980',
+              'S-Klasse 1972–1980',
+              '5x112'
+            ],
+            years: '1980-1980',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-136',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes S-Klasse 1972–1980 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/s-klasse/1972-1980/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1972–1980); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-136',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes S-Klasse 1972–1980 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/S-Klasse/S-Klasse%20W116%20%281972%20-%201980%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1972–1980); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-s-klasse-1991-5x112',
+            generation: '1979–1991',
+            aliases: [
+              'Mercedes S-Klasse 1991',
+              'S-Klasse 1979–1991',
+              '5x112'
+            ],
+            years: '1991-1991',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-137',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes S-Klasse 1979–1991 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/s-klasse/1979-1991/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1991); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-137',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes S-Klasse 1979–1991 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/S-Klasse/S-Klasse%20W126%20%281979%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1991); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-s-klasse-1998-5x112',
+            generation: '1991–1998',
+            aliases: [
+              'Mercedes S-Klasse 1998',
+              'S-Klasse 1991–1998',
+              '5x112'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-138',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes S-Klasse 1991–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/s-klasse/1991-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-138',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes S-Klasse 1991–1998 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/S-Klasse/S-Klasse%20W140%20%281991%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-s-klasse-2005-5x112',
+            generation: '1998–2005',
+            aliases: [
+              'Mercedes S-Klasse 2005',
+              'S-Klasse 1998–2005',
+              '5x112'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-139',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes S-Klasse 1998–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/s-klasse/1998-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-139',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes S-Klasse 1998–2005 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/S-Klasse/S-Klasse%20W220%20%281998%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2005); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -150754,6 +167851,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-cls-klasse-2017-5x112',
+            generation: '2011–2017',
+            aliases: [
+              'Mercedes CLS-Klasse 2017',
+              'CLS-Klasse 2011–2017',
+              '5x112'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-115',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes CLS-Klasse 2011–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/cls-klasse/2011-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2017); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-115',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes CLS-Klasse 2011–2017 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/CLS-Klasse/CLS-Klasse%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2017); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -151356,6 +168522,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-mercedes-gls-klasse-2015-5x112',
+            generation: '2012–2015',
+            aliases: [
+              'Mercedes GLS-Klasse 2015',
+              'GLS-Klasse 2012–2015',
+              '5x112'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET62',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-131',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes GLS-Klasse 2012–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/gls-klasse/2012-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-131',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes GLS-Klasse 2012–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/GLS-Klasse/GLS-Klasse%20%282015%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       },
@@ -151504,6 +168739,1263 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'A-Klasse AMG',
+        slug: 'a-klasse-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-a-klasse-amg-2018-5x112',
+            generation: '2013–2018',
+            aliases: [
+              'Mercedes A-Klasse AMG 2018',
+              'A-Klasse AMG 2013–2018',
+              '5x112'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-106',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes A-Klasse AMG 2013–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/a-klasse-amg/2013-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-106',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes A-Klasse AMG 2013–2018 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/A-Klasse%20AMG/A-Klasse%20W176%20AMG%20%282013%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2018); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C-Klasse 450 AMG',
+        slug: 'c-klasse-450-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-c-klasse-450-amg-2016-5x112',
+            generation: '2015–2016',
+            aliases: [
+              'Mercedes C-Klasse 450 AMG 2016',
+              'C-Klasse 450 AMG 2015–2016',
+              '5x112'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-111',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes C-Klasse 450 AMG 2015–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/c-klasse-450-amg/2015-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-111',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes C-Klasse 450 AMG 2015–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/C-Klasse%20450%20AMG/C-Klasse%20450%20AMG%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C-Klasse C36 AMG',
+        slug: 'c-klasse-c36-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-c-klasse-c36-amg-1998-5x112',
+            generation: '1995–1998',
+            aliases: [
+              'Mercedes C-Klasse C36 AMG 1998',
+              'C-Klasse C36 AMG 1995–1998',
+              '5x112'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-112',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes C-Klasse C36 AMG 1995–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/c-klasse-c36-amg/1995-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-112',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes C-Klasse C36 AMG 1995–1998 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/C-Klasse%20C36%20AMG/C-Klasse%20W202%20C36%20AMG%20%281995%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1998); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C-Klasse C43 AMG',
+        slug: 'c-klasse-c43-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-c-klasse-c43-amg-2000-5x112',
+            generation: '1998–2000',
+            aliases: [
+              'Mercedes C-Klasse C43 AMG 2000',
+              'C-Klasse C43 AMG 1998–2000',
+              '5x112'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-113',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes C-Klasse C43 AMG 1998–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/c-klasse-c43-amg/1998-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-113',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes C-Klasse C43 AMG 1998–2000 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/C-Klasse%20C43%20AMG/C-Klasse%20W202%20C43%20AMG%20%281998%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2000); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C-Klasse C63 AMG',
+        slug: 'c-klasse-c63-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-c-klasse-c63-amg-2013-5x112',
+            generation: '2008–2013',
+            aliases: [
+              'Mercedes C-Klasse C63 AMG 2013',
+              'C-Klasse C63 AMG 2008–2013',
+              '5x112'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET54',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-114',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes C-Klasse C63 AMG 2008–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/c-klasse-c63-amg/2008-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-114',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes C-Klasse C63 AMG 2008–2013 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/C-Klasse%20C63%20AMG/C-Klasse%20W204%20C63%20AMG%20%282008%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2013); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CLS-Klasse CLS63 AMG',
+        slug: 'cls-klasse-cls63-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-cls-klasse-cls63-amg-2010-5x112',
+            generation: '2006–2010',
+            aliases: [
+              'Mercedes CLS-Klasse CLS63 AMG 2010',
+              'CLS-Klasse CLS63 AMG 2006–2010',
+              '5x112'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET28',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-116',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes CLS-Klasse CLS63 AMG 2006–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/cls-klasse-cls63-amg/2006-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-116',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes CLS-Klasse CLS63 AMG 2006–2010 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/CLS-Klasse%20CLS63%20AMG/CLS-Klasse%20CLS63%20AMG%20%282006%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2010); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-cls-klasse-cls63-amg-2017-5x112',
+            generation: '2011–2017',
+            aliases: [
+              'Mercedes CLS-Klasse CLS63 AMG 2017',
+              'CLS-Klasse CLS63 AMG 2011–2017',
+              '5x112'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-117',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes CLS-Klasse CLS63 AMG 2011–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/cls-klasse-cls63-amg/2011-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2017); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-117',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes CLS-Klasse CLS63 AMG 2011–2017 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/CLS-Klasse%20CLS63%20AMG/CLS-Klasse%20CLS63%20AMG%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2017); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E-Klasse E50 AMG',
+        slug: 'e-klasse-e50-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-e-klasse-e50-amg-2003-5x112',
+            generation: '1996–2003',
+            aliases: [
+              'Mercedes E-Klasse E50 AMG 2003',
+              'E-Klasse E50 AMG 1996–2003',
+              '5x112'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-123',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse E50 AMG 1996–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse-e50-amg/1996-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2003); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-123',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse E50 AMG 1996–2003 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse%20E50%20AMG/E-Klasse%20W210%20E50%20AMG%20%281996%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2003); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E-Klasse E55 AMG',
+        slug: 'e-klasse-e55-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-e-klasse-e55-amg-2006-5x112',
+            generation: '2002–2006',
+            aliases: [
+              'Mercedes E-Klasse E55 AMG 2006',
+              'E-Klasse E55 AMG 2002–2006',
+              '5x112'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-124',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse E55 AMG 2002–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse-e55-amg/2002-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-124',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse E55 AMG 2002–2006 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse%20E55%20AMG/E-Klasse%20W211%20E55%20AMG%20%282002%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2006); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E-Klasse E63 AMG',
+        slug: 'e-klasse-e63-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-e-klasse-e63-amg-2009-5x112',
+            generation: '2006–2009',
+            aliases: [
+              'Mercedes E-Klasse E63 AMG 2009',
+              'E-Klasse E63 AMG 2006–2009',
+              '5x112'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-125',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse E63 AMG 2006–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse-e63-amg/2006-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-125',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse E63 AMG 2006–2009 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse%20E63%20AMG/E-Klasse%20W211%20E63%20AMG%20%282006%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-e-klasse-e63-amg-2016-5x112',
+            generation: '2009–2016',
+            aliases: [
+              'Mercedes E-Klasse E63 AMG 2016',
+              'E-Klasse E63 AMG 2009–2016',
+              '5x112'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-126',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse E63 AMG 2009–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse-e63-amg/2009-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-126',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse E63 AMG 2009–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse%20E63%20AMG/E-Klasse%20W212%20E63%20AMG%20%282009%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GLA-Klasse',
+        slug: 'gla-klasse',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-gla-klasse-2026-5x112',
+            generation: '2019–present',
+            aliases: [
+              'Mercedes GLA-Klasse 2026',
+              'GLA-Klasse 2019–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-130',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes GLA-Klasse 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/gla-klasse/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-130',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes GLA-Klasse 2019–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/GLA-Klasse/GLA-Klasse%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M-Klasse ML63 AMG',
+        slug: 'm-klasse-ml63-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-m-klasse-ml63-amg-2011-5x112',
+            generation: '2006–2011',
+            aliases: [
+              'Mercedes M-Klasse ML63 AMG 2011',
+              'M-Klasse ML63 AMG 2006–2011',
+              '5x112'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-134',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes M-Klasse ML63 AMG 2006–2011 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/m-klasse-ml63-amg/2006-2011/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-134',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes M-Klasse ML63 AMG 2006–2011 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/M-Klasse%20ML63%20AMG/M-Klasse%20W164%20ML63%20AMG%20%282006%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercedes-m-klasse-ml63-amg-2015-5x112',
+            generation: '2012–2015',
+            aliases: [
+              'Mercedes M-Klasse ML63 AMG 2015',
+              'M-Klasse ML63 AMG 2012–2015',
+              '5x112'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET56',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-135',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes M-Klasse ML63 AMG 2012–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/m-klasse-ml63-amg/2012-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-135',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes M-Klasse ML63 AMG 2012–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/M-Klasse%20ML63%20AMG/M-Klasse%20W166%20ML63%20AMG%20%282012%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S-Klasse S55 AMG',
+        slug: 's-klasse-s55-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-s-klasse-s55-amg-2002-5x112',
+            generation: '1999–2002',
+            aliases: [
+              'Mercedes S-Klasse S55 AMG 2002',
+              'S-Klasse S55 AMG 1999–2002',
+              '5x112'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-140',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes S-Klasse S55 AMG 1999–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/s-klasse-s55-amg/1999-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-140',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes S-Klasse S55 AMG 1999–2002 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/S-Klasse%20S55%20AMG/S-Klasse%20W220%20S55%20AMG%20%281999%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2002); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SLK SLK32 AMG',
+        slug: 'slk-slk32-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-slk-slk32-amg-2004-5x112',
+            generation: '1996–2004',
+            aliases: [
+              'Mercedes SLK SLK32 AMG 2004',
+              'SLK SLK32 AMG 1996–2004',
+              '5x112'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-143',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes SLK SLK32 AMG 1996–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/slk-slk32-amg/1996-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-143',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SLK SLK32 AMG 1996–2004 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SLK%20SLK32%20AMG/SLK%20R170%20SLK32%20AMG%20%281996%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2004); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SLK SLK55 AMG',
+        slug: 'slk-slk55-amg',
+        records: [
+          {
+            id: 'pcd-b10-mercedes-slk-slk55-amg-2015-5x112',
+            generation: '2012–2015',
+            aliases: [
+              'Mercedes SLK SLK55 AMG 2015',
+              'SLK SLK55 AMG 2012–2015',
+              '5x112'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-144',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes SLK SLK55 AMG 2012–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/slk-slk55-amg/2012-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-144',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SLK SLK55 AMG 2012–2015 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SLK%20SLK55%20AMG/SLK%20R172%20SLK55%20AMG%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2015); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -152180,6 +170672,225 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-maserati-quattroporte-2012-5x114-3',
+            generation: '2003–2012',
+            aliases: [
+              'Maserati Quattroporte 2012',
+              'Quattroporte 2003–2012',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-94',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Quattroporte 2003–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/quattroporte/2003-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-94',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Quattroporte 2003–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Quattroporte/Quattroporte%20%282003%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GranCabrio',
+        slug: 'grancabrio',
+        records: [
+          {
+            id: 'pcd-b10-maserati-grancabrio-2019-5x114-3',
+            generation: '2010–2019',
+            aliases: [
+              'Maserati GranCabrio 2019',
+              'GranCabrio 2010–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-92',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati GranCabrio 2010–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/grancabrio/2010-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-92',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati GranCabrio 2010–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Maserati/GranCabrio/GranCabrio%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Granturismo',
+        slug: 'granturismo',
+        records: [
+          {
+            id: 'pcd-b10-maserati-granturismo-2019-5x114-3',
+            generation: '2007–2019',
+            aliases: [
+              'Maserati Granturismo 2019',
+              'Granturismo 2007–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-93',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Granturismo 2007–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/granturismo/2007-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-93',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Granturismo 2007–2019 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Granturismo/Granturismo%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2019); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       }
@@ -152791,6 +171502,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Rodius',
+        slug: 'rodius',
+        records: [
+          {
+            id: 'pcd-b10-ssang-yong-rodius-2012-5x130',
+            generation: '2004–2012',
+            aliases: [
+              'Ssang Yong Rodius 2012',
+              'Rodius 2004–2012',
+              '5x130'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '80 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-229',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ssang Yong Rodius 2004–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ssang-yong/rodius/2004-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              },
+              {
+                id: 'pcd-b10-src-wf-229',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ssang Yong Rodius 2004–2012 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Ssang%20Yong/Rodius/Rodius%20%282005%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2012); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
               }
             ]
           }
@@ -154242,6 +173028,363 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
+          },
+          {
+            id: 'pcd-b10-aixam-minauto-2026-4x115',
+            generation: '2021–present',
+            aliases: [
+              'Aixam Minauto 2026',
+              'Minauto 2021–present',
+              '4x115'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x115',
+            centerBore: '83.1',
+            thread: 'M10x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-5',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Aixam Minauto 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/aixam/minauto/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-5',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Aixam Minauto 2021–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Aixam/Minauto/Minauto%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'City',
+        slug: 'city',
+        records: [
+          {
+            id: 'pcd-b10-aixam-city-2020-4x115',
+            generation: '2016–2020',
+            aliases: [
+              'Aixam City 2020',
+              'City 2016–2020',
+              '4x115'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '4x115',
+            centerBore: '83.1',
+            thread: 'M10x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-1',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Aixam City 2016–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/aixam/city/2016-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-1',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Aixam City 2016–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Aixam/City/City%20%282016%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-aixam-city-2026-4x115',
+            generation: '2020–present',
+            aliases: [
+              'Aixam City 2026',
+              'City 2020–present',
+              '4x115'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x115',
+            centerBore: '83.1',
+            thread: 'M10x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-2',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Aixam City 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/aixam/city/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-2',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Aixam City 2020–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Aixam/City/City%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Crossover',
+        slug: 'crossover',
+        records: [
+          {
+            id: 'pcd-b10-aixam-crossover-2020-4x115',
+            generation: '2018–2020',
+            aliases: [
+              'Aixam Crossover 2020',
+              'Crossover 2018–2020',
+              '4x115'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '4x115',
+            centerBore: '83.1',
+            thread: 'M10x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-3',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Aixam Crossover 2018–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/aixam/crossover/2018-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-3',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Aixam Crossover 2018–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Aixam/Crossover/Crossover%20%282018%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-aixam-crossover-2026-4x115',
+            generation: '2020–present',
+            aliases: [
+              'Aixam Crossover 2026',
+              'Crossover 2020–present',
+              '4x115'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x115',
+            centerBore: '83.1',
+            thread: 'M10x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-4',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Aixam Crossover 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/aixam/crossover/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-4',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Aixam Crossover 2020–present wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Aixam/Crossover/Crossover%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
           }
         ]
       }
@@ -154607,6 +173750,150 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '180SX',
+        slug: '180sx',
+        records: [
+          {
+            id: 'pcd-b10-datsun-180sx-1979-4x114-3',
+            generation: '1975–1979',
+            aliases: [
+              'Datsun 180SX 1979',
+              '180SX 1975–1979',
+              '4x114.3'
+            ],
+            years: '1979-1979',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '73',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-38',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Datsun 180SX 1975–1979 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/datsun/180sx/1975-1979/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1975–1979); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-38',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Datsun 180SX 1975–1979 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Datsun/180SX/180SX%20%281975%20-%201979%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1975–1979); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-datsun-180sx-1983-4x114-3',
+            generation: '1979–1983',
+            aliases: [
+              'Datsun 180SX 1983',
+              '180SX 1979–1983',
+              '4x114.3'
+            ],
+            years: '1983-1983',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '73',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-39',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Datsun 180SX 1979–1983 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/datsun/180sx/1979-1983/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1983); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-39',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Datsun 180SX 1979–1983 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Datsun/180SX/180SX%20%281979%20-%201983%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1983); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -154853,6 +174140,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Barina Spark',
+        slug: 'barina-spark',
+        records: [
+          {
+            id: 'pcd-b10-holden-barina-spark-2016-4x100',
+            generation: '2010–2016',
+            aliases: [
+              'Holden Barina Spark 2016',
+              'Barina Spark 2010–2016',
+              '4x100'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-65',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Holden Barina Spark 2010–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/holden/barina-spark/2010-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-65',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Holden Barina Spark 2010–2016 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Holden/Barina%20Spark/Barina%20Spark%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2016); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Colorado',
+        slug: 'colorado',
+        records: [
+          {
+            id: 'pcd-b10-holden-colorado-2020-6x139-7',
+            generation: '2012–2020',
+            aliases: [
+              'Holden Colorado 2020',
+              'Colorado 2012–2020',
+              '6x139.7'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '99.5',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-66',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Holden Colorado 2012–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/holden/colorado/2012-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-66',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Holden Colorado 2012–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Holden/Colorado/Colorado%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -155491,6 +174928,150 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sable',
+        slug: 'sable',
+        records: [
+          {
+            id: 'pcd-b10-mercury-sable-1991-5x108',
+            generation: '1985–1991',
+            aliases: [
+              'Mercury Sable 1991',
+              'Sable 1985–1991',
+              '5x108'
+            ],
+            years: '1991-1991',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-145',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercury Sable 1985–1991 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercury/sable/1985-1991/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1991); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-145',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercury Sable 1985–1991 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercury/Sable/Sable%20%281986%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1991); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-mercury-sable-1999-5x108',
+            generation: '1995–1999',
+            aliases: [
+              'Mercury Sable 1999',
+              'Sable 1995–1999',
+              '5x108'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-146',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercury Sable 1995–1999 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercury/sable/1995-1999/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1999); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-146',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercury Sable 1995–1999 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Mercury/Sable/Sable%20%281992%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1999); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
@@ -156972,6 +176553,150 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ghost',
+        slug: 'ghost',
+        records: [
+          {
+            id: 'pcd-b10-rolls-royce-ghost-2014-5x120',
+            generation: '2009–2014',
+            aliases: [
+              'Rolls-Royce Ghost 2014',
+              'Ghost 2009–2014',
+              '5x120'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-210',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Rolls-Royce Ghost 2009–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/rolls-royce/ghost/2009-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-210',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rolls-Royce Ghost 2009–2014 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rolls-Royce/Ghost/Ghost%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2014); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b10-rolls-royce-ghost-2020-5x120',
+            generation: '2014–2020',
+            aliases: [
+              'Rolls-Royce Ghost 2020',
+              'Ghost 2014–2020',
+              '5x120'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b10-src-atlas-211',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Rolls-Royce Ghost 2014–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/rolls-royce/ghost/2014-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              },
+              {
+                id: 'pcd-b10-src-wf-211',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rolls-Royce Ghost 2014–2020 wheel fitment',
+                url: 'https://www.wheel-fitment.com/car/Rolls-Royce/Ghost/Ghost%20%282014%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2020); page has no market or regional qualifier',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
               }
             ]
           }
