@@ -17,7 +17,7 @@ const data = context.data;
 const page = read('pcd.html');
 
 const makes = search.makers(data);
-assert.equal(makes.length, 91, 'Make selector must expose every unique make');
+assert.equal(makes.length, 92, 'Make selector must expose every unique make');
 assert.equal(new Set(makes.map((make) => make.slug)).size, makes.length, 'Make selector contains duplicate slugs');
 assert.deepEqual(makes.map((make) => make.name), makes.map((make) => make.name).slice().sort((a, b) => a.localeCompare(b)), 'Makes are not alphabetical');
 
