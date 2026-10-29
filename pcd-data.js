@@ -2545,6 +2545,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-audi-s3-2003-5x100',
+            generation: '1999–2003',
+            aliases: [
+              'Audi S3 2003',
+              'S3 1999–2003',
+              '5x100'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-17',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/S3/S3%20%281999%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-17',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi S3 1999–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/s3/1999-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -2874,6 +2943,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-audi-s4-2001-5x112',
+            generation: '1997–2001',
+            aliases: [
+              'Audi S4 2001',
+              'S4 1997–2001',
+              '5x112'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-18',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/S4/S4%20%281997%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-18',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi S4 1997–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/s4/1997-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -3210,6 +3348,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-audi-s6-1997-5x112',
+            generation: '1994–1997',
+            aliases: [
+              'Audi S6 1997',
+              'S6 1994–1997',
+              '5x112'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-19',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/S6/S6%20%281994%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1997); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-19',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi S6 1994–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/s6/1994-1997/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1997); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -5915,6 +6122,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-audi-s8-2002-5x112',
+            generation: '1996–2002',
+            aliases: [
+              'Audi S8 2002',
+              'S8 1996–2002',
+              '5x112'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-20',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S8 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/S8/S8%20%281996%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-20',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi S8 1996–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/s8/1996-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -6443,6 +6719,231 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'A4 Cabriolet',
+        slug: 'a4-cabriolet',
+        records: [
+          {
+            id: 'pcd-b8-audi-a4-cabriolet-2009-5x112',
+            generation: '2002–2009',
+            aliases: [
+              'Audi A4 Cabriolet 2009',
+              'A4 Cabriolet 2002–2009',
+              '5x112'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-14',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi A4 Cabriolet wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/A4%20Cabriolet/A4%20Cabriolet%208H%20%282002%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-14',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi A4 Cabriolet 2002–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/a4-cabriolet/2002-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E-Tron',
+        slug: 'e-tron',
+        records: [
+          {
+            id: 'pcd-b8-audi-e-tron-2023-5x112',
+            generation: '2018–2023',
+            aliases: [
+              'Audi E-Tron 2023',
+              'E-Tron 2018–2023',
+              '5x112'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-15',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi E-Tron wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/E-Tron/E-Tron%20%282018%20-%202023%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-15',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi E-Tron 2018–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/e-tron/2018-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2018–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S2',
+        slug: 's2',
+        records: [
+          {
+            id: 'pcd-b8-audi-s2-1995-5x112',
+            generation: '1990–1995',
+            aliases: [
+              'Audi S2 1995',
+              'S2 1990–1995',
+              '5x112'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-16',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Audi S2 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Audi/S2/S2%20%281990%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1990–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-16',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Audi S2 1990–1995 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/audi/s2/1990-1995/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1990–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -7334,6 +7835,92 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-skoda-rapid-2020-5x100',
+            generation: '2012–2020',
+            aliases: [
+              'Skoda Rapid 2020',
+              'Rapid 2012–2020',
+              '5x100'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-209',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Rapid wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Rapid/Rapid%20%282012%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-209',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Skoda Rapid 2012–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/skoda/rapid/2012-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-ankusi-209',
+                type: 'technicalReference',
+                publisher: 'ANKUSI Wheels',
+                title: 'Skoda Rapid 2020 fitment guide',
+                url: 'https://ankusiwheels.com/ru/fitment-guide/skoda-rapid-ii-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact 2020 application page',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore'
+                ],
+                limitations: 'Independent application reference used as a third confirmation for year, PCD and centre bore; fastener and torque are not taken from this source.'
+              }
+            ]
           }
         ]
       },
@@ -8071,6 +8658,156 @@ const PCD_DATA = [
                   'threadSize'
                 ],
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Enyaq',
+        slug: 'enyaq',
+        records: [
+          {
+            id: 'pcd-b8-skoda-enyaq-2026-5x112',
+            generation: '2020–present',
+            aliases: [
+              'Skoda Enyaq 2026',
+              'Enyaq 2020–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-207',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Enyaq wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Enyaq/Enyaq%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-207',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Skoda Enyaq 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/skoda/enyaq/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Praktik',
+        slug: 'praktik',
+        records: [
+          {
+            id: 'pcd-b8-skoda-praktik-2015-5x100',
+            generation: '2007–2015',
+            aliases: [
+              'Skoda Praktik 2015',
+              'Praktik 2007–2015',
+              '5x100'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-208',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Skoda Praktik wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Skoda/Praktik/Praktik%20%282003%20-%202015%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-208',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Skoda Praktik 2007–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/skoda/praktik/2007-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -9349,6 +10086,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Arosa',
+        slug: 'arosa',
+        records: [
+          {
+            id: 'pcd-b8-seat-arosa-2005-4x100',
+            generation: '1997–2005',
+            aliases: [
+              'Seat Arosa 2005',
+              'Arosa 1997–2005',
+              '4x100'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-205',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Arosa wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Seat/Arosa/Arosa%20%281997%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-205',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Arosa 1997–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/arosa/1997-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Inca',
+        slug: 'inca',
+        records: [
+          {
+            id: 'pcd-b8-seat-inca-2003-4x100',
+            generation: '1995–2003',
+            aliases: [
+              'Seat Inca 2003',
+              'Inca 1995–2003',
+              '4x100'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-206',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Seat Inca wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Seat/Inca/Inca%20%281995%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-206',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Seat Inca 1995–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/seat/inca/1995-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -11339,6 +12226,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-volkswagen-caddy-1992-4x100',
+            generation: '1982–1992',
+            aliases: [
+              'Volkswagen Caddy 1992',
+              'Caddy 1982–1992',
+              '4x100'
+            ],
+            years: '1992-1992',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-226',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Caddy wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Caddy/Caddy%20%281982%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1992); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-226',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Caddy 1982–1992 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/caddy/1979-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1992); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -12111,6 +13067,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-volkswagen-touareg-2010-5x130',
+            generation: '2002–2010',
+            aliases: [
+              'Volkswagen Touareg 2010',
+              'Touareg 2002–2010',
+              '5x130'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '180 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-236',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Touareg wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Touareg/Touareg%20%282002%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-236',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Touareg 2002–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/touareg/2002-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -12917,6 +13942,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-volkswagen-fox-1993-4x100',
+            generation: '1987–1993',
+            aliases: [
+              'Volkswagen Fox 1993',
+              'Fox 1987–1993',
+              '4x100'
+            ],
+            years: '1993-1993',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-229',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Fox wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Fox/Fox%20%281987%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1993); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-229',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Fox 1987–1993 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/fox/1987-1993/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1993); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -14265,6 +15359,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-volkswagen-cross-golf-2009-5x112',
+            generation: '2007–2009',
+            aliases: [
+              'Volkswagen Cross Golf 2009',
+              'Cross Golf 2007–2009',
+              '5x112'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-228',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Cross Golf wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Cross%20Golf/Cross%20Golf%20%282007%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-228',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Cross Golf 2007–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/cross-golf/2007-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -15163,6 +16326,698 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Beetle',
+        slug: 'beetle',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-beetle-1979-4x130',
+            generation: '1970–1979',
+            aliases: [
+              'Volkswagen Beetle 1979',
+              'Beetle 1970–1979',
+              '4x130'
+            ],
+            years: '1979-1979',
+            market: 'Global',
+            pcd: '4x130',
+            centerBore: '78.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-225',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Beetle wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Beetle/Beetle%20%281970%20-%201979%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1970–1979); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-225',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Beetle 1970–1979 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/beetle/1967-1979/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1970–1979); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Crafter 30,35',
+        slug: 'crafter-30-35',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-crafter-30-35-2013-6x130',
+            generation: '2006–2013',
+            aliases: [
+              'Volkswagen Crafter 30,35 2013',
+              'Crafter 30,35 2006–2013',
+              '6x130'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '6x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET62',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-227',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Crafter 30,35 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Crafter%2030%2C35/Crafter%2030%2C35%20%282006%20-%202013%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-227',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Crafter 30,35 2006–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/crafter-30-35/2006-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Golf 1',
+        slug: 'golf-1',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-golf-1-1983-4x100',
+            generation: '1974–1983',
+            aliases: [
+              'Volkswagen Golf 1 1983',
+              'Golf 1 1974–1983',
+              '4x100'
+            ],
+            years: '1983-1983',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-230',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Golf 1 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Golf%201/Golf%201%20%281974%20-%201983%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1974–1983); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-230',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Golf 1 1974–1983 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/golf-1/1974-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1974–1983); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-ankusi-230',
+                type: 'technicalReference',
+                publisher: 'ANKUSI Wheels',
+                title: 'Volkswagen Golf 1 1983 fitment guide',
+                url: 'https://ankusiwheels.com/fr/fitment-guide/volkswagen-golf-1-gti/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact 1983 application page',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore'
+                ],
+                limitations: 'Independent application reference used as a third confirmation for year, PCD and centre bore; fastener and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ID.4',
+        slug: 'id-4',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-id-4-2026-5x112',
+            generation: '2020–present',
+            aliases: [
+              'Volkswagen ID.4 2026',
+              'ID.4 2020–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-231',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen ID.4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/ID.4/ID.4%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-231',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen ID.4 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/id-4/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ID.7',
+        slug: 'id-7',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-id-7-2026-5x112',
+            generation: '2023–present',
+            aliases: [
+              'Volkswagen ID.7 2026',
+              'ID.7 2023–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-232',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen ID.7 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/ID.7/ID.7%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-232',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen ID.7 2023–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/id-7/2023-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'LT 28,35,46',
+        slug: 'lt-28-35-46',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-lt-28-35-46-2006-5x130',
+            generation: '1996–2006',
+            aliases: [
+              'Volkswagen LT 28,35,46 2006',
+              'LT 28,35,46 1996–2006',
+              '5x130'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET75',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-233',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen LT 28,35,46 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/LT%2028%2C35%2C46/LT%2028%2C35%2C46%20%281996%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-233',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen LT 28,35,46 1996–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/lt-28-35-46/1996-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Taigo',
+        slug: 'taigo',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-taigo-2026-5x100',
+            generation: '2021–present',
+            aliases: [
+              'Volkswagen Taigo 2026',
+              'Taigo 2021–present',
+              '5x100'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-234',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Taigo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Taigo/Taigo%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-234',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Taigo 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/taigo/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tayron',
+        slug: 'tayron',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-tayron-2026-5x112',
+            generation: '2024–present',
+            aliases: [
+              'Volkswagen Tayron 2026',
+              'Tayron 2024–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-235',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen Tayron wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/Tayron/Tayron%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-235',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen Tayron 2024–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/tayron/2024-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XL1',
+        slug: 'xl1',
+        records: [
+          {
+            id: 'pcd-b8-volkswagen-xl1-2016-4x100',
+            generation: '2015–2016',
+            aliases: [
+              'Volkswagen XL1 2016',
+              'XL1 2015–2016',
+              '4x100'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET16',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-237',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volkswagen XL1 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volkswagen/XL1/XL1%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2016); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-237',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volkswagen XL1 2015–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volkswagen/xl1/2013-2016/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2016); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -23018,6 +24873,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '2000C-CS-CA',
+        slug: '2000c-cs-ca',
+        records: [
+          {
+            id: 'pcd-b8-bmw-2000c-cs-ca-1969-4x100',
+            generation: '1965–1969',
+            aliases: [
+              'BMW 2000C-CS-CA 1969',
+              '2000C-CS-CA 1965–1969',
+              '4x100'
+            ],
+            years: '1969-1969',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET16',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-22',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW 2000C-CS-CA wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/2000C-CS-CA/2000C-CS-CA%20%281962%20-%201972%29%20/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1965–1969); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-22',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'BMW 2000C-CS-CA 1965–1969 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bmw/2000c-cs-ca/1965-1969/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1965–1969); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Z3 M',
+        slug: 'z3-m',
+        records: [
+          {
+            id: 'pcd-b8-bmw-z3-m-2003-5x120',
+            generation: '1998–2003',
+            aliases: [
+              'BMW Z3 M 2003',
+              'Z3 M 1998–2003',
+              '5x120'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.5',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET26',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-23',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BMW Z3 M wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BMW/Z3%20M/Z3%20M%20E36%20%281998%20-2003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-23',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'BMW Z3 M 1998–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bmw/z3-m/1998-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -25621,6 +27626,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b8-toyota-prius-2003-4x100',
+            generation: '1997–2003',
+            aliases: [
+              'Toyota Prius 2003',
+              'Prius 1997–2003',
+              '4x100'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-222',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Prius wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Prius/Prius%20%281997%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-222',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Prius 1997–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/prius/1997-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -28218,6 +30292,144 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-toyota-celica-1977-4x114-3',
+            generation: '1971–1977',
+            aliases: [
+              'Toyota Celica 1977',
+              'Celica 1971–1977',
+              '4x114.3'
+            ],
+            years: '1977-1977',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET11',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-220',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Celica wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Celica/Celica%20%281971%20-%201977%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1971–1977); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-220',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Celica 1971–1977 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/celica/1971-1977/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1971–1977); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-toyota-celica-1989-4x100',
+            generation: '1985–1989',
+            aliases: [
+              'Toyota Celica 1989',
+              'Celica 1985–1989',
+              '4x100'
+            ],
+            years: '1989-1989',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-221',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Celica wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Celica/Celica%20%281985%20-%201989%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1989); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-221',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Celica 1985–1989 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/celica/1985-1989/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1989); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -29401,6 +31613,75 @@ const PCD_DATA = [
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-toyota-sequoia-2007-6x139-7',
+            generation: '2001–2007',
+            aliases: [
+              'Toyota Sequoia 2007',
+              'Sequoia 2001–2007',
+              '6x139.7'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '106',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET8',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-223',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Sequoia wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Sequoia/Sequoia%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-223',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Sequoia 2001–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/sequoia/2001-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -29979,6 +32260,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Avensis III',
+        slug: 'avensis-iii',
+        records: [
+          {
+            id: 'pcd-b8-toyota-avensis-iii-2018-5x114-3',
+            generation: '2009–2018',
+            aliases: [
+              'Toyota Avensis III 2018',
+              'Avensis III 2009–2018',
+              '5x114.3'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-219',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Avensis III wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Avensis%20III/Avensis%20III%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2018); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-219',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Avensis III 2009–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/avensis-iii/2009-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2018); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tundra',
+        slug: 'tundra',
+        records: [
+          {
+            id: 'pcd-b8-toyota-tundra-2021-5x150',
+            generation: '2008–2021',
+            aliases: [
+              'Toyota Tundra 2021',
+              'Tundra 2008–2021',
+              '5x150'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x150',
+            centerBore: '110',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-224',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Toyota Tundra wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Toyota/Tundra/Tundra%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2021); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-224',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Toyota Tundra 2008–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/toyota/tundra/2006-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2021); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -32669,6 +35100,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Elysion',
+        slug: 'elysion',
+        records: [
+          {
+            id: 'pcd-b8-honda-elysion-2026-5x114-3',
+            generation: '2016–present',
+            aliases: [
+              'Honda Elysion 2026',
+              'Elysion 2016–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-94',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Honda Elysion wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Honda/Elysion/Elysion%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-94',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Honda Elysion 2016–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/honda/elysion/2015-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -36557,6 +39063,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-nissan-navara-2004-6x139-7',
+            generation: '1998–2004',
+            aliases: [
+              'Nissan Navara 2004',
+              'Navara 1998–2004',
+              '6x139.7'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '108',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET10',
+            torque: '133 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-160',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Navara wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Navara/Navara%20%281998%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2004); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-160',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Navara 1998–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/navara/1997-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2004); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -36781,6 +39356,75 @@ const PCD_DATA = [
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-nissan-quest-2017-5x114-3',
+            generation: '2010–2017',
+            aliases: [
+              'Nissan Quest 2017',
+              'Quest 2010–2017',
+              '5x114.3'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-162',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Quest wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Quest/Quest%20%282004%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-162',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Quest 2010–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/quest/2010-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -36908,6 +39552,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-nissan-titan-2015-6x139-7',
+            generation: '2003–2015',
+            aliases: [
+              'Nissan Titan 2015',
+              'Titan 2003–2015',
+              '6x139.7'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-163',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Titan wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Titan/Titan%20%282003%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-163',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Titan 2003–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/titan/2003-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -38130,6 +40843,306 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'NP300',
+        slug: 'np300',
+        records: [
+          {
+            id: 'pcd-b8-nissan-np300-2015-6x139-7',
+            generation: '2008–2015',
+            aliases: [
+              'Nissan NP300 2015',
+              'NP300 2008–2015',
+              '6x139.7'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '100',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-161',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan NP300 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/NP300/NP300%20%282005%20-%202025%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-161',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan NP300 2008–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/np300/2008-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Townstar',
+        slug: 'townstar',
+        records: [
+          {
+            id: 'pcd-b8-nissan-townstar-2026-5x114-3',
+            generation: '2022–present',
+            aliases: [
+              'Nissan Townstar 2026',
+              'Townstar 2022–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-164',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Townstar wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Townstar/Townstar%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-164',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Townstar 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/townstar/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Urvan',
+        slug: 'urvan',
+        records: [
+          {
+            id: 'pcd-b8-nissan-urvan-1995-6x139-7',
+            generation: '1987–1995',
+            aliases: [
+              'Nissan Urvan 1995',
+              'Urvan 1987–1995',
+              '6x139.7'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '100',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-165',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Urvan wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Urvan/Urvan%20%281987%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-165',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Urvan 1987–1995 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/urvan/1987-1995/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Versa',
+        slug: 'versa',
+        records: [
+          {
+            id: 'pcd-b8-nissan-versa-2013-4x114-3',
+            generation: '2007–2013',
+            aliases: [
+              'Nissan Versa 2013',
+              'Versa 2007–2013',
+              '4x114.3'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-166',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Nissan Versa wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Nissan/Versa/Versa%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-166',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Nissan Versa 2007–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/nissan/versa/2006-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -39883,6 +42896,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-mazda-626-1982-4x110',
+            generation: '1979–1982',
+            aliases: [
+              'Mazda 626 1982',
+              '626 1979–1982',
+              '4x110'
+            ],
+            years: '1982-1982',
+            market: 'Global',
+            pcd: '4x110',
+            centerBore: '59.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-131',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda 626 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/626/626%20%281979%20-%201982%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1982); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-131',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda 626 1979–1982 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/626/1979-1982/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1979–1982); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -41118,6 +44200,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-mazda-rx-7-1992-5x114-3',
+            generation: '1986–1992',
+            aliases: [
+              'Mazda RX-7 1992',
+              'RX-7 1986–1992',
+              '5x114.3'
+            ],
+            years: '1992-1992',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '59.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-132',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mazda RX-7 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mazda/RX-7/RX-7%20%281986%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–1992); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-132',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mazda RX-7 1986–1992 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mazda/rx-7/1985-1992/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–1992); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -43675,6 +46826,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-mitsubishi-colt-2008-4x114-3',
+            generation: '2004–2008',
+            aliases: [
+              'Mitsubishi Colt 2008',
+              'Colt 2004–2008',
+              '4x114.3'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-157',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Colt wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Colt/Colt%20%282004%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2008); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-157',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Colt 2004–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/colt/2002-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2008); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -43768,6 +46988,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-mitsubishi-lancer-2019-5x114-3',
+            generation: '2008–2019',
+            aliases: [
+              'Mitsubishi Lancer 2019',
+              'Lancer 2008–2019',
+              '5x114.3'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-159',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Lancer wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Lancer/Lancer%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-159',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Lancer 2008–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/lancer/2007-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -46671,6 +49960,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Cordia',
+        slug: 'cordia',
+        records: [
+          {
+            id: 'pcd-b8-mitsubishi-cordia-1990-4x114-3',
+            generation: '1982–1990',
+            aliases: [
+              'Mitsubishi Cordia 1990',
+              'Cordia 1982–1990',
+              '4x114.3'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '108 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-158',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mitsubishi Cordia wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mitsubishi/Cordia/Cordia%20%281982%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1990); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-158',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mitsubishi Cordia 1982–1990 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mitsubishi/cordia/1982-1990/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1990); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -48118,6 +51482,75 @@ const PCD_DATA = [
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-lexus-gs300-2012-5x114-3',
+            generation: '2005–2012',
+            aliases: [
+              'Lexus GS300 2012',
+              'GS300 2005–2012',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-115',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus GS300 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/GS300/GS300%20%282005%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2012); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-115',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lexus GS300 2005–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lexus/gs300/2005-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2012); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -48302,6 +51735,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-lexus-gs450h-2012-5x114-3',
+            generation: '2005–2012',
+            aliases: [
+              'Lexus GS450h 2012',
+              'GS450h 2005–2012',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-116',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus GS450h wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/GS450h/GS450h%20%282005%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2012); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-116',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lexus GS450h 2005–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lexus/gs450h/2005-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2012); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -48467,6 +51969,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-lexus-rx300-2003-5x114-3',
+            generation: '1997–2003',
+            aliases: [
+              'Lexus RX300 2003',
+              'RX300 1997–2003',
+              '5x114.3'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-118',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus RX300 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/RX300/RX300%20%281997%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-118',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lexus RX300 1997–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lexus/rx300/1997-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -48575,6 +52146,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-lexus-rx350-2009-5x114-3',
+            generation: '2006–2009',
+            aliases: [
+              'Lexus RX350 2009',
+              'RX350 2006–2009',
+              '5x114.3'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-119',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus RX350 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/RX350/RX350%20%282006%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-119',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lexus RX350 2006–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lexus/rx350/2006-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -49198,6 +52838,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'LX570',
+        slug: 'lx570',
+        records: [
+          {
+            id: 'pcd-b8-lexus-lx570-2021-5x150',
+            generation: '2008–2021',
+            aliases: [
+              'Lexus LX570 2021',
+              'LX570 2008–2021',
+              '5x150'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x150',
+            centerBore: '110',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-117',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lexus LX570 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lexus/LX570/LX570%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2021); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-117',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lexus LX570 2008–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lexus/lx570/2007-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2021); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -49421,6 +53136,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b8-suzuki-jimny-1997-5x139-7',
+            generation: '1984–1997',
+            aliases: [
+              'Suzuki Jimny 1997',
+              'Jimny 1984–1997',
+              '5x139.7'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '5x139.7',
+            centerBore: '108.4',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET5',
+            torque: '95 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-216',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Jimny wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Jimny/Jimny%20%281984%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1997); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-216',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki Jimny 1984–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/jimny/1981-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1997); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -50764,6 +54548,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-suzuki-vitara-2006-5x139-7',
+            generation: '2001–2006',
+            aliases: [
+              'Suzuki Vitara 2006',
+              'Vitara 2001–2006',
+              '5x139.7'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x139.7',
+            centerBore: '108.4',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-217',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki Vitara wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/Vitara/Vitara%20%282001%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-217',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki Vitara 2001–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/vitara/2001-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -51079,6 +54932,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XL7',
+        slug: 'xl7',
+        records: [
+          {
+            id: 'pcd-b8-suzuki-xl7-2009-5x139-7',
+            generation: '2006–2009',
+            aliases: [
+              'Suzuki XL7 2009',
+              'XL7 2006–2009',
+              '5x139.7'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x139.7',
+            centerBore: '104.5',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET5',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-218',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Suzuki XL7 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Suzuki/XL7/XL7%20%282006%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-218',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Suzuki XL7 2006–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/suzuki/xl7/2006-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -51476,6 +55404,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b8-hyundai-sonata-1998-4x114-3',
+            generation: '1993–1998',
+            aliases: [
+              'Hyundai Sonata 1998',
+              'Sonata 1993–1998',
+              '4x114.3'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-99',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Sonata wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Sonata/Sonata%20%281993%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-99',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Hyundai Sonata 1993–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/hyundai/sonata/1993-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -51981,6 +55978,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-hyundai-accent-1999-4x114-3',
+            generation: '1994–1999',
+            aliases: [
+              'Hyundai Accent 1999',
+              'Accent 1994–1999',
+              '4x114.3'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-95',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Accent wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Accent/Accent%20%281994%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1999); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-95',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Hyundai Accent 1994–1999 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/hyundai/accent/1994-1999/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1999); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -54284,6 +58350,231 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Excel',
+        slug: 'excel',
+        records: [
+          {
+            id: 'pcd-b8-hyundai-excel-1999-4x114-3',
+            generation: '1994–1999',
+            aliases: [
+              'Hyundai Excel 1999',
+              'Excel 1994–1999',
+              '4x114.3'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-96',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Excel wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Excel/Excel%20%281994%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1999); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-96',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Hyundai Excel 1994–1999 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/hyundai/excel/1994-1999/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1999); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Galloper',
+        slug: 'galloper',
+        records: [
+          {
+            id: 'pcd-b8-hyundai-galloper-2003-6x139-7',
+            generation: '1999–2003',
+            aliases: [
+              'Hyundai Galloper 2003',
+              'Galloper 1999–2003',
+              '6x139.7'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '108',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET0',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-97',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai Galloper wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/Galloper/Galloper%20%281999%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-97',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Hyundai Galloper 1999–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/hyundai/galloper/1999-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ix55',
+        slug: 'ix55',
+        records: [
+          {
+            id: 'pcd-b8-hyundai-ix55-2015-5x114-3',
+            generation: '2009–2015',
+            aliases: [
+              'Hyundai ix55 2015',
+              'ix55 2009–2015',
+              '5x114.3'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-98',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Hyundai ix55 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Hyundai/ix55/ix55%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-98',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Hyundai ix55 2009–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/hyundai/ix55/2006-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -55957,6 +60248,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-kia-carnival-2005-5x114-3',
+            generation: '1999–2005',
+            aliases: [
+              'Kia Carnival 2005',
+              'Carnival 1999–2005',
+              '5x114.3'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '98 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-105',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Carnival wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Kia/Carnival/Carnival%20%281999%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-105',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Kia Carnival 1999–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/kia/carnival/1998-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -57053,6 +61413,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Pregio',
+        slug: 'pregio',
+        records: [
+          {
+            id: 'pcd-b8-kia-pregio-2006-6x139-7',
+            generation: '2000–2006',
+            aliases: [
+              'Kia Pregio 2006',
+              'Pregio 2000–2006',
+              '6x139.7'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '110',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-106',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Kia Pregio wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Kia/Pregio/Pregio%20%282000%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-106',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Kia Pregio 2000–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/kia/pregio/1995-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2000–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -58159,6 +62594,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-ford-escape-2012-5x114-3',
+            generation: '2007–2012',
+            aliases: [
+              'Ford Escape 2012',
+              'Escape 2007–2012',
+              '5x114.3'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-80',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Escape wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Escape/Escape%20%282007%20-%202012%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2012); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-80',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Escape 2007–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/escape/2007-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2012); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -59811,6 +64315,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-ford-escort-1985-4x108',
+            generation: '1980–1985',
+            aliases: [
+              'Ford Escort 1985',
+              'Escort 1980–1985',
+              '4x108'
+            ],
+            years: '1985-1985',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET29',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-81',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Escort wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Escort/Escort%20%281980%20-%201985%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1980–1985); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-81',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Escort 1980–1985 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/escort/1980-1986/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1980–1985); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -59884,6 +64457,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-ford-scorpio-1998-4x108',
+            generation: '1995–1998',
+            aliases: [
+              'Ford Scorpio 1998',
+              'Scorpio 1995–1998',
+              '4x108'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-86',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Scorpio wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Scorpio/Scorpio%20%281995%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-86',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Scorpio 1995–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/scorpio/1994-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -60448,6 +65090,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-ford-f150-2014-6x135',
+            generation: '2009–2014',
+            aliases: [
+              'Ford F150 2014',
+              'F150 2009–2014',
+              '6x135'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '6x135',
+            centerBore: '87.1',
+            thread: 'M14x2.00',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-83',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford F150 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/F150/F150%20%282009%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-83',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford F150 2009–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/f150/2009-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -60569,6 +65280,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-ford-puma-2001-4x108',
+            generation: '1997–2001',
+            aliases: [
+              'Ford Puma 2001',
+              'Puma 1997–2001',
+              '4x108'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '85 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-85',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Puma wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Puma/Puma%20%281997%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-85',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Puma 1997–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/puma/1997-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -60768,6 +65548,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-ford-f250-2010-8x170',
+            generation: '2008–2010',
+            aliases: [
+              'Ford F250 2010',
+              'F250 2008–2010',
+              '8x170'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '8x170',
+            centerBore: '124.9',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '220 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-84',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford F250 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/F250/F250%20%282008%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-84',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford F250 2008–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/f250/2008-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -61142,6 +65991,75 @@ const PCD_DATA = [
                   'threadSize'
                 ],
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-ford-windstar-1998-5x108',
+            generation: '1995–1998',
+            aliases: [
+              'Ford Windstar 1998',
+              'Windstar 1995–1998',
+              '5x108'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-90',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Windstar wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Windstar/Windstar%20%281995%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-90',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Windstar 1995–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/windstar/1994-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -62471,6 +67389,381 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Capri',
+        slug: 'capri',
+        records: [
+          {
+            id: 'pcd-b8-ford-capri-2026-5x112',
+            generation: '2024–present',
+            aliases: [
+              'Ford Capri 2026',
+              'Capri 2024–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-79',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Capri wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Capri/Capri%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-79',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Capri 2024–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/capri/2024-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Explorer EV',
+        slug: 'explorer-ev',
+        records: [
+          {
+            id: 'pcd-b8-ford-explorer-ev-2026-5x112',
+            generation: '2024–present',
+            aliases: [
+              'Ford Explorer EV 2026',
+              'Explorer EV 2024–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-82',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Explorer EV wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Explorer%20EV/Explorer%20EV%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-82',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Explorer EV 2024–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/explorer-ev/2024-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Taunus',
+        slug: 'taunus',
+        records: [
+          {
+            id: 'pcd-b8-ford-taunus-1982-4x108',
+            generation: '1970–1982',
+            aliases: [
+              'Ford Taunus 1982',
+              'Taunus 1970–1982',
+              '4x108'
+            ],
+            years: '1982-1982',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '63.3',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-87',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Taunus wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Taunus/Taunus%20%281970%20-%201983%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1970–1982); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-87',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Taunus 1970–1982 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/taunus/1970-1982/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1970–1982); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tourneo Connect',
+        slug: 'tourneo-connect',
+        records: [
+          {
+            id: 'pcd-b8-ford-tourneo-connect-2026-5x108',
+            generation: '2023–present',
+            aliases: [
+              'Ford Tourneo Connect 2026',
+              'Tourneo Connect 2023–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-88',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Tourneo Connect wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Tourneo%20Connect/Tourneo%20Connect%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-88',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Tourneo Connect 2023–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/tourneo-connect/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Transit',
+        slug: 'transit',
+        records: [
+          {
+            id: 'pcd-b8-ford-transit-2006-5x160',
+            generation: '2002–2006',
+            aliases: [
+              'Ford Transit 2006',
+              'Transit 2002–2006',
+              '5x160'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x160',
+            centerBore: '65.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: '200 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-89',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ford Transit wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ford/Transit/Transit%20%282002%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-89',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ford Transit 2002–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ford/transit/2000-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -62619,6 +67912,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b8-chevrolet-camaro-2023-5x120',
+            generation: '2016–2023',
+            aliases: [
+              'Chevrolet Camaro 2023',
+              'Camaro 2016–2023',
+              '5x120'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-34',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Camaro wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Camaro/Camaro%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-34',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Camaro 2016–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/camaro/2015-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -64346,6 +69708,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-chevrolet-monte-carlo-2007-5x115',
+            generation: '2001–2007',
+            aliases: [
+              'Chevrolet Monte Carlo 2007',
+              'Monte Carlo 2001–2007',
+              '5x115'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-38',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Monte Carlo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Monte%20Carlo/Monte%20Carlo%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-38',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Monte Carlo 2001–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/monte-carlo/1999-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -65335,6 +70766,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-chevrolet-nubira-2003-4x100',
+            generation: '1997–2003',
+            aliases: [
+              'Chevrolet Nubira 2003',
+              'Nubira 1997–2003',
+              '4x100'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-40',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Nubira wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Nubira/Nubira%20%281997%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-40',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Nubira 1997–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/nubira/1997-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -66183,6 +71683,531 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Biscayne',
+        slug: 'biscayne',
+        records: [
+          {
+            id: 'pcd-b8-chevrolet-biscayne-1976-5x127',
+            generation: '1971–1976',
+            aliases: [
+              'Chevrolet Biscayne 1976',
+              'Biscayne 1971–1976',
+              '5x127'
+            ],
+            years: '1976-1976',
+            market: 'Global',
+            pcd: '5x127',
+            centerBore: '78.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET0',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-32',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Biscayne wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Biscayne/Biscayne%20%281971%20-%201976%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1971–1976); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-32',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Biscayne 1971–1976 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/biscayne/1971-1976/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1971–1976); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'C,K',
+        slug: 'c-k',
+        records: [
+          {
+            id: 'pcd-b8-chevrolet-c-k-2000-6x139-7',
+            generation: '1988–2000',
+            aliases: [
+              'Chevrolet C,K 2000',
+              'C,K 1988–2000',
+              '6x139.7'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-33',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet C,K wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/C%2CK/C%2CK%20%281988%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1988–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-33',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet C,K 1988–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/c-k/1986-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1988–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Captiva',
+        slug: 'captiva',
+        records: [
+          {
+            id: 'pcd-b8-chevrolet-captiva-2018-5x115',
+            generation: '2006–2018',
+            aliases: [
+              'Chevrolet Captiva 2018',
+              'Captiva 2006–2018',
+              '5x115'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '125 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-35',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Captiva wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Captiva/Captiva%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2018); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-35',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Captiva 2006–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/captiva/2006-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2018); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Colorado',
+        slug: 'colorado',
+        records: [
+          {
+            id: 'pcd-b8-chevrolet-colorado-2008-6x139-7',
+            generation: '2005–2008',
+            aliases: [
+              'Chevrolet Colorado 2008',
+              'Colorado 2005–2008',
+              '6x139.7'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '99.5',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-36',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Colorado wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Colorado/Colorado%20%282005%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-36',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Colorado 2005–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/colorado/2003-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2008); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Impala',
+        slug: 'impala',
+        records: [
+          {
+            id: 'pcd-b8-chevrolet-impala-1996-5x127',
+            generation: '1994–1996',
+            aliases: [
+              'Chevrolet Impala 1996',
+              'Impala 1994–1996',
+              '5x127'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '5x127',
+            centerBore: '78.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET8',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-37',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Impala wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Impala/Impala%20%281994%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1996); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-37',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Impala 1994–1996 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/impala/1994-1996/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1996); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Nexia',
+        slug: 'nexia',
+        records: [
+          {
+            id: 'pcd-b8-chevrolet-nexia-2000-4x100',
+            generation: '1995–2000',
+            aliases: [
+              'Chevrolet Nexia 2000',
+              'Nexia 1995–2000',
+              '4x100'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-39',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Nexia wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Nexia/Nexia%20%281995%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-39',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Nexia 1995–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/nexia/1995-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Trailblazer',
+        slug: 'trailblazer',
+        records: [
+          {
+            id: 'pcd-b8-chevrolet-trailblazer-2005-6x127',
+            generation: '2001–2005',
+            aliases: [
+              'Chevrolet Trailblazer 2005',
+              'Trailblazer 2001–2005',
+              '6x127'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '6x127',
+            centerBore: '78.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-41',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chevrolet Trailblazer wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chevrolet/Trailblazer/Trailblazer%20%282001%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-41',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chevrolet Trailblazer 2001–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chevrolet/trailblazer/2001-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -66859,6 +72884,231 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Avenger',
+        slug: 'avenger',
+        records: [
+          {
+            id: 'pcd-b8-jeep-avenger-2026-4x108',
+            generation: '2023–present',
+            aliases: [
+              'Jeep Avenger 2026',
+              'Avenger 2023–present',
+              '4x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-102',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jeep Avenger wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Jeep/Avenger/Avenger%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-102',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Jeep Avenger 2023–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/jeep/avenger/2023-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Commander',
+        slug: 'commander',
+        records: [
+          {
+            id: 'pcd-b8-jeep-commander-2026-5x110',
+            generation: '2021–present',
+            aliases: [
+              'Jeep Commander 2026',
+              'Commander 2021–present',
+              '5x110'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-103',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jeep Commander wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Jeep/Commander/Commander%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-103',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Jeep Commander 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/jeep/commander/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Wagoneer',
+        slug: 'wagoneer',
+        records: [
+          {
+            id: 'pcd-b8-jeep-wagoneer-2026-6x139-7',
+            generation: '2021–present',
+            aliases: [
+              'Jeep Wagoneer 2026',
+              'Wagoneer 2021–present',
+              '6x139.7'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '77.8',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET19',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-104',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Jeep Wagoneer wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Jeep/Wagoneer/Wagoneer%20%282021%20-%202026%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-104',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Jeep Wagoneer 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/jeep/wagoneer/2021-2026/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -68366,6 +74616,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'RAM 700 Pickup',
+        slug: 'ram-700-pickup',
+        records: [
+          {
+            id: 'pcd-b8-ram-ram-700-pickup-2020-4x98',
+            generation: '2014–2020',
+            aliases: [
+              'RAM RAM 700 Pickup 2020',
+              'RAM 700 Pickup 2014–2020',
+              '4x98'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-186',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'RAM RAM 700 Pickup wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/RAM/RAM%20700%20Pickup/RAM%20700%20Pickup%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-186',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'RAM RAM 700 Pickup 2014–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ram/ram-700-pickup/2014-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -68998,6 +75323,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-chrysler-sebring-2010-5x114-3',
+            generation: '2007–2010',
+            aliases: [
+              'Chrysler Sebring 2010',
+              'Sebring 2007–2010',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-42',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Sebring wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Sebring/Sebring%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-42',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chrysler Sebring 2007–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chrysler/sebring/2006-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -69449,6 +75843,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-chrysler-town-and-country-2007-5x114-3',
+            generation: '2001–2007',
+            aliases: [
+              'Chrysler Town and Country 2007',
+              'Town and Country 2001–2007',
+              '5x114.3'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '71.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-43',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Chrysler Town and Country wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Chrysler/Town%20and%20Country/Town%20and%20Country%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-43',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Chrysler Town and Country 2001–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/chrysler/town-and-country/2001-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -73684,6 +80147,75 @@ const PCD_DATA = [
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-peugeot-5008-2017-4x108',
+            generation: '2009–2017',
+            aliases: [
+              'Peugeot 5008 2017',
+              '5008 2009–2017',
+              '4x108'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-177',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 5008 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/5008/5008%20%282009%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-177',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot 5008 2009–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/5008/2009-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2009–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -73847,6 +80379,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-peugeot-305-1982-3x105',
+            generation: '1977–1982',
+            aliases: [
+              'Peugeot 305 1982',
+              '305 1977–1982',
+              '3x105'
+            ],
+            years: '1982-1982',
+            market: 'Global',
+            pcd: '3x105',
+            centerBore: '63.5',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET23',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-175',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 305 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/305/305%20%281977%20-%201982%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1977–1982); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-175',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot 305 1977–1982 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/305/1977-1982/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1977–1982); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -74812,6 +81413,381 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '1007',
+        slug: '1007',
+        records: [
+          {
+            id: 'pcd-b8-peugeot-1007-2009-4x108',
+            generation: '2004–2009',
+            aliases: [
+              'Peugeot 1007 2009',
+              '1007 2004–2009',
+              '4x108'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-174',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 1007 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/1007/1007%20%282004%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-174',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot 1007 2004–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/1007/2004-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '408',
+        slug: '408',
+        records: [
+          {
+            id: 'pcd-b8-peugeot-408-2026-5x108',
+            generation: '2022–present',
+            aliases: [
+              'Peugeot 408 2026',
+              '408 2022–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-176',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 408 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/408/408%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-176',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot 408 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/408/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '807',
+        slug: '807',
+        records: [
+          {
+            id: 'pcd-b8-peugeot-807-2014-5x98',
+            generation: '2002–2014',
+            aliases: [
+              'Peugeot 807 2014',
+              '807 2002–2014',
+              '5x98'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-178',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot 807 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/807/807%20%282002%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-178',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot 807 2002–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/807/2002-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2002–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'iON',
+        slug: 'ion',
+        records: [
+          {
+            id: 'pcd-b8-peugeot-ion-2020-4x100',
+            generation: '2010–2020',
+            aliases: [
+              'Peugeot iON 2020',
+              'iON 2010–2020',
+              '4x100'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-179',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot iON wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/iON/iON%20%282009%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-179',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot iON 2010–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/ion/2010-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Traveller',
+        slug: 'traveller',
+        records: [
+          {
+            id: 'pcd-b8-peugeot-traveller-2026-5x108',
+            generation: '2016–present',
+            aliases: [
+              'Peugeot Traveller 2026',
+              'Traveller 2016–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-180',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Peugeot Traveller wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Peugeot/Traveller/Traveller%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-180',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Peugeot Traveller 2016–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/peugeot/traveller/2016-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -74956,6 +81932,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b8-renault-megane-2026-5x114-3',
+            generation: '2016–present',
+            aliases: [
+              'Renault Megane 2026',
+              'Megane 2016–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-194',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Megane wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Megane/Megane%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-194',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Megane 2016–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/megane/2015-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -75236,6 +82281,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2021 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-renault-express-1999-4x100',
+            generation: '1986–1999',
+            aliases: [
+              'Renault Express 1999',
+              'Express 1986–1999',
+              '4x100'
+            ],
+            years: '1999-1999',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-192',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Express wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Express/Express%20%281986%20-%201999%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–1999); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-192',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Express 1986–1999 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/express/1985-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1986–1999); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -77017,6 +84131,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-renault-austral-2026-5x114-3',
+            generation: '2022–present',
+            aliases: [
+              'Renault Austral 2026',
+              'Austral 2022–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-190',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Austral wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Austral/Austral%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-190',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Austral 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/austral/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -77091,6 +84274,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-renault-grand-kangoo-2026-5x114-3',
+            generation: '2024–present',
+            aliases: [
+              'Renault Grand Kangoo 2026',
+              'Grand Kangoo 2024–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-193',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Grand Kangoo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Grand%20Kangoo/Grand%20Kangoo%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-193',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Grand Kangoo 2024–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/grand-kangoo/2024-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -77163,6 +84415,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-renault-scenic-e-tech-2026-5x114-3',
+            generation: '2023–present',
+            aliases: [
+              'Renault Scenic E-Tech 2026',
+              'Scenic E-Tech 2023–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-198',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Scenic E-Tech wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Scenic%20E-Tech/Scenic%20E-Tech%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-198',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Scenic E-Tech 2023–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/scenic-e-tech/2023-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -78370,6 +85691,623 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '19',
+        slug: '19',
+        records: [
+          {
+            id: 'pcd-b8-renault-19-1995-4x100',
+            generation: '1989–1995',
+            aliases: [
+              'Renault 19 1995',
+              '19 1989–1995',
+              '4x100'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-187',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault 19 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/19/19%20%281989%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1989–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-187',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault 19 1989–1995 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/19/1989-1995/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1989–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-ankusi-187',
+                type: 'technicalReference',
+                publisher: 'ANKUSI Wheels',
+                title: 'Renault 19 1995 fitment guide',
+                url: 'https://ankusiwheels.com/fr/fitment-guide/renault-19-16s-1995/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact 1995 application page',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore'
+                ],
+                limitations: 'Independent application reference used as a third confirmation for year, PCD and centre bore; fastener and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '25',
+        slug: '25',
+        records: [
+          {
+            id: 'pcd-b8-renault-25-1992-4x100',
+            generation: '1984–1992',
+            aliases: [
+              'Renault 25 1992',
+              '25 1984–1992',
+              '4x100'
+            ],
+            years: '1992-1992',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-188',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault 25 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/25/25%20%281984%20-%201992%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1992); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-188',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault 25 1984–1992 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/25/1984-1992/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1984–1992); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '5 GT Turbo',
+        slug: '5-gt-turbo',
+        records: [
+          {
+            id: 'pcd-b8-renault-5-gt-turbo-1985-4x110',
+            generation: '1985–1985',
+            aliases: [
+              'Renault 5 GT Turbo 1985',
+              '5 GT Turbo 1985–1985',
+              '4x110'
+            ],
+            years: '1985-1985',
+            market: 'Global',
+            pcd: '4x110',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-189',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault 5 GT Turbo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/5%20GT%20Turbo/5%20GT%20Turbo%20%281980%20-%201985%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1985); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-189',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault 5 GT Turbo 1985–1985 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/5-gt-turbo/1985-1991/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1985); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Avantime',
+        slug: 'avantime',
+        records: [
+          {
+            id: 'pcd-b8-renault-avantime-2003-5x108',
+            generation: '2001–2003',
+            aliases: [
+              'Renault Avantime 2003',
+              'Avantime 2001–2003',
+              '5x108'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-191',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Avantime wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Avantime/Avantime%20%282001%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-191',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Avantime 2001–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/avantime/2001-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Megane Scenic',
+        slug: 'megane-scenic',
+        records: [
+          {
+            id: 'pcd-b8-renault-megane-scenic-2003-4x100',
+            generation: '1996–2003',
+            aliases: [
+              'Renault Megane Scenic 2003',
+              'Megane Scenic 1996–2003',
+              '4x100'
+            ],
+            years: '2003-2003',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-195',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Megane Scenic wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Megane%20Scenic/Megane%20Scenic%20%281996%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-195',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Megane Scenic 1996–2003 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/megane-scenic/1996-2003/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2003); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Safrane',
+        slug: 'safrane',
+        records: [
+          {
+            id: 'pcd-b8-renault-safrane-1996-4x100',
+            generation: '1992–1996',
+            aliases: [
+              'Renault Safrane 1996',
+              'Safrane 1992–1996',
+              '4x100'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-196',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Safrane wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Safrane/Safrane%20%281992%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–1996); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-196',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Safrane 1992–1996 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/safrane/1992-1996/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–1996); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Safrane V6',
+        slug: 'safrane-v6',
+        records: [
+          {
+            id: 'pcd-b8-renault-safrane-v6-2000-5x108',
+            generation: '1992–2000',
+            aliases: [
+              'Renault Safrane V6 2000',
+              'Safrane V6 1992–2000',
+              '5x108'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-197',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault Safrane V6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/Safrane%20V6/Safrane%20V6%20%281992%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-197',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault Safrane V6 1992–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/safrane-v6/1992-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'VelSatis',
+        slug: 'velsatis',
+        records: [
+          {
+            id: 'pcd-b8-renault-velsatis-2009-5x108',
+            generation: '2001–2009',
+            aliases: [
+              'Renault VelSatis 2009',
+              'VelSatis 2001–2009',
+              '5x108'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-199',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Renault VelSatis wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Renault/VelSatis/VelSatis%20%282001%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-199',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Renault VelSatis 2001–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/renault/velsatis/2001-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -78515,6 +86453,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b8-citroen-c4-2026-4x108',
+            generation: '2020–present',
+            aliases: [
+              'Citroen C4 2026',
+              'C4 2020–present',
+              '4x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET26',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-45',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen C4 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/C4/C4%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-45',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen C4 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/c4/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -81350,6 +89357,681 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Ami',
+        slug: 'ami',
+        records: [
+          {
+            id: 'pcd-b8-citroen-ami-2026-4x108',
+            generation: '2020–present',
+            aliases: [
+              'Citroen Ami 2026',
+              'Ami 2020–present',
+              '4x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-44',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Ami wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Ami/Ami%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-44',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen Ami 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/ami/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'E-Mehari',
+        slug: 'e-mehari',
+        records: [
+          {
+            id: 'pcd-b8-citroen-e-mehari-2019-4x108',
+            generation: '2016–2019',
+            aliases: [
+              'Citroen E-Mehari 2019',
+              'E-Mehari 2016–2019',
+              '4x108'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-46',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen E-Mehari wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/E-Mehari/E-Mehari%20%282016%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-46',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen E-Mehari 2016–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/e-mehari/2016-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Evasion',
+        slug: 'evasion',
+        records: [
+          {
+            id: 'pcd-b8-citroen-evasion-2002-5x98',
+            generation: '1994–2002',
+            aliases: [
+              'Citroen Evasion 2002',
+              'Evasion 1994–2002',
+              '5x98'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-47',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Evasion wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Evasion/Evasion%20%281994%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-47',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen Evasion 1994–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/evasion/1994-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Jumper Maxi',
+        slug: 'jumper-maxi',
+        records: [
+          {
+            id: 'pcd-b8-citroen-jumper-maxi-2026-5x130',
+            generation: '2010–present',
+            aliases: [
+              'Citroen Jumper Maxi 2026',
+              'Jumper Maxi 2010–present',
+              '5x130'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-48',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Jumper Maxi wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Jumper%20Maxi/Jumper%20Maxi%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-48',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen Jumper Maxi 2010–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/jumper-maxi/2006-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Nemo',
+        slug: 'nemo',
+        records: [
+          {
+            id: 'pcd-b8-citroen-nemo-2017-4x98',
+            generation: '2008–2017',
+            aliases: [
+              'Citroen Nemo 2017',
+              'Nemo 2008–2017',
+              '4x98'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '90 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-49',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Nemo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Nemo/Nemo%20%282008%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-49',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen Nemo 2008–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/nemo/2008-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2008–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Relay Maxi',
+        slug: 'relay-maxi',
+        records: [
+          {
+            id: 'pcd-b8-citroen-relay-maxi-2017-5x130',
+            generation: '2010–2017',
+            aliases: [
+              'Citroen Relay Maxi 2017',
+              'Relay Maxi 2010–2017',
+              '5x130'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-50',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Relay Maxi wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Relay%20Maxi/Relay%20Maxi%20%282010%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-50',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen Relay Maxi 2010–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/relay-maxi/2006-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Xantia',
+        slug: 'xantia',
+        records: [
+          {
+            id: 'pcd-b8-citroen-xantia-2001-4x108',
+            generation: '1993–2001',
+            aliases: [
+              'Citroen Xantia 2001',
+              'Xantia 1993–2001',
+              '4x108'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET15',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-51',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen Xantia wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/Xantia/Xantia%20%281993%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-51',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen Xantia 1993–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/xantia/1993-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XM',
+        slug: 'xm',
+        records: [
+          {
+            id: 'pcd-b8-citroen-xm-2000-5x108',
+            generation: '1989–2000',
+            aliases: [
+              'Citroen XM 2000',
+              'XM 1989–2000',
+              '5x108'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-52',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen XM wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/XM/XM%20%281989%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1989–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-52',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen XM 1989–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/xm/1989-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1989–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ZX',
+        slug: 'zx',
+        records: [
+          {
+            id: 'pcd-b8-citroen-zx-1997-4x108',
+            generation: '1991–1997',
+            aliases: [
+              'Citroen ZX 1997',
+              'ZX 1991–1997',
+              '4x108'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET20',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-53',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Citroen ZX wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Citroen/ZX/ZX%20%281991%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1997); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-53',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Citroen ZX 1991–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/citroen/zx/1991-1997/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1991–1997); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -82952,6 +91634,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-volvo-c70-2013-5x108',
+            generation: '2006–2013',
+            aliases: [
+              'Volvo C70 2013',
+              'C70 2006–2013',
+              '5x108'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-238',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo C70 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volvo/C70/C70%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-238',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo C70 2006–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/c70/2005-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -83788,6 +92539,75 @@ const PCD_DATA = [
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-volvo-v90-1998-5x108',
+            generation: '1996–1998',
+            aliases: [
+              'Volvo V90 1998',
+              'V90 1996–1998',
+              '5x108'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-241',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo V90 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volvo/V90/V90%20%281996%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-241',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo V90 1996–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/v90/1996-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -84136,6 +92956,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-volvo-v40-2004-4x114-3',
+            generation: '1996–2004',
+            aliases: [
+              'Volvo V40 2004',
+              'V40 1996–2004',
+              '4x114.3'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-240',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo V40 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volvo/V40/V40%20%281996%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2004); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-240',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo V40 1996–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/v40/1995-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1996–2004); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -84189,6 +93078,81 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EC40',
+        slug: 'ec40',
+        records: [
+          {
+            id: 'pcd-b8-volvo-ec40-2026-5x108',
+            generation: '2024–present',
+            aliases: [
+              'Volvo EC40 2026',
+              'EC40 2024–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50.5',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-239',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Volvo EC40 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Volvo/EC40/EC40%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-239',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Volvo EC40 2024–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/volvo/ec40/2024-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -84437,6 +93401,75 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          },
+          {
+            id: 'pcd-b8-fiat-tipo-1995-4x98',
+            generation: '1988–1995',
+            aliases: [
+              'Fiat Tipo 1995',
+              'Tipo 1988–1995',
+              '4x98'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-77',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Tipo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Tipo/Tipo%20%281988%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1988–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-77',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Tipo 1988–1995 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/tipo/1988-1995/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1988–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -84817,6 +93850,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-fiat-ducato-1990-5x118',
+            generation: '1982–1990',
+            aliases: [
+              'Fiat Ducato 1990',
+              'Ducato 1982–1990',
+              '5x118'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-71',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Ducato wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Ducato/Ducato%20%281982%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1990); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-71',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Ducato 1982–1990 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/ducato/1981-1993/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1990); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -86230,6 +95332,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-fiat-croma-1996-4x98',
+            generation: '1985–1996',
+            aliases: [
+              'Fiat Croma 1996',
+              'Croma 1985–1996',
+              '4x98'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-69',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Croma wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Croma/Croma%20%281985%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1996); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-69',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Croma 1985–1996 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/croma/1985-1996/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1996); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -86372,6 +95543,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-fiat-punto-2018-4x100',
+            generation: '2012–2018',
+            aliases: [
+              'Fiat Punto 2018',
+              'Punto 2012–2018',
+              '4x100'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-74',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Punto wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Punto/Punto%20%282012%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2018); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-74',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Punto 2012–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/punto/2012-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2018); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -88084,6 +97324,531 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '600 L',
+        slug: '600-l',
+        records: [
+          {
+            id: 'pcd-b8-fiat-600-l-1982-4x98',
+            generation: '1955–1982',
+            aliases: [
+              'Fiat 600 L 1982',
+              '600 L 1955–1982',
+              '4x98'
+            ],
+            years: '1982-1982',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: '70 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-68',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat 600 L wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/600%20L/600%20L%20%281955%20-%201982%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1955–1982); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-68',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat 600 L 1955–1982 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/600-l/1955-1982/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1955–1982); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Doblo',
+        slug: 'doblo',
+        records: [
+          {
+            id: 'pcd-b8-fiat-doblo-2005-4x98',
+            generation: '2001–2005',
+            aliases: [
+              'Fiat Doblo 2005',
+              'Doblo 2001–2005',
+              '4x98'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '86 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-70',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Doblo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Doblo/Doblo%20%282001%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-70',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Doblo 2001–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/doblo/2000-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ducato Maxi',
+        slug: 'ducato-maxi',
+        records: [
+          {
+            id: 'pcd-b8-fiat-ducato-maxi-2026-5x130',
+            generation: '2010–present',
+            aliases: [
+              'Fiat Ducato Maxi 2026',
+              'Ducato Maxi 2010–present',
+              '5x130'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: '160 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-72',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Ducato Maxi wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Ducato%20Maxi/Ducato%20Maxi%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-72',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Ducato Maxi 2010–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/ducato-maxi/2006-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Duna',
+        slug: 'duna',
+        records: [
+          {
+            id: 'pcd-b8-fiat-duna-1997-4x98',
+            generation: '1985–1997',
+            aliases: [
+              'Fiat Duna 1997',
+              'Duna 1985–1997',
+              '4x98'
+            ],
+            years: '1997-1997',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-73',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Duna wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Duna/Duna%20%281985%20-%201997%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1997); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-73',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Duna 1985–1997 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/duna/1985-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1997); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Regata',
+        slug: 'regata',
+        records: [
+          {
+            id: 'pcd-b8-fiat-regata-1990-4x98',
+            generation: '1983–1990',
+            aliases: [
+              'Fiat Regata 1990',
+              'Regata 1983–1990',
+              '4x98'
+            ],
+            years: '1990-1990',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-75',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Regata wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Regata/Regata%20%281983%20-%201990%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1983–1990); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-75',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Regata 1983–1990 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/regata/1983-1990/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1983–1990); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ritmo',
+        slug: 'ritmo',
+        records: [
+          {
+            id: 'pcd-b8-fiat-ritmo-1988-4x98',
+            generation: '1978–1988',
+            aliases: [
+              'Fiat Ritmo 1988',
+              'Ritmo 1978–1988',
+              '4x98'
+            ],
+            years: '1988-1988',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-76',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Ritmo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Ritmo/Ritmo%20%281978%20-%201988%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1978–1988); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-76',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Ritmo 1978–1988 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/ritmo/1978-1988/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1978–1988); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Topolino',
+        slug: 'topolino',
+        records: [
+          {
+            id: 'pcd-b8-fiat-topolino-2026-4x108',
+            generation: '2023–present',
+            aliases: [
+              'Fiat Topolino 2026',
+              'Topolino 2023–present',
+              '4x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-78',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Fiat Topolino wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Fiat/Topolino/Topolino%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-78',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Fiat Topolino 2023–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/fiat/topolino/2023-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -88642,6 +98407,144 @@ const PCD_DATA = [
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-mini-one-2006-4x100',
+            generation: '2001–2006',
+            aliases: [
+              'Mini One 2006',
+              'One 2001–2006',
+              '4x100'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-155',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini One wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mini/One/One%20%282001%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-155',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini One 2001–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/one/2001-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-mini-one-2022-5x112',
+            generation: '2014–2022',
+            aliases: [
+              'Mini One 2022',
+              'One 2014–2022',
+              '5x112'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-156',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini One wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mini/One/One%20%282014%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2022); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-156',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini One 2014–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/one/2013-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2022); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -88714,6 +98617,81 @@ const PCD_DATA = [
                   'threadSize'
                 ],
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cooper Clubman',
+        slug: 'cooper-clubman',
+        records: [
+          {
+            id: 'pcd-b8-mini-cooper-clubman-2014-4x100',
+            generation: '2007–2014',
+            aliases: [
+              'Mini Cooper Clubman 2014',
+              'Cooper Clubman 2007–2014',
+              '4x100'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-154',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mini Cooper Clubman wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mini/Cooper%20Clubman/Cooper%20Clubman%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-154',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mini Cooper Clubman 2007–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mini/cooper-clubman/2007-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -90118,6 +100096,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Boxster 718',
+        slug: 'boxster-718',
+        records: [
+          {
+            id: 'pcd-b8-porsche-boxster-718-2025-5x130',
+            generation: '2016–2025',
+            aliases: [
+              'Porsche Boxster 718 2025',
+              'Boxster 718 2016–2025',
+              '5x130'
+            ],
+            years: '2025-2025',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.5',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET57',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-185',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Porsche Boxster 718 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Porsche/Boxster%20718/Boxster%20718%20%282016%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2025); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-185',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Porsche Boxster 718 2016–2025 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/porsche/boxster-718/2016-2025/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2025); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -93672,6 +103725,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-alfa-romeo-giulia-1978-4x108',
+            generation: '1962–1978',
+            aliases: [
+              'Alfa Romeo Giulia 1978',
+              'Giulia 1962–1978',
+              '4x108'
+            ],
+            years: '1978-1978',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '70.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-6',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Giulia wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Giulia/Giulia%20%281962%20-%201980%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1962–1978); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-6',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Giulia 1962–1978 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/giulia/1962-1978/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1962–1978); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -93858,6 +103980,675 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '33',
+        slug: '33',
+        records: [
+          {
+            id: 'pcd-b8-alfa-romeo-33-1995-4x98',
+            generation: '1983–1995',
+            aliases: [
+              'Alfa Romeo 33 1995',
+              '33 1983–1995',
+              '4x98'
+            ],
+            years: '1995-1995',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-2',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo 33 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/33/33%20%281983%20-%201995%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1983–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-2',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo 33 1983–1995 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/33/1983-1995/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1983–1995); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Alfasud',
+        slug: 'alfasud',
+        records: [
+          {
+            id: 'pcd-b8-alfa-romeo-alfasud-1983-4x98',
+            generation: '1971–1983',
+            aliases: [
+              'Alfa Romeo Alfasud 1983',
+              'Alfasud 1971–1983',
+              '4x98'
+            ],
+            years: '1983-1983',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-3',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Alfasud wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Alfasud/Alfasud%20%281971%20-%201989%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1971–1983); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-3',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Alfasud 1971–1983 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/alfasud/1971-1983/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1971–1983); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Alfetta',
+        slug: 'alfetta',
+        records: [
+          {
+            id: 'pcd-b8-alfa-romeo-alfetta-1984-4x98',
+            generation: '1972–1984',
+            aliases: [
+              'Alfa Romeo Alfetta 1984',
+              'Alfetta 1972–1984',
+              '4x98'
+            ],
+            years: '1984-1984',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-4',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Alfetta wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Alfetta/Alfetta%20%281972%20-%201987%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1972–1984); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-4',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Alfetta 1972–1984 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/alfetta/1972-1984/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1972–1984); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Arna',
+        slug: 'arna',
+        records: [
+          {
+            id: 'pcd-b8-alfa-romeo-arna-1987-4x98',
+            generation: '1983–1987',
+            aliases: [
+              'Alfa Romeo Arna 1987',
+              'Arna 1983–1987',
+              '4x98'
+            ],
+            years: '1987-1987',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-5',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Arna wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Arna/Arna%20%281983%20-%201987%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1983–1987); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-5',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Arna 1983–1987 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/arna/1983-1987/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1983–1987); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Junior',
+        slug: 'junior',
+        records: [
+          {
+            id: 'pcd-b8-alfa-romeo-junior-2026-4x108',
+            generation: '2024–present',
+            aliases: [
+              'Alfa Romeo Junior 2026',
+              'Junior 2024–present',
+              '4x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-7',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Junior wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Junior/Junior%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-7',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Junior 2024–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/junior/2024-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Spider',
+        slug: 'spider',
+        records: [
+          {
+            id: 'pcd-b8-alfa-romeo-spider-1993-4x108',
+            generation: '1970–1993',
+            aliases: [
+              'Alfa Romeo Spider 1993',
+              'Spider 1970–1993',
+              '4x108'
+            ],
+            years: '1993-1993',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-8',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Spider wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Spider/Spider%20%281970%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1970–1993); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-8',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Spider 1970–1993 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/spider/1966-1993/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1970–1993); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-alfa-romeo-spider-2010-5x110',
+            generation: '2006–2010',
+            aliases: [
+              'Alfa Romeo Spider 2010',
+              'Spider 2006–2010',
+              '5x110'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-9',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Spider wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Spider/Spider%20%282006%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-9',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Spider 2006–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/spider/2006-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sprint',
+        slug: 'sprint',
+        records: [
+          {
+            id: 'pcd-b8-alfa-romeo-sprint-1989-4x98',
+            generation: '1976–1989',
+            aliases: [
+              'Alfa Romeo Sprint 1989',
+              'Sprint 1976–1989',
+              '4x98'
+            ],
+            years: '1989-1989',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-10',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Sprint wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Sprint/Sprint%20%281976%20-%201989%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1976–1989); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-10',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Sprint 1976–1989 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/sprint/1976-1989/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1976–1989); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tonale',
+        slug: 'tonale',
+        records: [
+          {
+            id: 'pcd-b8-alfa-romeo-tonale-2026-5x110',
+            generation: '2022–present',
+            aliases: [
+              'Alfa Romeo Tonale 2026',
+              'Tonale 2022–present',
+              '5x110'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-11',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alfa Romeo Tonale wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alfa%20Romeo/Tonale/Tonale%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-11',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alfa Romeo Tonale 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alfa-romeo/tonale/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -94132,6 +104923,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-bentley-continental-gt-2010-5x112',
+            generation: '2003–2010',
+            aliases: [
+              'Bentley Continental GT 2010',
+              'Continental GT 2003–2010',
+              '5x112'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-21',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bentley Continental GT wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Bentley/Continental%20GT/Continental%20GT%20%282003%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-21',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Bentley Continental GT 2003–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bentley/continental-gt/2003-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -95237,6 +106097,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Regal',
+        slug: 'regal',
+        records: [
+          {
+            id: 'pcd-b8-buick-regal-1996-5x115',
+            generation: '1988–1996',
+            aliases: [
+              'Buick Regal 1996',
+              'Regal 1988–1996',
+              '5x115'
+            ],
+            years: '1996-1996',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-28',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Buick Regal wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Buick/Regal/Regal%20%281988%20-%201996%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1988–1996); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-28',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Buick Regal 1988–1996 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/buick/regal/1988-1996/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1988–1996); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -95363,6 +106298,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-cadillac-escalade-2020-6x139-7',
+            generation: '2015–2020',
+            aliases: [
+              'Cadillac Escalade 2020',
+              'Escalade 2015–2020',
+              '6x139.7'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: '190 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-30',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac Escalade wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/Escalade/Escalade%20%282015%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-30',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Cadillac Escalade 2015–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/cadillac/escalade/2015-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -96294,6 +107298,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-cadillac-seville-1985-5x120-65',
+            generation: '1980–1985',
+            aliases: [
+              'Cadillac Seville 1985',
+              'Seville 1980–1985',
+              '5x120.65'
+            ],
+            years: '1985-1985',
+            market: 'Global',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET10',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-31',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Cadillac Seville wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Cadillac/Seville/Seville%20%281980%20-%201985%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1980–1985); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-31',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Cadillac Seville 1980–1985 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/cadillac/seville/1980-1985/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1980–1985); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -98220,6 +109293,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-dacia-spring-2026-4x100',
+            generation: '2021–present',
+            aliases: [
+              'Dacia Spring 2026',
+              'Spring 2021–present',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-55',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dacia Spring wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Dacia/Spring/Spring%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-55',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Dacia Spring 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/dacia/spring/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -98367,6 +109509,81 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Independent exact-generation reference; market scope and the displayed original tyre are retained from the cross-checked application page.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Logan Pickup',
+        slug: 'logan-pickup',
+        records: [
+          {
+            id: 'pcd-b8-dacia-logan-pickup-2012-4x100',
+            generation: '2007–2012',
+            aliases: [
+              'Dacia Logan Pickup 2012',
+              'Logan Pickup 2007–2012',
+              '4x100'
+            ],
+            years: '2012-2012',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: '105 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-54',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Dacia Logan Pickup wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Dacia/Logan%20Pickup/Logan%20Pickup%20%282007%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2012); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-54',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Dacia Logan Pickup 2007–2012 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/dacia/logan-pickup/2007-2012/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2012); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -98668,6 +109885,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-ds-ds-9-2026-5x108',
+            generation: '2020–present',
+            aliases: [
+              'DS DS 9 2026',
+              'DS 9 2020–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-65',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'DS DS 9 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/DS/DS%209/DS%209%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-65',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'DS DS 9 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ds/ds-9/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -98926,6 +110212,317 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'DS 3',
+        slug: 'ds-3',
+        records: [
+          {
+            id: 'pcd-b8-ds-ds-3-2019-4x108',
+            generation: '2015–2019',
+            aliases: [
+              'DS DS 3 2019',
+              'DS 3 2015–2019',
+              '4x108'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-61',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'DS DS 3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/DS/DS%203/DS%203%20%282015%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-61',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'DS DS 3 2015–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ds/ds-3/2015-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-ankusi-61',
+                type: 'technicalReference',
+                publisher: 'ANKUSI Wheels',
+                title: 'DS DS 3 2019 fitment guide',
+                url: 'https://ankusiwheels.com/fitment-guide/ds-3-crossback-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact 2019 application page',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore'
+                ],
+                limitations: 'Independent application reference used as a third confirmation for year, PCD and centre bore; fastener and torque are not taken from this source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-ds-ds-3-2026-5x108',
+            generation: '2021–present',
+            aliases: [
+              'DS DS 3 2026',
+              'DS 3 2021–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-62',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'DS DS 3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/DS/DS%203/DS%203%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-62',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'DS DS 3 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ds/ds-3/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'DS 5',
+        slug: 'ds-5',
+        records: [
+          {
+            id: 'pcd-b8-ds-ds-5-2018-4x108',
+            generation: '2015–2018',
+            aliases: [
+              'DS DS 5 2018',
+              'DS 5 2015–2018',
+              '4x108'
+            ],
+            years: '2018-2018',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET26',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-63',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'DS DS 5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/DS/DS%205/DS%205%20%282015%20-%202018%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2018); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-63',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'DS DS 5 2015–2018 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ds/ds-5/2015-2018/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2018); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'DS 6',
+        slug: 'ds-6',
+        records: [
+          {
+            id: 'pcd-b8-ds-ds-6-2019-4x108',
+            generation: '2014–2019',
+            aliases: [
+              'DS DS 6 2019',
+              'DS 6 2014–2019',
+              '4x108'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET27',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-64',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'DS DS 6 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/DS/DS%206/DS%206%20%282014%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-64',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'DS DS 6 2014–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ds/ds-6/2014-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2014–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -99571,6 +111168,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Safari',
+        slug: 'safari',
+        records: [
+          {
+            id: 'pcd-b8-gmc-safari-2005-6x139-7',
+            generation: '2003–2005',
+            aliases: [
+              'GMC Safari 2005',
+              'Safari 2003–2005',
+              '6x139.7'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET31',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-91',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'GMC Safari wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/GMC/Safari/Safari%20%282003%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-91',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'GMC Safari 2003–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/gmc/safari/2003-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -102084,6 +113756,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'MP4-12C',
+        slug: 'mp4-12c',
+        records: [
+          {
+            id: 'pcd-b8-mclaren-mp4-12c-2014-5x112',
+            generation: '2011–2014',
+            aliases: [
+              'McLaren MP4-12C 2014',
+              'MP4-12C 2011–2014',
+              '5x112'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-133',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'McLaren MP4-12C wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/McLaren/MP4-12C/MP4-12C%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-133',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'McLaren MP4-12C 2011–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mclaren/mp4-12c/2011-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -104432,6 +116179,75 @@ const PCD_DATA = [
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-opel-grandland-x-2024-5x108',
+            generation: '2017–2024',
+            aliases: [
+              'Opel Grandland X 2024',
+              'Grandland X 2017–2024',
+              '5x108'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-169',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Grandland X wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Grandland%20X/Grandland%20X%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-169',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Grandland X 2017–2024 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/grandland-x/2017-2024/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -105063,6 +116879,75 @@ const PCD_DATA = [
                   'threadSize'
                 ],
                 limitations: 'Professional exact-year reference; ET, tightening torque, wheel diameter and tyre size are taken from the independent generation source.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-opel-mokka-2026-4x108',
+            generation: '2020–present',
+            aliases: [
+              'Opel Mokka 2026',
+              'Mokka 2020–present',
+              '4x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '115 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-170',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Mokka wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Mokka/Mokka%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-170',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Mokka 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/mokka/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -106585,6 +118470,381 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Adam S',
+        slug: 'adam-s',
+        records: [
+          {
+            id: 'pcd-b8-opel-adam-s-2019-5x110',
+            generation: '2015–2019',
+            aliases: [
+              'Opel Adam S 2019',
+              'Adam S 2015–2019',
+              '5x110'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-167',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Adam S wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Adam%20S/Adam%20S%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-167',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Adam S 2015–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/adam-s/2014-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Corsa-E',
+        slug: 'corsa-e',
+        records: [
+          {
+            id: 'pcd-b8-opel-corsa-e-2026-4x108',
+            generation: '2019–present',
+            aliases: [
+              'Opel Corsa-E 2026',
+              'Corsa-E 2019–present',
+              '4x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-168',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Corsa-E wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Corsa-E/Corsa-E%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-168',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Corsa-E 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/corsa-e/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mokka X',
+        slug: 'mokka-x',
+        records: [
+          {
+            id: 'pcd-b8-opel-mokka-x-2020-5x105',
+            generation: '2016–2020',
+            aliases: [
+              'Opel Mokka X 2020',
+              'Mokka X 2016–2020',
+              '5x105'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-171',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Mokka X wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Mokka%20X/Mokka%20X%20%282016%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-171',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Mokka X 2016–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/mokka-x/2016-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Rocks-E',
+        slug: 'rocks-e',
+        records: [
+          {
+            id: 'pcd-b8-opel-rocks-e-2026-4x108',
+            generation: '2022–present',
+            aliases: [
+              'Opel Rocks-E 2026',
+              'Rocks-E 2022–present',
+              '4x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-172',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Rocks-E wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Rocks-E/Rocks-E%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-172',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Rocks-E 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/rocks-e/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Senator',
+        slug: 'senator',
+        records: [
+          {
+            id: 'pcd-b8-opel-senator-1993-5x110',
+            generation: '1987–1993',
+            aliases: [
+              'Opel Senator 1993',
+              'Senator 1987–1993',
+              '5x110'
+            ],
+            years: '1993-1993',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-173',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Opel Senator wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Opel/Senator/Senator%20B%20%281987%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1993); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-173',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Opel Senator 1987–1993 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/opel/senator/1987-1993/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1987–1993); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -108162,6 +120422,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-mg-zs-2026-5x100',
+            generation: '2017–present',
+            aliases: [
+              'MG ZS 2026',
+              'ZS 2017–present',
+              '5x100'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-153',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG ZS wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/MG/ZS/ZS%20%282017%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-153',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'MG ZS 2017–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mg/zs/2017-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -108801,6 +121130,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'MG F',
+        slug: 'mg-f',
+        records: [
+          {
+            id: 'pcd-b8-mg-mg-f-2002-4x95-25',
+            generation: '1995–2002',
+            aliases: [
+              'MG MG F 2002',
+              'MG F 1995–2002',
+              '4x95.25'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '4x95.25',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET28',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-151',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG MG F wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/MG/MG%20F/MG%20F%20%281995%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-151',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'MG MG F 1995–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mg/mg-f/1995-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'MG5',
+        slug: 'mg5',
+        records: [
+          {
+            id: 'pcd-b8-mg-mg5-2026-5x112',
+            generation: '2019–present',
+            aliases: [
+              'MG MG5 2026',
+              'MG5 2019–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-152',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'MG MG5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/MG/MG5/MG5%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-152',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'MG MG5 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mg/mg5/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -108953,6 +121432,75 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Generation-level scope; market and the exact 2024 OEM wheel/tire row are taken from the exact-year application reference.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-xpeng-p7-2026-5x112',
+            generation: '2024–present',
+            aliases: [
+              'XPeng P7+ 2026',
+              'P7+ 2024–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-242',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'XPeng P7+ wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/XPeng/P7%2B/P7%2B%20%282024%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-242',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'XPeng P7+ 2024–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/xpeng/p7/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2024–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -109528,6 +122076,75 @@ const PCD_DATA = [
                 limitations: 'Independent technical reference; exact OEM wheel and tyre are taken from the model-year source.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-daihatsu-sirion-2015-4x100',
+            generation: '2005–2015',
+            aliases: [
+              'Daihatsu Sirion 2015',
+              'Sirion 2005–2015',
+              '4x100'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '103 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-58',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Sirion wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Sirion/Sirion%20%282005%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-58',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Daihatsu Sirion 2005–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/daihatsu/sirion/2004-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -110096,6 +122713,144 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-daihatsu-hijet-1998-4x110',
+            generation: '1994–1998',
+            aliases: [
+              'Daihatsu Hijet 1998',
+              'Hijet 1994–1998',
+              '4x110'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '4x110',
+            centerBore: '66.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-56',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Hijet wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Hijet/Hijet%20%281994%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-56',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Daihatsu Hijet 1994–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/daihatsu/hijet/1994-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-daihatsu-hijet-2004-4x100',
+            generation: '1999–2004',
+            aliases: [
+              'Daihatsu Hijet 2004',
+              'Hijet 1999–2004',
+              '4x100'
+            ],
+            years: '2004-2004',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-57',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Hijet wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Hijet/Hijet%20%281999%20-%202004%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2004); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-57',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Daihatsu Hijet 1999–2004 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/daihatsu/hijet/1999-2004/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2004); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -110357,6 +123112,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Trevis',
+        slug: 'trevis',
+        records: [
+          {
+            id: 'pcd-b8-daihatsu-trevis-2009-4x100',
+            generation: '2006–2009',
+            aliases: [
+              'Daihatsu Trevis 2009',
+              'Trevis 2006–2009',
+              '4x100'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-59',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Daihatsu Trevis wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Daihatsu/Trevis/Trevis%20%282006%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-59',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Daihatsu Trevis 2006–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/daihatsu/trevis/2004-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -110817,6 +123647,156 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Beta',
+        slug: 'beta',
+        records: [
+          {
+            id: 'pcd-b8-lancia-beta-1984-4x98',
+            generation: '1973–1984',
+            aliases: [
+              'Lancia Beta 1984',
+              'Beta 1973–1984',
+              '4x98'
+            ],
+            years: '1984-1984',
+            market: 'Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-112',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lancia Beta wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lancia/Beta/Beta%20%281973%20-%201985%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1973–1984); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-112',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lancia Beta 1973–1984 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lancia/beta/1972-1984/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1973–1984); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Fulvia',
+        slug: 'fulvia',
+        records: [
+          {
+            id: 'pcd-b8-lancia-fulvia-1975-4x130',
+            generation: '1963–1975',
+            aliases: [
+              'Lancia Fulvia 1975',
+              'Fulvia 1963–1975',
+              '4x130'
+            ],
+            years: '1975-1975',
+            market: 'Global',
+            pcd: '4x130',
+            centerBore: '75.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET23',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-113',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lancia Fulvia wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lancia/Fulvia/Fulvia%20%281963%20-%201975%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1963–1975); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-113',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lancia Fulvia 1963–1975 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lancia/fulvia/1963-1976/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1963–1975); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -111142,6 +124122,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-lincoln-nautilus-2023-5x108',
+            generation: '2023–2023',
+            aliases: [
+              'Lincoln Nautilus 2023',
+              'Nautilus 2023–2023',
+              '5x108'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '220 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-120',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lincoln Nautilus wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lincoln/Nautilus/Nautilus%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-120',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lincoln Nautilus 2023–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lincoln/nautilus/2019-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -112071,6 +125120,81 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '9000',
+        slug: '9000',
+        records: [
+          {
+            id: 'pcd-b8-saab-9000-1998-4x108',
+            generation: '1985–1998',
+            aliases: [
+              'Saab 9000 1998',
+              '9000 1985–1998',
+              '4x108'
+            ],
+            years: '1998-1998',
+            market: 'Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-203',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saab 9000 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Saab/9000/9000%20%281985%20-%201998%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-203',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Saab 9000 1985–1998 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/saab/9000/1984-1998/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1998); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -113056,6 +126180,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '296 GTB',
+        slug: '296-gtb',
+        records: [
+          {
+            id: 'pcd-b8-ferrari-296-gtb-2026-5x114-3',
+            generation: '2022–present',
+            aliases: [
+              'Ferrari 296 GTB 2026',
+              '296 GTB 2022–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-66',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari 296 GTB wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/296%20GTB/296%20GTB%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-66',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ferrari 296 GTB 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ferrari/296-gtb/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '488 GTB',
+        slug: '488-gtb',
+        records: [
+          {
+            id: 'pcd-b8-ferrari-488-gtb-2020-5x114-3',
+            generation: '2015–2020',
+            aliases: [
+              'Ferrari 488 GTB 2020',
+              '488 GTB 2015–2020',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-67',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ferrari 488 GTB wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ferrari/488%20GTB/488%20GTB%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-67',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ferrari 488 GTB 2015–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ferrari/488-gtb/2015-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -114604,6 +127878,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-pontiac-grand-am-1991-5x100',
+            generation: '1985–1991',
+            aliases: [
+              'Pontiac Grand Am 1991',
+              'Grand Am 1985–1991',
+              '5x100'
+            ],
+            years: '1991-1991',
+            market: 'Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-182',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Grand Am wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Grand%20Am/Grand%20Am%20%281985%20-%201991%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1991); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-182',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Pontiac Grand Am 1985–1991 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/pontiac/grand-am/1985-1991/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1985–1991); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -115020,6 +128363,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-pontiac-bonneville-2000-5x115',
+            generation: '1992–2000',
+            aliases: [
+              'Pontiac Bonneville 2000',
+              'Bonneville 1992–2000',
+              '5x115'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '135 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-181',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Bonneville wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Bonneville/Bonneville%20%281992%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-181',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Pontiac Bonneville 1992–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/pontiac/bonneville/1992-2000/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1992–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -115640,6 +129052,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GTO',
+        slug: 'gto',
+        records: [
+          {
+            id: 'pcd-b8-pontiac-gto-2006-5x120',
+            generation: '2004–2006',
+            aliases: [
+              'Pontiac GTO 2006',
+              'GTO 2004–2006',
+              '5x120'
+            ],
+            years: '2006-2006',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '69.5',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-183',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac GTO wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/GTO/GTO%20%282004%20-%202006%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-183',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Pontiac GTO 2004–2006 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/pontiac/gto/2003-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2006); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Trans Am',
+        slug: 'trans-am',
+        records: [
+          {
+            id: 'pcd-b8-pontiac-trans-am-2002-5x120-65',
+            generation: '1994–2002',
+            aliases: [
+              'Pontiac Trans Am 2002',
+              'Trans Am 1994–2002',
+              '5x120.65'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-184',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Pontiac Trans Am wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Pontiac/Trans%20Am/Trans%20Am%20%281994%20-%202003%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-184',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Pontiac Trans Am 1994–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/pontiac/trans-am/1992-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -116418,6 +129980,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-alpina-d3-2019-5x120',
+            generation: '2013–2019',
+            aliases: [
+              'Alpina D3 2019',
+              'D3 2013–2019',
+              '5x120'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET36',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-12',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alpina D3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alpina/D3/D3%20%282013%20-%202019%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-12',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alpina D3 2013–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alpina/d3/2013-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -116471,6 +130102,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-alpina-d5-2017-5x120',
+            generation: '2011–2017',
+            aliases: [
+              'Alpina D5 2017',
+              'D5 2011–2017',
+              '5x120'
+            ],
+            years: '2017-2017',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: '120 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-13',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Alpina D5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Alpina/D5/D5%20%282011%20-%202017%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-13',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Alpina D5 2011–2017 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/alpina/d5/2011-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2017); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -117560,6 +131260,282 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '001',
+        slug: '001',
+        records: [
+          {
+            id: 'pcd-b8-zeekr-001-2026-5x108',
+            generation: '2021–present',
+            aliases: [
+              'Zeekr 001 2026',
+              '001 2021–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-243',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Zeekr 001 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Zeekr/001/001%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-243',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Zeekr 001 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/zeekr/001/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-ankusi-243',
+                type: 'technicalReference',
+                publisher: 'ANKUSI Wheels',
+                title: 'Zeekr 001 2026 fitment guide',
+                url: 'https://ankusiwheels.com/ru/fitment-guide/zeekr-001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact 2026 application page',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore'
+                ],
+                limitations: 'Independent application reference used as a third confirmation for year, PCD and centre bore; fastener and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '009',
+        slug: '009',
+        records: [
+          {
+            id: 'pcd-b8-zeekr-009-2026-5x108',
+            generation: '2022–present',
+            aliases: [
+              'Zeekr 009 2026',
+              '009 2022–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-244',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Zeekr 009 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Zeekr/009/009%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-244',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Zeekr 009 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/zeekr/009/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-ankusi-244',
+                type: 'technicalReference',
+                publisher: 'ANKUSI Wheels',
+                title: 'Zeekr 009 2026 fitment guide',
+                url: 'https://ankusiwheels.com/ar/fitment-guide/zeekr-009-2026/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact 2026 application page',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore'
+                ],
+                limitations: 'Independent application reference used as a third confirmation for year, PCD and centre bore; fastener and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'X',
+        slug: 'x',
+        records: [
+          {
+            id: 'pcd-b8-zeekr-x-2026-5x108',
+            generation: '2023–present',
+            aliases: [
+              'Zeekr X 2026',
+              'X 2023–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-245',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Zeekr X wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Zeekr/X/X%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-245',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Zeekr X 2023–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/zeekr/x/2023-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-ankusi-245',
+                type: 'technicalReference',
+                publisher: 'ANKUSI Wheels',
+                title: 'Zeekr X 2026 fitment guide',
+                url: 'https://ankusiwheels.com/ru/fitment-guide/zeekr-x/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact 2026 application page',
+                fields: [
+                  'generation',
+                  'years',
+                  'boltPattern',
+                  'centerBore'
+                ],
+                limitations: 'Independent application reference used as a third confirmation for year, PCD and centre bore; fastener and torque are not taken from this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -118253,6 +132229,81 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; OEM wheel and tyre are taken from the exact-year application source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '#3',
+        slug: '3',
+        records: [
+          {
+            id: 'pcd-b8-smart-3-2026-5x108',
+            generation: '2023–present',
+            aliases: [
+              'Smart #3 2026',
+              '#3 2023–present',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-210',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Smart #3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Smart/%233/%233%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-210',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Smart #3 2023–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/smart/3/2023-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -119093,6 +133144,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Atto 3',
+        slug: 'atto-3',
+        records: [
+          {
+            id: 'pcd-b8-byd-atto-3-2026-5x114-3',
+            generation: '2021–present',
+            aliases: [
+              'BYD Atto 3 2026',
+              'Atto 3 2021–present',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-29',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'BYD Atto 3 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/BYD/Atto%203/Atto%203%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-29',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'BYD Atto 3 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/byd/atto-3/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -119639,6 +133765,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-iveco-daily-double-2014-6x170',
+            generation: '2006–2014',
+            aliases: [
+              'Iveco Daily Double 2014',
+              'Daily Double 2006–2014',
+              '6x170'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '6x170',
+            centerBore: '130.1',
+            thread: 'M18x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET115',
+            torque: '320 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-100',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Iveco Daily Double wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Iveco/Daily%20Double/Daily%20Double%20%282006%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-100',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Iveco Daily Double 2006–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/iveco/daily-double/1999-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -119692,6 +133887,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-iveco-daily-single-2014-6x125',
+            generation: '2006–2014',
+            aliases: [
+              'Iveco Daily Single 2014',
+              'Daily Single 2006–2014',
+              '6x125'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '6x125',
+            centerBore: '74.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-101',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Iveco Daily Single wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Iveco/Daily%20Single/Daily%20Single%20%282006%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-101',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Iveco Daily Single 2006–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/iveco/daily-single/1999-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -120293,6 +134557,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-mercedes-citan-2021-5x108',
+            generation: '2012–2021',
+            aliases: [
+              'Mercedes Citan 2021',
+              'Citan 2012–2021',
+              '5x108'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: '110 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-135',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Citan wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Citan/Citan%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2021); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-135',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes Citan 2012–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/citan/2012-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2021); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -120346,6 +134679,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-mercedes-cl-klasse-2005-5x112',
+            generation: '1999–2005',
+            aliases: [
+              'Mercedes CL-Klasse 2005',
+              'CL-Klasse 1999–2005',
+              '5x112'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-136',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes CL-Klasse wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/CL-Klasse/CL-Klasse%20W215%20%281999%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-136',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes CL-Klasse 1999–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/cl-klasse/1999-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1999–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -120511,6 +134913,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-mercedes-e-klasse-2023-5x112',
+            generation: '2023–2023',
+            aliases: [
+              'Mercedes E-Klasse 2023',
+              'E-Klasse 2023–2023',
+              '5x112'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-138',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes E-Klasse wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/E-Klasse/E-Klasse%20W214%20%282023%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-138',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes E-Klasse 2023–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/e-klasse/2017-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2023–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -120788,6 +135259,75 @@ const PCD_DATA = [
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
               }
             ]
+          },
+          {
+            id: 'pcd-b8-mercedes-m-klasse-2001-5x112',
+            generation: '1997–2001',
+            aliases: [
+              'Mercedes M-Klasse 2001',
+              'M-Klasse 1997–2001',
+              '5x112'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-147',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes M-Klasse wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/M-Klasse/M-Klasse%20W163%20%281997%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-147',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes M-Klasse 1997–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/m-klasse/1997-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
           }
         ]
       },
@@ -120951,6 +135491,75 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-mercedes-s-klasse-2013-5x112',
+            generation: '2013–2013',
+            aliases: [
+              'Mercedes S-Klasse 2013',
+              'S-Klasse 2013–2013',
+              '5x112'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '150 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-148',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes S-Klasse wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/S-Klasse/S-Klasse%20W222%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-148',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes S-Klasse 2013–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/s-klasse/2005-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -121120,6 +135729,906 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '190',
+        slug: '190',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-190-1993-5x112',
+            generation: '1982–1993',
+            aliases: [
+              'Mercedes 190 1993',
+              '190 1982–1993',
+              '5x112'
+            ],
+            years: '1993-1993',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-134',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes 190 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/190/190%20W201%20%281982%20-%201993%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1993); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-134',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes 190 1982–1993 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/190/1982-1993/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1982–1993); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CLS-Klasse',
+        slug: 'cls-klasse',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-cls-klasse-2010-5x112',
+            generation: '2004–2010',
+            aliases: [
+              'Mercedes CLS-Klasse 2010',
+              'CLS-Klasse 2004–2010',
+              '5x112'
+            ],
+            years: '2010-2010',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET28',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-137',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes CLS-Klasse wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/CLS-Klasse/CLS-Klasse%20%282004%20-%202010%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-137',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes CLS-Klasse 2004–2010 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/cls-klasse/2004-2010/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2010); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EQA',
+        slug: 'eqa',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-eqa-2026-5x112',
+            generation: '2021–present',
+            aliases: [
+              'Mercedes EQA 2026',
+              'EQA 2021–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET53.5',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-139',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes EQA wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/EQA/EQA%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-139',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes EQA 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/eqa/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EQB',
+        slug: 'eqb',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-eqb-2026-5x112',
+            generation: '2021–present',
+            aliases: [
+              'Mercedes EQB 2026',
+              'EQB 2021–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET53.5',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-140',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes EQB wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/EQB/EQB%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-140',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes EQB 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/eqb/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EQC',
+        slug: 'eqc',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-eqc-2023-5x112',
+            generation: '2019–2023',
+            aliases: [
+              'Mercedes EQC 2023',
+              'EQC 2019–2023',
+              '5x112'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-141',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes EQC wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/EQC/EQC%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-141',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes EQC 2019–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/eqc/2019-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EQE',
+        slug: 'eqe',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-eqe-2026-5x112',
+            generation: '2022–present',
+            aliases: [
+              'Mercedes EQE 2026',
+              'EQE 2022–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30.5',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-142',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes EQE wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/EQE/EQE%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-142',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes EQE 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/eqe/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EQS',
+        slug: 'eqs',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-eqs-2026-5x112',
+            generation: '2021–present',
+            aliases: [
+              'Mercedes EQS 2026',
+              'EQS 2021–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30.5',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-143',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes EQS wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/EQS/EQS%20%282021%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-143',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes EQS 2021–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/eqs/2021-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2021–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EQV',
+        slug: 'eqv',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-eqv-2026-5x112',
+            generation: '2020–present',
+            aliases: [
+              'Mercedes EQV 2026',
+              'EQV 2020–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-144',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes EQV wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/EQV/EQV%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-144',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes EQV 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/eqv/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GLB-Klasse',
+        slug: 'glb-klasse',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-glb-klasse-2026-5x112',
+            generation: '2019–present',
+            aliases: [
+              'Mercedes GLB-Klasse 2026',
+              'GLB-Klasse 2019–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-145',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes GLB-Klasse wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/GLB-Klasse/GLB-Klasse%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-145',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes GLB-Klasse 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/glb-klasse/2019-2026/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GLS-Klasse',
+        slug: 'gls-klasse',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-gls-klasse-2026-5x112',
+            generation: '2019–present',
+            aliases: [
+              'Mercedes GLS-Klasse 2026',
+              'GLS-Klasse 2019–present',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M15x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET62.5',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-146',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes GLS-Klasse wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/GLS-Klasse/GLS-Klasse%20%282019%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-146',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes GLS-Klasse 2019–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/gls-klasse/2019-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'SLC-Klasse',
+        slug: 'slc-klasse',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-slc-klasse-2020-5x112',
+            generation: '2016–2020',
+            aliases: [
+              'Mercedes SLC-Klasse 2020',
+              'SLC-Klasse 2016–2020',
+              '5x112'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-149',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes SLC-Klasse wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/SLC-Klasse/SLC-Klasse%20%282016%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-149',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes SLC-Klasse 2016–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/slc-klasse/2016-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sprinter',
+        slug: 'sprinter',
+        records: [
+          {
+            id: 'pcd-b8-mercedes-sprinter-2000-5x130',
+            generation: '1995–2000',
+            aliases: [
+              'Mercedes Sprinter 2000',
+              'Sprinter 1995–2000',
+              '5x130'
+            ],
+            years: '2000-2000',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET75',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-150',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Mercedes Sprinter wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Mercedes/Sprinter/Sprinter%20%281995%20-%202000%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-150',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Mercedes Sprinter 1995–2000 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/mercedes/sprinter/1995-2006/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1995–2000); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -121200,6 +136709,600 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '3200 GT',
+        slug: '3200-gt',
+        records: [
+          {
+            id: 'pcd-b8-maserati-3200-gt-2002-5x108',
+            generation: '1998–2002',
+            aliases: [
+              'Maserati 3200 GT 2002',
+              '3200 GT 1998–2002',
+              '5x108'
+            ],
+            years: '2002-2002',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-123',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati 3200 GT wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maserati/3200%20GT/3200%20GT%20%281998%20-%202002%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-123',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati 3200 GT 1998–2002 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/3200-gt/1998-2002/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1998–2002); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Coupe',
+        slug: 'coupe',
+        records: [
+          {
+            id: 'pcd-b8-maserati-coupe-2007-5x108',
+            generation: '2001–2007',
+            aliases: [
+              'Maserati Coupe 2007',
+              'Coupe 2001–2007',
+              '5x108'
+            ],
+            years: '2007-2007',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET52',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-124',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Coupe wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Coupe/Coupe%20%282001%20-%202007%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-124',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Coupe 2001–2007 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/coupe/2001-2007/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2001–2007); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ghibli',
+        slug: 'ghibli',
+        records: [
+          {
+            id: 'pcd-b8-maserati-ghibli-2023-5x114-3',
+            generation: '2013–2023',
+            aliases: [
+              'Maserati Ghibli 2023',
+              'Ghibli 2013–2023',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-125',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Ghibli wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Ghibli/Ghibli%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-125',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Ghibli 2013–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/ghibli/2013-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Gransport',
+        slug: 'gransport',
+        records: [
+          {
+            id: 'pcd-b8-maserati-gransport-2008-5x108',
+            generation: '2004–2008',
+            aliases: [
+              'Maserati Gransport 2008',
+              'Gransport 2004–2008',
+              '5x108'
+            ],
+            years: '2008-2008',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-126',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Gransport wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Gransport/Gransport%20%282004%20-%202008%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2008); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-126',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Gransport 2004–2008 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/gransport/2004-2008/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2004–2008); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Grecale',
+        slug: 'grecale',
+        records: [
+          {
+            id: 'pcd-b8-maserati-grecale-2026-5x110',
+            generation: '2022–present',
+            aliases: [
+              'Maserati Grecale 2026',
+              'Grecale 2022–present',
+              '5x110'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET29',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-127',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Grecale wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Grecale/Grecale%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-127',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Grecale 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/grecale/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Levante',
+        slug: 'levante',
+        records: [
+          {
+            id: 'pcd-b8-maserati-levante-2024-5x114-3',
+            generation: '2016–2024',
+            aliases: [
+              'Maserati Levante 2024',
+              'Levante 2016–2024',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-128',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Levante wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Levante/Levante%20%282016%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-128',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Levante 2016–2024 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/levante/2016-2024/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Quattroporte',
+        slug: 'quattroporte',
+        records: [
+          {
+            id: 'pcd-b8-maserati-quattroporte-2001-5x108',
+            generation: '1994–2001',
+            aliases: [
+              'Maserati Quattroporte 2001',
+              'Quattroporte 1994–2001',
+              '5x108'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '58.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: '100 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-129',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Quattroporte wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Quattroporte/Quattroporte%20%281994%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-129',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Quattroporte 1994–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/quattroporte/1994-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1994–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-maserati-quattroporte-2023-5x114-3',
+            generation: '2013–2023',
+            aliases: [
+              'Maserati Quattroporte 2023',
+              'Quattroporte 2013–2023',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-130',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Maserati Quattroporte wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Maserati/Quattroporte/Quattroporte%20%282013%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-130',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Maserati Quattroporte 2013–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/maserati/quattroporte/2012-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -121275,6 +137378,75 @@ const PCD_DATA = [
                   'centerBore'
                 ],
                 limitations: 'Independent exact-generation corroboration; fastener, ET, torque and tyre are taken from WheelAtlas.'
+              }
+            ]
+          },
+          {
+            id: 'pcd-b8-ssang-yong-actyon-2011-5x130',
+            generation: '2006–2011',
+            aliases: [
+              'Ssang Yong Actyon 2011',
+              'Actyon 2006–2011',
+              '5x130'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-211',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ssang Yong Actyon wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ssang%20Yong/Actyon/Actyon%20%282006%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-211',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ssang Yong Actyon 2006–2011 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ssang-yong/actyon/2005-2011/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2006–2011); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -121444,6 +137616,306 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Korando',
+        slug: 'korando',
+        records: [
+          {
+            id: 'pcd-b8-ssang-yong-korando-2001-6x139-7',
+            generation: '1997–2001',
+            aliases: [
+              'Ssang Yong Korando 2001',
+              'Korando 1997–2001',
+              '6x139.7'
+            ],
+            years: '2001-2001',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '110',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET15',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-212',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ssang Yong Korando wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ssang%20Yong/Korando/Korando%20%281997%20-%202001%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-212',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ssang Yong Korando 1997–2001 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ssang-yong/korando/1997-2001/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1997–2001); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Korando CK',
+        slug: 'korando-ck',
+        records: [
+          {
+            id: 'pcd-b8-ssang-yong-korando-ck-2019-5x112',
+            generation: '2010–2019',
+            aliases: [
+              'Ssang Yong Korando CK 2019',
+              'Korando CK 2010–2019',
+              '5x112'
+            ],
+            years: '2019-2019',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-213',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ssang Yong Korando CK wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ssang%20Yong/Korando%20CK/Korando%20CK%20%282010%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-213',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ssang Yong Korando CK 2010–2019 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ssang-yong/korando-ck/2010-2019/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2010–2019); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Kyron',
+        slug: 'kyron',
+        records: [
+          {
+            id: 'pcd-b8-ssang-yong-kyron-2015-5x130',
+            generation: '2005–2015',
+            aliases: [
+              'Ssang Yong Kyron 2015',
+              'Kyron 2005–2015',
+              '5x130'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '84.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43',
+            torque: '140 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-214',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ssang Yong Kyron wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ssang%20Yong/Kyron/Kyron%20%282005%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-214',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ssang Yong Kyron 2005–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ssang-yong/kyron/2005-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Musso',
+        slug: 'musso',
+        records: [
+          {
+            id: 'pcd-b8-ssang-yong-musso-2005-6x139-7',
+            generation: '1993–2005',
+            aliases: [
+              'Ssang Yong Musso 2005',
+              'Musso 1993–2005',
+              '6x139.7'
+            ],
+            years: '2005-2005',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '110',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET15',
+            torque: '130 Nm',
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-215',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Ssang Yong Musso wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Ssang%20Yong/Musso/Musso%20%281993%20-%202005%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-215',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Ssang Yong Musso 1993–2005 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/ssang-yong/musso/1993-2005/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1993–2005); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -121501,6 +137973,81 @@ const PCD_DATA = [
                   'tireSizes'
                 ],
                 limitations: 'Exact-generation professional reference; specification can vary by equipment, so the vehicle placard remains authoritative.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'T03',
+        slug: 't03',
+        records: [
+          {
+            id: 'pcd-b8-leapmotor-t03-2026-4x100',
+            generation: '2020–present',
+            aliases: [
+              'Leapmotor T03 2026',
+              'T03 2020–present',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-114',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Leapmotor T03 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Leapmotor/T03/T03%20%282020%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-114',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Leapmotor T03 2020–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/leapmotor/t03/2020-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -122548,6 +139095,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Minauto',
+        slug: 'minauto',
+        records: [
+          {
+            id: 'pcd-b8-aixam-minauto-2020-4x115',
+            generation: '2017–2020',
+            aliases: [
+              'Aixam Minauto 2020',
+              'Minauto 2017–2020',
+              '4x115'
+            ],
+            years: '2020-2020',
+            market: 'Global',
+            pcd: '4x115',
+            centerBore: '83.1',
+            thread: 'M10x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET18',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-1',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Aixam Minauto wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Aixam/Minauto/Minauto%20%282017%20-%202020%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-1',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Aixam Minauto 2017–2020 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/aixam/minauto/2017-2020/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2017–2020); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -122836,6 +139458,81 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '1000',
+        slug: '1000',
+        records: [
+          {
+            id: 'pcd-b8-datsun-1000-1969-4x114-3',
+            generation: '1968–1969',
+            aliases: [
+              'Datsun 1000 1969',
+              '1000 1968–1969',
+              '4x114.3'
+            ],
+            years: '1969-1969',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '73',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-60',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Datsun 1000 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Datsun/1000/1000%20%281968%20-%201977%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1968–1969); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-60',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Datsun 1000 1968–1969 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/datsun/1000/1966-1969/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (1968–1969); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -122932,6 +139629,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Combo',
+        slug: 'combo',
+        records: [
+          {
+            id: 'pcd-b8-holden-combo-2013-5x98',
+            generation: '2011–2013',
+            aliases: [
+              'Holden Combo 2013',
+              'Combo 2011–2013',
+              '5x98'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-92',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Holden Combo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Holden/Combo/Combo%20%282011%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-92',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Holden Combo 2011–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/holden/combo/2002-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2011–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Volt',
+        slug: 'volt',
+        records: [
+          {
+            id: 'pcd-b8-holden-volt-2015-5x115',
+            generation: '2012–2015',
+            aliases: [
+              'Holden Volt 2015',
+              'Volt 2012–2015',
+              '5x115'
+            ],
+            years: '2015-2015',
+            market: 'Global',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-93',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Holden Volt wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Holden/Volt/Volt%20%282012%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-93',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Holden Volt 2012–2015 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/holden/volt/2012-2015/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2012–2015); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -123226,6 +140073,156 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Eletre',
+        slug: 'eletre',
+        records: [
+          {
+            id: 'pcd-b8-lotus-eletre-2026-5x120',
+            generation: '2022–present',
+            aliases: [
+              'Lotus Eletre 2026',
+              'Eletre 2022–present',
+              '5x120'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET33',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-121',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lotus Eletre wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lotus/Eletre/Eletre%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-121',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lotus Eletre 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lotus/eletre/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Exige',
+        slug: 'exige',
+        records: [
+          {
+            id: 'pcd-b8-lotus-exige-2011-4x100',
+            generation: '2005–2011',
+            aliases: [
+              'Lotus Exige 2011',
+              'Exige 2005–2011',
+              '4x100'
+            ],
+            years: '2011-2011',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-122',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lotus Exige wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lotus/Exige/Exige%20S2%20%282005%20-%202011%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2011); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-122',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lotus Exige 2005–2011 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lotus/exige/2005-2011/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2005–2011); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
@@ -123902,6 +140899,1005 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means no usable torque is published.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Aura',
+        slug: 'aura',
+        records: [
+          {
+            id: 'pcd-b8-saturn-aura-2009-5x110',
+            generation: '2007–2009',
+            aliases: [
+              'Saturn Aura 2009',
+              'Aura 2007–2009',
+              '5x110'
+            ],
+            years: '2009-2009',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-204',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Saturn Aura wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Saturn/Aura/Aura%20%282007%20-%202009%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-204',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Saturn Aura 2007–2009 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/saturn/aura/2007-2009/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2009); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Bugatti',
+    slug: 'bugatti',
+    models: [
+      {
+        name: 'Centodieci',
+        slug: 'centodieci',
+        records: [
+          {
+            id: 'pcd-b8-bugatti-centodieci-2022-5x130',
+            generation: '2022–2022',
+            aliases: [
+              'Bugatti Centodieci 2022',
+              'Centodieci 2022–2022',
+              '5x130'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-24',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bugatti Centodieci wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Bugatti/Centodieci/Centodieci%20%282022%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–2022); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-24',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Bugatti Centodieci 2022–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bugatti/centodieci/2022-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–2022); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Chiron',
+        slug: 'chiron',
+        records: [
+          {
+            id: 'pcd-b8-bugatti-chiron-2024-5x130',
+            generation: '2016–2024',
+            aliases: [
+              'Bugatti Chiron 2024',
+              'Chiron 2016–2024',
+              '5x130'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-25',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bugatti Chiron wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Bugatti/Chiron/Chiron%20%282015%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-25',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Bugatti Chiron 2016–2024 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bugatti/chiron/2016-2024/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2016–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Divo',
+        slug: 'divo',
+        records: [
+          {
+            id: 'pcd-b8-bugatti-divo-2021-5x130',
+            generation: '2019–2021',
+            aliases: [
+              'Bugatti Divo 2021',
+              'Divo 2019–2021',
+              '5x130'
+            ],
+            years: '2021-2021',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-26',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bugatti Divo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Bugatti/Divo/Divo%20%282019%20-%202021%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–2021); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-26',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Bugatti Divo 2019–2021 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bugatti/divo/2019-2021/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2019–2021); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mistral',
+        slug: 'mistral',
+        records: [
+          {
+            id: 'pcd-b8-bugatti-mistral-2026-5x130',
+            generation: '2022–present',
+            aliases: [
+              'Bugatti Mistral 2026',
+              'Mistral 2022–present',
+              '5x130'
+            ],
+            years: '2026-2026',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-27',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Bugatti Mistral wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Bugatti/Mistral/Mistral%20%282022%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-27',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Bugatti Mistral 2022–present wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/bugatti/mistral/2022-present/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2022–present); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Laika',
+    slug: 'laika',
+    models: [
+      {
+        name: 'Kosmo V5',
+        slug: 'kosmo-v5',
+        records: [
+          {
+            id: 'pcd-b8-laika-kosmo-v5-2024-5x118',
+            generation: '2020–2024',
+            aliases: [
+              'Laika Kosmo V5 2024',
+              'Kosmo V5 2020–2024',
+              '5x118'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-107',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Laika Kosmo V5 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Laika/Kosmo%20V5/Kosmo%20V5%20%282020%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-107',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Laika Kosmo V5 2020–2024 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/laika/kosmo-v5/2020-2024/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Kosmo V9',
+        slug: 'kosmo-v9',
+        records: [
+          {
+            id: 'pcd-b8-laika-kosmo-v9-2024-5x118',
+            generation: '2020–2024',
+            aliases: [
+              'Laika Kosmo V9 2024',
+              'Kosmo V9 2020–2024',
+              '5x118'
+            ],
+            years: '2024-2024',
+            market: 'Global',
+            pcd: '5x118',
+            centerBore: '71.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-108',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Laika Kosmo V9 wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Laika/Kosmo%20V9/Kosmo%20V9%20%282020%20-%202024%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-108',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Laika Kosmo V9 2020–2024 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/laika/kosmo-v9/2020-2024/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2020–2024); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'X650R',
+        slug: 'x650r',
+        records: [
+          {
+            id: 'pcd-b8-laika-x650r-2014-5x130',
+            generation: '2007–2014',
+            aliases: [
+              'Laika X650R 2014',
+              'X650R 2007–2014',
+              '5x130'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-109',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Laika X650R wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Laika/X650R/X650R%20%282007%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-109',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Laika X650R 2007–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/laika/x650r/2007-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'X660R',
+        slug: 'x660r',
+        records: [
+          {
+            id: 'pcd-b8-laika-x660r-2014-5x130',
+            generation: '2007–2014',
+            aliases: [
+              'Laika X660R 2014',
+              'X660R 2007–2014',
+              '5x130'
+            ],
+            years: '2014-2014',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '78.1',
+            thread: 'M16x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET68',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-110',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Laika X660R wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Laika/X660R/X660R%20%282007%20-%202014%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-110',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Laika X660R 2007–2014 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/laika/x660r/2007-2014/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2007–2014); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Lamborghini',
+    slug: 'lamborghini',
+    models: [
+      {
+        name: 'Gallardo',
+        slug: 'gallardo',
+        records: [
+          {
+            id: 'pcd-b8-lamborghini-gallardo-2013-5x112',
+            generation: '2003–2013',
+            aliases: [
+              'Lamborghini Gallardo 2013',
+              'Gallardo 2003–2013',
+              '5x112'
+            ],
+            years: '2013-2013',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET0',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-111',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Lamborghini Gallardo wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Lamborghini/Gallardo/Gallardo%20%282003%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-111',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Lamborghini Gallardo 2003–2013 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/lamborghini/gallardo/2003-2013/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2013); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Rolls-Royce',
+    slug: 'rolls-royce',
+    models: [
+      {
+        name: 'Dawn',
+        slug: 'dawn',
+        records: [
+          {
+            id: 'pcd-b8-rolls-royce-dawn-2022-5x120',
+            generation: '2015–2022',
+            aliases: [
+              'Rolls-Royce Dawn 2022',
+              'Dawn 2015–2022',
+              '5x120'
+            ],
+            years: '2022-2022',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-200',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rolls-Royce Dawn wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Rolls-Royce/Dawn/Dawn%20%282015%20-%202022%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2022); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-200',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Rolls-Royce Dawn 2015–2022 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/rolls-royce/dawn/2015-2022/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2015–2022); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Phantom VII',
+        slug: 'phantom-vii',
+        records: [
+          {
+            id: 'pcd-b8-rolls-royce-phantom-vii-2016-5x120',
+            generation: '2003–2016',
+            aliases: [
+              'Rolls-Royce Phantom VII 2016',
+              'Phantom VII 2003–2016',
+              '5x120'
+            ],
+            years: '2016-2016',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-201',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rolls-Royce Phantom VII wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Rolls-Royce/Phantom%20VII/Phantom%20VII%20%282003%20-%202016%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2016); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-201',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Rolls-Royce Phantom VII 2003–2016 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/rolls-royce/phantom-vii/2003-2017/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2003–2016); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Wraith',
+        slug: 'wraith',
+        records: [
+          {
+            id: 'pcd-b8-rolls-royce-wraith-2023-5x120',
+            generation: '2013–2023',
+            aliases: [
+              'Rolls-Royce Wraith 2023',
+              'Wraith 2013–2023',
+              '5x120'
+            ],
+            years: '2023-2023',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-10-29',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b8-src-wf-202',
+                type: 'technicalReference',
+                publisher: 'Wheel-Fitment.com',
+                title: 'Rolls-Royce Wraith wheel hardware',
+                url: 'https://www.wheel-fitment.com/car/Rolls-Royce/Wraith/Wraith%20%282013%20-%20%29/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; only values agreeing with the other retained publisher are used. A null torque means two publishers do not agree on a usable torque.'
+              },
+              {
+                id: 'pcd-b8-src-atlas-202',
+                type: 'technicalReference',
+                publisher: 'WheelAtlas',
+                title: 'Rolls-Royce Wraith 2013–2023 wheel specifications',
+                url: 'https://wheelatlas.cc/en/cars/rolls-royce/wraith/2013-2023/',
+                documentDate: null,
+                checkedAt: '2026-10-29',
+                pages: 'Exact-generation page (2013–2023); publication has no regional restriction',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'fastenerType',
+                  'threadSize',
+                  'offset',
+                  'torque'
+                ],
+                limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
               }
             ]
           }
