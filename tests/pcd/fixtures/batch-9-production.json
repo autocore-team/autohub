@@ -1,0 +1,974 @@
+{
+  "batch": "pcd-production-batch-9",
+  "coverageAudit": {
+    "baselineRecords": 2080,
+    "baselineMakers": 91,
+    "baselineModels": 1492,
+    "baselineGenerations": 2079,
+    "baselineMarkets": {
+      "GLOBAL": 1191,
+      "EU": 563,
+      "US": 210,
+      "OTHER": 110,
+      "JP": 74
+    },
+    "baselineDecades": {
+      "2020s": 612,
+      "2010s": 546,
+      "2000s": 517,
+      "1990s": 314,
+      "1980s": 64,
+      "1970s": 25,
+      "1960s": 2
+    },
+    "underrepresentedMakerThreshold": 10,
+    "selectedGapCoverage": {
+      "underrepresentedMaker": 50,
+      "newModel": 34,
+      "newGeneration": 220,
+      "pre1990": 9,
+      "rarePcd": 43,
+      "bodyLabel": 11
+    }
+  },
+  "candidateAudit": {
+    "considered": 355,
+    "rejected": 133,
+    "accepted": 222,
+    "semanticCollisionsRemoved": 86,
+    "sharedSourceConsolidations": 47
+  },
+  "baseline": {
+    "records": 2080,
+    "semanticHash": "4a74f3396d45892920a5fb163609c537b8231426e1faf7284d310abfdb2b2f81",
+    "orderHash": "3f11c2b984003591b1c0d0069cf54085f7ef65b90d0fa96936c80f14638dca2b"
+  },
+  "expected": {
+    "records": 2302,
+    "makers": 92,
+    "models": 1524,
+    "statuses": {
+      "legacyPending": 281,
+      "verified": 15,
+      "corroborated": 2006
+    },
+    "batchStatuses": {
+      "verified": 0,
+      "corroborated": 222
+    },
+    "markets": {
+      "US": 0,
+      "EU": 0,
+      "JP": 0,
+      "OTHER": 0,
+      "GLOBAL": 222
+    },
+    "sourceUrls": 447,
+    "sourceBreakdown": {
+      "WheelAtlas": 178,
+      "MonEntraxe.fr": 135,
+      "Wheel-Fitment.com": 44,
+      "ANKUSI Wheels": 90
+    },
+    "sourceCitationSharePct": {
+      "WheelAtlas": 39.82,
+      "MonEntraxe.fr": 30.2,
+      "Wheel-Fitment.com": 9.84,
+      "ANKUSI Wheels": 20.13
+    },
+    "recordsWithTwoIndependentPublishers": 219,
+    "recordsWithThreeIndependentPublishers": 3,
+    "finalSemanticHash": "d0fa4487742fda7e8ea565d8dcdd677846080e58cbe793d2e9c7ac89701af6ba"
+  },
+  "consolidations": [
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "aston martin cygnet 2013"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "cadillac ct6 v 2026"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "cadillac cts v 2014"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "chevrolet jimny 2018"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "chrysler 300c 4x4 2010"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "ford maverick 2007"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "hyundai ioniq 5 n 2026"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "mazda mazda2 hybrid 2026"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "mitsubishi pajero wagon 2006"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "pontiac torrent 2009"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "ram promaster 2026"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "rover mgf roadster 2002"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "suzuki across 2025"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "suzuki invicto 2026"
+    },
+    {
+      "kind": "atlas-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "suzuki swace 2026"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Aston Martin Cygnet 2012"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Bentley Continental GTC 2010"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Bentley Continental GTC 2025"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Cadillac CTS 2006"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Chevrolet Cavalier 2002"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Chevrolet Equinox 2005"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Chevrolet Equinox 2016"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Chevrolet Lumina 1998"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ferrari 360 Spider 2001"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ferrari 488 Spider 2016"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ferrari F430 Spider 2005"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Holden Captiva 2006"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Lamborghini Gallardo Spyder 2006"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Lancia Flavia 2013"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Mazda CX-9 2016"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Mini Cooper S 2004"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Mini Coupe 2012"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Nissan Armada 2004"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Opel Agila 2008"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Opel Ampera-e 2017"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Opel Vectra OPC 2006"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Opel Zafira OPC 2006"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Peugeot 4007 2007"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Peugeot RCZ-R 2014"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Pontiac Torrent 2009"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ram Promaster 2026"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Saab 9-2X 2005"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Saab 9-7X 2006"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Skoda Roomster Scout 2011"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Suzuki Across 2026"
+    },
+    {
+      "kind": "wf-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Toyota Corolla US 2017"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Aston Martin cygnet 2012"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Bentley continental flying spur 2009"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Bentley continental gtc 2010"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Cadillac cts 2006"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Cadillac xt5 2020"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Cadillac xt6 2020"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet bolt ev 2022"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet camaro 1975"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet cavalier 2002"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet equinox 2005"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet lumina 1998"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet malibu 2000"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet malibu 2004"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet matiz 2008"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet trax 2017"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Dodge grand caravan 2005"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Dodge journey 2011"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ferrari 360 spider 2001"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ferrari 458 spider 2013"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ferrari 488 spider 2016"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ferrari f430 spider 2005"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "GMC acadia 2013"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "GMC terrain 2016"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Holden captiva 2006"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Hyundai genesis 2015"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Lada niva travel 2024"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Lamborghini gallardo spyder 2006"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Lancia flavia 2013"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Mazda 929 1974"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Mazda cx 9 2016"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Mini cooper s 2004"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Mini coupe 2012"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Nissan almera 2013"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Nissan altima 1993"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Nissan armada 2004"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Opel adam rocks 2015"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Opel agila 2008"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Opel ampera e 2017"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Opel vectra opc 2006"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Opel zafira opc 2006"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Peugeot 4007 2007"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Peugeot rcz r 2014"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Pontiac torrent 2009"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Ram promaster 2026"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Renault laguna coupe 2009"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Renault safrane 2009"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Renault trafic 2007"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Saab 9 2x 2005"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Saab 9 7x 2006"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Skoda felicia pickup 1999"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Skoda roomster scout 2011"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Suzuki across 2026"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Tesla roadster 2008"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Toyota corolla us 2017"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Toyota highlander 2011"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Volvo s60 2014"
+    },
+    {
+      "kind": "atlas-ankusi",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Volvo v90 cross country 2020"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Aston Martin Cygnet 2013"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Cadillac CTS-V 2020"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Chevrolet Astro 4WD 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet Cavalier 2005"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Chevrolet Cruze Diesel 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Chevrolet Jimny 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Chevrolet Lumina 1999"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Chrysler 300C 4x4 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Ford Ranger 2006"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Ford Taurus 2001"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Ford Transit Custom 2.7t, 2.9t, 3.1t 2023"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Mazda CX-9 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "MG TF 2011"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Mitsubishi L200 2WD 2006"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Mitsubishi Pajero Wagon 2006"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Nissan Armada 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Nissan Roque 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Nissan Xterra 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Opel Agila 2008"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Opel Campo 2WD 2003"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Opel Campo 4WD 2003"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Pontiac Montana 2010"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Pontiac Torrent 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "RAM Promaster 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Rover MGF Roadster 2006"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Suzuki Gand Vitara 2005"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Toyota 4 Runner 2026"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Toyota Avensis II 2.2 Diesel 2008"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "badge trim body-style or overlapping-generation consolidation",
+      "vehicle": "Toyota HiLux 2WD 2005"
+    },
+    {
+      "kind": "wf-mon",
+      "reason": "shared-source or exact semantic consolidation",
+      "vehicle": "Volvo V40 Cross Country 2021"
+    }
+  ],
+  "ids": [
+    "pcd-b9-acura-ilx-2022-5x114-3",
+    "pcd-b9-acura-rdx-2026-5x114-3",
+    "pcd-b9-buick-envision-2026-5x120",
+    "pcd-b9-buick-park-avenue-1996-5x115",
+    "pcd-b9-buick-roadmaster-1998-5x127",
+    "pcd-b9-cadillac-ct6-2023-5x120",
+    "pcd-b9-cadillac-cts-2007-5x115",
+    "pcd-b9-cadillac-srx-2010-6x115",
+    "pcd-b9-cadillac-xt4-2026-5x120",
+    "pcd-b9-cadillac-xt5-2026-6x120",
+    "pcd-b9-cadillac-xt6-2026-6x120",
+    "pcd-b9-chevrolet-bolt-ev-2023-5x105",
+    "pcd-b9-chevrolet-camaro-1982-5x120-65",
+    "pcd-b9-chevrolet-cavalier-1987-5x100",
+    "pcd-b9-chevrolet-corsica-1996-5x100",
+    "pcd-b9-chevrolet-epica-2014-4x114-3",
+    "pcd-b9-chevrolet-equinox-2009-5x115",
+    "pcd-b9-chevrolet-lacetti-2011-4x114-3",
+    "pcd-b9-chevrolet-lumina-1994-5x115",
+    "pcd-b9-chevrolet-trax-2022-5x105",
+    "pcd-b9-chrysler-sebring-2000-5x100",
+    "pcd-b9-chrysler-voyager-1995-5x114-3",
+    "pcd-b9-daihatsu-cuore-1994-4x110",
+    "pcd-b9-daihatsu-materia-2015-4x100",
+    "pcd-b9-daihatsu-mira-gino-2008-4x100",
+    "pcd-b9-daihatsu-yrv-2006-4x100",
+    "pcd-b9-dodge-journey-2011-5x127",
+    "pcd-b9-faw-hongqi-e-qm5-2026-5x114-3",
+    "pcd-b9-faw-hongqi-h5-2026-5x114-3",
+    "pcd-b9-faw-hongqi-hs5-2026-5x114-3",
+    "pcd-b9-ford-b-max-2018-4x108",
+    "pcd-b9-ford-cougar-2004-4x108",
+    "pcd-b9-ford-escape-2006-5x114-3",
+    "pcd-b9-ford-ka-2008-4x108",
+    "pcd-b9-ford-ranger-2006-6x139-7",
+    "pcd-b9-ford-taurus-1991-5x108",
+    "pcd-b9-ford-tourneo-2026-5x160",
+    "pcd-b9-ford-transit-custom-2-7t-2-9t-3-1t-2023-5x160",
+    "pcd-b9-gmc-terrain-2017-5x120",
+    "pcd-b9-honda-civic-1987-4x100",
+    "pcd-b9-honda-e-ny1-2026-5x114-3",
+    "pcd-b9-honda-fit-2022-4x100",
+    "pcd-b9-honda-fr-v-2010-5x114-3",
+    "pcd-b9-honda-zr-v-2026-5x114-3",
+    "pcd-b9-hyundai-coupe-2002-4x114-3",
+    "pcd-b9-hyundai-inster-2026-4x100",
+    "pcd-b9-hyundai-ioniq-6-2026-5x114-3",
+    "pcd-b9-hyundai-ix35-2022-5x114-3",
+    "pcd-b9-hyundai-nexo-2025-5x114-3",
+    "pcd-b9-infiniti-q50-2024-5x114-3",
+    "pcd-b9-infiniti-qx55-2026-5x114-3",
+    "pcd-b9-jaguar-e-pace-2024-5x108",
+    "pcd-b9-jaguar-f-pace-2025-5x108",
+    "pcd-b9-jaguar-i-pace-2024-5x108",
+    "pcd-b9-jaguar-xf-2024-5x108",
+    "pcd-b9-jeep-compass-2016-5x114-3",
+    "pcd-b9-kia-carens-2006-5x114-3",
+    "pcd-b9-kia-cerato-2008-5x114-3",
+    "pcd-b9-kia-ev3-2026-5x114-3",
+    "pcd-b9-kia-stinger-2024-5x114-3",
+    "pcd-b9-kia-xceed-2026-5x114-3",
+    "pcd-b9-lada-niva-travel-2026-5x139-7",
+    "pcd-b9-land-rover-range-rover-velar-2026-5x108",
+    "pcd-b9-lexus-lc-2026-5x120",
+    "pcd-b9-lexus-ls-2026-5x120",
+    "pcd-b9-lexus-rc-2025-5x114-3",
+    "pcd-b9-mazda-121-1991-4x114-3",
+    "pcd-b9-mazda-929-1981-4x120",
+    "pcd-b9-mazda-cx-30-2026-5x114-3",
+    "pcd-b9-mazda-cx-60-2026-5x114-3",
+    "pcd-b9-mazda-cx-80-2026-5x114-3",
+    "pcd-b9-mazda-cx-9-2015-5x114-3",
+    "pcd-b9-mazda-demio-2003-4x100",
+    "pcd-b9-mazda-mx-30-2026-5x114-3",
+    "pcd-b9-mazda-mx-6-1997-5x114-3",
+    "pcd-b9-mazda-tribute-2006-5x114-3",
+    "pcd-b9-mazda-xedos-6-2000-5x114-3",
+    "pcd-b9-mazda-xedos-9-2002-5x114-3",
+    "pcd-b9-mitsubishi-eclipse-1994-5x114-3",
+    "pcd-b9-mitsubishi-eclipse-cross-2026-5x114-3",
+    "pcd-b9-mitsubishi-fto-2002-5x114-3",
+    "pcd-b9-mitsubishi-grandis-2011-5x114-3",
+    "pcd-b9-mitsubishi-lancer-1992-4x114-3",
+    "pcd-b9-mitsubishi-pajero-pinin-2007-5x114-3",
+    "pcd-b9-mitsubishi-sigma-1997-5x114-3",
+    "pcd-b9-mitsubishi-space-star-2005-4x114-3",
+    "pcd-b9-mitsubishi-space-wagon-1999-4x114-3",
+    "pcd-b9-nissan-350z-2009-5x114-3",
+    "pcd-b9-nissan-almera-2018-4x100",
+    "pcd-b9-nissan-altima-2001-5x114-3",
+    "pcd-b9-nissan-armada-2015-6x139-7",
+    "pcd-b9-nissan-maxima-2008-5x114-3",
+    "pcd-b9-nissan-murano-2024-5x114-3",
+    "pcd-b9-nissan-nv200-2026-4x114-3",
+    "pcd-b9-nissan-patrol-1997-6x139-7",
+    "pcd-b9-nissan-pixo-2016-4x100",
+    "pcd-b9-nissan-prairie-1988-4x114-3",
+    "pcd-b9-nissan-sunny-1991-4x100",
+    "pcd-b9-opel-agila-2008-4x100",
+    "pcd-b9-opel-frontera-1998-6x139-7",
+    "pcd-b9-opel-insignia-2017-5x120",
+    "pcd-b9-pontiac-firebird-1992-5x120-65",
+    "pcd-b9-pontiac-montana-2004-5x115",
+    "pcd-b9-pontiac-sunfire-2005-5x100",
+    "pcd-b9-renault-master-1997-5x190",
+    "pcd-b9-renault-trafic-2001-4x160",
+    "pcd-b9-rover-25-2006-4x100",
+    "pcd-b9-subaru-ascent-2026-5x114-3",
+    "pcd-b9-subaru-b9-tribeca-2014-5x114-3",
+    "pcd-b9-subaru-crosstrek-2026-5x114-3",
+    "pcd-b9-subaru-legacy-1994-5x100",
+    "pcd-b9-subaru-levorg-2022-5x114-3",
+    "pcd-b9-subaru-vivio-1998-4x100",
+    "pcd-b9-suzuki-alto-1994-4x114-3",
+    "pcd-b9-toyota-4-runner-2009-6x139-7",
+    "pcd-b9-toyota-bb-2016-4x100",
+    "pcd-b9-toyota-century-2024-5x120",
+    "pcd-b9-toyota-corolla-1992-4x100",
+    "pcd-b9-toyota-gt-86-2021-5x100",
+    "pcd-b9-toyota-highlander-2007-5x114-3",
+    "pcd-b9-toyota-previa-1999-5x114-3",
+    "pcd-b9-toyota-sienna-2020-5x114-3",
+    "pcd-b9-toyota-tundra-2006-6x139-7",
+    "pcd-b9-toyota-verso-s-2017-5x100",
+    "pcd-b9-volvo-v50-2012-5x108",
+    "pcd-b9-aston-martin-db9-2013-5x114-3",
+    "pcd-b9-aston-martin-v8-vantage-2012-5x114-3",
+    "pcd-b9-bentley-continental-flying-spur-2009-5x112",
+    "pcd-b9-bentley-continental-gt-2012-5x112",
+    "pcd-b9-chevrolet-camaro-1975-5x120-65",
+    "pcd-b9-chevrolet-impala-2006-5x115",
+    "pcd-b9-chevrolet-malibu-2000-5x115",
+    "pcd-b9-chevrolet-malibu-2004-5x110",
+    "pcd-b9-chevrolet-matiz-2008-4x114-3",
+    "pcd-b9-chevrolet-tracker-2001-5x139-7",
+    "pcd-b9-chrysler-town-and-country-2011-5x127",
+    "pcd-b9-ford-expedition-2025-6x135",
+    "pcd-b9-gmc-acadia-2013-6x132",
+    "pcd-b9-hyundai-genesis-2015-5x114-3",
+    "pcd-b9-lancia-thema-2012-5x115",
+    "pcd-b9-land-rover-defender-2013-5x165-1",
+    "pcd-b9-lucid-air-2021-5x120",
+    "pcd-b9-nissan-altima-1993-4x114-3",
+    "pcd-b9-nissan-xterra-2005-6x114-3",
+    "pcd-b9-opel-adam-rocks-2015-4x100",
+    "pcd-b9-polestar-polestar-4-2025-5x108",
+    "pcd-b9-ram-ram-1500-2025-6x139-7",
+    "pcd-b9-renault-alaskan-2017-6x114-3",
+    "pcd-b9-renault-laguna-coupe-2009-5x114-3",
+    "pcd-b9-renault-safrane-2009-5x114-3",
+    "pcd-b9-renault-trafic-2007-5x118",
+    "pcd-b9-skoda-felicia-pickup-1999-4x100",
+    "pcd-b9-tesla-roadster-2008-5x110",
+    "pcd-b9-toyota-highlander-2020-5x114-3",
+    "pcd-b9-toyota-sequoia-2008-5x150",
+    "pcd-b9-vinfast-vf8-2023-5x120",
+    "pcd-b9-vinfast-vf9-2023-5x120",
+    "pcd-b9-volkswagen-cc-2026-5x112",
+    "pcd-b9-volvo-480-1987-4x100",
+    "pcd-b9-volvo-s60-2014-5x108",
+    "pcd-b9-volvo-v40-cross-country-2017-5x108",
+    "pcd-b9-volvo-v90-cross-country-2020-5x108",
+    "pcd-b9-aston-martin-db11-2017-5x128",
+    "pcd-b9-audi-cabriolet-1992-4x108",
+    "pcd-b9-bentley-arnage-2007-5x120",
+    "pcd-b9-bentley-continental-gt-2026-5x130",
+    "pcd-b9-bmw-3-series-1982-4x100",
+    "pcd-b9-byd-seal-2026-5x120",
+    "pcd-b9-byd-tang-2026-5x120",
+    "pcd-b9-cadillac-lyriq-2023-6x132",
+    "pcd-b9-cadillac-xlr-2004-5x120-65",
+    "pcd-b9-chevrolet-corvette-2008-5x120-65",
+    "pcd-b9-chevrolet-equinox-2016-5x120",
+    "pcd-b9-chevrolet-impala-2000-5x115",
+    "pcd-b9-chevrolet-traverse-2013-6x132",
+    "pcd-b9-chrysler-pacifica-2007-5x127",
+    "pcd-b9-cupra-ateca-2025-5x112",
+    "pcd-b9-cupra-born-2022-5x112",
+    "pcd-b9-cupra-formentor-2025-5x112",
+    "pcd-b9-cupra-terramar-2025-5x112",
+    "pcd-b9-dodge-caravan-2005-5x114-3",
+    "pcd-b9-dodge-grand-caravan-2011-5x127",
+    "pcd-b9-fisker-karma-2012-5x130",
+    "pcd-b9-fisker-latigo-cs-2006-5x120",
+    "pcd-b9-fisker-ocean-2023-5x114-3",
+    "pcd-b9-fisker-tramonto-2006-5x112",
+    "pcd-b9-ford-excursion-2003-8x170",
+    "pcd-b9-ford-expedition-2022-6x135",
+    "pcd-b9-gmc-acadia-2020-6x120",
+    "pcd-b9-gmc-terrain-2018-5x115",
+    "pcd-b9-hyundai-coupe-2007-5x114-3",
+    "pcd-b9-isuzu-d-max-2017-6x139-7",
+    "pcd-b9-jaguar-xk-2007-5x108",
+    "pcd-b9-jeep-gladiator-2024-5x127",
+    "pcd-b9-lancia-delta-2009-4x98",
+    "pcd-b9-lancia-musa-2008-4x98",
+    "pcd-b9-lancia-y-2002-4x98",
+    "pcd-b9-lincoln-corsair-2020-5x108",
+    "pcd-b9-lynk-co-02-2026-5x108",
+    "pcd-b9-lynk-co-08-2025-5x108",
+    "pcd-b9-mg-tf-2010-4x95-25",
+    "pcd-b9-nissan-rogue-2014-5x114-3",
+    "pcd-b9-polestar-polestar-2-2021-5x108",
+    "pcd-b9-ram-ram-1500-2014-5x139-7",
+    "pcd-b9-renault-kwid-2016-3x100",
+    "pcd-b9-saab-9-3-2008-5x110",
+    "pcd-b9-saab-9-4x-2012-6x120",
+    "pcd-b9-saab-900-1997-5x110",
+    "pcd-b9-suzuki-celerio-2015-4x100",
+    "pcd-b9-toyota-supra-1987-5x114-3",
+    "pcd-b9-volkswagen-multivan-2023-5x120",
+    "pcd-b9-xpeng-g9-2026-5x112",
+    "pcd-b9-zeekr-007-2025-5x108",
+    "pcd-b9-zeekr-7x-2025-5x108",
+    "pcd-b9-zeekr-9x-2025-5x108",
+    "pcd-b9-chevrolet-envoy-2017-6x127",
+    "pcd-b9-isuzu-campo-2wd-2003-6x139-7",
+    "pcd-b9-isuzu-campo-4wd-2003-6x139-7",
+    "pcd-b9-kia-pro-ceed-2012-5x114-3",
+    "pcd-b9-lexus-ls460-2010-5x120",
+    "pcd-b9-toyota-avensis-ii-2008-5x100",
+    "pcd-b9-volkswagen-lt-double-1996-6x205"
+  ]
+}
