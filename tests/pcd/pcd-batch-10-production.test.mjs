@@ -13,10 +13,10 @@ const check = (condition, message) => { if (!condition) throw new Error(message)
 const hash = (value) => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const normalize = (value) => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-check(summary.records === fixture.expected.records, `Expected ${fixture.expected.records} records, found ${summary.records}`);
-check(summary.makers === fixture.expected.makers, 'Maker count changed');
-check(summary.models === fixture.expected.models, 'Model count changed');
-check(JSON.stringify(summary.statuses) === JSON.stringify(fixture.expected.statuses), 'Verification status counts changed');
+check(summary.records >= fixture.expected.records, `Expected at least ${fixture.expected.records} records, found ${summary.records}`);
+check(summary.makers >= fixture.expected.makers, 'Maker count regressed');
+check(summary.models >= fixture.expected.models, 'Model count regressed');
+check(summary.statuses.legacyPending === fixture.expected.statuses.legacyPending && summary.statuses.verified === fixture.expected.statuses.verified && summary.statuses.corroborated >= fixture.expected.statuses.corroborated, 'Verification status baseline changed');
 const audit = fixture.candidateAudit;
 check(audit.considered === audit.accepted + audit.rejected, 'Candidate audit does not balance');
 check(audit.rejected === audit.incompleteExclusions + audit.fieldConflictExclusions + audit.semanticCollisionsRemoved + audit.trimBodyOverlapsRemoved + audit.badgeEngineeredDuplicatesRemoved + audit.sharedSourceDuplicatesRemoved, 'Exclusion categories do not balance');
@@ -25,7 +25,7 @@ check(audit.accepted >= 200, 'Batch 10 misses its production target');
 const baseline = source.records.slice(0, fixture.baseline.records);
 check(hash(baseline) === fixture.baseline.semanticHash, 'First 2302 records changed semantically');
 check(hash(baseline.map((record) => record.id)) === fixture.baseline.orderHash, 'First 2302 record order changed');
-check(hash(source.records) === fixture.expected.finalSemanticHash, 'Final Batch 10 semantic hash changed');
+check(hash(source.records.slice(0, fixture.expected.records)) === fixture.expected.finalSemanticHash, 'Final Batch 10 semantic hash changed');
 
 const priorIds = new Set([1,2,3,4,5,6,7,8,9].flatMap((batch) => JSON.parse(fs.readFileSync(path.join(root, `tests/pcd/fixtures/batch-${batch}-production.json`), 'utf8')).ids));
 const ids = new Set(fixture.ids);
