@@ -87,10 +87,10 @@ function offsetLabel(record) {
 
 const source = loadPcdSource();
 const summary = validatePcdData(source);
-check(summary.records === 2732, `Expected 2732 PCD records, found ${summary.records}`);
-check(summary.makers === 115, `Expected 115 PCD makers, found ${summary.makers}`);
-check(summary.models === 1804, `Expected 1804 PCD models, found ${summary.models}`);
-check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15 && summary.statuses.corroborated === 2436, 'Expected 281 legacyPending, 15 verified and 2436 corroborated records');
+check(summary.records === 2844, `Expected 2844 PCD records, found ${summary.records}`);
+check(summary.makers === 136, `Expected 136 PCD makers, found ${summary.makers}`);
+check(summary.models === 1916, `Expected 1916 PCD models, found ${summary.models}`);
+check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15 && summary.statuses.corroborated === 2548, 'Expected 281 legacyPending, 15 verified and 2548 corroborated records');
 check(source.records.filter((record) => record.verificationStatus === 'legacyPending').every((record) => record.sources.length === 0 && record.lastVerifiedAt === null), 'Legacy records gained invented sources or verification dates');
 check(source.records.filter((record) => record.verificationStatus === 'verified').every((record) => record.sources.length > 0 && ['2026-09-21', '2026-09-24'].includes(record.lastVerifiedAt)), 'Verified batch date/source policy failed');
 console.log('PASS PCD schema and verified batch counts');
@@ -137,8 +137,8 @@ const requiredQueries = new Map([
   ['Octavia 1Z 5E NX', 5],
   ['Leon 1P 5F KL', 6],
   ['Touran 1T 5T', 3],
-  ['5x112', 417],
-  ['5×112', 417],
+  ['5x112', 423],
+  ['5×112', 423],
   ['M14x1.5', 433]
 ]);
 for (const [query, expectedRecords] of requiredQueries) {
@@ -152,7 +152,7 @@ for (const [query, expectedRecords] of requiredQueries) {
   console.log(`PASS PCD search "${query}": ${results.length} record${results.length === 1 ? '' : 's'}`);
 }
 check(search.normalizeSearchText('5×112') === '5x112', 'Multiplication-sign normalization failed');
-check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 417, 'PCD hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 423, 'PCD hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 433, 'Thread hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'gOlF-5')).length === 5, 'Case/hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 31, 'Volkswagen alias search failed');

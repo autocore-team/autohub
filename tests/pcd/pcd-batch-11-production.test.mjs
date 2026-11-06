@@ -19,8 +19,8 @@ check(summary.models === fixture.expected.models, 'Model count changed');
 check(JSON.stringify(summary.statuses) === JSON.stringify(fixture.expected.statuses), 'Verification status counts changed');
 const audit = fixture.candidateAudit;
 check(audit.considered === audit.accepted + audit.rejected, 'Candidate audit does not balance');
-check(audit.rejected === audit.incompleteExclusions + audit.fieldConflictExclusions + audit.semanticCollisionsRemoved, 'Exclusion categories do not balance');
-check(audit.accepted >= 150, 'Batch 11 misses its production target');
+check(audit.rejected === audit.incompleteExclusions + audit.fieldConflictExclusions + audit.semanticCollisionsRemoved + audit.trimBodyOverlapsRemoved + audit.badgeEngineeredDuplicatesRemoved + audit.sharedSourceDuplicatesRemoved, 'Exclusion categories do not balance');
+check(audit.accepted >= 200, 'Batch 11 misses its production target');
 
 const baseline = source.records.slice(0, fixture.baseline.records);
 check(hash(baseline) === fixture.baseline.semanticHash, 'First 2577 records changed semantically');
@@ -71,6 +71,7 @@ check(batch.length === fixture.expected.recordsWithTwoIndependentPublishers, 'In
 check(batch.filter((record) => record.torque === null).length === fixture.expected.recordsWithNullTorque, 'Null-torque count changed');
 check(fixture.coverageAudit.selectedGapCoverage.newModel === batch.length, 'New-model coverage changed');
 check(fixture.coverageAudit.selectedGapCoverage.explicitRegionalScope === batch.length, 'Regional scope coverage changed');
+check(fixture.consolidations.length === audit.semanticCollisionsRemoved + audit.trimBodyOverlapsRemoved + audit.badgeEngineeredDuplicatesRemoved + audit.sharedSourceDuplicatesRemoved, 'Post-research consolidation log is incomplete');
 check(fixture.suspectedLegacyRecords.length === 0, 'Legacy audit unexpectedly contains an unreviewed correction');
 const generated = generatedPcdFile(source);
 const disk = fs.readFileSync(path.join(root, 'pcd-data.js'), 'utf8');

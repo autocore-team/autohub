@@ -4,21 +4,24 @@
     "baselineRecords": 2577,
     "underrepresentedMakerThreshold": 10,
     "selectedGapCoverage": {
-      "underrepresentedMaker": 155,
-      "newModel": 155,
-      "newGeneration": 155,
+      "underrepresentedMaker": 262,
+      "newModel": 267,
+      "newGeneration": 267,
       "pre1990": 2,
-      "rarePcd": 11,
-      "explicitRegionalScope": 155
+      "rarePcd": 24,
+      "explicitRegionalScope": 267
     }
   },
   "candidateAudit": {
-    "considered": 420,
-    "accepted": 155,
-    "rejected": 265,
-    "incompleteExclusions": 250,
-    "fieldConflictExclusions": 15,
-    "semanticCollisionsRemoved": 0
+    "considered": 1620,
+    "accepted": 267,
+    "rejected": 1353,
+    "incompleteExclusions": 1182,
+    "fieldConflictExclusions": 40,
+    "semanticCollisionsRemoved": 18,
+    "trimBodyOverlapsRemoved": 76,
+    "badgeEngineeredDuplicatesRemoved": 37,
+    "sharedSourceDuplicatesRemoved": 0
   },
   "baseline": {
     "records": 2577,
@@ -26,43 +29,844 @@
     "orderHash": "73e7b64bddfd9769eb7e5dd54d8f287d6567598b52fc69ab69b962bf26066a75"
   },
   "expected": {
-    "records": 2732,
-    "makers": 115,
-    "models": 1804,
+    "records": 2844,
+    "makers": 136,
+    "models": 1916,
     "statuses": {
       "legacyPending": 281,
       "verified": 15,
-      "corroborated": 2436
+      "corroborated": 2548
     },
     "batchStatuses": {
       "verified": 0,
-      "corroborated": 155
+      "corroborated": 267
     },
     "markets": {
-      "US": 7,
+      "US": 17,
       "EU": 24,
-      "JP": 3,
-      "OTHER": 126,
+      "JP": 1,
+      "OTHER": 229,
       "GLOBAL": 0
     },
-    "sourceUrls": 310,
+    "sourceUrls": 534,
     "sourceBreakdown": {
-      "TireWheelGuide": 155,
-      "AvtoReference": 155
+      "TireWheelGuide": 267,
+      "AvtoReference": 267
     },
-    "recordsWithTwoIndependentPublishers": 155,
-    "recordsWithNullTorque": 155,
-    "finalSemanticHash": "3b5747408e066ec25889dba2820b6a50859ba86fa1a424746116db9958e6bf21"
+    "recordsWithTwoIndependentPublishers": 267,
+    "recordsWithNullTorque": 267,
+    "finalSemanticHash": "6bad0b83a67613d55c8b8c12f08878fc5a721e5af5ecb171d016187441ea4e39"
   },
   "rejectionBreakdown": {
-    "incomplete": 250,
-    "fieldConflict:thread": 4,
-    "fieldConflict:market": 8,
-    "fieldConflict:DIA": 1,
-    "fieldConflict:PCD": 2
+    "initialResearch": {
+      "incomplete": 250,
+      "fieldConflict:thread": 4,
+      "fieldConflict:market": 8,
+      "fieldConflict:DIA": 1,
+      "fieldConflict:PCD": 2
+    },
+    "extensionResearch": {
+      "incomplete": 932,
+      "fieldConflict:thread": 5,
+      "fieldConflict:market": 14,
+      "fieldConflict:PCD": 6
+    },
+    "postResearchAudit": {
+      "badgeEngineeredDuplicate": 37,
+      "trimBodyOverlap": 76,
+      "semanticCollision": 18
+    }
   },
+  "consolidations": [
+    {
+      "id": "pcd-b11-jaecoo-6-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-jaecoo-8-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-omoda-9-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-combo-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-combo-cargo-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-combo-life-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-corsa-2026-4x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-mokka-2026-4x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-vivaro-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-vivaro-life-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-600e-2025-4x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-aion-s-max-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-aion-s-plus-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-aston-martin-dbs-770-ultimate-2025-5x128",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-aston-martin-dbx707-2025-5x128",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-b4-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical Alpina model already exists in Batch 1–10",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-d3-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical Alpina model already exists in Batch 1–10",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-xb7-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical Alpina model already exists in Batch 1–10",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-changan-cs95-plus-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-changan-raeton-plus-2025-5x110",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-arrizo-6-pro-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-arrizo-8-pro-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-omoda-5-gt-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-2-pro-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-2-pro-max-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-5x-excellence-edition-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-5x-high-energy-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-5x-sport-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-7-c-dm-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-7-excellence-edition-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-8-plus-c-dm-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-8l-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-chery-tiggo-9-c-dm-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-forthing-lingzhi-plus-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-foton-conqueror-plus-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-geometry-c-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-geometry-e-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-haval-jolion-pro-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-haval-m6-plus-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Pro/Plus/edition/powertrain/body derivative overlaps the retained base Batch 11 model",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-hongqi-e-hs9-2025-5x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-hongqi-h9-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge, sub-brand alias or manufacturer-label duplicate already represented by the retained record",
+      "phase": "initialBatchAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-b8-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b11-bmw-alpina-b8-2026-5x112",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-jac-js2-2025-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-jac-js3-2025-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-jac-t8-pro-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-jetour-traveler-2025-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-jetour-x90-zilong-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-kaiyi-showjet-pro-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-kaiyi-xuandu-ev-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ldv-deliver-9-2025-6x180",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ldv-edeliver-3-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ldv-edeliver-9-2025-6x180",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ldv-et60-2025-6x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ldv-v80-2025-5x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-livan-maple-60s-pro-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-mahindra-pik-up-2025-5x160",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-d90-pro-amazon-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-deliver-9-2025-6x180",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-g10-cargo-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-g10-max-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-g20-es-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-g20-plus-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-interstellar-bull-demon-king-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-interstellar-h-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-interstellar-l-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-interstellar-r-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-t60-max-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-tornado-60-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-tornado-70-pro-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-tornado-90-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-v80-2025-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-maxus-v80-plus-2025-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-mercedes-maybach-eqs-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-mercedes-maybach-gls-class-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-mercedes-maybach-s-class-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-mercedes-maybach-sl-class-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ora-03-gt-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ora-good-cat-gt-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-seres-7-2025-5x120",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-crossland-2025-4x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-venucia-d60ev-plus-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-venucia-t60ev-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-venucia-v-online-dd-i-killer-whale-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-wuling-almaz-rs-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-wuling-cortez-s-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-wuling-hongguang-s-classic-2025-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-wuling-rongguang-truck-2025-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-zotye-t700l-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-595c-2024-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-695-2024-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-695c-2024-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-aston-martin-db12-2024-5x128",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b11-aston-martin-db12-2025-5x128",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-baic-senova-d50-2024-5x110",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b11-baic-senova-d50-2025-5x110",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-d5-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b8-alpina-d5-2017-5x120",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-xb7-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b4-alpina-xb7-g07-lci-2026-5x112",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-xd3-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b4-alpina-xd3-g01-lci-2025-5x112",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-xd4-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b4-alpina-xd4-g02-lci-2025-5x112",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-hongqi-e-qm5-2024-5x114-3",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b9-faw-hongqi-e-qm5-2026-5x114-3",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ldv-ev80-2024-5x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-soueast-dx8s-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-actyon-sports-2024-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-musso-2024-5x130",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b8-ssang-yong-musso-2005-6x139-7",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-musso-grand-2024-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-rexton-2024-5x130",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b6-ssang-yong-rexton-2017-present-2026-5x130",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-rexton-sports-2024-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-rexton-w-2024-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-rhino-2024-5x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-tivoli-grand-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-torres-evx-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ssangyong-xlv-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b6-ssang-yong-xlv-2016-2024-2024-5x112",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-bmw-alpina-b5-2023-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b4-mon-alpina-b5-g30-g31-lci-2024-5x112",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-mclaren-720s-spider-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-mclaren-765lt-spider-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-ora-funky-cat-2023-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-venucia-d60ev-2023-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-zotye-cloud-100plus-2023-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-hongqi-e-hs3-2022-5x114-3",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b5-faw-hongqi-e-hs3-faw-hongqi-e-hs3-2018-5x114-3",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-rising-marvel-r-2022-5x120",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-wuling-rongguang-extended-2022-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-baic-senova-x35-2021-5x110",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b11-baic-x35-2025-5x110",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-iran-khodro-runna-2021-4x108",
+      "category": "semanticCollision",
+      "reason": "Canonical model already represented by pcd-b11-iran-khodro-runna-plus-2024-4x108",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-wuling-sunshine-extended-2021-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-wuling-sunshine-s-2021-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-zotye-z500ev-2021-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-vauxhall-viva-2020-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-124-spider-2018-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional alias or badge-engineered equivalent is already represented in the dataset or retained pool",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-500-2014-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-500c-2014-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-punto-2013-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-abarth-punto-evo-2011-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body, powertrain or edition derivative overlaps a retained base model or an earlier batch",
+      "phase": "extensionAudit"
+    },
+    {
+      "id": "pcd-b11-wuling-hongguang-s3-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Body/model derivative overlaps the retained Wuling Hongguang Plus exact-year hardware scope",
+      "phase": "finalCollisionAudit"
+    }
+  ],
   "suspectedLegacyRecords": [],
-  "legacyAuditNote": "No existing record was changed; the first 2577 records retain their exact semantic content and order.",
+  "legacyAuditNote": "The first 2577 records retain their exact semantic content, order and statuses. Batch 11 candidates were re-audited for canonical maker identity, semantic collisions, badge engineering and trim/body overlap.",
   "ids": [
     "pcd-b11-lotus-elan-1989-4x100",
     "pcd-b11-datsun-280zx-1984-4x114-3",
@@ -74,48 +878,28 @@
     "pcd-b11-chery-tiggo-8-2026-5x108",
     "pcd-b11-chery-tiggo-cross-2026-5x108",
     "pcd-b11-genesis-g90-2026-5x114-3",
-    "pcd-b11-jaecoo-6-2026-5x108",
-    "pcd-b11-jaecoo-8-2026-5x108",
     "pcd-b11-jaecoo-j6-2026-5x108",
     "pcd-b11-jaecoo-j8-2026-5x108",
     "pcd-b11-li-i6-2026-5x120",
     "pcd-b11-mahindra-bolero-2026-5x160",
-    "pcd-b11-omoda-9-2026-5x108",
     "pcd-b11-omoda-c9-2026-5x108",
-    "pcd-b11-vauxhall-combo-2026-5x108",
-    "pcd-b11-vauxhall-combo-cargo-2026-5x108",
-    "pcd-b11-vauxhall-combo-life-2026-5x108",
-    "pcd-b11-vauxhall-corsa-2026-4x108",
-    "pcd-b11-vauxhall-mokka-2026-4x108",
-    "pcd-b11-vauxhall-vivaro-2026-5x108",
-    "pcd-b11-vauxhall-vivaro-life-2026-5x108",
     "pcd-b11-voyah-dream-2026-5x120",
-    "pcd-b11-abarth-600e-2025-4x108",
     "pcd-b11-aion-s-2025-5x108",
-    "pcd-b11-aion-s-max-2025-5x108",
-    "pcd-b11-aion-s-plus-2025-5x108",
     "pcd-b11-aion-ut-2025-5x108",
     "pcd-b11-aion-v-2025-5x108",
     "pcd-b11-aito-m5-2025-5x120",
     "pcd-b11-aston-martin-db12-2025-5x128",
-    "pcd-b11-aston-martin-dbs-770-ultimate-2025-5x128",
-    "pcd-b11-aston-martin-dbx707-2025-5x128",
     "pcd-b11-baic-senova-d50-2025-5x110",
     "pcd-b11-baic-x35-2025-5x110",
     "pcd-b11-baw-ace-em7-2025-5x120",
-    "pcd-b11-bmw-alpina-b4-2025-5x112",
-    "pcd-b11-bmw-alpina-d3-2025-5x112",
     "pcd-b11-bmw-alpina-d4-2025-5x112",
-    "pcd-b11-bmw-alpina-xb7-2025-5x112",
     "pcd-b11-changan-cs15-2025-5x110",
     "pcd-b11-changan-cs55-2025-5x114-3",
     "pcd-b11-changan-cs85-coupe-2025-5x114-3",
     "pcd-b11-changan-cs95-2025-5x114-3",
-    "pcd-b11-changan-cs95-plus-2025-5x114-3",
     "pcd-b11-changan-eado-2025-5x114-3",
     "pcd-b11-changan-lamore-2025-5x114-3",
     "pcd-b11-changan-raeton-cc-2025-5x110",
-    "pcd-b11-changan-raeton-plus-2025-5x110",
     "pcd-b11-changan-uni-k-2025-5x114-3",
     "pcd-b11-changan-uni-t-2025-5x114-3",
     "pcd-b11-changan-uni-v-2025-5x114-3",
@@ -124,33 +908,20 @@
     "pcd-b11-changan-x7-plus-2025-5x114-3",
     "pcd-b11-chery-arrizo-5-gt-2025-5x108",
     "pcd-b11-chery-arrizo-6-2025-5x108",
-    "pcd-b11-chery-arrizo-6-pro-2025-5x108",
     "pcd-b11-chery-arrizo-8-2025-5x108",
-    "pcd-b11-chery-arrizo-8-pro-2025-5x108",
     "pcd-b11-chery-eq7-2025-5x108",
     "pcd-b11-chery-fx-2025-5x108",
     "pcd-b11-chery-icar-2025-4x100",
     "pcd-b11-chery-omoda-5-2025-5x108",
-    "pcd-b11-chery-omoda-5-gt-2025-5x108",
     "pcd-b11-chery-omoda-e5-2025-5x108",
     "pcd-b11-chery-tiggo-2-2025-5x108",
-    "pcd-b11-chery-tiggo-2-pro-2025-5x108",
-    "pcd-b11-chery-tiggo-2-pro-max-2025-5x108",
     "pcd-b11-chery-tiggo-3-pro-2025-5x108",
     "pcd-b11-chery-tiggo-3x-excellence-edition-2025-5x108",
-    "pcd-b11-chery-tiggo-5x-excellence-edition-2025-5x108",
-    "pcd-b11-chery-tiggo-5x-high-energy-2025-5x108",
     "pcd-b11-chery-tiggo-5x-pro-2025-5x108",
-    "pcd-b11-chery-tiggo-5x-sport-2025-5x108",
-    "pcd-b11-chery-tiggo-7-c-dm-2025-5x108",
-    "pcd-b11-chery-tiggo-7-excellence-edition-2025-5x108",
     "pcd-b11-chery-tiggo-7-pro-2025-5x108",
     "pcd-b11-chery-tiggo-8-plus-2025-5x108",
-    "pcd-b11-chery-tiggo-8-plus-c-dm-2025-5x108",
     "pcd-b11-chery-tiggo-8-pro-max-2025-5x108",
-    "pcd-b11-chery-tiggo-8l-2025-5x108",
     "pcd-b11-chery-tiggo-9-2025-5x108",
-    "pcd-b11-chery-tiggo-9-c-dm-2025-5x108",
     "pcd-b11-chery-unbounded-pro-2025-4x100",
     "pcd-b11-dongfeng-df6-2025-6x114-3",
     "pcd-b11-dongfeng-nammi-01-2025-4x108",
@@ -166,12 +937,10 @@
     "pcd-b11-faw-bestune-t90-2025-5x114-3",
     "pcd-b11-forthing-friday-2025-5x114-3",
     "pcd-b11-forthing-lingzhi-m5-2025-5x114-3",
-    "pcd-b11-forthing-lingzhi-plus-2025-5x114-3",
     "pcd-b11-forthing-t5-evo-2025-5x114-3",
     "pcd-b11-forthing-t5-hev-2025-5x114-3",
     "pcd-b11-forthing-t5-mach-edition-2025-5x108",
     "pcd-b11-foton-conqueror-3-2025-6x139-7",
-    "pcd-b11-foton-conqueror-plus-2025-6x139-7",
     "pcd-b11-foton-g9-2025-6x139-7",
     "pcd-b11-foton-thunder-2025-6x139-7",
     "pcd-b11-foton-tunland-g9-2025-6x139-7",
@@ -197,8 +966,6 @@
     "pcd-b11-geely-tugella-2025-5x108",
     "pcd-b11-geely-xingrui-l-2025-5x108",
     "pcd-b11-geely-xingyue-l-zhiqing-2025-5x108",
-    "pcd-b11-geometry-c-2025-5x114-3",
-    "pcd-b11-geometry-e-2025-4x100",
     "pcd-b11-geometry-e225-2025-4x100",
     "pcd-b11-geometry-m6-2025-5x114-3",
     "pcd-b11-haima-7x-2025-5x114-3",
@@ -208,16 +975,165 @@
     "pcd-b11-haval-h6s-2025-5x114-3",
     "pcd-b11-haval-h7-2025-5x114-3",
     "pcd-b11-haval-jolion-2025-5x114-3",
-    "pcd-b11-haval-jolion-pro-2025-5x114-3",
     "pcd-b11-haval-m6-2025-5x114-3",
-    "pcd-b11-haval-m6-plus-2025-5x114-3",
     "pcd-b11-haval-raptor-2025-5x114-3",
     "pcd-b11-haval-xiaolong-2025-5x114-3",
-    "pcd-b11-hongqi-e-hs9-2025-5x130",
     "pcd-b11-hongqi-eh7-2025-5x112",
     "pcd-b11-hongqi-ehs7-2025-5x112",
-    "pcd-b11-hongqi-h9-2025-5x114-3",
     "pcd-b11-hongqi-hq9-2025-5x112",
-    "pcd-b11-hongqi-hs3-2025-5x112"
+    "pcd-b11-hongqi-hs3-2025-5x112",
+    "pcd-b11-ineos-grenadier-2025-6x130",
+    "pcd-b11-isuzu-hi-lander-2025-6x139-7",
+    "pcd-b11-isuzu-ruimai-s-2025-6x139-7",
+    "pcd-b11-jac-js4-2025-5x108",
+    "pcd-b11-jac-refine-l5-2025-5x120",
+    "pcd-b11-jac-s2-2025-5x108",
+    "pcd-b11-jac-s3-2025-5x108",
+    "pcd-b11-jac-t6-2025-6x139-7",
+    "pcd-b11-jac-t8-2025-6x139-7",
+    "pcd-b11-jac-t9-2025-6x139-7",
+    "pcd-b11-jetour-t1-2025-5x108",
+    "pcd-b11-jetour-t2-2025-5x108",
+    "pcd-b11-jetour-x50-2025-5x114-3",
+    "pcd-b11-jetour-x90-plus-2025-5x108",
+    "pcd-b11-kaiyi-showjet-2025-5x108",
+    "pcd-b11-kaiyi-xuandu-2025-5x108",
+    "pcd-b11-ldv-g10-2025-6x139-7",
+    "pcd-b11-levc-tx-2025-5x108",
+    "pcd-b11-li-l9-2025-5x120",
+    "pcd-b11-livan-9-2025-5x114-3",
+    "pcd-b11-livan-maple-60s-2025-5x114-3",
+    "pcd-b11-livan-x3-pro-2025-4x100",
+    "pcd-b11-lotus-emira-2025-5x114-3",
+    "pcd-b11-luxgen-n7-2025-5x114-3",
+    "pcd-b11-luxgen-u6-neo-2025-5x114-3",
+    "pcd-b11-luxgen-urx-neo-2025-5x114-3",
+    "pcd-b11-mahindra-scorpio-pikup-2025-5x160",
+    "pcd-b11-maxus-d90-pro-2025-6x130",
+    "pcd-b11-maxus-edeliver-5-2025-6x139-7",
+    "pcd-b11-maxus-euniq-6-2025-5x114-3",
+    "pcd-b11-maxus-t60-2025-6x130",
+    "pcd-b11-maxus-v90-2025-6x180",
+    "pcd-b11-mclaren-artura-2025-5x112",
+    "pcd-b11-omoda-c5-x-2025-5x108",
+    "pcd-b11-omoda-e5-2025-5x108",
+    "pcd-b11-ora-good-cat-2025-5x114-3",
+    "pcd-b11-rolls-royce-cullinan-2025-5x112",
+    "pcd-b11-rolls-royce-phantom-2025-5x112",
+    "pcd-b11-rolls-royce-spectre-2025-5x120",
+    "pcd-b11-seres-3-2025-5x110",
+    "pcd-b11-smart-1-2025-5x108",
+    "pcd-b11-soueast-s06-2025-5x108",
+    "pcd-b11-tank-300-2025-6x139-7",
+    "pcd-b11-tank-400-2025-6x139-7",
+    "pcd-b11-tank-500-2025-6x139-7",
+    "pcd-b11-tank-700-2025-6x139-7",
+    "pcd-b11-tesla-cybertruck-2025-6x139-7",
+    "pcd-b11-uaz-kazak-2025-5x139-7",
+    "pcd-b11-venucia-v-online-dd-i-2025-5x114-3",
+    "pcd-b11-vgv-u75plus-2025-5x114-3",
+    "pcd-b11-vgv-vx7-2025-5x114-3",
+    "pcd-b11-wey-blue-mountain-2025-5x114-3",
+    "pcd-b11-wuling-alvez-2025-4x114-3",
+    "pcd-b11-wuling-cortez-2025-5x114-3",
+    "pcd-b11-wuling-fighting-2025-5x114-3",
+    "pcd-b11-wuling-hongguang-plus-2025-5x114-3",
+    "pcd-b11-wuling-hongguang-s-2025-4x114-3",
+    "pcd-b11-wuling-jiachen-2025-5x114-3",
+    "pcd-b11-wuling-journey-2025-5x114-3",
+    "pcd-b11-zotye-cloud-2025-4x100",
+    "pcd-b11-zotye-t300-2025-5x114-3",
+    "pcd-b11-zotye-t500-2025-5x108",
+    "pcd-b11-zotye-t600-2025-5x108",
+    "pcd-b11-zotye-t700-2025-5x108",
+    "pcd-b11-zotye-z360-2025-5x114-3",
+    "pcd-b11-zotye-z560-2025-5x114-3",
+    "pcd-b11-zotye-z700h-2025-5x108",
+    "pcd-b11-zx-terralord-2025-6x139-7",
+    "pcd-b11-aston-martin-dbs-770-ultimate-2024-5x128",
+    "pcd-b11-aston-martin-dbx707-2024-5x128",
+    "pcd-b11-haima-s7-2024-5x114-3",
+    "pcd-b11-haima-v70-2024-5x114-3",
+    "pcd-b11-iran-khodro-runna-plus-2024-4x108",
+    "pcd-b11-jac-iev330p-2024-6x139-7",
+    "pcd-b11-jac-iev7l-2024-4x100",
+    "pcd-b11-smart-fortwo-2024-4x100",
+    "pcd-b11-soueast-dx8-2024-5x108",
+    "pcd-b11-ssangyong-chairman-2024-5x112",
+    "pcd-b11-ssangyong-torres-2024-5x112",
+    "pcd-b11-zx-grand-lion-1986-2024-6x139-7",
+    "pcd-b11-aston-martin-dbs-superleggera-2023-5x128",
+    "pcd-b11-baic-bj90-2023-5x112",
+    "pcd-b11-lifan-530-2023-4x100",
+    "pcd-b11-lifan-foison-2023-4x100",
+    "pcd-b11-lifan-x60-2023-5x114-3",
+    "pcd-b11-lifan-x80-2023-5x114-3",
+    "pcd-b11-mahindra-e-verito-2023-4x100",
+    "pcd-b11-maxus-g20-2023-6x139-7",
+    "pcd-b11-maxus-t70-2023-6x130",
+    "pcd-b11-mclaren-elva-2023-5x112",
+    "pcd-b11-mclaren-gt-2023-5x112",
+    "pcd-b11-polestar-polestar-1-2023-5x108",
+    "pcd-b11-seres-sf5-2023-5x120",
+    "pcd-b11-soueast-a5-2023-5x114-3",
+    "pcd-b11-soueast-dx3-2023-5x114-3",
+    "pcd-b11-soueast-dx5-2023-5x114-3",
+    "pcd-b11-soueast-dx7-prime-2023-5x114-3",
+    "pcd-b11-soueast-dx7-xing-yue-2023-5x114-3",
+    "pcd-b11-ssangyong-stavic-2023-5x130",
+    "pcd-b11-tata-indigo-ecs-2023-4x108",
+    "pcd-b11-venucia-t60-2023-5x114-3",
+    "pcd-b11-wey-coffee-01-2023-5x114-3",
+    "pcd-b11-aion-y-2022-5x108",
+    "pcd-b11-dongfeng-rich-pickup-2022-6x139-7",
+    "pcd-b11-gac-ga4-plus-2022-5x108",
+    "pcd-b11-haima-6p-2022-5x114-3",
+    "pcd-b11-haima-aishang-ev-2022-4x100",
+    "pcd-b11-haima-e3-2022-4x114-3",
+    "pcd-b11-hongqi-h7-2022-5x112",
+    "pcd-b11-iran-khodro-samand-2022-4x108",
+    "pcd-b11-jac-t50-2022-5x108",
+    "pcd-b11-li-one-2022-5x120",
+    "pcd-b11-luxgen-u6-2022-5x114-3",
+    "pcd-b11-luxgen-urx-2022-5x114-3",
+    "pcd-b11-maxus-eg10-2022-6x139-7",
+    "pcd-b11-maxus-fcv80-2022-5x130",
+    "pcd-b11-rising-er6-2022-5x110",
+    "pcd-b11-venucia-t70-2022-5x114-3",
+    "pcd-b11-venucia-t90-2022-5x114-3",
+    "pcd-b11-vgv-u70-2022-5x114-3",
+    "pcd-b11-wuling-rongguang-2022-4x114-3",
+    "pcd-b11-baic-m20-2021-4x114-3",
+    "pcd-b11-baic-m50s-2021-4x114-3",
+    "pcd-b11-baic-m60-2021-5x114-3",
+    "pcd-b11-baic-mz45-2021-5x114-3",
+    "pcd-b11-baic-senova-x55-2021-5x110",
+    "pcd-b11-baic-senova-zhixing-2021-5x110",
+    "pcd-b11-baic-u5-2021-5x110",
+    "pcd-b11-baw-gladiator-2021-5x139-7",
+    "pcd-b11-dongfeng-es500-2021-5x114-3",
+    "pcd-b11-dongfeng-succe-2021-5x114-3",
+    "pcd-b11-livan-maple-30x-2021-4x100",
+    "pcd-b11-luxgen-m7-2021-5x114-3",
+    "pcd-b11-luxgen-v7-2021-5x114-3",
+    "pcd-b11-venucia-d60-2021-5x114-3",
+    "pcd-b11-venucia-e30-2021-4x100",
+    "pcd-b11-wey-vv5-2021-5x114-3",
+    "pcd-b11-wey-vv6-2021-5x114-3",
+    "pcd-b11-wey-vv7-2021-5x114-3",
+    "pcd-b11-wuling-almaz-2021-5x114-3",
+    "pcd-b11-wuling-sunshine-2021-4x100",
+    "pcd-b11-zotye-sr7-2021-5x108",
+    "pcd-b11-luxgen-s3-2020-5x114-3",
+    "pcd-b11-luxgen-u5-2020-5x114-3",
+    "pcd-b11-zotye-sesame-e30-2019-4x100",
+    "pcd-b11-zotye-sr9-2019-5x108",
+    "pcd-b11-baic-a5-2017-5x110",
+    "pcd-b11-baw-bw007-2017-6x139-7",
+    "pcd-b11-baw-luba-2017-6x139-7",
+    "pcd-b11-baw-yueling-2017-6x139-7",
+    "pcd-b11-zotye-z500-2017-5x114-3",
+    "pcd-b11-luxgen-5-2014-5x114-3",
+    "pcd-b11-luxgen-7-mpv-2014-5x114-3"
   ]
 }

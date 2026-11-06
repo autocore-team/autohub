@@ -122,7 +122,9 @@ for (const twg of twgEntries) {
   const score = ((makerCounts.get(twg.makerKey) || 0) < 10 ? 100 : 0) + (twg.year < 1990 ? 80 : 0) + twg.year / 10000;
   if (!previous || score > previous.score) latestByModel.set(modelKey, { ...twg, avtoUrl: avto.url, score });
 }
-const pool = [...latestByModel.values()].sort((left, right) => right.score - left.score || left.makerKey.localeCompare(right.makerKey)).slice(0, 420);
+const poolLimit = Number(process.env.BATCH11_POOL_LIMIT || 420);
+if (!Number.isInteger(poolLimit) || poolLimit < 1) throw new Error('BATCH11_POOL_LIMIT must be a positive integer');
+const pool = [...latestByModel.values()].sort((left, right) => right.score - left.score || left.makerKey.localeCompare(right.makerKey)).slice(0, poolLimit);
 const results = await mapConcurrent(pool, 10, async (candidate) => {
   const [twgHtml, avtoHtml] = await Promise.all([fetchText(candidate.url), fetchText(candidate.avtoUrl)]);
   const twg = parseTwg(twgHtml, candidate.year);
