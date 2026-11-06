@@ -87,10 +87,10 @@ function offsetLabel(record) {
 
 const source = loadPcdSource();
 const summary = validatePcdData(source);
-check(summary.records === 2844, `Expected 2844 PCD records, found ${summary.records}`);
+check(summary.records === 3000, `Expected 3000 PCD records, found ${summary.records}`);
 check(summary.makers === 136, `Expected 136 PCD makers, found ${summary.makers}`);
-check(summary.models === 1916, `Expected 1916 PCD models, found ${summary.models}`);
-check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15 && summary.statuses.corroborated === 2548, 'Expected 281 legacyPending, 15 verified and 2548 corroborated records');
+check(summary.models === 2072, `Expected 2072 PCD models, found ${summary.models}`);
+check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15 && summary.statuses.corroborated === 2704, 'Expected 281 legacyPending, 15 verified and 2704 corroborated records');
 check(source.records.filter((record) => record.verificationStatus === 'legacyPending').every((record) => record.sources.length === 0 && record.lastVerifiedAt === null), 'Legacy records gained invented sources or verification dates');
 check(source.records.filter((record) => record.verificationStatus === 'verified').every((record) => record.sources.length > 0 && ['2026-09-21', '2026-09-24'].includes(record.lastVerifiedAt)), 'Verified batch date/source policy failed');
 console.log('PASS PCD schema and verified batch counts');
@@ -137,8 +137,8 @@ const requiredQueries = new Map([
   ['Octavia 1Z 5E NX', 5],
   ['Leon 1P 5F KL', 6],
   ['Touran 1T 5T', 3],
-  ['5x112', 423],
-  ['5×112', 423],
+  ['5x112', 433],
+  ['5×112', 433],
   ['M14x1.5', 433]
 ]);
 for (const [query, expectedRecords] of requiredQueries) {
@@ -152,7 +152,7 @@ for (const [query, expectedRecords] of requiredQueries) {
   console.log(`PASS PCD search "${query}": ${results.length} record${results.length === 1 ? '' : 's'}`);
 }
 check(search.normalizeSearchText('5×112') === '5x112', 'Multiplication-sign normalization failed');
-check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 423, 'PCD hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 433, 'PCD hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 433, 'Thread hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'gOlF-5')).length === 5, 'Case/hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 31, 'Volkswagen alias search failed');
@@ -270,7 +270,7 @@ function canonical(value) {
   if (value && typeof value === 'object') return Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonical(value[key])]));
   return value;
 }
-const unrelatedRecords = source.records.filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !record.id.startsWith('pcd-b5-') && !record.id.startsWith('pcd-b6-') && !record.id.startsWith('pcd-b7-') && !record.id.startsWith('pcd-b8-') && !record.id.startsWith('pcd-b9-') && !record.id.startsWith('pcd-b10-') && !record.id.startsWith('pcd-b11-') && !batch02VerifiedIds.has(record.id) && !batch02LegacyIds.has(record.id));
+const unrelatedRecords = source.records.filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !record.id.startsWith('pcd-b5-') && !record.id.startsWith('pcd-b6-') && !record.id.startsWith('pcd-b7-') && !record.id.startsWith('pcd-b8-') && !record.id.startsWith('pcd-b9-') && !record.id.startsWith('pcd-b10-') && !record.id.startsWith('pcd-b11-') && !record.id.startsWith('pcd-b12-') && !batch02VerifiedIds.has(record.id) && !batch02LegacyIds.has(record.id));
 check(unrelatedRecords.length === 275, `Expected 275 unrelated records, found ${unrelatedRecords.length}`);
 const unrelatedHash = crypto.createHash('sha256').update(JSON.stringify(canonical(unrelatedRecords))).digest('hex');
 check(unrelatedHash === '7741403851985ed036295d7352b15bb2ca1b1bc7184ecda7c8d17d79723472f6', `Unrelated records changed: ${unrelatedHash}`);
@@ -296,7 +296,7 @@ console.log('PASS verified splits, source coverage, banned values and vehicle-pa
 
 for (const pattern of ['5x108', '5x110']) {
   const expected = source.records
-    .filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !record.id.startsWith('pcd-b5-') && !record.id.startsWith('pcd-b6-') && !record.id.startsWith('pcd-b7-') && !record.id.startsWith('pcd-b8-') && !record.id.startsWith('pcd-b9-') && !record.id.startsWith('pcd-b10-') && !record.id.startsWith('pcd-b11-') && pcdLabel(record) === pattern)
+    .filter((record) => !record.id.startsWith('pcd-b1-') && !record.id.startsWith('pcd-b2-') && !record.id.startsWith('pcd-b3-') && !record.id.startsWith('pcd-b4-') && !record.id.startsWith('pcd-b5-') && !record.id.startsWith('pcd-b6-') && !record.id.startsWith('pcd-b7-') && !record.id.startsWith('pcd-b8-') && !record.id.startsWith('pcd-b9-') && !record.id.startsWith('pcd-b10-') && !record.id.startsWith('pcd-b11-') && !record.id.startsWith('pcd-b12-') && pcdLabel(record) === pattern)
     .map((record) => [
       record.maker,
       record.model,

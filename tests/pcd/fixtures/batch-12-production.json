@@ -1,0 +1,2962 @@
+{
+  "batch": "pcd-production-batch-12-final",
+  "coverageAudit": {
+    "baselineRecords": 2844,
+    "baselineMarkets": {
+      "EU": 589,
+      "US": 229,
+      "GLOBAL": 1684,
+      "JP": 75,
+      "OTHER": 339
+    },
+    "baselineStatuses": {
+      "legacyPending": 281,
+      "verified": 15,
+      "corroborated": 2548
+    },
+    "underrepresentedMakerThreshold": 10,
+    "selectedGapCoverage": {
+      "underrepresentedMaker": 6,
+      "newModel": 156,
+      "newGeneration": 156,
+      "pre1990": 2,
+      "rarePcd": 4,
+      "explicitRegionalScope": 156
+    }
+  },
+  "candidateAudit": {
+    "considered": 2400,
+    "accepted": 156,
+    "rejected": 2244,
+    "incompleteExclusions": 1631,
+    "fieldConflictExclusions": 72,
+    "semanticCollisionsRemoved": 29,
+    "trimBodyOverlapsRemoved": 374,
+    "badgeEngineeredDuplicatesRemoved": 138,
+    "sharedSourceDuplicatesRemoved": 0
+  },
+  "baseline": {
+    "records": 2844,
+    "semanticHash": "6bad0b83a67613d55c8b8c12f08878fc5a721e5af5ecb171d016187441ea4e39",
+    "orderHash": "57be062af563032250fdd3f1716220472052c0b4ac94d9af6e45c84d64b6081e"
+  },
+  "expected": {
+    "records": 3000,
+    "makers": 136,
+    "models": 2072,
+    "statuses": {
+      "legacyPending": 281,
+      "verified": 15,
+      "corroborated": 2704
+    },
+    "batchStatuses": {
+      "verified": 0,
+      "corroborated": 156
+    },
+    "markets": {
+      "US": 24,
+      "EU": 7,
+      "JP": 29,
+      "OTHER": 113,
+      "GLOBAL": 0
+    },
+    "finalMarkets": {
+      "EU": 596,
+      "US": 253,
+      "GLOBAL": 1684,
+      "JP": 104,
+      "OTHER": 452
+    },
+    "sourceUrls": 312,
+    "sourceBreakdown": {
+      "TireWheelGuide": 156,
+      "AvtoReference": 156
+    },
+    "recordsWithTwoIndependentPublishers": 156,
+    "recordsWithThreeIndependentPublishers": 0,
+    "recordsWithNullTorque": 156,
+    "finalSemanticHash": "36d00fb8494e5097a002ee6d73fb73c7b82039e1555b43516377bb444c97ff1d"
+  },
+  "rejectionBreakdown": {
+    "research": {
+      "incomplete": 1631,
+      "fieldConflict:thread": 9,
+      "fieldConflict:DIA": 3,
+      "fieldConflict:market": 49,
+      "fieldConflict:PCD": 11
+    },
+    "postResearchAudit": {
+      "semanticCollision": 29,
+      "trimBodyOverlap": 374,
+      "badgeEngineeredDuplicate": 138,
+      "sharedSourceDuplicate": 0
+    }
+  },
+  "consolidations": [
+    {
+      "id": "pcd-b12-jaecoo-6-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-jaecoo-8-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-omoda-9-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-vauxhall-combo-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-vauxhall-combo-cargo-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-vauxhall-combo-life-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-vauxhall-corsa-2026-4x108",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-vauxhall-mokka-2026-4x108",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-vauxhall-vivaro-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-vauxhall-vivaro-life-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-600e-2025-4x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-aion-s-max-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-aion-s-plus-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-bmw-alpina-b4-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-bmw-alpina-b8-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-bmw-alpina-d3-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-bmw-alpina-xb7-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-forthing-lingzhi-plus-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-foton-conqueror-plus-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-geometry-c-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-geometry-e-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-haval-jolion-pro-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-haval-m6-plus-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hongqi-e-hs9-2025-5x130",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-hongqi-h9-2025-5x114-3",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-jetour-traveler-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-jetour-x90-zilong-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-kaiyi-showjet-pro-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-kaiyi-xuandu-ev-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ldv-deliver-9-2025-6x180",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ldv-edeliver-3-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ldv-edeliver-9-2025-6x180",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ldv-et60-2025-6x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ldv-v80-2025-5x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-livan-maple-60s-pro-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mahindra-pik-up-2025-5x160",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mercedes-maybach-eqs-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mercedes-maybach-gls-class-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mercedes-maybach-s-class-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mercedes-maybach-sl-class-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ora-03-gt-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ora-good-cat-gt-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-seres-7-2025-5x120",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-vauxhall-crossland-2025-4x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-venucia-d60ev-plus-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-venucia-t60ev-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-venucia-v-online-dd-i-killer-whale-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps v-online-dd-i"
+    },
+    {
+      "id": "pcd-b12-abarth-595c-2024-4x98",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-695-2024-4x98",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-695c-2024-4x98",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-bmw-alpina-d5-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-bmw-alpina-xd3-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-bmw-alpina-xd4-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-haval-jolion-s-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps jolion"
+    },
+    {
+      "id": "pcd-b12-hongqi-e-qm5-2024-5x114-3",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-hongqi-eh7-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-hongqi-ehs7-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-hongqi-hq9-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-hongqi-hs3-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-ldv-ev80-2024-5x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-soueast-dx8s-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ssangyong-actyon-sports-2024-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ssangyong-musso-2024-5x130",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-ssangyong-musso-grand-2024-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ssangyong-rexton-2024-5x130",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-ssangyong-rexton-sports-2024-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ssangyong-rexton-w-2024-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps rexton"
+    },
+    {
+      "id": "pcd-b12-ssangyong-rhino-2024-5x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ssangyong-tivoli-grand-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ssangyong-torres-evx-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps torres"
+    },
+    {
+      "id": "pcd-b12-ssangyong-xlv-2024-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-bmw-alpina-b5-2023-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-foton-conqueror-2023-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps conqueror-3"
+    },
+    {
+      "id": "pcd-b12-foton-conqueror-5-2023-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-iran-khodro-runna-plus-2023-4x108",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-mclaren-720s-spider-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mclaren-765lt-spider-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ora-funky-cat-2023-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ssangyong-chairman-2023-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-ssangyong-torres-2023-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-venucia-d60ev-2023-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hongqi-e-hs3-2022-5x114-3",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-rising-marvel-r-2022-5x120",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-hongqi-h7-2021-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-vauxhall-viva-2020-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-124-spider-2018-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-500-2014-4x98",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-500c-2014-4x98",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-punto-2013-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-punto-evo-2011-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-abarth-grande-punto-2010-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-audi-a1-allstreet-2026-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-a3-allstreet-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-a5l-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-a6-e-tron-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps a6"
+    },
+    {
+      "id": "pcd-b12-audi-a8l-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q5-sportback-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q6-sportback-e-tron-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-rs-e-tron-gt-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-s-e-tron-gt-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-s6-e-tron-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps s6"
+    },
+    {
+      "id": "pcd-b12-audi-s8l-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-sq5-sportback-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-sq6-e-tron-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-sq6-sportback-e-tron-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-bmw-2-series-active-tourer-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps 2-series"
+    },
+    {
+      "id": "pcd-b12-bmw-2-series-gran-coupe-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps 2-series"
+    },
+    {
+      "id": "pcd-b12-bmw-4-series-gran-coupe-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps 4-series"
+    },
+    {
+      "id": "pcd-b12-bmw-x4-m-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps x4"
+    },
+    {
+      "id": "pcd-b12-bmw-x6-m-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps x6"
+    },
+    {
+      "id": "pcd-b12-buick-encore-gx-2026-5x115",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps encore"
+    },
+    {
+      "id": "pcd-b12-buick-envision-plus-2026-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-buick-envision-s-2026-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps envision"
+    },
+    {
+      "id": "pcd-b12-cadillac-escalade-iq-2026-8x165-1",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps escalade"
+    },
+    {
+      "id": "pcd-b12-cadillac-lyriq-v-2026-6x132",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps lyriq"
+    },
+    {
+      "id": "pcd-b12-cadillac-optiq-v-2026-6x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps optiq"
+    },
+    {
+      "id": "pcd-b12-chevrolet-blazer-ev-2026-6x132",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-equinox-ev-2026-6x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-equinox-plus-2026-5x115",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-onix-plus-2026-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-silverado-ev-2026-8x165-1",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-suburban-2026-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-titano-2026-6x139-7",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ford-capri-ev-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ford-equator-sport-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-gmc-hummer-ev-2026-8x165-1",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-honda-n-one-e-2026-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-aura-2026-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-avante-n-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-azera-2026-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-hyundai-casper-electric-2026-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-creta-grand-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-elantra-n-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps elantra"
+    },
+    {
+      "id": "pcd-b12-hyundai-grand-creta-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-grand-i10-2026-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-grand-i10-nios-2026-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-hb20s-2026-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-hr-2026-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-i30-sedan-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-i30-sedan-n-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-kauai-2026-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-hyundai-sonata-hybrid-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-stargazer-x-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps stargazer"
+    },
+    {
+      "id": "pcd-b12-kia-carens-clavis-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps carens"
+    },
+    {
+      "id": "pcd-b12-kia-k3-cross-2026-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps k3"
+    },
+    {
+      "id": "pcd-b12-kia-k5-2026-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-kia-morning-2026-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mg-es-2026-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mg-maxus-7-2026-5x120",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mg-s5-2026-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mg-t60-2026-6x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-nissan-roox-2026-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-opel-combo-cargo-2026-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-opel-combo-life-2026-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ram-1500-rho-2026-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ram-promaster-2500-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps promaster"
+    },
+    {
+      "id": "pcd-b12-ram-promaster-3500-2026-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps promaster"
+    },
+    {
+      "id": "pcd-b12-toyota-copen-2026-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-corolla-sport-2026-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-gr-corolla-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-gr-yaris-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-gr86-2026-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-grand-highlander-2026-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-pixis-epoch-2026-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-pixis-truck-2026-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-pixis-van-2026-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-roomy-2026-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-vellfire-2026-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-voxy-2026-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-atlas-2026-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-atlas-cross-sport-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-california-2026-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-golf-r-variant-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-golf-variant-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-id4-x-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps id-4"
+    },
+    {
+      "id": "pcd-b12-volkswagen-id5-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-id6-x-2026-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-id7-2026-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-volkswagen-jetta-gli-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps jetta"
+    },
+    {
+      "id": "pcd-b12-volkswagen-lavida-xr-2026-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-nivus-2026-5x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-passat-pro-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-polo-gti-2026-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-polo-sedan-2026-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-sagitar-2026-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-taos-2026-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-tayron-l-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tayron"
+    },
+    {
+      "id": "pcd-b12-volkswagen-tayron-x-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tayron"
+    },
+    {
+      "id": "pcd-b12-volkswagen-teramont-x-2026-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-tharu-2026-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-tiguan-l-pro-2026-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volvo-em90-2026-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volvo-ex30-cross-country-2026-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-acura-integra-type-s-2025-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-acura-zdx-2025-6x132",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-audi-a3l-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-a4l-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-a6l-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-a7l-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q2l-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q5l-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q5l-sportback-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q6-e-tron-2025-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps q6"
+    },
+    {
+      "id": "pcd-b12-audi-q6l-e-tron-2025-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q6l-sportback-e-tron-2025-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q8-e-tron-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps q8"
+    },
+    {
+      "id": "pcd-b12-audi-q8-sportback-e-tron-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-rs-q3-sportback-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-sq8-e-tron-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps sq8"
+    },
+    {
+      "id": "pcd-b12-audi-sq8-sportback-e-tron-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-buick-electra-e4-gs-2025-6x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps electra-e4"
+    },
+    {
+      "id": "pcd-b12-buick-encore-plus-2025-5x115",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-buick-envista-gs-2025-5x115",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps envista"
+    },
+    {
+      "id": "pcd-b12-buick-verano-pro-2025-5x105",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-buick-verano-pro-gs-2025-5x105",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-byd-seal-u-2025-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps seal"
+    },
+    {
+      "id": "pcd-b12-byd-tang-l-2025-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tang"
+    },
+    {
+      "id": "pcd-b12-cadillac-escalade-v-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps escalade"
+    },
+    {
+      "id": "pcd-b12-changan-cs95-plus-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-changan-raeton-plus-2025-5x110",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-arrizo-6-pro-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-arrizo-8-pro-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-omoda-5-gt-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-2-pro-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-2-pro-max-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-5x-excellence-edition-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-5x-high-energy-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-5x-sport-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-7-c-dm-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-7-excellence-edition-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-8-plus-c-dm-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-8l-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-9-c-dm-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tiggo-9"
+    },
+    {
+      "id": "pcd-b12-chevrolet-bolt-euv-2025-5x105",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-express-2500-2025-8x165-1",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps express"
+    },
+    {
+      "id": "pcd-b12-chevrolet-express-3500-2025-8x165-1",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps express"
+    },
+    {
+      "id": "pcd-b12-chevrolet-malibu-xl-2025-5x115",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps malibu"
+    },
+    {
+      "id": "pcd-b12-chevrolet-silverado-2500-hd-2025-8x180",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps silverado"
+    },
+    {
+      "id": "pcd-b12-chevrolet-silverado-ld-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps silverado"
+    },
+    {
+      "id": "pcd-b12-chevrolet-tracker-rs-2025-5x105",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tracker"
+    },
+    {
+      "id": "pcd-b12-citroen-berlingo-multispace-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps berlingo"
+    },
+    {
+      "id": "pcd-b12-citroen-beyond-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-citroen-c5-x-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps c5"
+    },
+    {
+      "id": "pcd-b12-citroen-dispatch-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-citroen-holidays-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-dacia-sandero-stepway-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps sandero"
+    },
+    {
+      "id": "pcd-b12-daihatsu-hijet-truck-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps hijet"
+    },
+    {
+      "id": "pcd-b12-daihatsu-move-canbus-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps move"
+    },
+    {
+      "id": "pcd-b12-daihatsu-tanto-custom-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tanto"
+    },
+    {
+      "id": "pcd-b12-daihatsu-tanto-funcross-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tanto"
+    },
+    {
+      "id": "pcd-b12-daihatsu-thor-custom-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps thor"
+    },
+    {
+      "id": "pcd-b12-dodge-durango-srt-2025-5x127",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps durango"
+    },
+    {
+      "id": "pcd-b12-dodge-hornet-2025-5x110",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ferrari-296-gt3-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ferrari-296-gts-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ferrari-812-competizione-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ferrari-812-competizione-a-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ferrari-sf90-spider-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ferrari-sf90-stradale-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-500c-2025-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-595-2025-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-695-2025-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-e-ulysse-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-panda-cross-2025-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps panda"
+    },
+    {
+      "id": "pcd-b12-fiat-pandina-2025-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ford-bronco-sport-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ford-edge-l-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps edge"
+    },
+    {
+      "id": "pcd-b12-ford-f-150-lightning-2025-6x135",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps f-150"
+    },
+    {
+      "id": "pcd-b12-ford-focus-active-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps focus"
+    },
+    {
+      "id": "pcd-b12-ford-tourneo-custom-2025-6x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tourneo"
+    },
+    {
+      "id": "pcd-b12-ford-transit-350-hd-2025-6x180",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps transit"
+    },
+    {
+      "id": "pcd-b12-gmc-savana-2500-2025-8x165-1",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-gmc-savana-3500-2025-8x165-1",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-gmc-sierra-ev-2025-8x165-1",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-honda-ballade-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-honda-breeze-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-honda-inspire-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-honda-jazz-crosstar-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps jazz"
+    },
+    {
+      "id": "pcd-b12-honda-n-box-custom-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps n-box"
+    },
+    {
+      "id": "pcd-b12-honda-n-wgn-custom-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps n-wgn"
+    },
+    {
+      "id": "pcd-b12-honda-prologue-2025-6x132",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-honda-vezel-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-hyundai-custo-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-hyundai-i20-n-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps i20"
+    },
+    {
+      "id": "pcd-b12-hyundai-i30-fastback-n-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps i30"
+    },
+    {
+      "id": "pcd-b12-hyundai-i30-n-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps i30"
+    },
+    {
+      "id": "pcd-b12-hyundai-tucson-l-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tucson"
+    },
+    {
+      "id": "pcd-b12-jac-js2-2025-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-jac-js3-2025-5x108",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-jac-t8-pro-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-jaguar-xel-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-jaguar-xfl-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-jeep-grand-cherokee-l-2025-5x127",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-jeep-grand-wagoneer-l-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-jeep-meridian-2025-5x110",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-jeep-wagoneer-l-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps wagoneer"
+    },
+    {
+      "id": "pcd-b12-kia-cerato-k3-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps cerato"
+    },
+    {
+      "id": "pcd-b12-kia-forte-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-kia-soluto-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-land-rover-discovery-5-2025-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-land-rover-range-rover-evoque-l-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps range-rover-evoque"
+    },
+    {
+      "id": "pcd-b12-lexus-rc-f-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps rc"
+    },
+    {
+      "id": "pcd-b12-maxus-d90-pro-amazon-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-deliver-9-2025-6x180",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-g10-cargo-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-g10-max-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-g20-es-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-g20-plus-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-interstellar-bull-demon-king-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-interstellar-h-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-interstellar-l-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-interstellar-r-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-t60-max-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-tornado-60-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-tornado-70-pro-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-tornado-90-2025-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-v80-2025-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-maxus-v80-plus-2025-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mazda-bongo-truck-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mazda-bongo-van-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mazda-familia-van-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mazda-flair-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mazda-flair-crossover-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mazda-flair-wagon-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mazda-flair-wagon-tough-style-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mazda-mx-5-miata-rf-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps mx-5-miata"
+    },
+    {
+      "id": "pcd-b12-mazda-mx-5-rf-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps mx-5"
+    },
+    {
+      "id": "pcd-b12-mazda-roadster-rf-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mazda-scrum-wagon-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mg-5-ev-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mg-gt-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mg-mulan-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mg-zst-2025-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mg-zx-2025-5x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mini-convertible-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mini-hardtop-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mitsubishi-ek-wagon-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mitsubishi-ek-x-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mitsubishi-minicab-van-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mitsubishi-town-box-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mitsubishi-xpander-cross-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-nissan-aura-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-nissan-clipper-rio-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-nissan-gt-r-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-nissan-livina-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-nissan-patrol-safari-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps patrol"
+    },
+    {
+      "id": "pcd-b12-nissan-sylphy-classic-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-nissan-x-terra-2025-6x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-peugeot-408x-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-peugeot-partner-rapid-2025-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps partner"
+    },
+    {
+      "id": "pcd-b12-porsche-718-2025-5x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ram-1500-trx-2025-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps 1500"
+    },
+    {
+      "id": "pcd-b12-ram-v1000-2025-5x98",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ram-v700-city-2025-4x98",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ram-v700-rapid-2025-4x98",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-renault-kangoo-rapid-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps kangoo"
+    },
+    {
+      "id": "pcd-b12-renault-kangoo-van-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-renault-logan-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-renault-oroch-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-renault-sandero-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-renault-stepway-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-skoda-octavia-pro-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-subaru-chiffon-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-subaru-chiffon-custom-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-subaru-chiffon-try-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-subaru-evoltis-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-subaru-impreza-sport-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-subaru-levorg-layback-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps levorg"
+    },
+    {
+      "id": "pcd-b12-subaru-pleo-plus-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-subaru-wrx-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps wrx-sti"
+    },
+    {
+      "id": "pcd-b12-subaru-wrx-s4-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-suzuki-every-wagon-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-suzuki-jimny-nomade-2025-5x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps jimny"
+    },
+    {
+      "id": "pcd-b12-suzuki-jimny-sierra-2025-5x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps jimny"
+    },
+    {
+      "id": "pcd-b12-suzuki-landy-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-suzuki-spacia-custom-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps spacia"
+    },
+    {
+      "id": "pcd-b12-suzuki-spacia-gear-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps spacia"
+    },
+    {
+      "id": "pcd-b12-suzuki-wagon-r-smile-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-suzuki-wagon-r-stingray-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-suzuki-xl6-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-agya-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-avanza-2025-5x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-calya-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-corolla-altis-2025-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps corolla"
+    },
+    {
+      "id": "pcd-b12-toyota-corolla-axio-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps corolla"
+    },
+    {
+      "id": "pcd-b12-toyota-corolla-fielder-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps corolla"
+    },
+    {
+      "id": "pcd-b12-toyota-crown-kluger-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-crown-vellfire-2025-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-glanza-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-innova-cross-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps innova"
+    },
+    {
+      "id": "pcd-b12-toyota-innova-crysta-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps innova"
+    },
+    {
+      "id": "pcd-b12-toyota-innova-hycross-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps innova"
+    },
+    {
+      "id": "pcd-b12-toyota-innova-zenix-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps innova"
+    },
+    {
+      "id": "pcd-b12-toyota-kijang-innova-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-kijang-innova-zenix-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-kluger-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-levin-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-majesty-2025-6x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-proace-city-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps proace"
+    },
+    {
+      "id": "pcd-b12-toyota-proace-city-verso-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps proace"
+    },
+    {
+      "id": "pcd-b12-toyota-proace-verso-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps proace"
+    },
+    {
+      "id": "pcd-b12-toyota-quantum-2025-6x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-rumion-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-rush-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-starlet-cross-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps starlet"
+    },
+    {
+      "id": "pcd-b12-toyota-sw4-2025-6x139-7",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-urban-cruiser-hyryder-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps urban-cruiser"
+    },
+    {
+      "id": "pcd-b12-toyota-urban-cruiser-taisor-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps urban-cruiser"
+    },
+    {
+      "id": "pcd-b12-toyota-veloz-2025-5x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-venza-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-wigo-2025-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-yaris-ativ-2025-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps yaris"
+    },
+    {
+      "id": "pcd-b12-toyota-zenix-2025-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-arteon-sr-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps arteon"
+    },
+    {
+      "id": "pcd-b12-volkswagen-golf-gti-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-golf-r-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps golf"
+    },
+    {
+      "id": "pcd-b12-volkswagen-golf-touran-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps golf"
+    },
+    {
+      "id": "pcd-b12-volkswagen-id4-2025-5x112",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-volkswagen-id4-crozz-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps id-4"
+    },
+    {
+      "id": "pcd-b12-volkswagen-id6-crozz-2025-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-polo-plus-2025-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-polo-vivo-2025-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps polo"
+    },
+    {
+      "id": "pcd-b12-volkswagen-santana-gts-2025-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-t-roc-r-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps t-roc"
+    },
+    {
+      "id": "pcd-b12-volkswagen-taigun-2025-5x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-tiguan-l-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tiguan"
+    },
+    {
+      "id": "pcd-b12-volkswagen-tiguan-x-2025-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tiguan"
+    },
+    {
+      "id": "pcd-b12-wuling-almaz-rs-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps almaz"
+    },
+    {
+      "id": "pcd-b12-wuling-cortez-s-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps cortez"
+    },
+    {
+      "id": "pcd-b12-wuling-hongguang-s-classic-2025-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps hongguang-s"
+    },
+    {
+      "id": "pcd-b12-wuling-hongguang-s3-2025-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-wuling-rongguang-truck-2025-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps rongguang"
+    },
+    {
+      "id": "pcd-b12-zotye-t700l-2025-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q5-e-tron-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps q5"
+    },
+    {
+      "id": "pcd-b12-baic-senova-d50-2024-5x110",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-bmw-x3-m-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps x3"
+    },
+    {
+      "id": "pcd-b12-buick-envision-s-gs-2024-5x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps envision"
+    },
+    {
+      "id": "pcd-b12-changan-eado-dt-2024-5x110",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps eado"
+    },
+    {
+      "id": "pcd-b12-chery-arrizo-5-plus-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-arrizo-e-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-3x-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tiggo-3x-excellence-edition"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-5x-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tiggo-5x-pro"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-5x-plus-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-joy-2024-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-joy-plus-2024-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-traverse-limited-2024-6x120",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps traverse"
+    },
+    {
+      "id": "pcd-b12-citroen-c3-xr-2024-4x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps c3"
+    },
+    {
+      "id": "pcd-b12-dodge-charger-pursuit-2024-5x115",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps charger"
+    },
+    {
+      "id": "pcd-b12-dodge-charger-srt-2024-5x115",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps charger"
+    },
+    {
+      "id": "pcd-b12-ford-edge-plus-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ford-fiesta-active-2024-4x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps fiesta"
+    },
+    {
+      "id": "pcd-b12-geely-binyue-cool-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-geely-boyue-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps boyue-cool"
+    },
+    {
+      "id": "pcd-b12-geely-boyue-x-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-geely-emgrand-s-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-geely-vision-x6-pro-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-honda-freed-plus-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-honda-stepwgn-spada-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps stepwgn"
+    },
+    {
+      "id": "pcd-b12-hyundai-i30-fastback-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps i30"
+    },
+    {
+      "id": "pcd-b12-kia-k3-gt-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-kia-kx3-2024-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-kia-niro-plus-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-kia-pegas-2024-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-kia-picanto-x-line-2024-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps picanto"
+    },
+    {
+      "id": "pcd-b12-kia-sportage-ace-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps sportage"
+    },
+    {
+      "id": "pcd-b12-mazda-cx-30-ev-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mg-6-pro-2024-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mg-pilot-2024-5x112",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mg-v80-2024-5x130",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-mini-crossover-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mini-hatch-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps hatch-convertible"
+    },
+    {
+      "id": "pcd-b12-mitsubishi-grand-lancer-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-nissan-np200-2024-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-nissan-nv100-clipper-2024-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-nissan-nv100-clipper-rio-2024-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-nissan-nv200-vanette-2024-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps nv200"
+    },
+    {
+      "id": "pcd-b12-nissan-titan-xd-2024-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps titan"
+    },
+    {
+      "id": "pcd-b12-peugeot-508l-2024-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-ram-1000-2024-5x110",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ram-1500-classic-2024-5x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps 1500"
+    },
+    {
+      "id": "pcd-b12-renault-kangoo-express-2024-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps kangoo"
+    },
+    {
+      "id": "pcd-b12-renault-kangoo-stepway-2024-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps kangoo"
+    },
+    {
+      "id": "pcd-b12-subaru-stella-2024-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-subaru-stella-custom-2024-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-corolla-quest-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps corolla"
+    },
+    {
+      "id": "pcd-b12-toyota-granace-2024-6x130",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-toyota-prius-prime-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps prius"
+    },
+    {
+      "id": "pcd-b12-toyota-rav4-prime-2024-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps rav4"
+    },
+    {
+      "id": "pcd-b12-volkswagen-golf-alltrack-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps golf"
+    },
+    {
+      "id": "pcd-b12-volkswagen-golf-variant-alltrack-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-passat-alltrack-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps passat"
+    },
+    {
+      "id": "pcd-b12-volkswagen-tacqua-2024-5x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-touran-l-2024-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps touran"
+    },
+    {
+      "id": "pcd-b12-audi-e-tron-s-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps e-tron"
+    },
+    {
+      "id": "pcd-b12-audi-e-tron-s-sportback-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-e-tron-sportback-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-audi-q2l-e-tron-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-bmw-6-series-gran-turismo-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-buick-excelle-gt-2023-5x105",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-buick-regal-gs-2023-5x115",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps regal"
+    },
+    {
+      "id": "pcd-b12-chery-alia-2023-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-chance-2023-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-kimo-2023-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chery-tiggo-3x-plus-2023-5x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-spin-activ-2023-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps spin"
+    },
+    {
+      "id": "pcd-b12-citroen-c3l-2023-4x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-daihatsu-altis-2023-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-daihatsu-move-custom-2023-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps move"
+    },
+    {
+      "id": "pcd-b12-ferrari-812-gts-2023-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-avventura-2023-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-pratico-2023-5x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-fiat-urban-cross-2023-4x98",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-hyundai-kona-n-2023-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps kona"
+    },
+    {
+      "id": "pcd-b12-infiniti-q50l-2023-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-kia-kx5-2023-5x114-3",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-kia-picanto-cross-2023-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps picanto"
+    },
+    {
+      "id": "pcd-b12-subaru-impreza-g4-2023-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps impreza"
+    },
+    {
+      "id": "pcd-b12-suzuki-alto-800-2023-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps alto"
+    },
+    {
+      "id": "pcd-b12-suzuki-vitara-brezza-2023-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps vitara"
+    },
+    {
+      "id": "pcd-b12-toyota-passo-2023-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-toyota-pixis-joy-2023-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-volkswagen-tayron-gte-2023-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps tayron"
+    },
+    {
+      "id": "pcd-b12-volkswagen-voyage-2023-4x100",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-zotye-cloud-100plus-2023-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps cloud"
+    },
+    {
+      "id": "pcd-b12-byd-qin-pro-2022-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-chevrolet-silverado-1500-limited-2022-6x139-7",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps silverado-1500"
+    },
+    {
+      "id": "pcd-b12-dacia-dokker-stepway-2022-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps dokker"
+    },
+    {
+      "id": "pcd-b12-ford-endeavour-2022-6x139-7",
+      "category": "badgeEngineeredDuplicate",
+      "reason": "Regional badge or manufacturer-label equivalent is already represented"
+    },
+    {
+      "id": "pcd-b12-ford-ka-freestyle-2022-4x108",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps ka"
+    },
+    {
+      "id": "pcd-b12-volkswagen-lavida-plus-2022-5x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-wuling-rongguang-extended-2022-4x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps rongguang"
+    },
+    {
+      "id": "pcd-b12-baic-senova-x35-2021-5x110",
+      "category": "semanticCollision",
+      "reason": "Canonical maker/model is already represented in Batch 1–11"
+    },
+    {
+      "id": "pcd-b12-changan-eado-et-2021-5x110",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps eado"
+    },
+    {
+      "id": "pcd-b12-changan-eado-ev-2021-5x110",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-changan-eado-xt-2021-5x110",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps eado"
+    },
+    {
+      "id": "pcd-b12-changan-linmax-2021-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-mazda-atenza-2021-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-volkswagen-e-golf-2021-5x112",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    },
+    {
+      "id": "pcd-b12-wuling-sunshine-extended-2021-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps sunshine"
+    },
+    {
+      "id": "pcd-b12-wuling-sunshine-s-2021-4x100",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative overlaps sunshine"
+    },
+    {
+      "id": "pcd-b12-zotye-z500ev-2021-5x114-3",
+      "category": "trimBodyOverlap",
+      "reason": "Trim, body or powertrain derivative is not a distinct canonical application"
+    }
+  ],
+  "suspectedLegacyRecords": [],
+  "legacyAuditNote": "The first 2844 canonical records retain their exact semantic content, order and statuses. Suspected older issues were not corrected in Batch 12.",
+  "ids": [
+    "pcd-b12-foton-sup-2023-6x139-7",
+    "pcd-b12-foton-toplander-2023-6x139-7",
+    "pcd-b12-haval-f5-2021-5x114-3",
+    "pcd-b12-haval-h4-2021-5x114-3",
+    "pcd-b12-hongqi-hq3-2010-5x114-3",
+    "pcd-b12-lamborghini-murcielago-2010-5x120-65",
+    "pcd-b12-hongqi-mingshi-2008-4x108",
+    "pcd-b12-soueast-lioncel-2006-4x100",
+    "pcd-b12-cadillac-fleetwood-1989-5x115",
+    "pcd-b12-opel-manta-1988-4x100",
+    "pcd-b12-bmw-xm-2026-5x120",
+    "pcd-b12-buick-electra-e5-2026-6x120",
+    "pcd-b12-buick-enclave-2026-6x120",
+    "pcd-b12-buick-envista-2026-5x115",
+    "pcd-b12-buick-gl8-2026-5x120",
+    "pcd-b12-cadillac-ct4-2026-5x115",
+    "pcd-b12-cadillac-optiq-2026-6x120",
+    "pcd-b12-chevrolet-onix-2026-4x100",
+    "pcd-b12-chevrolet-sail-2026-4x114-3",
+    "pcd-b12-chevrolet-spin-2026-4x100",
+    "pcd-b12-ford-equator-2026-5x112",
+    "pcd-b12-ford-territory-2026-5x108",
+    "pcd-b12-honda-passport-2026-5x120",
+    "pcd-b12-hyundai-alcazar-2026-5x114-3",
+    "pcd-b12-hyundai-casper-2026-4x100",
+    "pcd-b12-hyundai-creta-2026-5x114-3",
+    "pcd-b12-hyundai-custin-2026-5x114-3",
+    "pcd-b12-hyundai-exter-2026-4x100",
+    "pcd-b12-hyundai-h-100-2026-5x120",
+    "pcd-b12-hyundai-hb20-2026-4x100",
+    "pcd-b12-hyundai-ioniq-9-2026-5x114-3",
+    "pcd-b12-hyundai-santa-cruz-2026-5x114-3",
+    "pcd-b12-hyundai-st1-2026-6x139-7",
+    "pcd-b12-hyundai-verna-2026-4x100",
+    "pcd-b12-kia-k3-2026-4x100",
+    "pcd-b12-kia-k8-2026-5x114-3",
+    "pcd-b12-kia-ray-2026-4x100",
+    "pcd-b12-kia-sonet-2026-5x114-3",
+    "pcd-b12-lexus-lx-2026-6x139-7",
+    "pcd-b12-mg-7-2026-5x112",
+    "pcd-b12-mg-cyberster-2026-5x112",
+    "pcd-b12-mg-es5-2026-5x112",
+    "pcd-b12-mg-hector-2026-5x114-3",
+    "pcd-b12-mg-trq-l-2026-6x130",
+    "pcd-b12-ram-2500-2026-8x165-1",
+    "pcd-b12-ram-3500-2026-8x165-1",
+    "pcd-b12-ram-rampage-2026-5x110",
+    "pcd-b12-toyota-alphard-2026-5x120",
+    "pcd-b12-toyota-aqua-2026-4x100",
+    "pcd-b12-toyota-bz5-2026-5x114-3",
+    "pcd-b12-toyota-harrier-2026-5x114-3",
+    "pcd-b12-toyota-innova-2026-5x114-3",
+    "pcd-b12-toyota-probox-2026-4x100",
+    "pcd-b12-toyota-sienta-2026-5x100",
+    "pcd-b12-volkswagen-talagon-2026-5x112",
+    "pcd-b12-volvo-ex30-2026-5x108",
+    "pcd-b12-audi-q6-2025-5x112",
+    "pcd-b12-bentley-flying-spur-2025-5x130",
+    "pcd-b12-buick-electra-e4-2025-6x120",
+    "pcd-b12-byd-frigate-07-2025-5x120",
+    "pcd-b12-byd-sea-lion-07-2025-5x120",
+    "pcd-b12-chevrolet-menlo-2025-5x115",
+    "pcd-b12-chevrolet-monza-2025-5x105",
+    "pcd-b12-chevrolet-savana-2025-8x165-1",
+    "pcd-b12-chevrolet-seeker-2025-5x115",
+    "pcd-b12-citroen-basalt-2025-4x108",
+    "pcd-b12-daihatsu-ayla-2025-4x100",
+    "pcd-b12-daihatsu-luxio-2025-5x114-3",
+    "pcd-b12-daihatsu-mira-es-2025-4x100",
+    "pcd-b12-daihatsu-move-2025-4x100",
+    "pcd-b12-daihatsu-sigra-2025-4x100",
+    "pcd-b12-daihatsu-taft-2025-4x100",
+    "pcd-b12-daihatsu-tanto-2025-4x100",
+    "pcd-b12-daihatsu-thor-2025-4x100",
+    "pcd-b12-daihatsu-xenia-2025-5x100",
+    "pcd-b12-fiat-cronos-2025-4x98",
+    "pcd-b12-fiat-egea-2025-5x98",
+    "pcd-b12-fiat-mobi-2025-4x98",
+    "pcd-b12-fiat-toro-2025-5x110",
+    "pcd-b12-ford-everest-2025-6x139-7",
+    "pcd-b12-honda-avancier-2025-5x114-3",
+    "pcd-b12-honda-brio-2025-4x100",
+    "pcd-b12-honda-crider-2025-5x114-3",
+    "pcd-b12-honda-elevate-2025-5x114-3",
+    "pcd-b12-honda-freed-2025-5x114-3",
+    "pcd-b12-honda-m-nv-2025-5x114-3",
+    "pcd-b12-honda-n-box-2025-4x100",
+    "pcd-b12-honda-n-one-2025-4x100",
+    "pcd-b12-honda-n-wgn-2025-4x100",
+    "pcd-b12-honda-stepwgn-2025-5x114-3",
+    "pcd-b12-hyundai-lafesta-2025-5x114-3",
+    "pcd-b12-hyundai-mufasa-2025-5x114-3",
+    "pcd-b12-hyundai-solati-2025-6x139-7",
+    "pcd-b12-kia-k9-2025-5x114-3",
+    "pcd-b12-kia-mohave-2025-6x114-3",
+    "pcd-b12-kia-telluride-2025-5x114-3",
+    "pcd-b12-lexus-gx-2025-6x139-7",
+    "pcd-b12-lexus-lm-2025-5x120",
+    "pcd-b12-mazda-cx-50-2025-5x114-3",
+    "pcd-b12-mazda-cx-70-2025-5x114-3",
+    "pcd-b12-mazda-cx-8-2025-5x114-3",
+    "pcd-b12-mazda-cx-90-2025-5x114-3",
+    "pcd-b12-mg-6-2025-5x100",
+    "pcd-b12-mg-one-2025-5x112",
+    "pcd-b12-mitsubishi-attrage-2025-4x100",
+    "pcd-b12-mitsubishi-mirage-g4-2025-4x100",
+    "pcd-b12-mitsubishi-xforce-2025-5x114-3",
+    "pcd-b12-nissan-elgrand-2025-5x114-3",
+    "pcd-b12-nissan-magnite-2025-4x100",
+    "pcd-b12-nissan-terra-2025-6x114-3",
+    "pcd-b12-nissan-tiida-2025-5x114-3",
+    "pcd-b12-nissan-z-2025-5x114-3",
+    "pcd-b12-peugeot-landtrek-2025-6x139-7",
+    "pcd-b12-renault-taliant-2025-4x100",
+    "pcd-b12-skoda-kushaq-2025-5x100",
+    "pcd-b12-skoda-kylaq-2025-5x100",
+    "pcd-b12-skoda-slavia-2025-5x100",
+    "pcd-b12-suzuki-brezza-2025-5x114-3",
+    "pcd-b12-suzuki-ciaz-2025-4x100",
+    "pcd-b12-suzuki-hustler-2025-4x100",
+    "pcd-b12-suzuki-lapin-2025-4x100",
+    "pcd-b12-suzuki-s-presso-2025-4x100",
+    "pcd-b12-suzuki-solio-2025-4x100",
+    "pcd-b12-suzuki-spacia-2025-4x100",
+    "pcd-b12-toyota-allion-2025-5x114-3",
+    "pcd-b12-toyota-avalon-2025-5x114-3",
+    "pcd-b12-toyota-crown-signia-2025-5x114-3",
+    "pcd-b12-toyota-fortuner-2025-6x139-7",
+    "pcd-b12-toyota-jpn-taxi-2025-5x114-3",
+    "pcd-b12-toyota-noah-2025-5x114-3",
+    "pcd-b12-volkswagen-lamando-2025-5x112",
+    "pcd-b12-volkswagen-viloran-2025-5x112",
+    "pcd-b12-changan-benni-2024-4x100",
+    "pcd-b12-changan-cs75-2024-5x114-3",
+    "pcd-b12-geely-borui-2024-5x114-3",
+    "pcd-b12-honda-e-2024-5x114-3",
+    "pcd-b12-honda-mobilio-2024-4x100",
+    "pcd-b12-mazda-cx-4-2024-5x114-3",
+    "pcd-b12-renault-triber-2024-4x100",
+    "pcd-b12-volkswagen-phideon-2024-5x112",
+    "pcd-b12-buick-excelle-2023-4x100",
+    "pcd-b12-buick-gl6-2023-5x115",
+    "pcd-b12-byd-song-2023-5x120",
+    "pcd-b12-chery-eq5-2023-5x108",
+    "pcd-b12-daihatsu-boon-2023-4x100",
+    "pcd-b12-daihatsu-cast-style-2023-4x100",
+    "pcd-b12-daihatsu-mira-tocot-2023-4x100",
+    "pcd-b12-ford-figo-2023-4x108",
+    "pcd-b12-hyundai-celesta-2023-5x114-3",
+    "pcd-b12-hyundai-mistra-2023-5x114-3",
+    "pcd-b12-mitsubishi-strada-2023-5x114-3",
+    "pcd-b12-nissan-370z-2023-5x114-3",
+    "pcd-b12-chery-eq1-2022-4x100",
+    "pcd-b12-changan-a800-2021-5x114-3",
+    "pcd-b12-changan-s50-2021-5x110",
+    "pcd-b12-byd-qin-2020-5x114-3"
+  ]
+}
