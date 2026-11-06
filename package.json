@@ -3,6 +3,11 @@
   "private": true,
   "scripts": {
     "site:contract": "node scripts/site-contract.test.mjs",
+    "oil:validate": "node scripts/oil/validate.mjs",
+    "oil:generate": "node scripts/oil/generate.mjs",
+    "oil:generate:check": "node scripts/oil/check-generated.mjs",
+    "oil:test": "node tests/oil/oil-foundation.test.mjs && node tests/oil/oil-ui.test.mjs",
+    "oil:check": "npm run oil:validate && npm run oil:generate:check && npm run oil:test",
     "pcd:generate": "node scripts/pcd/generate-pcd-data.mjs",
     "pcd:check": "node scripts/pcd/validate-pcd-data.mjs && node scripts/pcd/generate-pcd-data.mjs --check",
     "pcd:test": "node tests/pcd/pcd-foundation.test.mjs",
@@ -30,6 +35,6 @@
     "engines:compare": "node scripts/engines/semantic-compare-engine-data.mjs",
     "engines:legacy-compare": "node scripts/engines/semantic-compare-engine-data.mjs --legacy-head",
     "engines:check": "npm run engines:legacy-identity-migration-policy:test && npm run engines:verification-policy:test && npm run engines:validate && npm run engines:generate:check && npm run engines:smoke && npm run engines:compare",
-    "test": "npm run site:contract && npm run pcd:check && npm run pcd:test && npm run pcd:batch1:test && npm run pcd:batch2:test && npm run pcd:batch3:test && npm run pcd:batch4:test && npm run pcd:batch5:test && npm run pcd:batch6:test && npm run pcd:batch7:test && npm run pcd:batch8:test && npm run pcd:batch9:test && npm run pcd:batch10:test && npm run pcd:batch11:test && npm run pcd:batch12:test && npm run pcd:selector:test && npm run pcd:security:test && npm run engines:ui && npm run engines:check"
+    "test": "npm run site:contract && npm run oil:check && npm run pcd:check && npm run pcd:test && npm run pcd:batch1:test && npm run pcd:batch2:test && npm run pcd:batch3:test && npm run pcd:batch4:test && npm run pcd:batch5:test && npm run pcd:batch6:test && npm run pcd:batch7:test && npm run pcd:batch8:test && npm run pcd:batch9:test && npm run pcd:batch10:test && npm run pcd:batch11:test && npm run pcd:batch12:test && npm run pcd:selector:test && npm run pcd:security:test && npm run engines:ui && npm run engines:check"
   }
 }

@@ -1,0 +1,77 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import vm from 'node:vm';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+import { toPublicOilData } from '../../scripts/oil/generate.mjs';
+import { loadCanonical } from '../../scripts/oil/validate.mjs';
+
+const require = createRequire(import.meta.url);
+const ui = require('../../assets/js/oil-guide.js');
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+const html = fs.readFileSync(path.join(root, 'oil-guide.html'), 'utf8');
+const moduleSource = fs.readFileSync(path.join(root, 'assets/js/oil-guide.js'), 'utf8');
+const data = toPublicOilData(loadCanonical());
+
+const empty = ui.cascade(data.records);
+assert.deepEqual(empty.makes, ['BMW', 'Volvo']);
+assert.equal(empty.models.length, 0);
+const make = ui.cascade(data.records, { make: 'BMW' });
+assert.deepEqual(make.models, ['3 Series']);
+assert.equal(make.variants.length, 0);
+const model = ui.cascade(data.records, { make: 'BMW', model: '3 Series' });
+assert.deepEqual(model.variants, ['E46|||2000-2006']);
+assert.equal(model.engines.length, 0);
+const exact = ui.cascade(data.records, { make: 'BMW', model: '3 Series', variant: 'E46|||2000-2006', engine: 'bmw-e46-m54b25' });
+assert.deepEqual(exact.engines.map((record) => record.engineCode), ['M54B22', 'M54B25', 'M54B30']);
+assert.equal(exact.engine, 'bmw-e46-m54b25');
+console.log('PASS oil selector cascade and exact engine-code selection');
+
+const selectedUrl = ui.selectionUrl('https://d3orient.com/oil-guide.html?lang=de', exact, 'de');
+const restored = ui.resolveUrlState(data, selectedUrl.href);
+assert.equal(restored.engine, 'bmw-e46-m54b25');
+assert.equal(restored.lang, 'de');
+const reset = ui.resetUrl(selectedUrl.href, 'de');
+assert.equal(reset.searchParams.get('engine'), null);
+assert.equal(reset.searchParams.get('make'), null);
+assert.equal(reset.searchParams.get('lang'), 'de');
+const back = ui.resolveUrlState(data, 'https://d3orient.com/oil-guide.html?engine=volvo-s70-b5202s&lang=en');
+const forward = ui.resolveUrlState(data, selectedUrl.href);
+assert.equal(back.record.engineCode, 'B5202S');
+assert.equal(forward.record.engineCode, 'M54B25');
+assert.match(moduleSource, /addEventListener\('popstate', restoreFromUrl\)/);
+console.log('PASS oil URL state, Reset and Back/Forward restoration contracts');
+
+assert.equal(ui.findRecord(data, 'M54B30').value.id, 'bmw-e46-m54b30');
+assert.equal(ui.findRecord(data, 'bmw-e46-m54').type, 'legacy');
+assert.match(html, /id="resetButton"/);
+assert.match(html, /id="copyLinkButton"/);
+assert.match(moduleSource, /navigator\.clipboard\.writeText/);
+assert.match(moduleSource, /requiredManufacturerApprovals/);
+assert.match(moduleSource, /preferredManufacturerApprovals/);
+assert.match(moduleSource, /industrySpecifications\.acea/);
+assert.match(moduleSource, /serviceFillCapacity/);
+assert.match(moduleSource, /emissionsEquipment/);
+assert.match(moduleSource, /sourceLinks/);
+console.log('PASS oil quick search, Copy link and separated result fields');
+
+const translationMatch = html.match(/const translations = (\{[\s\S]*?\r?\n\s*\});\r?\n\r?\n\s*window\.AUTOHUB_OIL_TRANSLATIONS/);
+assert.ok(translationMatch, 'Oil translations object was not found');
+const translations = vm.runInNewContext(`(${translationMatch[1]})`);
+const keys = Object.keys(translations.en).sort();
+for (const language of ['es', 'fr', 'de']) assert.deepEqual(Object.keys(translations[language]).sort(), keys, `${language} oil translations differ`);
+assert.match(html, /@media \(max-width: 520px\)/);
+assert.match(html, /overflow-wrap: anywhere/);
+assert.match(html, /grid-template-columns: 1fr/);
+assert.doesNotMatch(html, /<section class="panel" aria-labelledby="exampleTitle">/);
+assert.doesNotMatch(html, /data-oil-example-link/);
+assert.match(html, /id="resultPanel"[^>]*hidden/);
+console.log(`PASS oil EN/ES/FR/DE parity (${keys.length} keys), mobile-safe markup and no simultaneous example/result`);
+
+const engineDir = path.join(root, 'data/engines/source/regions');
+const oilLinks = new Set(fs.readdirSync(engineDir).filter((name) => name.endsWith('.json')).flatMap((name) => JSON.parse(fs.readFileSync(path.join(engineDir, name), 'utf8')).records.map((record) => record.oilRecord).filter(Boolean)));
+const oilIds = new Set([...data.records, ...data.legacyRecords].map((record) => record.id));
+for (const id of oilLinks) assert.ok(oilIds.has(id), `Engine oilRecord ${id} has no oil migration target`);
+assert.ok(html.includes('oil-data.js') && html.includes('assets/js/oil-guide.js'));
+console.log(`PASS Oil Guide integration for ${oilLinks.size} Engine links and generated data loading`);
