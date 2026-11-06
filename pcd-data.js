@@ -7445,6 +7445,79 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Q6',
+        slug: 'q6',
+        records: [
+          {
+            id: 'pcd-b12-audi-q6-2025-5x112',
+            generation: 'Q6 · 2022–2027',
+            aliases: [
+              'Audi Q6 2025',
+              'Q6 Q6 · 2022–2027',
+              '5x112'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-57',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Audi Q6 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/audi/q6/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-57',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Audi Q6 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/audi/q6/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -9670,6 +9743,225 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Kushaq',
+        slug: 'kushaq',
+        records: [
+          {
+            id: 'pcd-b12-skoda-kushaq-2025-5x100',
+            generation: 'Kushaq · 2021–2026',
+            aliases: [
+              'Skoda Kushaq 2025',
+              'Kushaq Kushaq · 2021–2026',
+              '5x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35-39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-115',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Skoda Kushaq 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/skoda/kushaq/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-115',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Skoda Kushaq 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/skoda/kushaq/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Kylaq',
+        slug: 'kylaq',
+        records: [
+          {
+            id: 'pcd-b12-skoda-kylaq-2025-5x100',
+            generation: 'Kylaq · 2024–2027',
+            aliases: [
+              'Skoda Kylaq 2025',
+              'Kylaq Kylaq · 2024–2027',
+              '5x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35-39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-116',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Skoda Kylaq 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/skoda/kylaq/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-116',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Skoda Kylaq 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/skoda/kylaq/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Slavia',
+        slug: 'slavia',
+        records: [
+          {
+            id: 'pcd-b12-skoda-slavia-2025-5x100',
+            generation: 'Slavia · 2022–2027',
+            aliases: [
+              'Skoda Slavia 2025',
+              'Slavia Slavia · 2022–2027',
+              '5x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38-40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-117',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Skoda Slavia 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/skoda/slavia/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-117',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Skoda Slavia 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/skoda/slavia/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -20084,6 +20376,298 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Talagon',
+        slug: 'talagon',
+        records: [
+          {
+            id: 'pcd-b12-volkswagen-talagon-2026-5x112',
+            generation: 'Facelift · 2025–2027',
+            aliases: [
+              'Volkswagen Talagon 2026',
+              'Talagon Facelift · 2025–2027',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-55',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Volkswagen Talagon 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/volkswagen/talagon/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-55',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Talagon 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/talagon/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lamando',
+        slug: 'lamando',
+        records: [
+          {
+            id: 'pcd-b12-volkswagen-lamando-2025-5x112',
+            generation: 'Facelift · 2019–2025',
+            aliases: [
+              'Volkswagen Lamando 2025',
+              'Lamando Facelift · 2019–2025',
+              '5x112'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-131',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Volkswagen Lamando 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/volkswagen/lamando/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-131',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Lamando 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/lamando/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Viloran',
+        slug: 'viloran',
+        records: [
+          {
+            id: 'pcd-b12-volkswagen-viloran-2025-5x112',
+            generation: 'Viloran · 2020–2026',
+            aliases: [
+              'Volkswagen Viloran 2025',
+              'Viloran Viloran · 2020–2026',
+              '5x112'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET34',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-132',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Volkswagen Viloran 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/volkswagen/viloran/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-132',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Viloran 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/viloran/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Phideon',
+        slug: 'phideon',
+        records: [
+          {
+            id: 'pcd-b12-volkswagen-phideon-2024-5x112',
+            generation: '3E Facelift · 2021–2024',
+            aliases: [
+              'Volkswagen Phideon 2024',
+              'Phideon 3E Facelift · 2021–2024',
+              '5x112'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-140',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Volkswagen Phideon 2024 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/volkswagen/phideon/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-140',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volkswagen Phideon 2024 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volkswagen/phideon/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -28296,6 +28880,79 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'XM',
+        slug: 'xm',
+        records: [
+          {
+            id: 'pcd-b12-bmw-xm-2026-5x120',
+            generation: 'G09 · 2023–2027',
+            aliases: [
+              'BMW XM 2026',
+              'XM G09 · 2023–2027',
+              '5x120'
+            ],
+            years: '2026-2026',
+            market: 'EU / US',
+            pcd: '5x120',
+            centerBore: '66.5',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET19',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-11',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'BMW XM 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/bmw/xm/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-11',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BMW XM 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/bmw/xm/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -37584,6 +38241,955 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Alphard',
+        slug: 'alphard',
+        records: [
+          {
+            id: 'pcd-b12-toyota-alphard-2026-5x120',
+            generation: 'AH40 · 2023–2027',
+            aliases: [
+              'Toyota Alphard 2026',
+              'Alphard AH40 · 2023–2027',
+              '5x120'
+            ],
+            years: '2026-2026',
+            market: 'Japan',
+            pcd: '5x120',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-48',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Alphard 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/alphard/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-48',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Alphard 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/alphard/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Aqua',
+        slug: 'aqua',
+        records: [
+          {
+            id: 'pcd-b12-toyota-aqua-2026-4x100',
+            generation: 'XP210 Facelift · 2025–2027',
+            aliases: [
+              'Toyota Aqua 2026',
+              'Aqua XP210 Facelift · 2025–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-49',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Aqua 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/aqua/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-49',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Aqua 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/aqua/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'bZ5',
+        slug: 'bz5',
+        records: [
+          {
+            id: 'pcd-b12-toyota-bz5-2026-5x114-3',
+            generation: 'bZ5 · 2025–2027',
+            aliases: [
+              'Toyota bZ5 2026',
+              'bZ5 bZ5 · 2025–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-50',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota bZ5 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/bz5/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-50',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota bZ5 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/bz5/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Harrier',
+        slug: 'harrier',
+        records: [
+          {
+            id: 'pcd-b12-toyota-harrier-2026-5x114-3',
+            generation: 'XU80 · 2020–2027',
+            aliases: [
+              'Toyota Harrier 2026',
+              'Harrier XU80 · 2020–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-51',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Harrier 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/harrier/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-51',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Harrier 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/harrier/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Innova',
+        slug: 'innova',
+        records: [
+          {
+            id: 'pcd-b12-toyota-innova-2026-5x114-3',
+            generation: 'AG10 · 2022–2027',
+            aliases: [
+              'Toyota Innova 2026',
+              'Innova AG10 · 2022–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35-50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-52',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Innova 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/innova/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-52',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Innova 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/innova/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Probox',
+        slug: 'probox',
+        records: [
+          {
+            id: 'pcd-b12-toyota-probox-2026-4x100',
+            generation: 'XP160 · 2014–2027',
+            aliases: [
+              'Toyota Probox 2026',
+              'Probox XP160 · 2014–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-53',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Probox 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/probox/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-53',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Probox 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/probox/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sienta',
+        slug: 'sienta',
+        records: [
+          {
+            id: 'pcd-b12-toyota-sienta-2026-5x100',
+            generation: 'III · 2022–2027',
+            aliases: [
+              'Toyota Sienta 2026',
+              'Sienta III · 2022–2027',
+              '5x100'
+            ],
+            years: '2026-2026',
+            market: 'Japan',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-54',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Sienta 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/sienta/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-54',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Sienta 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/sienta/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Allion',
+        slug: 'allion',
+        records: [
+          {
+            id: 'pcd-b12-toyota-allion-2025-5x114-3',
+            generation: 'E210 · 2021–2027',
+            aliases: [
+              'Toyota Allion 2025',
+              'Allion E210 · 2021–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-125',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Allion 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/allion/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-125',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Allion 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/allion/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Avalon',
+        slug: 'avalon',
+        records: [
+          {
+            id: 'pcd-b12-toyota-avalon-2025-5x114-3',
+            generation: 'Facelift · 2024–2027',
+            aliases: [
+              'Toyota Avalon 2025',
+              'Avalon Facelift · 2024–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-126',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Avalon 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/avalon/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-126',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Avalon 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/avalon/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Crown Signia',
+        slug: 'crown-signia',
+        records: [
+          {
+            id: 'pcd-b12-toyota-crown-signia-2025-5x114-3',
+            generation: 'Crown Signia · 2023–2027',
+            aliases: [
+              'Toyota Crown Signia 2025',
+              'Crown Signia Crown Signia · 2023–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET35-40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-127',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Crown Signia 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/crown-signia/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-127',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Crown Signia 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/crown-signia/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Fortuner',
+        slug: 'fortuner',
+        records: [
+          {
+            id: 'pcd-b12-toyota-fortuner-2025-6x139-7',
+            generation: 'AN150/AN160 Facelift · 2020–2027',
+            aliases: [
+              'Toyota Fortuner 2025',
+              'Fortuner AN150/AN160 Facelift · 2020–2027',
+              '6x139.7'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '6x139.7',
+            centerBore: '106.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-128',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Fortuner 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/fortuner/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-128',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Fortuner 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/fortuner/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'JPN Taxi',
+        slug: 'jpn-taxi',
+        records: [
+          {
+            id: 'pcd-b12-toyota-jpn-taxi-2025-5x114-3',
+            generation: 'JPN Taxi · 2017–2027',
+            aliases: [
+              'Toyota JPN Taxi 2025',
+              'JPN Taxi JPN Taxi · 2017–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-129',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota JPN Taxi 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/jpn-taxi/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-129',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota JPN Taxi 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/jpn-taxi/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Noah',
+        slug: 'noah',
+        records: [
+          {
+            id: 'pcd-b12-toyota-noah-2025-5x114-3',
+            generation: 'R90 · 2022–2027',
+            aliases: [
+              'Toyota Noah 2025',
+              'Noah R90 · 2022–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'Japan / some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-130',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Toyota Noah 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/toyota/noah/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-130',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Toyota Noah 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/toyota/noah/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -41392,6 +42998,955 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Passport',
+        slug: 'passport',
+        records: [
+          {
+            id: 'pcd-b12-honda-passport-2026-5x120',
+            generation: 'YF9 · 2025–2027',
+            aliases: [
+              'Honda Passport 2026',
+              'Passport YF9 · 2025–2027',
+              '5x120'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-23',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda Passport 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/passport/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-23',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Passport 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/passport/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Avancier',
+        slug: 'avancier',
+        records: [
+          {
+            id: 'pcd-b12-honda-avancier-2025-5x114-3',
+            generation: 'Facelift · 2023–2027',
+            aliases: [
+              'Honda Avancier 2025',
+              'Avancier Facelift · 2023–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-81',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda Avancier 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/avancier/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-81',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Avancier 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/avancier/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Brio',
+        slug: 'brio',
+        records: [
+          {
+            id: 'pcd-b12-honda-brio-2025-4x100',
+            generation: 'Facelift · 2023–2027',
+            aliases: [
+              'Honda Brio 2025',
+              'Brio Facelift · 2023–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47-50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-82',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda Brio 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/brio/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-82',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Brio 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/brio/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Crider',
+        slug: 'crider',
+        records: [
+          {
+            id: 'pcd-b12-honda-crider-2025-5x114-3',
+            generation: 'Facelift · 2021–2027',
+            aliases: [
+              'Honda Crider 2025',
+              'Crider Facelift · 2021–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-83',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda Crider 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/crider/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-83',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Crider 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/crider/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Elevate',
+        slug: 'elevate',
+        records: [
+          {
+            id: 'pcd-b12-honda-elevate-2025-5x114-3',
+            generation: 'Elevate · 2023–2027',
+            aliases: [
+              'Honda Elevate 2025',
+              'Elevate Elevate · 2023–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-84',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda Elevate 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/elevate/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-84',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Elevate 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/elevate/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Freed',
+        slug: 'freed',
+        records: [
+          {
+            id: 'pcd-b12-honda-freed-2025-5x114-3',
+            generation: 'III · 2024–2027',
+            aliases: [
+              'Honda Freed 2025',
+              'Freed III · 2024–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'Japan / some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-85',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda Freed 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/freed/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-85',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Freed 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/freed/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'M-NV',
+        slug: 'm-nv',
+        records: [
+          {
+            id: 'pcd-b12-honda-m-nv-2025-5x114-3',
+            generation: 'M-NV · 2023–2027',
+            aliases: [
+              'Honda M-NV 2025',
+              'M-NV M-NV · 2023–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-86',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda M-NV 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/m-nv/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-86',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda M-NV 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/m-nv/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'N-BOX',
+        slug: 'n-box',
+        records: [
+          {
+            id: 'pcd-b12-honda-n-box-2025-4x100',
+            generation: 'III · 2023–2027',
+            aliases: [
+              'Honda N-BOX 2025',
+              'N-BOX III · 2023–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-87',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda N-BOX 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/n-box/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-87',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda N-BOX 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/n-box/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'N-ONE',
+        slug: 'n-one',
+        records: [
+          {
+            id: 'pcd-b12-honda-n-one-2025-4x100',
+            generation: 'II · 2020–2027',
+            aliases: [
+              'Honda N-ONE 2025',
+              'N-ONE II · 2020–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40-45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-88',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda N-ONE 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/n-one/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-88',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda N-ONE 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/n-one/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'N-WGN',
+        slug: 'n-wgn',
+        records: [
+          {
+            id: 'pcd-b12-honda-n-wgn-2025-4x100',
+            generation: 'JH3/JH4 Facelift · 2022–2027',
+            aliases: [
+              'Honda N-WGN 2025',
+              'N-WGN JH3/JH4 Facelift · 2022–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-89',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda N-WGN 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/n-wgn/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-89',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda N-WGN 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/n-wgn/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Stepwgn',
+        slug: 'stepwgn',
+        records: [
+          {
+            id: 'pcd-b12-honda-stepwgn-2025-5x114-3',
+            generation: 'RP6/RP7/RP8 · 2022–2027',
+            aliases: [
+              'Honda Stepwgn 2025',
+              'Stepwgn RP6/RP7/RP8 · 2022–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'Japan / some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-90',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda Stepwgn 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/stepwgn/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-90',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Stepwgn 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/stepwgn/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'e',
+        slug: 'e',
+        records: [
+          {
+            id: 'pcd-b12-honda-e-2024-5x114-3',
+            generation: 'e · 2020–2024',
+            aliases: [
+              'Honda e 2024',
+              'e e · 2020–2024',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-136',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda e 2024 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/e/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-136',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda e 2024 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/e/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mobilio',
+        slug: 'mobilio',
+        records: [
+          {
+            id: 'pcd-b12-honda-mobilio-2024-4x100',
+            generation: 'Facelift · 2017–2024',
+            aliases: [
+              'Honda Mobilio 2024',
+              'Mobilio Facelift · 2017–2024',
+              '4x100'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-137',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Honda Mobilio 2024 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/honda/mobilio/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-137',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Honda Mobilio 2024 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/honda/mobilio/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -49269,6 +51824,444 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Elgrand',
+        slug: 'elgrand',
+        records: [
+          {
+            id: 'pcd-b12-nissan-elgrand-2025-5x114-3',
+            generation: 'E52 Facelift II · 2020–2027',
+            aliases: [
+              'Nissan Elgrand 2025',
+              'Elgrand E52 Facelift II · 2020–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-108',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Nissan Elgrand 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/nissan/elgrand/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-108',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Elgrand 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/elgrand/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Magnite',
+        slug: 'magnite',
+        records: [
+          {
+            id: 'pcd-b12-nissan-magnite-2025-4x100',
+            generation: 'Facelift · 2024–2027',
+            aliases: [
+              'Nissan Magnite 2025',
+              'Magnite Facelift · 2024–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-109',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Nissan Magnite 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/nissan/magnite/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-109',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Magnite 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/magnite/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Terra',
+        slug: 'terra',
+        records: [
+          {
+            id: 'pcd-b12-nissan-terra-2025-6x114-3',
+            generation: 'Facelift · 2021–2027',
+            aliases: [
+              'Nissan Terra 2025',
+              'Terra Facelift · 2021–2027',
+              '6x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '6x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-110',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Nissan Terra 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/nissan/terra/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-110',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Terra 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/terra/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tiida',
+        slug: 'tiida',
+        records: [
+          {
+            id: 'pcd-b12-nissan-tiida-2025-5x114-3',
+            generation: 'C13 · 2016–2027',
+            aliases: [
+              'Nissan Tiida 2025',
+              'Tiida C13 · 2016–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-111',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Nissan Tiida 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/nissan/tiida/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-111',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Tiida 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/tiida/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Z',
+        slug: 'z',
+        records: [
+          {
+            id: 'pcd-b12-nissan-z-2025-5x114-3',
+            generation: 'Z · 2022–2027',
+            aliases: [
+              'Nissan Z 2025',
+              'Z Z · 2022–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET33-40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-112',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Nissan Z 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/nissan/z/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-112',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan Z 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/z/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '370Z',
+        slug: '370z',
+        records: [
+          {
+            id: 'pcd-b12-nissan-370z-2023-5x114-3',
+            generation: 'Z34 Facelift · 2012–2023',
+            aliases: [
+              'Nissan 370Z 2023',
+              '370Z Z34 Facelift · 2012–2023',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'EU / some markets / US',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43-47',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-152',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Nissan 370Z 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/nissan/370z/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-152',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Nissan 370Z 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/nissan/370z/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -54159,6 +57152,371 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX-50',
+        slug: 'cx-50',
+        records: [
+          {
+            id: 'pcd-b12-mazda-cx-50-2025-5x114-3',
+            generation: 'VA · 2022–2027',
+            aliases: [
+              'Mazda CX-50 2025',
+              'CX-50 VA · 2022–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'US / some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40-45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-99',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mazda CX-50 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mazda/cx-50/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-99',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda CX-50 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/cx-50/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX-70',
+        slug: 'cx-70',
+        records: [
+          {
+            id: 'pcd-b12-mazda-cx-70-2025-5x114-3',
+            generation: 'KJ · 2024–2027',
+            aliases: [
+              'Mazda CX-70 2025',
+              'CX-70 KJ · 2024–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'US / some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-100',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mazda CX-70 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mazda/cx-70/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-100',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda CX-70 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/cx-70/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX-8',
+        slug: 'cx-8',
+        records: [
+          {
+            id: 'pcd-b12-mazda-cx-8-2025-5x114-3',
+            generation: 'KG · 2017–2026',
+            aliases: [
+              'Mazda CX-8 2025',
+              'CX-8 KG · 2017–2026',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-101',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mazda CX-8 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mazda/cx-8/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-101',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda CX-8 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/cx-8/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX-90',
+        slug: 'cx-90',
+        records: [
+          {
+            id: 'pcd-b12-mazda-cx-90-2025-5x114-3',
+            generation: 'KK · 2023–2027',
+            aliases: [
+              'Mazda CX-90 2025',
+              'CX-90 KK · 2023–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'US / some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-102',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mazda CX-90 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mazda/cx-90/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-102',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda CX-90 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/cx-90/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CX-4',
+        slug: 'cx-4',
+        records: [
+          {
+            id: 'pcd-b12-mazda-cx-4-2024-5x114-3',
+            generation: 'Facelift · 2020–2024',
+            aliases: [
+              'Mazda CX-4 2024',
+              'CX-4 Facelift · 2020–2024',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-138',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mazda CX-4 2024 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mazda/cx-4/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-138',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mazda CX-4 2024 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mazda/cx-4/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -61361,6 +64719,298 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Attrage',
+        slug: 'attrage',
+        records: [
+          {
+            id: 'pcd-b12-mitsubishi-attrage-2025-4x100',
+            generation: 'A10 Facelift · 2019–2027',
+            aliases: [
+              'Mitsubishi Attrage 2025',
+              'Attrage A10 Facelift · 2019–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-105',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mitsubishi Attrage 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mitsubishi/attrage/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-105',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Attrage 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/attrage/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mirage G4',
+        slug: 'mirage-g4',
+        records: [
+          {
+            id: 'pcd-b12-mitsubishi-mirage-g4-2025-4x100',
+            generation: 'A10 Facelift · 2020–2027',
+            aliases: [
+              'Mitsubishi Mirage G4 2025',
+              'Mirage G4 A10 Facelift · 2020–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'US',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-106',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mitsubishi Mirage G4 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mitsubishi/mirage-g4/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-106',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Mirage G4 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/mirage-g4/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Xforce',
+        slug: 'xforce',
+        records: [
+          {
+            id: 'pcd-b12-mitsubishi-xforce-2025-5x114-3',
+            generation: 'Xforce · 2023–2027',
+            aliases: [
+              'Mitsubishi Xforce 2025',
+              'Xforce Xforce · 2023–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-107',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mitsubishi Xforce 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mitsubishi/xforce/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-107',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Xforce 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/xforce/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Strada',
+        slug: 'strada',
+        records: [
+          {
+            id: 'pcd-b12-mitsubishi-strada-2023-5x114-3',
+            generation: 'KK/KL Facelift · 2019–2023',
+            aliases: [
+              'Mitsubishi Strada 2023',
+              'Strada KK/KL Facelift · 2019–2023',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-151',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Mitsubishi Strada 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mitsubishi/strada/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-151',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Mitsubishi Strada 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mitsubishi/strada/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -64521,6 +68171,225 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'LX',
+        slug: 'lx',
+        records: [
+          {
+            id: 'pcd-b12-lexus-lx-2026-6x139-7',
+            generation: 'J300 · 2021–2027',
+            aliases: [
+              'Lexus LX 2026',
+              'LX J300 · 2021–2027',
+              '6x139.7'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '6x139.7',
+            centerBore: '95.2',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55-60',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-39',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Lexus LX 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/lexus/lx/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-39',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lexus LX 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/lexus/lx/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GX',
+        slug: 'gx',
+        records: [
+          {
+            id: 'pcd-b12-lexus-gx-2025-6x139-7',
+            generation: 'J250 · 2023–2027',
+            aliases: [
+              'Lexus GX 2025',
+              'GX J250 · 2023–2027',
+              '6x139.7'
+            ],
+            years: '2025-2025',
+            market: 'some markets / Japan / US',
+            pcd: '6x139.7',
+            centerBore: '95.2',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50-60',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-97',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Lexus GX 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/lexus/gx/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-97',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lexus GX 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/lexus/gx/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'LM',
+        slug: 'lm',
+        records: [
+          {
+            id: 'pcd-b12-lexus-lm-2025-5x120',
+            generation: 'AW10 · 2023–2027',
+            aliases: [
+              'Lexus LM 2025',
+              'LM AW10 · 2023–2027',
+              '5x120'
+            ],
+            years: '2025-2025',
+            market: 'some markets / EU / Japan',
+            pcd: '5x120',
+            centerBore: '60.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-98',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Lexus LM 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/lexus/lm/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-98',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lexus LM 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/lexus/lm/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -67250,6 +71119,517 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Brezza',
+        slug: 'brezza',
+        records: [
+          {
+            id: 'pcd-b12-suzuki-brezza-2025-5x114-3',
+            generation: 'Brezza · 2022–2027',
+            aliases: [
+              'Suzuki Brezza 2025',
+              'Brezza Brezza · 2022–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-118',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Suzuki Brezza 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/suzuki/brezza/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-118',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Brezza 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/brezza/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ciaz',
+        slug: 'ciaz',
+        records: [
+          {
+            id: 'pcd-b12-suzuki-ciaz-2025-4x100',
+            generation: 'VC Facelift · 2019–2027',
+            aliases: [
+              'Suzuki Ciaz 2025',
+              'Ciaz VC Facelift · 2019–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35-38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-119',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Suzuki Ciaz 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/suzuki/ciaz/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-119',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Ciaz 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/ciaz/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Hustler',
+        slug: 'hustler',
+        records: [
+          {
+            id: 'pcd-b12-suzuki-hustler-2025-4x100',
+            generation: 'MR5/9 · 2020–2027',
+            aliases: [
+              'Suzuki Hustler 2025',
+              'Hustler MR5/9 · 2020–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan / some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-120',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Suzuki Hustler 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/suzuki/hustler/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-120',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Hustler 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/hustler/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lapin',
+        slug: 'lapin',
+        records: [
+          {
+            id: 'pcd-b12-suzuki-lapin-2025-4x100',
+            generation: 'HE33S Facelift · 2025–2027',
+            aliases: [
+              'Suzuki Lapin 2025',
+              'Lapin HE33S Facelift · 2025–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-121',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Suzuki Lapin 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/suzuki/lapin/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-121',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Lapin 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/lapin/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S-Presso',
+        slug: 's-presso',
+        records: [
+          {
+            id: 'pcd-b12-suzuki-s-presso-2025-4x100',
+            generation: 'S-Presso · 2019–2027',
+            aliases: [
+              'Suzuki S-Presso 2025',
+              'S-Presso S-Presso · 2019–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-122',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Suzuki S-Presso 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/suzuki/s-presso/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-122',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki S-Presso 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/s-presso/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Solio',
+        slug: 'solio',
+        records: [
+          {
+            id: 'pcd-b12-suzuki-solio-2025-4x100',
+            generation: 'Facelift MAD7S · 2025–2027',
+            aliases: [
+              'Suzuki Solio 2025',
+              'Solio Facelift MAD7S · 2025–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-123',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Suzuki Solio 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/suzuki/solio/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-123',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Solio 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/solio/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Spacia',
+        slug: 'spacia',
+        records: [
+          {
+            id: 'pcd-b12-suzuki-spacia-2025-4x100',
+            generation: 'MK54/MK94 · 2023–2027',
+            aliases: [
+              'Suzuki Spacia 2025',
+              'Spacia MK54/MK94 · 2023–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-124',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Suzuki Spacia 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/suzuki/spacia/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-124',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Suzuki Spacia 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/suzuki/spacia/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -71506,6 +75886,1174 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Alcazar',
+        slug: 'alcazar',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-alcazar-2026-5x114-3',
+            generation: 'SU2 Facelift · 2024–2027',
+            aliases: [
+              'Hyundai Alcazar 2026',
+              'Alcazar SU2 Facelift · 2024–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-24',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Alcazar 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/alcazar/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-24',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Alcazar 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/alcazar/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Casper',
+        slug: 'casper',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-casper-2026-4x100',
+            generation: 'AX1 Facelift · 2024–2027',
+            aliases: [
+              'Hyundai Casper 2026',
+              'Casper AX1 Facelift · 2024–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48-54',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-25',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Casper 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/casper/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-25',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Casper 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/casper/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Creta',
+        slug: 'creta',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-creta-2026-5x114-3',
+            generation: 'SU2 Facelift · 2024–2027',
+            aliases: [
+              'Hyundai Creta 2026',
+              'Creta SU2 Facelift · 2024–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43-49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-26',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Creta 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/creta/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-26',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Creta 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/creta/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Custin',
+        slug: 'custin',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-custin-2026-5x114-3',
+            generation: 'KU · 2022–2027',
+            aliases: [
+              'Hyundai Custin 2026',
+              'Custin KU · 2022–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-27',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Custin 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/custin/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-27',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Custin 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/custin/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Exter',
+        slug: 'exter',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-exter-2026-4x100',
+            generation: 'AI3 · 2023–2027',
+            aliases: [
+              'Hyundai Exter 2026',
+              'Exter AI3 · 2023–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40-41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-28',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Exter 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/exter/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-28',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Exter 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/exter/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'H-100',
+        slug: 'h-100',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-h-100-2026-5x120',
+            generation: 'HR · 2004–2027',
+            aliases: [
+              'Hyundai H-100 2026',
+              'H-100 HR · 2004–2027',
+              '5x120'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x120',
+            centerBore: '67.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-29',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai H-100 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/h-100/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-29',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai H-100 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/h-100/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'HB20',
+        slug: 'hb20',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-hb20-2026-4x100',
+            generation: 'BR2 Facelift · 2022–2027',
+            aliases: [
+              'Hyundai HB20 2026',
+              'HB20 BR2 Facelift · 2022–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41-46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-30',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai HB20 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/hb20/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-30',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai HB20 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/hb20/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'IONIQ 9',
+        slug: 'ioniq-9',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-ioniq-9-2026-5x114-3',
+            generation: 'ME · 2025–2027',
+            aliases: [
+              'Hyundai IONIQ 9 2026',
+              'IONIQ 9 ME · 2025–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET53-58',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-31',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai IONIQ 9 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/ioniq-9/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-31',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai IONIQ 9 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/ioniq-9/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Santa Cruz',
+        slug: 'santa-cruz',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-santa-cruz-2026-5x114-3',
+            generation: 'NX4a Facelift · 2024–2027',
+            aliases: [
+              'Hyundai Santa Cruz 2026',
+              'Santa Cruz NX4a Facelift · 2024–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-32',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Santa Cruz 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/santa-cruz/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-32',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Santa Cruz 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/santa-cruz/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ST1',
+        slug: 'st1',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-st1-2026-6x139-7',
+            generation: 'A01 · 2024–2027',
+            aliases: [
+              'Hyundai ST1 2026',
+              'ST1 A01 · 2024–2027',
+              '6x139.7'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '6x139.7',
+            centerBore: '92.5',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-33',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai ST1 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/st1/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-33',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai ST1 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/st1/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Verna',
+        slug: 'verna',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-verna-2026-4x100',
+            generation: 'BN7 · 2023–2027',
+            aliases: [
+              'Hyundai Verna 2026',
+              'Verna BN7 · 2023–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43-51',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-34',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Verna 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/verna/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-34',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Verna 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/verna/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lafesta',
+        slug: 'lafesta',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-lafesta-2025-5x114-3',
+            generation: 'SQ Facelift · 2023–2025',
+            aliases: [
+              'Hyundai Lafesta 2025',
+              'Lafesta SQ Facelift · 2023–2025',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-91',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Lafesta 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/lafesta/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-91',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Lafesta 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/lafesta/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mufasa',
+        slug: 'mufasa',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-mufasa-2025-5x114-3',
+            generation: 'NU2 · 2024–2025',
+            aliases: [
+              'Hyundai Mufasa 2025',
+              'Mufasa NU2 · 2024–2025',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET48',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-92',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Mufasa 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/mufasa/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-92',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Mufasa 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/mufasa/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Solati',
+        slug: 'solati',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-solati-2025-6x139-7',
+            generation: 'Solati · 2014–2025',
+            aliases: [
+              'Hyundai Solati 2025',
+              'Solati Solati · 2014–2025',
+              '6x139.7'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '6x139.7',
+            centerBore: '92.5',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50-56',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-93',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Solati 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/solati/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-93',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Solati 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/solati/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Celesta',
+        slug: 'celesta',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-celesta-2023-5x114-3',
+            generation: 'ID · 2017–2023',
+            aliases: [
+              'Hyundai Celesta 2023',
+              'Celesta ID · 2017–2023',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46-53',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-149',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Celesta 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/celesta/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-149',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Celesta 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/celesta/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mistra',
+        slug: 'mistra',
+        records: [
+          {
+            id: 'pcd-b12-hyundai-mistra-2023-5x114-3',
+            generation: 'DU2 · 2020–2023',
+            aliases: [
+              'Hyundai Mistra 2023',
+              'Mistra DU2 · 2020–2023',
+              '5x114.3'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-150',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Hyundai Mistra 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hyundai/mistra/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-150',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Hyundai Mistra 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hyundai/mistra/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -75202,6 +80750,517 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'K3',
+        slug: 'k3',
+        records: [
+          {
+            id: 'pcd-b12-kia-k3-2026-4x100',
+            generation: 'BL7 · 2023–2027',
+            aliases: [
+              'Kia K3 2026',
+              'K3 BL7 · 2023–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET43-50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-35',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Kia K3 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/kia/k3/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-35',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia K3 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/k3/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'K8',
+        slug: 'k8',
+        records: [
+          {
+            id: 'pcd-b12-kia-k8-2026-5x114-3',
+            generation: 'GL3 Facelift · 2024–2027',
+            aliases: [
+              'Kia K8 2026',
+              'K8 GL3 Facelift · 2024–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41-48',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-36',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Kia K8 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/kia/k8/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-36',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia K8 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/k8/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ray',
+        slug: 'ray',
+        records: [
+          {
+            id: 'pcd-b12-kia-ray-2026-4x100',
+            generation: 'TA Facelift · 2022–2027',
+            aliases: [
+              'Kia Ray 2026',
+              'Ray TA Facelift · 2022–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49-52',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-37',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Kia Ray 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/kia/ray/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-37',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Ray 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/ray/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sonet',
+        slug: 'sonet',
+        records: [
+          {
+            id: 'pcd-b12-kia-sonet-2026-5x114-3',
+            generation: 'QY Facelift · 2024–2027',
+            aliases: [
+              'Kia Sonet 2026',
+              'Sonet QY Facelift · 2024–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41-51',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-38',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Kia Sonet 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/kia/sonet/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-38',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Sonet 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/sonet/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'K9',
+        slug: 'k9',
+        records: [
+          {
+            id: 'pcd-b12-kia-k9-2025-5x114-3',
+            generation: 'RJ Facelift · 2021–2025',
+            aliases: [
+              'Kia K9 2025',
+              'K9 RJ Facelift · 2021–2025',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET32-33',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-94',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Kia K9 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/kia/k9/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-94',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia K9 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/k9/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mohave',
+        slug: 'mohave',
+        records: [
+          {
+            id: 'pcd-b12-kia-mohave-2025-6x114-3',
+            generation: 'HM2 · 2020–2025',
+            aliases: [
+              'Kia Mohave 2025',
+              'Mohave HM2 · 2020–2025',
+              '6x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '6x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38-46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-95',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Kia Mohave 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/kia/mohave/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-95',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Mohave 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/mohave/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Telluride',
+        slug: 'telluride',
+        records: [
+          {
+            id: 'pcd-b12-kia-telluride-2025-5x114-3',
+            generation: 'ON Facelift · 2023–2026',
+            aliases: [
+              'Kia Telluride 2025',
+              'Telluride ON Facelift · 2023–2026',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'US',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET49',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-96',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Kia Telluride 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/kia/telluride/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-96',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Kia Telluride 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/kia/telluride/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -83564,6 +89623,298 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Equator',
+        slug: 'equator',
+        records: [
+          {
+            id: 'pcd-b12-ford-equator-2026-5x112',
+            generation: 'CX756 Facelift · 2024–2027',
+            aliases: [
+              'Ford Equator 2026',
+              'Equator CX756 Facelift · 2024–2027',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-21',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Ford Equator 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/ford/equator/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-21',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Equator 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/equator/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Territory',
+        slug: 'territory',
+        records: [
+          {
+            id: 'pcd-b12-ford-territory-2026-5x108',
+            generation: 'CX756 Facelift · 2025–2027',
+            aliases: [
+              'Ford Territory 2026',
+              'Territory CX756 Facelift · 2025–2027',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-22',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Ford Territory 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/ford/territory/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-22',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Territory 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/territory/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Everest',
+        slug: 'everest',
+        records: [
+          {
+            id: 'pcd-b12-ford-everest-2025-6x139-7',
+            generation: 'U704 · 2022–2027',
+            aliases: [
+              'Ford Everest 2025',
+              'Everest U704 · 2022–2027',
+              '6x139.7'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '6x139.7',
+            centerBore: '93.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-80',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Ford Everest 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/ford/everest/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-80',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Everest 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/everest/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Figo',
+        slug: 'figo',
+        records: [
+          {
+            id: 'pcd-b12-ford-figo-2023-4x108',
+            generation: 'Facelift · 2019–2023',
+            aliases: [
+              'Ford Figo 2023',
+              'Figo Facelift · 2019–2023',
+              '4x108'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET47',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-148',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Ford Figo 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/ford/figo/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-148',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ford Figo 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ford/figo/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -89757,6 +96108,517 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Onix',
+        slug: 'onix',
+        records: [
+          {
+            id: 'pcd-b12-chevrolet-onix-2026-4x100',
+            generation: 'Facelift · 2025–2027',
+            aliases: [
+              'Chevrolet Onix 2026',
+              'Onix Facelift · 2025–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40-44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-18',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chevrolet Onix 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chevrolet/onix/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-18',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Onix 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/onix/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sail',
+        slug: 'sail',
+        records: [
+          {
+            id: 'pcd-b12-chevrolet-sail-2026-4x114-3',
+            generation: '310C · 2023–2027',
+            aliases: [
+              'Chevrolet Sail 2026',
+              'Sail 310C · 2023–2027',
+              '4x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x114.3',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-19',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chevrolet Sail 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chevrolet/sail/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-19',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Sail 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/sail/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Spin',
+        slug: 'spin',
+        records: [
+          {
+            id: 'pcd-b12-chevrolet-spin-2026-4x100',
+            generation: 'Facelift · 2024–2027',
+            aliases: [
+              'Chevrolet Spin 2026',
+              'Spin Facelift · 2024–2027',
+              '4x100'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '57.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39-41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-20',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chevrolet Spin 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chevrolet/spin/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-20',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Spin 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/spin/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Menlo',
+        slug: 'menlo',
+        records: [
+          {
+            id: 'pcd-b12-chevrolet-menlo-2025-5x115',
+            generation: 'Menlo · 2020–2027',
+            aliases: [
+              'Chevrolet Menlo 2025',
+              'Menlo Menlo · 2020–2027',
+              '5x115'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-62',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chevrolet Menlo 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chevrolet/menlo/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-62',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Menlo 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/menlo/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Monza',
+        slug: 'monza',
+        records: [
+          {
+            id: 'pcd-b12-chevrolet-monza-2025-5x105',
+            generation: 'D2XX Facelift · 2022–2027',
+            aliases: [
+              'Chevrolet Monza 2025',
+              'Monza D2XX Facelift · 2022–2027',
+              '5x105'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38-44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-63',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chevrolet Monza 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chevrolet/monza/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-63',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Monza 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/monza/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Savana',
+        slug: 'savana',
+        records: [
+          {
+            id: 'pcd-b12-chevrolet-savana-2025-8x165-1',
+            generation: 'GMT610 · 2003–2027',
+            aliases: [
+              'Chevrolet Savana 2025',
+              'Savana GMT610 · 2003–2027',
+              '8x165.1'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '8x165.1',
+            centerBore: '116.7',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET28',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-64',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chevrolet Savana 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chevrolet/savana/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-64',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Savana 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/savana/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Seeker',
+        slug: 'seeker',
+        records: [
+          {
+            id: 'pcd-b12-chevrolet-seeker-2025-5x115',
+            generation: 'Seeker · 2022–2027',
+            aliases: [
+              'Chevrolet Seeker 2025',
+              'Seeker Seeker · 2022–2027',
+              '5x115'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x115',
+            centerBore: '70.2',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39-40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-65',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chevrolet Seeker 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chevrolet/seeker/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-65',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chevrolet Seeker 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chevrolet/seeker/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -92875,6 +99737,225 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '2500',
+        slug: '2500',
+        records: [
+          {
+            id: 'pcd-b12-ram-2500-2026-8x165-1',
+            generation: 'DS/DJ Facelift · 2025–2027',
+            aliases: [
+              'Ram 2500 2026',
+              '2500 DS/DJ Facelift · 2025–2027',
+              '8x165.1'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '8x165.1',
+            centerBore: '121.3',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45-57',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-45',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Ram 2500 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/ram/2500/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-45',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ram 2500 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ram/2500/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '3500',
+        slug: '3500',
+        records: [
+          {
+            id: 'pcd-b12-ram-3500-2026-8x165-1',
+            generation: 'DS/DJ Facelift · 2025–2027',
+            aliases: [
+              'Ram 3500 2026',
+              '3500 DS/DJ Facelift · 2025–2027',
+              '8x165.1'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '8x165.1',
+            centerBore: '121.3',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET54-57',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-46',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Ram 3500 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/ram/3500/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-46',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ram 3500 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ram/3500/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Rampage',
+        slug: 'rampage',
+        records: [
+          {
+            id: 'pcd-b12-ram-rampage-2026-5x110',
+            generation: 'Rampage · 2024–2027',
+            aliases: [
+              'Ram Rampage 2026',
+              'Rampage Rampage · 2024–2027',
+              '5x110'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-47',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Ram Rampage 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/ram/rampage/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-47',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Ram Rampage 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/ram/rampage/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -95774,6 +102855,79 @@ const PCD_DATA = [
             fitments: [],
             restrictions: [],
             sources: []
+          }
+        ]
+      },
+      {
+        name: 'Manta',
+        slug: 'manta',
+        records: [
+          {
+            id: 'pcd-b12-opel-manta-1988-4x100',
+            generation: 'B2 · 1982–1988',
+            aliases: [
+              'Opel / Vauxhall Manta 1988',
+              'Manta B2 · 1982–1988',
+              '4x100'
+            ],
+            years: '1988-1988',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET30-37',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-10',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Opel / Vauxhall Manta 1988 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/opel/manta/1988/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 1988 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-10',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Opel / Vauxhall Manta 1988 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/opel/manta/1988/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 1988 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
           }
         ]
       }
@@ -100737,6 +107891,79 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Landtrek',
+        slug: 'landtrek',
+        records: [
+          {
+            id: 'pcd-b12-peugeot-landtrek-2025-6x139-7',
+            generation: 'Landtrek · 2020–2026',
+            aliases: [
+              'Peugeot Landtrek 2025',
+              'Landtrek Landtrek · 2020–2026',
+              '6x139.7'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '6x139.7',
+            centerBore: '106.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-113',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Peugeot Landtrek 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/peugeot/landtrek/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-113',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Peugeot Landtrek 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/peugeot/landtrek/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -106726,6 +113953,152 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Taliant',
+        slug: 'taliant',
+        records: [
+          {
+            id: 'pcd-b12-renault-taliant-2025-4x100',
+            generation: 'Taliant · 2021–2026',
+            aliases: [
+              'Renault Taliant 2025',
+              'Taliant Taliant · 2021–2026',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-114',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Renault Taliant 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/renault/taliant/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-114',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Taliant 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/renault/taliant/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Triber',
+        slug: 'triber',
+        records: [
+          {
+            id: 'pcd-b12-renault-triber-2024-4x100',
+            generation: 'Triber · 2019–2025',
+            aliases: [
+              'Renault Triber 2024',
+              'Triber Triber · 2019–2025',
+              '4x100'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET25',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-139',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Renault Triber 2024 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/renault/triber/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-139',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Renault Triber 2024 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/renault/triber/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -110732,6 +118105,79 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Basalt',
+        slug: 'basalt',
+        records: [
+          {
+            id: 'pcd-b12-citroen-basalt-2025-4x108',
+            generation: 'CC26 · 2024–2027',
+            aliases: [
+              'Citroen Basalt 2025',
+              'Basalt CC26 · 2024–2027',
+              '4x108'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET42',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-66',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Citroen Basalt 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/citroen/basalt/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-66',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Citroen Basalt 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/citroen/basalt/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -114545,6 +121991,79 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees; torque is not asserted because the pair lacks a mutual value.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'EX30',
+        slug: 'ex30',
+        records: [
+          {
+            id: 'pcd-b12-volvo-ex30-2026-5x108',
+            generation: 'EX30 · 2023–2027',
+            aliases: [
+              'Volvo EX30 2026',
+              'EX30 EX30 · 2023–2027',
+              '5x108'
+            ],
+            years: '2026-2026',
+            market: 'Japan / US / EU',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET46-48',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-56',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Volvo EX30 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/volvo/ex30/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-56',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Volvo EX30 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/volvo/ex30/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -119375,6 +126894,298 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cronos',
+        slug: 'cronos',
+        records: [
+          {
+            id: 'pcd-b12-fiat-cronos-2025-4x98',
+            generation: 'Facelift · 2024–2027',
+            aliases: [
+              'Fiat Cronos 2025',
+              'Cronos Facelift · 2024–2027',
+              '4x98'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-76',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Fiat Cronos 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/fiat/cronos/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-76',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Cronos 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/cronos/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Egea',
+        slug: 'egea',
+        records: [
+          {
+            id: 'pcd-b12-fiat-egea-2025-5x98',
+            generation: '350 · 2015–2027',
+            aliases: [
+              'Fiat Egea 2025',
+              'Egea 350 · 2015–2027',
+              '5x98'
+            ],
+            years: '2025-2025',
+            market: 'EU',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET38-39',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-77',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Fiat Egea 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/fiat/egea/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-77',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Egea 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/egea/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mobi',
+        slug: 'mobi',
+        records: [
+          {
+            id: 'pcd-b12-fiat-mobi-2025-4x98',
+            generation: '344 · 2016–2027',
+            aliases: [
+              'Fiat Mobi 2025',
+              'Mobi 344 · 2016–2027',
+              '4x98'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-78',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Fiat Mobi 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/fiat/mobi/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-78',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Mobi 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/mobi/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Toro',
+        slug: 'toro',
+        records: [
+          {
+            id: 'pcd-b12-fiat-toro-2025-5x110',
+            generation: '226 Facelift · 2025–2027',
+            aliases: [
+              'Fiat Toro 2025',
+              'Toro 226 Facelift · 2025–2027',
+              '5x110'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-79',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Fiat Toro 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/fiat/toro/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-79',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Fiat Toro 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/fiat/toro/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -128675,6 +136486,79 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Flying Spur',
+        slug: 'flying-spur',
+        records: [
+          {
+            id: 'pcd-b12-bentley-flying-spur-2025-5x130',
+            generation: 'Facelift · 2024–2027',
+            aliases: [
+              'Bentley Flying Spur 2025',
+              'Flying Spur Facelift · 2024–2027',
+              '5x130'
+            ],
+            years: '2025-2025',
+            market: 'US',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET61-71',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-58',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Bentley Flying Spur 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/bentley/flying-spur/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-58',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Bentley Flying Spur 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/bentley/flying-spur/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -130033,6 +137917,517 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Electra E5',
+        slug: 'electra-e5',
+        records: [
+          {
+            id: 'pcd-b12-buick-electra-e5-2026-6x120',
+            generation: 'Facelift · 2025–2027',
+            aliases: [
+              'Buick Electra E5 2026',
+              'Electra E5 Facelift · 2025–2027',
+              '6x120'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '6x120',
+            centerBore: '66.9',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-12',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Buick Electra E5 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/buick/electra-e5/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-12',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick Electra E5 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/electra-e5/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Enclave',
+        slug: 'enclave',
+        records: [
+          {
+            id: 'pcd-b12-buick-enclave-2026-6x120',
+            generation: 'III · 2024–2027',
+            aliases: [
+              'Buick Enclave 2026',
+              'Enclave III · 2024–2027',
+              '6x120'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '6x120',
+            centerBore: '66.9',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-13',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Buick Enclave 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/buick/enclave/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-13',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick Enclave 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/enclave/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Envista',
+        slug: 'envista',
+        records: [
+          {
+            id: 'pcd-b12-buick-envista-2026-5x115',
+            generation: 'Envista · 2022–2027',
+            aliases: [
+              'Buick Envista 2026',
+              'Envista Envista · 2022–2027',
+              '5x115'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET39-43',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-14',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Buick Envista 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/buick/envista/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-14',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick Envista 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/envista/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GL8',
+        slug: 'gl8',
+        records: [
+          {
+            id: 'pcd-b12-buick-gl8-2026-5x120',
+            generation: 'Facelift · 2025–2027',
+            aliases: [
+              'Buick GL8 2026',
+              'GL8 Facelift · 2025–2027',
+              '5x120'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x120',
+            centerBore: '66.9',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-15',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Buick GL8 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/buick/gl8/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-15',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick GL8 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/gl8/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Electra E4',
+        slug: 'electra-e4',
+        records: [
+          {
+            id: 'pcd-b12-buick-electra-e4-2025-6x120',
+            generation: 'Electra E4 · 2023–2025',
+            aliases: [
+              'Buick Electra E4 2025',
+              'Electra E4 Electra E4 · 2023–2025',
+              '6x120'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '6x120',
+            centerBore: '66.9',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-59',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Buick Electra E4 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/buick/electra-e4/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-59',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick Electra E4 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/electra-e4/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Excelle',
+        slug: 'excelle',
+        records: [
+          {
+            id: 'pcd-b12-buick-excelle-2023-4x100',
+            generation: 'II · 2018–2023',
+            aliases: [
+              'Buick Excelle 2023',
+              'Excelle II · 2018–2023',
+              '4x100'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-141',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Buick Excelle 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/buick/excelle/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-141',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick Excelle 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/excelle/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'GL6',
+        slug: 'gl6',
+        records: [
+          {
+            id: 'pcd-b12-buick-gl6-2023-5x115',
+            generation: 'GL6 · 2018–2023',
+            aliases: [
+              'Buick GL6 2023',
+              'GL6 GL6 · 2018–2023',
+              '5x115'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-142',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Buick GL6 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/buick/gl6/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-142',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Buick GL6 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/buick/gl6/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -132480,6 +140875,225 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; values are retained only where the paired publisher agrees.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Fleetwood',
+        slug: 'fleetwood',
+        records: [
+          {
+            id: 'pcd-b12-cadillac-fleetwood-1989-5x115',
+            generation: 'C-body · 1985–1992',
+            aliases: [
+              'Cadillac Fleetwood 1989',
+              'Fleetwood C-body · 1985–1992',
+              '5x115'
+            ],
+            years: '1989-1989',
+            market: 'US',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-9',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Cadillac Fleetwood 1989 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/cadillac/fleetwood/1989/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 1989 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-9',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac Fleetwood 1989 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/cadillac/fleetwood/1989/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 1989 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CT4',
+        slug: 'ct4',
+        records: [
+          {
+            id: 'pcd-b12-cadillac-ct4-2026-5x115',
+            generation: 'CT4 · 2020–2027',
+            aliases: [
+              'Cadillac CT4 2026',
+              'CT4 CT4 · 2020–2027',
+              '5x115'
+            ],
+            years: '2026-2026',
+            market: 'US / some markets',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET32-35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-16',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Cadillac CT4 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/cadillac/ct4/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-16',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac CT4 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/cadillac/ct4/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Optiq',
+        slug: 'optiq',
+        records: [
+          {
+            id: 'pcd-b12-cadillac-optiq-2026-6x120',
+            generation: 'Optiq · 2023–2027',
+            aliases: [
+              'Cadillac Optiq 2026',
+              'Optiq Optiq · 2023–2027',
+              '6x120'
+            ],
+            years: '2026-2026',
+            market: 'US',
+            pcd: '6x120',
+            centerBore: '66.9',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET55',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-17',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Cadillac Optiq 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/cadillac/optiq/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-17',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Cadillac Optiq 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/cadillac/optiq/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -149387,6 +158001,517 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: '7',
+        slug: '7',
+        records: [
+          {
+            id: 'pcd-b12-mg-7-2026-5x112',
+            generation: 'II · 2022–2027',
+            aliases: [
+              'MG 7 2026',
+              '7 II · 2022–2027',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-40',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'MG 7 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mg/7/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-40',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG 7 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mg/7/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cyberster',
+        slug: 'cyberster',
+        records: [
+          {
+            id: 'pcd-b12-mg-cyberster-2026-5x112',
+            generation: 'Cyberster · 2023–2027',
+            aliases: [
+              'MG Cyberster 2026',
+              'Cyberster Cyberster · 2023–2027',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-41',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'MG Cyberster 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mg/cyberster/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-41',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG Cyberster 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mg/cyberster/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'ES5',
+        slug: 'es5',
+        records: [
+          {
+            id: 'pcd-b12-mg-es5-2026-5x112',
+            generation: 'ES34 · 2024–2027',
+            aliases: [
+              'MG ES5 2026',
+              'ES5 ES34 · 2024–2027',
+              '5x112'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET51',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-42',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'MG ES5 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mg/es5/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-42',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG ES5 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mg/es5/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Hector',
+        slug: 'hector',
+        records: [
+          {
+            id: 'pcd-b12-mg-hector-2026-5x114-3',
+            generation: 'Facelift · 2023–2027',
+            aliases: [
+              'MG Hector 2026',
+              'Hector Facelift · 2023–2027',
+              '5x114.3'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '56.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET32',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-43',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'MG Hector 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mg/hector/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-43',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG Hector 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mg/hector/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'TRQ L',
+        slug: 'trq-l',
+        records: [
+          {
+            id: 'pcd-b12-mg-trq-l-2026-6x130',
+            generation: 'TRQ L · 2024–2027',
+            aliases: [
+              'MG TRQ L 2026',
+              'TRQ L TRQ L · 2024–2027',
+              '6x130'
+            ],
+            years: '2026-2026',
+            market: 'some markets',
+            pcd: '6x130',
+            centerBore: '74.6',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-44',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'MG TRQ L 2026 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mg/trq-l/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-44',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG TRQ L 2026 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mg/trq-l/2026/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2026 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '6',
+        slug: '6',
+        records: [
+          {
+            id: 'pcd-b12-mg-6-2025-5x100',
+            generation: 'Facelift · 2021–2025',
+            aliases: [
+              'MG 6 2025',
+              '6 Facelift · 2021–2025',
+              '5x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x100',
+            centerBore: '56.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET50',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-103',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'MG 6 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mg/6/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-103',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG 6 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mg/6/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'One',
+        slug: 'one',
+        records: [
+          {
+            id: 'pcd-b12-mg-one-2025-5x112',
+            generation: 'One · 2021–2025',
+            aliases: [
+              'MG One 2025',
+              'One One · 2021–2025',
+              '5x112'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET41',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-104',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'MG One 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/mg/one/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-104',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'MG One 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/mg/one/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -151704,6 +160829,882 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Ayla',
+        slug: 'ayla',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-ayla-2025-4x100',
+            generation: 'A350 · 2023–2027',
+            aliases: [
+              'Daihatsu Ayla 2025',
+              'Ayla A350 · 2023–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-67',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Ayla 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/ayla/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-67',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Ayla 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/ayla/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Luxio',
+        slug: 'luxio',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-luxio-2025-5x114-3',
+            generation: 'Facelift · 2014–2027',
+            aliases: [
+              'Daihatsu Luxio 2025',
+              'Luxio Facelift · 2014–2027',
+              '5x114.3'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET60',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-68',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Luxio 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/luxio/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-68',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Luxio 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/luxio/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mira e:S',
+        slug: 'mira-e-s',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-mira-es-2025-4x100',
+            generation: 'II · 2017–2027',
+            aliases: [
+              'Daihatsu Mira e:S 2025',
+              'Mira e:S II · 2017–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-69',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Mira e:S 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/mira-es/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-69',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Mira e:S 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/mira-es/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Move',
+        slug: 'move',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-move-2025-4x100',
+            generation: 'LA850S/LA860S · 2025–2027',
+            aliases: [
+              'Daihatsu Move 2025',
+              'Move LA850S/LA860S · 2025–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-70',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Move 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/move/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-70',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Move 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/move/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sigra',
+        slug: 'sigra',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-sigra-2025-4x100',
+            generation: 'B400 Facelift · 2019–2027',
+            aliases: [
+              'Daihatsu Sigra 2025',
+              'Sigra B400 Facelift · 2019–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-71',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Sigra 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/sigra/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-71',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Sigra 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/sigra/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Taft',
+        slug: 'taft',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-taft-2025-4x100',
+            generation: 'LA900 · 2020–2027',
+            aliases: [
+              'Daihatsu Taft 2025',
+              'Taft LA900 · 2020–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-72',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Taft 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/taft/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-72',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Taft 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/taft/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Tanto',
+        slug: 'tanto',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-tanto-2025-4x100',
+            generation: 'LA650 Facelift · 2022–2027',
+            aliases: [
+              'Daihatsu Tanto 2025',
+              'Tanto LA650 Facelift · 2022–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-73',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Tanto 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/tanto/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-73',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Tanto 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/tanto/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Thor',
+        slug: 'thor',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-thor-2025-4x100',
+            generation: 'M900 Facelift · 2020–2027',
+            aliases: [
+              'Daihatsu Thor 2025',
+              'Thor M900 Facelift · 2020–2027',
+              '4x100'
+            ],
+            years: '2025-2025',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35-40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-74',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Thor 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/thor/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-74',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Thor 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/thor/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Xenia',
+        slug: 'xenia',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-xenia-2025-5x100',
+            generation: 'W100 · 2021–2027',
+            aliases: [
+              'Daihatsu Xenia 2025',
+              'Xenia W100 · 2021–2027',
+              '5x100'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-75',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Xenia 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/xenia/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-75',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Xenia 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/xenia/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Boon',
+        slug: 'boon',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-boon-2023-4x100',
+            generation: 'M700 Facelift · 2018–2023',
+            aliases: [
+              'Daihatsu Boon 2023',
+              'Boon M700 Facelift · 2018–2023',
+              '4x100'
+            ],
+            years: '2023-2023',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET35',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-145',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Boon 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/boon/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-145',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Boon 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/boon/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Cast Style',
+        slug: 'cast-style',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-cast-style-2023-4x100',
+            generation: 'Cast Style · 2015–2023',
+            aliases: [
+              'Daihatsu Cast Style 2023',
+              'Cast Style Cast Style · 2015–2023',
+              '4x100'
+            ],
+            years: '2023-2023',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-146',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Cast Style 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/cast-style/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-146',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Cast Style 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/cast-style/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mira Tocot',
+        slug: 'mira-tocot',
+        records: [
+          {
+            id: 'pcd-b12-daihatsu-mira-tocot-2023-4x100',
+            generation: 'Mira Tocot · 2018–2023',
+            aliases: [
+              'Daihatsu Mira Tocot 2023',
+              'Mira Tocot Mira Tocot · 2018–2023',
+              '4x100'
+            ],
+            years: '2023-2023',
+            market: 'Japan',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-147',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Daihatsu Mira Tocot 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/daihatsu/mira-tocot/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-147',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Daihatsu Mira Tocot 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/daihatsu/mira-tocot/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -161613,6 +171614,152 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'HQ3',
+        slug: 'hq3',
+        records: [
+          {
+            id: 'pcd-b12-hongqi-hq3-2010-5x114-3',
+            generation: 'HQ3 · 2006–2010',
+            aliases: [
+              'Faw - Hongqi HQ3 2010',
+              'HQ3 HQ3 · 2006–2010',
+              '5x114.3'
+            ],
+            years: '2010-2010',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-5',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Faw - Hongqi HQ3 2010 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hongqi/hq3/2010/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2010 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-5',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Faw - Hongqi HQ3 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hongqi/hq3/2010/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2010 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Mingshi',
+        slug: 'mingshi',
+        records: [
+          {
+            id: 'pcd-b12-hongqi-mingshi-2008-4x108',
+            generation: 'Mingshi · 2005–2008',
+            aliases: [
+              'Faw - Hongqi Mingshi 2008',
+              'Mingshi Mingshi · 2005–2008',
+              '4x108'
+            ],
+            years: '2008-2008',
+            market: 'some markets',
+            pcd: '4x108',
+            centerBore: '57.1',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-7',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Faw - Hongqi Mingshi 2008 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/hongqi/mingshi/2008/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2008 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-7',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Faw - Hongqi Mingshi 2008 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/hongqi/mingshi/2008/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2008 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -165433,6 +175580,298 @@ const PCD_DATA = [
                   'torque'
                 ],
                 limitations: 'Independent exact-generation technical reference; specification can vary by equipment, so the vehicle placard remains authoritative. A null torque means two publishers do not agree on a usable torque.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Frigate 07',
+        slug: 'frigate-07',
+        records: [
+          {
+            id: 'pcd-b12-byd-frigate-07-2025-5x120',
+            generation: 'Frigate 07 · 2022–2027',
+            aliases: [
+              'BYD Frigate 07 2025',
+              'Frigate 07 Frigate 07 · 2022–2027',
+              '5x120'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-60',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'BYD Frigate 07 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/byd/frigate-07/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-60',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BYD Frigate 07 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/byd/frigate-07/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Sea Lion 07',
+        slug: 'sea-lion-07',
+        records: [
+          {
+            id: 'pcd-b12-byd-sea-lion-07-2025-5x120',
+            generation: 'Sea Lion 07 · 2023–2027',
+            aliases: [
+              'BYD Sea Lion 07 2025',
+              'Sea Lion 07 Sea Lion 07 · 2023–2027',
+              '5x120'
+            ],
+            years: '2025-2025',
+            market: 'some markets',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-61',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'BYD Sea Lion 07 2025 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/byd/sea-lion-07/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-61',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BYD Sea Lion 07 2025 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/byd/sea-lion-07/2025/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Song',
+        slug: 'song',
+        records: [
+          {
+            id: 'pcd-b12-byd-song-2023-5x120',
+            generation: 'II · 2019–2023',
+            aliases: [
+              'BYD Song 2023',
+              'Song II · 2019–2023',
+              '5x120'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M14x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-143',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'BYD Song 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/byd/song/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-143',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BYD Song 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/byd/song/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Qin',
+        slug: 'qin',
+        records: [
+          {
+            id: 'pcd-b12-byd-qin-2020-5x114-3',
+            generation: 'Facelift · 2019–2027',
+            aliases: [
+              'BYD Qin 2020',
+              'Qin Facelift · 2019–2027',
+              '5x114.3'
+            ],
+            years: '2020-2020',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-156',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'BYD Qin 2020 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/byd/qin/2020/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2020 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-156',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'BYD Qin 2020 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/byd/qin/2020/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2020 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
               }
             ]
           }
@@ -178954,6 +189393,79 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Murcielago',
+        slug: 'murcielago',
+        records: [
+          {
+            id: 'pcd-b12-lamborghini-murcielago-2010-5x120-65',
+            generation: 'Facelift · 2006–2010',
+            aliases: [
+              'Lamborghini Murcielago 2010',
+              'Murcielago Facelift · 2006–2010',
+              '5x120.65'
+            ],
+            years: '2010-2010',
+            market: 'US',
+            pcd: '5x120.65',
+            centerBore: '72.6',
+            thread: 'M14x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET58',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-6',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Lamborghini Murcielago 2010 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/lamborghini/murcielago/2010/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2010 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-6',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Lamborghini Murcielago 2010 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/lamborghini/murcielago/2010/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2010 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -182269,6 +192781,152 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'eQ5',
+        slug: 'eq5',
+        records: [
+          {
+            id: 'pcd-b12-chery-eq5-2023-5x108',
+            generation: 'eQ5 · 2020–2023',
+            aliases: [
+              'Chery eQ5 2023',
+              'eQ5 eQ5 · 2020–2023',
+              '5x108'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'bolts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-144',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chery eQ5 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chery/eq5/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-144',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chery eQ5 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chery/eq5/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'eQ1',
+        slug: 'eq1',
+        records: [
+          {
+            id: 'pcd-b12-chery-eq1-2022-4x100',
+            generation: 'eQ1 · 2017–2023',
+            aliases: [
+              'Chery eQ1 2022',
+              'eQ1 eQ1 · 2017–2023',
+              '4x100'
+            ],
+            years: '2022-2022',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-153',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Chery eQ1 2022 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/chery/eq1/2022/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2022 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-153',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Chery eQ1 2022 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/chery/eq1/2022/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2022 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -184799,6 +195457,298 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Benni',
+        slug: 'benni',
+        records: [
+          {
+            id: 'pcd-b12-changan-benni-2024-4x100',
+            generation: 'III · 2020–2024',
+            aliases: [
+              'Changan Benni 2024',
+              'Benni III · 2020–2024',
+              '4x100'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET38',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-133',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Changan Benni 2024 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/changan/benni/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-133',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Changan Benni 2024 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/changan/benni/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'CS75',
+        slug: 'cs75',
+        records: [
+          {
+            id: 'pcd-b12-changan-cs75-2024-5x114-3',
+            generation: 'Facelift · 2022–2024',
+            aliases: [
+              'Changan CS75 2024',
+              'CS75 Facelift · 2022–2024',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-134',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Changan CS75 2024 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/changan/cs75/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-134',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Changan CS75 2024 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/changan/cs75/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'A800',
+        slug: 'a800',
+        records: [
+          {
+            id: 'pcd-b12-changan-a800-2021-5x114-3',
+            generation: 'A800 · 2018–2021',
+            aliases: [
+              'Changan A800 2021',
+              'A800 A800 · 2018–2021',
+              '5x114.3'
+            ],
+            years: '2021-2021',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '60.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET44',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-154',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Changan A800 2021 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/changan/a800/2021/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2021 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-154',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Changan A800 2021 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/changan/a800/2021/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2021 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'S50',
+        slug: 's50',
+        records: [
+          {
+            id: 'pcd-b12-changan-s50-2021-5x110',
+            generation: 'S50 · 2016–2021',
+            aliases: [
+              'Changan S50 2021',
+              'S50 S50 · 2016–2021',
+              '5x110'
+            ],
+            years: '2021-2021',
+            market: 'some markets',
+            pcd: '5x110',
+            centerBore: '63.3',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-155',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Changan S50 2021 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/changan/s50/2021/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2021 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-155',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Changan S50 2021 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/changan/s50/2021/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2021 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -186946,6 +197896,152 @@ const PCD_DATA = [
             ]
           }
         ]
+      },
+      {
+        name: 'Sup',
+        slug: 'sup',
+        records: [
+          {
+            id: 'pcd-b12-foton-sup-2023-6x139-7',
+            generation: 'Facelift · 2015–2023',
+            aliases: [
+              'Foton Sup 2023',
+              'Sup Facelift · 2015–2023',
+              '6x139.7'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '6x139.7',
+            centerBore: '108.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-1',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Foton Sup 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/foton/sup/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-1',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Foton Sup 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/foton/sup/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Toplander',
+        slug: 'toplander',
+        records: [
+          {
+            id: 'pcd-b12-foton-toplander-2023-6x139-7',
+            generation: 'Toplander · 2015–2023',
+            aliases: [
+              'Foton Toplander 2023',
+              'Toplander Toplander · 2015–2023',
+              '6x139.7'
+            ],
+            years: '2023-2023',
+            market: 'some markets',
+            pcd: '6x139.7',
+            centerBore: '108.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET30',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-2',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Foton Toplander 2023 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/foton/toplander/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-2',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Foton Toplander 2023 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/foton/toplander/2023/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -188178,6 +199274,79 @@ const PCD_DATA = [
                 documentDate: null,
                 checkedAt: '2026-11-06',
                 pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Borui',
+        slug: 'borui',
+        records: [
+          {
+            id: 'pcd-b12-geely-borui-2024-5x114-3',
+            generation: 'Facelift · 2020–2024',
+            aliases: [
+              'Geely Borui 2024',
+              'Borui Facelift · 2020–2024',
+              '5x114.3'
+            ],
+            years: '2024-2024',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET45-48',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-135',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Geely Borui 2024 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/geely/borui/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-135',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Geely Borui 2024 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/geely/borui/2024/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2024 application page; market scope retained only where the paired publisher overlaps',
                 fields: [
                   'generation',
                   'years',
@@ -189437,6 +200606,152 @@ const PCD_DATA = [
                 documentDate: null,
                 checkedAt: '2026-11-06',
                 pages: 'Exact 2025 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'F5',
+        slug: 'f5',
+        records: [
+          {
+            id: 'pcd-b12-haval-f5-2021-5x114-3',
+            generation: 'F5 · 2018–2023',
+            aliases: [
+              'Haval F5 2021',
+              'F5 F5 · 2018–2023',
+              '5x114.3'
+            ],
+            years: '2021-2021',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-3',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Haval F5 2021 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/haval/f5/2021/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2021 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-3',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Haval F5 2021 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/haval/f5/2021/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2021 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'H4',
+        slug: 'h4',
+        records: [
+          {
+            id: 'pcd-b12-haval-h4-2021-5x114-3',
+            generation: 'Facelift · 2019–2021',
+            aliases: [
+              'Haval H4 2021',
+              'H4 Facelift · 2019–2021',
+              '5x114.3'
+            ],
+            years: '2021-2021',
+            market: 'some markets',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET40',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-4',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Haval H4 2021 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/haval/h4/2021/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2021 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-4',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Haval H4 2021 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/haval/h4/2021/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2021 application page; market scope retained only where the paired publisher overlaps',
                 fields: [
                   'generation',
                   'years',
@@ -192715,6 +204030,79 @@ const PCD_DATA = [
                 documentDate: null,
                 checkedAt: '2026-11-06',
                 pages: 'Exact 2023 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'fastenerType'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; fastener type is published by this source.'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Lioncel',
+        slug: 'lioncel',
+        records: [
+          {
+            id: 'pcd-b12-soueast-lioncel-2006-4x100',
+            generation: 'Lioncel · 2003–2006',
+            aliases: [
+              'Soueast Lioncel 2006',
+              'Lioncel Lioncel · 2003–2006',
+              '4x100'
+            ],
+            years: '2006-2006',
+            market: 'some markets',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.50',
+            fastener: 'nuts',
+            fastenerDetails: null,
+            offset: 'ET46',
+            torque: null,
+            status: 'corroborated',
+            lastVerifiedAt: '2026-11-06',
+            variants: [],
+            fitments: [],
+            restrictions: [],
+            sources: [
+              {
+                id: 'pcd-b12-src-twg-8',
+                type: 'technicalReference',
+                publisher: 'TireWheelGuide',
+                title: 'Soueast Lioncel 2006 tire and wheel sizes',
+                url: 'https://tirewheelguide.com/sizes/soueast/lioncel/2006/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2006 application page; market scope retained only where the paired publisher overlaps',
+                fields: [
+                  'generation',
+                  'years',
+                  'market',
+                  'boltPattern',
+                  'centerBore',
+                  'threadSize',
+                  'torque',
+                  'offset'
+                ],
+                limitations: 'Independent exact-year technical reference. PCD, centre bore and thread are retained only after agreement with the paired publisher; ET is published by this source.'
+              },
+              {
+                id: 'pcd-b12-src-avto-8',
+                type: 'technicalReference',
+                publisher: 'AvtoReference',
+                title: 'Soueast Lioncel 2006 wheel specifications',
+                url: 'https://avtoreference.com/en/auto/soueast/lioncel/2006/',
+                documentDate: null,
+                checkedAt: '2026-11-06',
+                pages: 'Exact 2006 application page; market scope retained only where the paired publisher overlaps',
                 fields: [
                   'generation',
                   'years',
