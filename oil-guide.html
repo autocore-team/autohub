@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Find engine oil viscosity, API, ACEA, ILSAC and manufacturer approvals by vehicle and engine code. Starter D3 Orient compatibility tool.">
+  <meta name="description" content="Find engine oil viscosity, API, ACEA, ILSAC and manufacturer approvals by vehicle and engine code. Production data foundation with explicit verification status and sources.">
   <link rel="canonical" href="https://d3orient.com/oil-guide.html">
   <title>D3 Orient Engine Oil Compatibility Guide</title>
   <style>
@@ -179,6 +179,21 @@
     }
     .primary-button:hover {
       background: var(--accent-dark);
+    }
+    .secondary-button {
+      min-height: 40px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      padding: 0 14px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .secondary-button:hover {
+      border-color: var(--accent);
+      color: var(--accent-dark);
     }
     .request-link {
       color: var(--accent-dark);
@@ -464,6 +479,8 @@
         </div>
         <div class="finder-actions">
           <button type="button" class="primary-button" id="findButton" data-i18n="findButton">Show compatible oil</button>
+          <button type="button" class="secondary-button" id="resetButton">Reset</button>
+          <button type="button" class="secondary-button" id="copyLinkButton">Copy link</button>
           <a class="request-link" id="requestLink" href="contact.html" data-i18n="requestLink">Can't find your engine? Send a request</a>
         </div>
         <p class="finder-summary" id="finderSummary"></p>
@@ -473,49 +490,6 @@
     <section class="panel result-panel" id="resultPanel" aria-labelledby="resultTitle" hidden>
       <h2 id="resultTitle" data-i18n="resultTitle">Compatibility result</h2>
       <div class="panel-body" id="resultContent"></div>
-    </section>
-
-    <section class="panel" aria-labelledby="exampleTitle">
-      <h2 id="exampleTitle" data-i18n="exampleTitle">Example result: BMW M54 oil compatibility</h2>
-      <div class="panel-body">
-        <p data-i18n="exampleLead">After search, D3 Orient shows the vehicle, engine, viscosity range, required approvals, service-fill quantity and what still needs confirmation.</p>
-        <div class="spec-grid">
-          <div class="spec-item">
-            <span class="spec-label" data-i18n="vehicle">Vehicle</span>
-            <div class="spec-value">BMW 3 Series E46 · M54B22 / M54B25 / M54B30 · 1998-2006</div>
-          </div>
-          <div class="spec-item">
-            <span class="spec-label" data-i18n="viscosity">SAE viscosity</span>
-            <div class="spec-value">
-              <div class="chips"><span class="chip">5W-30</span><span class="chip">5W-40</span></div>
-            </div>
-          </div>
-          <div class="spec-item">
-            <span class="spec-label" data-i18n="approvals">Manufacturer approvals</span>
-            <div class="spec-value">
-              <div class="chips"><span class="chip approval">BMW Longlife-01</span></div>
-            </div>
-          </div>
-          <div class="spec-item">
-            <span class="spec-label" data-i18n="standards">API / ACEA / ILSAC</span>
-            <div class="spec-value">
-              <div class="chips"><span class="chip">ACEA A3/B4</span></div>
-            </div>
-          </div>
-          <div class="spec-item">
-            <span class="spec-label" data-i18n="capacity">Service-fill quantity</span>
-            <div class="spec-value" data-i18n="exampleCapacity">About 6.5 L, verify by exact model and filter housing.</div>
-          </div>
-          <div class="spec-item">
-            <span class="spec-label" data-i18n="interval">Service interval</span>
-            <div class="spec-value" data-i18n="exampleInterval">Follow the vehicle service schedule; shorter intervals may be better for age and city use.</div>
-          </div>
-        </div>
-        <p class="result-note"><strong data-i18n="note">Important note</strong>: <span data-i18n="exampleNote">This is a preview of the information format. Always confirm the exact approval and quantity in the manual or service data.</span></p>
-        <div class="example-actions">
-          <a href="oil-guide.html?engine=bmw-e46-m54&lang=en" data-oil-example-link="bmw-e46-m54" data-i18n="exampleAction">Open this example</a>
-        </div>
-      </div>
     </section>
 
     <section class="guide-grid" aria-label="Oil compatibility principles">
@@ -548,7 +522,7 @@
     <div class="disclaimer" data-i18n="disclaimer">Starter records are under review. Always confirm the exact oil approval, viscosity and service-fill quantity in the vehicle owner's manual, manufacturer service information or with a qualified professional before buying or filling oil.</div>
   </main>
 
-  <script src="oil-data.js?v=20260623-2"></script>
+  <script src="oil-data.js?v=20261106-1"></script>
   <script>
     const translations = {
       en: {
@@ -685,314 +659,10 @@
       }
     };
 
-    const initialUrl = new URL(window.location.href);
-    let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
-    const oilData = window.AUTOHUB_OIL_DATA || { records: [] };
-    const records = Array.isArray(oilData.records) ? oilData.records : [];
-    const makeSelect = document.getElementById('makeSelect');
-    const modelSelect = document.getElementById('modelSelect');
-    const variantSelect = document.getElementById('variantSelect');
-    const engineSelect = document.getElementById('engineSelect');
-    const oilQuickSearch = document.getElementById('oilQuickSearch');
-    const oilSearchSuggestions = document.getElementById('oilSearchSuggestions');
-    const findButton = document.getElementById('findButton');
-    const requestLink = document.getElementById('requestLink');
-    const finderSummary = document.getElementById('finderSummary');
-    const resultPanel = document.getElementById('resultPanel');
-    const resultContent = document.getElementById('resultContent');
-
-    function t(key) {
-      return translations[lang][key] || translations.en[key] || key;
-    }
-
-    function localize(value) {
-      if (value && typeof value === 'object' && !Array.isArray(value)) {
-        return value[lang] || value.en || '';
-      }
-      return value || '';
-    }
-
-    function format(template, values) {
-      return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
-    }
-
-    function escapeHtml(value) {
-      return String(value || '')
-        .replaceAll('&', '&amp;')
-        .replaceAll('<', '&lt;')
-        .replaceAll('>', '&gt;')
-        .replaceAll('"', '&quot;')
-        .replaceAll("'", '&#039;');
-    }
-
-    function uniqueSorted(values) {
-      return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b));
-    }
-
-    function clearSelect(select) {
-      while (select.options.length > 1) select.remove(1);
-      select.value = '';
-    }
-
-    function addTextOptions(select, values) {
-      values.forEach((value) => {
-        const option = document.createElement('option');
-        option.value = value;
-        option.textContent = value;
-        select.appendChild(option);
-      });
-    }
-
-    function selectedVariantKey(record) {
-      return `${record.generation}|||${record.years}`;
-    }
-
-    function quickSearchText(record) {
-      return `${record.engine} ${record.make} ${record.model} ${record.generation} ${record.years}`.toLowerCase();
-    }
-
-    function quickSearchLabel(record) {
-      return `${record.engine} · ${record.make} ${record.model} · ${record.generation}`;
-    }
-
-    function selectRecord(record) {
-      populateMakes(record.make);
-      populateModels(record.model);
-      populateVariants(selectedVariantKey(record));
-      populateEngines(record.id);
-      oilQuickSearch.value = quickSearchLabel(record);
-      renderResult(true);
-    }
-
-    function findQuickRecord() {
-      const query = oilQuickSearch.value.trim().toLowerCase();
-      if (!query) return null;
-      return records.find((record) => quickSearchLabel(record).toLowerCase() === query)
-        || records.find((record) => record.engine.toLowerCase() === query)
-        || records.find((record) => quickSearchText(record).includes(query))
-        || null;
-    }
-
-    function populateMakes(selected = '') {
-      clearSelect(makeSelect);
-      addTextOptions(makeSelect, uniqueSorted(records.map((record) => record.make)));
-      makeSelect.value = selected;
-    }
-
-    function populateModels(selected = '') {
-      clearSelect(modelSelect);
-      clearSelect(variantSelect);
-      clearSelect(engineSelect);
-      variantSelect.disabled = true;
-      engineSelect.disabled = true;
-      const models = uniqueSorted(records.filter((record) => record.make === makeSelect.value).map((record) => record.model));
-      addTextOptions(modelSelect, models);
-      modelSelect.disabled = !models.length;
-      modelSelect.value = models.includes(selected) ? selected : '';
-    }
-
-    function populateVariants(selected = '') {
-      clearSelect(variantSelect);
-      clearSelect(engineSelect);
-      engineSelect.disabled = true;
-      const matching = records.filter((record) => record.make === makeSelect.value && record.model === modelSelect.value);
-      const variants = [];
-      const seen = new Set();
-      matching.forEach((record) => {
-        const value = selectedVariantKey(record);
-        if (seen.has(value)) return;
-        seen.add(value);
-        variants.push({ value, label: `${record.generation} · ${record.years}` });
-      });
-      variants.forEach((item) => {
-        const option = document.createElement('option');
-        option.value = item.value;
-        option.textContent = item.label;
-        variantSelect.appendChild(option);
-      });
-      variantSelect.disabled = !variants.length;
-      variantSelect.value = variants.some((item) => item.value === selected) ? selected : '';
-    }
-
-    function populateEngines(selected = '') {
-      clearSelect(engineSelect);
-      const matching = records.filter((record) => (
-        record.make === makeSelect.value &&
-        record.model === modelSelect.value &&
-        selectedVariantKey(record) === variantSelect.value
-      ));
-      matching.forEach((record) => {
-        const option = document.createElement('option');
-        option.value = record.id;
-        option.textContent = record.engine;
-        engineSelect.appendChild(option);
-      });
-      engineSelect.disabled = !matching.length;
-      engineSelect.value = matching.some((record) => record.id === selected) ? selected : '';
-    }
-
-    function chipList(values, className = '') {
-      return `<div class="chips">${values.map((value) => `<span class="chip ${className}">${escapeHtml(value)}</span>`).join('')}</div>`;
-    }
-
-    function specItem(label, value) {
-      return `<div class="spec-item"><span class="spec-label">${escapeHtml(label)}</span><div class="spec-value">${value}</div></div>`;
-    }
-
-    function renderResult(updateUrl = true) {
-      const record = records.find((item) => item.id === engineSelect.value);
-      updateRequestLink();
-      if (!record) {
-        resultPanel.hidden = true;
-        finderSummary.textContent = t('chooseAll');
-        return;
-      }
-
-      const statusWarning = record.statusKey === 'needsPrimarySource' ? ' warning' : '';
-      resultContent.innerHTML = `
-        <div class="result-header">
-          <div>
-            <h3>${escapeHtml(record.make)} ${escapeHtml(record.model)} · ${escapeHtml(record.engine)}</h3>
-            <p>${escapeHtml(record.generation)} · ${escapeHtml(record.years)}</p>
-          </div>
-          <span class="status-badge${statusWarning}">${escapeHtml(t(record.statusKey))}</span>
-        </div>
-        <div class="spec-grid">
-          ${specItem(t('vehicle'), escapeHtml(`${record.make} ${record.model}, ${record.generation}, ${record.years}`))}
-          ${specItem(t('fuel'), escapeHtml(t(record.fuelKey)))}
-          ${specItem(t('aspiration'), escapeHtml(t(record.aspirationKey)))}
-          ${specItem(t('viscosity'), chipList(record.viscosities))}
-          ${specItem(t('approvals'), chipList(record.approvals, 'approval'))}
-          ${specItem(t('standards'), chipList(record.standards))}
-          ${specItem(t('emissions'), escapeHtml(t(record.emissionsKey)))}
-          ${specItem(t('capacity'), escapeHtml(localize(record.capacity)))}
-          ${specItem(t('interval'), escapeHtml(localize(record.interval)))}
-          ${specItem(t('climate'), escapeHtml(localize(record.climate)))}
-          ${specItem(t('source'), escapeHtml(localize(record.source)))}
-          ${specItem(t('recordStatus'), escapeHtml(t(record.statusKey)))}
-        </div>
-        <p class="result-note"><strong>${escapeHtml(t('note'))}:</strong> ${escapeHtml(localize(record.note))}</p>
-      `;
-      resultPanel.hidden = false;
-      finderSummary.textContent = '';
-
-      if (updateUrl) {
-        const url = new URL(window.location.href);
-        url.searchParams.set('make', record.make);
-        url.searchParams.set('model', record.model);
-        url.searchParams.set('variant', selectedVariantKey(record));
-        url.searchParams.set('engine', record.id);
-        url.searchParams.set('lang', lang);
-        window.history.replaceState({}, '', url);
-      }
-    }
-
-    function updateRequestLink() {
-      const params = new URLSearchParams({ lang, topic: 'engine-oil' });
-      if (makeSelect.value) params.set('make', makeSelect.value);
-      if (modelSelect.value) params.set('model', modelSelect.value);
-      if (variantSelect.value) params.set('variant', variantSelect.value);
-      if (engineSelect.value) params.set('engine', engineSelect.value);
-      requestLink.href = `contact.html?${params.toString()}`;
-    }
-
-    function translatePage() {
-      document.documentElement.lang = lang;
-      document.title = `D3 Orient - ${t('title')}`;
-      document.querySelector('meta[name="description"]').setAttribute('content', t('metaDescription'));
-      document.querySelectorAll('[data-i18n]').forEach((node) => {
-        node.textContent = t(node.dataset.i18n);
-      });
-      document.querySelectorAll('[data-lang]').forEach((button) => {
-        button.classList.toggle('selected', button.dataset.lang === lang);
-      });
-      document.querySelectorAll('[data-oil-example-link]').forEach((link) => {
-        link.href = `oil-guide.html?engine=${encodeURIComponent(link.dataset.oilExampleLink)}&lang=${encodeURIComponent(lang)}`;
-      });
-      oilQuickSearch.placeholder = t('quickSearchPlaceholder');
-      finderSummary.textContent = resultPanel.hidden
-        ? format(t('recordsAvailable'), { count: records.length })
-        : '';
-      updateRequestLink();
-      if (!resultPanel.hidden) renderResult(false);
-    }
-
-    function initializeFinder() {
-      const requestedEngine = initialUrl.searchParams.get('engine') || '';
-      const requestedRecord = records.find((record) => record.id === requestedEngine);
-      const requestedMake = initialUrl.searchParams.get('make') || (requestedRecord ? requestedRecord.make : '');
-      const requestedModel = initialUrl.searchParams.get('model') || (requestedRecord ? requestedRecord.model : '');
-      const requestedVariant = initialUrl.searchParams.get('variant') || (requestedRecord ? selectedVariantKey(requestedRecord) : '');
-      populateMakes(requestedMake);
-      populateModels(requestedModel);
-      populateVariants(requestedVariant);
-      populateEngines(requestedEngine);
-      updateRequestLink();
-      if (engineSelect.value) renderResult(false);
-    }
-
-    records.forEach((record) => {
-      const option = document.createElement('option');
-      option.value = quickSearchLabel(record);
-      oilSearchSuggestions.appendChild(option);
-    });
-
-    document.querySelectorAll('[data-lang]').forEach((button) => {
-      button.addEventListener('click', () => {
-        lang = button.dataset.lang;
-        const url = new URL(window.location.href);
-        url.searchParams.set('lang', lang);
-        window.history.replaceState({}, '', url);
-        translatePage();
-      });
-    });
-
-    makeSelect.addEventListener('change', () => {
-      oilQuickSearch.value = '';
-      populateModels();
-      resultPanel.hidden = true;
-      finderSummary.textContent = t('chooseAll');
-      updateRequestLink();
-    });
-    modelSelect.addEventListener('change', () => {
-      oilQuickSearch.value = '';
-      populateVariants();
-      resultPanel.hidden = true;
-      finderSummary.textContent = t('chooseAll');
-      updateRequestLink();
-    });
-    variantSelect.addEventListener('change', () => {
-      oilQuickSearch.value = '';
-      populateEngines();
-      resultPanel.hidden = true;
-      finderSummary.textContent = t('chooseAll');
-      updateRequestLink();
-    });
-    engineSelect.addEventListener('change', () => {
-      oilQuickSearch.value = '';
-      resultPanel.hidden = true;
-      finderSummary.textContent = engineSelect.value ? '' : t('chooseAll');
-      updateRequestLink();
-    });
-    findButton.addEventListener('click', () => {
-      if (oilQuickSearch.value.trim()) {
-        const record = findQuickRecord();
-        if (record) selectRecord(record);
-        else {
-          resultPanel.hidden = true;
-          finderSummary.textContent = t('quickNoMatch');
-        }
-        return;
-      }
-      renderResult(true);
-    });
-    oilQuickSearch.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter') findButton.click();
-    });
-
-    initializeFinder();
-    translatePage();
+    window.AUTOHUB_OIL_TRANSLATIONS = translations;
   </script>
+  <script src="assets/js/oil-guide.js?v=20261106-1"></script>
+  <script>if (!window.AUTOHUB_OIL_DATA) throw new Error('AUTOHUB_OIL_DATA failed to load'); OilGuide.initBrowser(window, document);</script>
 <footer class="site-footer">
   <div class="site-footer-inner">
     <div>
