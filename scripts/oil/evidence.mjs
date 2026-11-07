@@ -5,7 +5,7 @@ export const technicalFields = ['engineIdentity', 'displacementLiters', 'fuelTyp
   'serviceInterval', 'climateLimitations', 'emissionsEquipment'];
 const states = new Set(['confirmed', 'unknown', 'conflict']);
 const official = new Set(['ownersManual', 'serviceManual', 'technicalBulletin', 'lubricationChart', 'oemServicePortal']);
-const reviewedHosts = new Set(['techinfo.honda.com', 'crmshonda.my.salesforce-sites.com', 'vpic.nhtsa.dot.gov', 'static.nhtsa.gov', 'www.fordservicecontent.com', 'content.fordpro.com', 'assets.sipb.toyota.com']);
+const reviewedHosts = new Set(['techinfo.honda.com', 'crmshonda.my.salesforce-sites.com', 'vpic.nhtsa.dot.gov', 'static.nhtsa.gov', 'www.fordservicecontent.com', 'content.fordpro.com', 'assets.sipb.toyota.com', 'www.toyota.ca']);
 const die = (message) => { throw new Error(message); };
 const equal = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '');
@@ -40,7 +40,9 @@ function context(record) {
   function trusted(ref, field) {
     const { source, locator } = resolve(ref);
     if (source.provenanceStatus !== 'confirmed' || !official.has(source.type)) return false;
-    if (!reviewedHosts.has(new URL(source.url).hostname) || !/^[a-f0-9]{64}$/.test(source.documentSha256 || '')) return false;
+    const url = new URL(source.url);
+    if (url.protocol !== 'https:' || !reviewedHosts.has(url.hostname) || !/^[a-f0-9]{64}$/.test(source.documentSha256 || '')) return false;
+    if (url.hostname === 'www.toyota.ca' && !/^\/content\/dam\/toyota\/documents\/manuals\/en\/|^\/bin\/api\/get-manuals\.toyota\.en\.json$/.test(url.pathname)) return false;
     if (!source.scope || source.scope.make !== record.make || !source.scope.models?.includes(record.model)) return false;
     if (source.scope.applicationCodes && !record.applicationEvidence?.applications?.every((a) => source.scope.applicationCodes.includes(a.code))) return false;
     if (source.applicableYears.from > record.productionYears.from || source.applicableYears.to < record.productionYears.to) return false;
@@ -81,6 +83,9 @@ function validateApplication(record, ctx) {
   refsState(e, 'application', ctx);
   if (e.state !== 'confirmed') return e.state;
   if (e.review?.unambiguous !== true || !e.review.notes?.trim()) die('Confirmed application requires an explicit unambiguous scope review');
+  if (e.scopeType === 'engineScoped') return validateEngineScope(record, ctx);
+  if (e.scopeType && e.scopeType !== 'exactApplication') die('Invalid application scope type');
+  if (e.engineScope) die('Exact application cannot carry an unused engine scope');
   const apps = e.applications;
   if (!Array.isArray(apps) || !apps.length || new Set(apps.map((a) => a.code)).size !== apps.length) die('Application requires unique exact application codes');
   for (const app of apps) {
@@ -93,6 +98,82 @@ function validateApplication(record, ctx) {
   }
   if (record.fieldEvidence.engineIdentity.state !== 'confirmed') die('Application requires a confirmed typed identity');
   return 'confirmed';
+}
+
+const refKey = (ref) => `${ref?.sourceId}:${ref?.locatorId}`;
+const restrictedApplication = (text) => /\b(except|excluding|excluded)\b|\b(?:does not|do not|not)\s+apply\b|\bnot applicable\b|\b(?:AWD|2WD|FWD|trim|transmission)\s+only\b|\bonly\s+(?:for\s+)?(?:AWD|2WD|FWD|trim|transmission)\b/i.test(text);
+
+// An engine table is sufficient only when its publication, market, all-model
+// coverage and exact identity are linked by reviewed source locators.
+function validateEngineScope(record, ctx) {
+  const e = record.applicationEvidence, scope = e.engineScope;
+  if (!scope || e.applications != null || record.engineIdentity.type !== 'engineeringCode' || record.fieldEvidence.engineIdentity.state !== 'confirmed') die('Engine scope requires a confirmed engineering identity, not invented variant attributes');
+  for (const lang of ['en', 'es', 'fr', 'de']) if (!scope.description?.[lang]?.trim()) die('Engine scope description must be localized');
+  const roles = ['manualRef', 'marketRef', 'coverageRef', 'identityRef'];
+  for (const role of roles) if (!e.evidenceRefs.some((r) => refKey(r) === refKey(scope[role])) || !ctx.trusted(scope[role], 'application')) die(`Engine scope lacks trusted ${role} evidence`);
+  const manual = ctx.resolve(scope.manualRef), market = ctx.resolve(scope.marketRef), coverage = ctx.resolve(scope.coverageRef), identity = ctx.resolve(scope.identityRef);
+  const publication = manual.source.publicationId;
+  if (!publication || !literal(manual.locator.excerpt, publication) || !literal(manual.locator.excerpt, record.model) || ![record.productionYears.from, record.productionYears.to].every((y) => literal(manual.locator.excerpt, y))) die('Engine scope manual edition/model/year is not evidenced');
+  const binding = market.locator.documentBinding;
+  if (!binding || binding.url !== manual.source.url || binding.publicationId !== publication || !literal(market.locator.excerpt, publication) || !market.locator.excerpt.includes(manual.source.url) || !literal(market.locator.excerpt, record.model) || ![record.productionYears.from, record.productionYears.to].every((y) => literal(market.locator.excerpt, y))) die('Catalogue does not bind this model/year to the exact manual');
+  if (!Array.isArray(binding.markets) || !record.market.every((m) => binding.markets.includes(m) && literal(market.locator.excerpt, m === 'CA' ? 'Canada' : m))) die('Engine scope market is not documented');
+  if (coverage.source.id !== manual.source.id || identity.source.id !== manual.source.id || !/manual applies to all models/i.test(coverage.locator.excerpt) || restrictedApplication(coverage.locator.excerpt)) die('Manual excludes or does not establish all-model engine scope');
+  if (!record.fieldEvidence.engineIdentity.evidenceRefs.some((r) => refKey(r) === refKey(scope.identityRef)) || !literal(identity.locator.excerpt, record.engineCode)) die('Engine scope has contradictory or unbound identity');
+  const links = scope.links;
+  if (!Array.isArray(links) || !links.length) die('Engine scope requires explicit locator links');
+  for (const link of links) {
+    const from = ctx.resolve(link.from), to = ctx.resolve(link.to);
+    if (![link.from, link.to].every((r) => e.evidenceRefs.some((x) => refKey(x) === refKey(r)))) die('Scope link must use declared application evidence');
+    if (link.relation === 'publication') {
+      if (refKey(link.from) !== refKey(scope.marketRef) || refKey(link.to) !== refKey(scope.manualRef)) die('Invalid publication link');
+    } else if (link.relation === 'sameDocument') {
+      if (from.source.id !== to.source.id || from.source.id !== manual.source.id) die('Scope link crosses unrelated documents');
+    } else die('Unsupported scope link relation');
+  }
+  const reached = new Set([refKey(scope.marketRef)]);
+  const visiting = new Set(), visited = new Set();
+  const visit = (key) => {
+    if (visiting.has(key)) die('Cyclic application evidence chain');
+    if (visited.has(key)) return;
+    visiting.add(key);
+    for (const link of links.filter((l) => refKey(l.from) === key)) visit(refKey(link.to));
+    visiting.delete(key); visited.add(key);
+  };
+  visit(refKey(scope.marketRef));
+  for (let i = 0; i < links.length; i++) for (const link of links) if (reached.has(refKey(link.from))) reached.add(refKey(link.to));
+  if (!roles.every((role) => reached.has(refKey(scope[role])))) die('Incomplete application evidence chain');
+  return 'confirmed';
+}
+
+function validateEngineField(record, ref, field, ctx) {
+  const scope = record.applicationEvidence.engineScope, { source, locator } = ctx.resolve(ref);
+  if (source.id !== scope.manualRef.sourceId || !source.scope.engineCodes?.includes(record.engineCode) || !locator.engineCodes?.includes(record.engineCode) || !literal(locator.excerpt, record.engineCode)) die(`Engine-scoped ${field} lacks exact engine/table applicability`);
+  if (locator.engineCodes.length !== 1 || source.scope.engineCodes.some((code) => code !== record.engineCode && literal(locator.excerpt, code))) die(`Engine-scoped ${field} has contradictory engine identity`);
+  if (restrictedApplication(locator.excerpt)) die(`Engine-scoped ${field} contains an unresolved application exclusion`);
+  if (!locator.applicabilityRef || refKey(locator.applicabilityRef) !== refKey(scope.coverageRef)) die(`Engine-scoped ${field} lacks an explicit all-model coverage link`);
+}
+
+function validateSubstitutions(record, ctx) {
+  const substitutions = record.fieldEvidence.allowedSaeViscosities.evidenceRefs.filter((ref) => ctx.resolve(ref).locator.temporarySubstitution);
+  const used = new Set();
+  function walk(node, conditions = []) {
+    const inherited = node.conditionRef ? [...conditions, refKey(node.conditionRef)] : conditions;
+    if (node.field === 'allowedSaeViscosities') {
+      used.add(node.index);
+      for (const ref of substitutions) if (node.index === ctx.resolve(ref).locator.temporarySubstitution.temporaryIndex && !inherited.includes(refKey(ref))) die('Temporary SAE must retain its source-backed unavailability and return condition');
+    }
+    for (const child of node.allOf || node.anyOf || []) walk(child, inherited);
+  }
+  walk(record.oilRequirements.expression);
+  if (record.allowedSaeViscosities.some((_, i) => !used.has(i))) die('Engine-scoped SAE values must be represented in the conditional requirement tree');
+  for (const ref of substitutions) {
+    const { locator } = ctx.resolve(ref), s = locator.temporarySubstitution;
+    const preferred = record.allowedSaeViscosities[s.preferredIndex], temporary = record.allowedSaeViscosities[s.temporaryIndex];
+    if (!preferred || !temporary || s.preferredIndex === s.temporaryIndex || !literal(locator.excerpt, preferred) || !literal(locator.excerpt, temporary) || !/not available/i.test(locator.excerpt) || !/must be replaced with/i.test(locator.excerpt) || !/at the next oil change/i.test(locator.excerpt)) die('Temporary substitution lacks the original source requirement');
+    if (!locator.excerpt.includes(`If SAE ${preferred} is not available, SAE ${temporary}`) || !locator.excerpt.includes(`must be replaced with SAE ${preferred} at the next oil change`)) die('Temporary substitution reverses or changes the documented SAE path');
+    for (const lang of ['en', 'es', 'fr', 'de']) if (!locator.condition?.[lang]?.trim()) die('Temporary SAE condition must be localized');
+    if (!/not available/i.test(locator.condition.en) || !/next oil change/i.test(locator.condition.en) || !literal(locator.condition.en, preferred)) die('Temporary SAE condition loses the mandatory return');
+  }
 }
 
 function checkClaimValue(record, field, evidence, ctx) {
@@ -156,7 +237,7 @@ function validateRequirements(record, ctx) {
     for (const ref of node.evidenceRefs) {
       const { locator } = ctx.resolve(ref);
       if (!ctx.trusted(ref, 'oilRequirements') || locator.relation !== op) die('Requirement allOf/anyOf operator is not supported by the cited source relation');
-      if (op === 'anyOf' && !/\bor\b/i.test(locator.excerpt)) die('anyOf requires alternative wording in its source');
+      if (op === 'anyOf' && !/\bor\b/i.test(locator.excerpt) && !(record.applicationEvidence.scopeType === 'engineScoped' && locator.temporarySubstitution)) die('anyOf requires alternative wording in its source');
       if (op === 'allOf' && !/\b(and|also|together)\b/i.test(locator.excerpt)) die('allOf requires conjunctive wording in its source');
     }
     const children = node[op].map((n) => walk(n, depth + 1));
@@ -191,7 +272,9 @@ export function assessOilEvidence(record) {
   for (const field of technicalFields.filter((f) => fields[f] === 'confirmed')) {
     for (const ref of record.fieldEvidence[field].evidenceRefs) {
       const { source } = ctx.resolve(ref);
-      if (source.identityBindingRef) {
+      if (record.applicationEvidence.scopeType === 'engineScoped') {
+        validateEngineField(record, ref, field, ctx);
+      } else if (source.identityBindingRef) {
         const direct = ctx.sources.get(source.identityBindingRef);
         if (!direct || direct.identityBindingRef || !record.fieldEvidence.engineIdentity.evidenceRefs.some((r) => r.sourceId === direct.id)) die('Invalid supplemental identity binding');
         if (!source.scope.engineClasses?.includes(direct.scope.engineClass)) die('Supplemental evidence does not cover the exact bound engine class');
@@ -199,6 +282,11 @@ export function assessOilEvidence(record) {
     }
   }
   const validPath = validateRequirements(record, ctx);
+  if (record.applicationEvidence.scopeType === 'engineScoped') {
+    const check = (node) => { for (const ref of [...node.evidenceRefs || [], ...node.conditionRef ? [node.conditionRef] : []]) validateEngineField(record, ref, 'oilRequirements', ctx); for (const child of node.allOf || node.anyOf || []) check(child); };
+    check(record.oilRequirements.expression);
+    validateSubstitutions(record, ctx);
+  }
   const count = Object.values(fields).filter((s) => s === 'confirmed').length;
   const completeness = { state: count === technicalFields.length ? 'complete' : 'partial', confirmedFields: count, totalFields: technicalFields.length };
   if (Object.hasOwn(record, 'completeness') && !equal(record.completeness, completeness)) die('completeness is computed, not manually assigned');
