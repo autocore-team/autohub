@@ -14,10 +14,10 @@ const fixture = JSON.parse(fs.readFileSync(path.join(root, 'tests/oil/fixtures/b
 const canonical = loadCanonical();
 const summary = validateCanonical(canonical);
 const baseline = canonical.records.slice(0, fixture.baselineCount);
-const batch = canonical.records.slice(fixture.baselineCount);
+const batch = canonical.records.slice(fixture.baselineCount, fixture.finalCount);
 const sha256 = (value) => crypto.createHash('sha256').update(value).digest('hex');
 
-assert.equal(summary.records, fixture.finalCount);
+assert.equal(summary.records, fixture.currentSelectableCount);
 assert.equal(summary.legacyRecords, fixture.quarantineCount);
 assert.equal(batch.length, fixture.addedCount);
 assert.equal(fixture.candidateAudit.considered, fixture.candidateAudit.accepted + fixture.candidateAudit.excluded);
@@ -73,7 +73,7 @@ console.log('PASS verified source minimums, field coverage, exact-code applicati
 
 const generated = fs.readFileSync(path.join(root, 'oil-data.js'), 'utf8');
 assert.ok(generatedOilFileMatches(generated, generatedOilFile(canonical)));
-assert.deepEqual(toPublicOilData(canonical).records.slice(fixture.baselineCount), batch);
+assert.deepEqual(toPublicOilData(canonical).records.slice(fixture.baselineCount, fixture.finalCount), batch);
 for (const record of batch) {
   const selection = ui.findRecord(toPublicOilData(canonical), record.id);
   assert.equal(selection.type, 'record');

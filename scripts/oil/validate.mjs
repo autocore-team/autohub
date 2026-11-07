@@ -8,6 +8,12 @@ export const schemaPath = path.join(root, 'data/oil/schema.json');
 export const allowedStatuses = new Set(['verified', 'corroborated', 'preliminary', 'legacyPending']);
 export const officialSourceTypes = new Set(['ownersManual', 'serviceManual', 'technicalBulletin', 'lubricationChart', 'oemServicePortal']);
 
+export function isPublicOilRecord(record) {
+  return ['verified', 'corroborated', 'legacyPending'].includes(record.status)
+    && !Object.hasOwn(record, 'researchIssues')
+    && !record.sources?.some((source) => source.provenanceStatus === 'unconfirmed');
+}
+
 const fail = (message) => { throw new Error(message); };
 const requireText = (value, label) => { if (typeof value !== 'string' || !value.trim()) fail(`${label} is required`); };
 const requireArray = (value, label) => { if (!Array.isArray(value)) fail(`${label} must be an array`); };
@@ -44,17 +50,26 @@ function validateSource(source, record, index) {
   if (!source.applicableMarket.length) fail(`${label} applicableMarket is empty`);
   requireArray(source.fields, `${label} fields`);
   if (!source.fields.length) fail(`${label} fields is empty`);
+  if (source.evidenceNotes != null) requireText(source.evidenceNotes, `${label} evidenceNotes`);
+  if (source.provenanceStatus != null && !['confirmed', 'unconfirmed'].includes(source.provenanceStatus)) fail(`${label} provenanceStatus is invalid`);
+  if (source.pageNumbers != null) {
+    requireArray(source.pageNumbers, `${label} pageNumbers`);
+    if (!source.pageNumbers.length || source.pageNumbers.some((page) => !Number.isInteger(page) || page < 1) || new Set(source.pageNumbers).size !== source.pageNumbers.length) fail(`${label} pageNumbers must be unique positive integers`);
+  }
 }
 
 export function validateCanonical(data) {
   if (!data || data.schemaVersion !== 1) fail('Unsupported oil schemaVersion');
   requireArray(data.records, 'records');
   requireArray(data.legacyRecords, 'legacyRecords');
+  const researchRecords = data.researchRecords ?? [];
+  requireArray(researchRecords, 'researchRecords');
   const schema = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
   if (schema?.properties?.schemaVersion?.const !== data.schemaVersion || !schema?.$defs?.record || !schema?.$defs?.source) fail('Oil schema is missing the canonical record/source contract');
   const ids = new Set();
   const semantics = new Set();
-  for (const record of data.records) {
+  const entries = [...data.records.map((record) => ({ record, researchOnly: false })), ...researchRecords.map((record) => ({ record, researchOnly: true }))];
+  for (const { record, researchOnly } of entries) {
     requireText(record.id, 'record id');
     if (ids.has(record.id)) fail(`Duplicate oil id: ${record.id}`);
     ids.add(record.id);
@@ -63,6 +78,15 @@ export function validateCanonical(data) {
     if (/[\/,;]|\b(?:family|or)\b/i.test(record.engineCode)) fail(`${record.id} combines multiple engine codes`);
     validateYears(record.productionYears, `${record.id} productionYears`);
     if (!allowedStatuses.has(record.status)) fail(`${record.id} has unsupported status ${record.status}`);
+    if (researchOnly) {
+      if (record.status !== 'preliminary') fail(`${record.id} research records must remain preliminary`);
+      requireArray(record.researchIssues, `${record.id} researchIssues`);
+      if (!record.researchIssues.length) fail(`${record.id} researchIssues must explain unresolved evidence`);
+      for (const issue of record.researchIssues) requireText(issue, `${record.id} research issue`);
+    } else {
+      if (record.status === 'preliminary') fail(`${record.id} preliminary records must stay in researchRecords, outside production recommendations`);
+      if (!isPublicOilRecord(record)) fail(`${record.id} unresolved research evidence cannot enter production recommendations`);
+    }
     requireArray(record.sources, `${record.id} sources`);
     if (!record.sources.length) fail(`${record.id} has an empty source list`);
     record.sources.forEach((source, index) => validateSource(source, record, index));
@@ -111,12 +135,15 @@ export function validateCanonical(data) {
   return {
     records: data.records.length,
     legacyRecords: data.legacyRecords.length,
+    researchRecords: researchRecords.length,
+    productionRecommendations: data.records.filter((record) => ['verified', 'corroborated'].includes(record.status)).length,
+    researchStatuses: researchRecords.reduce((map, record) => { map[record.status] = (map[record.status] || 0) + 1; return map; }, {}),
     statuses: data.records.reduce((map, record) => { map[record.status] = (map[record.status] || 0) + 1; return map; }, {})
   };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const summary = validateCanonical(loadCanonical());
-  console.log(`Oil data validation passed: ${summary.records} selectable exact-code records; ${summary.legacyRecords} legacy records migrated.`);
+  console.log(`Oil data validation passed: ${summary.records} selectable records (${summary.productionRecommendations} production recommendations); ${summary.researchRecords} research records; ${summary.legacyRecords} legacy quarantine records.`);
   console.log(`Statuses: ${Object.entries(summary.statuses).map(([key, value]) => `${key}=${value}`).join(', ')}`);
 }

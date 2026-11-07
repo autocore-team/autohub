@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { loadCanonical, root, validateCanonical } from './validate.mjs';
+import { isPublicOilRecord, loadCanonical, root, validateCanonical } from './validate.mjs';
 
 export const generatedPath = path.join(root, 'oil-data.js');
 
@@ -9,7 +9,8 @@ export function toPublicOilData(canonical) {
   return {
     schemaVersion: canonical.schemaVersion,
     audit: canonical.audit,
-    records: canonical.records,
+    // Research claims never enter the browser payload, including when callers bypass validation.
+    records: canonical.records.filter(isPublicOilRecord),
     legacyRecords: canonical.legacyRecords.map((record) => ({
       id: record.id,
       make: record.make,
@@ -37,5 +38,5 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const canonical = loadCanonical();
   const summary = validateCanonical(canonical);
   fs.writeFileSync(generatedPath, generatedOilFile(canonical));
-  console.log(`Generated oil-data.js from ${summary.records} selectable records and ${summary.legacyRecords} migrated legacy records.`);
+  console.log(`Generated oil-data.js: ${summary.records} selectable records; ${summary.researchRecords} research records excluded; ${summary.legacyRecords} legacy quarantine records.`);
 }
