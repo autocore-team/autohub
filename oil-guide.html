@@ -246,13 +246,40 @@
       background: var(--warning-bg);
       color: var(--warning);
     }
-    .evidence-status { display: block; font-size: .82rem; color: var(--text-muted, #aab7c9); margin: .35rem 0; }
+    .evidence-status { display: block; font-size: .82rem; color: var(--muted, #64748b); margin: .35rem 0; }
     .field-sources { margin-top: .65rem; font-size: .85rem; overflow-wrap: anywhere; }
     .field-sources summary { cursor: pointer; }
     .field-sources p { white-space: normal; }
     .requirement-group { border-left: 2px solid #6484a8; padding-left: .8rem; margin: .5rem 0; }
     .requirement-operator { display: block; margin: .4rem 0; }
     .requirement-card { min-width: 0; }
+    .result-header > div, .result-primary > *, .result-identity > *, .result-evidence, .result-secondary { min-width: 0; }
+    .result-application { margin-top: .5rem !important; color: var(--text) !important; }
+    .result-identity { display: flex; flex-wrap: wrap; gap: .4rem 2rem; }
+    .result-identity .spec-item { border: 0; padding: .6rem 0; }
+    .result-identity .spec-value { font-size: 1rem; }
+    .legacy-assessment, .path-coverage { color: var(--muted); font-size: .85rem; line-height: 1.5; margin: .5rem 0; }
+    .result-primary { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 1rem; margin: .75rem 0; }
+    .oil-selection, .oil-quantity { padding: 1rem; border: 1px solid var(--line); border-radius: 10px; }
+    .oil-selection h4 { margin: 0 0 .5rem; }
+    .oil-quantity .spec-item { border: 0; padding: 0; }
+    .requirement-children { display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem .6rem; }
+    .requirement-branch { min-width: 0; }
+    .requirement-operator { display: inline; margin: 0; }
+    .requirement-value { font-size: 1.1rem; font-weight: 700; }
+    .requirement-condition { margin: .5rem 0; line-height: 1.5; }
+    .evidence-status[data-evidence-state="unknown"] { color: #805413; }
+    .evidence-status[data-evidence-state="conflict"] { color: #a32626; font-weight: 700; }
+    .result-secondary, .result-evidence, .result-context { margin-top: .75rem; border: 1px solid var(--line); border-radius: 8px; padding: .8rem 1rem; }
+    #resultContent summary { cursor: pointer; font-weight: 600; }
+    #resultContent summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+    #resultContent { overflow-wrap: anywhere; min-width: 0; }
+    .field-evidence h4 { margin: .9rem 0 .35rem; }
+    .source-entry + .source-entry { margin-top: 1rem; }
+    .source-locator { color: var(--muted); font-size: .82rem; }
+    .source-entry blockquote { margin: .5rem 0; padding-left: .7rem; border-left: 2px solid var(--line); }
+    .legacy-oil-fields .spec-item { border: 0; padding: .3rem 0; }
+    @media (max-width: 900px) { .result-primary { grid-template-columns: 1fr; } }
     .spec-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -526,10 +553,10 @@
       </div>
     </section>
 
-    <div class="disclaimer" data-i18n="disclaimer">Starter records are under review. Always confirm the exact oil approval, viscosity and service-fill quantity in the vehicle owner's manual, manufacturer service information or with a qualified professional before buying or filling oil.</div>
+    <div class="disclaimer" data-i18n="disclaimer">Record completeness varies. Check each field’s evidence, the exact application and the vehicle manual before buying or filling oil.</div>
   </main>
 
-  <script src="oil-data.js?v=20261107-field-evidence"></script>
+  <script src="oil-data.js?v=20261107-result-ux"></script>
   <script>
     const translations = {
       en: {
@@ -543,7 +570,7 @@
         make: 'Make', model: 'Model', generationYear: 'Generation / years', engineCode: 'Engine code',
         selectMake: 'Select make', selectModel: 'Select model', selectGeneration: 'Select generation', selectEngine: 'Select engine',
         findButton: 'Show compatible oil', requestLink: "Can't find your engine? Send a request",
-        recordsAvailable: '{count} starter compatibility records available.',
+        recordsAvailable: "{count} compatibility records available.",
         chooseAll: 'Select make, model, generation and engine to see a result.',
         resultTitle: 'Compatibility result',
         vehicle: 'Vehicle', fuel: 'Fuel', aspiration: 'Aspiration', viscosity: 'SAE viscosity', approvals: 'Manufacturer approvals', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Service-fill quantity', interval: 'Service interval', climate: 'Climate and use', source: 'Verification source', recordStatus: 'Record status', note: 'Important note',
@@ -563,7 +590,7 @@
         classIndustry: 'Industry class: API, ACEA or ILSAC defines performance requirements.',
         classApproval: 'Manufacturer approval: examples include BMW Longlife-01, VW 504 00 or MB 229.5.',
         classVehicle: 'Exact vehicle: engine code, model year, market and emissions equipment can change the answer.',
-        disclaimer: "Starter records are under review. Always confirm the exact oil approval, viscosity and service-fill quantity in the vehicle owner's manual, manufacturer service information or with a qualified professional before buying or filling oil."
+        disclaimer: "Record completeness varies. Check each field’s evidence, the exact application and the vehicle manual before buying or filling oil."
       },
       es: {
         metaDescription: 'Busca viscosidad, API, ACEA, ILSAC y homologaciones de aceite por vehículo y código de motor.',
@@ -576,7 +603,7 @@
         make: 'Marca', model: 'Modelo', generationYear: 'Generación / años', engineCode: 'Código de motor',
         selectMake: 'Selecciona marca', selectModel: 'Selecciona modelo', selectGeneration: 'Selecciona generación', selectEngine: 'Selecciona motor',
         findButton: 'Mostrar aceite compatible', requestLink: '¿No encuentras tu motor? Envía una solicitud',
-        recordsAvailable: '{count} registros iniciales de compatibilidad disponibles.',
+        recordsAvailable: "{count} registros de compatibilidad disponibles.",
         chooseAll: 'Selecciona marca, modelo, generación y motor para ver el resultado.',
         resultTitle: 'Resultado de compatibilidad',
         vehicle: 'Vehículo', fuel: 'Combustible', aspiration: 'Aspiración', viscosity: 'Viscosidad SAE', approvals: 'Homologaciones del fabricante', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Cantidad de servicio', interval: 'Intervalo de servicio', climate: 'Clima y uso', source: 'Fuente de verificación', recordStatus: 'Estado del registro', note: 'Nota importante',
@@ -596,7 +623,7 @@
         classIndustry: 'Clase industrial: API, ACEA o ILSAC define requisitos de rendimiento.',
         classApproval: 'Homologación del fabricante: ejemplos BMW Longlife-01, VW 504 00 o MB 229.5.',
         classVehicle: 'Vehículo exacto: código de motor, año, mercado y emisiones pueden cambiar la respuesta.',
-        disclaimer: 'Los registros iniciales están en revisión. Confirma siempre la homologación, viscosidad y cantidad exactas en el manual, información del fabricante o con un profesional antes de comprar o llenar aceite.'
+        disclaimer: "La integridad de los registros varía. Comprueba la evidencia de cada campo, la aplicación exacta y el manual del vehículo antes de comprar o llenar aceite."
       },
       fr: {
         metaDescription: "Trouvez la viscosité, API, ACEA, ILSAC et les homologations d'huile par véhicule et code moteur.",
@@ -609,7 +636,7 @@
         make: 'Marque', model: 'Modèle', generationYear: 'Génération / années', engineCode: 'Code moteur',
         selectMake: 'Choisir la marque', selectModel: 'Choisir le modèle', selectGeneration: 'Choisir la génération', selectEngine: 'Choisir le moteur',
         findButton: "Afficher l'huile compatible", requestLink: 'Moteur introuvable ? Envoyer une demande',
-        recordsAvailable: '{count} fiches initiales de compatibilité disponibles.',
+        recordsAvailable: "{count} fiches de compatibilité disponibles.",
         chooseAll: 'Sélectionnez la marque, le modèle, la génération et le moteur.',
         resultTitle: 'Résultat de compatibilité',
         vehicle: 'Véhicule', fuel: 'Carburant', aspiration: 'Suralimentation', viscosity: 'Viscosité SAE', approvals: 'Homologations constructeur', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: "Quantité d'entretien", interval: "Intervalle d'entretien", climate: 'Climat et utilisation', source: 'Source de vérification', recordStatus: 'État de la fiche', note: 'Note importante',
@@ -629,7 +656,7 @@
         classIndustry: 'Classe industrielle : API, ACEA ou ILSAC définit les performances.',
         classApproval: 'Homologation constructeur : par exemple BMW Longlife-01, VW 504 00 ou MB 229.5.',
         classVehicle: 'Véhicule exact : code moteur, année, marché et émissions peuvent modifier la réponse.',
-        disclaimer: "Les fiches initiales sont en cours de révision. Confirmez toujours l'homologation, la viscosité et la quantité exactes dans le manuel, les informations constructeur ou auprès d'un professionnel avant l'achat ou le remplissage."
+        disclaimer: "La complétude des fiches varie. Vérifiez les preuves de chaque champ, l’application exacte et le manuel du véhicule avant d’acheter ou de remplir l’huile."
       },
       de: {
         metaDescription: 'Motoröl-Viskosität, API, ACEA, ILSAC und Herstellerfreigaben nach Fahrzeug und Motorcode finden.',
@@ -642,7 +669,7 @@
         make: 'Marke', model: 'Modell', generationYear: 'Generation / Baujahre', engineCode: 'Motorcode',
         selectMake: 'Marke wählen', selectModel: 'Modell wählen', selectGeneration: 'Generation wählen', selectEngine: 'Motor wählen',
         findButton: 'Kompatibles Öl anzeigen', requestLink: 'Motor nicht gefunden? Anfrage senden',
-        recordsAvailable: '{count} Starter-Datensätze verfügbar.',
+        recordsAvailable: "{count} Kompatibilitätsdatensätze verfügbar.",
         chooseAll: 'Marke, Modell, Generation und Motor für ein Ergebnis auswählen.',
         resultTitle: 'Kompatibilitätsergebnis',
         vehicle: 'Fahrzeug', fuel: 'Kraftstoff', aspiration: 'Aufladung', viscosity: 'SAE-Viskosität', approvals: 'Herstellerfreigaben', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Servicefüllmenge', interval: 'Serviceintervall', climate: 'Klima und Einsatz', source: 'Prüfquelle', recordStatus: 'Datenstatus', note: 'Wichtiger Hinweis',
@@ -662,7 +689,7 @@
         classIndustry: 'Industrieklasse: API, ACEA oder ILSAC definiert Leistungsanforderungen.',
         classApproval: 'Herstellerfreigabe: Beispiele sind BMW Longlife-01, VW 504 00 oder MB 229.5.',
         classVehicle: 'Genaues Fahrzeug: Motorcode, Modelljahr, Markt und Abgassystem können die Antwort ändern.',
-        disclaimer: 'Starter-Datensätze werden geprüft. Vor Kauf oder Befüllung immer genaue Freigabe, Viskosität und Füllmenge im Fahrzeughandbuch, in Herstellerunterlagen oder bei einem Fachbetrieb bestätigen.'
+        disclaimer: "Die Vollständigkeit der Datensätze variiert. Vor dem Ölkauf oder Befüllen die Nachweise jedes Feldes, den genauen Einsatzbereich und das Fahrzeughandbuch prüfen."
       }
     };
 
