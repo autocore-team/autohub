@@ -52,7 +52,7 @@ for (const r of publicData.records.slice(0,29)) {
   assert.ok(Object.values(r.evidenceAssessment.fields).every((s) => s === 'notAssessed'));
 }
 assert.ok(generatedOilFileMatches(fs.readFileSync(new URL('../../oil-data.js', import.meta.url),'utf8'), generatedOilFile(data)));
-console.log('PASS immutable Toyota/foundation/quarantine, 37 unchanged research records, original two scoped preliminary partial cards, safe unknown fields and legacy-unassessed state');
+console.log('PASS immutable Toyota/foundation/quarantine, 22 research-only records, original two scoped preliminary partial cards, safe unknown fields and legacy-unassessed state');
 
 for (const state of ['unknown','conflict']) {
   const r=copy();r.applicationEvidence.state=state;
