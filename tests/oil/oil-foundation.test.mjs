@@ -14,18 +14,18 @@ const expectFailure = (mutate, pattern) => {
   assert.throws(() => validateCanonical(copy), pattern);
 };
 
-assert.equal(summary.records, 29);
+assert.equal(summary.records, 79);
 assert.equal(summary.legacyRecords, 59);
-assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25 });
+assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 75 });
 assert.equal(canonical.audit.originalRecordCount, 59);
 assert.equal(canonical.legacyRecords.filter((record) => record.productionReady).length, 0);
 assert.ok(canonical.legacyRecords.every((record) => record.migrationStatus === 'legacyPending' && record.migrationIssues.length));
-console.log('PASS oil schema and safe migration audit: 59 legacy records retained, 4 placeholders plus 25 verified records selectable');
+console.log('PASS oil schema and safe migration audit: 59 legacy records retained, 4 placeholders plus 75 verified records selectable');
 
 const generated = fs.readFileSync(path.join(root, 'oil-data.js'), 'utf8');
 assert.ok(generatedOilFileMatches(generated, generatedOilFile(canonical)));
 const publicData = toPublicOilData(canonical);
-assert.equal(publicData.records.length, 29);
+assert.equal(publicData.records.length, 79);
 assert.equal(publicData.legacyRecords.length, 59);
 assert.ok(publicData.legacyRecords.every((record) => !Object.hasOwn(record, 'viscosities') && !Object.hasOwn(record, 'approvals') && !Object.hasOwn(record, 'capacity')));
 console.log('PASS canonical/generated parity and legacy-claim quarantine');

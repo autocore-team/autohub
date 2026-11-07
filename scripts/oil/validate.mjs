@@ -44,6 +44,11 @@ function validateSource(source, record, index) {
   if (!source.applicableMarket.length) fail(`${label} applicableMarket is empty`);
   requireArray(source.fields, `${label} fields`);
   if (!source.fields.length) fail(`${label} fields is empty`);
+  if (source.evidenceNotes != null) requireText(source.evidenceNotes, `${label} evidenceNotes`);
+  if (source.pageNumbers != null) {
+    requireArray(source.pageNumbers, `${label} pageNumbers`);
+    if (!source.pageNumbers.length || source.pageNumbers.some((page) => !Number.isInteger(page) || page < 1) || new Set(source.pageNumbers).size !== source.pageNumbers.length) fail(`${label} pageNumbers must be unique positive integers`);
+  }
 }
 
 export function validateCanonical(data) {

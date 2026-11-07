@@ -3,6 +3,7 @@
   "baselineCount": 4,
   "addedCount": 25,
   "finalCount": 29,
+  "currentSelectableCount": 79,
   "quarantineCount": 59,
   "candidateAudit": {
     "considered": 30,

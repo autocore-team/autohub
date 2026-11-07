@@ -9,7 +9,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 29,
+    "selectableExactCodeRecordCount": 79,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -3189,6 +3189,6909 @@
         "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-coupe-2017-j35y1",
+      "make": "Honda",
+      "model": "Accord Coupe",
+      "generation": "CT2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Y1",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.5,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Coupe VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Coupe; model-code rows CT2B8, CT2B9 explicitly list J35Y1. Generation is the documented model-code prefix CT2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            4
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 4: 2017 Accord Coupe, 3.5 L, SAE 0W-20, service refill 4.5 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CT2B8, CT2B9 are documented example VIN model codes for J35Y1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código J35Y1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code J35Y1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode J35Y1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-coupe-2017-j35y2",
+      "make": "Honda",
+      "model": "Accord Coupe",
+      "generation": "CT2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Y2",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.5,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Coupe VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Coupe; model-code rows CT2A8 explicitly list J35Y2. Generation is the documented model-code prefix CT2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            4
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 4: 2017 Accord Coupe, 3.5 L, SAE 0W-20, service refill 4.5 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CT2A8 are documented example VIN model codes for J35Y2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código J35Y2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code J35Y2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode J35Y2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-coupe-2017-k24w1",
+      "make": "Honda",
+      "model": "Accord Coupe",
+      "generation": "CT1",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K24W1",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Coupe VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Coupe; model-code rows CT1A3, CT1B3 explicitly list K24W1. Generation is the documented model-code prefix CT1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            3
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 3: 2017 Accord Coupe, 2.4 L, SAE 0W-20, service refill 4.4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CT1A3, CT1B3 are documented example VIN model codes for K24W1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código K24W1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code K24W1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode K24W1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-sedan-2017-j35y1",
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "generation": "CR3",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Y1",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.5,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Sedan VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Sedan; model-code rows CR3F8, CR3F9 explicitly list J35Y1. Generation is the documented model-code prefix CR3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            4
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 4: 2017 Accord Sedan, 3.5 L, SAE 0W-20, service refill 4.5 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CR3F8, CR3F9 are documented example VIN model codes for J35Y1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código J35Y1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code J35Y1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode J35Y1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-sedan-2017-k24w1",
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "generation": "CR2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K24W1",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Sedan VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Sedan; model-code rows CR2E3, CR2F3 explicitly list K24W1. Generation is the documented model-code prefix CR2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            3
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 3: 2017 Accord Sedan, 2.4 L, SAE 0W-20, service refill 4.4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CR2E3, CR2F3 are documented example VIN model codes for K24W1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código K24W1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code K24W1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode K24W1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-coupe-2017-k20c2",
+      "make": "Honda",
+      "model": "Civic Coupe",
+      "generation": "FC4",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K20C2",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Coupe VIN submission (49 CFR Part 565), ORG13067",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Civic Coupe; model-code rows FC4B5 explicitly list K20C2. Generation is the documented model-code prefix FC4. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2017 Civic Coupe, 2 L, SAE 0W-20, service refill 4.4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC4B5 are documented example VIN model codes for K20C2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código K20C2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code K20C2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode K20C2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-coupe-2017-l15b7",
+      "make": "Honda",
+      "model": "Civic Coupe",
+      "generation": "FC3",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15B7",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Coupe VIN submission (49 CFR Part 565), ORG13067",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Civic Coupe; model-code rows FC3B3 explicitly list L15B7. Generation is the documented model-code prefix FC3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2017 Civic Coupe, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC3B3 are documented example VIN model codes for L15B7; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código L15B7 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code L15B7 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode L15B7 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-hatchback-2017-l15ba",
+      "make": "Honda",
+      "model": "Civic Hatchback",
+      "generation": "FK7",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15BA",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Hatchback VIN submission (49 CFR Part 565), ORG12791",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/3805431c-668c-4728-91ec-9f58b04836a1",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Civic Hatchback; model-code rows FK7H3, FK7G4 explicitly list L15BA. Generation is the documented model-code prefix FK7. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            15
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 15: 2017 Civic Hatchback, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Hatchback at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FK7H3, FK7G4 are documented example VIN model codes for L15BA; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código L15BA y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code L15BA et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode L15BA und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-sedan-2017-k20c2",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K20C2",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Sedan VIN submission (49 CFR Part 565), ORG13067",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Civic Sedan; model-code rows FC2F5 explicitly list K20C2. Generation is the documented model-code prefix FC2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2017 Civic Sedan, 2 L, SAE 0W-20, service refill 4.4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC2F5 are documented example VIN model codes for K20C2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código K20C2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code K20C2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode K20C2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-sedan-2017-l15b7",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC1",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15B7",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Sedan VIN submission (49 CFR Part 565), ORG13067",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Civic Sedan; model-code rows FC1F3 explicitly list L15B7. Generation is the documented model-code prefix FC1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2017 Civic Sedan, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC1F3 are documented example VIN model codes for L15B7; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código L15B7 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code L15B7 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode L15B7 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-type-r-2017-k20c1",
+      "make": "Honda",
+      "model": "Civic Type R",
+      "generation": "FK8",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K20C1",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Type R VIN submission (49 CFR Part 565), ORG13596",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/0ab40410-03d7-49e1-a287-b37f57769c07",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Civic Type R; model-code rows FK8G7 explicitly list K20C1. Generation is the documented model-code prefix FK8. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            16
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 16: 2017 Civic Type R, 2 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Type R at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FK8G7 are documented example VIN model codes for K20C1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código K20C1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code K20C1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode K20C1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-cr-v-2017-k24v9",
+      "make": "Honda",
+      "model": "CR-V",
+      "generation": "RW5/RW6",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K24V9",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 CR-V VIN submission (49 CFR Part 565), ORG13749",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d7fff56b-9cb5-4e25-84e1-c1c3cb03b327",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            3,
+            4
+          ],
+          "evidenceNotes": "2017 US Honda CR-V; model-code rows RW5H3, RW6H3 explicitly list K24V9. Generation is the documented model-code prefix RW5/RW6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            22
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 22: 2017 CR-V, 2.4 L, SAE 0W-20, service refill 4.6 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 CR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RW5H3, RW6H3 are documented example VIN model codes for K24V9; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código K24V9 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code K24V9 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode K24V9 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-cr-v-2017-k24w9",
+      "make": "Honda",
+      "model": "CR-V",
+      "generation": "RW5/RW6",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K24W9",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 CR-V VIN submission (49 CFR Part 565), ORG13749",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d7fff56b-9cb5-4e25-84e1-c1c3cb03b327",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            3,
+            4
+          ],
+          "evidenceNotes": "2017 US Honda CR-V; model-code rows RW5H3, RW6H3 explicitly list K24W9. Generation is the documented model-code prefix RW5/RW6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            22
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 22: 2017 CR-V, 2.4 L, SAE 0W-20, service refill 4.6 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 CR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RW5H3, RW6H3 are documented example VIN model codes for K24W9; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código K24W9 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code K24W9 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode K24W9 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-cr-v-2017-l15be",
+      "make": "Honda",
+      "model": "CR-V",
+      "generation": "RW1/RW2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15BE",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 CR-V VIN submission (49 CFR Part 565), ORG13749",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d7fff56b-9cb5-4e25-84e1-c1c3cb03b327",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            3,
+            4
+          ],
+          "evidenceNotes": "2017 US Honda CR-V; model-code rows RW1H5, RW2H5 explicitly list L15BE. Generation is the documented model-code prefix RW1/RW2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            22
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 22: 2017 CR-V, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 CR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RW1H5, RW2H5 are documented example VIN model codes for L15BE; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código L15BE y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code L15BE et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode L15BE und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-fit-2017-l15b1",
+      "make": "Honda",
+      "model": "Fit",
+      "generation": "GK5",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15B1",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.5,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Fit VIN submission (49 CFR Part 565), ORG12690",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b942e273-5d1c-4f11-a116-d0bc078d6567",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Fit; model-code rows GK5G5, GK5H5 explicitly list L15B1. Generation is the documented model-code prefix GK5. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            26
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 26: 2017 Fit, 1.5 L, SAE 0W-20, service refill 3.5 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Fit at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. GK5G5, GK5H5 are documented example VIN model codes for L15B1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código L15B1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code L15B1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode L15B1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-fit-2017-l15b3",
+      "make": "Honda",
+      "model": "Fit",
+      "generation": "GK5",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15B3",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.5,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Fit VIN submission (49 CFR Part 565), ORG12690",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b942e273-5d1c-4f11-a116-d0bc078d6567",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Fit; model-code rows GK5H5 explicitly list L15B3. Generation is the documented model-code prefix GK5. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            26
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 26: 2017 Fit, 1.5 L, SAE 0W-20, service refill 3.5 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Fit at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. GK5H5 are documented example VIN model codes for L15B3; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código L15B3 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code L15B3 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode L15B3 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-hr-v-2017-r18z9",
+      "make": "Honda",
+      "model": "HR-V",
+      "generation": "RU5/RU6",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "R18Z9",
+      "engineAliases": [],
+      "displacementLiters": 1.8,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.9,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 HR-V VIN submission (49 CFR Part 565), ORG12950",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b9edb03d-0e1d-43cb-ade7-cf1b4724f0dd",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda HR-V; model-code rows RU5G3, RU6H3 explicitly list R18Z9. Generation is the documented model-code prefix RU5/RU6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            27
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 27: 2017 HR-V, 1.8 L, SAE 0W-20, service refill 3.9 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 HR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RU5G3, RU6H3 are documented example VIN model codes for R18Z9; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código R18Z9 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code R18Z9 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode R18Z9 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-odyssey-2017-j35z8",
+      "make": "Honda",
+      "model": "Odyssey",
+      "generation": "RL5",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Z8",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.5,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Odyssey VIN submission (49 CFR Part 565), ORG13202",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8b728c8d-3722-43a0-a9ba-97901955bf77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Odyssey; model-code rows RL5H2, RL5H9 explicitly list J35Z8. Generation is the documented model-code prefix RL5. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            30
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 30: 2017 Odyssey, 3.5 L, SAE 0W-20, service refill 4.5 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Odyssey at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RL5H2, RL5H9 are documented example VIN model codes for J35Z8; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código J35Z8 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code J35Z8 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode J35Z8 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-pilot-2017-j35y6",
+      "make": "Honda",
+      "model": "Pilot",
+      "generation": "YF5/YF6",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Y6",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Pilot VIN submission (49 CFR Part 565), ORG13061",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/22ed9662-747f-42c1-aaf1-01cfc140af72",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Pilot; model-code rows YF5H1, YF6H1 explicitly list J35Y6. Generation is the documented model-code prefix YF5/YF6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            34,
+            35
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 34, 35: 2017 Pilot, 3.5 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Both transmission/grade groups have the same oil fill. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Pilot at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. YF5H1, YF6H1 are documented example VIN model codes for J35Y6; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código J35Y6 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code J35Y6 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode J35Y6 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-ridgeline-2017-j35y6",
+      "make": "Honda",
+      "model": "Ridgeline",
+      "generation": "YK2/YK3",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Y6",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Ridgeline VIN submission (49 CFR Part 565), ORG12626",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/88c781a0-bb06-4bce-bfde-3c809e2ebe1e",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Ridgeline; model-code rows YK2F5, YK3F5 explicitly list J35Y6. Generation is the documented model-code prefix YK2/YK3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            37
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 37: 2017 Ridgeline, 3.5 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Ridgeline at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2017 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. YK2F5, YK3F5 are documented example VIN model codes for J35Y6; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2017. Confirma el código J35Y6 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2017. Confirmez le code J35Y6 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2017. Motorcode J35Y6 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-hybrid-2018-lfb1",
+      "make": "Honda",
+      "model": "Accord Hybrid",
+      "generation": "CV3",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "LFB1",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "hybrid",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Accord Hybrid VIN submission (49 CFR Part 565), ORG15191",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/68416e36-62dd-4e37-a4b1-e02f1c05ac47",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Accord Hybrid; model-code rows CV3F1, CV3F4 explicitly list LFB1. Generation is the documented model-code prefix CV3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            9
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 9: 2018 Accord Hybrid, 2 L, SAE 0W-20, service refill 4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Accord Hybrid at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CV3F1, CV3F4 are documented example VIN model codes for LFB1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código LFB1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code LFB1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode LFB1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-hybrid-2018-lfb2",
+      "make": "Honda",
+      "model": "Accord Hybrid",
+      "generation": "CV3",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "LFB2",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "hybrid",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Accord Hybrid VIN submission (49 CFR Part 565), ORG15191",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/68416e36-62dd-4e37-a4b1-e02f1c05ac47",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Accord Hybrid; model-code rows CV3F1, CV3F4 explicitly list LFB2. Generation is the documented model-code prefix CV3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            9
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 9: 2018 Accord Hybrid, 2 L, SAE 0W-20, service refill 4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Accord Hybrid at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CV3F1, CV3F4 are documented example VIN model codes for LFB2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código LFB2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code LFB2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode LFB2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-sedan-2018-k20c4",
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "generation": "CV2",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "K20C4",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.1,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Accord Sedan VIN submission (49 CFR Part 565), ORG14825",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/cce7e74c-c2ee-4d31-9bce-fd904f943200",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Accord Sedan; model-code rows CV2E3, CV2F3 explicitly list K20C4. Generation is the documented model-code prefix CV2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            8
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 8: 2018 Accord Sedan, 2 L, SAE 0W-20, service refill 5.1 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Accord Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CV2E3, CV2F3 are documented example VIN model codes for K20C4; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código K20C4 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code K20C4 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode K20C4 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-sedan-2018-l15be",
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "generation": "CV1",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "L15BE",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Accord Sedan VIN submission (49 CFR Part 565), ORG14826",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/e750b73e-0b2d-4214-8ca5-08bf1419a1fe",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Accord Sedan; model-code rows CV1F1, CV1F3 explicitly list L15BE. Generation is the documented model-code prefix CV1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            7
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 7: 2018 Accord Sedan, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Accord Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CV1F1, CV1F3 are documented example VIN model codes for L15BE; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código L15BE y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code L15BE et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode L15BE und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-coupe-2018-k20c2",
+      "make": "Honda",
+      "model": "Civic Coupe",
+      "generation": "FC4",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "K20C2",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Civic Coupe VIN submission (49 CFR Part 565), ORG14912",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2018 US Honda Civic Coupe; model-code rows FC4B5 explicitly list K20C2. Generation is the documented model-code prefix FC4. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2018 Civic Coupe, 2 L, SAE 0W-20, service refill 4.4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Civic Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC4B5 are documented example VIN model codes for K20C2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código K20C2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code K20C2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode K20C2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-coupe-2018-l15b7",
+      "make": "Honda",
+      "model": "Civic Coupe",
+      "generation": "FC3",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "L15B7",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Civic Coupe VIN submission (49 CFR Part 565), ORG14912",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2018 US Honda Civic Coupe; model-code rows FC3B3 explicitly list L15B7. Generation is the documented model-code prefix FC3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2018 Civic Coupe, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Civic Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC3B3 are documented example VIN model codes for L15B7; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código L15B7 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code L15B7 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode L15B7 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-hatchback-2018-l15ba",
+      "make": "Honda",
+      "model": "Civic Hatchback",
+      "generation": "FK7",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "L15BA",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Civic Hatchback VIN submission (49 CFR Part 565), ORG14121",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/2157ff4f-4a84-49e9-b0b4-a9255a90a5fb",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Civic Hatchback; model-code rows FK7H3, FK7G4 explicitly list L15BA. Generation is the documented model-code prefix FK7. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            15
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 15: 2018 Civic Hatchback, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Civic Hatchback at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FK7H3, FK7G4 are documented example VIN model codes for L15BA; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código L15BA y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code L15BA et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode L15BA und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-sedan-2018-k20c2",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC2",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "K20C2",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Civic Sedan VIN submission (49 CFR Part 565), ORG14912",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2018 US Honda Civic Sedan; model-code rows FC2F5 explicitly list K20C2. Generation is the documented model-code prefix FC2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2018 Civic Sedan, 2 L, SAE 0W-20, service refill 4.4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC2F5 are documented example VIN model codes for K20C2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código K20C2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code K20C2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode K20C2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-sedan-2018-l15b7",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC1",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "L15B7",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Civic Sedan VIN submission (49 CFR Part 565), ORG14912",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2018 US Honda Civic Sedan; model-code rows FC1F3 explicitly list L15B7. Generation is the documented model-code prefix FC1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2018 Civic Sedan, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC1F3 are documented example VIN model codes for L15B7; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código L15B7 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code L15B7 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode L15B7 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-sedan-2018-l15by",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC1",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "L15BY",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Civic Sedan VIN submission (49 CFR Part 565), ORG14912",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2018 US Honda Civic Sedan; model-code rows FC1F3 explicitly list L15BY. Generation is the documented model-code prefix FC1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2018 Civic Sedan, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC1F3 are documented example VIN model codes for L15BY; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código L15BY y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code L15BY et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode L15BY und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-type-r-2018-k20c1",
+      "make": "Honda",
+      "model": "Civic Type R",
+      "generation": "FK8",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "K20C1",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Civic Type R VIN submission (49 CFR Part 565), ORG14121",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/2157ff4f-4a84-49e9-b0b4-a9255a90a5fb",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Civic Type R; model-code rows FK8G3 explicitly list K20C1. Generation is the documented model-code prefix FK8. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            16
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 16: 2018 Civic Type R, 2 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Civic Type R at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FK8G3 are documented example VIN model codes for K20C1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código K20C1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code K20C1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode K20C1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-clarity-plug-in-hybrid-2018-leb3",
+      "make": "Honda",
+      "model": "Clarity Plug-In Hybrid",
+      "generation": "ZC5",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "LEB3",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "hybrid",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.5,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Clarity Plug-In Hybrid VIN submission (49 CFR Part 565), ORG14654",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/fb670f66-8920-4992-ad57-a54c0be34c71",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Clarity Plug-In Hybrid; model-code rows ZC5F1, ZC5F3 explicitly list LEB3. Generation is the documented model-code prefix ZC5. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            17
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 17: 2018 Clarity Plug-In Hybrid, 1.5 L, SAE 0W-20, service refill 3.5 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Clarity Plug-In Hybrid at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. ZC5F1, ZC5F3 are documented example VIN model codes for LEB3; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código LEB3 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code LEB3 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode LEB3 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-cr-v-2018-k24v9",
+      "make": "Honda",
+      "model": "CR-V",
+      "generation": "RW5/RW6",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "K24V9",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 CR-V VIN submission (49 CFR Part 565), ORG14740",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8c68f0cd-5358-4c50-baa2-09e2c1645fe6",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda CR-V; model-code rows RW5H3, RW6H3 explicitly list K24V9. Generation is the documented model-code prefix RW5/RW6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            22
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 22: 2018 CR-V, 2.4 L, SAE 0W-20, service refill 4.6 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 CR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RW5H3, RW6H3 are documented example VIN model codes for K24V9; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código K24V9 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code K24V9 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode K24V9 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-cr-v-2018-k24w9",
+      "make": "Honda",
+      "model": "CR-V",
+      "generation": "RW5/RW6",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "K24W9",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 CR-V VIN submission (49 CFR Part 565), ORG14740",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8c68f0cd-5358-4c50-baa2-09e2c1645fe6",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda CR-V; model-code rows RW5H3, RW6H3 explicitly list K24W9. Generation is the documented model-code prefix RW5/RW6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            22
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 22: 2018 CR-V, 2.4 L, SAE 0W-20, service refill 4.6 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 CR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RW5H3, RW6H3 are documented example VIN model codes for K24W9; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código K24W9 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code K24W9 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode K24W9 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-cr-v-2018-l15be",
+      "make": "Honda",
+      "model": "CR-V",
+      "generation": "RW1/RW2",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "L15BE",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 CR-V VIN submission (49 CFR Part 565), ORG14740",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8c68f0cd-5358-4c50-baa2-09e2c1645fe6",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda CR-V; model-code rows RW1H5, RW2H5 explicitly list L15BE. Generation is the documented model-code prefix RW1/RW2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            22
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 22: 2018 CR-V, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 CR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RW1H5, RW2H5 are documented example VIN model codes for L15BE; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código L15BE y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code L15BE et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode L15BE und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-hr-v-2018-r18z9",
+      "make": "Honda",
+      "model": "HR-V",
+      "generation": "RU5/RU6",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "R18Z9",
+      "engineAliases": [],
+      "displacementLiters": 1.8,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.9,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 HR-V VIN submission (49 CFR Part 565), ORG14120",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/a4517625-b4f5-4904-a7ba-f840487a9df8",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda HR-V; model-code rows RU5G3, RU6H3 explicitly list R18Z9. Generation is the documented model-code prefix RU5/RU6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            27
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 27: 2018 HR-V, 1.8 L, SAE 0W-20, service refill 3.9 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 HR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. RU5G3, RU6H3 are documented example VIN model codes for R18Z9; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código R18Z9 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code R18Z9 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode R18Z9 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-pilot-2018-j35y6",
+      "make": "Honda",
+      "model": "Pilot",
+      "generation": "YF5/YF6",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "J35Y6",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Pilot VIN submission (49 CFR Part 565), ORG14800",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/4ff74c2d-6c0b-4aa3-9614-c3c4362efc03",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Pilot; model-code rows YF5H1, YF6H1 explicitly list J35Y6. Generation is the documented model-code prefix YF5/YF6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            34,
+            35
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 34, 35: 2018 Pilot, 3.5 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Both transmission/grade groups have the same oil fill. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Pilot at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. YF5H1, YF6H1 are documented example VIN model codes for J35Y6; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código J35Y6 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code J35Y6 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode J35Y6 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-ridgeline-2018-j35y6",
+      "make": "Honda",
+      "model": "Ridgeline",
+      "generation": "YK2/YK3",
+      "productionYears": {
+        "from": 2018,
+        "to": 2018
+      },
+      "engineCode": "J35Y6",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2018 Ridgeline VIN submission (49 CFR Part 565), ORG14645",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/9a0bea6f-3c89-4fc8-a7ca-a13a7ccdaec7",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2018 US Honda Ridgeline; model-code rows YK2F5, YK3F5 explicitly list J35Y6. Generation is the documented model-code prefix YK2/YK3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            37
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 37: 2018 Ridgeline, 3.5 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2018,
+            "to": 2018
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2018 Ridgeline at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2018 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. YK2F5, YK3F5 are documented example VIN model codes for J35Y6; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2018. Confirma el código J35Y6 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2018. Confirmez le code J35Y6 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2018. Motorcode J35Y6 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-hybrid-2019-lfb2",
+      "make": "Honda",
+      "model": "Accord Hybrid",
+      "generation": "CV3",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "LFB2",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "hybrid",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Accord Hybrid VIN submission (49 CFR Part 565), ORG16345",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/6001f75f-398f-4b15-b1c7-d6c650c854c0",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            4,
+            5
+          ],
+          "evidenceNotes": "2019 US Honda Accord Hybrid; model-code rows CV3F1, CV3F4 explicitly list LFB2. Generation is the documented model-code prefix CV3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            9
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 9: 2019 Accord Hybrid, 2 L, SAE 0W-20, service refill 4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Accord Hybrid at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CV3F1, CV3F4 are documented example VIN model codes for LFB2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código LFB2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code LFB2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode LFB2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-sedan-2019-k20c4",
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "generation": "CV2",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "K20C4",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.1,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Accord Sedan VIN submission (49 CFR Part 565), ORG16345",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/6001f75f-398f-4b15-b1c7-d6c650c854c0",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            3,
+            5
+          ],
+          "evidenceNotes": "2019 US Honda Accord Sedan; model-code rows CV2E3, CV2F3 explicitly list K20C4. Generation is the documented model-code prefix CV2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            8
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 8: 2019 Accord Sedan, 2 L, SAE 0W-20, service refill 5.1 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Accord Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CV2E3, CV2F3 are documented example VIN model codes for K20C4; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código K20C4 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code K20C4 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode K20C4 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-accord-sedan-2019-l15be",
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "generation": "CV1",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "L15BE",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Accord Sedan VIN submission (49 CFR Part 565), ORG16345",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/6001f75f-398f-4b15-b1c7-d6c650c854c0",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            3,
+            5
+          ],
+          "evidenceNotes": "2019 US Honda Accord Sedan; model-code rows CV1F1, CV1F3 explicitly list L15BE. Generation is the documented model-code prefix CV1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            7
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 7: 2019 Accord Sedan, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Accord Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. CV1F1, CV1F3 are documented example VIN model codes for L15BE; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código L15BE y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code L15BE et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode L15BE und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-coupe-2019-k20c2",
+      "make": "Honda",
+      "model": "Civic Coupe",
+      "generation": "FC4",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "K20C2",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Civic Coupe VIN submission (49 CFR Part 565), ORG16024",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2019 US Honda Civic Coupe; model-code rows FC4B6 explicitly list K20C2. Generation is the documented model-code prefix FC4. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2019 Civic Coupe, 2 L, SAE 0W-20, service refill 4.4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Civic Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC4B6 are documented example VIN model codes for K20C2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código K20C2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code K20C2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode K20C2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-coupe-2019-l15b7",
+      "make": "Honda",
+      "model": "Civic Coupe",
+      "generation": "FC3",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "L15B7",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Civic Coupe VIN submission (49 CFR Part 565), ORG16024",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            7,
+            8
+          ],
+          "evidenceNotes": "2019 US Honda Civic Coupe; model-code rows FC3B3 explicitly list L15B7. Generation is the documented model-code prefix FC3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2019 Civic Coupe, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Civic Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC3B3 are documented example VIN model codes for L15B7; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código L15B7 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code L15B7 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode L15B7 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-hatchback-2019-l15ba",
+      "make": "Honda",
+      "model": "Civic Hatchback",
+      "generation": "FK7",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "L15BA",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Civic Hatchback VIN submission (49 CFR Part 565), ORG16023",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1eb6055c-3b42-429b-8dd9-2055c34c301c",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2019 US Honda Civic Hatchback; model-code rows FK7H3, FK7G4 explicitly list L15BA. Generation is the documented model-code prefix FK7. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            15
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 15: 2019 Civic Hatchback, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Civic Hatchback at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FK7H3, FK7G4 are documented example VIN model codes for L15BA; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código L15BA y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code L15BA et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode L15BA und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-sedan-2019-k20c2",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC2",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "K20C2",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Civic Sedan VIN submission (49 CFR Part 565), ORG16024",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2019 US Honda Civic Sedan; model-code rows FC2F6 explicitly list K20C2. Generation is the documented model-code prefix FC2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2019 Civic Sedan, 2 L, SAE 0W-20, service refill 4.4 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC2F6 are documented example VIN model codes for K20C2; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código K20C2 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code K20C2 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode K20C2 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-sedan-2019-l15b7",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC1",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "L15B7",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Civic Sedan VIN submission (49 CFR Part 565), ORG16024",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2019 US Honda Civic Sedan; model-code rows FC1F3 explicitly list L15B7. Generation is the documented model-code prefix FC1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2019 Civic Sedan, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC1F3 are documented example VIN model codes for L15B7; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código L15B7 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code L15B7 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode L15B7 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-sedan-2019-l15by",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC1",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "L15BY",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Civic Sedan VIN submission (49 CFR Part 565), ORG16024",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            8
+          ],
+          "evidenceNotes": "2019 US Honda Civic Sedan; model-code rows FC1F3 explicitly list L15BY. Generation is the documented model-code prefix FC1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            14
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 14: 2019 Civic Sedan, 1.5 L, SAE 0W-20, service refill 3.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FC1F3 are documented example VIN model codes for L15BY; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código L15BY y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code L15BY et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode L15BY und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-civic-type-r-2019-k20c1",
+      "make": "Honda",
+      "model": "Civic Type R",
+      "generation": "FK8",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "K20C1",
+      "engineAliases": [],
+      "displacementLiters": 2,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Civic Type R VIN submission (49 CFR Part 565), ORG16023",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1eb6055c-3b42-429b-8dd9-2055c34c301c",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2019 US Honda Civic Type R; model-code rows FK8G3 explicitly list K20C1. Generation is the documented model-code prefix FK8. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            16
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 16: 2019 Civic Type R, 2 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Civic Type R at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. FK8G3 are documented example VIN model codes for K20C1; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código K20C1 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code K20C1 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode K20C1 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-passport-2019-j35y6",
+      "make": "Honda",
+      "model": "Passport",
+      "generation": "YF7/YF8",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "J35Y6",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Passport VIN submission (49 CFR Part 565), ORG16069",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/5bb13080-7d9a-47c3-9a95-cc2846951798",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            6,
+            7
+          ],
+          "evidenceNotes": "2019 US Honda Passport; model-code rows YF7H2, YF8H2 explicitly list J35Y6. Generation is the documented model-code prefix YF7/YF8. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            32
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 32: 2019 Passport, 3.5 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Passport at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. YF7H2, YF8H2 are documented example VIN model codes for J35Y6; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código J35Y6 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code J35Y6 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode J35Y6 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "honda-pilot-2019-j35y6",
+      "make": "Honda",
+      "model": "Pilot",
+      "generation": "YF5/YF6",
+      "productionYears": {
+        "from": 2019,
+        "to": 2019
+      },
+      "engineCode": "J35Y6",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal (energy conserving; latest API requirement)"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Service oil change including a new oil filter; US liquid quarts, not dry-engine capacity. Check the dipstick after filling.",
+        "es": "Cambio de aceite de servicio con filtro nuevo; cuartos líquidos de EE. UU., no capacidad del motor seco. Comprueba la varilla después del llenado.",
+        "fr": "Vidange avec filtre à huile neuf ; quarts liquides US, hors remplissage à sec. Contrôlez la jauge après remplissage.",
+        "de": "Ölwechsel mit neuem Ölfilter; US-Flüssigquarts, keine Trockenfüllmenge. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2019 Pilot VIN submission (49 CFR Part 565), ORG16052",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b22ac049-4750-4ce5-ab4c-85e914879975",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market"
+          ],
+          "pageNumbers": [
+            3,
+            4
+          ],
+          "evidenceNotes": "2019 US Honda Pilot; model-code rows YF5H1, YF6H1 explicitly list J35Y6. Generation is the documented model-code prefix YF5/YF6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Vehicle Service Quick Reference Guide, 2013–2020, 01120-15664 v25 (archival copy)",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+          "type": "serviceManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            34,
+            35
+          ],
+          "evidenceNotes": "Original American Honda publication 01120-15664, Version 25 (2010), copyright 2020; archival mirror, not an independent publisher. Oil & Fluid Requirements, PDF page(s) 34, 35: 2019 Pilot, 3.5 L, SAE 0W-20, service refill 5.7 qt with filter. US-market service document uses US liquid qt. Both transmission/grade groups have the same oil fill. Only the exact engine application bound by the VIN filing is used."
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2019,
+            "to": 2019
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2019 Pilot at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil."
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. 2019 model-year application; confirm engine stamping and emissions hardware by VIN. DPF, GPF and catalyst details remain unknown; the cited U.S. oil row has no emissions-dependent alternative. YF5H1, YF6H1 are documented example VIN model codes for J35Y6; do not extend to a different code or market. API certification is an industry requirement; no separate Honda approval is specified. No service interval is published in this record.",
+        "es": "Aplicación EE. UU. 2019. Confirma el código J35Y6 y el equipo de emisiones por VIN; DPF, GPF y catalizador desconocidos. La tabla citada no distingue requisitos por emisiones. Certificación API; no se exige aprobación Honda independiente. No se publica intervalo de servicio.",
+        "fr": "Application États-Unis 2019. Confirmez le code J35Y6 et l’équipement antipollution par VIN ; DPF, GPF et catalyseur inconnus. La table citée ne distingue pas les exigences selon les émissions. Certification API ; aucune homologation Honda distincte exigée. Aucun intervalle publié.",
+        "de": "US-Modelljahr 2019. Motorcode J35Y6 und Abgasausstattung per VIN bestätigen; DPF, GPF und Katalysator unbekannt. Die zitierte Tabelle unterscheidet keine abgasabhängigen Ölvorgaben. API-Zertifizierung; keine gesonderte Honda-Freigabe vorgeschrieben. Kein Serviceintervall veröffentlicht."
       },
       "legacyRecordId": null
     }
