@@ -18,17 +18,17 @@ const ui = createRequire(import.meta.url)('../../assets/js/oil-guide.js');
 
 assert.equal(fixture.baselineCount, 29);
 assert.equal(fixture.quarantineCount, 59);
-assert.equal(fixture.addedCount, 28);
+assert.equal(fixture.addedCount, 37);
 assert.equal(fixture.researchAddedCount, 50);
 assert.equal(batch.length, fixture.researchCount);
 assert.equal(summary.records, fixture.finalCount);
 assert.equal(summary.productionRecommendations, fixture.productionRecommendationCount);
-assert.equal(summary.researchRecords, 22);
+assert.equal(summary.researchRecords, 13);
 assert.equal(summary.legacyRecords, fixture.quarantineCount);
-assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 28 });
+assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 37 });
 assert.deepEqual(summary.statuses, fixture.finalStatuses);
 assert.deepEqual(summary.researchStatuses, fixture.researchStatuses);
-assert.deepEqual(summary.researchStatuses, { preliminary: 22 });
+assert.deepEqual(summary.researchStatuses, { preliminary: 13 });
 assert.equal(sha(canonical.records.slice(0, fixture.baselineCount)), fixture.baselineSemanticHash);
 assert.equal(sha(canonical.records.slice(0, fixture.baselineCount).map((r) => r.id)), fixture.baselineOrderHash);
 assert.equal(sha(canonical.legacyRecords), fixture.baselineQuarantineHash);
@@ -46,10 +46,10 @@ assert.equal(sha(batch.map((r) => r.id)), fixture.researchOrderHash);
 assert.equal(sha(batch.map((r) => r.sources.map((s) => s.url))), fixture.originalResearchSourceUrlsHash);
 assert.equal(sha(batch.map(({ id, status, sources, notes, capacityNote, researchIssues, ...claims }) => ({ id, ...claims }))), fixture.originalResearchClaimsHash);
 assert.equal(fixture.candidateAudit.considered, fixture.candidateAudit.acceptedProduction + fixture.candidateAudit.retainedPreliminary + fixture.candidateAudit.excluded);
-assert.equal(fixture.candidateAudit.acceptedProduction, 28);
-assert.equal(fixture.candidateAudit.retainedPreliminary, 22);
+assert.equal(fixture.candidateAudit.acceptedProduction, 37);
+assert.equal(fixture.candidateAudit.retainedPreliminary, 13);
 assert.equal(fixture.candidateAudit.exclusions.length, fixture.candidateAudit.excluded);
-console.log('PASS 29 unchanged baseline + 28 partial cards, 22 preliminary research, 59 unchanged legacy quarantine; hashes and captured claims preserved');
+console.log('PASS 29 unchanged baseline + 37 partial cards, 13 preliminary research, 59 unchanged legacy quarantine; hashes and captured claims preserved');
 
 const documents = new Map(fixture.documents.map((document) => [document.url, document]));
 assert.equal(documents.size, 27);
@@ -112,13 +112,13 @@ for (const [index, record] of batch.entries()) {
   assert.ok(oil.evidenceNotes.includes(`${record.serviceFillCapacity} qt`));
   assert.ok(record.sources.some((s) => s.url === industryEvidence.url));
 }
-console.log('PASS all 22 remaining research records retain URLs, locators, identity evidence and captured quantities with explicit unresolved provenance/capacity warnings');
+console.log('PASS all 13 remaining research records retain URLs, locators, identity evidence and captured quantities with explicit unresolved provenance/capacity warnings');
 
 const generated = fs.readFileSync(path.join(root, 'oil-data.js'), 'utf8');
 assert.ok(generatedOilFileMatches(generated, generatedOilFile(canonical)));
 assert.deepEqual(publicData.records.slice(0, 29).map(({ evidenceAssessment, completeness, ...r }) => r), canonical.records.slice(0, 29));
 assert.deepEqual(publicData.records.slice(29).map(r=>r.id), fixture.publishedPartialIds);
-assert.equal(publicData.records.length, 57);
+assert.equal(publicData.records.length, 66);
 assert.equal(publicData.legacyRecords.length, 59);
 assert.ok(!Object.hasOwn(publicData, 'researchRecords'));
 assert.ok(ui.cascade(publicData.records).makes.includes('Honda'));
@@ -136,7 +136,7 @@ for (const record of batch) {
 for (const id of ['toyota-venza-2013-1ar-fe', 'toyota-tacoma-4wd-prerunner-2013-1gr-fe', 'bmw-e46-m54b25']) {
   assert.equal(ui.resolveUrlState(publicData, `https://d3orient.com/oil-guide.html?engine=${id}&lang=en`).record.id, id);
 }
-console.log('PASS public/generated parity; all 22 research-only IDs, capacities and archive source excluded from selectors, quick search and URL recommendations');
+console.log('PASS public/generated parity; all 13 research-only IDs, capacities and archive source excluded from selectors, quick search and URL recommendations');
 
 const expectFailure = (mutate, pattern) => {
   const copy = structuredClone(canonical);

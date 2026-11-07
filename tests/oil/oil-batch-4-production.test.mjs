@@ -8,22 +8,23 @@ import { toPublicOilData, generatedOilFile, generatedOilFileMatches } from '../.
 
 const fixture = JSON.parse(fs.readFileSync(new URL('./fixtures/batch-4-production.json', import.meta.url)));
 const data = loadCanonical(), pub = toPublicOilData(data), summary = validateCanonical(data);
+const current = fixture.current || { counts: fixture.finalCounts, canonicalHash: fixture.finalCanonicalHash, remainingResearchHash: fixture.remainingResearchHash, laterAnnotations: [] };
 const ui = createRequire(import.meta.url)('../../assets/js/oil-guide.js');
 const sha = (x) => crypto.createHash('sha256').update(typeof x === 'string' ? x : JSON.stringify(x)).digest('hex');
 assert.deepEqual(fixture.baselineCounts, { selectable: 42, research: 37, quarantine: 59 });
 assert.deepEqual(fixture.finalCounts, { selectable: 57, research: 22, quarantine: 59 });
-assert.equal(summary.records, fixture.finalCounts.selectable);
-assert.equal(summary.researchRecords, fixture.finalCounts.research);
+assert.equal(summary.records, current.counts.selectable);
+assert.equal(summary.researchRecords, current.counts.research);
 assert.equal(summary.legacyRecords, fixture.finalCounts.quarantine);
 assert.equal(sha(data.records.slice(0, 42)), fixture.baselineRecordsHash);
 assert.equal(sha(data.records.slice(0, 42).map(r => r.id)), fixture.baselineOrderHash);
 assert.equal(sha(pub.records.slice(0, 42)), fixture.baselinePublicHash);
 assert.equal(sha(data.legacyRecords), fixture.legacyQuarantineHash);
-assert.equal(sha(data.researchRecords), fixture.remainingResearchHash);
-assert.equal(sha(data), fixture.finalCanonicalHash);
+assert.equal(sha(data.researchRecords), current.remainingResearchHash);
+assert.equal(sha(data), current.canonicalHash);
 assert.equal(sha(data.records.slice(0, fixture.finalCounts.selectable)), fixture.finalRecordsHash);
 assert.equal(sha(pub.records.slice(0, fixture.finalCounts.selectable)), fixture.finalPublicHash);
-assert.deepEqual(data.records.slice(42).map(r => r.id), fixture.accepted);
+assert.deepEqual(data.records.slice(42, fixture.finalCounts.selectable).map(r => r.id), fixture.accepted);
 assert.equal(fixture.considered.length, 20);
 assert.equal(fixture.accepted.length, 15);
 assert.equal(fixture.retained.length, 5);
@@ -31,6 +32,11 @@ assert.deepEqual([...fixture.accepted, ...fixture.retained.map(r => r.id)].sort(
 assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 79);
 for (const r of data.researchRecords) {
   const original = structuredClone(r), deferred = fixture.retained.find(e => e.id === r.id);
+  for (const later of current.laterAnnotations.filter(e => e.id === r.id)) {
+    assert.equal(original.researchIssues.pop(), later.reason);
+    assert.ok(original.sources[0].evidenceNotes.endsWith(' ' + later.reason));
+    original.sources[0].evidenceNotes = original.sources[0].evidenceNotes.slice(0, -later.reason.length - 1);
+  }
   if (deferred) {
     assert.equal(original.researchIssues.pop(), deferred.reason);
     assert.ok(original.sources[0].evidenceNotes.endsWith(' ' + deferred.reason));
@@ -133,4 +139,4 @@ assert.equal(phev.fuelType, 'hybrid'); assert.equal(phev.sources[0].scope.engine
 assert.match(phev.sources[1].locators[0].section, /Clarity Plug-in/);
 assert.match(phev.sources[0].locators[1].excerpt, /Primary Fuel Type Electricity.*Secondary Fuel Type Gasoline.*Plug-in Hybrid/);
 assert.ok(generatedOilFileMatches(fs.readFileSync(new URL('../../oil-data.js', import.meta.url), 'utf8'), generatedOilFile(data)));
-console.log('PASS 22 research-only records blocked; 5 new ambiguity reasons; no repeat of deferred/Type R candidates; Civic restricted to EX-T 6MT; Clarity has its own PHEV evidence; generated freshness');
+console.log('PASS current research-only records blocked; 5 historical Batch 4 ambiguity reasons; no repeat of deferred/Type R candidates; Civic restricted to EX-T 6MT; Clarity has its own PHEV evidence; generated freshness');

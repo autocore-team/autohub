@@ -52,7 +52,7 @@ for (const r of publicData.records.slice(0,29)) {
   assert.ok(Object.values(r.evidenceAssessment.fields).every((s) => s === 'notAssessed'));
 }
 assert.ok(generatedOilFileMatches(fs.readFileSync(new URL('../../oil-data.js', import.meta.url),'utf8'), generatedOilFile(data)));
-console.log('PASS immutable Toyota/foundation/quarantine, 22 research-only records, original two scoped preliminary partial cards, safe unknown fields and legacy-unassessed state');
+console.log('PASS immutable Toyota/foundation/quarantine, 13 research-only records, original two scoped preliminary partial cards, safe unknown fields and legacy-unassessed state');
 
 for (const state of ['unknown','conflict']) {
   const r=copy();r.applicationEvidence.state=state;
@@ -130,7 +130,7 @@ delete vin.engineCode;
 assert.throws(()=>assessOilEvidence(vin),/Locator does not cover|trusted scoped/);
 vin.engineIdentity.type='engineeringCode';delete vin.engineIdentity.value;vin.engineCode='Z';
 assert.throws(()=>assessOilEvidence(vin),/literal evidence/);
-const displayed=structuredClone(publicData.records.at(-1));delete displayed.engineCode;displayed.engineIdentity={type:'vinEngineSymbol',value:'Z'};
+const displayed=structuredClone(publicData.records.find(r => r.id === fixture.partialIds[1]));delete displayed.engineCode;displayed.engineIdentity={type:'vinEngineSymbol',value:'Z'};
 assert.ok(ui.engineLabel(displayed).includes('VIN engine symbol'));
 const vinHtml=ui.renderOilCard(displayed,'en');assert.match(vinHtml, /data-field="engineIdentity"[\s\S]*?VIN engine symbol[\s\S]*?class="spec-value">Z<\/div>/);assert.doesNotMatch(vinHtml,/Engineering code: Z/);
 console.log('PASS VIN symbols cannot substitute for engineering codes or borrow engineering-code evidence');
@@ -146,7 +146,7 @@ const ambiguousFill=structuredClone(complete);ambiguousFill.sources[2].locators.
 complete.fieldEvidence.serviceInterval={state:'unknown',evidenceRefs:[]};assert.equal(assessOilEvidence(complete).completeness.state,'partial');
 for(const lang of ['en','es','fr','de']){
  assert.deepEqual(Object.keys(ui.evidenceText[lang]).sort(),Object.keys(ui.evidenceText.en).sort());
- const html=ui.renderOilCard(publicData.records.at(-1),lang);
+ const html=ui.renderOilCard(publicData.records.find(r => r.id === fixture.partialIds[1]),lang);
  assert.ok(html.includes(ui.evidenceText[lang].unknown));assert.ok(html.includes(ui.evidenceText[lang].documentedPath));assert.ok(html.includes(ui.evidenceText[lang].completeness));assert.match(html,/field-sources/);assert.match(html,/#page=6/);assert.doesNotMatch(html,/>Verified</);
  const state=ui.resolveUrlState(publicData,`https://d3orient.com/oil-guide.html?engine=${fixture.partialIds[0]}&lang=${lang}`);
  assert.equal(state.record.id,fixture.partialIds[0]);assert.equal(state.lang,lang);
