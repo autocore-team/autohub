@@ -14,8 +14,8 @@ const partial = data.records.find((r) => r.id === fixture.partialIds[0]);
 const ref = (sourceId, locatorId) => ({ sourceId, locatorId });
 const copy = () => structuredClone(partial);
 const invalid = (mutate, pattern) => { const r = copy(); mutate(r); assert.throws(() => assessOilEvidence(r), pattern); assert.equal(isPublicOilRecord(r), false); };
-assert.equal(data.records.length, 31);
-assert.equal(data.researchRecords.length, 48);
+assert.equal(data.records.length, fixture.selectableCount);
+assert.equal(data.researchRecords.length, fixture.researchCount);
 assert.equal(data.legacyRecords.length, 59);
 assert.equal(sha(data.records.slice(0,29)), fixture.baselineRecordsHash);
 assert.equal(sha(data.records.filter((r) => r.make === 'Toyota')), fixture.toyotaHash);
@@ -52,7 +52,7 @@ for (const r of publicData.records.slice(0,29)) {
   assert.ok(Object.values(r.evidenceAssessment.fields).every((s) => s === 'notAssessed'));
 }
 assert.ok(generatedOilFileMatches(fs.readFileSync(new URL('../../oil-data.js', import.meta.url),'utf8'), generatedOilFile(data)));
-console.log('PASS immutable Toyota/foundation/quarantine, 48 unchanged research records, two scoped preliminary partial cards, safe unknown fields and legacy-unassessed state');
+console.log('PASS immutable Toyota/foundation/quarantine, 37 unchanged research records, original two scoped preliminary partial cards, safe unknown fields and legacy-unassessed state');
 
 for (const state of ['unknown','conflict']) {
   const r=copy();r.applicationEvidence.state=state;

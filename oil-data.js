@@ -9,7 +9,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 31,
+    "selectableExactCodeRecordCount": 42,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -4772,6 +4772,4080 @@
             {
               "sourceId": "honda-oil-faq",
               "locatorId": "accord-viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-accord-coupe-2017-j35y1",
+      "make": "Honda",
+      "model": "Accord Coupe",
+      "generation": "CT2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Y1",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Coupe VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Coupe; model-code rows CT2B8, CT2B9 explicitly list J35Y1. Generation is the documented model-code prefix CT2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to CT2B8 EX-L 6AT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org12691",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "bab30ec74636e007fa35b65efb046402ac46b4ddb4cc8584b0293a42d458fd72",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Coupe"
+            ],
+            "applicationCodes": [
+              "CT2B8"
+            ],
+            "engineClass": "V6"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                7
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA ACCORD COUPE Model Codes. CT2B8 HONDA EX-L 2WD 6AT Accord Coupe J35Y1."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration",
+                "displacementLiters"
+              ],
+              "excerpt": "2017MY HONDA ACCORD COUPE Engine characteristics. J35Y1. Displacement 3.5(L). Primary Fuel Type Gasoline. Number of cylinders 6. Electrification Level Not Applicable. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160209, April 18, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Accord."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2011,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Accord 2011–2020 L4 & V6 chart row applies only through the direct Honda application/engine binding.  This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Coupe"
+            ],
+            "engineClasses": [
+              "V6"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org12691",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Accord → 2011–2020 L4 & V6",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Accord: 2011-2020 L4 & V6: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Accord Coupe card: EX-L CT2B8 6AT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Accord Coupe: EX-L CT2B8 6AT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Accord Coupe : EX-L CT2B8 6AT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Accord Coupe: EX-L CT2B8 6AT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "CT2B8",
+            "trim": "EX-L",
+            "transmission": "6AT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org12691",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org12691",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG12691 PDF pages 1, 7, 8 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. Other trims, body styles, transmissions and engine codes are not inferred."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-accord-coupe-2017-j35y2",
+      "make": "Honda",
+      "model": "Accord Coupe",
+      "generation": "CT2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Y2",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Coupe VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Coupe; model-code rows CT2A8 explicitly list J35Y2. Generation is the documented model-code prefix CT2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to CT2A8 EX-L 6MT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org12691",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "bab30ec74636e007fa35b65efb046402ac46b4ddb4cc8584b0293a42d458fd72",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Coupe"
+            ],
+            "applicationCodes": [
+              "CT2A8"
+            ],
+            "engineClass": "V6"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                7
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA ACCORD COUPE Model Codes. CT2A8 HONDA EX-L 2WD 6MT Accord Coupe J35Y2."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration",
+                "displacementLiters"
+              ],
+              "excerpt": "2017MY HONDA ACCORD COUPE Engine characteristics. J35Y2. Displacement 3.5(L). Primary Fuel Type Gasoline. Number of cylinders 6. Electrification Level Not Applicable. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160209, April 18, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Accord."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2011,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Accord 2011–2020 L4 & V6 chart row applies only through the direct Honda application/engine binding.  This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Coupe"
+            ],
+            "engineClasses": [
+              "V6"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org12691",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Accord → 2011–2020 L4 & V6",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Accord: 2011-2020 L4 & V6: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Accord Coupe card: EX-L CT2A8 6MT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Accord Coupe: EX-L CT2A8 6MT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Accord Coupe : EX-L CT2A8 6MT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Accord Coupe: EX-L CT2A8 6MT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "CT2A8",
+            "trim": "EX-L",
+            "transmission": "6MT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org12691",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org12691",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG12691 PDF pages 1, 7, 8 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. Other trims, body styles, transmissions and engine codes are not inferred."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-accord-coupe-2017-k24w1",
+      "make": "Honda",
+      "model": "Accord Coupe",
+      "generation": "CT1",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K24W1",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Coupe VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Coupe; model-code rows CT1A3, CT1B3 explicitly list K24W1. Generation is the documented model-code prefix CT1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to CT1A3 LX-S 6MT 2WD; CT1B3 LX-S CVT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org12691",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "bab30ec74636e007fa35b65efb046402ac46b4ddb4cc8584b0293a42d458fd72",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Coupe"
+            ],
+            "applicationCodes": [
+              "CT1A3",
+              "CT1B3"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                7
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA ACCORD COUPE Model Codes. CT1A3 HONDA LX-S 2WD 6MT Accord Coupe K24W1. CT1B3 HONDA LX-S 2WD CVT Accord Coupe K24W1."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration",
+                "displacementLiters"
+              ],
+              "excerpt": "2017MY HONDA ACCORD COUPE Engine characteristics. K24W1. Displacement 2.4(L). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160209, April 18, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Accord."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2011,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Accord 2011–2020 L4 & V6 chart row applies only through the direct Honda application/engine binding.  This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Coupe"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org12691",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Accord → 2011–2020 L4 & V6",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Accord: 2011-2020 L4 & V6: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Accord Coupe card: LX-S CT1A3 6MT 2WD; LX-S CT1B3 CVT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Accord Coupe: LX-S CT1A3 6MT 2WD; LX-S CT1B3 CVT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Accord Coupe : LX-S CT1A3 6MT 2WD; LX-S CT1B3 CVT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Accord Coupe: LX-S CT1A3 6MT 2WD; LX-S CT1B3 CVT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "CT1A3",
+            "trim": "LX-S",
+            "transmission": "6MT",
+            "driveType": "2WD"
+          },
+          {
+            "code": "CT1B3",
+            "trim": "LX-S",
+            "transmission": "CVT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org12691",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org12691",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG12691 PDF pages 1, 7, 8 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. Other trims, body styles, transmissions and engine codes are not inferred."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12691",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-civic-coupe-2017-k20c2",
+      "make": "Honda",
+      "model": "Civic Coupe",
+      "generation": "FC4",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K20C2",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Coupe VIN submission (49 CFR Part 565), ORG13067",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Civic Coupe; model-code rows FC4B5 explicitly list K20C2. Generation is the documented model-code prefix FC4. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to FC4B5 CIVIC LX CVT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org13067",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "3f0f5b4fd7549be4b7ed8e3cd788e2b47f1a82168a782d100e5b943072c97919",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Coupe"
+            ],
+            "applicationCodes": [
+              "FC4B5"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                7
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA CIVIC COUPE Model Codes. FC4B5 HONDA CIVIC LX 2WD CVT Civic Coupe K20C2."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration"
+              ],
+              "excerpt": "2017MY HONDA CIVIC COUPE Engine characteristics. K20C2. Displacement 1995 (unit not specified). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160452, August 2, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Civic."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2012,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Civic 2012–2020 All others chart row applies only through the direct Honda application/engine binding. The selected ordinary LX/EX trims are non-hybrid gasoline variants, outside the separately listed GX/Natural Gas, Hybrid and Si categories; Type R is not published in this batch. This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Coupe"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org13067",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Civic → 2012–2020 All others",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Civic: 2012-2020 All others: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Civic Coupe card: CIVIC LX FC4B5 CVT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Civic Coupe: CIVIC LX FC4B5 CVT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Civic Coupe : CIVIC LX FC4B5 CVT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Civic Coupe: CIVIC LX FC4B5 CVT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "FC4B5",
+            "trim": "CIVIC LX",
+            "transmission": "CVT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org13067",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org13067",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG13067 PDF pages 1, 7, 8 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. LX/EX non-hybrid ordinary Civic applications map to the FAQ All others category; Sport/Sport Touring, Si and Type R are excluded."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 5,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 5,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-civic-coupe-2017-l15b7",
+      "make": "Honda",
+      "model": "Civic Coupe",
+      "generation": "FC3",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15B7",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Coupe VIN submission (49 CFR Part 565), ORG13067",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            7,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Civic Coupe; model-code rows FC3B3 explicitly list L15B7. Generation is the documented model-code prefix FC3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to FC3B3 CIVIC EX CVT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org13067",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "3f0f5b4fd7549be4b7ed8e3cd788e2b47f1a82168a782d100e5b943072c97919",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Coupe"
+            ],
+            "applicationCodes": [
+              "FC3B3"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                7
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA CIVIC COUPE Model Codes. FC3B3 HONDA CIVIC EX 2WD CVT Civic Coupe L15B7."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration"
+              ],
+              "excerpt": "2017MY HONDA CIVIC COUPE Engine characteristics. L15B7. Displacement 1496 (unit not specified). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Turbocharged."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160452, August 2, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Civic."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2012,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Coupe at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Civic 2012–2020 All others chart row applies only through the direct Honda application/engine binding. The selected ordinary LX/EX trims are non-hybrid gasoline variants, outside the separately listed GX/Natural Gas, Hybrid and Si categories; Type R is not published in this batch. This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Coupe"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org13067",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Civic → 2012–2020 All others",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Civic: 2012-2020 All others: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Civic Coupe card: CIVIC EX FC3B3 CVT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Civic Coupe: CIVIC EX FC3B3 CVT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Civic Coupe : CIVIC EX FC3B3 CVT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Civic Coupe: CIVIC EX FC3B3 CVT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "FC3B3",
+            "trim": "CIVIC EX",
+            "transmission": "CVT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org13067",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org13067",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG13067 PDF pages 1, 7, 8 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. LX/EX non-hybrid ordinary Civic applications map to the FAQ All others category; Sport/Sport Touring, Si and Type R are excluded."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 5,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 5,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-civic-hatchback-2017-l15ba",
+      "make": "Honda",
+      "model": "Civic Hatchback",
+      "generation": "FK7",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15BA",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Hatchback VIN submission (49 CFR Part 565), ORG12791",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/3805431c-668c-4728-91ec-9f58b04836a1",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Civic Hatchback; model-code rows FK7H3, FK7G4 explicitly list L15BA. Generation is the documented model-code prefix FK7. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to FK7H3 LX CVT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org12791",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "cab1adeb73ee452e8b41c9dd7674befc796057af1a953d66d8608f1c609a3efc",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Hatchback"
+            ],
+            "applicationCodes": [
+              "FK7H3"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                6
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA CIVIC HATCHBACK Model Codes. FK7H3 HONDA LX 2WD CVT Civic Hatchback L15BA."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                7
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration",
+                "displacementLiters"
+              ],
+              "excerpt": "2017MY HONDA CIVIC HATCHBACK Engine characteristics. L15BA. Displacement 1.5(L). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Turbocharged."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160297, May 25, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Civic."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2012,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Hatchback at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Civic 2012–2020 All others chart row applies only through the direct Honda application/engine binding. The selected ordinary LX/EX trims are non-hybrid gasoline variants, outside the separately listed GX/Natural Gas, Hybrid and Si categories; Type R is not published in this batch. This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Hatchback"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org12791",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Civic → 2012–2020 All others",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Civic: 2012-2020 All others: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Civic Hatchback card: LX FK7H3 CVT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Civic Hatchback: LX FK7H3 CVT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Civic Hatchback : LX FK7H3 CVT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Civic Hatchback: LX FK7H3 CVT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "FK7H3",
+            "trim": "LX",
+            "transmission": "CVT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org12791",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org12791",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG12791 PDF pages 1, 6, 7 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. LX/EX non-hybrid ordinary Civic applications map to the FAQ All others category; Sport/Sport Touring, Si and Type R are excluded."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12791",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12791",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12791",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12791",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-civic-sedan-2017-k20c2",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K20C2",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Sedan VIN submission (49 CFR Part 565), ORG13067",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            6,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Civic Sedan; model-code rows FC2F5 explicitly list K20C2. Generation is the documented model-code prefix FC2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to FC2E5 CIVIC LX 6MT 2WD; FC2F5 CIVIC LX CVT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org13067",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "3f0f5b4fd7549be4b7ed8e3cd788e2b47f1a82168a782d100e5b943072c97919",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Sedan"
+            ],
+            "applicationCodes": [
+              "FC2E5",
+              "FC2F5"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                6
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA CIVIC SEDAN Model Codes. FC2E5 HONDA CIVIC LX 2WD 6MT Civic Sedan K20C2. FC2F5 HONDA CIVIC LX 2WD CVT Civic Sedan K20C2."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration"
+              ],
+              "excerpt": "2017MY HONDA CIVIC SEDAN Engine characteristics. K20C2. Displacement 1995 (unit not specified). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160452, August 2, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Civic."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2012,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Civic 2012–2020 All others chart row applies only through the direct Honda application/engine binding. The selected ordinary LX/EX trims are non-hybrid gasoline variants, outside the separately listed GX/Natural Gas, Hybrid and Si categories; Type R is not published in this batch. This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Sedan"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org13067",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Civic → 2012–2020 All others",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Civic: 2012-2020 All others: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Civic Sedan card: CIVIC LX FC2E5 6MT 2WD; CIVIC LX FC2F5 CVT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Civic Sedan: CIVIC LX FC2E5 6MT 2WD; CIVIC LX FC2F5 CVT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Civic Sedan : CIVIC LX FC2E5 6MT 2WD; CIVIC LX FC2F5 CVT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Civic Sedan: CIVIC LX FC2E5 6MT 2WD; CIVIC LX FC2F5 CVT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "FC2E5",
+            "trim": "CIVIC LX",
+            "transmission": "6MT",
+            "driveType": "2WD"
+          },
+          {
+            "code": "FC2F5",
+            "trim": "CIVIC LX",
+            "transmission": "CVT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org13067",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org13067",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG13067 PDF pages 1, 6, 8 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. LX/EX non-hybrid ordinary Civic applications map to the FAQ All others category; Sport/Sport Touring, Si and Type R are excluded."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 5,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 5,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-civic-sedan-2017-l15b7",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "generation": "FC1",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15B7",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Civic Sedan VIN submission (49 CFR Part 565), ORG13067",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            6,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Civic Sedan; model-code rows FC1F3 explicitly list L15B7. Generation is the documented model-code prefix FC1. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to FC1F3 CIVIC EX CVT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org13067",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "3f0f5b4fd7549be4b7ed8e3cd788e2b47f1a82168a782d100e5b943072c97919",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Sedan"
+            ],
+            "applicationCodes": [
+              "FC1F3"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                6
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA CIVIC SEDAN Model Codes. FC1F3 HONDA CIVIC EX 2WD CVT Civic Sedan L15B7."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration"
+              ],
+              "excerpt": "2017MY HONDA CIVIC SEDAN Engine characteristics. L15B7. Displacement 1496 (unit not specified). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Turbocharged."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160452, August 2, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Civic."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2012,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Civic Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Civic 2012–2020 All others chart row applies only through the direct Honda application/engine binding. The selected ordinary LX/EX trims are non-hybrid gasoline variants, outside the separately listed GX/Natural Gas, Hybrid and Si categories; Type R is not published in this batch. This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Civic Sedan"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org13067",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Civic → 2012–2020 All others",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Civic: 2012-2020 All others: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Civic Sedan card: CIVIC EX FC1F3 CVT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Civic Sedan: CIVIC EX FC1F3 CVT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Civic Sedan : CIVIC EX FC1F3 CVT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Civic Sedan: CIVIC EX FC1F3 CVT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "FC1F3",
+            "trim": "CIVIC EX",
+            "transmission": "CVT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org13067",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org13067",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG13067 PDF pages 1, 6, 8 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. LX/EX non-hybrid ordinary Civic applications map to the FAQ All others category; Sport/Sport Touring, Si and Type R are excluded."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13067",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 5,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 5,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-cr-v-2017-l15be",
+      "make": "Honda",
+      "model": "CR-V",
+      "generation": "RW1/RW2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15BE",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "turbocharged",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 CR-V VIN submission (49 CFR Part 565), ORG13749",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d7fff56b-9cb5-4e25-84e1-c1c3cb03b327",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            3,
+            4
+          ],
+          "evidenceNotes": "2017 US Honda CR-V; model-code rows RW1H5, RW2H5 explicitly list L15BE. Generation is the documented model-code prefix RW1/RW2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to RW1H5 CR-V EX CVT 2WD; RW2H5 CR-V EX CVT 4WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org13749",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "6e37d566a72735867e55e29dc019bbde5e652352a84b47f1f33780b0d0d31d9e",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "CR-V"
+            ],
+            "applicationCodes": [
+              "RW1H5",
+              "RW2H5"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                3
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA CR-V Model Codes. RW1H5 HONDA CR-V EX 2WD CVT CR-V L15BE. RW2H5 HONDA CR-V EX 4WD CVT CR-V L15BE."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                4
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration",
+                "displacementLiters"
+              ],
+              "excerpt": "2017MY HONDA CR-V Engine characteristics. L15BE. Displacement 1.5(L). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Turbocharged."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-170090, February 13, 2017 revision. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda CR-V."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2010,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 CR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the CR-V 2010–2020 chart row applies only through the direct Honda application/engine binding.  This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "CR-V"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org13749",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → CR-V → 2010–2020",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "CR-V: 2010-2020: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 CR-V card: CR-V EX RW1H5 CVT 2WD; CR-V EX RW2H5 CVT 4WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 CR-V: CR-V EX RW1H5 CVT 2WD; CR-V EX RW2H5 CVT 4WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 CR-V : CR-V EX RW1H5 CVT 2WD; CR-V EX RW2H5 CVT 4WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 CR-V: CR-V EX RW1H5 CVT 2WD; CR-V EX RW2H5 CVT 4WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "RW1H5",
+            "trim": "CR-V EX",
+            "transmission": "CVT",
+            "driveType": "2WD"
+          },
+          {
+            "code": "RW2H5",
+            "trim": "CR-V EX",
+            "transmission": "CVT",
+            "driveType": "4WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org13749",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org13749",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG13749 PDF pages 1, 3, 4 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. Other trims, body styles, transmissions and engine codes are not inferred."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13749",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13749",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13749",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org13749",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-fit-2017-l15b1",
+      "make": "Honda",
+      "model": "Fit",
+      "generation": "GK5",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "L15B1",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Fit VIN submission (49 CFR Part 565), ORG12690",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b942e273-5d1c-4f11-a116-d0bc078d6567",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda Fit; model-code rows GK5G5, GK5H5 explicitly list L15B1. Generation is the documented model-code prefix GK5. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to GK5G5 FIT LX 6MT 2WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org12690",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "abb7899cf6de4790c602f5100adeb4b30181fcc422e12d039ac28530befd0f36",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Fit"
+            ],
+            "applicationCodes": [
+              "GK5G5"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                6
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA FIT Model Codes. GK5G5 HONDA FIT LX 2WD 6MT Fit L15B1."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                7
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration",
+                "displacementLiters"
+              ],
+              "excerpt": "2017MY HONDA FIT Engine characteristics. L15B1. Displacement 1.5(L). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160208, April 18, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Fit."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2011,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Fit at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the Fit 2011–2017 chart row applies only through the direct Honda application/engine binding.  This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Fit"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org12690",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → Fit → 2011–2017",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Fit: 2011-2017: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 Fit card: FIT LX GK5G5 6MT 2WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 Fit: FIT LX GK5G5 6MT 2WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 Fit : FIT LX GK5G5 6MT 2WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 Fit: FIT LX GK5G5 6MT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "GK5G5",
+            "trim": "FIT LX",
+            "transmission": "6MT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org12690",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org12690",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG12690 PDF pages 1, 6, 7 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. Only GK5G5 6MT is unambiguous; all CVT rows with duplicate engine-code applications are excluded."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12690",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12690",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12690",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12690",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-hr-v-2017-r18z9",
+      "make": "Honda",
+      "model": "HR-V",
+      "generation": "RU5/RU6",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "R18Z9",
+      "engineAliases": [],
+      "displacementLiters": 1.8,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 HR-V VIN submission (49 CFR Part 565), ORG12950",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b9edb03d-0e1d-43cb-ade7-cf1b4724f0dd",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            6,
+            7
+          ],
+          "evidenceNotes": "2017 US Honda HR-V; model-code rows RU5G3, RU6H3 explicitly list R18Z9. Generation is the documented model-code prefix RU5/RU6. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement. Batch 3: cached cover and exact table pages visually reviewed; publication limited to RU5G3 HR-V LX 6MT 2WD; RU6H3 HR-V LX CVT 4WD. Transmission abbreviations normalized from 6M/T and 6A/T to 6MT and 6AT. Other rows are excluded.",
+          "id": "honda-vin-org12950",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "2c0a5dcc5146db8a9cef7f1d7f2178cb0b795b4a3640494c8418f675255975a0",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "HR-V"
+            ],
+            "applicationCodes": [
+              "RU5G3",
+              "RU6H3"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                6
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA HR-V Model Codes. RU5G3 HONDA HR-V LX 2WD 6MT HR-V R18Z9. RU6H3 HONDA HR-V LX 4WD CVT HR-V R18Z9."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                7
+              ],
+              "fields": [
+                "fuelType",
+                "aspiration",
+                "displacementLiters"
+              ],
+              "excerpt": "2017MY HONDA HR-V Engine characteristics. R18Z9. Displacement 1.8(L). Primary Fuel Type Gasoline. Number of cylinders 4. Electrification Level Not Applicable. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160390, July 5, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda HR-V."
+            }
+          ]
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2016,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 HR-V at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil. Batch 3: the HR-V 2016–2020 chart row applies only through the direct Honda application/engine binding.  This is one documented path, not an exhaustive list.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "HR-V"
+            ],
+            "engineClasses": [
+              "L4"
+            ]
+          },
+          "identityBindingRef": "honda-vin-org12950",
+          "locators": [
+            {
+              "id": "viscosity-chart",
+              "section": "Answer → viscosity chart → HR-V → 2016–2020",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "HR-V: 2016-2020: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial US MY2017 HR-V card: HR-V LX RU5G3 6MT 2WD; HR-V LX RU6H3 CVT 4WD. One documented 0W-20 and API Certification Seal path under the displayed non-Honda-oil condition; other manufacturer options may exist. Capacity and interval not confirmed; check exact manual.",
+        "es": "Ficha parcial EE. UU. MY2017 HR-V: HR-V LX RU5G3 6MT 2WD; HR-V LX RU6H3 CVT 4WD. Una opción documentada: 0W-20 y sello de certificación API, con la condición indicada para aceite no Honda; pueden existir otras opciones. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Fiche partielle États-Unis MY2017 HR-V : HR-V LX RU5G3 6MT 2WD; HR-V LX RU6H3 CVT 4WD. Une option documentée : 0W-20 et marque de certification API, sous la condition affichée pour une huile non Honda ; d’autres options peuvent exister. Quantité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilkarte US-Modelljahr 2017 HR-V: HR-V LX RU5G3 6MT 2WD; HR-V LX RU6H3 CVT 4WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen unter der angezeigten Bedingung für Öl anderer Marken; weitere Optionen können bestehen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "RU5G3",
+            "trim": "HR-V LX",
+            "transmission": "6MT",
+            "driveType": "2WD"
+          },
+          {
+            "code": "RU6H3",
+            "trim": "HR-V LX",
+            "transmission": "CVT",
+            "driveType": "4WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-org12950",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-org12950",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual visual review of ORG12950 PDF pages 1, 6, 7 confirms American Honda authorship, US 49 CFR Part 565, MY2017 and the listed exact applications. Only the cited rows are published. Other trims, body styles, transmissions and engine codes are not inferred."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12950",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12950",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12950",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-org12950",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "viscosity-chart"
             }
           ]
         },
