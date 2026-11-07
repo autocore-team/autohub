@@ -1,0 +1,195 @@
+{
+  "batch": "Engine Oil Production Batch 1",
+  "baselineCount": 4,
+  "addedCount": 25,
+  "finalCount": 29,
+  "quarantineCount": 59,
+  "candidateAudit": {
+    "considered": 30,
+    "accepted": 25,
+    "excluded": 5,
+    "exclusionCategories": {
+      "missingExactOfficialApplicationApprovalCapacityBinding": 4,
+      "unresolvedCapacityConflict": 1
+    }
+  },
+  "baselineSemanticHash": "9d941181bfaef945c133446d308a0eb6f4a946125acdeba0c581f9a14630840b",
+  "baselineOrderHash": "6ced70cd00bd380cd0e0cec0bbee69c7b71deb2cdf10a2381b90d3395377e6c9",
+  "records": [
+    {
+      "id": "toyota-venza-2013-1ar-fe",
+      "engineCode": "1AR-FE",
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-venza-2013-2gr-fe",
+      "engineCode": "2GR-FE",
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-rav4-2013-2ar-fe",
+      "engineCode": "2AR-FE",
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-tundra-2013-1gr-fe",
+      "engineCode": "1GR-FE",
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-tundra-2013-1ur-fe",
+      "engineCode": "1UR-FE",
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-tundra-2013-3ur-fe",
+      "engineCode": "3UR-FE",
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-tundra-ffv-2013-3ur-fbe",
+      "engineCode": "3UR-FBE",
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-sienna-2013-2gr-fe",
+      "engineCode": "2GR-FE",
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-camry-2013-2ar-fe",
+      "engineCode": "2AR-FE",
+      "serviceFillCapacity": 4.7,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-camry-2013-2gr-fe",
+      "engineCode": "2GR-FE",
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-corolla-2013-2zr-fe",
+      "engineCode": "2ZR-FE",
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-tacoma-2013-2tr-fe",
+      "engineCode": "2TR-FE",
+      "serviceFillCapacity": 6.1,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-tacoma-2wd-2013-1gr-fe",
+      "engineCode": "1GR-FE",
+      "serviceFillCapacity": 4.8,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-tacoma-4wd-prerunner-2013-1gr-fe",
+      "engineCode": "1GR-FE",
+      "serviceFillCapacity": 5.5,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-4runner-2013-1gr-fe",
+      "engineCode": "1GR-FE",
+      "serviceFillCapacity": 6.6,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-highlander-2013-2gr-fe",
+      "engineCode": "2GR-FE",
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-avalon-2013-2gr-fe",
+      "engineCode": "2GR-FE",
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-matrix-2013-2zr-fe",
+      "engineCode": "2ZR-FE",
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-matrix-2013-2az-fe",
+      "engineCode": "2AZ-FE",
+      "serviceFillCapacity": 4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-prius-2013-2zr-fxe",
+      "engineCode": "2ZR-FXE",
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-yaris-2013-1nz-fe",
+      "engineCode": "1NZ-FE",
+      "serviceFillCapacity": 3.9,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-sequoia-2013-3ur-fe",
+      "engineCode": "3UR-FE",
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-sequoia-ffv-2013-3ur-fbe",
+      "engineCode": "3UR-FBE",
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-venza-2014-1ar-fe",
+      "engineCode": "1AR-FE",
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    },
+    {
+      "id": "toyota-venza-2014-2gr-fe",
+      "engineCode": "2GR-FE",
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "status": "verified"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 4,
+    "selectableExactCodeRecordCount": 29,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -293,6 +293,2904 @@
         "de": "Der frühere Starteintrag bleibt zur Rückverfolgbarkeit erhalten. Viskosität, Freigabe, Füllmenge und Intervall werden erst mit genauer Primärquelle veröffentlicht."
       },
       "legacyRecordId": "volvo-s70-b5202s"
+    },
+    {
+      "id": "toyota-venza-2013-1ar-fe",
+      "make": "Toyota",
+      "model": "Venza",
+      "generation": "AV10",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "1AR-FE",
+      "engineAliases": [],
+      "displacementLiters": 2.7,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Venza Owners Manual (OM73010U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM73010U/pdf/OM73010U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-venza-2013-2gr-fe",
+      "make": "Toyota",
+      "model": "Venza",
+      "generation": "AV10",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Venza Owners Manual (OM73010U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM73010U/pdf/OM73010U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-rav4-2013-2ar-fe",
+      "make": "Toyota",
+      "model": "RAV4",
+      "generation": "XA40",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2AR-FE",
+      "engineAliases": [],
+      "displacementLiters": 2.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 RAV4 Owners Manual (OM42809U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM42809U/pdf/OM42809U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-tundra-2013-1gr-fe",
+      "make": "Toyota",
+      "model": "Tundra",
+      "generation": "XK50",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "1GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Tundra Owners Manual (OM34491U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM34491U/pdf/OM34491U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-tundra-2013-1ur-fe",
+      "make": "Toyota",
+      "model": "Tundra",
+      "generation": "XK50",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "1UR-FE",
+      "engineAliases": [],
+      "displacementLiters": 4.6,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Tundra Owners Manual (OM34491U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM34491U/pdf/OM34491U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-tundra-2013-3ur-fe",
+      "make": "Toyota",
+      "model": "Tundra",
+      "generation": "XK50",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "3UR-FE",
+      "engineAliases": [],
+      "displacementLiters": 5.7,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Tundra Owners Manual (OM34491U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM34491U/pdf/OM34491U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-tundra-ffv-2013-3ur-fbe",
+      "make": "Toyota",
+      "model": "Tundra FFV",
+      "generation": "XK50",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "3UR-FBE",
+      "engineAliases": [],
+      "displacementLiters": 5.7,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Tundra Owners Manual (OM34491U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM34491U/pdf/OM34491U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-sienna-2013-2gr-fe",
+      "make": "Toyota",
+      "model": "Sienna",
+      "generation": "XL30",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Sienna Owner's Manual (OM45472U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM45472U/pdf/OM45472U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-camry-2013-2ar-fe",
+      "make": "Toyota",
+      "model": "Camry",
+      "generation": "XV50",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2AR-FE",
+      "engineAliases": [],
+      "displacementLiters": 2.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.7,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Camry Owners Manual (OM33A33U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM33A33U/pdf/OM33A33U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-camry-2013-2gr-fe",
+      "make": "Toyota",
+      "model": "Camry",
+      "generation": "XV50",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Camry Owners Manual (OM33A33U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM33A33U/pdf/OM33A33U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-corolla-2013-2zr-fe",
+      "make": "Toyota",
+      "model": "Corolla",
+      "generation": "E140",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2ZR-FE",
+      "engineAliases": [],
+      "displacementLiters": 1.8,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Corolla Owners Manual (OM12E11U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM12E11U/pdf/OM12E11U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-tacoma-2013-2tr-fe",
+      "make": "Toyota",
+      "model": "Tacoma",
+      "generation": "N2xx",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2TR-FE",
+      "engineAliases": [],
+      "displacementLiters": 2.7,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.1,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Tacoma Owners Manual (OM35A10U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM35A10U/pdf/OM35A10U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-tacoma-2wd-2013-1gr-fe",
+      "make": "Toyota",
+      "model": "Tacoma 2WD (except PreRunner)",
+      "generation": "N2xx",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "1GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "5W-30"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.8,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Tacoma Owners Manual (OM35A10U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM35A10U/pdf/OM35A10U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-tacoma-4wd-prerunner-2013-1gr-fe",
+      "make": "Toyota",
+      "model": "Tacoma 4WD / PreRunner",
+      "generation": "N2xx",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "1GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "5W-30"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.5,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Tacoma Owners Manual (OM35A10U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM35A10U/pdf/OM35A10U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-4runner-2013-1gr-fe",
+      "make": "Toyota",
+      "model": "4Runner",
+      "generation": "N280",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "1GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.6,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 4Runner Owners Manual (OM35A22U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM35A22U/pdf/OM35A22U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-highlander-2013-2gr-fe",
+      "make": "Toyota",
+      "model": "Highlander",
+      "generation": "XU40",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Highlander Owners Manual (OM48A38U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM48A38U/pdf/OM48A38U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-avalon-2013-2gr-fe",
+      "make": "Toyota",
+      "model": "Avalon",
+      "generation": "XX40",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Avalon Owners Manual (OM41440U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM41440U/pdf/OM41440U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-matrix-2013-2zr-fe",
+      "make": "Toyota",
+      "model": "Matrix",
+      "generation": "E140",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2ZR-FE",
+      "engineAliases": [],
+      "displacementLiters": 1.8,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Matrix Owners Manual (OM12F89U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM12F89U/pdf/OM12F89U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-matrix-2013-2az-fe",
+      "make": "Toyota",
+      "model": "Matrix",
+      "generation": "E140",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2AZ-FE",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Matrix Owners Manual (OM12F89U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM12F89U/pdf/OM12F89U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-prius-2013-2zr-fxe",
+      "make": "Toyota",
+      "model": "Prius",
+      "generation": "XW30",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "2ZR-FXE",
+      "engineAliases": [],
+      "displacementLiters": 1.8,
+      "fuelType": "hybrid",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Prius Owners Manual (OM47791U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM47791U/pdf/OM47791U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-yaris-2013-1nz-fe",
+      "make": "Toyota",
+      "model": "Yaris",
+      "generation": "XP130",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "1NZ-FE",
+      "engineAliases": [],
+      "displacementLiters": 1.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "5W-30"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 3.9,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Yaris Owners Manual (OM52D44U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM52D44U/pdf/OM52D44U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-sequoia-2013-3ur-fe",
+      "make": "Toyota",
+      "model": "Sequoia",
+      "generation": "XK60",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "3UR-FE",
+      "engineAliases": [],
+      "displacementLiters": 5.7,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Sequoia Owners Manual (OM34441U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM34441U/pdf/OM34441U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-sequoia-ffv-2013-3ur-fbe",
+      "make": "Toyota",
+      "model": "Sequoia FFV",
+      "generation": "XK60",
+      "productionYears": {
+        "from": 2013,
+        "to": 2013
+      },
+      "engineCode": "3UR-FBE",
+      "engineAliases": [],
+      "displacementLiters": 5.7,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 7.9,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2013 Sequoia Owners Manual (OM34450U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM34450U/pdf/OM34450U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "ASM Engine Oil Quick Reference Chart",
+          "url": "https://media.fixed-ops.com/Toy_ServiceBulletins/engineoil.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2013,
+            "to": 2013
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "allowedSaeViscosities",
+            "serviceFillCapacity",
+            "capacityUnit"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-venza-2014-1ar-fe",
+      "make": "Toyota",
+      "model": "Venza",
+      "generation": "AV10",
+      "productionYears": {
+        "from": 2014,
+        "to": 2014
+      },
+      "engineCode": "1AR-FE",
+      "engineAliases": [],
+      "displacementLiters": 2.7,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2014 Venza Owners Manual (OM73019U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM73019U/pdf/OM73019U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2014,
+            "to": 2014
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Oil Viscosity Applicability and Change Interval Guide (T-TT-0262-13 Rev1)",
+          "url": "https://static.nhtsa.gov/odi/tsbs/2014/SB-10060786-2280.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2014,
+            "to": 2014
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "allowedSaeViscosities"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
+    },
+    {
+      "id": "toyota-venza-2014-2gr-fe",
+      "make": "Toyota",
+      "model": "Venza",
+      "generation": "AV10",
+      "productionYears": {
+        "from": 2014,
+        "to": 2014
+      },
+      "engineCode": "2GR-FE",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 6.4,
+      "capacityUnit": "US qt",
+      "capacityNote": {
+        "en": "Drain-and-refill reference quantity with oil filter. Check the dipstick after filling.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro. Comprueba la varilla después del llenado.",
+        "fr": "Quantité de référence vidange-remplissage avec filtre. Contrôlez la jauge après remplissage.",
+        "de": "Referenzmenge für Ablassen und Befüllen mit Ölfilter. Ölstand danach am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [
+        {
+          "sae": "5W-20",
+          "condition": "Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change."
+        }
+      ],
+      "status": "verified",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Toyota 2014 Venza Owners Manual (OM73019U)",
+          "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM73019U/pdf/OM73019U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2014,
+            "to": 2014
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote",
+            "climateLimitations"
+          ]
+        },
+        {
+          "publisher": "Toyota Motor Sales, U.S.A., Inc.",
+          "title": "Oil Viscosity Applicability and Change Interval Guide (T-TT-0262-13 Rev1)",
+          "url": "https://static.nhtsa.gov/odi/tsbs/2014/SB-10060786-2280.pdf",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2014,
+            "to": 2014
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "engineCode",
+            "allowedSaeViscosities"
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "U.S. model-year application. DPF, GPF and catalyst details remain unpublished here; confirm emissions hardware by VIN. No service interval is published in this record.",
+        "es": "Aplicación del año-modelo de EE. UU. Los detalles de DPF, GPF y catalizador no se publican aquí; confirma el equipo de emisiones por VIN. No se publica intervalo de servicio.",
+        "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
+        "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
+      },
+      "legacyRecordId": null
     }
   ],
   "legacyRecords": [
