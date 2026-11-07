@@ -819,5 +819,21 @@
       },
       "faqSection": "Answer → viscosity chart → Ridgeline → 2012–2019"
     }
-  ]
+  ],
+  "current": {
+    "assessment": "After Batch 5; historical Batch 4 final counts and hashes remain frozen.",
+    "counts": {
+      "selectable": 66,
+      "research": 13,
+      "quarantine": 59
+    },
+    "canonicalHash": "ff9955e3881ccb905ef36a753fe5e83ef3d92fe80b517852d81d1549ba032eb6",
+    "remainingResearchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
+    "laterAnnotations": [
+      {
+        "id": "honda-civic-sedan-2019-l15b7",
+        "reason": "Batch 5: ORG16024 PDF 6 lists L15B7/L15BY for the existing FC1F3 Sedan EX CVT application. The only single-code 6MT row is Si/Si HPT FC1E5, a materially different trim, and is not substituted. Exact CVT engine selection remains unresolved."
+      }
+    ]
+  }
 }
