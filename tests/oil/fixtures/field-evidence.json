@@ -5,14 +5,14 @@
     "honda-accord-sedan-2017-j35y1"
   ],
   "baselineCount": 29,
-  "selectableCount": 31,
-  "researchCount": 48,
+  "selectableCount": 42,
+  "researchCount": 37,
   "quarantineCount": 59,
   "baselineRecordsHash": "eb3c6712f5bbb8965769e2642bedc9bd3a20dc14e6c1a0d492355f332e804ba0",
   "toyotaHash": "b1fe98b1f36d96c4a7275a1a0e039145b0acd93d6f7fd9da3c93ec9dc135d7ea",
   "foundationHash": "9d941181bfaef945c133446d308a0eb6f4a946125acdeba0c581f9a14630840b",
   "legacyQuarantineHash": "429eadf73577d555741a1fbc3c3a2c25721db60b2c0936521c81a8c36cc1bb35",
-  "remainingResearchHash": "13c264988a7c32a748c0c563616bc5762f5a9dc1674f8bca7a9572595d3363ac",
+  "remainingResearchHash": "50877b540fa9d58cb9bc75b3cb622fe67ef1cd41809b4fc0032618464ca93e15",
   "partialStatuses": [
     {
       "id": "honda-accord-sedan-2017-k24w1",

@@ -27,20 +27,20 @@
     "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952"
   },
-  "addedCount": 2,
-  "finalCount": 31,
+  "addedCount": 13,
+  "finalCount": 42,
   "finalStatuses": {
     "legacyPending": 4,
     "verified": 25,
-    "preliminary": 2
+    "preliminary": 13
   },
-  "finalSemanticHash": "0d1ff337888cf318c138f53322b84de51d77753802b6dcde24d1772b0b95d8f2",
-  "finalOrderHash": "dde43a44ecd1c3044950d84145ce3907961e322aef08c8ad66413da1095552f5",
-  "finalCanonicalHash": "0ed19f91a19d9b22daf874c7520d3a8a23da89c9c9ba24b4b4f402b7e16d4c5f",
+  "finalSemanticHash": "f525cf257c5cc61047627c8ec295a2bbdac992885e807c4e446614c26be6142c",
+  "finalOrderHash": "0bc8f56e79b76ae87bef6e132b97e0e2b9a7a832b0a10f06ec7e0636670e6305",
+  "finalCanonicalHash": "d4e2d5c34524a36d12d34993d6dfa15a3eeded4cd0ceb482970e9cb865f9fce6",
   "candidateAudit": {
     "considered": 54,
-    "acceptedProduction": 2,
-    "retainedPreliminary": 48,
+    "acceptedProduction": 13,
+    "retainedPreliminary": 37,
     "excluded": 4,
     "exclusions": [
       {
@@ -235,341 +235,18 @@
       "format": "pdf"
     }
   ],
-  "finalCanonicalFileHash": "a4389a138192a244fced343078c0925a1781f04f47a121c8b1786c85083abdf5",
-  "originalResearchSourceUrlsHash": "2cd164e8b04d07aaa759ed05e89d366afe7b18b3b6ea373ec4d8c54819353e2b",
-  "originalResearchClaimsHash": "54ab388a3fa8d7609e3b5206d55006d62ae27eba04f591ffb9168392ca431e26",
+  "finalCanonicalFileHash": "35d396d55f28403962558e85a9cf2536e288363aaef7be47b3126ae999bb1910",
+  "originalResearchSourceUrlsHash": "d568a364baee0d5d32c587a7129c6cdb061ead7c505bc851c4cb66f639cf931a",
+  "originalResearchClaimsHash": "0778a0645121e2c27a92abe1ba5c9b3afcfad764a93524b95ddaab33e530ab67",
   "researchAddedCount": 50,
-  "researchCount": 48,
-  "productionRecommendationCount": 27,
+  "researchCount": 37,
+  "productionRecommendationCount": 38,
   "researchStatuses": {
-    "preliminary": 48
+    "preliminary": 37
   },
-  "researchSemanticHash": "13c264988a7c32a748c0c563616bc5762f5a9dc1674f8bca7a9572595d3363ac",
-  "researchOrderHash": "4a4f8b9b2c554a7c3af802f7e4c61e07ecff37fbbd3283e30a9d714b6d22023f",
+  "researchSemanticHash": "50877b540fa9d58cb9bc75b3cb622fe67ef1cd41809b4fc0032618464ca93e15",
+  "researchOrderHash": "f9f28e5daa76e5a8e436a94602c87aa013ec834e0f63d2b3b207375241a21b55",
   "researchRecords": [
-    {
-      "id": "honda-accord-coupe-2017-j35y1",
-      "make": "Honda",
-      "model": "Accord Coupe",
-      "generation": "CT2",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "J35Y1",
-      "displacementLiters": 3.5,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 4.5,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
-        "filing": "ORG12691",
-        "modelCodes": [
-          "CT2B8",
-          "CT2B9"
-        ],
-        "pageNumbers": [
-          7,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          4
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-accord-coupe-2017-j35y2",
-      "make": "Honda",
-      "model": "Accord Coupe",
-      "generation": "CT2",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "J35Y2",
-      "displacementLiters": 3.5,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 4.5,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
-        "filing": "ORG12691",
-        "modelCodes": [
-          "CT2A8"
-        ],
-        "pageNumbers": [
-          7,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          4
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-accord-coupe-2017-k24w1",
-      "make": "Honda",
-      "model": "Accord Coupe",
-      "generation": "CT1",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "K24W1",
-      "displacementLiters": 2.4,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 4.4,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
-        "filing": "ORG12691",
-        "modelCodes": [
-          "CT1A3",
-          "CT1B3"
-        ],
-        "pageNumbers": [
-          7,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          3
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-civic-coupe-2017-k20c2",
-      "make": "Honda",
-      "model": "Civic Coupe",
-      "generation": "FC4",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "K20C2",
-      "displacementLiters": 2,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 4.4,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
-        "filing": "ORG13067",
-        "modelCodes": [
-          "FC4B5"
-        ],
-        "pageNumbers": [
-          7,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          14
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-civic-coupe-2017-l15b7",
-      "make": "Honda",
-      "model": "Civic Coupe",
-      "generation": "FC3",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "L15B7",
-      "displacementLiters": 1.5,
-      "fuelType": "petrol",
-      "aspiration": "turbocharged",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 3.7,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
-        "filing": "ORG13067",
-        "modelCodes": [
-          "FC3B3"
-        ],
-        "pageNumbers": [
-          7,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          14
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-civic-hatchback-2017-l15ba",
-      "make": "Honda",
-      "model": "Civic Hatchback",
-      "generation": "FK7",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "L15BA",
-      "displacementLiters": 1.5,
-      "fuelType": "petrol",
-      "aspiration": "turbocharged",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 3.7,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/3805431c-668c-4728-91ec-9f58b04836a1",
-        "filing": "ORG12791",
-        "modelCodes": [
-          "FK7H3",
-          "FK7G4"
-        ],
-        "pageNumbers": [
-          6,
-          7
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          15
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-civic-sedan-2017-k20c2",
-      "make": "Honda",
-      "model": "Civic Sedan",
-      "generation": "FC2",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "K20C2",
-      "displacementLiters": 2,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 4.4,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
-        "filing": "ORG13067",
-        "modelCodes": [
-          "FC2F5"
-        ],
-        "pageNumbers": [
-          6,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          14
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-civic-sedan-2017-l15b7",
-      "make": "Honda",
-      "model": "Civic Sedan",
-      "generation": "FC1",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "L15B7",
-      "displacementLiters": 1.5,
-      "fuelType": "petrol",
-      "aspiration": "turbocharged",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 3.7,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
-        "filing": "ORG13067",
-        "modelCodes": [
-          "FC1F3"
-        ],
-        "pageNumbers": [
-          6,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          14
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
     {
       "id": "honda-civic-type-r-2017-k20c1",
       "make": "Honda",
@@ -693,88 +370,6 @@
       }
     },
     {
-      "id": "honda-cr-v-2017-l15be",
-      "make": "Honda",
-      "model": "CR-V",
-      "generation": "RW1/RW2",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "L15BE",
-      "displacementLiters": 1.5,
-      "fuelType": "petrol",
-      "aspiration": "turbocharged",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 3.7,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d7fff56b-9cb5-4e25-84e1-c1c3cb03b327",
-        "filing": "ORG13749",
-        "modelCodes": [
-          "RW1H5",
-          "RW2H5"
-        ],
-        "pageNumbers": [
-          3,
-          4
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          22
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-fit-2017-l15b1",
-      "make": "Honda",
-      "model": "Fit",
-      "generation": "GK5",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "L15B1",
-      "displacementLiters": 1.5,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 3.5,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b942e273-5d1c-4f11-a116-d0bc078d6567",
-        "filing": "ORG12690",
-        "modelCodes": [
-          "GK5G5",
-          "GK5H5"
-        ],
-        "pageNumbers": [
-          6,
-          7
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          26
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
       "id": "honda-fit-2017-l15b3",
       "make": "Honda",
       "model": "Fit",
@@ -808,47 +403,6 @@
         "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
         "pageNumbers": [
           26
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-hr-v-2017-r18z9",
-      "make": "Honda",
-      "model": "HR-V",
-      "generation": "RU5/RU6",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "R18Z9",
-      "displacementLiters": 1.8,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 3.9,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b9edb03d-0e1d-43cb-ade7-cf1b4724f0dd",
-        "filing": "ORG12950",
-        "modelCodes": [
-          "RU5G3",
-          "RU6H3"
-        ],
-        "pageNumbers": [
-          6,
-          7
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          27
         ]
       },
       "industryEvidence": {
@@ -2202,6 +1756,18 @@
   ],
   "publishedPartialIds": [
     "honda-accord-sedan-2017-k24w1",
-    "honda-accord-sedan-2017-j35y1"
-  ]
+    "honda-accord-sedan-2017-j35y1",
+    "honda-accord-coupe-2017-j35y1",
+    "honda-accord-coupe-2017-j35y2",
+    "honda-accord-coupe-2017-k24w1",
+    "honda-civic-coupe-2017-k20c2",
+    "honda-civic-coupe-2017-l15b7",
+    "honda-civic-hatchback-2017-l15ba",
+    "honda-civic-sedan-2017-k20c2",
+    "honda-civic-sedan-2017-l15b7",
+    "honda-cr-v-2017-l15be",
+    "honda-fit-2017-l15b1",
+    "honda-hr-v-2017-r18z9"
+  ],
+  "currentAssessment": "After Batch 3: original 50 candidates now comprise 13 scoped partial cards and 37 research-only; all stored statuses remain preliminary."
 }
