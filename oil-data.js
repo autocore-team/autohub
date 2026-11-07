@@ -9,7 +9,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 29,
+    "selectableExactCodeRecordCount": 31,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -85,7 +85,39 @@
         "fr": "La fiche initiale est conservée pour traçabilité. Aucune viscosité, homologation, capacité ou intervalle n’est publié sans source primaire exacte.",
         "de": "Der frühere Starteintrag bleibt zur Rückverfolgbarkeit erhalten. Viskosität, Freigabe, Füllmenge und Intervall werden erst mit genauer Primärquelle veröffentlicht."
       },
-      "legacyRecordId": "bmw-e46-m54"
+      "legacyRecordId": "bmw-e46-m54",
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "bmw-e46-m54b25",
@@ -154,7 +186,39 @@
         "fr": "La fiche initiale est conservée pour traçabilité. Aucune viscosité, homologation, capacité ou intervalle n’est publié sans source primaire exacte.",
         "de": "Der frühere Starteintrag bleibt zur Rückverfolgbarkeit erhalten. Viskosität, Freigabe, Füllmenge und Intervall werden erst mit genauer Primärquelle veröffentlicht."
       },
-      "legacyRecordId": "bmw-e46-m54"
+      "legacyRecordId": "bmw-e46-m54",
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "bmw-e46-m54b30",
@@ -223,7 +287,39 @@
         "fr": "La fiche initiale est conservée pour traçabilité. Aucune viscosité, homologation, capacité ou intervalle n’est publié sans source primaire exacte.",
         "de": "Der frühere Starteintrag bleibt zur Rückverfolgbarkeit erhalten. Viskosität, Freigabe, Füllmenge und Intervall werden erst mit genauer Primärquelle veröffentlicht."
       },
-      "legacyRecordId": "bmw-e46-m54"
+      "legacyRecordId": "bmw-e46-m54",
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "volvo-s70-b5202s",
@@ -292,7 +388,39 @@
         "fr": "La fiche initiale est conservée pour traçabilité. Aucune viscosité, homologation, capacité ou intervalle n’est publié sans source primaire exacte.",
         "de": "Der frühere Starteintrag bleibt zur Rückverfolgbarkeit erhalten. Viskosität, Freigabe, Füllmenge und Intervall werden erst mit genauer Primärquelle veröffentlicht."
       },
-      "legacyRecordId": "volvo-s70-b5202s"
+      "legacyRecordId": "volvo-s70-b5202s",
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-venza-2013-1ar-fe",
@@ -409,7 +537,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-venza-2013-2gr-fe",
@@ -526,7 +686,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-rav4-2013-2ar-fe",
@@ -643,7 +835,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-tundra-2013-1gr-fe",
@@ -760,7 +984,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-tundra-2013-1ur-fe",
@@ -877,7 +1133,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-tundra-2013-3ur-fe",
@@ -994,7 +1282,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-tundra-ffv-2013-3ur-fbe",
@@ -1111,7 +1431,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-sienna-2013-2gr-fe",
@@ -1228,7 +1580,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-camry-2013-2ar-fe",
@@ -1345,7 +1729,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-camry-2013-2gr-fe",
@@ -1462,7 +1878,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-corolla-2013-2zr-fe",
@@ -1579,7 +2027,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-tacoma-2013-2tr-fe",
@@ -1696,7 +2176,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-tacoma-2wd-2013-1gr-fe",
@@ -1806,7 +2318,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-tacoma-4wd-prerunner-2013-1gr-fe",
@@ -1916,7 +2460,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-4runner-2013-1gr-fe",
@@ -2033,7 +2609,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-highlander-2013-2gr-fe",
@@ -2150,7 +2758,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-avalon-2013-2gr-fe",
@@ -2267,7 +2907,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-matrix-2013-2zr-fe",
@@ -2384,7 +3056,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-matrix-2013-2az-fe",
@@ -2501,7 +3205,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-prius-2013-2zr-fxe",
@@ -2618,7 +3354,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-yaris-2013-1nz-fe",
@@ -2728,7 +3496,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-sequoia-2013-3ur-fe",
@@ -2845,7 +3645,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-sequoia-ffv-2013-3ur-fbe",
@@ -2962,7 +3794,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-venza-2014-1ar-fe",
@@ -3076,7 +3940,39 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
     },
     {
       "id": "toyota-venza-2014-2gr-fe",
@@ -3190,7 +4086,795 @@
         "fr": "Application année-modèle États-Unis. Les détails DPF, GPF et catalyseur ne sont pas publiés ici ; confirmez l’équipement antipollution par VIN. Aucun intervalle n’est publié.",
         "de": "US-Modelljahr-Anwendung. DPF-, GPF- und Katalysatordaten werden hier nicht veröffentlicht; Abgasausstattung per VIN bestätigen. Kein Serviceintervall veröffentlicht."
       },
-      "legacyRecordId": null
+      "legacyRecordId": null,
+      "evidenceAssessment": {
+        "mode": "legacyUnassessed",
+        "application": "notAssessed",
+        "fields": {
+          "engineIdentity": "notAssessed",
+          "displacementLiters": "notAssessed",
+          "fuelType": "notAssessed",
+          "aspiration": "notAssessed",
+          "allowedSaeViscosities": "notAssessed",
+          "industrySpecifications": "notAssessed",
+          "requiredManufacturerApprovals": "notAssessed",
+          "preferredManufacturerApprovals": "notAssessed",
+          "serviceFillCapacity": "notAssessed",
+          "capacityUnit": "notAssessed",
+          "capacityNote": "notAssessed",
+          "serviceInterval": "notAssessed",
+          "climateLimitations": "notAssessed",
+          "emissionsEquipment": "notAssessed"
+        },
+        "requirements": "notAssessed",
+        "eligible": false,
+        "completeness": {
+          "state": "notAssessed",
+          "confirmedFields": 0,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "notAssessed",
+        "confirmedFields": 0,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-accord-sedan-2017-k24w1",
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "generation": "CR2",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "K24W1",
+      "engineAliases": [],
+      "displacementLiters": 2.4,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Sedan VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            6,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Sedan; model-code rows CR2E3, CR2F3 explicitly list K24W1. Generation is the documented model-code prefix CR2. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement.",
+          "id": "honda-vin-2017-accord",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Sedan"
+            ],
+            "applicationCodes": [
+              "CR2E3",
+              "CR2F3"
+            ],
+            "engineClass": "L4"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                6
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA ACCORD 4D Model Codes. CR2E3 HONDA LX 2WD 6MT 4DR Sedan K24W1. CR2F3 HONDA LX 2WD CVT 4DR Sedan K24W1."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "displacementLiters",
+                "fuelType",
+                "aspiration"
+              ],
+              "excerpt": "2017MY HONDA ACCORD Engine characteristics. K24W1. Displacement 2.4(L). Primary Fuel Type Gasoline. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160209, April 18, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Accord."
+            }
+          ],
+          "documentSha256": "bab30ec74636e007fa35b65efb046402ac46b4ddb4cc8584b0293a42d458fd72"
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Sedan"
+            ],
+            "engineClasses": [
+              "L4",
+              "V6"
+            ]
+          },
+          "identityBindingRef": "honda-vin-2017-accord",
+          "locators": [
+            {
+              "id": "accord-viscosity-chart",
+              "section": "Answer → viscosity chart → Accord → 2011–2020 L4 & V6",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Accord: 2011-2020 L4 & V6: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ],
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f"
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial oil-requirement assessment for US MY2017 Accord Sedan: LX CR2E3 6MT 2WD; LX CR2F3 CVT 2WD. One documented 0W-20 and API Certification Seal path; not an exhaustive list of manufacturer options. Capacity and interval are not confirmed; check the exact manual. Engine status remains preliminary.",
+        "es": "Evaluación parcial para Accord Sedan EE. UU. MY2017: LX CR2E3 6MT 2WD; LX CR2F3 CVT 2WD. Una opción documentada: 0W-20 y sello de certificación API; no es una lista exhaustiva. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Évaluation partielle Accord Sedan États-Unis MY2017 : LX CR2E3 6MT 2WD; LX CR2F3 CVT 2WD. Une option documentée : 0W-20 et marque de certification API ; liste non exhaustive. Capacité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilbewertung für Accord Sedan US-Modelljahr 2017: LX CR2E3 6MT 2WD; LX CR2F3 CVT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen; keine vollständige Liste aller Optionen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "CR2E3",
+            "trim": "LX",
+            "transmission": "6MT",
+            "driveType": "2WD"
+          },
+          {
+            "code": "CR2F3",
+            "trim": "LX",
+            "transmission": "CVT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-2017-accord",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-2017-accord",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual review of cached Honda submission ORG12691 PDF pages 1, 6 and 8: American Honda author, US 49 CFR Part 565 application, MY2017 Accord Sedan. Publication is limited to the listed original 2WD trims/transmissions; hybrid and all other application codes excluded. FAQ Accord 2011–2020 L4/V6 rule applies through this direct identity binding."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-2017-accord",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-2017-accord",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-2017-accord",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-2017-accord",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "accord-viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "honda-accord-sedan-2017-j35y1",
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "generation": "CR3",
+      "productionYears": {
+        "from": 2017,
+        "to": 2017
+      },
+      "engineCode": "J35Y1",
+      "engineAliases": [],
+      "displacementLiters": 3.5,
+      "fuelType": "petrol",
+      "aspiration": "naturallyAspirated",
+      "market": [
+        "US"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API Certification Seal"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda 2017 Accord Sedan VIN submission (49 CFR Part 565), ORG12691",
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
+          "type": "technicalBulletin",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "generation",
+            "productionYears",
+            "engineCode",
+            "displacementLiters",
+            "fuelType",
+            "aspiration",
+            "market",
+            "application",
+            "engineIdentity.engineeringCode"
+          ],
+          "pageNumbers": [
+            1,
+            6,
+            8
+          ],
+          "evidenceNotes": "2017 US Honda Accord Sedan; model-code rows CR3F8, CR3F9 explicitly list J35Y1. Generation is the documented model-code prefix CR3. Engine Characteristics table confirms displacement, gasoline/hybrid status and turbocharged or not; no engine code is inferred from displacement.",
+          "id": "honda-vin-2017-accord",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Sedan"
+            ],
+            "applicationCodes": [
+              "CR3F8",
+              "CR3F9"
+            ],
+            "engineClass": "V6"
+          },
+          "locators": [
+            {
+              "id": "application-code-table",
+              "pageNumbers": [
+                6
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "2017MY HONDA ACCORD 4D Model Codes. CR3F8 HONDA EX-L 2WD 6AT 4DR Sedan J35Y1. CR3F9 HONDA Touring 2WD 6AT 4DR Sedan J35Y1."
+            },
+            {
+              "id": "engine-characteristics",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "displacementLiters",
+                "fuelType",
+                "aspiration"
+              ],
+              "excerpt": "2017MY HONDA ACCORD Engine characteristics. J35Y1. Displacement 3.5(L). Primary Fuel Type Gasoline. Turbo Charged or not Not Applicable."
+            },
+            {
+              "id": "manufacturer-us-cover",
+              "pageNumbers": [
+                1
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "American Honda Motor Co., Inc.; AHCERT-160209, April 18, 2016. Submitted to the National Highway Traffic Safety Administration under 49 CFR Part 565 for the 2017 model year Honda Accord."
+            }
+          ],
+          "documentSha256": "bab30ec74636e007fa35b65efb046402ac46b4ddb4cc8584b0293a42d458fd72"
+        },
+        {
+          "publisher": "American Honda Motor Co., Inc.",
+          "title": "Honda Brand Knowledge: What type of motor oil should I use in my Honda?",
+          "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "US"
+          ],
+          "applicableYears": {
+            "from": 2017,
+            "to": 2017
+          },
+          "checkedAt": "2026-11-07",
+          "fields": [
+            "make",
+            "model",
+            "productionYears",
+            "market",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "requiredManufacturerApprovals",
+            "oilRequirements"
+          ],
+          "evidenceNotes": "Honda FAQ requires the API Certification Seal indicating energy conservation and the latest API requirement, together with the specified viscosity. The model/year chart includes 2017 Accord Sedan at 0W-20. No API service-category number, ILSAC number, ACEA class or HTO-06 approval is inferred from the separate marketing description of Honda-branded oil.",
+          "id": "honda-oil-faq",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Honda",
+            "models": [
+              "Accord Sedan"
+            ],
+            "engineClasses": [
+              "L4",
+              "V6"
+            ]
+          },
+          "identityBindingRef": "honda-vin-2017-accord",
+          "locators": [
+            {
+              "id": "accord-viscosity-chart",
+              "section": "Answer → viscosity chart → Accord → 2011–2020 L4 & V6",
+              "fields": [
+                "allowedSaeViscosities"
+              ],
+              "excerpt": "Accord: 2011-2020 L4 & V6: 0W-20 (UFS)."
+            },
+            {
+              "id": "api-certification-rule",
+              "section": "Answer → Should I use genuine synthetic or ultimate full synthetic oil in my Honda?",
+              "fields": [
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "relation": "allOf",
+              "excerpt": "specified viscosity grade … It must also be labeled with an API Certification Seal",
+              "condition": {
+                "en": "For oil other than Honda Genuine Motor Oil: use premium-grade conventional oil or an ultimate full synthetic blend, with the specified viscosity and an API Certification Seal indicating energy conservation and the latest API requirement.",
+                "es": "Para aceite distinto de Honda Genuine Motor Oil: usa aceite convencional de calidad superior o una mezcla ultimate full synthetic, con la viscosidad indicada y el sello API de ahorro de energía y cumplimiento del requisito API vigente.",
+                "fr": "Pour une huile autre que Honda Genuine Motor Oil : huile conventionnelle de qualité supérieure ou mélange ultimate full synthetic, de viscosité prescrite et portant le sceau API d’économie d’énergie et de conformité à l’exigence API en vigueur.",
+                "de": "Für anderes Öl als Honda Genuine Motor Oil: hochwertiges konventionelles Öl oder eine ultimate full synthetic-Mischung, mit vorgeschriebener Viskosität und API-Zertifizierungszeichen für Energieeinsparung und die aktuelle API-Anforderung."
+              }
+            }
+          ],
+          "documentSha256": "7327de3b2d9c5ab92ed16a7fcf3ad860ba86c00228af53325a3c9c37fde3481f"
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "notes": {
+        "en": "Partial oil-requirement assessment for US MY2017 Accord Sedan: EX-L CR3F8 6AT 2WD; Touring CR3F9 6AT 2WD. One documented 0W-20 and API Certification Seal path; not an exhaustive list of manufacturer options. Capacity and interval are not confirmed; check the exact manual. Engine status remains preliminary.",
+        "es": "Evaluación parcial para Accord Sedan EE. UU. MY2017: EX-L CR3F8 6AT 2WD; Touring CR3F9 6AT 2WD. Una opción documentada: 0W-20 y sello de certificación API; no es una lista exhaustiva. Capacidad e intervalo sin confirmar; consulta el manual exacto.",
+        "fr": "Évaluation partielle Accord Sedan États-Unis MY2017 : EX-L CR3F8 6AT 2WD; Touring CR3F9 6AT 2WD. Une option documentée : 0W-20 et marque de certification API ; liste non exhaustive. Capacité et intervalle non confirmés ; consultez le manuel exact.",
+        "de": "Teilbewertung für Accord Sedan US-Modelljahr 2017: EX-L CR3F8 6AT 2WD; Touring CR3F9 6AT 2WD. Ein dokumentierter Weg: 0W-20 und API-Zertifizierungszeichen; keine vollständige Liste aller Optionen. Füllmenge und Intervall unbestätigt; genaues Handbuch prüfen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "applications": [
+          {
+            "code": "CR3F8",
+            "trim": "EX-L",
+            "transmission": "6AT",
+            "driveType": "2WD"
+          },
+          {
+            "code": "CR3F9",
+            "trim": "Touring",
+            "transmission": "6AT",
+            "driveType": "2WD"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "sourceId": "honda-vin-2017-accord",
+            "locatorId": "application-code-table"
+          },
+          {
+            "sourceId": "honda-vin-2017-accord",
+            "locatorId": "manufacturer-us-cover"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Manual review of cached Honda submission ORG12691 PDF pages 1, 6 and 8: American Honda author, US 49 CFR Part 565 application, MY2017 Accord Sedan. Publication is limited to the listed original 2WD trims/transmissions; hybrid and all other application codes excluded. FAQ Accord 2011–2020 L4/V6 rule applies through this direct identity binding."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-2017-accord",
+              "locatorId": "application-code-table"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-2017-accord",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "fuelType": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-2017-accord",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "aspiration": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-vin-2017-accord",
+              "locatorId": "engine-characteristics"
+            }
+          ]
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "accord-viscosity-chart"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "industrySpecifications.api",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "honda-oil-faq",
+              "locatorId": "api-certification-rule"
+            }
+          ],
+          "conditionRef": {
+            "sourceId": "honda-oil-faq",
+            "locatorId": "api-certification-rule"
+          }
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "confirmed",
+          "fuelType": "confirmed",
+          "aspiration": "confirmed",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
     }
   ],
   "legacyRecords": [

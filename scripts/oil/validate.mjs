@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { assessOilEvidence, hasFieldAssessment } from './evidence.mjs';
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 export const canonicalPath = path.join(root, 'data/oil/canonical.json');
@@ -9,6 +10,11 @@ export const allowedStatuses = new Set(['verified', 'corroborated', 'preliminary
 export const officialSourceTypes = new Set(['ownersManual', 'serviceManual', 'technicalBulletin', 'lubricationChart', 'oemServicePortal']);
 
 export function isPublicOilRecord(record) {
+  if (!allowedStatuses.has(record.status)) return false;
+  if (hasFieldAssessment(record)) {
+    if (Object.hasOwn(record, 'researchIssues')) return false;
+    try { return assessOilEvidence(record).eligible; } catch { return false; }
+  }
   return ['verified', 'corroborated', 'legacyPending'].includes(record.status)
     && !Object.hasOwn(record, 'researchIssues')
     && !record.sources?.some((source) => source.provenanceStatus === 'unconfirmed');
@@ -73,7 +79,8 @@ export function validateCanonical(data) {
     requireText(record.id, 'record id');
     if (ids.has(record.id)) fail(`Duplicate oil id: ${record.id}`);
     ids.add(record.id);
-    for (const field of ['make', 'model', 'generation', 'engineCode', 'checkedAt']) requireText(record[field], `${record.id} ${field}`);
+    for (const field of ['make', 'model', 'generation', 'checkedAt']) requireText(record[field], `${record.id} ${field}`);
+    if (!hasFieldAssessment(record) || record.engineIdentity?.type === 'engineeringCode') requireText(record.engineCode, `${record.id} engineCode`);
     if (!isDate(record.checkedAt)) fail(`${record.id} checkedAt is invalid`);
     if (/[\/,;]|\b(?:family|or)\b/i.test(record.engineCode)) fail(`${record.id} combines multiple engine codes`);
     validateYears(record.productionYears, `${record.id} productionYears`);
@@ -84,12 +91,16 @@ export function validateCanonical(data) {
       if (!record.researchIssues.length) fail(`${record.id} researchIssues must explain unresolved evidence`);
       for (const issue of record.researchIssues) requireText(issue, `${record.id} research issue`);
     } else {
-      if (record.status === 'preliminary') fail(`${record.id} preliminary records must stay in researchRecords, outside production recommendations`);
+      if (record.status === 'preliminary' && !hasFieldAssessment(record)) fail(`${record.id} preliminary records must stay in researchRecords, outside production recommendations`);
       if (!isPublicOilRecord(record)) fail(`${record.id} unresolved research evidence cannot enter production recommendations`);
     }
     requireArray(record.sources, `${record.id} sources`);
     if (!record.sources.length) fail(`${record.id} has an empty source list`);
     record.sources.forEach((source, index) => validateSource(source, record, index));
+    if (hasFieldAssessment(record)) {
+      const assessment = assessOilEvidence(record);
+      if (!researchOnly && !assessment.eligible) fail(`${record.id} application and oil requirements must be confirmed for publication`);
+    }
     if (record.status === 'verified' && !record.sources.some((source) => officialSourceTypes.has(source.type))) fail(`${record.id} verified status requires an official source`);
     if (record.status === 'corroborated') {
       const publishers = new Set(record.sources.map((source) => normalize(source.publisher)));
@@ -117,7 +128,7 @@ export function validateCanonical(data) {
       [record.climateLimitations.length, 'climateLimitations']
     ];
     for (const [present, field] of claimed) if (present && !covered.has(field)) fail(`${record.id} publishes ${field} without source coverage`);
-    const semantic = [record.make, record.model, record.generation, record.productionYears.from, record.productionYears.to, record.engineCode, [...record.market].sort().join(',')].map(normalize).join('|');
+    const semantic = [record.make, record.model, record.generation, record.productionYears.from, record.productionYears.to, record.engineCode ?? `${record.engineIdentity?.type}:${record.engineIdentity?.value}`, [...record.market].sort().join(',')].map(normalize).join('|');
     if (semantics.has(semantic)) fail(`${record.id} duplicates a semantic oil record`);
     semantics.add(semantic);
   }
@@ -136,7 +147,7 @@ export function validateCanonical(data) {
     records: data.records.length,
     legacyRecords: data.legacyRecords.length,
     researchRecords: researchRecords.length,
-    productionRecommendations: data.records.filter((record) => ['verified', 'corroborated'].includes(record.status)).length,
+    productionRecommendations: data.records.filter((record) => hasFieldAssessment(record) ? isPublicOilRecord(record) : ['verified', 'corroborated'].includes(record.status)).length,
     researchStatuses: researchRecords.reduce((map, record) => { map[record.status] = (map[record.status] || 0) + 1; return map; }, {}),
     statuses: data.records.reduce((map, record) => { map[record.status] = (map[record.status] || 0) + 1; return map; }, {})
   };

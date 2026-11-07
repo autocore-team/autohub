@@ -11,7 +11,6 @@
   "protectedFiles": {
     ".github/workflows/ci.yml": "dda4aafc273822d867cbeb59e4241983f885cd2b3f3f0b03b27c9928876cf348",
     ".github/workflows/engine-data-ci.yml": "6799fe2e42673d9915b35dd284eaefb423a08657c2b1ea6e59f6cf19c695a722",
-    "assets/js/oil-guide.js": "40cafd144cad8288a2327d432ae19ab8235b1f58fefa2905be75430c1cea3932",
     "data/engines/europe.js": "732b6b4894f165848a02d488d8e2a168797001880ddee5d0dfc2940f66de922e",
     "data/engines/japan.js": "b83f3d7594bdb1367506d74341e146cc3c49cea2bef0d72c8e4f1f34e36a40ae",
     "data/engines/korea.js": "5c31ceb81ad7b6ec309b244bee1d883b92173426ee0147518eec1a71cb5558d6",
@@ -26,22 +25,22 @@
     "data/pcd/source/schema.json": "d4fa3e7bbf1b4ec7db8dcdc113b78f1bf2c1f1bcf0adc33d56452bcdb45dcf2d",
     "data/pcd/source/vehicles.json": "525a6c50ceddba216d8af2a9e7ee52adb34553ac2ba2f5f58006498b411e7532",
     "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
-    "oil-guide.html": "606b3b78be74df894811891c59f65a3561e91bcd1a1ef2fee8ca66ff4e8ca7b8",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952"
   },
-  "addedCount": 0,
-  "finalCount": 29,
+  "addedCount": 2,
+  "finalCount": 31,
   "finalStatuses": {
     "legacyPending": 4,
-    "verified": 25
+    "verified": 25,
+    "preliminary": 2
   },
-  "finalSemanticHash": "eb3c6712f5bbb8965769e2642bedc9bd3a20dc14e6c1a0d492355f332e804ba0",
-  "finalOrderHash": "ec8ca024af97aa8eaa9b10f9f9a94dc7c0d05734fed31075e7b7bd2f2847b48e",
-  "finalCanonicalHash": "2cf978f2e4373fe42a52a579a33356abb9b1fd81e033340ff8c621d93e200d07",
+  "finalSemanticHash": "0d1ff337888cf318c138f53322b84de51d77753802b6dcde24d1772b0b95d8f2",
+  "finalOrderHash": "dde43a44ecd1c3044950d84145ce3907961e322aef08c8ad66413da1095552f5",
+  "finalCanonicalHash": "0ed19f91a19d9b22daf874c7520d3a8a23da89c9c9ba24b4b4f402b7e16d4c5f",
   "candidateAudit": {
     "considered": 54,
-    "acceptedProduction": 0,
-    "retainedPreliminary": 50,
+    "acceptedProduction": 2,
+    "retainedPreliminary": 48,
     "excluded": 4,
     "exclusions": [
       {
@@ -236,17 +235,17 @@
       "format": "pdf"
     }
   ],
-  "finalCanonicalFileHash": "c60e6546adfd9f2b38224863ab5ea658297fb91f3c1683212f52de364be41005",
-  "originalResearchSourceUrlsHash": "3e6d644bf84b33607792ecedd541ff79c38aa7b5cf897eecb7787600631bfe62",
-  "originalResearchClaimsHash": "cb68852aa4fcec447da72e48fd9020fb5873f73fab4712a399ffd8a51fb56aa5",
+  "finalCanonicalFileHash": "a4389a138192a244fced343078c0925a1781f04f47a121c8b1786c85083abdf5",
+  "originalResearchSourceUrlsHash": "2cd164e8b04d07aaa759ed05e89d366afe7b18b3b6ea373ec4d8c54819353e2b",
+  "originalResearchClaimsHash": "54ab388a3fa8d7609e3b5206d55006d62ae27eba04f591ffb9168392ca431e26",
   "researchAddedCount": 50,
-  "researchCount": 50,
-  "productionRecommendationCount": 25,
+  "researchCount": 48,
+  "productionRecommendationCount": 27,
   "researchStatuses": {
-    "preliminary": 50
+    "preliminary": 48
   },
-  "researchSemanticHash": "0f6c37f563326bb592681adc26360536840b8f8f487f33c4c857fbed4364830d",
-  "researchOrderHash": "0b9f7a4624a844a35c85e287550915a294c852e230efc039d4928b8cd8d89861",
+  "researchSemanticHash": "13c264988a7c32a748c0c563616bc5762f5a9dc1674f8bca7a9572595d3363ac",
+  "researchOrderHash": "4a4f8b9b2c554a7c3af802f7e4c61e07ecff37fbbd3283e30a9d714b6d22023f",
   "researchRecords": [
     {
       "id": "honda-accord-coupe-2017-j35y1",
@@ -357,88 +356,6 @@
         ],
         "pageNumbers": [
           7,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          3
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-accord-sedan-2017-j35y1",
-      "make": "Honda",
-      "model": "Accord Sedan",
-      "generation": "CR3",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "J35Y1",
-      "displacementLiters": 3.5,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 4.5,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
-        "filing": "ORG12691",
-        "modelCodes": [
-          "CR3F8",
-          "CR3F9"
-        ],
-        "pageNumbers": [
-          6,
-          8
-        ]
-      },
-      "oilEvidence": {
-        "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
-        "pageNumbers": [
-          4
-        ]
-      },
-      "industryEvidence": {
-        "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
-      }
-    },
-    {
-      "id": "honda-accord-sedan-2017-k24w1",
-      "make": "Honda",
-      "model": "Accord Sedan",
-      "generation": "CR2",
-      "productionYears": {
-        "from": 2017,
-        "to": 2017
-      },
-      "engineCode": "K24W1",
-      "displacementLiters": 2.4,
-      "fuelType": "petrol",
-      "aspiration": "naturallyAspirated",
-      "market": [
-        "US"
-      ],
-      "serviceFillCapacity": 4.4,
-      "capacityUnit": "US qt",
-      "status": "preliminary",
-      "identityEvidence": {
-        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
-        "filing": "ORG12691",
-        "modelCodes": [
-          "CR2E3",
-          "CR2F3"
-        ],
-        "pageNumbers": [
-          6,
           8
         ]
       },
@@ -2282,5 +2199,9 @@
         "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
       }
     }
+  ],
+  "publishedPartialIds": [
+    "honda-accord-sedan-2017-k24w1",
+    "honda-accord-sedan-2017-j35y1"
   ]
 }
