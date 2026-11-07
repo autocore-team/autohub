@@ -1,0 +1,825 @@
+{
+  "baseCommit": "c14b496",
+  "baselineCounts": {
+    "selectable": 42,
+    "research": 37,
+    "quarantine": 59
+  },
+  "finalCounts": {
+    "selectable": 57,
+    "research": 22,
+    "quarantine": 59
+  },
+  "considered": [
+    "honda-odyssey-2017-j35z8",
+    "honda-pilot-2017-j35y6",
+    "honda-ridgeline-2017-j35y6",
+    "honda-accord-hybrid-2018-lfb1",
+    "honda-accord-hybrid-2018-lfb2",
+    "honda-accord-sedan-2018-k20c4",
+    "honda-accord-sedan-2018-l15be",
+    "honda-civic-coupe-2018-k20c2",
+    "honda-civic-coupe-2018-l15b7",
+    "honda-civic-hatchback-2018-l15ba",
+    "honda-civic-sedan-2018-k20c2",
+    "honda-civic-sedan-2018-l15b7",
+    "honda-civic-sedan-2018-l15by",
+    "honda-clarity-plug-in-hybrid-2018-leb3",
+    "honda-cr-v-2018-k24v9",
+    "honda-cr-v-2018-k24w9",
+    "honda-cr-v-2018-l15be",
+    "honda-hr-v-2018-r18z9",
+    "honda-pilot-2018-j35y6",
+    "honda-ridgeline-2018-j35y6"
+  ],
+  "accepted": [
+    "honda-odyssey-2017-j35z8",
+    "honda-pilot-2017-j35y6",
+    "honda-ridgeline-2017-j35y6",
+    "honda-accord-sedan-2018-k20c4",
+    "honda-accord-sedan-2018-l15be",
+    "honda-civic-coupe-2018-k20c2",
+    "honda-civic-coupe-2018-l15b7",
+    "honda-civic-hatchback-2018-l15ba",
+    "honda-civic-sedan-2018-k20c2",
+    "honda-civic-sedan-2018-l15b7",
+    "honda-clarity-plug-in-hybrid-2018-leb3",
+    "honda-cr-v-2018-l15be",
+    "honda-hr-v-2018-r18z9",
+    "honda-pilot-2018-j35y6",
+    "honda-ridgeline-2018-j35y6"
+  ],
+  "retained": [
+    {
+      "id": "honda-accord-hybrid-2018-lfb1",
+      "reason": "Batch 4: ORG15191 PDF 6 lists LFB1/LFB2 together for every Accord Hybrid application; no condition selects exact LFB1."
+    },
+    {
+      "id": "honda-accord-hybrid-2018-lfb2",
+      "reason": "Batch 4: ORG15191 PDF 6 lists LFB1/LFB2 together for every Accord Hybrid application; no condition selects exact LFB2."
+    },
+    {
+      "id": "honda-civic-sedan-2018-l15by",
+      "reason": "Batch 4: ORG14912 PDF 6 lists L15B7/L15BY together for the CVT applications; no unique application or distinguishing condition for L15BY is proved."
+    },
+    {
+      "id": "honda-cr-v-2018-k24v9",
+      "reason": "Batch 4: ORG14740 PDF 6 lists K24W9/K24V9 together for CR-V LX RW5H3/RW6H3; exact-code selection is unresolved."
+    },
+    {
+      "id": "honda-cr-v-2018-k24w9",
+      "reason": "Batch 4: ORG14740 PDF 6 lists K24W9/K24V9 together for CR-V LX RW5H3/RW6H3; exact-code selection is unresolved."
+    }
+  ],
+  "previouslyDeferred": [
+    "honda-civic-type-r-2017-k20c1",
+    "honda-cr-v-2017-k24v9",
+    "honda-cr-v-2017-k24w9",
+    "honda-fit-2017-l15b3"
+  ],
+  "skippedTypeR": [
+    "honda-civic-type-r-2017-k20c1",
+    "honda-civic-type-r-2018-k20c1",
+    "honda-civic-type-r-2019-k20c1"
+  ],
+  "baselineRecordsHash": "f525cf257c5cc61047627c8ec295a2bbdac992885e807c4e446614c26be6142c",
+  "baselineOrderHash": "0bc8f56e79b76ae87bef6e132b97e0e2b9a7a832b0a10f06ec7e0636670e6305",
+  "baselinePublicHash": "77130a72ab4f9ea3bea6ce9eb5d9fcc10af1a46c7f1454b75fca15683d66df01",
+  "baselineCanonicalHash": "d4e2d5c34524a36d12d34993d6dfa15a3eeded4cd0ceb482970e9cb865f9fce6",
+  "baselineResearchHash": "50877b540fa9d58cb9bc75b3cb622fe67ef1cd41809b4fc0032618464ca93e15",
+  "baselineResearchRecords": {
+    "honda-civic-type-r-2017-k20c1": "9c234ebe9044f177abb6907a337a9a1bca5e43e2c276fa8aee3b3269621c62c1",
+    "honda-cr-v-2017-k24v9": "0875298aeab8844c1c80e7790fbbf55f80ec909908e48dca9b33efcdc21c016c",
+    "honda-cr-v-2017-k24w9": "a02c5548bd3fa26b24de3a3703c6fa12e21239c38fd2d274e7517df4b499aa76",
+    "honda-fit-2017-l15b3": "64db3d6e608c0ed8635a98699657f074ac3f03b80c582e0b8b2c4910ef955a72",
+    "honda-odyssey-2017-j35z8": "c3af4444a9a61815d25bdf555e23d20958c0afd15a8f05487102212e440b45c6",
+    "honda-pilot-2017-j35y6": "464886effdecb909ed6d814bd7b55d5f503a831edb271235a7b1ca8ea41986c2",
+    "honda-ridgeline-2017-j35y6": "a5bbfad7cfd99f3492a64ac99c1ae54c96acaf9eb43801a9a0e60821b2c250a9",
+    "honda-accord-hybrid-2018-lfb1": "3e46af2416428c603becaa31beea938c570300d29df65a5081e6f45d1f353a05",
+    "honda-accord-hybrid-2018-lfb2": "a4b4e08cca2489940798b0b909c81a12c6447ce263e6d5a6c048ab92b7da3af1",
+    "honda-accord-sedan-2018-k20c4": "c67a3e566c6d9d6c6b770e30071dcc51f6d8e6bcda2387afc07c36eca6390ea1",
+    "honda-accord-sedan-2018-l15be": "73d69b8b4d7a622d74690cf1283d5d24fe69eeac1873068fed9cfeadb349b7cf",
+    "honda-civic-coupe-2018-k20c2": "0e2585cb2ec60951285a6afb5090673e076f6cb7c7543aa82032b35a71d1e0f2",
+    "honda-civic-coupe-2018-l15b7": "f173ecfda226b80598d4d1250b8107d4ca75587bbae1acba0df8bef3b0e41873",
+    "honda-civic-hatchback-2018-l15ba": "728b1b26a009cb6cf8f5e1fb76848b61362999a9ea4142131967f8efae893eec",
+    "honda-civic-sedan-2018-k20c2": "3b62f5aa06b6c119890f609de8a700d26b0a54f1a0f058e984e493901663c6bb",
+    "honda-civic-sedan-2018-l15b7": "ebc6ab988a7aff84b831faa5fb7f5b3d0bfb3c52adca253a3d120f19f491ab44",
+    "honda-civic-sedan-2018-l15by": "c4636627e09ceb2b4422216f4461468b6fabeab8bec6f75c23883570cbdc7540",
+    "honda-civic-type-r-2018-k20c1": "8b02ac57bb4abd8d126224ac7d0458393e0269e94e83bc58ff43b5e01b234e96",
+    "honda-clarity-plug-in-hybrid-2018-leb3": "6d73e6576a23a5bc04af872fa7a5ddf1cf0deece45a572a0920fb57d0afe409b",
+    "honda-cr-v-2018-k24v9": "c1848304995697255f9094e55d81ed0bc2c046e8e66f17a3af8b200b89023611",
+    "honda-cr-v-2018-k24w9": "ccd04d019bde80caeff0ced850ba59bad5a47960918553f61a6b0954fe02fae1",
+    "honda-cr-v-2018-l15be": "d0c6931af4bb90de4306ed40b367c407be6ee91c7060a5677c8bdbc4cdab11b2",
+    "honda-hr-v-2018-r18z9": "2f1a75604df2eff8da39659e7522e0bf642014483b2344e8316f4a3a0183c892",
+    "honda-pilot-2018-j35y6": "c002a7e150ad12b0a0b54f94f6127f190c16b57819b1ec7ce319ca05089044fc",
+    "honda-ridgeline-2018-j35y6": "6783ad37c045f867821567955b1453bf86451953772f62a064e59394974b56d1",
+    "honda-accord-hybrid-2019-lfb2": "54abf5530da4da49aba2ba6ec8af701ffed144f44b67f3284469a243d92e8eeb",
+    "honda-accord-sedan-2019-k20c4": "326c903a5b4d8c92553473492b043e1ab5e2890d6c2ccdf58c77692870735c92",
+    "honda-accord-sedan-2019-l15be": "2001ed0b44ef8a498f048141660ce7c63d56e6668aa788e8509db637cf16713f",
+    "honda-civic-coupe-2019-k20c2": "d6aa496f22839a4a6659fe92a6b2d841c1de0b35298115242b54f8ef99ef62ba",
+    "honda-civic-coupe-2019-l15b7": "817284d7497a1f16c684a9190ececdf48e722419d67bee9238e0c8e23da8e53f",
+    "honda-civic-hatchback-2019-l15ba": "94d77dd2053791f9c661f20443915f79e4f8dad17bd4c9f3f680529ad507cd15",
+    "honda-civic-sedan-2019-k20c2": "1bfc449f15fd34f6cbd5a8cd51d805a9ff17a5cbb348bd9060addb65c74c7824",
+    "honda-civic-sedan-2019-l15b7": "6f3b3e1bd184a6bba66230a528964702a7bf54389e99277e88ccbc96dce8e72d",
+    "honda-civic-sedan-2019-l15by": "3178f5d019b935d0083d20aa1874ef79d80dd757919847b222b61f629dd2d37e",
+    "honda-civic-type-r-2019-k20c1": "ff15f1e6a83562a921f3579fbcbe95d77565735247e538705b284b20bc56a219",
+    "honda-passport-2019-j35y6": "dd54de5c15ef637795d335ef00bb1d18ec264a73bc23c39c9585a2f28489ed91",
+    "honda-pilot-2019-j35y6": "875759a8da73b0dd72cc89bbf647150faa988faf077e4dbbacf2bec3e2825971"
+  },
+  "legacyQuarantineHash": "429eadf73577d555741a1fbc3c3a2c25721db60b2c0936521c81a8c36cc1bb35",
+  "remainingResearchHash": "42a7c1cf6795932cade459c4f24c6bc378602153b91cf3f443f36b2c43983b75",
+  "unmodifiedResearchHash": "362d21a09d0ed07dbc2b322d32289a78a29b0f58cb89f9e1a104054fed8bf188",
+  "finalCanonicalHash": "86559d3bfa483d2d9f435496dcba3b1a88365e312b8f4688fb7645f8111f1bcf",
+  "finalRecordsHash": "92f197e2d4fe8d4b4920e133dae000c6ab95d8cd433faa40368d3e54d9f1ac3c",
+  "finalPublicHash": "757c3b3ba19e263985ca04da571e1f848ce54513bf0640e57fc4c67918dd0e11",
+  "protectedFiles": {
+    ".github/workflows/ci.yml": "dda4aafc273822d867cbeb59e4241983f885cd2b3f3f0b03b27c9928876cf348",
+    ".github/workflows/engine-data-ci.yml": "6799fe2e42673d9915b35dd284eaefb423a08657c2b1ea6e59f6cf19c695a722",
+    "data/engines/europe.js": "732b6b4894f165848a02d488d8e2a168797001880ddee5d0dfc2940f66de922e",
+    "data/engines/japan.js": "b83f3d7594bdb1367506d74341e146cc3c49cea2bef0d72c8e4f1f34e36a40ae",
+    "data/engines/korea.js": "5c31ceb81ad7b6ec309b244bee1d883b92173426ee0147518eec1a71cb5558d6",
+    "data/engines/north-america.js": "f2ddbc3de547c8b64f0446b1e4fb98798fc1a429bbe1604e53d23cf08a385879",
+    "data/engines/source/regions/europe.json": "d63a417fa9ba3d83b0a918b9b40b31369c1f413d92053372a4bae4ffff52616a",
+    "data/engines/source/regions/japan.json": "6d53958d44d2ff886340b6349fb8640df71442c1cd1a44ce57c454b07d14e9fd",
+    "data/engines/source/regions/korea.json": "b09523e266657bcef0c2fffc4f39bd1241924be46c58b25ee14cab22f7154469",
+    "data/engines/source/regions/north-america.json": "a3b704f9aad1935bc63dccd35973c0bc8937cee576ef5ef3c76e7482c028b9b6",
+    "data/engines/source/regions/south-america.json": "51ef5b887b115fbb6b8d087e792c4b090637a9dcd595f1b4da7c13b1b10cef36",
+    "data/engines/source/schema.json": "f54c4a171c7fa345ddf96ca08738e31af87bbe957c6bdc090dcf4598044823b3",
+    "data/engines/south-america.js": "905084234cee1c6ac706b357d589b52178b4c464ad335fbb34cfabafc15e1571",
+    "data/pcd/source/schema.json": "d4fa3e7bbf1b4ec7db8dcdc113b78f1bf2c1f1bcf0adc33d56452bcdb45dcf2d",
+    "data/pcd/source/vehicles.json": "525a6c50ceddba216d8af2a9e7ee52adb34553ac2ba2f5f58006498b411e7532",
+    "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
+    "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952",
+    "data/oil/schema.json": "6f381e74fe355471378231d512fa51056d0bc5d42fde91790e7da7350196d547",
+    "assets/js/oil-guide.js": "4d190a6093a73e9602352df224d8629e9ca7aa5cd4407e95d2616c19c4aa5e02",
+    "oil-guide.html": "f8287760d081a39562d79d3ee557884b230d5f463adbcb48942b7128c66bfc8c",
+    "scripts/oil/evidence.mjs": "39c2d9afd4a3c9d671613a3ba3b16906d5a9a48be623f1017579aca3eb88c25c",
+    "scripts/oil/validate.mjs": "9d1b5722f3bb8675f403a9c31732b25320d311dc68c28ed2e225893f8cd52693",
+    "scripts/oil/generate.mjs": "5af4580bf755f102576075fab3754565e088bc9deeceda1cc7aa423b9f6290e6"
+  },
+  "records": [
+    {
+      "id": "honda-odyssey-2017-j35z8",
+      "engineCode": "J35Z8",
+      "model": "Odyssey",
+      "modelYear": 2017,
+      "applications": [
+        {
+          "code": "RL5H2",
+          "trim": "ODYSSEY LX",
+          "transmission": "6AT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 4.5,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "b5a985b05906c4b4f1bb82c2bec8dbaf06622a206bb0ed008b31536c3f3855e1",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8b728c8d-3722-43a0-a9ba-97901955bf77",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8b728c8d-3722-43a0-a9ba-97901955bf77",
+        "documentSha256": "43798e13ebbbb4c8d32cf3938d6c7cc3491a9add54d437bb5ca4661daac78859",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Odyssey → 2011–2020"
+    },
+    {
+      "id": "honda-pilot-2017-j35y6",
+      "engineCode": "J35Y6",
+      "model": "Pilot",
+      "modelYear": 2017,
+      "applications": [
+        {
+          "code": "YF5H1",
+          "trim": "PILOT LX",
+          "transmission": "6AT",
+          "driveType": "2WD"
+        },
+        {
+          "code": "YF6H1",
+          "trim": "PILOT LX",
+          "transmission": "6AT",
+          "driveType": "4WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 5.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "13bfeb3f36afa2285c4586766b4c582779221d4b2b396c0867990e4692bd9e81",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/22ed9662-747f-42c1-aaf1-01cfc140af72",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/22ed9662-747f-42c1-aaf1-01cfc140af72",
+        "documentSha256": "2d6333a91d646716823cfcc77569e9e51998a16071cb4c394a658fa50d9850cb",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Pilot → 2012–2020"
+    },
+    {
+      "id": "honda-ridgeline-2017-j35y6",
+      "engineCode": "J35Y6",
+      "model": "Ridgeline",
+      "modelYear": 2017,
+      "applications": [
+        {
+          "code": "YK2F5",
+          "trim": "RIDGELINE RTL",
+          "transmission": "6AT",
+          "driveType": "2WD"
+        },
+        {
+          "code": "YK3F5",
+          "trim": "RIDGELINE RTL",
+          "transmission": "6AT",
+          "driveType": "4WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 5.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "6a545940d4f806d7b533d6b118305062550ce8d983802f574d5188c7c01a7087",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/88c781a0-bb06-4bce-bfde-3c809e2ebe1e",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/88c781a0-bb06-4bce-bfde-3c809e2ebe1e",
+        "documentSha256": "3a3b66316366f5cd7a3844a4e8e99385d3e93f2c09d0af964eb762d16ae2a635",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Ridgeline → 2012–2019"
+    },
+    {
+      "id": "honda-accord-sedan-2018-k20c4",
+      "engineCode": "K20C4",
+      "model": "Accord Sedan",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "CV2E3",
+          "trim": "ACCORD Sport",
+          "transmission": "6MT",
+          "driveType": "2WD"
+        },
+        {
+          "code": "CV2F3",
+          "trim": "ACCORD Sport",
+          "transmission": "10AT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 5.1,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "a67577eecc0b6d66329c4101793a084da04475f237f7c7d5c8dbac28adf172f4",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/cce7e74c-c2ee-4d31-9bce-fd904f943200",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/cce7e74c-c2ee-4d31-9bce-fd904f943200",
+        "documentSha256": "6697a5983fb2cabab5c16bf3a0ba5a7b545acae1d88a1244c2fd485874fcf68a",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Accord → 2011–2020 L4 & V6"
+    },
+    {
+      "id": "honda-accord-sedan-2018-l15be",
+      "engineCode": "L15BE",
+      "model": "Accord Sedan",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "CV1F1",
+          "trim": "ACCORD LX",
+          "transmission": "CVT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 3.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "2c91b43393abc1f811bdda8398c5aa57643d9b00d717707cedb1face29256ed8",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/e750b73e-0b2d-4214-8ca5-08bf1419a1fe",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/e750b73e-0b2d-4214-8ca5-08bf1419a1fe",
+        "documentSha256": "5b5b335f927752c0f21992c3a34ba9f44fec94a7785a14ea1c1de67e08befaa4",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Accord → 2011–2020 L4 & V6"
+    },
+    {
+      "id": "honda-civic-coupe-2018-k20c2",
+      "engineCode": "K20C2",
+      "model": "Civic Coupe",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "FC4B5",
+          "trim": "CIVIC LX",
+          "transmission": "CVT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 4.4,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "c3e29f6f36650885bb5ef5c2c4db677539503914857b8953edb44b01eb6087f6",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+        "documentSha256": "fb7be801099c5c86eb6c863fc6e6f48086e5907e8429dab748df2247a0e1a032",
+        "pages": [
+          1,
+          7,
+          8
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Civic → 2012–2020 All others"
+    },
+    {
+      "id": "honda-civic-coupe-2018-l15b7",
+      "engineCode": "L15B7",
+      "model": "Civic Coupe",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "FC3B3",
+          "trim": "CIVIC EX-T",
+          "transmission": "CVT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 3.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "a741ad0c1cfbb36ce69ca77622c349aaef2c8783f26f41e9a2c907a8aa45623e",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+        "documentSha256": "fb7be801099c5c86eb6c863fc6e6f48086e5907e8429dab748df2247a0e1a032",
+        "pages": [
+          1,
+          7,
+          8
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Civic → 2012–2020 All others"
+    },
+    {
+      "id": "honda-civic-hatchback-2018-l15ba",
+      "engineCode": "L15BA",
+      "model": "Civic Hatchback",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "FK7H3",
+          "trim": "LX HONDA SENSING",
+          "transmission": "CVT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 3.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "1c1b62b00321279d3af2ee03b6327333b20456e45842ac3f8fe9177e48f2eb4f",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/2157ff4f-4a84-49e9-b0b4-a9255a90a5fb",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/2157ff4f-4a84-49e9-b0b4-a9255a90a5fb",
+        "documentSha256": "097f9e4cb0a8db7bc33127a4923b91096d7fcda66466abee1268d5a517321c2c",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Civic → 2012–2020 All others"
+    },
+    {
+      "id": "honda-civic-sedan-2018-k20c2",
+      "engineCode": "K20C2",
+      "model": "Civic Sedan",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "FC2F5",
+          "trim": "CIVIC LX",
+          "transmission": "CVT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 4.4,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "8be490141a32467f68f760cd031399c7ec5dbd3f7ca56bd73fad0ac4df05bee6",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+        "documentSha256": "fb7be801099c5c86eb6c863fc6e6f48086e5907e8429dab748df2247a0e1a032",
+        "pages": [
+          1,
+          6,
+          8
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Civic → 2012–2020 All others"
+    },
+    {
+      "id": "honda-civic-sedan-2018-l15b7",
+      "engineCode": "L15B7",
+      "model": "Civic Sedan",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "FC1E3",
+          "trim": "CIVIC EX-T",
+          "transmission": "6MT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 3.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "6cd11d7f2f29c45aa40c463398a304c32e4c1738020257288d2c7d393a6e64f8",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
+        "documentSha256": "fb7be801099c5c86eb6c863fc6e6f48086e5907e8429dab748df2247a0e1a032",
+        "pages": [
+          1,
+          6,
+          8
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Civic → 2012–2020 All others"
+    },
+    {
+      "id": "honda-clarity-plug-in-hybrid-2018-leb3",
+      "engineCode": "LEB3",
+      "model": "Clarity Plug-In Hybrid",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "ZC5F1",
+          "trim": "CLARITY PLUG-IN HYBRID PHEV",
+          "transmission": "CVT",
+          "driveType": "2WD"
+        },
+        {
+          "code": "ZC5F3",
+          "trim": "CLARITY PLUG-IN HYBRID TOURING",
+          "transmission": "CVT",
+          "driveType": "2WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 3.5,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "adc260b93e9ee87f97d1db57e1e5b7f942b24c8b5a275ea6b34d6a1f561e63bb",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/fb670f66-8920-4992-ad57-a54c0be34c71",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/fb670f66-8920-4992-ad57-a54c0be34c71",
+        "documentSha256": "3b3c13fdfce381525c29665d0556ba865e51eca23aac96dfcfa4611499d3086c",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Clarity Plug-in → 2018–2019"
+    },
+    {
+      "id": "honda-cr-v-2018-l15be",
+      "engineCode": "L15BE",
+      "model": "CR-V",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "RW1H5",
+          "trim": "CR-V EX",
+          "transmission": "CVT",
+          "driveType": "2WD"
+        },
+        {
+          "code": "RW2H5",
+          "trim": "CR-V EX",
+          "transmission": "CVT",
+          "driveType": "4WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 3.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "9831fea291a8fee1a56815d22d2831882b6ea1d961151b7ab6fcd31707889ae0",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8c68f0cd-5358-4c50-baa2-09e2c1645fe6",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8c68f0cd-5358-4c50-baa2-09e2c1645fe6",
+        "documentSha256": "40d1828cf709e640b384230a6c41645deba50614b339e6418eec79b3bb1cd5dc",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → CR-V → 2010–2020"
+    },
+    {
+      "id": "honda-hr-v-2018-r18z9",
+      "engineCode": "R18Z9",
+      "model": "HR-V",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "RU5G3",
+          "trim": "HR-V LX",
+          "transmission": "6MT",
+          "driveType": "2WD"
+        },
+        {
+          "code": "RU6H3",
+          "trim": "HR-V LX",
+          "transmission": "CVT",
+          "driveType": "4WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 3.9,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "a0b2da8cec9da6777dd61ab2b29948f0b0bc68c9130b743be15c79f326dddeda",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/a4517625-b4f5-4904-a7ba-f840487a9df8",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/a4517625-b4f5-4904-a7ba-f840487a9df8",
+        "documentSha256": "aa1a50b557a12cea1435e5a0c9124363ed8d8baaf5e6e55942d8797ff1372d0f",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → HR-V → 2016–2020"
+    },
+    {
+      "id": "honda-pilot-2018-j35y6",
+      "engineCode": "J35Y6",
+      "model": "Pilot",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "YF5H1",
+          "trim": "PILOT LX",
+          "transmission": "6AT",
+          "driveType": "2WD"
+        },
+        {
+          "code": "YF6H1",
+          "trim": "PILOT LX",
+          "transmission": "6AT",
+          "driveType": "4WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 5.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "5df1b183777be52f0aadb2ec92a7ae31e36ea3fd8745bd2eef0e00b4f2f4a825",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/4ff74c2d-6c0b-4aa3-9614-c3c4362efc03",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/4ff74c2d-6c0b-4aa3-9614-c3c4362efc03",
+        "documentSha256": "9ea3c067c86225666981b1fcea1277e6db5b58fff7336f18820a19fc11b21ec1",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Pilot → 2012–2020"
+    },
+    {
+      "id": "honda-ridgeline-2018-j35y6",
+      "engineCode": "J35Y6",
+      "model": "Ridgeline",
+      "modelYear": 2018,
+      "applications": [
+        {
+          "code": "YK2F5",
+          "trim": "RIDGELINE RTL",
+          "transmission": "6AT",
+          "driveType": "2WD"
+        },
+        {
+          "code": "YK3F5",
+          "trim": "RIDGELINE RTL",
+          "transmission": "6AT",
+          "driveType": "4WD"
+        }
+      ],
+      "confirmedFields": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ],
+      "capturedCapacity": 5.7,
+      "capturedCapacityUnit": "US qt",
+      "capturedCapacityNoteHash": "c89d8be8b46fff307dc641a0551fd257a466e6d77cd1ed271a77a9a1766fe5c7",
+      "archivedSourceHash": "2ec361acf4bf824f37fe9e40bafcc82190859fd6a44dcb5eb3350edcd13c701f",
+      "sourceUrls": [
+        "https://vpic.nhtsa.dot.gov/mid/home/displayfile/9a0bea6f-3c89-4fc8-a7ca-a13a7ccdaec7",
+        "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
+        "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
+      ],
+      "identityEvidence": {
+        "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/9a0bea6f-3c89-4fc8-a7ca-a13a7ccdaec7",
+        "documentSha256": "c4a3e844b22171acc50526d0297aaebb21a02ec85466480ee2b12c77b5c97bd2",
+        "pages": [
+          1,
+          6,
+          7
+        ]
+      },
+      "faqSection": "Answer → viscosity chart → Ridgeline → 2012–2019"
+    }
+  ]
+}

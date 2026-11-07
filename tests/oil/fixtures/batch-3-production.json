@@ -592,5 +592,39 @@
       },
       "faqSection": "Answer → viscosity chart → HR-V → 2016–2020"
     }
-  ]
+  ],
+  "current": {
+    "assessment": "After Batch 4; historical Batch 3 final counts and hashes above remain frozen.",
+    "counts": {
+      "selectable": 57,
+      "research": 22,
+      "quarantine": 59
+    },
+    "canonicalHash": "86559d3bfa483d2d9f435496dcba3b1a88365e312b8f4688fb7645f8111f1bcf",
+    "remainingResearchHash": "42a7c1cf6795932cade459c4f24c6bc378602153b91cf3f443f36b2c43983b75",
+    "remainingResearchRecords": {
+      "honda-civic-type-r-2017-k20c1": "9c234ebe9044f177abb6907a337a9a1bca5e43e2c276fa8aee3b3269621c62c1",
+      "honda-cr-v-2017-k24v9": "0875298aeab8844c1c80e7790fbbf55f80ec909908e48dca9b33efcdc21c016c",
+      "honda-cr-v-2017-k24w9": "a02c5548bd3fa26b24de3a3703c6fa12e21239c38fd2d274e7517df4b499aa76",
+      "honda-fit-2017-l15b3": "64db3d6e608c0ed8635a98699657f074ac3f03b80c582e0b8b2c4910ef955a72",
+      "honda-accord-hybrid-2018-lfb1": "766d95af109241300cc42f8d80956d69a15f44f64e11d475c05c109774eaa86f",
+      "honda-accord-hybrid-2018-lfb2": "4d848411fad964e48aaa24cc6881376460a792cfb04c37c99ef40f8f0c71d0b1",
+      "honda-civic-sedan-2018-l15by": "66f78c1cb3ecccc6e472cd27b3caebadfec1ea9b6249ee66163ef3a7390f0bfa",
+      "honda-civic-type-r-2018-k20c1": "8b02ac57bb4abd8d126224ac7d0458393e0269e94e83bc58ff43b5e01b234e96",
+      "honda-cr-v-2018-k24v9": "afd0d6970853ab5ad8a5d0a2e46d55530d591776ff8ba13b20f03410b5a6199f",
+      "honda-cr-v-2018-k24w9": "89110242732ad522d12f155263a7f2d4b625cee2d5168ce8bf6dd4094d7c0212",
+      "honda-accord-hybrid-2019-lfb2": "54abf5530da4da49aba2ba6ec8af701ffed144f44b67f3284469a243d92e8eeb",
+      "honda-accord-sedan-2019-k20c4": "326c903a5b4d8c92553473492b043e1ab5e2890d6c2ccdf58c77692870735c92",
+      "honda-accord-sedan-2019-l15be": "2001ed0b44ef8a498f048141660ce7c63d56e6668aa788e8509db637cf16713f",
+      "honda-civic-coupe-2019-k20c2": "d6aa496f22839a4a6659fe92a6b2d841c1de0b35298115242b54f8ef99ef62ba",
+      "honda-civic-coupe-2019-l15b7": "817284d7497a1f16c684a9190ececdf48e722419d67bee9238e0c8e23da8e53f",
+      "honda-civic-hatchback-2019-l15ba": "94d77dd2053791f9c661f20443915f79e4f8dad17bd4c9f3f680529ad507cd15",
+      "honda-civic-sedan-2019-k20c2": "1bfc449f15fd34f6cbd5a8cd51d805a9ff17a5cbb348bd9060addb65c74c7824",
+      "honda-civic-sedan-2019-l15b7": "6f3b3e1bd184a6bba66230a528964702a7bf54389e99277e88ccbc96dce8e72d",
+      "honda-civic-sedan-2019-l15by": "3178f5d019b935d0083d20aa1874ef79d80dd757919847b222b61f629dd2d37e",
+      "honda-civic-type-r-2019-k20c1": "ff15f1e6a83562a921f3579fbcbe95d77565735247e538705b284b20bc56a219",
+      "honda-passport-2019-j35y6": "dd54de5c15ef637795d335ef00bb1d18ec264a73bc23c39c9585a2f28489ed91",
+      "honda-pilot-2019-j35y6": "875759a8da73b0dd72cc89bbf647150faa988faf077e4dbbacf2bec3e2825971"
+    }
+  }
 }
