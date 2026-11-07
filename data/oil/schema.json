@@ -110,7 +110,7 @@
         "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
         "checkedAt": { "type": "string", "format": "date" },
         "notes": { "$ref": "#/$defs/localizedText" },
-        "legacyRecordId": { "type": "string", "minLength": 1 }
+        "legacyRecordId": { "type": ["string", "null"], "minLength": 1 }
       },
       "additionalProperties": false
     },

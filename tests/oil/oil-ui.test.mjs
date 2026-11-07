@@ -15,7 +15,7 @@ const moduleSource = fs.readFileSync(path.join(root, 'assets/js/oil-guide.js'), 
 const data = toPublicOilData(loadCanonical());
 
 const empty = ui.cascade(data.records);
-assert.deepEqual(empty.makes, ['BMW', 'Volvo']);
+assert.deepEqual(empty.makes, ['BMW', 'Toyota', 'Volvo']);
 assert.equal(empty.models.length, 0);
 const make = ui.cascade(data.records, { make: 'BMW' });
 assert.deepEqual(make.models, ['3 Series']);
