@@ -125,8 +125,6 @@
     "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952",
     "data/oil/schema.json": "6f381e74fe355471378231d512fa51056d0bc5d42fde91790e7da7350196d547",
-    "assets/js/oil-guide.js": "4d190a6093a73e9602352df224d8629e9ca7aa5cd4407e95d2616c19c4aa5e02",
-    "oil-guide.html": "f8287760d081a39562d79d3ee557884b230d5f463adbcb48942b7128c66bfc8c",
     "scripts/oil/evidence.mjs": "39c2d9afd4a3c9d671613a3ba3b16906d5a9a48be623f1017579aca3eb88c25c",
     "scripts/oil/validate.mjs": "9d1b5722f3bb8675f403a9c31732b25320d311dc68c28ed2e225893f8cd52693",
     "scripts/oil/generate.mjs": "5af4580bf755f102576075fab3754565e088bc9deeceda1cc7aa423b9f6290e6"

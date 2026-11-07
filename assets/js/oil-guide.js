@@ -14,6 +14,8 @@
   };
   const normalize = (value) => String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
   const yearsLabel = (record) => `${record.productionYears.from}-${record.productionYears.to}`;
+  const displayYears = (record) => record.productionYears.from === record.productionYears.to ? String(record.productionYears.from) : `${record.productionYears.from}–${record.productionYears.to}`;
+  const variantLabel = (key) => { const [generation, range] = key.split('|||'); const [from, to] = range.split('-'); return `${generation} · ${from === to ? from : `${from}–${to}`}`; };
   const variantKey = (record) => `${record.generation}|||${yearsLabel(record)}`;
   const uniqueSorted = (items) => [...new Set(items)].sort((left, right) => left.localeCompare(right));
 
@@ -85,58 +87,112 @@ Object.assign(evidenceText.en, { seePaths: 'See the documented selection paths' 
 Object.assign(evidenceText.es, { seePaths: 'Consulta las opciones documentadas' });
 Object.assign(evidenceText.fr, { seePaths: 'Voir les options documentées' });
 Object.assign(evidenceText.de, { seePaths: 'Siehe dokumentierte Auswahlwege' });
+Object.assign(evidenceText.en, {"secondary":"More vehicle details","evidence":"Evidence and sources","notes":"Record notes","blocked":"Oil recommendation unavailable — resolve the application evidence first.","conditions":"Conditions of use","temporarySae":"Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change.","fieldNotAssessed":"Not reassessed","completenessUnknown":"Not assessed"});
+Object.assign(evidenceText.es, {"secondary":"Más datos del vehículo","evidence":"Evidencia y fuentes","notes":"Notas del registro","blocked":"Recomendación de aceite no disponible: primero resuelve la evidencia de aplicación.","conditions":"Condiciones de uso","temporarySae":"Sustituto temporal solo si SAE 0W-20 no está disponible; cambia a SAE 0W-20 en el próximo cambio de aceite.","fieldNotAssessed":"Sin reevaluar","completenessUnknown":"Sin evaluar"});
+Object.assign(evidenceText.fr, {"secondary":"Autres détails du véhicule","evidence":"Preuves et sources","notes":"Notes de la fiche","blocked":"Recommandation d’huile indisponible : clarifiez d’abord les preuves de l’application.","conditions":"Conditions d’utilisation","temporarySae":"Substitut temporaire uniquement si SAE 0W-20 est indisponible ; revenez à SAE 0W-20 à la prochaine vidange.","fieldNotAssessed":"Non réévalué","completenessUnknown":"Non évaluée"});
+Object.assign(evidenceText.de, {"secondary":"Weitere Fahrzeugangaben","evidence":"Nachweise und Quellen","notes":"Hinweise zum Datensatz","blocked":"Keine Ölempfehlung verfügbar — zuerst den Anwendungsnachweis klären.","conditions":"Einsatzbedingungen","temporarySae":"Nur vorübergehend verwenden, wenn SAE 0W-20 nicht verfügbar ist; beim nächsten Ölwechsel wieder SAE 0W-20 verwenden.","fieldNotAssessed":"Nicht neu bewertet","completenessUnknown":"Nicht bewertet"});
 const enumText = {
   en: { petrol: 'Petrol', diesel: 'Diesel', hybrid: 'Hybrid', unknown: 'Unknown', naturallyAspirated: 'Naturally aspirated', turbocharged: 'Turbocharged', supercharged: 'Supercharged', twinCharged: 'Twin charged', months: 'months' },
   es: { petrol: 'Gasolina', diesel: 'Diésel', hybrid: 'Híbrido', unknown: 'Desconocido', naturallyAspirated: 'Atmosférico', turbocharged: 'Turboalimentado', supercharged: 'Sobrealimentado', twinCharged: 'Doble sobrealimentación', months: 'meses' },
   fr: { petrol: 'Essence', diesel: 'Diesel', hybrid: 'Hybride', unknown: 'Inconnu', naturallyAspirated: 'Atmosphérique', turbocharged: 'Turbocompressé', supercharged: 'Compresseur', twinCharged: 'Double suralimentation', months: 'mois' },
   de: { petrol: 'Benzin', diesel: 'Diesel', hybrid: 'Hybrid', unknown: 'Unbekannt', naturallyAspirated: 'Saugmotor', turbocharged: 'Turbolader', supercharged: 'Kompressor', twinCharged: 'Doppelte Aufladung', months: 'Monate' }
 };
+Object.assign(enumText.en, {"present":"Present","absent":"Absent","catalyst":"Catalyst"});
+Object.assign(enumText.es, {"present":"Presente","absent":"Ausente","catalyst":"Catalizador"});
+Object.assign(enumText.fr, {"present":"Présent","absent":"Absent","catalyst":"Catalyseur"});
+Object.assign(enumText.de, {"present":"Vorhanden","absent":"Nicht vorhanden","catalyst":"Katalysator"});
 const engineLabel = (record, lang = 'en') => record.engineIdentity ? (record.engineIdentity.type === 'engineeringCode' ? record.engineCode : `${record.engineIdentity.value} (${evidenceText[lang][record.engineIdentity.type]})`) : record.engineCode;
 const fieldState = (record, field) => record.evidenceAssessment?.fields?.[field] || record.fieldEvidence?.[field]?.state || 'notAssessed';
 function sourceLinks(record, field, lang) {
   const text = evidenceText[lang];
-  const refs = field === 'application' ? record.applicationEvidence?.evidenceRefs : record.fieldEvidence?.[field]?.evidenceRefs;
-  const pairs = refs ? refs.map((ref) => { const source = record.sources.find((s) => s.id === ref.sourceId); return { source, locator: source?.locators?.find((l) => l.id === ref.locatorId) }; }).filter((p) => p.source && p.locator)
-    : record.sources.filter((s) => s.fields.includes(field === 'engineIdentity' ? 'engineCode' : field)).map((source) => ({ source }));
-  return pairs.map(({ source, locator }) => {
+  let refs = field === 'application' ? record.applicationEvidence?.evidenceRefs : record.fieldEvidence?.[field]?.evidenceRefs;
+  if (field === 'oilRequirements' && record.oilRequirements) {
+    refs = [];
+    const collect = (node) => { refs.push(...node.evidenceRefs || []); if (node.conditionRef) refs.push(node.conditionRef); (node.allOf || node.anyOf || []).forEach(collect); };
+    collect(record.oilRequirements.expression);
+  }
+  const pairs = refs ? refs.map(ref => { const source = record.sources.find(s => s.id === ref.sourceId); return { source, locator: source?.locators?.find(l => l.id === ref.locatorId) }; }).filter(p => p.source && p.locator)
+    : record.sources.filter(s => s.fields.includes(field === 'engineIdentity' ? 'engineCode' : field)).map(source => ({ source }));
+  const unique = pairs.filter((pair, index) => pairs.findIndex(p => p.source === pair.source && p.locator === pair.locator) === index);
+  if (!unique.length) return '';
+  return '<details class="field-sources"><summary>' + escapeHtml(text.sources) + '</summary>' + unique.map(({ source, locator }) => {
     const pages = locator?.pageNumbers || source.pageNumbers;
-    const location = pages?.length ? `${text.page} ${pages.join(', ')}` : locator?.section || '';
-    const href = source.url + (pages?.length ? `#page=${pages[0]}` : '');
-    return `<details class="field-sources"><summary>${escapeHtml(text.sources)}${location ? ' · ' + escapeHtml(location) : ''}</summary><a href="${escapeHtml(href)}" rel="noopener noreferrer">${escapeHtml(source.publisher)} — ${escapeHtml(source.title)}</a>${locator?.excerpt ? `<p>${escapeHtml(locator.excerpt)}</p>` : ''}</details>`;
-  }).join('');
+    const location = pages?.length ? text.page + ' ' + pages.join(', ') : locator?.section || '';
+    const href = source.url + (pages?.length ? '#page=' + pages[0] : '');
+    return '<div class="source-entry"><a href="' + escapeHtml(href) + '" rel="noopener noreferrer">' + escapeHtml(source.publisher) + ' — ' + escapeHtml(source.title) + '</a>'
+      + (location ? '<p class="source-locator">' + escapeHtml(location) + '</p>' : '')
+      + (locator ? '<p class="source-locator">' + escapeHtml(source.id + ' / ' + locator.id) + '</p>' : '')
+      + (locator?.excerpt ? '<blockquote>' + escapeHtml(locator.excerpt) + '</blockquote>' : source.evidenceNotes ? '<p class="source-note">' + escapeHtml(source.evidenceNotes) + '</p>' : '') + '</div>';
+  }).join('') + '</details>';
 }
 function renderRequirements(record, lang = 'en') {
   const text = evidenceText[lang];
-  if (record.oilRequirements && record.oilRequirements.state !== 'confirmed') return `<p>${escapeHtml(text[record.oilRequirements.state])}</p>`;
+  if (!record.oilRequirements) return '';
+  if (record.oilRequirements.state !== 'confirmed') return '<p class="evidence-status" data-evidence-state="' + record.oilRequirements.state + '">' + escapeHtml(text[record.oilRequirements.state]) + '</p>';
+  const unresolved = [];
+  const inspect = node => { if (node.field && fieldState(record, node.field.split('.')[0]) !== 'confirmed') unresolved.push(fieldState(record, node.field.split('.')[0])); (node.allOf || node.anyOf || []).forEach(inspect); };
+  inspect(record.oilRequirements.expression);
+  if (unresolved.length) { const state = unresolved.includes('conflict') ? 'conflict' : 'unknown'; return '<p class="evidence-status" data-evidence-state="' + state + '">' + escapeHtml(text[state]) + '</p>'; }
   const valueAt = (field) => field.split('.').reduce((v, key) => v?.[key], record);
   function render(node) {
-    const conditionSource = node.conditionRef && record.sources.find((s) => s.id === node.conditionRef.sourceId)?.locators?.find((l) => l.id === node.conditionRef.locatorId);
-    const conditionHtml = conditionSource?.condition ? `<p>${escapeHtml(text.when)}: ${escapeHtml(localize(conditionSource.condition, lang))}</p>` : '';
+    const locator = node.conditionRef && record.sources.find(s => s.id === node.conditionRef.sourceId)?.locators?.find(l => l.id === node.conditionRef.locatorId);
+    const condition = locator?.condition ? '<p class="requirement-condition">' + escapeHtml(text.when) + ': ' + escapeHtml(localize(locator.condition, lang)) + '</p>' : '';
     if (node.field) {
-      const field = node.field.split('.')[0];
-      return conditionHtml + (fieldState(record, field) === 'confirmed' ? `<span class="requirement-value">${escapeHtml(valueAt(node.field)?.[node.index])}</span>${sourceLinks(record, field, lang)}` : escapeHtml(text.unknown));
+      const state = fieldState(record, node.field.split('.')[0]);
+      return condition + (state === 'confirmed' ? '<span class="requirement-value">' + escapeHtml(valueAt(node.field)?.[node.index]) + '</span>' : '<span class="evidence-status" data-evidence-state="' + state + '">' + escapeHtml(text[state]) + '</span>');
     }
     const op = node.allOf ? 'allOf' : 'anyOf';
-    const content = (node[op] || []).map((n) => `<div class="requirement-branch">${render(n)}</div>`).join(`<strong class="requirement-operator">${escapeHtml(text[op === 'allOf' ? 'and' : 'or'])}</strong>`);
-    const ref = node.conditionRef;
-    const locator = ref && record.sources.find((s) => s.id === ref.sourceId)?.locators?.find((l) => l.id === ref.locatorId);
-    return `<div class="requirement-group" data-operator="${op}">${locator?.condition ? `<p>${escapeHtml(text.when)}: ${escapeHtml(localize(locator.condition, lang))}</p>` : ''}${content}</div>`;
+    const children = node[op].map(n => '<div class="requirement-branch">' + render(n) + '</div>').join('<strong class="requirement-operator">' + escapeHtml(text[op === 'allOf' ? 'and' : 'or']) + '</strong>');
+    return '<div class="requirement-group" data-operator="' + op + '">' + condition + '<div class="requirement-children">' + children + '</div></div>';
   }
-  return record.oilRequirements ? `<p class="result-note">${escapeHtml(text[record.oilRequirements.coverage])}</p>${render(record.oilRequirements.expression)}` : '';
+  return render(record.oilRequirements.expression) + '<p class="path-coverage">' + escapeHtml(text[record.oilRequirements.coverage]) + '</p>';
 }
 function renderOilCard(record, lang = 'en') {
   const text = evidenceText[lang] || evidenceText.en;
   const assessed = !!record.fieldEvidence;
   const appState = record.evidenceAssessment?.application || record.applicationEvidence?.state || 'notAssessed';
-  const completeness = record.completeness?.state || (assessed ? 'partial' : 'notAssessed');
-  const row = (label, value, field) => {
-    const state = fieldState(record, field);
-    const show = !assessed || state === 'confirmed';
-    return `<div class="spec-item"><span class="spec-label">${escapeHtml(label)}</span><span class="evidence-status" data-evidence-state="${state}">${escapeHtml(text[state])}</span><div class="spec-value">${show && value ? escapeHtml(value) : escapeHtml(text.unknown)}</div>${show ? sourceLinks(record, field, lang) : ''}</div>`;
-  };
-  const apps = record.applicationEvidence?.applications?.map((a) => `${a.trim} · ${a.code} · ${a.transmission} · ${a.driveType}`).join('; ') || '';
-  const identity = record.engineIdentity ? `${text[record.engineIdentity.type]}: ${record.engineIdentity.type === 'engineeringCode' ? record.engineCode : record.engineIdentity.value}` : record.engineCode;
-  return `<div class="result-header"><div><h3>${escapeHtml(record.make)} ${escapeHtml(record.model)} · ${escapeHtml(identity)}</h3><p>${escapeHtml(record.generation)} · ${escapeHtml(yearsLabel(record))} · ${escapeHtml(record.market.join(', '))}</p></div></div><p><strong>${escapeHtml(text.completeness)}:</strong> ${escapeHtml(text[completeness])}</p>${!assessed ? `<p class="result-note">${escapeHtml(text.legacy)}</p>` : ''}<div class="spec-grid"><div class="spec-item"><span class="spec-label">${escapeHtml(text.application)}</span><span class="evidence-status" data-evidence-state="${appState}">${escapeHtml(text[appState])}</span><p>${escapeHtml(apps)}</p>${sourceLinks(record, 'application', lang)}</div>${row(text[record.engineIdentity?.type || 'engineeringCode'], identity, 'engineIdentity')}${row(text.displacement, record.displacementLiters && `${record.displacementLiters} L`, 'displacementLiters')}${row(text.fuel, enumText[lang][record.fuelType] || record.fuelType, 'fuelType')}${row(text.aspiration, enumText[lang][record.aspiration] || record.aspiration, 'aspiration')}${row(text.viscosity, record.allowedSaeViscosities.join(', '), 'allowedSaeViscosities')}${row(text.standards, [...record.industrySpecifications.acea, ...record.industrySpecifications.api, ...record.industrySpecifications.ilsac].join(', '), 'industrySpecifications')}${record.oilRequirements ? `<div class="spec-item requirement-card"><span class="spec-label">${escapeHtml(text.requirements)}</span>${renderRequirements(record, lang)}</div>` : ''}${row(text.approvals, record.oilRequirements ? text.seePaths : record.requiredManufacturerApprovals.join(', '), 'requiredManufacturerApprovals')}${row(ui[lang].preferredApproval, record.preferredManufacturerApprovals.join(', '), 'preferredManufacturerApprovals')}${row(text.capacity, record.serviceFillCapacity == null ? '' : `${record.serviceFillCapacity} ${record.capacityUnit}${record.capacityNote ? ' — ' + localize(record.capacityNote, lang) : ''}`, 'serviceFillCapacity')}${row(text.interval, record.serviceInterval ? [record.serviceInterval.distanceKm && `${record.serviceInterval.distanceKm} km`, record.serviceInterval.months && `${record.serviceInterval.months} ${enumText[lang].months}`, localize(record.serviceInterval.note, lang)].filter(Boolean).join(' / ') : '', 'serviceInterval')}${row(text.emissions, Object.entries(record.emissionsEquipment).map(([k,v])=>`${k}: ${v}`).join('; '), 'emissionsEquipment')}${row(text.climate, record.climateLimitations.map((c) => `${c.sae || ''}: ${c.condition || ''}`).join('; '), 'climateLimitations')}</div><p class="result-note">${escapeHtml(localize(record.notes, lang))}</p>`;
+  const blocked = assessed && appState !== 'confirmed';
+  const completeness = record.completeness?.state || 'notAssessed';
+  const labels = { application: text.application, engineIdentity: text[record.engineIdentity?.type || 'engineeringCode'], allowedSaeViscosities: text.viscosity, industrySpecifications: text.standards, oilRequirements: text.requirements, serviceFillCapacity: text.capacity, capacityUnit: text.capacity, capacityNote: text.capacity, serviceInterval: text.interval, requiredManufacturerApprovals: text.approvals, preferredManufacturerApprovals: ui[lang].preferredApproval, displacementLiters: text.displacement, fuelType: text.fuel, aspiration: text.aspiration, climateLimitations: text.climate, emissionsEquipment: text.emissions };
+  function row(field, value, suppress = false, overrideState = null) {
+    const state = overrideState || fieldState(record, field), hasValue = value != null && value !== '';
+    const show = !suppress && hasValue && !['unknown', 'conflict'].includes(state) && (!assessed || state === 'confirmed');
+    const displayState = state === 'conflict' ? 'conflict' : suppress || state === 'unknown' || !hasValue ? 'unknown' : state;
+    const status = displayState === 'notAssessed' ? text.fieldNotAssessed : text[displayState];
+    return '<div class="spec-item" data-field="' + field + '"><span class="spec-label">' + escapeHtml(labels[field]) + '</span>'
+      + '<span class="evidence-status" data-evidence-state="' + displayState + '">' + escapeHtml(status) + '</span>'
+      + (show ? '<div class="spec-value">' + escapeHtml(value) + '</div>' : '') + '</div>';
+  }
+  const apps = record.applicationEvidence?.applications?.map(a => a.trim + ' · ' + a.code + ' · ' + a.transmission + ' · ' + a.driveType).join('; ');
+  const identity = record.engineIdentity?.type === 'engineeringCode' || !record.engineIdentity ? record.engineCode : record.engineIdentity.value;
+  const climate = (['unknown', 'conflict'].includes(fieldState(record, 'climateLimitations')) ? [] : record.climateLimitations).map(c => (c.sae ? c.sae + ': ' : '') + (c.condition === evidenceText.en.temporarySae ? text.temporarySae : localize(c.condition, lang))).join('; ');
+  const unitState = fieldState(record, 'capacityUnit');
+  const quantityState = unitState === 'conflict' || fieldState(record, 'serviceFillCapacity') === 'conflict' ? 'conflict' : assessed && unitState !== 'confirmed' ? 'unknown' : fieldState(record, 'serviceFillCapacity');
+  const quantity = record.serviceFillCapacity == null || !record.capacityUnit || ['unknown', 'conflict'].includes(quantityState) ? '' : record.serviceFillCapacity + ' ' + record.capacityUnit + (record.capacityNote && (!assessed || fieldState(record, 'capacityNote') === 'confirmed') ? ' — ' + localize(record.capacityNote, lang) : '');
+  const requirementsConflict = record.oilRequirements?.state === 'conflict' || !record.oilRequirements && ['allowedSaeViscosities', 'industrySpecifications', 'requiredManufacturerApprovals'].some(field => fieldState(record, field) === 'conflict');
+  const requirements = blocked ? '<p class="result-note">' + escapeHtml(text.blocked) + '</p>' : requirementsConflict ? '<p class="evidence-status" data-evidence-state="conflict">' + escapeHtml(text.conflict) + '</p>' : record.oilRequirements ? renderRequirements(record, lang)
+    : '<div class="legacy-oil-fields">' + row('allowedSaeViscosities', record.allowedSaeViscosities.join(', '))
+      + row('industrySpecifications', [...record.industrySpecifications.acea, ...record.industrySpecifications.api, ...record.industrySpecifications.ilsac].join(', '))
+      + (record.requiredManufacturerApprovals.length ? row('requiredManufacturerApprovals', record.requiredManufacturerApprovals.join(', ')) : '') + '</div>';
+  const evidence = Object.entries(labels).map(([field, label]) => { const links = sourceLinks(record, field, lang); return links ? '<div class="field-evidence"><h4>' + escapeHtml(label) + '</h4>' + links + '</div>' : ''; }).join('');
+  const secondary = row('displacementLiters', record.displacementLiters && record.displacementLiters + ' L')
+    + row('fuelType', record.fuelType === 'unknown' ? '' : enumText[lang][record.fuelType] || record.fuelType)
+    + row('aspiration', record.aspiration === 'unknown' ? '' : enumText[lang][record.aspiration] || record.aspiration)
+    + row('serviceInterval', record.serviceInterval ? [record.serviceInterval.distanceKm && record.serviceInterval.distanceKm + ' km', record.serviceInterval.months && record.serviceInterval.months + ' ' + enumText[lang].months, localize(record.serviceInterval.note, lang)].filter(Boolean).join(' / ') : '')
+    + (record.oilRequirements || !record.requiredManufacturerApprovals.length ? row('requiredManufacturerApprovals', record.oilRequirements && record.requiredManufacturerApprovals.length ? text.seePaths : record.requiredManufacturerApprovals.join(', ')) : '')
+    + row('preferredManufacturerApprovals', record.preferredManufacturerApprovals.join(', '))
+    + row('emissionsEquipment', Object.entries(record.emissionsEquipment).filter(([,v]) => v !== 'unknown').map(([k,v]) => (k === 'catalyst' ? enumText[lang].catalyst : k.toUpperCase()) + ': ' + (enumText[lang][v] || v)).join('; '))
+    + (!climate ? row('climateLimitations', '') : '');
+  return '<div class="result-header"><div><h3>' + escapeHtml(record.make + ' ' + record.model + ' · ' + displayYears(record)) + '</h3><p>' + escapeHtml(record.market.join(', ') + ' · ' + record.generation) + '</p>'
+    + (apps ? '<p class="result-application">' + escapeHtml(apps) + '</p>' : '') + '</div><span class="status-badge">' + escapeHtml(text.completeness + ': ' + (completeness === 'notAssessed' ? text.completenessUnknown : text[completeness])) + '</span></div>'
+    + '<div class="result-identity">' + row('engineIdentity', identity) + '<div class="spec-item" data-field="application"><span class="spec-label">' + escapeHtml(text.application) + '</span><span class="evidence-status" data-evidence-state="' + appState + '">' + escapeHtml(appState === 'notAssessed' ? text.fieldNotAssessed : text[appState]) + '</span></div></div>'
+    + (!assessed ? '<p class="legacy-assessment">' + escapeHtml(text.legacy) + '</p>' : '')
+    + '<div class="result-primary"><section class="oil-selection" aria-label="' + escapeHtml(text.requirements) + '"><h4>' + escapeHtml(text.requirements) + '</h4>' + requirements
+    + (climate && !blocked && !requirementsConflict ? '<p class="requirement-condition"><strong>' + escapeHtml(text.conditions) + ':</strong> ' + escapeHtml(climate) + '</p>' : '') + '</section>'
+    + '<section class="oil-quantity">' + row('serviceFillCapacity', quantity, blocked || requirementsConflict, quantityState) + '</section></div>'
+    + '<details class="result-secondary"><summary>' + escapeHtml(text.secondary) + '</summary><div class="spec-grid">' + secondary + '</div></details>'
+    + (evidence ? '<details class="result-evidence"><summary>' + escapeHtml(text.evidence) + '</summary>' + evidence + '</details>' : '')
+    + '<details class="result-context"><summary>' + escapeHtml(text.notes) + '</summary><p>' + escapeHtml(localize(record.notes, lang)) + '</p></details>';
 }
 
   function initBrowser(win = window, doc = document) {
@@ -151,7 +207,7 @@ function renderOilCard(record, lang = 'en') {
       const next = cascade(data.records, state);
       clear(elements.makeSelect); addOptions(elements.makeSelect, next.makes); elements.makeSelect.value = next.make;
       clear(elements.modelSelect); addOptions(elements.modelSelect, next.models); elements.modelSelect.disabled = !next.make; elements.modelSelect.value = next.model;
-      clear(elements.variantSelect); addOptions(elements.variantSelect, next.variants); elements.variantSelect.disabled = !next.model; elements.variantSelect.value = next.variant;
+      clear(elements.variantSelect); addOptions(elements.variantSelect, next.variants, variantLabel); elements.variantSelect.disabled = !next.model; elements.variantSelect.value = next.variant;
       clear(elements.engineSelect); addOptions(elements.engineSelect, next.engines, (record) => engineLabel(record, lang)); elements.engineSelect.disabled = !next.variant; elements.engineSelect.value = next.engine;
       return next;
     }
@@ -198,5 +254,5 @@ function renderOilCard(record, lang = 'en') {
     return { restoreFromUrl, populate };
   }
 
-  return { evidenceText, renderOilCard, renderRequirements, engineLabel, languages, yearsLabel, variantKey, cascade, resolveUrlState, selectionUrl, resetUrl, findRecord, initBrowser };
+  return { displayYears, variantLabel, evidenceText, renderOilCard, renderRequirements, engineLabel, languages, yearsLabel, variantKey, cascade, resolveUrlState, selectionUrl, resetUrl, findRecord, initBrowser };
 });

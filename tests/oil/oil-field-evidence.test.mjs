@@ -132,7 +132,7 @@ vin.engineIdentity.type='engineeringCode';delete vin.engineIdentity.value;vin.en
 assert.throws(()=>assessOilEvidence(vin),/literal evidence/);
 const displayed=structuredClone(publicData.records.at(-1));delete displayed.engineCode;displayed.engineIdentity={type:'vinEngineSymbol',value:'Z'};
 assert.ok(ui.engineLabel(displayed).includes('VIN engine symbol'));
-const vinHtml=ui.renderOilCard(displayed,'en');assert.ok(vinHtml.includes('VIN engine symbol: Z'));assert.doesNotMatch(vinHtml,/Engineering code: Z/);
+const vinHtml=ui.renderOilCard(displayed,'en');assert.match(vinHtml, /data-field="engineIdentity"[\s\S]*?VIN engine symbol[\s\S]*?class="spec-value">Z<\/div>/);assert.doesNotMatch(vinHtml,/Engineering code: Z/);
 console.log('PASS VIN symbols cannot substitute for engineering codes or borrow engineering-code evidence');
 
 const complete=copy(),completeSource=complete.sources[2];
