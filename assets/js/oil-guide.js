@@ -163,7 +163,9 @@ function renderOilCard(record, lang = 'en') {
       + '<span class="evidence-status" data-evidence-state="' + displayState + '">' + escapeHtml(status) + '</span>'
       + (show ? '<div class="spec-value">' + escapeHtml(value) + '</div>' : '') + '</div>';
   }
-  const apps = record.applicationEvidence?.applications?.map(a => a.trim + ' · ' + a.code + ' · ' + a.transmission + ' · ' + a.driveType).join('; ');
+  const apps = record.applicationEvidence?.scopeType === 'engineScoped'
+    ? localize(record.applicationEvidence.engineScope.description, lang)
+    : record.applicationEvidence?.applications?.map(a => a.trim + ' · ' + a.code + ' · ' + a.transmission + ' · ' + a.driveType).join('; ');
   const identity = record.engineIdentity?.type === 'engineeringCode' || !record.engineIdentity ? record.engineCode : record.engineIdentity.value;
   const climate = (['unknown', 'conflict'].includes(fieldState(record, 'climateLimitations')) ? [] : record.climateLimitations).map(c => (c.sae ? c.sae + ': ' : '') + (c.condition === evidenceText.en.temporarySae ? text.temporarySae : localize(c.condition, lang))).join('; ');
   const unitState = fieldState(record, 'capacityUnit');
@@ -183,7 +185,7 @@ function renderOilCard(record, lang = 'en') {
     + row('preferredManufacturerApprovals', record.preferredManufacturerApprovals.join(', '))
     + row('emissionsEquipment', Object.entries(record.emissionsEquipment).filter(([,v]) => v !== 'unknown').map(([k,v]) => (k === 'catalyst' ? enumText[lang].catalyst : k.toUpperCase()) + ': ' + (enumText[lang][v] || v)).join('; '))
     + (!climate ? row('climateLimitations', '') : '');
-  return '<div class="result-header"><div><h3>' + escapeHtml(record.make + ' ' + record.model + ' · ' + displayYears(record)) + '</h3><p>' + escapeHtml(record.market.join(', ') + ' · ' + record.generation) + '</p>'
+  return '<div class="result-header"><div><h3>' + escapeHtml(record.make + ' ' + record.model + ' · ' + displayYears(record)) + '</h3><p>' + escapeHtml(record.market.join(', ') + (record.applicationEvidence?.scopeType === 'engineScoped' && record.generation === 'unknown' ? '' : ' · ' + record.generation)) + '</p>'
     + (apps ? '<p class="result-application">' + escapeHtml(apps) + '</p>' : '') + '</div><span class="status-badge">' + escapeHtml(text.completeness + ': ' + (completeness === 'notAssessed' ? text.completenessUnknown : text[completeness])) + '</span></div>'
     + '<div class="result-identity">' + row('engineIdentity', identity) + '<div class="spec-item" data-field="application"><span class="spec-label">' + escapeHtml(text.application) + '</span><span class="evidence-status" data-evidence-state="' + appState + '">' + escapeHtml(appState === 'notAssessed' ? text.fieldNotAssessed : text[appState]) + '</span></div></div>'
     + (!assessed ? '<p class="legacy-assessment">' + escapeHtml(text.legacy) + '</p>' : '')

@@ -124,8 +124,8 @@
     "data/pcd/source/vehicles.json": "525a6c50ceddba216d8af2a9e7ee52adb34553ac2ba2f5f58006498b411e7532",
     "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952",
-    "data/oil/schema.json": "6f381e74fe355471378231d512fa51056d0bc5d42fde91790e7da7350196d547",
-    "scripts/oil/evidence.mjs": "39c2d9afd4a3c9d671613a3ba3b16906d5a9a48be623f1017579aca3eb88c25c",
+    "data/oil/schema.json": "0814536c83e65323dc3ac6a15c76e71c070e1c8a415a68583bc8729a10b36961",
+    "scripts/oil/evidence.mjs": "b5c7f483485753117e6549ca8cd1b669780d0ad32108094b502a3373e98e4ced",
     "scripts/oil/validate.mjs": "9d1b5722f3bb8675f403a9c31732b25320d311dc68c28ed2e225893f8cd52693",
     "scripts/oil/generate.mjs": "5af4580bf755f102576075fab3754565e088bc9deeceda1cc7aa423b9f6290e6"
   },
@@ -594,11 +594,11 @@
   "current": {
     "assessment": "After Batch 5; historical Batch 3 final counts and hashes remain frozen.",
     "counts": {
-      "selectable": 66,
+      "selectable": 68,
       "research": 13,
       "quarantine": 59
     },
-    "canonicalHash": "ff9955e3881ccb905ef36a753fe5e83ef3d92fe80b517852d81d1549ba032eb6",
+    "canonicalHash": "3f3f179093ee04a2b6edb23ef90a5bc44a4ea7a2babc432fef79d5b5e2ec31f4",
     "remainingResearchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
     "remainingResearchRecords": {
       "honda-civic-type-r-2017-k20c1": "9c234ebe9044f177abb6907a337a9a1bca5e43e2c276fa8aee3b3269621c62c1",

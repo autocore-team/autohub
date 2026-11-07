@@ -12,7 +12,7 @@ const ui = createRequire(import.meta.url)('../../assets/js/oil-guide.js');
 const sha = (x) => crypto.createHash('sha256').update(typeof x === 'string' ? x : JSON.stringify(x)).digest('hex');
 assert.deepEqual(fixture.baselineCounts, { selectable: 57, research: 22, quarantine: 59 });
 assert.deepEqual(fixture.finalCounts, { selectable: 66, research: 13, quarantine: 59 });
-assert.equal(summary.records, fixture.finalCounts.selectable);
+assert.equal(summary.records, 68);
 assert.equal(summary.researchRecords, fixture.finalCounts.research);
 assert.equal(summary.legacyRecords, fixture.finalCounts.quarantine);
 assert.equal(sha(data.records.slice(0, 57)), fixture.baselineRecordsHash);
@@ -20,15 +20,16 @@ assert.equal(sha(data.records.slice(0, 57).map(r => r.id)), fixture.baselineOrde
 assert.equal(sha(pub.records.slice(0, 57)), fixture.baselinePublicHash);
 assert.equal(sha(data.legacyRecords), fixture.legacyQuarantineHash);
 assert.equal(sha(data.researchRecords), fixture.remainingResearchHash);
-assert.equal(sha(data), fixture.finalCanonicalHash);
+const historical = structuredClone(data); historical.records = historical.records.slice(0, 66); historical.audit.selectableExactCodeRecordCount = 66;
+assert.equal(sha(historical), fixture.finalCanonicalHash);
 assert.equal(sha(data.records.slice(0, fixture.finalCounts.selectable)), fixture.finalRecordsHash);
 assert.equal(sha(pub.records.slice(0, fixture.finalCounts.selectable)), fixture.finalPublicHash);
-assert.deepEqual(data.records.slice(57).map(r => r.id), fixture.accepted);
+assert.deepEqual(data.records.slice(57, 66).map(r => r.id), fixture.accepted);
 assert.equal(fixture.considered.length, 10);
 assert.equal(fixture.accepted.length, 9);
 assert.equal(fixture.retained.length, 1);
 assert.deepEqual([...fixture.accepted, ...fixture.retained.map(r => r.id)].sort(), [...fixture.considered].sort());
-assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 79);
+assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 81);
 for (const r of data.researchRecords) {
   const original = structuredClone(r), deferred = fixture.retained.find(e => e.id === r.id);
   if (deferred) {

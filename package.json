@@ -6,7 +6,7 @@
     "oil:validate": "node scripts/oil/validate.mjs",
     "oil:generate": "node scripts/oil/generate.mjs",
     "oil:generate:check": "node scripts/oil/check-generated.mjs",
-    "oil:test": "node tests/oil/oil-foundation.test.mjs && node tests/oil/oil-batch-1-production.test.mjs && node tests/oil/oil-batch-2-production.test.mjs && node tests/oil/oil-field-evidence.test.mjs && node tests/oil/oil-batch-3-production.test.mjs && node tests/oil/oil-batch-4-production.test.mjs && node tests/oil/oil-batch-5-production.test.mjs && node tests/oil/oil-result-ux.test.mjs && node tests/oil/oil-ui.test.mjs",
+    "oil:test": "node tests/oil/oil-foundation.test.mjs && node tests/oil/oil-batch-1-production.test.mjs && node tests/oil/oil-batch-2-production.test.mjs && node tests/oil/oil-field-evidence.test.mjs && node tests/oil/oil-batch-3-production.test.mjs && node tests/oil/oil-batch-4-production.test.mjs && node tests/oil/oil-batch-5-production.test.mjs && node tests/oil/oil-result-ux.test.mjs && node tests/oil/oil-ui.test.mjs && node tests/oil/oil-toyota-canada-pilot.test.mjs",
     "oil:batch1:test": "node tests/oil/oil-batch-1-production.test.mjs",
     "oil:check": "npm run oil:validate && npm run oil:generate:check && npm run oil:test",
     "pcd:generate": "node scripts/pcd/generate-pcd-data.mjs",
@@ -42,6 +42,7 @@
     "oil:batch3:test": "node tests/oil/oil-batch-3-production.test.mjs",
     "oil:batch4:test": "node tests/oil/oil-batch-4-production.test.mjs",
     "oil:result:test": "node tests/oil/oil-result-ux.test.mjs",
-    "oil:batch5:test": "node tests/oil/oil-batch-5-production.test.mjs"
+    "oil:batch5:test": "node tests/oil/oil-batch-5-production.test.mjs",
+    "oil:toyota-canada:test": "node tests/oil/oil-toyota-canada-pilot.test.mjs"
   }
 }

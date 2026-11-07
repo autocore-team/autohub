@@ -18,11 +18,11 @@ assert.equal(data.records.length, fixture.selectableCount);
 assert.equal(data.researchRecords.length, fixture.researchCount);
 assert.equal(data.legacyRecords.length, 59);
 assert.equal(sha(data.records.slice(0,29)), fixture.baselineRecordsHash);
-assert.equal(sha(data.records.filter((r) => r.make === 'Toyota')), fixture.toyotaHash);
+assert.equal(sha(data.records.slice(0,29).filter((r) => r.make === 'Toyota')), fixture.toyotaHash);
 assert.equal(sha(data.records.slice(0,4)), fixture.foundationHash);
 assert.equal(sha(data.legacyRecords), fixture.legacyQuarantineHash);
 assert.equal(sha(data.researchRecords), fixture.remainingResearchHash);
-assert.equal(new Set([...data.records, ...data.researchRecords].map((r) => r.id)).size, 79);
+assert.equal(new Set([...data.records, ...data.researchRecords].map((r) => r.id)).size, 81);
 for (const id of fixture.partialIds) {
   const source = data.records.find((r) => r.id === id), pub = publicData.records.find((r) => r.id === id);
   assert.equal(source.status, 'preliminary');
