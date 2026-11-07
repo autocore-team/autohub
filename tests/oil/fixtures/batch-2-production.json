@@ -1,5 +1,5 @@
 {
-  "batch": "Engine Oil Production Batch 2",
+  "batch": "Engine Oil Batch 2 — preliminary research quarantine",
   "baseCommit": "82e0b20e55a66e46e5e7c5c6b650402317f44f06",
   "baselineCount": 29,
   "quarantineCount": 59,
@@ -29,18 +29,19 @@
     "oil-guide.html": "606b3b78be74df894811891c59f65a3561e91bcd1a1ef2fee8ca66ff4e8ca7b8",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952"
   },
-  "addedCount": 50,
-  "finalCount": 79,
+  "addedCount": 0,
+  "finalCount": 29,
   "finalStatuses": {
     "legacyPending": 4,
-    "verified": 75
+    "verified": 25
   },
-  "finalSemanticHash": "800831cd2c0f5e32441f09cdfcd5dbb7a690569c7567c76e29acf7ff79d97323",
-  "finalOrderHash": "428034181e818ad46052d040141c4cdc9ec274818d27dfdcd1a1c299752b2868",
-  "finalCanonicalHash": "8fa525362ad005635458ee81ab60c4a5535f6faa10a730417c90a75a151f1960",
+  "finalSemanticHash": "eb3c6712f5bbb8965769e2642bedc9bd3a20dc14e6c1a0d492355f332e804ba0",
+  "finalOrderHash": "ec8ca024af97aa8eaa9b10f9f9a94dc7c0d05734fed31075e7b7bd2f2847b48e",
+  "finalCanonicalHash": "2cf978f2e4373fe42a52a579a33356abb9b1fd81e033340ff8c621d93e200d07",
   "candidateAudit": {
     "considered": 54,
-    "accepted": 50,
+    "acceptedProduction": 0,
+    "retainedPreliminary": 50,
     "excluded": 4,
     "exclusions": [
       {
@@ -79,8 +80,10 @@
     {
       "url": "https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf",
       "sha256": "1ba1f55c88fb9091a0eaa8160da2b77bdfcd96fc1ee15237884d9fe7f2d9e5ab",
-      "publisher": "American Honda Motor Co., Inc.",
-      "format": "pdf"
+      "publisher": "American Honda Motor Co., Inc. (attributed; provenance unconfirmed)",
+      "format": "pdf",
+      "provenanceStatus": "unconfirmed",
+      "evidenceNotes": "Archived WORKING COPY provenance is unconfirmed. Capacity with filter has no confirmed official source. Applicability of capacity to the exact engine code is unproven. Printed copyright and publication number do not authenticate the document. PDF metadata names Patrick Vizconde and a PowerPoint WORKING COPY; no official Honda-hosted matching copy or Honda link to this archive was established."
     },
     {
       "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda",
@@ -233,7 +236,18 @@
       "format": "pdf"
     }
   ],
-  "records": [
+  "finalCanonicalFileHash": "c60e6546adfd9f2b38224863ab5ea658297fb91f3c1683212f52de364be41005",
+  "originalResearchSourceUrlsHash": "3e6d644bf84b33607792ecedd541ff79c38aa7b5cf897eecb7787600631bfe62",
+  "originalResearchClaimsHash": "cb68852aa4fcec447da72e48fd9020fb5873f73fab4712a399ffd8a51fb56aa5",
+  "researchAddedCount": 50,
+  "researchCount": 50,
+  "productionRecommendationCount": 25,
+  "researchStatuses": {
+    "preliminary": 50
+  },
+  "researchSemanticHash": "0f6c37f563326bb592681adc26360536840b8f8f487f33c4c857fbed4364830d",
+  "researchOrderHash": "0b9f7a4624a844a35c85e287550915a294c852e230efc039d4928b8cd8d89861",
+  "researchRecords": [
     {
       "id": "honda-accord-coupe-2017-j35y1",
       "make": "Honda",
@@ -252,7 +266,7 @@
       ],
       "serviceFillCapacity": 4.5,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
         "filing": "ORG12691",
@@ -293,7 +307,7 @@
       ],
       "serviceFillCapacity": 4.5,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
         "filing": "ORG12691",
@@ -333,7 +347,7 @@
       ],
       "serviceFillCapacity": 4.4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
         "filing": "ORG12691",
@@ -374,7 +388,7 @@
       ],
       "serviceFillCapacity": 4.5,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
         "filing": "ORG12691",
@@ -415,7 +429,7 @@
       ],
       "serviceFillCapacity": 4.4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77",
         "filing": "ORG12691",
@@ -456,7 +470,7 @@
       ],
       "serviceFillCapacity": 4.4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
         "filing": "ORG13067",
@@ -496,7 +510,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
         "filing": "ORG13067",
@@ -536,7 +550,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/3805431c-668c-4728-91ec-9f58b04836a1",
         "filing": "ORG12791",
@@ -577,7 +591,7 @@
       ],
       "serviceFillCapacity": 4.4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
         "filing": "ORG13067",
@@ -617,7 +631,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482",
         "filing": "ORG13067",
@@ -657,7 +671,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/0ab40410-03d7-49e1-a287-b37f57769c07",
         "filing": "ORG13596",
@@ -697,7 +711,7 @@
       ],
       "serviceFillCapacity": 4.6,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d7fff56b-9cb5-4e25-84e1-c1c3cb03b327",
         "filing": "ORG13749",
@@ -738,7 +752,7 @@
       ],
       "serviceFillCapacity": 4.6,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d7fff56b-9cb5-4e25-84e1-c1c3cb03b327",
         "filing": "ORG13749",
@@ -779,7 +793,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d7fff56b-9cb5-4e25-84e1-c1c3cb03b327",
         "filing": "ORG13749",
@@ -820,7 +834,7 @@
       ],
       "serviceFillCapacity": 3.5,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b942e273-5d1c-4f11-a116-d0bc078d6567",
         "filing": "ORG12690",
@@ -861,7 +875,7 @@
       ],
       "serviceFillCapacity": 3.5,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b942e273-5d1c-4f11-a116-d0bc078d6567",
         "filing": "ORG12690",
@@ -901,7 +915,7 @@
       ],
       "serviceFillCapacity": 3.9,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b9edb03d-0e1d-43cb-ade7-cf1b4724f0dd",
         "filing": "ORG12950",
@@ -942,7 +956,7 @@
       ],
       "serviceFillCapacity": 4.5,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8b728c8d-3722-43a0-a9ba-97901955bf77",
         "filing": "ORG13202",
@@ -983,7 +997,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/22ed9662-747f-42c1-aaf1-01cfc140af72",
         "filing": "ORG13061",
@@ -1025,7 +1039,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/88c781a0-bb06-4bce-bfde-3c809e2ebe1e",
         "filing": "ORG12626",
@@ -1066,7 +1080,7 @@
       ],
       "serviceFillCapacity": 4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/68416e36-62dd-4e37-a4b1-e02f1c05ac47",
         "filing": "ORG15191",
@@ -1107,7 +1121,7 @@
       ],
       "serviceFillCapacity": 4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/68416e36-62dd-4e37-a4b1-e02f1c05ac47",
         "filing": "ORG15191",
@@ -1148,7 +1162,7 @@
       ],
       "serviceFillCapacity": 5.1,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/cce7e74c-c2ee-4d31-9bce-fd904f943200",
         "filing": "ORG14825",
@@ -1189,7 +1203,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/e750b73e-0b2d-4214-8ca5-08bf1419a1fe",
         "filing": "ORG14826",
@@ -1230,7 +1244,7 @@
       ],
       "serviceFillCapacity": 4.4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
         "filing": "ORG14912",
@@ -1270,7 +1284,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
         "filing": "ORG14912",
@@ -1310,7 +1324,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/2157ff4f-4a84-49e9-b0b4-a9255a90a5fb",
         "filing": "ORG14121",
@@ -1351,7 +1365,7 @@
       ],
       "serviceFillCapacity": 4.4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
         "filing": "ORG14912",
@@ -1391,7 +1405,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
         "filing": "ORG14912",
@@ -1431,7 +1445,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/f90daf7a-a0e4-4491-b095-2072e21e23c7",
         "filing": "ORG14912",
@@ -1471,7 +1485,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/2157ff4f-4a84-49e9-b0b4-a9255a90a5fb",
         "filing": "ORG14121",
@@ -1511,7 +1525,7 @@
       ],
       "serviceFillCapacity": 3.5,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/fb670f66-8920-4992-ad57-a54c0be34c71",
         "filing": "ORG14654",
@@ -1552,7 +1566,7 @@
       ],
       "serviceFillCapacity": 4.6,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8c68f0cd-5358-4c50-baa2-09e2c1645fe6",
         "filing": "ORG14740",
@@ -1593,7 +1607,7 @@
       ],
       "serviceFillCapacity": 4.6,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8c68f0cd-5358-4c50-baa2-09e2c1645fe6",
         "filing": "ORG14740",
@@ -1634,7 +1648,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/8c68f0cd-5358-4c50-baa2-09e2c1645fe6",
         "filing": "ORG14740",
@@ -1675,7 +1689,7 @@
       ],
       "serviceFillCapacity": 3.9,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/a4517625-b4f5-4904-a7ba-f840487a9df8",
         "filing": "ORG14120",
@@ -1716,7 +1730,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/4ff74c2d-6c0b-4aa3-9614-c3c4362efc03",
         "filing": "ORG14800",
@@ -1758,7 +1772,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/9a0bea6f-3c89-4fc8-a7ca-a13a7ccdaec7",
         "filing": "ORG14645",
@@ -1799,7 +1813,7 @@
       ],
       "serviceFillCapacity": 4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/6001f75f-398f-4b15-b1c7-d6c650c854c0",
         "filing": "ORG16345",
@@ -1840,7 +1854,7 @@
       ],
       "serviceFillCapacity": 5.1,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/6001f75f-398f-4b15-b1c7-d6c650c854c0",
         "filing": "ORG16345",
@@ -1881,7 +1895,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/6001f75f-398f-4b15-b1c7-d6c650c854c0",
         "filing": "ORG16345",
@@ -1922,7 +1936,7 @@
       ],
       "serviceFillCapacity": 4.4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
         "filing": "ORG16024",
@@ -1962,7 +1976,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
         "filing": "ORG16024",
@@ -2002,7 +2016,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1eb6055c-3b42-429b-8dd9-2055c34c301c",
         "filing": "ORG16023",
@@ -2043,7 +2057,7 @@
       ],
       "serviceFillCapacity": 4.4,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
         "filing": "ORG16024",
@@ -2083,7 +2097,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
         "filing": "ORG16024",
@@ -2123,7 +2137,7 @@
       ],
       "serviceFillCapacity": 3.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
         "filing": "ORG16024",
@@ -2163,7 +2177,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/1eb6055c-3b42-429b-8dd9-2055c34c301c",
         "filing": "ORG16023",
@@ -2203,7 +2217,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/5bb13080-7d9a-47c3-9a95-cc2846951798",
         "filing": "ORG16069",
@@ -2244,7 +2258,7 @@
       ],
       "serviceFillCapacity": 5.7,
       "capacityUnit": "US qt",
-      "status": "verified",
+      "status": "preliminary",
       "identityEvidence": {
         "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/b22ac049-4750-4ce5-ab4c-85e914879975",
         "filing": "ORG16052",
@@ -2268,6 +2282,5 @@
         "url": "https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda"
       }
     }
-  ],
-  "finalCanonicalFileHash": "51511cbecfdd4c80371e53d55ea9a020ef5b1a5ca6b172314460a2187a3bb407"
+  ]
 }

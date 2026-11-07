@@ -1,111 +1,89 @@
-# Engine Oil Production Batch 2
+# Oil Batch 2: preliminary research quarantine correction
 
-Checked: 2026-11-07. Branch: feature/oil-production-batch-2. No merge.
+Date: 2026-11-07. Existing branch: feature/oil-production-batch-2. Parent implementation: dd08f9289b9d671d7db8ebb097c2158127499bcb. No new source research or document downloads. No merge.
 
-## Result
+## Actual counts
 
-Selectable: **29 → 79**. Quarantine: **59 → 59**. Added: **50 Honda US records**, all **verified**, 0 corroborated, 0 preliminary. Total statuses: 4 legacyPending + 75 verified. Honda is a new selectable make; all 50 additions are non-Toyota. Model years: 2017 = 20, 2018 = 18, 2019 = 12.
+| Layer | Count | Meaning |
+| --- | ---: | --- |
+| Public/selectable baseline records | 29 | Unchanged first 29 records, in original order |
+| Reviewed production recommendations | 25 | Existing verified Toyota records; no new Honda recommendations |
+| Existing selectable placeholders | 4 | Existing legacyPending exact-code placeholders; no oil quantities or specifications published |
+| New preliminary research records | 50 | Honda, researchRecords only; excluded from browser payload |
+| Existing legacy quarantine | 59 | Unchanged legacyRecords; separate from new research |
+| Batch 2 production additions | 0 | All 50 unsupported Honda applications withdrawn from production |
 
-Baseline is origin/main merge commit `82e0b20e55a66e46e5e7c5c6b650402317f44f06`, PR #72 (Oil Production Batch 1), containing commit 43bf764. Main was fast-forwarded and a separate branch created from it. Worktree and staging were clean at the start.
+Public statuses: 25 verified + 4 legacyPending. Research statuses: 50 preliminary, 0 verified, 0 corroborated. The former 50 verified claim is withdrawn. Research candidate audit: 54 considered, 0 accepted for production, 50 retained as preliminary, 4 previously excluded.
 
-The first 29 records retain their values, order and original source formatting. All 59 quarantine records are unchanged. Foundation records changed: **none**. Only the audit selectable count is updated. No PCD/Engine dataset, Oil UI, CI workflow, tire calculator or diagnostic link changed. Local excluded scripts/pcd/research-batch11.mjs was neither edited nor staged.
+## Reason for quarantine
 
-## Candidate review
+All 50 records retain three explicit unresolved issues:
 
-Reviewed candidate set: **54** exact oil applications; **50 accepted**, **4 excluded**. Source discovery also screened unrelated motorcycles, electric/fuel-cell models, Acura documents, and repeated/revised filings; these are documents outside the candidate set, not extra rejected oil records.
+- Archived WORKING COPY provenance is unconfirmed.
+- Capacity with filter has no confirmed official source.
+- Applicability of capacity to the exact engine code is unproven.
 
-- 2019 Fit L15B1: Unresolved viscosity conflict: Honda FAQ says 0W-16 with 0W-20 top-off, service guide says 0W-20.
-- 2019 Fit L15B3: Same unresolved 2019 Fit viscosity conflict; no extrapolation from 2017.
-- 2018 Civic Coupe L15BY: Revised VIN filing ORG14912 binds L15BY to CVT sedan rows, not coupe rows.
-- 2019 Accord Hybrid LFB1: Use revised ORG16345: only LFB2 appears. Do not carry earlier LFB1/LFB2 mapping into the revised year-specific scope.
+The archived document is titled Vehicle Service Quick Reference Guide — Covering 2013–2020 Honda Vehicles, 38 pages. Printed attribution: American Honda Motor Co., Inc.; printed copyright 2020; publication 01120–15664; Version 25 (2010). The parenthesized label is not treated as a 2010 publication year. Cached PDF metadata: creation 2020-10-15, author Patrick Vizconde, PowerPoint title containing WORKING COPY; no digital signature. The author's relationship to Honda and approval/publication of this edition have not been established.
 
-Honda/Acura was the first manufacturer assessed and supplied exact identity mappings in the initial candidate sample. Ford/Lincoln, Hyundai/Kia and Lexus were not researched after Honda proved productive. No engine code was inferred from displacement. Separate body styles, model years and literal codes have separate records; equivalent trim/drivetrain applications use a common record only when the cited service rows have the same oil requirements and fill quantity. L15BY is limited to the documented CVT sedan application. The coupe is not assigned that code.
+The file is hosted by downloads.laboratoryb.org, outside Honda domains. Branding, printed copyright and a publication number are not proof that the copy is an authentic approved Honda publication. No official Honda link to this archive or matching official-hosted file was established. SHA-256 identifies the inspected bytes only: 1ba1f55c88fb9091a0eaa8160da2b77bdfcd96fc1ee15237884d9fe7f2d9e5ab.
 
-## Evidence and limitations
+The archive contains model/year/displacement rows for SAE and quantities marked with filter, but does not directly establish the capacity binding to the exact engine codes in these 50 records. All 50 capacity values depended exclusively on this unconfirmed copy. Therefore all 50 are research claims, not verified recommendations. Two independent reliable capacity sources were not established, so corroborated is also unsupported.
 
-All three evidence layers have one publisher: **American Honda Motor Co., Inc.** They are jointly used for verified status and are not claimed to be independent corroboration.
+Honda VIN submissions hosted by NHTSA still supply the recorded vehicle/year/engine-code identity evidence. The Honda Brand Knowledge FAQ supplies the generic API certification requirement and model/year SAE chart; it supplies neither exact engine codes nor service-fill capacities. References to API SN or ILSAC GF-5 in marketing descriptions of Honda oil are not treated as mandatory per-engine specifications. An inaccessible TechInfo document is not evidence.
 
-1. Original Honda 49 CFR Part 565 submissions, publicly hosted by NHTSA: model-code tables bind exact engine codes to make/model/model year; Engine Characteristics tables give fuel, displacement and turbocharging. Generation labels are the documented model-code prefixes, not inferred marketing generations. Each fixture row records example full VIN model codes and exact PDF pages.
-2. Original Honda Vehicle Service Quick Reference Guide, publication 01120-15664, v25 (2010), copyright 2020: model/year/application-specific SAE and oil-change capacity explicitly including the filter. It is an **archival copy hosted at laboratoryb.org**, not a Honda-hosted URL; the PDF metadata calls its PowerPoint source a working copy. Authorship, publication identifier and per-page Honda copyright are recorded; this hosting/provenance limitation is disclosed for review. NHTSA identity evidence and Honda's live FAQ are separate official-host sources. The mirror is not counted as a second publisher.
-3. Honda Brand Knowledge FAQ: API Certification Seal, energy conserving/latest API requirement, and the model/year viscosity chart. No API SN/SP category, numbered ILSAC standard, ACEA class or HTO-06 approval is inferred from marketing claims about Honda-branded oils. Empty OEM-approval arrays are intentional.
+## Preservation and enforcement
 
-The Honda TechInfo server returned a maintenance response; no inaccessible document was used as evidence. SAE 0W-20 is recorded for accepted applications. Capacities use US liquid quarts in this US service publication, not dry-engine or filter-excluded quantities. No service interval is published. Emissions hardware stays unknown with localized VIN warnings: the cited US oil rows do not distinguish emissions-dependent specifications. This batch does not authorize extrapolation to EU/JP or diesel/DPF applications.
+Canonical researchRecords retains all 50 IDs, order, captured technical values, source URLs, source page locators and research evidence notes. Notes and capacity notes now carry warnings in EN/ES/FR/DE. The archive is explicitly an unconfirmed technicalReference attributed to Honda, not an authenticated serviceManual. The substantive captured quantities and identity/source mappings remain available for later research. Captured values do not authorize maintenance recommendations.
 
-Research cache: **87 PDF documents and 3 HTML pages** saved successfully (about 45.1 MiB). Every saved URL was downloaded once; parsing, OCR, rotation, image review and cross-checks reused local bytes. **26 PDFs + 1 HTML source (27 unique URLs)** are cited in production. Those 27 cached documents support 150 record-source associations across 50 records. Old NHTSA filenames have sparse metadata; screening included motorcycle and superseded filings. No PDFs, OCR text, images, caches or research scripts are included in the commit.
+Existing records and legacyRecords were restored exactly from the preserved Batch 1 baseline. Research is a separate top-level collection; none of its 50 entries is added to the old 59-entry quarantine. Oil UI has no safe status-specific capacity gate, so researchRecords is completely omitted from oil-data.js. The generated browser payload equals the Batch 1 payload byte-for-byte after LF normalization (SHA-256 b55a30822d2bcd78253f07be3188c299dc38d733ed19d32199322892612774b0). No Honda research ID, source URL or disputed capacity record is exposed by selectors, quick search or URL state.
 
-OCR errors were checked against original page images where ambiguous (including 2017 CR-V RW6H3, Odyssey RL5H2, Fit L15B1/L15B3 and Accord engine characteristics). Service-table column alignment was visually checked, including Civic 1.5/2.0 and CR-V 1.5/2.4 filter-included rows.
+The canonical schema and validator require preliminary status and nonempty researchIssues in researchRecords, reject preliminary or unresolved evidence in public records, and preserve the existing verified/corroborated checks. The generator independently filters preliminary/unconfirmed records even if validation is bypassed. Neither PCD nor Engines data, CI workflows or Oil UI files changed. The excluded local scripts/pcd/research-batch11.mjs remains untouched.
 
-## Distribution of additions
+## Affected research applications
 
-| Make | Records |
-| --- | ---: |
-| Honda | 50 |
+Each engine code in each row below identifies a separate preliminary record. Full IDs, captured values, page locators and original document hashes are in tests/oil/fixtures/batch-2-production.json.
 
-| Model / body style | Records |
-| --- | ---: |
-| Accord Coupe | 3 |
-| Accord Hybrid | 3 |
-| Accord Sedan | 6 |
-| Civic Coupe | 6 |
-| Civic Hatchback | 3 |
-| Civic Sedan | 8 |
-| Civic Type R | 3 |
-| Clarity Plug-In Hybrid | 1 |
-| CR-V | 6 |
-| Fit | 2 |
-| HR-V | 2 |
-| Odyssey | 1 |
-| Passport | 1 |
-| Pilot | 3 |
-| Ridgeline | 2 |
-
-| Exact engine code | Records |
-| --- | ---: |
-| J35Y1 | 2 |
-| J35Y2 | 1 |
-| J35Y6 | 6 |
-| J35Z8 | 1 |
-| K20C1 | 3 |
-| K20C2 | 6 |
-| K20C4 | 2 |
-| K24V9 | 2 |
-| K24W1 | 2 |
-| K24W9 | 2 |
-| L15B1 | 1 |
-| L15B3 | 1 |
-| L15B7 | 6 |
-| L15BA | 3 |
-| L15BE | 4 |
-| L15BY | 2 |
-| LEB3 | 1 |
-| LFB1 | 1 |
-| LFB2 | 2 |
-| R18Z9 | 2 |
-
-| Market | Records |
-| --- | ---: |
-| US | 50 |
-
-## Hashes (SHA-256)
-
-Semantic = JSON.stringify(records); order = JSON.stringify(record IDs); canonical = JSON.stringify(parsed canonical object). CanonicalFile = original file text normalized to LF; unlike canonical, this includes indentation. The initial on-disk canonical byte hash before LF normalization was 2a3ecc703539d05dd1f294c771a032eeed21b632600bc63ea994e55f824aa043 (CRLF checkout).
-
-| Hash | Baseline | Final |
+| Model year | Model / body style | Exact engine codes retained as research |
 | --- | --- | --- |
-| Semantic | `eb3c6712f5bbb8965769e2642bedc9bd3a20dc14e6c1a0d492355f332e804ba0` | `800831cd2c0f5e32441f09cdfcd5dbb7a690569c7567c76e29acf7ff79d97323` |
-| Order | `ec8ca024af97aa8eaa9b10f9f9a94dc7c0d05734fed31075e7b7bd2f2847b48e` | `428034181e818ad46052d040141c4cdc9ec274818d27dfdcd1a1c299752b2868` |
-| Canonical | `606a917678e6d067a41986d4b18b4001d8676b59e62c3d21da62691d0d54a551` | `8fa525362ad005635458ee81ab60c4a5535f6faa10a730417c90a75a151f1960` |
-| CanonicalFile | `851719a475ea1cd4bef69569322a023d222c22a623257f70f7df5c1f778ff8ed` | `51511cbecfdd4c80371e53d55ea9a020ef5b1a5ca6b172314460a2187a3bb407` |
+| 2017 | Accord Coupe | J35Y1, J35Y2, K24W1 |
+| 2017 | Accord Sedan | J35Y1, K24W1 |
+| 2017 | Civic Coupe | K20C2, L15B7 |
+| 2017 | Civic Hatchback | L15BA |
+| 2017 | Civic Sedan | K20C2, L15B7 |
+| 2017 | Civic Type R | K20C1 |
+| 2017 | CR-V | K24V9, K24W9, L15BE |
+| 2017 | Fit | L15B1, L15B3 |
+| 2017 | HR-V | R18Z9 |
+| 2017 | Odyssey | J35Z8 |
+| 2017 | Pilot | J35Y6 |
+| 2017 | Ridgeline | J35Y6 |
+| 2018 | Accord Hybrid | LFB1, LFB2 |
+| 2018 | Accord Sedan | K20C4, L15BE |
+| 2018 | Civic Coupe | K20C2, L15B7 |
+| 2018 | Civic Hatchback | L15BA |
+| 2018 | Civic Sedan | K20C2, L15B7, L15BY |
+| 2018 | Civic Type R | K20C1 |
+| 2018 | Clarity Plug-In Hybrid | LEB3 |
+| 2018 | CR-V | K24V9, K24W9, L15BE |
+| 2018 | HR-V | R18Z9 |
+| 2018 | Pilot | J35Y6 |
+| 2018 | Ridgeline | J35Y6 |
+| 2019 | Accord Hybrid | LFB2 |
+| 2019 | Accord Sedan | K20C4, L15BE |
+| 2019 | Civic Coupe | K20C2, L15B7 |
+| 2019 | Civic Hatchback | L15BA |
+| 2019 | Civic Sedan | K20C2, L15B7, L15BY |
+| 2019 | Civic Type R | K20C1 |
+| 2019 | Passport | J35Y6 |
+| 2019 | Pilot | J35Y6 |
 
-Quarantine semantic hash, unchanged: `429eadf73577d555741a1fbc3c3a2c25721db60b2c0936521c81a8c36cc1bb35`. Protected-file hashes for all PCD/Engine data, Oil UI and CI are fixed in the Batch 2 fixture (19 files).
+## Source URLs retained
 
-## Production source URLs
-
-The fixture stores each document's SHA-256 and each record's reviewed source/page/model-code mapping.
+The 27 URLs and their cached document hashes are preserved; no new sources were sought during this correction. Their presence is traceability, not a declaration that every field is verified.
 
 1. [ORG12691](https://vpic.nhtsa.dot.gov/mid/home/displayfile/1e1420e9-41f7-4844-82b5-20981d327d77)
-2. [Honda service guide (archival copy)](https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf)
-3. [Honda API/oil FAQ](https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda)
+2. [Unconfirmed WORKING COPY](https://downloads.laboratoryb.org/insight/gen3/General/Vehicle%20Service%20Reference%20Guide.pdf)
+3. [Honda oil/API FAQ](https://crmshonda.my.salesforce-sites.com/hondaknowledge/articles/Knowledge/What-type-of-motor-oil-should-I-use-in-my-Honda)
 4. [ORG13067](https://vpic.nhtsa.dot.gov/mid/home/displayfile/276a71b1-b16e-4e8e-9df1-2b632fe3a482)
 5. [ORG12791](https://vpic.nhtsa.dot.gov/mid/home/displayfile/3805431c-668c-4728-91ec-9f58b04836a1)
 6. [ORG13596](https://vpic.nhtsa.dot.gov/mid/home/displayfile/0ab40410-03d7-49e1-a287-b37f57769c07)
@@ -131,45 +109,32 @@ The fixture stores each document's SHA-256 and each record's reviewed source/pag
 26. [ORG16069](https://vpic.nhtsa.dot.gov/mid/home/displayfile/5bb13080-7d9a-47c3-9a95-cc2846951798)
 27. [ORG16052](https://vpic.nhtsa.dot.gov/mid/home/displayfile/b22ac049-4750-4ce5-ab4c-85e914879975)
 
-## Files changed
+Previously excluded research candidates remain recorded:
 
-- data/oil/canonical.json
-- data/oil/schema.json
-- oil-data.js
-- package.json
-- scripts/oil/validate.mjs
-- tests/oil/fixtures/batch-1-production.json
-- tests/oil/fixtures/batch-2-production.json
-- tests/oil/oil-batch-1-production.test.mjs
-- tests/oil/oil-batch-2-production.test.mjs
-- tests/oil/oil-foundation.test.mjs
-- tests/oil/oil-ui.test.mjs
-- docs/oil-production-batch-2.md
+- 2019 Fit L15B1: Unresolved viscosity conflict: Honda FAQ says 0W-16 with 0W-20 top-off, service guide says 0W-20.
+- 2019 Fit L15B3: Same unresolved 2019 Fit viscosity conflict; no extrapolation from 2017.
+- 2018 Civic Coupe L15BY: Revised VIN filing ORG14912 binds L15BY to CVT sedan rows, not coupe rows.
+- 2019 Accord Hybrid LFB1: Use revised ORG16345: only LFB2 appears. Do not carry earlier LFB1/LFB2 mapping into the revised year-specific scope.
 
-Canonical records are appended; oil-data.js is generated. Schema/validator gain optional evidence notes and unique positive page locators. Batch 1 stays bounded to its original 25 additions, with a current total-count expectation; foundation totals and the selector make expectation are updated. Batch 2 checks counts, baseline/quarantine/final hashes, source mappings, filter fills, duplicates, exact codes, parity, selectors, URL round trips and protected files.
+## SHA-256 invariants
 
-## Validation
+- Baseline/public semantic: eb3c6712f5bbb8965769e2642bedc9bd3a20dc14e6c1a0d492355f332e804ba0
+- Baseline/public order: ec8ca024af97aa8eaa9b10f9f9a94dc7c0d05734fed31075e7b7bd2f2847b48e
+- Original 59-entry legacy quarantine: 429eadf73577d555741a1fbc3c3a2c25721db60b2c0936521c81a8c36cc1bb35
+- Baseline canonical object (researchRecords omitted): 606a917678e6d067a41986d4b18b4001d8676b59e62c3d21da62691d0d54a551
+- Corrected complete canonical object: 2cf978f2e4373fe42a52a579a33356abb9b1fd81e033340ff8c621d93e200d07
+- Corrected canonical file, LF normalized: c60e6546adfd9f2b38224863ab5ea658297fb91f3c1683212f52de364be41005
+- Preliminary research semantic: 0f6c37f563326bb592681adc26360536840b8f8f487f33c4c857fbed4364830d
+- Preliminary research order: 0b9f7a4624a844a35c85e287550915a294c852e230efc039d4928b8cd8d89861
+- Preserved captured research claims (excluding status/disclaimers/source metadata): cb68852aa4fcec447da72e48fd9020fb5873f73fab4712a399ffd8a51fb56aa5
+- Preserved per-record source URL order: 3e6d644bf84b33607792ecedd541ff79c38aa7b5cf897eecb7787600631bfe62
 
-Targeted Batch 2 tests and oil validation passed during development. The prescribed final full cycle is recorded below after it runs once.
+## Verification and delivery
 
-One final full cycle ran successfully, with no full-cycle rerun:
+Package scripts inspected: npm test already includes site:contract, oil:check (including the Batch 2 regression suite), PCD checks/tests, Engine UI and engines:check. The correction uses one full npm test run. These included suites are not rerun separately. Targeted Batch 2 regression tests passed during development.
 
-| Command | Result |
-| --- | --- |
-| npm run oil:check | PASS |
-| npm test | PASS |
-| npm run pcd:check | PASS, 3000 records |
-| npm run engines:check | PASS, 1702 records unchanged |
-| npm run site:contract | PASS |
-| git diff --check | PASS |
-| staged-file audit | PASS, 12 explicitly allowed files; no research/cache/PCD/Engine/UI/CI changes |
+Final full validation: **npm test PASS (one full run)**. Its included site, Oil, PCD and Engine suites all passed; no separate full-suite reruns. Oil regression tests confirm the unchanged 29-record baseline and 59 legacy records, 50 preliminary research records, no Honda research in the browser payload, rejected promotion into production and defensive generator exclusion. PCD remains 3000; Engine data remains 1702 and unchanged.
 
-The requested npm test entry point itself invokes oil/PCD/Engine checks internally; each requested top-level command above was issued once. Full logs stayed in the temporary research directory, outside the commit.
+Pre-commit checks: git diff --check PASS; staged-file allowlist audit PASS (12 Oil data/pipeline/test/report files only). No PCD/Engine datasets, CI, Oil UI, downloaded documents, research scripts or local settings are staged. Final commit SHA and clean worktree/staging are reported after push in the handoff.
 
-PCD target remains 3000; Engine data remains unchanged. The fixture verifies dataset bytes (LF normalized), not just record counts.
-
-## Delivery and usage
-
-Commit SHA, post-push divergence and final worktree/staging state are reported in the handoff because embedding a commit's own SHA in its contents is self-referential. Compare: https://github.com/autocore-team/autohub/compare/main...feature/oil-production-batch-2 . Merge is not performed.
-
-Weekly-limit change: **not measurable**. No account quota/weekly-limit telemetry is exposed to this session; before/after readings are unavailable, so no percentage is fabricated. No subagents were used. No Fast-mode switch was requested or enabled during this work.
+The required commit subject is fix(oil): quarantine unsupported Honda batch 2 claims. The final commit SHA and post-push worktree/staging/divergence are supplied in the handoff; the report is included in that same commit. Compare: https://github.com/autocore-team/autohub/compare/main...feature/oil-production-batch-2 . Push targets the existing branch; merge is not performed.
