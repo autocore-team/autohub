@@ -73,7 +73,7 @@ console.log('PASS verified source minimums, field coverage, exact-code applicati
 
 const generated = fs.readFileSync(path.join(root, 'oil-data.js'), 'utf8');
 assert.ok(generatedOilFileMatches(generated, generatedOilFile(canonical)));
-assert.deepEqual(toPublicOilData(canonical).records.slice(fixture.baselineCount, fixture.finalCount), batch);
+assert.deepEqual(toPublicOilData(canonical).records.slice(fixture.baselineCount, fixture.finalCount).map(({ evidenceAssessment, completeness, ...record }) => record), batch);
 for (const record of batch) {
   const selection = ui.findRecord(toPublicOilData(canonical), record.id);
   assert.equal(selection.type, 'record');

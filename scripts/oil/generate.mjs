@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { isPublicOilRecord, loadCanonical, root, validateCanonical } from './validate.mjs';
+import { assessOilEvidence, hasFieldAssessment, publicFieldRecord } from './evidence.mjs';
 
 export const generatedPath = path.join(root, 'oil-data.js');
 
@@ -10,7 +11,9 @@ export function toPublicOilData(canonical) {
     schemaVersion: canonical.schemaVersion,
     audit: canonical.audit,
     // Research claims never enter the browser payload, including when callers bypass validation.
-    records: canonical.records.filter(isPublicOilRecord),
+    records: canonical.records.filter(isPublicOilRecord).map((record) => hasFieldAssessment(record)
+      ? publicFieldRecord(record)
+      : { ...record, evidenceAssessment: assessOilEvidence(record), completeness: assessOilEvidence(record).completeness }),
     legacyRecords: canonical.legacyRecords.map((record) => ({
       id: record.id,
       make: record.make,

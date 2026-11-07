@@ -3,131 +3,1119 @@
   "$id": "https://d3orient.com/data/oil/schema.json",
   "title": "D3 Orient canonical engine-oil data",
   "type": "object",
-  "required": ["schemaVersion", "audit", "records", "legacyRecords"],
+  "required": [
+    "schemaVersion",
+    "audit",
+    "records",
+    "legacyRecords"
+  ],
   "properties": {
-    "schemaVersion": { "const": 1 },
-    "generatedAtPolicy": { "type": "string", "minLength": 1 },
+    "schemaVersion": {
+      "const": 1
+    },
+    "generatedAtPolicy": {
+      "type": "string",
+      "minLength": 1
+    },
     "audit": {
       "type": "object",
-      "required": ["auditedAt", "originalRecordCount", "selectableExactCodeRecordCount", "findings"],
+      "required": [
+        "auditedAt",
+        "originalRecordCount",
+        "selectableExactCodeRecordCount",
+        "findings"
+      ],
       "properties": {
-        "auditedAt": { "type": "string", "format": "date" },
-        "originalRecordCount": { "type": "integer", "minimum": 0 },
-        "selectableExactCodeRecordCount": { "type": "integer", "minimum": 0 },
-        "findings": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+        "auditedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "originalRecordCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "selectableExactCodeRecordCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
       },
       "additionalProperties": false
     },
-    "records": { "type": "array", "items": { "allOf": [{ "$ref": "#/$defs/record" }, { "not": { "required": ["researchIssues"] }, "properties": { "status": { "enum": ["verified", "corroborated", "legacyPending"] } } }] } },
-    "researchRecords": { "type": "array", "items": { "allOf": [{ "$ref": "#/$defs/record" }, { "required": ["researchIssues"], "properties": { "status": { "const": "preliminary" }, "researchIssues": { "minItems": 1 } } }] } },
-    "legacyRecords": { "type": "array", "items": { "$ref": "#/$defs/legacyRecord" } }
+    "records": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/$defs/record"
+          },
+          {
+            "not": {
+              "required": [
+                "researchIssues"
+              ]
+            },
+            "anyOf": [
+              {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "verified",
+                      "corroborated",
+                      "legacyPending"
+                    ]
+                  }
+                }
+              },
+              {
+                "required": [
+                  "applicationEvidence",
+                  "engineIdentity",
+                  "fieldEvidence",
+                  "oilRequirements"
+                ],
+                "properties": {
+                  "status": {
+                    "const": "preliminary"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "researchRecords": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/$defs/record"
+          },
+          {
+            "required": [
+              "researchIssues"
+            ],
+            "properties": {
+              "status": {
+                "const": "preliminary"
+              },
+              "researchIssues": {
+                "minItems": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "legacyRecords": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/legacyRecord"
+      }
+    }
   },
   "additionalProperties": false,
   "$defs": {
     "localizedText": {
       "type": "object",
-      "required": ["en", "es", "fr", "de"],
+      "required": [
+        "en",
+        "es",
+        "fr",
+        "de"
+      ],
       "properties": {
-        "en": { "type": "string", "minLength": 1 },
-        "es": { "type": "string", "minLength": 1 },
-        "fr": { "type": "string", "minLength": 1 },
-        "de": { "type": "string", "minLength": 1 }
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "es": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "de": {
+          "type": "string",
+          "minLength": 1
+        }
       },
       "additionalProperties": false
     },
     "years": {
       "type": "object",
-      "required": ["from", "to"],
+      "required": [
+        "from",
+        "to"
+      ],
       "properties": {
-        "from": { "type": "integer", "minimum": 1886, "maximum": 2100 },
-        "to": { "type": "integer", "minimum": 1886, "maximum": 2100 }
+        "from": {
+          "type": "integer",
+          "minimum": 1886,
+          "maximum": 2100
+        },
+        "to": {
+          "type": "integer",
+          "minimum": 1886,
+          "maximum": 2100
+        }
       },
       "additionalProperties": false
     },
     "source": {
       "type": "object",
-      "required": ["publisher", "title", "url", "type", "applicableMarket", "applicableYears", "checkedAt", "fields"],
+      "required": [
+        "publisher",
+        "title",
+        "url",
+        "type",
+        "applicableMarket",
+        "applicableYears",
+        "checkedAt",
+        "fields"
+      ],
       "properties": {
-        "publisher": { "type": "string", "minLength": 1 },
-        "title": { "type": "string", "minLength": 1 },
-        "url": { "type": "string", "pattern": "^https://" },
-        "type": { "enum": ["ownersManual", "serviceManual", "technicalBulletin", "lubricationChart", "oemServicePortal", "technicalReference", "legacyMigration"] },
-        "applicableMarket": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
-        "applicableYears": { "$ref": "#/$defs/years" },
-        "checkedAt": { "type": "string", "format": "date" },
-        "fields": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-        "pageNumbers": { "type": "array", "minItems": 1, "items": { "type": "integer", "minimum": 1 }, "uniqueItems": true },
-        "evidenceNotes": { "type": "string", "minLength": 1 },
-        "provenanceStatus": { "enum": ["confirmed", "unconfirmed"] }
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "type": {
+          "enum": [
+            "ownersManual",
+            "serviceManual",
+            "technicalBulletin",
+            "lubricationChart",
+            "oemServicePortal",
+            "technicalReference",
+            "legacyMigration"
+          ]
+        },
+        "applicableMarket": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "applicableYears": {
+          "$ref": "#/$defs/years"
+        },
+        "checkedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "fields": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "pageNumbers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "uniqueItems": true
+        },
+        "evidenceNotes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenanceStatus": {
+          "enum": [
+            "confirmed",
+            "unconfirmed"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "documentSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "identityBindingRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "object",
+          "required": [
+            "make",
+            "models"
+          ],
+          "properties": {
+            "make": {
+              "type": "string",
+              "minLength": 1
+            },
+            "models": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "applicationCodes": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "engineClass": {
+              "type": "string",
+              "minLength": 1
+            },
+            "engineClasses": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/locator"
+          }
+        }
       },
       "additionalProperties": false
     },
     "record": {
       "type": "object",
-      "required": ["id", "make", "model", "generation", "productionYears", "engineCode", "engineAliases", "displacementLiters", "fuelType", "aspiration", "market", "emissionsEquipment", "allowedSaeViscosities", "industrySpecifications", "requiredManufacturerApprovals", "preferredManufacturerApprovals", "serviceFillCapacity", "capacityUnit", "capacityNote", "serviceInterval", "climateLimitations", "status", "sources", "checkedAt", "notes", "legacyRecordId"],
+      "required": [
+        "id",
+        "make",
+        "model",
+        "generation",
+        "productionYears",
+        "engineAliases",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "market",
+        "emissionsEquipment",
+        "allowedSaeViscosities",
+        "industrySpecifications",
+        "requiredManufacturerApprovals",
+        "preferredManufacturerApprovals",
+        "serviceFillCapacity",
+        "capacityUnit",
+        "capacityNote",
+        "serviceInterval",
+        "climateLimitations",
+        "status",
+        "sources",
+        "checkedAt",
+        "notes",
+        "legacyRecordId"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-        "make": { "type": "string", "minLength": 1 },
-        "model": { "type": "string", "minLength": 1 },
-        "generation": { "type": "string", "minLength": 1 },
-        "productionYears": { "$ref": "#/$defs/years" },
-        "engineCode": { "type": "string", "minLength": 1 },
-        "engineAliases": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-        "displacementLiters": { "type": ["number", "null"], "exclusiveMinimum": 0 },
-        "fuelType": { "enum": ["petrol", "diesel", "hybrid", "lpg", "cng", "unknown"] },
-        "aspiration": { "enum": ["naturallyAspirated", "turbocharged", "supercharged", "twinCharged", "unknown"] },
-        "market": { "type": "array", "minItems": 1, "items": { "enum": ["EU", "US", "JP", "OTHER", "GLOBAL", "UNKNOWN"] }, "uniqueItems": true },
-        "emissionsEquipment": {
-          "type": "object",
-          "required": ["dpf", "gpf", "catalyst"],
-          "properties": {
-            "dpf": { "enum": ["present", "absent", "unknown"] },
-            "gpf": { "enum": ["present", "absent", "unknown"] },
-            "catalyst": { "enum": ["present", "absent", "unknown"] }
-          },
-          "additionalProperties": false
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
         },
-        "allowedSaeViscosities": { "type": "array", "items": { "type": "string", "pattern": "^[0-9]{1,2}W-[0-9]{2}$" }, "uniqueItems": true },
-        "industrySpecifications": {
-          "type": "object",
-          "required": ["acea", "api", "ilsac"],
-          "properties": {
-            "acea": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-            "api": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-            "ilsac": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
-          },
-          "additionalProperties": false
+        "make": {
+          "type": "string",
+          "minLength": 1
         },
-        "requiredManufacturerApprovals": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-        "preferredManufacturerApprovals": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-        "serviceFillCapacity": { "type": ["number", "null"], "exclusiveMinimum": 0 },
-        "capacityUnit": { "type": ["string", "null"], "enum": ["L", "US qt", null] },
-        "capacityNote": { "anyOf": [{ "$ref": "#/$defs/localizedText" }, { "type": "null" }] },
-        "serviceInterval": {
-          "anyOf": [
-            { "type": "null" },
-            { "type": "object", "required": ["distanceKm", "months", "note"], "properties": { "distanceKm": { "type": ["integer", "null"], "minimum": 1 }, "months": { "type": ["integer", "null"], "minimum": 1 }, "note": { "$ref": "#/$defs/localizedText" } }, "additionalProperties": false }
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "productionYears": {
+          "$ref": "#/$defs/years"
+        },
+        "engineCode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "engineAliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "displacementLiters": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "fuelType": {
+          "enum": [
+            "petrol",
+            "diesel",
+            "hybrid",
+            "lpg",
+            "cng",
+            "unknown"
           ]
         },
-        "climateLimitations": { "type": "array", "items": { "type": "object" } },
-        "status": { "enum": ["verified", "corroborated", "preliminary", "legacyPending"] },
-        "researchIssues": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
-        "checkedAt": { "type": "string", "format": "date" },
-        "notes": { "$ref": "#/$defs/localizedText" },
-        "legacyRecordId": { "type": ["string", "null"], "minLength": 1 }
+        "aspiration": {
+          "enum": [
+            "naturallyAspirated",
+            "turbocharged",
+            "supercharged",
+            "twinCharged",
+            "unknown"
+          ]
+        },
+        "market": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "EU",
+              "US",
+              "JP",
+              "OTHER",
+              "GLOBAL",
+              "UNKNOWN"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "emissionsEquipment": {
+          "type": "object",
+          "required": [
+            "dpf",
+            "gpf",
+            "catalyst"
+          ],
+          "properties": {
+            "dpf": {
+              "enum": [
+                "present",
+                "absent",
+                "unknown"
+              ]
+            },
+            "gpf": {
+              "enum": [
+                "present",
+                "absent",
+                "unknown"
+              ]
+            },
+            "catalyst": {
+              "enum": [
+                "present",
+                "absent",
+                "unknown"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "allowedSaeViscosities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9]{1,2}W-[0-9]{2}$"
+          },
+          "uniqueItems": true
+        },
+        "industrySpecifications": {
+          "type": "object",
+          "required": [
+            "acea",
+            "api",
+            "ilsac"
+          ],
+          "properties": {
+            "acea": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "api": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "ilsac": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false
+        },
+        "requiredManufacturerApprovals": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "preferredManufacturerApprovals": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "serviceFillCapacity": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "capacityUnit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "L",
+            "US qt",
+            null
+          ]
+        },
+        "capacityNote": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/localizedText"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "serviceInterval": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "required": [
+                "distanceKm",
+                "months",
+                "note"
+              ],
+              "properties": {
+                "distanceKm": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 1
+                },
+                "months": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 1
+                },
+                "note": {
+                  "$ref": "#/$defs/localizedText"
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "climateLimitations": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "status": {
+          "enum": [
+            "verified",
+            "corroborated",
+            "preliminary",
+            "legacyPending"
+          ]
+        },
+        "researchIssues": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "checkedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "legacyRecordId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "engineIdentity": {
+          "$ref": "#/$defs/engineIdentity"
+        },
+        "applicationEvidence": {
+          "$ref": "#/$defs/applicationEvidence"
+        },
+        "fieldEvidence": {
+          "$ref": "#/$defs/fieldEvidence"
+        },
+        "oilRequirements": {
+          "$ref": "#/$defs/oilRequirements"
+        }
       },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "required": [
+            "engineCode"
+          ]
+        },
+        {
+          "required": [
+            "engineIdentity"
+          ]
+        }
+      ],
+      "allOf": [
+        {
+          "if": {
+            "anyOf": [
+              {
+                "required": [
+                  "applicationEvidence"
+                ]
+              },
+              {
+                "required": [
+                  "engineIdentity"
+                ]
+              },
+              {
+                "required": [
+                  "fieldEvidence"
+                ]
+              },
+              {
+                "required": [
+                  "oilRequirements"
+                ]
+              }
+            ]
+          },
+          "then": {
+            "required": [
+              "applicationEvidence",
+              "engineIdentity",
+              "fieldEvidence",
+              "oilRequirements"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "engineIdentity"
+            ],
+            "properties": {
+              "engineIdentity": {
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "vinEngineSymbol",
+                      "officialVariantDesignation"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "required": [
+                "engineCode"
+              ]
+            }
+          }
+        }
+      ]
     },
     "legacyRecord": {
       "type": "object",
-      "required": ["id", "make", "model", "generation", "years", "engine", "migrationStatus", "productionReady", "migrationIssues"],
+      "required": [
+        "id",
+        "make",
+        "model",
+        "generation",
+        "years",
+        "engine",
+        "migrationStatus",
+        "productionReady",
+        "migrationIssues"
+      ],
       "properties": {
-        "migrationStatus": { "const": "legacyPending" },
-        "productionReady": { "const": false },
-        "migrationIssues": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+        "migrationStatus": {
+          "const": "legacyPending"
+        },
+        "productionReady": {
+          "const": false
+        },
+        "migrationIssues": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
       },
       "additionalProperties": true
+    },
+    "evidenceRef": {
+      "type": "object",
+      "required": [
+        "sourceId",
+        "locatorId"
+      ],
+      "properties": {
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locatorId": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "fieldAssessment": {
+      "type": "object",
+      "required": [
+        "state",
+        "evidenceRefs"
+      ],
+      "properties": {
+        "state": {
+          "enum": [
+            "confirmed",
+            "unknown",
+            "conflict"
+          ]
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidenceRef"
+          },
+          "uniqueItems": true
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "locator": {
+      "type": "object",
+      "required": [
+        "id",
+        "fields",
+        "excerpt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fields": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "excerpt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pageNumbers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "uniqueItems": true
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation": {
+          "enum": [
+            "allOf",
+            "anyOf"
+          ]
+        },
+        "condition": {
+          "$ref": "#/$defs/localizedText"
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "pageNumbers"
+          ]
+        },
+        {
+          "required": [
+            "section"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "engineIdentity": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "engineeringCode",
+            "officialVariantDesignation",
+            "vinEngineSymbol"
+          ],
+          "description": "engineeringCode uses the existing record.engineCode value; other identifier types use value."
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "engineeringCode"
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "required": [
+                "value"
+              ]
+            }
+          },
+          "else": {
+            "required": [
+              "value"
+            ]
+          }
+        }
+      ]
+    },
+    "applicationEvidence": {
+      "type": "object",
+      "required": [
+        "state",
+        "evidenceRefs",
+        "applications",
+        "review"
+      ],
+      "properties": {
+        "state": {
+          "enum": [
+            "confirmed",
+            "unknown",
+            "conflict"
+          ]
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidenceRef"
+          }
+        },
+        "applications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "code",
+              "trim",
+              "transmission",
+              "driveType"
+            ],
+            "properties": {
+              "code": {
+                "type": "string",
+                "minLength": 1
+              },
+              "trim": {
+                "type": "string",
+                "minLength": 1
+              },
+              "transmission": {
+                "type": "string",
+                "minLength": 1
+              },
+              "driveType": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "review": {
+          "type": "object",
+          "required": [
+            "unambiguous",
+            "notes"
+          ],
+          "properties": {
+            "unambiguous": {
+              "type": "boolean"
+            },
+            "notes": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "fieldEvidence": {
+      "type": "object",
+      "required": [
+        "engineIdentity",
+        "displacementLiters",
+        "fuelType",
+        "aspiration",
+        "allowedSaeViscosities",
+        "industrySpecifications",
+        "requiredManufacturerApprovals",
+        "preferredManufacturerApprovals",
+        "serviceFillCapacity",
+        "capacityUnit",
+        "capacityNote",
+        "serviceInterval",
+        "climateLimitations",
+        "emissionsEquipment"
+      ],
+      "properties": {
+        "engineIdentity": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "displacementLiters": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "fuelType": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "aspiration": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "allowedSaeViscosities": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "industrySpecifications": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "requiredManufacturerApprovals": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "preferredManufacturerApprovals": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "serviceFillCapacity": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "capacityUnit": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "capacityNote": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "serviceInterval": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "climateLimitations": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "emissionsEquipment": {
+          "$ref": "#/$defs/fieldAssessment"
+        }
+      },
+      "additionalProperties": false
+    },
+    "requirementNode": {
+      "type": "object",
+      "properties": {
+        "allOf": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/requirementNode"
+          }
+        },
+        "anyOf": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/requirementNode"
+          }
+        },
+        "field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidenceRef"
+          },
+          "minItems": 1
+        },
+        "conditionRef": {
+          "$ref": "#/$defs/evidenceRef"
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "allOf",
+            "evidenceRefs"
+          ]
+        },
+        {
+          "required": [
+            "anyOf",
+            "evidenceRefs"
+          ]
+        },
+        {
+          "required": [
+            "field",
+            "index"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "oilRequirements": {
+      "type": "object",
+      "required": [
+        "state",
+        "coverage",
+        "expression"
+      ],
+      "properties": {
+        "state": {
+          "enum": [
+            "confirmed",
+            "unknown",
+            "conflict"
+          ]
+        },
+        "coverage": {
+          "enum": [
+            "documentedPath",
+            "exhaustive"
+          ]
+        },
+        "expression": {
+          "$ref": "#/$defs/requirementNode"
+        },
+        "review": {
+          "type": "object",
+          "properties": {
+            "exhaustive": {
+              "type": "boolean"
+            },
+            "notes": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

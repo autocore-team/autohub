@@ -1,5 +1,7 @@
 # Oil Batch 2: preliminary research quarantine correction
 
+Historical snapshot of the quarantine correction. The current field-level assessment publishes two scoped partial cards without capacities and leaves 48 records research-only; see [the field-evidence report](oil-field-evidence.md). Stored Honda statuses remain preliminary.
+
 Date: 2026-11-07. Existing branch: feature/oil-production-batch-2. Parent implementation: dd08f9289b9d671d7db8ebb097c2158127499bcb. No new source research or document downloads. No merge.
 
 ## Actual counts
