@@ -1,7 +1,7 @@
 {
   "baseCommit": "a6450d4",
   "counts": {
-    "selectable": 74,
+    "selectable": 75,
     "research": 13,
     "quarantine": 59
   },
@@ -17,12 +17,12 @@
     "data/engines/source/regions/south-america.json": "51ef5b887b115fbb6b8d087e792c4b090637a9dcd595f1b4da7c13b1b10cef36",
     "data/engines/source/schema.json": "f54c4a171c7fa345ddf96ca08738e31af87bbe957c6bdc090dcf4598044823b3",
     "data/engines/south-america.js": "905084234cee1c6ac706b357d589b52178b4c464ad335fbb34cfabafc15e1571",
-    "data/oil/canonical.json": "67f6b03ca854369d9b47faf8ea1a4381baf3a02de49b496c983c7a26ba1becbe",
+    "data/oil/canonical.json": "31e798525acee1d0e6177ddfd86d91934a7f724e867311c02cbfe621c688691c",
     "data/oil/schema.json": "aebfa42f2048a84cf594a92633347b28abbe770cd6971e5f2d1c800676cc0ad2",
     "data/pcd/source/schema.json": "d4fa3e7bbf1b4ec7db8dcdc113b78f1bf2c1f1bcf0adc33d56452bcdb45dcf2d",
     "data/pcd/source/vehicles.json": "525a6c50ceddba216d8af2a9e7ee52adb34553ac2ba2f5f58006498b411e7532",
     "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
-    "oil-data.js": "ff6415da247d58cca2c02d76b24849a1de9c6b9501de061774be814dc5237c0b",
+    "oil-data.js": "609493a15d2dae7d078a8aafbbcfa4963a0367ca2720578bd9ce52eeb0e78d0c",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952",
     "scripts/oil/evidence.mjs": "4f67259ab82e8acefbd68816000b3aea3fbb0e258f9e0f2addcaae2a8d0d61cf",
     "scripts/oil/validate.mjs": "3a2f9c13ff9a050f9b66740587b847eac0d6220839e92b79bd635edde03b372f",

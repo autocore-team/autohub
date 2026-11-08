@@ -9,7 +9,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 74,
+    "selectableExactCodeRecordCount": 75,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -22288,6 +22288,565 @@
           "evidenceRefs": [
             {
               "sourceId": "toyota-ca-om0e108u",
+              "locatorId": "temporary"
+            }
+          ]
+        }
+      },
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "unknown",
+          "aspiration": "unknown",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "confirmed",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "confirmed",
+          "capacityUnit": "confirmed",
+          "capacityNote": "confirmed",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown"
+        },
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 6,
+          "totalFields": 14
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 6,
+        "totalFields": 14
+      }
+    },
+    {
+      "id": "toyota-86-2020-ca-fa20",
+      "make": "Toyota",
+      "model": "86",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2020,
+        "to": 2020
+      },
+      "engineCode": "FA20",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "CA"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "ILSAC GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 5.4,
+      "capacityUnit": "L",
+      "capacityNote": {
+        "en": "Reference drain-and-refill quantity with oil filter, not dry fill. Warm up and turn off the engine, wait more than 5 minutes, then check the oil level on the dipstick.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro, no llenado en seco. Caliente y apague el motor, espere más de 5 minutos y compruebe el nivel en la varilla.",
+        "fr": "Quantité indicative de vidange et remplissage avec filtre, hors remplissage à sec. Chauffez et arrêtez le moteur, attendez plus de 5 minutes puis contrôlez le niveau à la jauge.",
+        "de": "Richtwert für Ablassen und Befüllen mit Ölfilter, keine Trockenfüllung. Motor aufwärmen und ausschalten, mehr als 5 Minuten warten, dann den Ölstand am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "toyota-ca-om18101u",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota 86 2020 Owner’s Manual OM18101U; Part No.01999-18101; printed code 01-1908-00",
+          "publicationId": "OM18101U",
+          "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM18101U/OM18101U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "oilRequirements",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            1,
+            17,
+            83,
+            177,
+            463,
+            464,
+            465,
+            466,
+            536
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "cc15699d8fc316411befcc034e2bd40c762a2cb2845abe29b4a95abfd718767a",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "86"
+            ],
+            "engineCodes": [
+              "FA20"
+            ]
+          },
+          "evidenceNotes": "Official Toyota Canada DAM publication selected by its Canadian MY2020 86 catalogue. Cover PDF 1 and colophon PDF 536 identify edition; PDF 83 explicitly addresses Canadian vehicles. PDF 17 establishes all-model coverage. FA20 is the literal Engine Model on PDF 463, not an alias or inferred family. The factory gasoline powertrain is documented by that engine table and ignition/manual/automatic starting procedures on PDF 177; non-hybrid classification is a composite application assessment, not a quotation of the word non-hybrid. Common oil table PDF 464 does not split transmissions, whereas coolant PDF 466 explicitly does. Engine-heading/oil fragments across pages are labelled composite excerpts.",
+          "locators": [
+            {
+              "id": "publication",
+              "pageNumbers": [
+                1,
+                83,
+                536
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "[PDF 1, cover] 86 2020 OWNER’S MANUAL. [PDF 536, colophon] Publication No.OM18101U. Part No.01999-18101. Printed in Japan 01-1908-00. [PDF 83 / printed 81] For vehicles sold in Canada."
+            },
+            {
+              "id": "all-models",
+              "pageNumbers": [
+                17
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Please note that this manual applies to all models and explains all equipment, including options. Therefore, you may find some explanations for equipment not installed on your vehicle."
+            },
+            {
+              "id": "engine",
+              "pageNumbers": [
+                177,
+                463
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "[PDF 463 / printed 461, Engine] Model: FA20. Type: Horizontally opposed, liquid cooled 4 cylinder, 4-stroke gasoline. [PDF 177 / printed 175, Engine (ignition) switch / Starting the engine] Vehicles with an automatic transmission; Vehicles with a manual transmission; Turn the engine switch to the START position to start the engine.",
+              "engineCodes": [
+                "FA20"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "all-models"
+              }
+            },
+            {
+              "id": "selection",
+              "pageNumbers": [
+                463,
+                464
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 463 / printed 461, Engine table] Model: FA20. [PDF 464 / printed 462, common Lubrication system / Engine oil selection] Use Toyota approved Toyota Genuine Motor Oil or equivalent to satisfy the following grade and viscosity. Oil grade: ILSAC GF-5 multigrade engine oil. Recommended viscosity: SAE 0W-20.",
+              "engineCodes": [
+                "FA20"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "all-models"
+              },
+              "relation": "allOf"
+            },
+            {
+              "id": "preferred",
+              "pageNumbers": [
+                463,
+                464,
+                465
+              ],
+              "fields": [
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 463 / printed 461, Engine table] Model: FA20. [PDF 464–465 / printed 462–463, common Engine oil selection] SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. An oil with a higher viscosity (one with a higher value) may be better suited if the vehicle is operated at high speeds, or under extreme load conditions.",
+              "engineCodes": [
+                "FA20"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "all-models"
+              },
+              "condition": {
+                "en": "Recommended SAE 0W-20. A higher viscosity may be better suited at high speeds or under extreme load; the manual does not name another permanent SAE here.",
+                "es": "SAE 0W-20 recomendado. Una mayor viscosidad puede ser más adecuada a alta velocidad o con carga extrema; el manual no indica aquí otro SAE permanente.",
+                "fr": "SAE 0W-20 recommandée. Une viscosité supérieure peut mieux convenir à grande vitesse ou sous charge extrême ; aucun autre SAE permanent n’est nommé ici.",
+                "de": "SAE 0W-20 empfohlen. Eine höhere Viskosität kann bei hoher Geschwindigkeit oder extremer Last geeigneter sein; eine weitere dauerhafte SAE-Klasse wird hier nicht genannt."
+              }
+            },
+            {
+              "id": "temporary",
+              "pageNumbers": [
+                463,
+                464
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 463 / printed 461, Engine table] Model: FA20. [PDF 464 / printed 462, common Engine oil selection] If SAE 0W-20 is not available, SAE 5W-20 oil may be used. However, it must be replaced with SAE 0W-20 at the next oil change.",
+              "engineCodes": [
+                "FA20"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "all-models"
+              },
+              "relation": "anyOf",
+              "temporarySubstitution": {
+                "preferredIndex": 0,
+                "temporaryIndex": 1
+              },
+              "condition": {
+                "en": "If SAE 0W-20 is not available, SAE 5W-20 may be used. It must be replaced with SAE 0W-20 at the next oil change.",
+                "es": "Si SAE 0W-20 no está disponible, puede usarse SAE 5W-20. Debe sustituirse por SAE 0W-20 en el siguiente cambio de aceite.",
+                "fr": "Si SAE 0W-20 est indisponible, SAE 5W-20 peut être utilisée. Elle doit être remplacée par SAE 0W-20 à la prochaine vidange.",
+                "de": "Wenn SAE 0W-20 nicht verfügbar ist, darf SAE 5W-20 verwendet werden. Beim nächsten Ölwechsel muss wieder SAE 0W-20 eingefüllt werden."
+              }
+            },
+            {
+              "id": "service-fill",
+              "pageNumbers": [
+                463,
+                464
+              ],
+              "fields": [
+                "serviceFillCapacity",
+                "capacityUnit",
+                "capacityNote"
+              ],
+              "excerpt": "[PDF 463 / printed 461, Engine table] Model: FA20. [PDF 464 / printed 462, common Lubrication system] Oil capacity (Drain and refill—reference*). With filter 5.7 qt. (5.4 L, 4.8 Imp. qt.). The engine oil capacity is a reference quantity to be used when changing the engine oil. Warm up and turn off the engine, wait more than 5 minutes, and check the oil level on the dipstick.",
+              "engineCodes": [
+                "FA20"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "all-models"
+              }
+            }
+          ]
+        },
+        {
+          "id": "toyota-ca-catalogue-2020-86",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Canada Owner’s Manuals catalogue — 86 2020",
+          "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=86",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application"
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "a9b3cb932fa2192a2f4e36664eb1a8884a3f181d027ce4aedd70ef4c1130f9c3",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "86"
+            ]
+          },
+          "evidenceNotes": "Saved official Toyota Canada catalogue response; literal series name/year and publicationNo/documentUrl bind the manual. The excerpt combines response fields and the Canadian site publisher context; not a quotation of a single sentence. No production-month restriction is attached to this Owner’s Manual.",
+          "locators": [
+            {
+              "id": "catalogue",
+              "section": "data → seriesTitle 86; year 2020; documents.allResults → publicationNo OM18101U, documentUrl; Toyota Canada Inc. catalogue",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Toyota Canada Inc. Canada. Toyota 86 2020. Owner’s Manual OM18101U. https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM18101U/OM18101U.pdf",
+              "documentBinding": {
+                "publicationId": "OM18101U",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM18101U/OM18101U.pdf",
+                "markets": [
+                  "CA"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "Canada MY2020 Toyota 86, non-hybrid factory FA20 application. OM18101U has one engine and a common lubrication table. Manual and automatic transmissions do not split the engine-oil rule; no duplicate transmission/trim cards. Other years, markets, models and engine swaps are excluded.",
+        "es": "Toyota 86 MY2020 Canadá, aplicación de fábrica FA20 no híbrida. OM18101U tiene un único motor y una tabla común de lubricación. Los cambios manual y automático no dividen la regla del aceite; no se duplican fichas por transmisión/acabado. Otros años, mercados, modelos y cambios de motor quedan excluidos.",
+        "fr": "Toyota 86 MY2020 Canada, application FA20 d’origine non hybride. OM18101U présente un moteur et un tableau commun de lubrification. Les boîtes manuelle et automatique ne divisent pas la règle d’huile ; aucune fiche dupliquée par boîte/finition. Autres années, marchés, modèles et moteurs remplacés exclus.",
+        "de": "Toyota 86, Modelljahr 2020, Kanada, FA20-Werksausführung ohne Hybridantrieb. OM18101U nennt einen Motor und eine gemeinsame Schmiertabelle. Schalt- und Automatikgetriebe teilen die Motorölregel nicht auf; keine doppelten Getriebe-/Ausstattungskarten. Andere Jahre, Märkte, Modelle und Motorumbauten sind ausgeschlossen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "engineScoped",
+        "evidenceRefs": [
+          {
+            "sourceId": "toyota-ca-catalogue-2020-86",
+            "locatorId": "catalogue"
+          },
+          {
+            "sourceId": "toyota-ca-om18101u",
+            "locatorId": "publication"
+          },
+          {
+            "sourceId": "toyota-ca-om18101u",
+            "locatorId": "all-models"
+          },
+          {
+            "sourceId": "toyota-ca-om18101u",
+            "locatorId": "engine"
+          }
+        ],
+        "engineScope": {
+          "description": {
+            "en": "Canada MY2020 Toyota 86, non-hybrid factory FA20 application. OM18101U has one engine and a common lubrication table. Manual and automatic transmissions do not split the engine-oil rule; no duplicate transmission/trim cards. Other years, markets, models and engine swaps are excluded.",
+            "es": "Toyota 86 MY2020 Canadá, aplicación de fábrica FA20 no híbrida. OM18101U tiene un único motor y una tabla común de lubricación. Los cambios manual y automático no dividen la regla del aceite; no se duplican fichas por transmisión/acabado. Otros años, mercados, modelos y cambios de motor quedan excluidos.",
+            "fr": "Toyota 86 MY2020 Canada, application FA20 d’origine non hybride. OM18101U présente un moteur et un tableau commun de lubrification. Les boîtes manuelle et automatique ne divisent pas la règle d’huile ; aucune fiche dupliquée par boîte/finition. Autres années, marchés, modèles et moteurs remplacés exclus.",
+            "de": "Toyota 86, Modelljahr 2020, Kanada, FA20-Werksausführung ohne Hybridantrieb. OM18101U nennt einen Motor und eine gemeinsame Schmiertabelle. Schalt- und Automatikgetriebe teilen die Motorölregel nicht auf; keine doppelten Getriebe-/Ausstattungskarten. Andere Jahre, Märkte, Modelle und Motorumbauten sind ausgeschlossen."
+          },
+          "manualRef": {
+            "sourceId": "toyota-ca-om18101u",
+            "locatorId": "publication"
+          },
+          "marketRef": {
+            "sourceId": "toyota-ca-catalogue-2020-86",
+            "locatorId": "catalogue"
+          },
+          "coverageRef": {
+            "sourceId": "toyota-ca-om18101u",
+            "locatorId": "all-models"
+          },
+          "identityRef": {
+            "sourceId": "toyota-ca-om18101u",
+            "locatorId": "engine"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "toyota-ca-catalogue-2020-86",
+                "locatorId": "catalogue"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "publication"
+              },
+              "relation": "publication"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "publication"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "all-models"
+              },
+              "relation": "sameDocument"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "all-models"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "engine"
+              },
+              "relation": "sameDocument"
+            }
+          ]
+        },
+        "review": {
+          "unambiguous": true,
+          "notes": "Canada MY2020 86 catalogue → exact OM18101U publication → all-model coverage PDF 17 → direct FA20 engine table PDF 463 → common lubrication PDF 464–465. Factory non-hybrid gasoline application assessment uses the engine table with the ignition/manual/automatic procedures on PDF 177. Engine-oil table is common; coolant explicitly splits transmissions on PDF 466. Do not transfer data to another FA20 application or market."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om18101u",
+              "locatorId": "engine"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om18101u",
+              "locatorId": "selection"
+            },
+            {
+              "sourceId": "toyota-ca-om18101u",
+              "locatorId": "temporary"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om18101u",
+              "locatorId": "selection"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om18101u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityUnit": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om18101u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityNote": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om18101u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "anyOf": [
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 0
+                },
+                {
+                  "field": "industrySpecifications.ilsac",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om18101u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "preferred"
+              }
+            },
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 1
+                },
+                {
+                  "field": "industrySpecifications.ilsac",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om18101u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om18101u",
+                "locatorId": "temporary"
+              }
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om18101u",
               "locatorId": "temporary"
             }
           ]
