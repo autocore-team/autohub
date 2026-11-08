@@ -150,9 +150,9 @@
     "data/pcd/source/vehicles.json": "525a6c50ceddba216d8af2a9e7ee52adb34553ac2ba2f5f58006498b411e7532",
     "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952",
-    "data/oil/schema.json": "aebfa42f2048a84cf594a92633347b28abbe770cd6971e5f2d1c800676cc0ad2",
-    "scripts/oil/evidence.mjs": "4f67259ab82e8acefbd68816000b3aea3fbb0e258f9e0f2addcaae2a8d0d61cf",
-    "scripts/oil/validate.mjs": "3a2f9c13ff9a050f9b66740587b847eac0d6220839e92b79bd635edde03b372f",
+    "data/oil/schema.json": "1d2b50d933336e2ca31261d571540004b52ee51980d03e93032c4b3ffaa3e9ab",
+    "scripts/oil/evidence.mjs": "379dbb308afe6d09b7cb6abf69a7d17f6557b28a688e33c0f14169a54818229a",
+    "scripts/oil/validate.mjs": "8bac1e6df664eea7ed26ceeddea347ef4b51942a8d33d3bcbc7834aff28ad379",
     "scripts/oil/generate.mjs": "c51b766b48b532d59155d948e1ec219ca549caf59ad9301ea0bf8c4a63f01c37"
   },
   "records": [
@@ -823,11 +823,11 @@
   "current": {
     "assessment": "After Batch 5; historical Batch 4 final counts and hashes remain frozen.",
     "counts": {
-      "selectable": 75,
+      "selectable": 81,
       "research": 13,
       "quarantine": 59
     },
-    "canonicalHash": "0469dd7e1c109f536956715ab199763e899e4ebb72fd534b6162b1cbcb83d3b2",
+    "canonicalHash": "9a255f5d2b773834296861fed47412d889cc2a95ab511950fd720d705040204a",
     "remainingResearchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
     "laterAnnotations": [
       {

@@ -18,7 +18,7 @@
   "recordHash": "6cc97bf1cad809c03677985307f89a3445be36b9790a0047522ca0e6980cec91",
   "sourcesHash": "847e493a8d212178c900b9c9efc721328af81a9d5ac8500735f4dda99df5d2ac",
   "coverageExcerpt": "Please note that this manual applies to explains all models and all equipment, including options. Therefore, you may find some explanations for equipment not installed on your vehicle.",
-  "gateHash": "4f67259ab82e8acefbd68816000b3aea3fbb0e258f9e0f2addcaae2a8d0d61cf",
+  "gateHash": "379dbb308afe6d09b7cb6abf69a7d17f6557b28a688e33c0f14169a54818229a",
   "protectedFiles": {
     "data/engines/europe.js": "732b6b4894f165848a02d488d8e2a168797001880ddee5d0dfc2940f66de922e",
     "data/engines/japan.js": "b83f3d7594bdb1367506d74341e146cc3c49cea2bef0d72c8e4f1f34e36a40ae",
@@ -35,18 +35,18 @@
     "data/pcd/source/vehicles.json": "525a6c50ceddba216d8af2a9e7ee52adb34553ac2ba2f5f58006498b411e7532",
     "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952",
-    "scripts/oil/validate.mjs": "3a2f9c13ff9a050f9b66740587b847eac0d6220839e92b79bd635edde03b372f",
+    "scripts/oil/validate.mjs": "8bac1e6df664eea7ed26ceeddea347ef4b51942a8d33d3bcbc7834aff28ad379",
     "scripts/oil/generate.mjs": "c51b766b48b532d59155d948e1ec219ca549caf59ad9301ea0bf8c4a63f01c37",
     ".github/workflows/ci.yml": "dda4aafc273822d867cbeb59e4241983f885cd2b3f3f0b03b27c9928876cf348",
     ".github/workflows/engine-data-ci.yml": "6799fe2e42673d9915b35dd284eaefb423a08657c2b1ea6e59f6cf19c695a722",
     "oil-guide.html": "62394a696c6d52b7ee627f2339369d5f0b448cb88e51f4a129aad3941e9ca9de",
-    "data/oil/schema.json": "aebfa42f2048a84cf594a92633347b28abbe770cd6971e5f2d1c800676cc0ad2",
-    "assets/js/oil-guide.js": "e5d17bc9ae8d3089df144b4b8ba562f6ee3bf50633c9c7e957fe1c716db1058f",
+    "data/oil/schema.json": "1d2b50d933336e2ca31261d571540004b52ee51980d03e93032c4b3ffaa3e9ab",
+    "assets/js/oil-guide.js": "034c7dfcf43e8545e5c1b0e494f111e0c2e82dc19e0cf925e75ddc431fe34c44",
     "docs/oil-field-evidence.md": "30752c5953d0d72d04d06b8f6d615f1bc947b24594996355251a31e81da247c7",
     "data/oil/reference-information.json": "68e2f44d2f57c7bab7083d38a4f0892e255dc10892fecf369a9627a9961063c4"
   },
   "currentCounts": [
-    75,
+    81,
     13,
     59
   ]

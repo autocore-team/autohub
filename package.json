@@ -6,7 +6,7 @@
     "oil:validate": "node scripts/oil/validate.mjs",
     "oil:generate": "node scripts/oil/generate.mjs",
     "oil:generate:check": "node scripts/oil/check-generated.mjs",
-    "oil:test": "node tests/oil/oil-foundation.test.mjs && node tests/oil/oil-batch-1-production.test.mjs && node tests/oil/oil-batch-2-production.test.mjs && node tests/oil/oil-field-evidence.test.mjs && node tests/oil/oil-batch-3-production.test.mjs && node tests/oil/oil-batch-4-production.test.mjs && node tests/oil/oil-batch-5-production.test.mjs && node tests/oil/oil-result-ux.test.mjs && node tests/oil/oil-ui.test.mjs && node tests/oil/oil-toyota-canada-pilot.test.mjs && node tests/oil/oil-batch-7-production.test.mjs && node tests/oil/oil-volvo-reference.test.mjs && node tests/oil/oil-batch-8-production.test.mjs && node tests/oil/oil-highlander-scope-fix.test.mjs && node tests/oil/oil-batch-9-production.test.mjs",
+    "oil:test": "node tests/oil/oil-foundation.test.mjs && node tests/oil/oil-batch-1-production.test.mjs && node tests/oil/oil-batch-2-production.test.mjs && node tests/oil/oil-field-evidence.test.mjs && node tests/oil/oil-batch-3-production.test.mjs && node tests/oil/oil-batch-4-production.test.mjs && node tests/oil/oil-batch-5-production.test.mjs && node tests/oil/oil-result-ux.test.mjs && node tests/oil/oil-ui.test.mjs && node tests/oil/oil-toyota-canada-pilot.test.mjs && node tests/oil/oil-batch-7-production.test.mjs && node tests/oil/oil-volvo-reference.test.mjs && node tests/oil/oil-batch-8-production.test.mjs && node tests/oil/oil-highlander-scope-fix.test.mjs && node tests/oil/oil-batch-9-production.test.mjs && node tests/oil/oil-xc40-source-first.test.mjs",
     "oil:batch1:test": "node tests/oil/oil-batch-1-production.test.mjs",
     "oil:check": "npm run oil:validate && npm run oil:generate:check && npm run oil:test",
     "pcd:generate": "node scripts/pcd/generate-pcd-data.mjs",
@@ -47,6 +47,7 @@
     "oil:batch7:test": "node tests/oil/oil-batch-7-production.test.mjs",
     "oil:batch8:test": "node tests/oil/oil-batch-8-production.test.mjs",
     "oil:highlander-scope:test": "node tests/oil/oil-highlander-scope-fix.test.mjs",
-    "oil:batch9:test": "node tests/oil/oil-batch-9-production.test.mjs"
+    "oil:batch9:test": "node tests/oil/oil-batch-9-production.test.mjs",
+    "oil:xc40:test": "node tests/oil/oil-xc40-source-first.test.mjs"
   }
 }

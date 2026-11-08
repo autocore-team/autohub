@@ -1,11 +1,20 @@
 // Field evidence uses the existing values and sources; it never upgrades record.status.
+import { validateDocumentApplication, validateDocumentField, validateTableRequirement } from './document-evidence.mjs';
 export const technicalFields = ['engineIdentity', 'displacementLiters', 'fuelType', 'aspiration',
   'allowedSaeViscosities', 'industrySpecifications', 'requiredManufacturerApprovals',
   'preferredManufacturerApprovals', 'serviceFillCapacity', 'capacityUnit', 'capacityNote',
   'serviceInterval', 'climateLimitations', 'emissionsEquipment'];
 const states = new Set(['confirmed', 'unknown', 'conflict']);
 const official = new Set(['ownersManual', 'serviceManual', 'technicalBulletin', 'lubricationChart', 'oemServicePortal']);
-const reviewedHosts = new Set(['techinfo.honda.com', 'crmshonda.my.salesforce-sites.com', 'vpic.nhtsa.dot.gov', 'static.nhtsa.gov', 'www.fordservicecontent.com', 'content.fordpro.com', 'assets.sipb.toyota.com', 'www.toyota.ca']);
+const reviewedHosts = new Set(['techinfo.honda.com', 'crmshonda.my.salesforce-sites.com', 'vpic.nhtsa.dot.gov', 'static.nhtsa.gov', 'www.fordservicecontent.com', 'content.fordpro.com', 'assets.sipb.toyota.com', 'www.toyota.ca', 'www.volvocars.com']);
+const assessedFields = record => Object.hasOwn(record, 'oemOilSpecifications') ? [...technicalFields, 'oemOilSpecifications'] : technicalFields;
+function reviewedSourceUrl(value) {
+  const url = new URL(value);
+  if (url.protocol !== 'https:' || !reviewedHosts.has(url.hostname)) return false;
+  if (url.hostname === 'www.volvocars.com') return !url.username && !url.password && !url.port && !url.search && !url.hash
+    && /^\/uk\/support\/car\/[a-z0-9-]+\/[a-z0-9-]+\/article\/[a-f0-9]{32}(?:[_/][a-f0-9]{32}){2}\/$/.test(url.pathname);
+  return url.hostname !== 'www.toyota.ca' || /^\/content\/dam\/toyota\/documents\/manuals\/en\/|^\/bin\/api\/get-manuals\.toyota\.en\.json$/.test(url.pathname);
+}
 const die = (message) => { throw new Error(message); };
 const equal = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '');
@@ -19,6 +28,7 @@ function context(record) {
   const sources = new Map();
   for (const source of record.sources || []) {
     if (!source.id || sources.has(source.id)) die('Field assessment requires unique source IDs');
+    if (record.applicationEvidence?.scopeType === 'documentRow' && !reviewedSourceUrl(source.url)) die('Document source has an unsafe or unreviewed URL');
     sources.set(source.id, source);
     const ids = new Set();
     for (const locator of source.locators || []) {
@@ -40,9 +50,7 @@ function context(record) {
   function trusted(ref, field) {
     const { source, locator } = resolve(ref);
     if (source.provenanceStatus !== 'confirmed' || !official.has(source.type)) return false;
-    const url = new URL(source.url);
-    if (url.protocol !== 'https:' || !reviewedHosts.has(url.hostname) || !/^[a-f0-9]{64}$/.test(source.documentSha256 || '')) return false;
-    if (url.hostname === 'www.toyota.ca' && !/^\/content\/dam\/toyota\/documents\/manuals\/en\/|^\/bin\/api\/get-manuals\.toyota\.en\.json$/.test(url.pathname)) return false;
+    if (!reviewedSourceUrl(source.url) || !/^[a-f0-9]{64}$/.test(source.documentSha256 || '')) return false;
     if (!source.scope || source.scope.make !== record.make || !source.scope.models?.includes(record.model)) return false;
     if (source.scope.applicationCodes && !record.applicationEvidence?.applications?.every((a) => source.scope.applicationCodes.includes(a.code))) return false;
     if (source.applicableYears.from > record.productionYears.from || source.applicableYears.to < record.productionYears.to) return false;
@@ -83,6 +91,8 @@ function validateApplication(record, ctx) {
   refsState(e, 'application', ctx);
   if (e.state !== 'confirmed') return e.state;
   if (e.review?.unambiguous !== true || !e.review.notes?.trim()) die('Confirmed application requires an explicit unambiguous scope review');
+  if (e.scopeType !== 'documentRow' && e.documentScope) die('Unused document-row application scope');
+  if (e.scopeType === 'documentRow') return validateDocumentApplication(record, ctx);
   if (e.scopeType === 'engineScoped') return validateEngineScope(record, ctx);
   if (e.scopeType && e.scopeType !== 'exactApplication') die('Invalid application scope type');
   if (e.engineScope) die('Exact application cannot carry an unused engine scope');
@@ -234,7 +244,7 @@ function validateRequirements(record, ctx) {
       for (const lang of ['en', 'es', 'fr', 'de']) if (!locator.condition[lang]?.trim()) die('Requirement condition must be localized');
     }
     if (kinds[0] === 'field') {
-      const supported = ['allowedSaeViscosities', 'industrySpecifications.acea', 'industrySpecifications.api', 'industrySpecifications.ilsac', 'requiredManufacturerApprovals'];
+      const supported = ['allowedSaeViscosities', 'industrySpecifications.acea', 'industrySpecifications.api', 'industrySpecifications.ilsac', 'requiredManufacturerApprovals', 'oemOilSpecifications'];
       if (!supported.includes(node.field) || !Number.isInteger(node.index)) die('Invalid requirement field/index');
       const value = getValue(record, node.field)?.[node.index];
       if (typeof value !== 'string' || !value.trim()) die('Requirement points to a missing value');
@@ -247,7 +257,8 @@ function validateRequirements(record, ctx) {
       const { locator } = ctx.resolve(ref);
       if (!ctx.trusted(ref, 'oilRequirements') || locator.relation !== op) die('Requirement allOf/anyOf operator is not supported by the cited source relation');
       if (op === 'anyOf' && !/\bor\b/i.test(locator.excerpt) && !(record.applicationEvidence.scopeType === 'engineScoped' && locator.temporarySubstitution)) die('anyOf requires alternative wording in its source');
-      if (op === 'allOf' && !/\b(and|also|together)\b/i.test(locator.excerpt)) die('allOf requires conjunctive wording in its source');
+      if (op === 'allOf' && record.applicationEvidence.scopeType === 'documentRow') validateTableRequirement(record, node, ref, ctx);
+      else if (op === 'allOf' && !/\b(and|also|together)\b/i.test(locator.excerpt)) die('allOf requires conjunctive wording in its source');
     }
     const children = node[op].map((n) => walk(n, depth + 1));
     // Every branch must be reviewed; an unresolved branch cannot be silently omitted as a supposed complete list.
@@ -264,10 +275,13 @@ export function assessOilEvidence(record) {
     requirements: 'notAssessed', eligible: false, completeness: { state: 'notAssessed', confirmedFields: 0, totalFields: technicalFields.length }
   };
   if (!record.fieldEvidence) die('Incomplete field assessment');
+  if (Object.hasOwn(record, 'oemOilSpecifications') !== Object.hasOwn(record.fieldEvidence, 'oemOilSpecifications')
+    || Object.hasOwn(record, 'oemOilSpecifications') && (!Array.isArray(record.oemOilSpecifications) || record.oemOilSpecifications.some(s => typeof s !== 'string' || !s.trim()))) die('OEM oil-quality specification requires its own values and field assessment');
+  const evaluatedFields = assessedFields(record);
   const ctx = context(record);
   validateIdentity(record, ctx);
   const fields = {};
-  for (const field of technicalFields) {
+  for (const field of evaluatedFields) {
     if (field === 'engineIdentity') fields[field] = record.fieldEvidence[field].state;
     else {
       fields[field] = refsState(record.fieldEvidence[field], field, ctx);
@@ -278,10 +292,12 @@ export function assessOilEvidence(record) {
   if (fields.serviceFillCapacity === 'confirmed' && fields.capacityUnit !== 'confirmed') die('Confirmed capacity requires confirmed units');
   if (fields.capacityNote === 'confirmed' && fields.serviceFillCapacity !== 'confirmed') die('Confirmed capacity note requires confirmed service-fill quantity');
   // Supplemental technical evidence must explicitly bind to the direct identity source.
-  for (const field of technicalFields.filter((f) => fields[f] === 'confirmed')) {
+  for (const field of evaluatedFields.filter((f) => fields[f] === 'confirmed')) {
     for (const ref of record.fieldEvidence[field].evidenceRefs) {
       const { source } = ctx.resolve(ref);
-      if (record.applicationEvidence.scopeType === 'engineScoped') {
+      if (record.applicationEvidence.scopeType === 'documentRow') {
+        validateDocumentField(record, ref, field, ctx);
+      } else if (record.applicationEvidence.scopeType === 'engineScoped') {
         validateEngineField(record, ref, field, ctx);
       } else if (source.identityBindingRef) {
         const direct = ctx.sources.get(source.identityBindingRef);
@@ -291,15 +307,20 @@ export function assessOilEvidence(record) {
     }
   }
   const validPath = validateRequirements(record, ctx);
+  if (record.applicationEvidence.scopeType === 'documentRow') {
+    const check = node => { for (const ref of [...node.evidenceRefs || [], ...node.conditionRef ? [node.conditionRef] : []]) validateDocumentField(record, ref, 'oilRequirements', ctx); for (const child of node.allOf || node.anyOf || []) check(child); };
+    check(record.oilRequirements.expression);
+    validateSubstitutions(record, ctx);
+  }
   if (record.applicationEvidence.scopeType === 'engineScoped') {
     const check = (node) => { for (const ref of [...node.evidenceRefs || [], ...node.conditionRef ? [node.conditionRef] : []]) validateEngineField(record, ref, 'oilRequirements', ctx); for (const child of node.allOf || node.anyOf || []) check(child); };
     check(record.oilRequirements.expression);
     validateSubstitutions(record, ctx);
   }
   const count = Object.values(fields).filter((s) => s === 'confirmed').length;
-  const completeness = { state: count === technicalFields.length ? 'complete' : 'partial', confirmedFields: count, totalFields: technicalFields.length };
+  const completeness = { state: count === evaluatedFields.length ? 'complete' : 'partial', confirmedFields: count, totalFields: evaluatedFields.length };
   if (Object.hasOwn(record, 'completeness') && !equal(record.completeness, completeness)) die('completeness is computed, not manually assigned');
-  return { mode: 'fieldAssessed', application, fields, requirements: record.oilRequirements.state,
+  return { mode: 'fieldAssessed', application, fields, ...(record.applicationEvidence.scopeType === 'documentRow' ? { geography: record.market[0] === 'UNKNOWN' ? 'unknown' : 'confirmed' } : {}), requirements: record.oilRequirements.state,
     eligible: application === 'confirmed' && validPath && record.oilRequirements.state !== 'conflict', completeness };
 }
 
@@ -314,14 +335,28 @@ export function publicFieldRecord(record) {
     serviceFillCapacity: null, capacityUnit: null, capacityNote: null, serviceInterval: null, climateLimitations: [],
     emissionsEquipment: { dpf: 'unknown', gpf: 'unknown', catalyst: 'unknown' } };
   const refs = [...record.applicationEvidence.evidenceRefs];
-  for (const field of technicalFields) {
+  if (Object.hasOwn(record, 'oemOilSpecifications')) empty.oemOilSpecifications = [];
+  for (const field of assessedFields(record)) {
     if (assessment.fields[field] === 'confirmed') refs.push(...record.fieldEvidence[field].evidenceRefs);
     else { result[field] = structuredClone(empty[field]); result.fieldEvidence[field] = { state: assessment.fields[field], evidenceRefs: [] }; }
   }
   function collect(node) { if (node.evidenceRefs) refs.push(...node.evidenceRefs); if (node.conditionRef) refs.push(node.conditionRef); for (const n of node.allOf || node.anyOf || []) collect(n); }
   collect(record.oilRequirements.expression);
+  // Preserve explicit locator dependencies, including across composite sources.
+  if (record.applicationEvidence.scopeType === 'documentRow') {
+    const ctx = context(record), visited = new Set();
+    for (let i = 0; i < refs.length; i++) {
+      const ref = refs[i], key = `${ref.sourceId}:${ref.locatorId}`;
+      if (visited.has(key)) continue;
+      visited.add(key);
+      const { locator } = ctx.resolve(ref);
+      for (const dep of [locator.applicabilityRef, locator.contextRef, locator.tableRow?.documentRef, locator.tableCell?.rowRef]) if (dep) refs.push(dep);
+    }
+  }
   const used = new Set(refs.map((r) => r.sourceId));
-  result.sources = result.sources.filter((s) => used.has(s.id) && s.provenanceStatus === 'confirmed').map((s) => ({ ...s, locators: s.locators.filter((l) => refs.some((r) => r.sourceId === s.id && r.locatorId === l.id)) }));
+  // Notes-only sources support context, never confirmation of a technical field.
+  const notesOnly = s => record.applicationEvidence.scopeType === 'documentRow' && s.fields.length === 1 && s.fields[0] === 'notes';
+  result.sources = result.sources.filter((s) => (used.has(s.id) || notesOnly(s)) && s.provenanceStatus === 'confirmed').map((s) => ({ ...s, locators: s.locators.filter((l) => refs.some((r) => r.sourceId === s.id && r.locatorId === l.id) || notesOnly(s) && l.fields.includes('notes')) }));
   result.evidenceAssessment = assessment;
   result.completeness = assessment.completeness;
   return result;

@@ -11,6 +11,7 @@ export const officialSourceTypes = new Set(['ownersManual', 'serviceManual', 'te
 
 export function isPublicOilRecord(record) {
   if (!allowedStatuses.has(record.status)) return false;
+  if (Object.hasOwn(record, 'oemOilSpecifications') && !hasFieldAssessment(record)) return false;
   if (hasFieldAssessment(record)) {
     if (Object.hasOwn(record, 'researchIssues')) return false;
     try { return assessOilEvidence(record).eligible; } catch { return false; }
@@ -110,6 +111,7 @@ export function validateCanonical(data) {
     for (const field of ['make', 'model', 'generation', 'checkedAt']) requireText(record[field], `${record.id} ${field}`);
     if (!hasFieldAssessment(record) || record.engineIdentity?.type === 'engineeringCode') requireText(record.engineCode, `${record.id} engineCode`);
     if (!isDate(record.checkedAt)) fail(`${record.id} checkedAt is invalid`);
+    if (Object.hasOwn(record, 'oemOilSpecifications') && !hasFieldAssessment(record)) fail(`${record.id} OEM oil-quality values require field evidence`);
     if (/[\/,;]|\b(?:family|or)\b/i.test(record.engineCode)) fail(`${record.id} combines multiple engine codes`);
     validateYears(record.productionYears, `${record.id} productionYears`);
     if (!allowedStatuses.has(record.status)) fail(`${record.id} has unsupported status ${record.status}`);
@@ -153,7 +155,8 @@ export function validateCanonical(data) {
       [record.preferredManufacturerApprovals.length, 'preferredManufacturerApprovals'],
       [record.serviceFillCapacity != null, 'serviceFillCapacity'],
       [record.serviceInterval != null, 'serviceInterval'],
-      [record.climateLimitations.length, 'climateLimitations']
+      [record.climateLimitations.length, 'climateLimitations'],
+      [record.oemOilSpecifications?.length, 'oemOilSpecifications']
     ];
     for (const [present, field] of claimed) if (present && !covered.has(field)) fail(`${record.id} publishes ${field} without source coverage`);
     const semantic = [record.make, record.model, record.generation, record.productionYears.from, record.productionYears.to, record.engineCode ?? `${record.engineIdentity?.type}:${record.engineIdentity?.value}`, [...record.market].sort().join(',')].map(normalize).join('|');
