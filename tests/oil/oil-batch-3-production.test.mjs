@@ -29,7 +29,7 @@ assert.equal(fixture.considered.length, 15);
 assert.equal(fixture.accepted.length, 11);
 assert.equal(fixture.retained.length, 4);
 assert.deepEqual([...fixture.accepted, ...fixture.retained.map(r => r.id)].sort(), [...fixture.considered].sort());
-assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 85);
+assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 86);
 for (const r of data.researchRecords) assert.equal(sha(r), current.remainingResearchRecords[r.id]);
 for (const [file, hash] of Object.entries(fixture.protectedFiles)) {
   assert.equal(sha(fs.readFileSync(new URL('../../' + file, import.meta.url), 'utf8').replace(/\r\n/g, '\n')), hash, file);

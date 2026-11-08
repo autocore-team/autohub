@@ -28,15 +28,15 @@
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952"
   },
   "addedCount": 37,
-  "finalCount": 72,
+  "finalCount": 73,
   "finalStatuses": {
     "legacyPending": 4,
     "verified": 25,
-    "preliminary": 43
+    "preliminary": 44
   },
-  "finalSemanticHash": "77a5371647f84671a60a8dced366c75a77c7f63054a26148485b5c59a1b92c82",
-  "finalOrderHash": "9167d685c8e6e9c60e621e4e13bebce3ba22258e6fc8003cc338f5c120ac353d",
-  "finalCanonicalHash": "419cd4368880349d76a5824f9efc36e026adb14a1cc9431d3de1fe63e0982123",
+  "finalSemanticHash": "751c41e83c33f2b3eacfa7ce52cb309a05e4e5eef1a54032bb9da8ea389c4d99",
+  "finalOrderHash": "888748168354008be62103d19a02f358aeb5b3e570db3cf65f860d97b1629e98",
+  "finalCanonicalHash": "8a1eeb9a5e98055424562916bbd9f01e8002e8041030dfa9a3ff4a34d89cae10",
   "candidateAudit": {
     "considered": 54,
     "acceptedProduction": 37,
@@ -235,12 +235,12 @@
       "format": "pdf"
     }
   ],
-  "finalCanonicalFileHash": "76f36de02769539a4ded5ec46eb9adc61b477a45a47dc810ec6dfff6e8e468f2",
+  "finalCanonicalFileHash": "c0d7f1139dcd51524758f795e384c77e6b54818f681a17bbf4dc7bc018f74415",
   "originalResearchSourceUrlsHash": "407aa6953c324cd6fd433a89b0cfcce2e19ba15c60f51d91e05f90eeeb31d05b",
   "originalResearchClaimsHash": "5b42ed5fcd3cb35c363504914106652ae943555242edde749528d1474e39ee85",
   "researchAddedCount": 50,
   "researchCount": 13,
-  "productionRecommendationCount": 68,
+  "productionRecommendationCount": 69,
   "researchStatuses": {
     "preliminary": 13
   },

@@ -4,7 +4,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 72,
+    "selectableExactCodeRecordCount": 73,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -20500,6 +20500,539 @@
           "evidenceRefs": [
             {
               "sourceId": "toyota-ca-om04025u",
+              "locatorId": "temporary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toyota-prius-2020-ca-2zr-fxe",
+      "make": "Toyota",
+      "model": "Prius",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2020,
+        "to": 2020
+      },
+      "engineCode": "2ZR-FXE",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "CA"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-16",
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API SN/RC"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.2,
+      "capacityUnit": "L",
+      "capacityNote": {
+        "en": "Reference drain-and-refill quantity with oil filter, not dry fill. Park on level ground. After warming up the engine, turn off the hybrid system, wait more than 5 minutes, then check the dipstick.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro, no llenado en seco. Estacione en terreno nivelado. Tras calentar el motor, apague el sistema híbrido, espere más de 5 minutos y compruebe la varilla.",
+        "fr": "Quantité indicative de vidange et remplissage avec filtre, hors remplissage à sec. Stationnez sur sol horizontal. Après avoir chauffé le moteur, arrêtez le système hybride, attendez plus de 5 minutes puis contrôlez la jauge.",
+        "de": "Richtwert für Ablassen und Befüllen mit Ölfilter, keine Trockenfüllung. Auf ebenem Boden parken. Nach dem Warmlaufen des Motors das Hybridsystem ausschalten, mehr als 5 Minuten warten, dann am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "toyota-ca-om47d44u",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Prius 2020 Owner’s Manual OM47D44U; Part No.01999-47D44; printed code 01-1908-00",
+          "publicationId": "OM47D44U",
+          "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM47D44U/OM47D44U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "oilRequirements",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            1,
+            10,
+            97,
+            656,
+            657,
+            658,
+            659,
+            732
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "0e6902e70de38bad8832df211fac87063725c37b7e0e8e4df53925e1836dd682",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "Prius"
+            ],
+            "engineCodes": [
+              "2ZR-FXE"
+            ]
+          },
+          "evidenceNotes": "Official manufacturer publication on Toyota Canada DAM, selected by its Canadian MY2020 Prius catalogue. Cover PDF 1 and colophon PDF 732 bind the publication; PDF 97 explicitly covers Canadian vehicles. PDF 10 establishes all-model coverage and hybrid context. PDF 656 identifies the only combustion engine, 2ZR-FXE; PDF 657 distinguishes 2WD/AWD fuel tank, traction motor and battery data. The common lubrication table on PDF 658 does not split those variants. Engine-heading/selection fragments on different pages are explicitly labelled composite section excerpts, not a single verbatim sentence.",
+          "locators": [
+            {
+              "id": "publication",
+              "pageNumbers": [
+                1,
+                97,
+                732
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "[PDF 1, cover] PRIUS 2020 OWNER’S MANUAL. [PDF 732, colophon] Publication No.OM47D44U. Part No.01999-47D44. Printed in Japan 01-1908-00. [PDF 97 / printed 95] For vehicles sold in Canada."
+            },
+            {
+              "id": "all-models",
+              "pageNumbers": [
+                10
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Please note that this manual applies to all models and explains all equipment, including options. Therefore, you may find some explanations for equipment not installed on your vehicle. [Same page: hybrid context] Noise from under vehicle after turning off the hybrid system."
+            },
+            {
+              "id": "engine",
+              "pageNumbers": [
+                656,
+                657
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "[PDF 656 / printed 654, Engine] Model: 1.8 L 4-cylinder (2ZR-FXE). Type: 4-cylinder in line, 4-cycle, gasoline. [PDF 657 / printed 655] Electric motor (traction motor); Hybrid battery (traction battery); 2WD models / AWD models.",
+              "engineCodes": [
+                "2ZR-FXE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "all-models"
+              }
+            },
+            {
+              "id": "selection",
+              "pageNumbers": [
+                656,
+                658
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 656 / printed 654, Engine table] Model: 1.8 L 4-cylinder (2ZR-FXE). [PDF 658 / printed 656, common Lubrication system / Engine oil selection] Use Toyota approved Toyota Genuine Motor Oil or equivalent to satisfy the following grade and viscosity. Oil grade: API SN/RC multigrade engine oil. Recommended viscosity: SAE 0W-16.",
+              "engineCodes": [
+                "2ZR-FXE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "all-models"
+              },
+              "relation": "allOf"
+            },
+            {
+              "id": "preferred",
+              "pageNumbers": [
+                656,
+                658
+              ],
+              "fields": [
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 656 / printed 654, Engine table] Model: 1.8 L 4-cylinder (2ZR-FXE). [PDF 658 / printed 656, common Engine oil selection] SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. An oil with a higher viscosity (one with a higher value) may be better suited if the vehicle is operated at high speeds, or under extreme load conditions.",
+              "engineCodes": [
+                "2ZR-FXE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "all-models"
+              },
+              "condition": {
+                "en": "Recommended SAE 0W-16. At high speeds or under extreme load, a higher viscosity may be better suited; the manual does not name another permanent SAE here.",
+                "es": "SAE 0W-16 recomendado. A alta velocidad o con carga extrema, una mayor viscosidad puede ser más adecuada; el manual no indica aquí otro SAE permanente.",
+                "fr": "SAE 0W-16 recommandée. À grande vitesse ou sous charge extrême, une viscosité supérieure peut mieux convenir ; aucun autre SAE permanent n’est nommé ici.",
+                "de": "SAE 0W-16 empfohlen. Bei hoher Geschwindigkeit oder extremer Last kann eine höhere Viskosität geeigneter sein; eine weitere dauerhafte SAE-Klasse wird hier nicht genannt."
+              }
+            },
+            {
+              "id": "temporary",
+              "pageNumbers": [
+                656,
+                658
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 656 / printed 654, Engine table] Model: 1.8 L 4-cylinder (2ZR-FXE). [PDF 658 / printed 656, common Engine oil selection] If SAE 0W-16 is not available, SAE 0W-20 oil may be used. However, it must be replaced with SAE 0W-16 at the next oil change.",
+              "engineCodes": [
+                "2ZR-FXE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "all-models"
+              },
+              "relation": "anyOf",
+              "temporarySubstitution": {
+                "preferredIndex": 0,
+                "temporaryIndex": 1
+              },
+              "condition": {
+                "en": "If SAE 0W-16 is not available, SAE 0W-20 may be used. It must be replaced with SAE 0W-16 at the next oil change.",
+                "es": "Si SAE 0W-16 no está disponible, puede usarse SAE 0W-20. Debe sustituirse por SAE 0W-16 en el siguiente cambio de aceite.",
+                "fr": "Si SAE 0W-16 est indisponible, SAE 0W-20 peut être utilisée. Elle doit être remplacée par SAE 0W-16 à la prochaine vidange.",
+                "de": "Wenn SAE 0W-16 nicht verfügbar ist, darf SAE 0W-20 verwendet werden. Beim nächsten Ölwechsel muss wieder SAE 0W-16 eingefüllt werden."
+              }
+            },
+            {
+              "id": "service-fill",
+              "pageNumbers": [
+                656,
+                658
+              ],
+              "fields": [
+                "serviceFillCapacity",
+                "capacityUnit",
+                "capacityNote"
+              ],
+              "excerpt": "[PDF 656 / printed 654, Engine table] Model: 1.8 L 4-cylinder (2ZR-FXE). [PDF 658 / printed 656, common Lubrication system] Oil capacity (Drain and refill [Reference*]). With filter 4.4 qt. (4.2 L, 3.7 Imp.qt.). The engine oil capacity is a reference quantity to be used when changing the engine oil. Park the vehicle on level ground. After warming up the engine and turning off the hybrid system, wait more than 5 minutes, and check the oil level on the dipstick.",
+              "engineCodes": [
+                "2ZR-FXE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "all-models"
+              }
+            }
+          ]
+        },
+        {
+          "id": "toyota-ca-catalogue-2020-prius",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Canada Owner’s Manuals catalogue — Prius 2020",
+          "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=prius",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application"
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "6766974a98218bde8f6fb27c1942a9bc3da19030d2e4e6be280d14718eb189b9",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "Prius"
+            ]
+          },
+          "evidenceNotes": "Saved official Toyota Canada catalogue response; literal series name/year and publicationNo/documentUrl bind the manual. The excerpt combines response fields and the Canadian site publisher context; not a quotation of a single sentence. No production-month restriction is attached to this Owner’s Manual.",
+          "locators": [
+            {
+              "id": "catalogue",
+              "section": "data → seriesTitle Prius; year 2020; documents.allResults → publicationNo OM47D44U, documentUrl; Toyota Canada Inc. catalogue",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Toyota Canada Inc. Canada. Toyota Prius 2020. Owner’s Manual OM47D44U. https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM47D44U/OM47D44U.pdf",
+              "documentBinding": {
+                "publicationId": "OM47D44U",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM47D44U/OM47D44U.pdf",
+                "markets": [
+                  "CA"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "Canada MY2020 Prius hybrid, 2ZR-FXE, factory application. OM47D44U lists one combustion engine. The common lubrication table does not distinguish 2WD/AWD or battery variants; no separate oil applications are created. Excludes Prius Prime, other models/years/markets and engine swaps.",
+        "es": "Prius híbrido MY2020 Canadá, 2ZR-FXE, aplicación de fábrica. OM47D44U indica un único motor de combustión. La tabla común de lubricación no distingue 2WD/AWD ni tipos de batería; no se crean aplicaciones de aceite separadas. Excluye Prius Prime, otros modelos/años/mercados y cambios de motor.",
+        "fr": "Prius hybride MY2020 Canada, 2ZR-FXE, configuration d’origine. OM47D44U présente un moteur thermique unique. Le tableau commun de lubrification ne distingue pas 2WD/AWD ni les batteries ; aucune fiche d’huile séparée n’est créée. Prius Prime, autres modèles/années/marchés et moteurs remplacés exclus.",
+        "de": "Prius Hybrid, Modelljahr 2020, Kanada, 2ZR-FXE, Werksausführung. OM47D44U nennt einen Verbrennungsmotor. Die gemeinsame Schmiertabelle unterscheidet weder 2WD/AWD noch Batterietypen; keine getrennten Öldatensätze. Prius Prime, andere Modelle/Jahre/Märkte und Motorumbauten sind ausgeschlossen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "engineScoped",
+        "evidenceRefs": [
+          {
+            "sourceId": "toyota-ca-catalogue-2020-prius",
+            "locatorId": "catalogue"
+          },
+          {
+            "sourceId": "toyota-ca-om47d44u",
+            "locatorId": "publication"
+          },
+          {
+            "sourceId": "toyota-ca-om47d44u",
+            "locatorId": "all-models"
+          },
+          {
+            "sourceId": "toyota-ca-om47d44u",
+            "locatorId": "engine"
+          }
+        ],
+        "engineScope": {
+          "description": {
+            "en": "Canada MY2020 Prius hybrid, 2ZR-FXE, factory application. OM47D44U lists one combustion engine. The common lubrication table does not distinguish 2WD/AWD or battery variants; no separate oil applications are created. Excludes Prius Prime, other models/years/markets and engine swaps.",
+            "es": "Prius híbrido MY2020 Canadá, 2ZR-FXE, aplicación de fábrica. OM47D44U indica un único motor de combustión. La tabla común de lubricación no distingue 2WD/AWD ni tipos de batería; no se crean aplicaciones de aceite separadas. Excluye Prius Prime, otros modelos/años/mercados y cambios de motor.",
+            "fr": "Prius hybride MY2020 Canada, 2ZR-FXE, configuration d’origine. OM47D44U présente un moteur thermique unique. Le tableau commun de lubrification ne distingue pas 2WD/AWD ni les batteries ; aucune fiche d’huile séparée n’est créée. Prius Prime, autres modèles/années/marchés et moteurs remplacés exclus.",
+            "de": "Prius Hybrid, Modelljahr 2020, Kanada, 2ZR-FXE, Werksausführung. OM47D44U nennt einen Verbrennungsmotor. Die gemeinsame Schmiertabelle unterscheidet weder 2WD/AWD noch Batterietypen; keine getrennten Öldatensätze. Prius Prime, andere Modelle/Jahre/Märkte und Motorumbauten sind ausgeschlossen."
+          },
+          "manualRef": {
+            "sourceId": "toyota-ca-om47d44u",
+            "locatorId": "publication"
+          },
+          "marketRef": {
+            "sourceId": "toyota-ca-catalogue-2020-prius",
+            "locatorId": "catalogue"
+          },
+          "coverageRef": {
+            "sourceId": "toyota-ca-om47d44u",
+            "locatorId": "all-models"
+          },
+          "identityRef": {
+            "sourceId": "toyota-ca-om47d44u",
+            "locatorId": "engine"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "toyota-ca-catalogue-2020-prius",
+                "locatorId": "catalogue"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "publication"
+              },
+              "relation": "publication"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "publication"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "all-models"
+              },
+              "relation": "sameDocument"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "all-models"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "engine"
+              },
+              "relation": "sameDocument"
+            }
+          ]
+        },
+        "review": {
+          "unambiguous": true,
+          "notes": "Canadian MY2020 Prius catalogue → exact manual → all-model/hybrid coverage → direct 2ZR-FXE identity → common lubrication section. Only one combustion engine is listed. PDF 657 explicitly distinguishes 2WD/AWD and battery data where needed; PDF 658 uses one oil table without those distinctions. No transplant, Prius Prime, other year or other market is asserted."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om47d44u",
+              "locatorId": "engine"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om47d44u",
+              "locatorId": "selection"
+            },
+            {
+              "sourceId": "toyota-ca-om47d44u",
+              "locatorId": "temporary"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om47d44u",
+              "locatorId": "selection"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "serviceFillCapacity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om47d44u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityUnit": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om47d44u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityNote": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om47d44u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "anyOf": [
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 0
+                },
+                {
+                  "field": "industrySpecifications.api",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om47d44u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "preferred"
+              }
+            },
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 1
+                },
+                {
+                  "field": "industrySpecifications.api",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om47d44u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om47d44u",
+                "locatorId": "temporary"
+              }
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om47d44u",
               "locatorId": "temporary"
             }
           ]
