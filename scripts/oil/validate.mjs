@@ -31,6 +31,34 @@ export function loadCanonical() {
   return JSON.parse(fs.readFileSync(canonicalPath, 'utf8'));
 }
 
+export function loadReferenceInformation() {
+  return JSON.parse(fs.readFileSync(path.join(root, 'data/oil/reference-information.json'), 'utf8'));
+}
+
+// Descriptive third-party material is never an evidence source or a technical claim.
+export function validateReferenceInformation(entries, records) {
+  requireArray(entries, 'referenceInformation');
+  const seen = new Set();
+  const keys = (value, allowed) => Object.keys(value).every(key => allowed.includes(key));
+  for (const entry of entries) {
+    if (!entry || !keys(entry, ['recordId', 'kind', 'documents']) || entry.kind !== 'referenceOnly') fail('Invalid reference-only information');
+    if (!records.some(record => record.id === entry.recordId) || seen.has(entry.recordId)) fail('Reference-only record binding is invalid or duplicated');
+    seen.add(entry.recordId);
+    requireArray(entry.documents, 'reference-only documents');
+    if (!entry.documents.length) fail('Reference-only documents are empty');
+    for (const document of entry.documents) {
+      if (!document || !keys(document, ['title', 'url', 'pdfPages', 'summary'])) fail('Invalid reference-only document');
+      requireText(document.title, 'reference-only title');
+      let url;
+      try { url = new URL(document.url); } catch { fail('Invalid reference-only URL'); }
+      if (url.protocol !== 'https:' || url.username || url.password) fail('Reference-only URL must use HTTPS without credentials');
+      requireArray(document.pdfPages, 'reference-only PDF pages');
+      if (!document.pdfPages.length || document.pdfPages.some(page => !Number.isInteger(page) || page < 1) || new Set(document.pdfPages).size !== document.pdfPages.length) fail('Invalid reference-only PDF pages');
+      validateLocalized(document.summary, 'reference-only summary');
+    }
+  }
+}
+
 function validateYears(years, label) {
   if (!years || !Number.isInteger(years.from) || !Number.isInteger(years.to) || years.from < 1886 || years.to > 2100 || years.from > years.to) fail(`${label} has an invalid year range`);
 }
@@ -154,7 +182,9 @@ export function validateCanonical(data) {
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const summary = validateCanonical(loadCanonical());
+  const canonical = loadCanonical();
+  validateReferenceInformation(loadReferenceInformation(), canonical.records);
+  const summary = validateCanonical(canonical);
   console.log(`Oil data validation passed: ${summary.records} selectable records (${summary.productionRecommendations} production recommendations); ${summary.researchRecords} research records; ${summary.legacyRecords} legacy quarantine records.`);
   console.log(`Statuses: ${Object.entries(summary.statuses).map(([key, value]) => `${key}=${value}`).join(', ')}`);
 }

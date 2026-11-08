@@ -270,7 +270,9 @@
     .requirement-condition { margin: .5rem 0; line-height: 1.5; }
     .evidence-status[data-evidence-state="unknown"] { color: #805413; }
     .evidence-status[data-evidence-state="conflict"] { color: #a32626; font-weight: 700; }
-    .result-secondary, .result-evidence, .result-context { margin-top: .75rem; border: 1px solid var(--line); border-radius: 8px; padding: .8rem 1rem; }
+    .result-secondary, .result-evidence, .result-context, .result-reference { margin-top: .75rem; border: 1px solid var(--line); border-radius: 8px; padding: .8rem 1rem; }
+    .result-reference { min-width: 0; overflow-wrap: anywhere; }
+    .result-reference summary { font-weight: 600; cursor: pointer; }
     #resultContent summary { cursor: pointer; font-weight: 600; }
     #resultContent summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
     #resultContent { overflow-wrap: anywhere; min-width: 0; }

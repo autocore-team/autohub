@@ -147,7 +147,25 @@ function renderRequirements(record, lang = 'en') {
   }
   return render(record.oilRequirements.expression) + '<p class="path-coverage">' + escapeHtml(text[record.oilRequirements.coverage]) + '</p>';
 }
-function renderOilCard(record, lang = 'en') {
+const referenceText = {
+  en: { title: 'Reference information from third-party sources', warning: 'Reference only — applicability to the selected vehicle is not confirmed' },
+  es: { title: 'Información de referencia de fuentes de terceros', warning: 'Solo como referencia — no se confirma su aplicación al vehículo seleccionado' },
+  fr: { title: 'Informations de référence de sources tierces', warning: 'À titre indicatif — application au véhicule sélectionné non confirmée' },
+  de: { title: 'Referenzinformationen aus Drittquellen', warning: 'Nur zur Information — Anwendbarkeit auf das gewählte Fahrzeug nicht bestätigt' }
+};
+function renderReferenceInformation(entry, lang) {
+  if (!entry || entry.kind !== 'referenceOnly') return '';
+  const text = referenceText[lang] || referenceText.en;
+  const documents = entry.documents.map(document => {
+    let url;
+    try { url = new URL(document.url); } catch { return ''; }
+    if (url.protocol !== 'https:' || url.username || url.password) return '';
+    return '<article><h4><a href="' + escapeHtml(url.href) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(document.title) + '</a></h4>'
+      + '<p class="source-locator">' + escapeHtml(evidenceText[lang].page + ' ' + document.pdfPages.join(', ')) + '</p><p>' + escapeHtml(localize(document.summary, lang)) + '</p></article>';
+  }).join('');
+  return '<details class="result-reference" data-reference-only="true"><summary>' + escapeHtml(text.title) + ' — ' + escapeHtml(text.warning) + '</summary><p class="result-note">' + escapeHtml(text.warning) + '</p>' + documents + '</details>';
+}
+function renderOilCard(record, lang = 'en', referenceInformation = null) {
   const text = evidenceText[lang] || evidenceText.en;
   const assessed = !!record.fieldEvidence;
   const appState = record.evidenceAssessment?.application || record.applicationEvidence?.state || 'notAssessed';
@@ -194,7 +212,8 @@ function renderOilCard(record, lang = 'en') {
     + '<section class="oil-quantity">' + row('serviceFillCapacity', quantity, blocked || requirementsConflict, quantityState) + '</section></div>'
     + '<details class="result-secondary"><summary>' + escapeHtml(text.secondary) + '</summary><div class="spec-grid">' + secondary + '</div></details>'
     + (evidence ? '<details class="result-evidence"><summary>' + escapeHtml(text.evidence) + '</summary>' + evidence + '</details>' : '')
-    + '<details class="result-context"><summary>' + escapeHtml(text.notes) + '</summary><p>' + escapeHtml(localize(record.notes, lang)) + '</p></details>';
+    + '<details class="result-context"><summary>' + escapeHtml(text.notes) + '</summary><p>' + escapeHtml(localize(record.notes, lang)) + '</p></details>'
+    + renderReferenceInformation(referenceInformation?.recordId === record.id ? referenceInformation : null, lang);
 }
 
   function initBrowser(win = window, doc = document) {
@@ -223,7 +242,7 @@ function renderOilCard(record, lang = 'en') {
       if (updateHistory) win.history.pushState({}, '', selectionUrl(win.location.href, { engine: record.id }, lang));
     }
     function renderRecord(record, updateHistory = true) {
-      elements.resultContent.innerHTML = renderOilCard(record, lang);
+      elements.resultContent.innerHTML = renderOilCard(record, lang, data.referenceInformation?.find(entry => entry.recordId === record.id));
       elements.resultPanel.hidden = false; elements.finderSummary.textContent = '';
       if (updateHistory) win.history.pushState({}, '', selectionUrl(win.location.href, { make: record.make, model: record.model, variant: variantKey(record), engine: record.id }, lang));
     }

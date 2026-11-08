@@ -1,15 +1,18 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { isPublicOilRecord, loadCanonical, root, validateCanonical } from './validate.mjs';
+import { isPublicOilRecord, loadCanonical, loadReferenceInformation, root, validateCanonical, validateReferenceInformation } from './validate.mjs';
 import { assessOilEvidence, hasFieldAssessment, publicFieldRecord } from './evidence.mjs';
 
 export const generatedPath = path.join(root, 'oil-data.js');
 
-export function toPublicOilData(canonical) {
+export function toPublicOilData(canonical, referenceInformation = []) {
+  validateReferenceInformation(referenceInformation, canonical.records);
   return {
     schemaVersion: canonical.schemaVersion,
     audit: canonical.audit,
+    // Separate descriptive channel; cannot fill fields or participate in eligibility.
+    referenceInformation: referenceInformation.filter(entry => canonical.records.some(record => record.id === entry.recordId && isPublicOilRecord(record))),
     // Research claims never enter the browser payload, including when callers bypass validation.
     records: canonical.records.filter(isPublicOilRecord).map((record) => hasFieldAssessment(record)
       ? publicFieldRecord(record)
@@ -28,9 +31,9 @@ export function toPublicOilData(canonical) {
   };
 }
 
-export function generatedOilFile(canonical) {
-  const publicData = toPublicOilData(canonical);
-  return `// This file is generated from data/oil/canonical.json. Do not edit manually.\n(function (root, factory) {\n  const data = factory();\n  if (typeof module === 'object' && module.exports) module.exports = data;\n  if (root) root.AUTOHUB_OIL_DATA = data;\n})(typeof window !== 'undefined' ? window : globalThis, function () {\n  return ${JSON.stringify(publicData, null, 2)};\n});\n`;
+export function generatedOilFile(canonical, referenceInformation = loadReferenceInformation()) {
+  const publicData = toPublicOilData(canonical, referenceInformation);
+  return `// This file is generated from data/oil/canonical.json and data/oil/reference-information.json. Do not edit manually.\n(function (root, factory) {\n  const data = factory();\n  if (typeof module === 'object' && module.exports) module.exports = data;\n  if (root) root.AUTOHUB_OIL_DATA = data;\n})(typeof window !== 'undefined' ? window : globalThis, function () {\n  return ${JSON.stringify(publicData, null, 2)};\n});\n`;
 }
 
 export function generatedOilFileMatches(current, expected) {
