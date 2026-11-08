@@ -29,7 +29,7 @@ assert.equal(fixture.considered.length, 20);
 assert.equal(fixture.accepted.length, 15);
 assert.equal(fixture.retained.length, 5);
 assert.deepEqual([...fixture.accepted, ...fixture.retained.map(r => r.id)].sort(), [...fixture.considered].sort());
-assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 87);
+assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 88);
 for (const r of data.researchRecords) {
   const original = structuredClone(r), deferred = fixture.retained.find(e => e.id === r.id);
   for (const later of current.laterAnnotations.filter(e => e.id === r.id)) {
