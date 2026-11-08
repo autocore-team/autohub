@@ -103,6 +103,15 @@ function validateApplication(record, ctx) {
 const refKey = (ref) => `${ref?.sourceId}:${ref?.locatorId}`;
 const restrictedApplication = (text) => /\b(except|excluding|excluded)\b|\b(?:does not|do not|not)\s+apply\b|\bnot applicable\b|\b(?:AWD|2WD|FWD|trim|transmission)\s+only\b|\bonly\s+(?:for\s+)?(?:AWD|2WD|FWD|trim|transmission)\b/i.test(text);
 
+function hasAllModelScope(excerpt) {
+  // Match a direct assertion, not a positive phrase embedded in a contrary quote.
+  // Normalize whitespace for matching only; keep the stored excerpt unchanged.
+  const text = excerpt.replace(/\s+/g, ' ').trim();
+  const supported = /^(?:please note that )?(?:this )?manual applies to (?:all models(?: and (?:explains )?all equipment, including options)?|explains all models and all equipment, including options)(?:[.!](?=\s|$)|$)/i;
+  const contrary = /\b(?:only|solely|exclusively|limited|restricted|exclude|excludes|omit|omits|false|incorrect|invalid|unless)\b|\bsubject to\b|\b(?:not|never)\s+(?:all|every|for|to|valid|applicable|true|correct)\b|\b(?:does|do|is|are)\s+not\s+(?:cover|include|apply|applicable|valid)\b|\b(?:cannot|can['’]t|doesn['’]t|don['’]t)\s+(?:apply|cover|include)\b/i;
+  return supported.test(text) && !restrictedApplication(text) && !contrary.test(text);
+}
+
 // An engine table is sufficient only when its publication, market, all-model
 // coverage and exact identity are linked by reviewed source locators.
 function validateEngineScope(record, ctx) {
@@ -117,7 +126,7 @@ function validateEngineScope(record, ctx) {
   const binding = market.locator.documentBinding;
   if (!binding || binding.url !== manual.source.url || binding.publicationId !== publication || !literal(market.locator.excerpt, publication) || !market.locator.excerpt.includes(manual.source.url) || !literal(market.locator.excerpt, record.model) || ![record.productionYears.from, record.productionYears.to].every((y) => literal(market.locator.excerpt, y))) die('Catalogue does not bind this model/year to the exact manual');
   if (!Array.isArray(binding.markets) || !record.market.every((m) => binding.markets.includes(m) && literal(market.locator.excerpt, m === 'CA' ? 'Canada' : m))) die('Engine scope market is not documented');
-  if (coverage.source.id !== manual.source.id || identity.source.id !== manual.source.id || !/manual applies to all models/i.test(coverage.locator.excerpt) || restrictedApplication(coverage.locator.excerpt)) die('Manual excludes or does not establish all-model engine scope');
+  if (coverage.source.id !== manual.source.id || identity.source.id !== manual.source.id || !hasAllModelScope(coverage.locator.excerpt)) die('Manual excludes or does not establish all-model engine scope');
   if (!record.fieldEvidence.engineIdentity.evidenceRefs.some((r) => refKey(r) === refKey(scope.identityRef)) || !literal(identity.locator.excerpt, record.engineCode)) die('Engine scope has contradictory or unbound identity');
   const links = scope.links;
   if (!Array.isArray(links) || !links.length) die('Engine scope requires explicit locator links');

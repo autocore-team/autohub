@@ -14,7 +14,7 @@ const baseline = structuredClone(canonical);
 baseline.records = baseline.records.slice(0, 72); baseline.audit.selectableExactCodeRecordCount = 72;
 const summary = validateCanonical(canonical);
 assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], fixture.currentCounts);
-assert.equal(summary.productionRecommendations, 69);
+assert.equal(summary.productionRecommendations, 70);
 assert.equal(sha(baseline), fixture.canonicalHash);
 for (const [field, hash] of [['records', 'recordsHash'], ['researchRecords', 'researchHash'], ['legacyRecords', 'quarantineHash']]) assert.equal(sha(baseline[field]), fixture[hash]);
 validateReferenceInformation(references, canonical.records);
