@@ -12,7 +12,7 @@ const ui = createRequire(import.meta.url)('../../assets/js/oil-guide.js');
 const sha = (x) => crypto.createHash('sha256').update(typeof x === 'string' ? x : JSON.stringify(x)).digest('hex');
 assert.deepEqual(fixture.baselineCounts, { selectable: 57, research: 22, quarantine: 59 });
 assert.deepEqual(fixture.finalCounts, { selectable: 66, research: 13, quarantine: 59 });
-assert.equal(summary.records, 68);
+assert.equal(summary.records, 72);
 assert.equal(summary.researchRecords, fixture.finalCounts.research);
 assert.equal(summary.legacyRecords, fixture.finalCounts.quarantine);
 assert.equal(sha(data.records.slice(0, 57)), fixture.baselineRecordsHash);
@@ -29,7 +29,7 @@ assert.equal(fixture.considered.length, 10);
 assert.equal(fixture.accepted.length, 9);
 assert.equal(fixture.retained.length, 1);
 assert.deepEqual([...fixture.accepted, ...fixture.retained.map(r => r.id)].sort(), [...fixture.considered].sort());
-assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 81);
+assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 85);
 for (const r of data.researchRecords) {
   const original = structuredClone(r), deferred = fixture.retained.find(e => e.id === r.id);
   if (deferred) {

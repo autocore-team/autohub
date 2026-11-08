@@ -11,9 +11,9 @@ const previous = JSON.parse(fs.readFileSync(new URL('./fixtures/batch-5-producti
 const data = loadCanonical(), pub = toPublicOilData(data), summary = validateCanonical(data);
 const ui = createRequire(import.meta.url)('../../assets/js/oil-guide.js');
 const sha = x => crypto.createHash('sha256').update(typeof x === 'string' ? x : JSON.stringify(x)).digest('hex');
-assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], [68, 13, 59]);
-assert.equal(summary.productionRecommendations, 64);
-assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 39 });
+assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], [72, 13, 59]);
+assert.equal(summary.productionRecommendations, 68);
+assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 43 });
 const baseline = structuredClone(data);
 baseline.records = baseline.records.slice(0, 66); baseline.audit.selectableExactCodeRecordCount = 66;
 assert.equal(sha(baseline), fixture.baselineCanonicalHash);
@@ -25,8 +25,8 @@ assert.equal(sha(pub.records.slice(0, 66)), fixture.baselinePublicHash);
 assert.equal(fixture.baselinePublicHash, previous.finalPublicHash);
 assert.equal(sha(data.researchRecords), fixture.researchHash);
 assert.equal(sha(data.legacyRecords), fixture.quarantineHash);
-assert.deepEqual(data.records.slice(66).map(r => r.id), fixture.records.map(r => r.id));
-assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 81);
+assert.deepEqual(data.records.slice(66, 68).map(r => r.id), fixture.records.map(r => r.id));
+assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 85);
 for (const [file, hash] of Object.entries(fixture.protectedFiles)) assert.equal(sha(fs.readFileSync(new URL('../../' + file, import.meta.url), 'utf8').replace(/\r\n/g, '\n')), hash, file);
 
 for (const expected of fixture.records) {
