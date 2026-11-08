@@ -1,0 +1,15 @@
+{
+  "baseCommit": "b81b52322481b2baa4e1c87d8d09dcc67da9d937",
+  "counts": [
+    72,
+    13,
+    59
+  ],
+  "canonicalHash": "419cd4368880349d76a5824f9efc36e026adb14a1cc9431d3de1fe63e0982123",
+  "recordsHash": "77a5371647f84671a60a8dced366c75a77c7f63054a26148485b5c59a1b92c82",
+  "researchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
+  "quarantineHash": "429eadf73577d555741a1fbc3c3a2c25721db60b2c0936521c81a8c36cc1bb35",
+  "publicRecordsHash": "ebc5f3649bae391a1491fe5c2229569d4085d0dac4ed1dcc2fbcabc053c0263c",
+  "referenceInformationHash": "b1d672fc3f8c80f9619e6d18a966c09c8c0bc28dd32af8668cb9b51f18fc33c5",
+  "evidenceGateHash": "b5c7f483485753117e6549ca8cd1b669780d0ad32108094b502a3373e98e4ced"
+}

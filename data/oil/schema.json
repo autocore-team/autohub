@@ -1286,6 +1286,61 @@
         }
       },
       "additionalProperties": false
+    },
+    "referenceInformation": {
+      "type": "object",
+      "required": [
+        "recordId",
+        "kind",
+        "documents"
+      ],
+      "properties": {
+        "recordId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "const": "referenceOnly"
+        },
+        "documents": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "url",
+              "pdfPages",
+              "summary"
+            ],
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://"
+              },
+              "pdfPages": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              },
+              "summary": {
+                "$ref": "#/$defs/localizedText"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

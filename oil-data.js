@@ -1,4 +1,4 @@
-// This file is generated from data/oil/canonical.json. Do not edit manually.
+// This file is generated from data/oil/canonical.json and data/oil/reference-information.json. Do not edit manually.
 (function (root, factory) {
   const data = factory();
   if (typeof module === 'object' && module.exports) module.exports = data;
@@ -17,6 +17,56 @@
       "Legacy claims remain quarantined and are not emitted as production recommendations."
     ]
   },
+  "referenceInformation": [
+    {
+      "recordId": "volvo-s70-b5202s",
+      "kind": "referenceOnly",
+      "documents": [
+        {
+          "title": "Volvo S70 Technical Specifications",
+          "url": "https://www.volvoclub.org.uk/tech/S70Specifications1997.pdf",
+          "pdfPages": [
+            1,
+            2
+          ],
+          "summary": {
+            "en": "Volvo Owners’ Club hosts this third-party copy attributed to Volvo; factory origin has not been independently confirmed. The specification directly links S70 to B5202S, front-wheel drive, M56H manual and AW42 automatic. The filename/catalogue identifies 1997; MY1999 and market applicability are not confirmed.",
+            "es": "Volvo Owners’ Club aloja esta copia de terceros atribuida a Volvo; su origen de fábrica no se ha confirmado de forma independiente. La especificación vincula directamente S70 con B5202S, tracción delantera, cambio manual M56H y automático AW42. El archivo/catálogo indica 1997; no se confirman MY1999 ni el mercado.",
+            "fr": "Volvo Owners’ Club héberge cette copie tierce attribuée à Volvo ; son origine constructeur n’a pas été confirmée indépendamment. La fiche relie directement S70 à B5202S, à la traction avant et aux boîtes M56H manuelle et AW42 automatique. Le fichier/catalogue indique 1997 ; le millésime 1999 et le marché ne sont pas confirmés.",
+            "de": "Volvo Owners’ Club stellt diese Volvo zugeschriebene Kopie auf einer Drittseite bereit; die werksseitige Herkunft ist nicht unabhängig bestätigt. Das Datenblatt verbindet S70 direkt mit B5202S, Frontantrieb, M56H-Schaltgetriebe und AW42-Automatik. Dateiname/Katalog nennen 1997; Modelljahr 1999 und Markt sind nicht bestätigt."
+          }
+        },
+        {
+          "title": "S/V70 — Section 0 General — Type and model year designation and chassis number",
+          "url": "https://www.volvoclub.org.uk/tech/data/70Series1997-00-DataSheet-0.pdf",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "summary": {
+            "en": "Third-party copy on Volvo Owners’ Club, attributed to Volvo; factory origin is not independently confirmed. VIN engine symbol 41 means B 5202 S; it is not the engineering code. Separately, model-year symbol X means 1999. These decoding tables do not establish that this engine was offered in MY1999 or in a particular market.",
+            "es": "Copia de terceros en Volvo Owners’ Club, atribuida a Volvo; origen de fábrica sin confirmar independientemente. El símbolo de motor VIN 41 significa B 5202 S; no es el código de ingeniería. Por separado, X indica el año modelo 1999. Las tablas no prueban la oferta de este motor en MY1999 ni en un mercado concreto.",
+            "fr": "Copie tierce chez Volvo Owners’ Club, attribuée à Volvo ; origine constructeur non confirmée indépendamment. Le symbole moteur VIN 41 correspond à B 5202 S ; ce n’est pas le code moteur constructeur. Séparément, X désigne le millésime 1999. Ces tables ne prouvent pas la commercialisation de ce moteur en 1999 ni sur un marché précis.",
+            "de": "Drittanbieter-Kopie bei Volvo Owners’ Club, Volvo zugeschrieben; werksseitige Herkunft nicht unabhängig bestätigt. VIN-Motorsymbol 41 steht für B 5202 S; es ist kein Engineering-Code. Unabhängig davon bezeichnet X das Modelljahr 1999. Die Tabellen belegen kein Angebot dieses Motors im Modelljahr 1999 oder auf einem bestimmten Markt."
+          }
+        },
+        {
+          "title": "S/V70 — Section 1 Service and maintenance — Group 16 Lubrication",
+          "url": "https://www.volvoclub.org.uk/tech/data/70Series1997-00-DataSheet-1.pdf",
+          "pdfPages": [
+            1,
+            2
+          ],
+          "summary": {
+            "en": "Third-party copy on Volvo Owners’ Club, attributed to Volvo; factory origin is not independently confirmed. The grouped B 5XX2 S table states 5.3 litres excluding oil filter / 5.8 litres including oil filter. These are table contents, not a confirmed fill quantity for the selected vehicle. The service/maintenance context supports a servicing interpretation; applying the grouped designation to B5202S is a composite inference. The petrol chart lists SAE 5W/40, 10W/30, 10W/40, 15W/40, 20W/40, 30 and 40 for stable air temperature. Graphical temperature limits apply; no exact numerical ranges are asserted here. For extreme driving causing high oil consumption, the text recommends 15W/40 or 20W/40, subject to temperature suitability. The petrol table literally lists API: lowest SG; CCMC: G4/G5; ACEA: A2-96, with A3-96 separately for turbocharged engines. Its footnote says SG/CC and SG/CD meet this specification. The relationship between API, CCMC and ACEA is not established as “and” or “or”; no modern equivalents or OEM approvals are inferred.",
+            "es": "Copia de terceros en Volvo Owners’ Club atribuida a Volvo; origen de fábrica no confirmado independientemente. La fila agrupada B 5XX2 S indica 5,3 litros sin filtro / 5,8 litros con filtro. Es el contenido de la tabla, no una cantidad de llenado confirmada para el vehículo seleccionado. El contexto de servicio y mantenimiento respalda su interpretación como cantidad de servicio; aplicarla a B5202S es una inferencia compuesta. El gráfico de gasolina enumera SAE 5W/40, 10W/30, 10W/40, 15W/40, 20W/40, 30 y 40 para temperatura ambiente estable. Rigen límites gráficos; aquí no se afirman intervalos numéricos exactos. Con conducción extrema y alto consumo de aceite recomienda 15W/40 o 20W/40, respetando la temperatura. La tabla dice literalmente API: mínimo SG; CCMC: G4/G5; ACEA: A2-96 y, por separado para turbo, A3-96. La nota dice que SG/CC y SG/CD cumplen esta especificación. No se establece una relación «y» u «o» entre API, CCMC y ACEA; no se deducen equivalentes modernos ni homologaciones OEM.",
+            "fr": "Copie tierce chez Volvo Owners’ Club attribuée à Volvo ; origine constructeur non confirmée indépendamment. La ligne groupée B 5XX2 S indique 5,3 litres sans filtre / 5,8 litres avec filtre. Ce sont les valeurs de la table, pas une quantité de remplissage confirmée pour le véhicule sélectionné. Le contexte d’entretien soutient une interprétation de remplissage d’entretien ; son application à B5202S est une déduction composée. Le graphique essence énumère SAE 5W/40, 10W/30, 10W/40, 15W/40, 20W/40, 30 et 40 selon une température ambiante stable. Des limites graphiques s’appliquent ; aucune plage numérique exacte n’est affirmée ici. En conduite extrême avec forte consommation d’huile, le texte recommande 15W/40 ou 20W/40, sous réserve de la température. La table indique littéralement API : SG minimum ; CCMC : G4/G5 ; ACEA : A2-96, avec A3-96 séparément pour les moteurs turbo. La note indique que SG/CC et SG/CD satisfont cette spécification. Le lien « et » ou « ou » entre API, CCMC et ACEA n’est pas établi ; aucun équivalent moderne ni agrément constructeur n’est déduit.",
+            "de": "Drittanbieter-Kopie bei Volvo Owners’ Club, Volvo zugeschrieben; werksseitige Herkunft nicht unabhängig bestätigt. Die Gruppenzeile B 5XX2 S nennt 5,3 Liter ohne Ölfilter / 5,8 Liter mit Ölfilter. Dies ist Tabelleninhalt, keine bestätigte Füllmenge für das gewählte Fahrzeug. Der Wartungskontext spricht für eine Wartungsfüllmenge; die Zuordnung der Gruppe zu B5202S ist eine zusammengesetzte Schlussfolgerung. Das Benzinmotor-Diagramm nennt SAE 5W/40, 10W/30, 10W/40, 15W/40, 20W/40, 30 und 40 bei stabiler Außentemperatur. Grafische Temperaturgrenzen gelten; hier werden keine exakten Zahlenbereiche behauptet. Bei extremer Fahrt mit hohem Ölverbrauch empfiehlt der Text temperaturabhängig 15W/40 oder 20W/40. Die Tabelle nennt wörtlich API: mindestens SG; CCMC: G4/G5; ACEA: A2-96, separat A3-96 für Turbomotoren. Laut Fußnote erfüllen SG/CC und SG/CD diese Spezifikation. Eine UND-/ODER-Beziehung zwischen API, CCMC und ACEA ist nicht belegt; moderne Entsprechungen oder OEM-Freigaben werden nicht abgeleitet."
+          }
+        }
+      ]
+    }
+  ],
   "records": [
     {
       "id": "bmw-e46-m54b22",

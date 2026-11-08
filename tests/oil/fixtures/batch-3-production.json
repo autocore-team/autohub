@@ -124,10 +124,10 @@
     "data/pcd/source/vehicles.json": "525a6c50ceddba216d8af2a9e7ee52adb34553ac2ba2f5f58006498b411e7532",
     "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
     "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952",
-    "data/oil/schema.json": "0814536c83e65323dc3ac6a15c76e71c070e1c8a415a68583bc8729a10b36961",
+    "data/oil/schema.json": "aebfa42f2048a84cf594a92633347b28abbe770cd6971e5f2d1c800676cc0ad2",
     "scripts/oil/evidence.mjs": "b5c7f483485753117e6549ca8cd1b669780d0ad32108094b502a3373e98e4ced",
-    "scripts/oil/validate.mjs": "9d1b5722f3bb8675f403a9c31732b25320d311dc68c28ed2e225893f8cd52693",
-    "scripts/oil/generate.mjs": "5af4580bf755f102576075fab3754565e088bc9deeceda1cc7aa423b9f6290e6"
+    "scripts/oil/validate.mjs": "3a2f9c13ff9a050f9b66740587b847eac0d6220839e92b79bd635edde03b372f",
+    "scripts/oil/generate.mjs": "c51b766b48b532d59155d948e1ec219ca549caf59ad9301ea0bf8c4a63f01c37"
   },
   "records": [
     {
