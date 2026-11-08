@@ -11,5 +11,10 @@
   "quarantineHash": "429eadf73577d555741a1fbc3c3a2c25721db60b2c0936521c81a8c36cc1bb35",
   "publicRecordsHash": "ebc5f3649bae391a1491fe5c2229569d4085d0dac4ed1dcc2fbcabc053c0263c",
   "referenceInformationHash": "b1d672fc3f8c80f9619e6d18a966c09c8c0bc28dd32af8668cb9b51f18fc33c5",
-  "evidenceGateHash": "b5c7f483485753117e6549ca8cd1b669780d0ad32108094b502a3373e98e4ced"
+  "evidenceGateHash": "b5c7f483485753117e6549ca8cd1b669780d0ad32108094b502a3373e98e4ced",
+  "currentCounts": [
+    73,
+    13,
+    59
+  ]
 }

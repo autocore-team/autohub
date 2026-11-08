@@ -823,11 +823,11 @@
   "current": {
     "assessment": "After Batch 5; historical Batch 4 final counts and hashes remain frozen.",
     "counts": {
-      "selectable": 72,
+      "selectable": 73,
       "research": 13,
       "quarantine": 59
     },
-    "canonicalHash": "419cd4368880349d76a5824f9efc36e026adb14a1cc9431d3de1fe63e0982123",
+    "canonicalHash": "8a1eeb9a5e98055424562916bbd9f01e8002e8041030dfa9a3ff4a34d89cae10",
     "remainingResearchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
     "laterAnnotations": [
       {
