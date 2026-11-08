@@ -4,7 +4,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 68,
+    "selectableExactCodeRecordCount": 72,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -18425,6 +18425,2081 @@
           "evidenceRefs": [
             {
               "sourceId": "toyota-ca-om06158u",
+              "locatorId": "temporary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toyota-corolla-sedan-2020-ca-2zr-fae",
+      "make": "Toyota",
+      "model": "Corolla",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2020,
+        "to": 2020
+      },
+      "engineCode": "2ZR-FAE",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "CA"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.2,
+      "capacityUnit": "L",
+      "capacityNote": {
+        "en": "Reference drain-and-refill quantity with oil filter, not dry fill. Warm up and turn off the engine, wait more than 5 minutes, then check the dipstick.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro, no llenado en seco. Caliente y apague el motor, espere más de 5 minutos y compruebe la varilla.",
+        "fr": "Quantité indicative de vidange et remplissage avec filtre, hors remplissage à sec. Chauffez et arrêtez le moteur, attendez plus de 5 minutes puis contrôlez la jauge.",
+        "de": "Richtwert für Ablassen und Befüllen mit Ölfilter, keine Trockenfüllung. Motor aufwärmen und ausschalten, mehr als 5 Minuten warten, dann am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "toyota-ca-om12k77u",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Corolla 2020 Owner’s Manual OM12K77U; Part No.01999-12K77; printed code 01-1901-00",
+          "publicationId": "OM12K77U",
+          "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "oilRequirements",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            1,
+            8,
+            527,
+            528,
+            529,
+            592
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "22d34c6e29501071b28dcb2bbaacba4381f95c9919cd87e24188138c5874f3ce",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "Corolla"
+            ],
+            "engineCodes": [
+              "2ZR-FAE",
+              "M20A-FKS"
+            ]
+          },
+          "evidenceNotes": "Reused cached official Canadian PDF; cover and colophon establish MY2020 and publication. The Canadian catalogue binds this exact manual. All-model coverage is on PDF 8. Exact identity is on PDF 527; relevant oil section on PDF 528, 529. Excerpts preserve section/row context: an engine heading and its shared selection text may be non-contiguous on the cited page(s), not a fabricated single row. Scope is Corolla Sedan, not Hatchback or Hybrid. Each engine has its own Lubrication system heading. Separate coolant transmission variants do not qualify the oil table.",
+          "locators": [
+            {
+              "id": "publication",
+              "pageNumbers": [
+                1,
+                592
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "COROLLA 2020 OWNER’S MANUAL. Publication No.OM12K77U. Part No.01999-12K77. Printed 01-1901-00."
+            },
+            {
+              "id": "all-models",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Please note that this manual applies to all models and explains all equipment, including options. Therefore, you may find some explanations for equipment not installed on your vehicle."
+            },
+            {
+              "id": "engine",
+              "pageNumbers": [
+                527
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "Engine Model: 2ZR-FAE. Type: 4-cylinder in line, 4-cycle, gasoline.",
+              "engineCodes": [
+                "2ZR-FAE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              }
+            },
+            {
+              "id": "selection",
+              "pageNumbers": [
+                528
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Lubrication system (1.8 L 4-cylinder [2ZR-FAE] engine). Use Toyota approved Toyota Genuine Motor Oil or equivalent to satisfy the following grade and viscosity. Oil grade: ILSAC GF-5 multigrade engine oil. Recommended viscosity: SAE 0W-20.",
+              "engineCodes": [
+                "2ZR-FAE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "relation": "allOf"
+            },
+            {
+              "id": "preferred",
+              "pageNumbers": [
+                528,
+                529
+              ],
+              "fields": [
+                "oilRequirements"
+              ],
+              "excerpt": "Lubrication system (1.8 L 4-cylinder [2ZR-FAE] engine). SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. An oil with a higher viscosity may be better suited if the vehicle is operated at high speeds, or under extreme load conditions.",
+              "engineCodes": [
+                "2ZR-FAE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "condition": {
+                "en": "Recommended SAE 0W-20. At high speeds or under extreme load, a higher viscosity may be better suited; the manual does not name another permanent SAE here.",
+                "es": "SAE 0W-20 recomendado. A alta velocidad o con carga extrema, una mayor viscosidad puede ser más adecuada; el manual no indica aquí otro SAE permanente.",
+                "fr": "SAE 0W-20 recommandée. À grande vitesse ou sous charge extrême, une viscosité supérieure peut mieux convenir ; aucun autre SAE permanent n’est nommé ici.",
+                "de": "SAE 0W-20 empfohlen. Bei hoher Geschwindigkeit oder extremer Last kann eine höhere Viskosität geeigneter sein; eine weitere dauerhafte SAE-Klasse wird hier nicht genannt."
+              }
+            },
+            {
+              "id": "temporary",
+              "pageNumbers": [
+                528,
+                529
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "oilRequirements"
+              ],
+              "excerpt": "Lubrication system (1.8 L 4-cylinder [2ZR-FAE] engine). If SAE 0W-20 is not available, SAE 5W-20 oil may be used. However, it must be replaced with SAE 0W-20 at the next oil change.",
+              "engineCodes": [
+                "2ZR-FAE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "relation": "anyOf",
+              "temporarySubstitution": {
+                "preferredIndex": 0,
+                "temporaryIndex": 1
+              },
+              "condition": {
+                "en": "If SAE 0W-20 is not available, SAE 5W-20 may be used. It must be replaced with SAE 0W-20 at the next oil change.",
+                "es": "Si SAE 0W-20 no está disponible, puede usarse SAE 5W-20. Debe sustituirse por SAE 0W-20 en el siguiente cambio de aceite.",
+                "fr": "Si SAE 0W-20 est indisponible, SAE 5W-20 peut être utilisée. Elle doit être remplacée par SAE 0W-20 à la prochaine vidange.",
+                "de": "Wenn SAE 0W-20 nicht verfügbar ist, darf SAE 5W-20 verwendet werden. Beim nächsten Ölwechsel muss wieder SAE 0W-20 eingefüllt werden."
+              }
+            },
+            {
+              "id": "service-fill",
+              "pageNumbers": [
+                528
+              ],
+              "fields": [
+                "serviceFillCapacity",
+                "capacityUnit",
+                "capacityNote"
+              ],
+              "excerpt": "Lubrication system (1.8 L 4-cylinder [2ZR-FAE] engine). Oil capacity (Drain and refill [Reference]). With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.). The engine oil capacity is a reference quantity to be used when changing the engine oil. Warm up and turn off the engine, wait more than 5 minutes, and check the oil level on the dipstick.",
+              "engineCodes": [
+                "2ZR-FAE"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              }
+            }
+          ]
+        },
+        {
+          "id": "toyota-ca-catalogue-2020-corolla",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Canada Owner’s Manuals catalogue — Corolla 2020",
+          "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=corolla",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application"
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "731b979b05f561fe918c54e2d9ca382570ae1ee088b41eff1239cfe57286d99e",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "Corolla"
+            ]
+          },
+          "evidenceNotes": "Saved official Toyota Canada catalogue response; literal series name/year and publicationNo/documentUrl bind the manual. The excerpt combines response fields and the Canadian site publisher context; not a quotation of a single sentence. No production-month restriction is attached to this Owner’s Manual.",
+          "locators": [
+            {
+              "id": "catalogue",
+              "section": "data → seriesTitle Corolla; year 2020; documents.allResults → publicationNo OM12K77U, documentUrl; Toyota Canada Inc. catalogue",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Toyota Canada Inc. Canada. Toyota Corolla 2020. Owner’s Manual OM12K77U. https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+              "documentBinding": {
+                "publicationId": "OM12K77U",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+                "markets": [
+                  "CA"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "Canada MY2020 Corolla Sedan, non-hybrid, 2ZR-FAE. OM12K77U applies its engine oil table across the documented trims and transmissions; no Hatchback or Hybrid application is included.",
+        "es": "Corolla Sedan MY2020 Canadá, no híbrido, 2ZR-FAE. OM12K77U aplica su tabla de aceite a los acabados y transmisiones documentados; no incluye Hatchback ni Hybrid.",
+        "fr": "Corolla Sedan MY2020 Canada, non hybride, 2ZR-FAE. OM12K77U applique son tableau d’huile aux finitions et transmissions documentées ; Hatchback et Hybrid exclus de cette fiche.",
+        "de": "Corolla Sedan, Modelljahr 2020, Kanada, ohne Hybridantrieb, 2ZR-FAE. Die Öltabelle in OM12K77U gilt für die dokumentierten Ausstattungen und Getriebe; Hatchback und Hybrid sind nicht eingeschlossen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "engineScoped",
+        "evidenceRefs": [
+          {
+            "sourceId": "toyota-ca-catalogue-2020-corolla",
+            "locatorId": "catalogue"
+          },
+          {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "publication"
+          },
+          {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "all-models"
+          },
+          {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "engine"
+          }
+        ],
+        "engineScope": {
+          "description": {
+            "en": "Canada MY2020 Corolla Sedan, non-hybrid, 2ZR-FAE. OM12K77U applies its engine oil table across the documented trims and transmissions; no Hatchback or Hybrid application is included.",
+            "es": "Corolla Sedan MY2020 Canadá, no híbrido, 2ZR-FAE. OM12K77U aplica su tabla de aceite a los acabados y transmisiones documentados; no incluye Hatchback ni Hybrid.",
+            "fr": "Corolla Sedan MY2020 Canada, non hybride, 2ZR-FAE. OM12K77U applique son tableau d’huile aux finitions et transmissions documentées ; Hatchback et Hybrid exclus de cette fiche.",
+            "de": "Corolla Sedan, Modelljahr 2020, Kanada, ohne Hybridantrieb, 2ZR-FAE. Die Öltabelle in OM12K77U gilt für die dokumentierten Ausstattungen und Getriebe; Hatchback und Hybrid sind nicht eingeschlossen."
+          },
+          "manualRef": {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "publication"
+          },
+          "marketRef": {
+            "sourceId": "toyota-ca-catalogue-2020-corolla",
+            "locatorId": "catalogue"
+          },
+          "coverageRef": {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "all-models"
+          },
+          "identityRef": {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "engine"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "toyota-ca-catalogue-2020-corolla",
+                "locatorId": "catalogue"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "publication"
+              },
+              "relation": "publication"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "publication"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "relation": "sameDocument"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "engine"
+              },
+              "relation": "sameDocument"
+            }
+          ]
+        },
+        "review": {
+          "unambiguous": true,
+          "notes": "Canadian MY2020 catalogue → exact publication → all-model coverage → direct 2ZR-FAE engineering identity → applicable oil section in the same manual. Corolla means the Sedan catalogue/manual; Hatchback and Hybrid are not included. Engine-specific lubrication headings establish the selection and quantity. Trim/transmission do not split this oil rule."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "engine"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "selection"
+            },
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "temporary"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "selection"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "serviceFillCapacity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityUnit": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityNote": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "anyOf": [
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 0
+                },
+                {
+                  "field": "industrySpecifications.ilsac",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om12k77u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "preferred"
+              }
+            },
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 1
+                },
+                {
+                  "field": "industrySpecifications.ilsac",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om12k77u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "temporary"
+              }
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "temporary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toyota-corolla-sedan-2020-ca-m20a-fks",
+      "make": "Toyota",
+      "model": "Corolla",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2020,
+        "to": 2020
+      },
+      "engineCode": "M20A-FKS",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "CA"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-16",
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API SN/RC"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.6,
+      "capacityUnit": "L",
+      "capacityNote": {
+        "en": "Reference drain-and-refill quantity with oil filter, not dry fill. Warm up and turn off the engine, wait more than 5 minutes, then check the dipstick.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro, no llenado en seco. Caliente y apague el motor, espere más de 5 minutos y compruebe la varilla.",
+        "fr": "Quantité indicative de vidange et remplissage avec filtre, hors remplissage à sec. Chauffez et arrêtez le moteur, attendez plus de 5 minutes puis contrôlez la jauge.",
+        "de": "Richtwert für Ablassen und Befüllen mit Ölfilter, keine Trockenfüllung. Motor aufwärmen und ausschalten, mehr als 5 Minuten warten, dann am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "toyota-ca-om12k77u",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Corolla 2020 Owner’s Manual OM12K77U; Part No.01999-12K77; printed code 01-1901-00",
+          "publicationId": "OM12K77U",
+          "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "oilRequirements",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            1,
+            8,
+            527,
+            529,
+            530,
+            592
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "22d34c6e29501071b28dcb2bbaacba4381f95c9919cd87e24188138c5874f3ce",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "Corolla"
+            ],
+            "engineCodes": [
+              "2ZR-FAE",
+              "M20A-FKS"
+            ]
+          },
+          "evidenceNotes": "Reused cached official Canadian PDF; cover and colophon establish MY2020 and publication. The Canadian catalogue binds this exact manual. All-model coverage is on PDF 8. Exact identity is on PDF 527; relevant oil section on PDF 529, 530. Excerpts preserve section/row context: an engine heading and its shared selection text may be non-contiguous on the cited page(s), not a fabricated single row. Scope is Corolla Sedan, not Hatchback or Hybrid. Each engine has its own Lubrication system heading. Separate coolant transmission variants do not qualify the oil table.",
+          "locators": [
+            {
+              "id": "publication",
+              "pageNumbers": [
+                1,
+                592
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "COROLLA 2020 OWNER’S MANUAL. Publication No.OM12K77U. Part No.01999-12K77. Printed 01-1901-00."
+            },
+            {
+              "id": "all-models",
+              "pageNumbers": [
+                8
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Please note that this manual applies to all models and explains all equipment, including options. Therefore, you may find some explanations for equipment not installed on your vehicle."
+            },
+            {
+              "id": "engine",
+              "pageNumbers": [
+                527
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "Engine Model: M20A-FKS. Type: 4-cylinder in line, 4-cycle, gasoline.",
+              "engineCodes": [
+                "M20A-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              }
+            },
+            {
+              "id": "selection",
+              "pageNumbers": [
+                529
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Lubrication system (2.0 L 4-cylinder [M20A-FKS] engine). Use Toyota approved Toyota Genuine Motor Oil or equivalent to satisfy the following grade and viscosity. Oil grade: API SN/RC multigrade engine oil. Recommended viscosity: SAE 0W-16.",
+              "engineCodes": [
+                "M20A-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "relation": "allOf"
+            },
+            {
+              "id": "preferred",
+              "pageNumbers": [
+                529,
+                530
+              ],
+              "fields": [
+                "oilRequirements"
+              ],
+              "excerpt": "Lubrication system (2.0 L 4-cylinder [M20A-FKS] engine). SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. An oil with a higher viscosity may be better suited if the vehicle is operated at high speeds, or under extreme load conditions.",
+              "engineCodes": [
+                "M20A-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "condition": {
+                "en": "Recommended SAE 0W-16. At high speeds or under extreme load, a higher viscosity may be better suited; the manual does not name another permanent SAE here.",
+                "es": "SAE 0W-16 recomendado. A alta velocidad o con carga extrema, una mayor viscosidad puede ser más adecuada; el manual no indica aquí otro SAE permanente.",
+                "fr": "SAE 0W-16 recommandée. À grande vitesse ou sous charge extrême, une viscosité supérieure peut mieux convenir ; aucun autre SAE permanent n’est nommé ici.",
+                "de": "SAE 0W-16 empfohlen. Bei hoher Geschwindigkeit oder extremer Last kann eine höhere Viskosität geeigneter sein; eine weitere dauerhafte SAE-Klasse wird hier nicht genannt."
+              }
+            },
+            {
+              "id": "temporary",
+              "pageNumbers": [
+                529,
+                530
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "oilRequirements"
+              ],
+              "excerpt": "Lubrication system (2.0 L 4-cylinder [M20A-FKS] engine). If SAE 0W-16 is not available, SAE 0W-20 oil may be used. However, it must be replaced with SAE 0W-16 at the next oil change.",
+              "engineCodes": [
+                "M20A-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "relation": "anyOf",
+              "temporarySubstitution": {
+                "preferredIndex": 0,
+                "temporaryIndex": 1
+              },
+              "condition": {
+                "en": "If SAE 0W-16 is not available, SAE 0W-20 may be used. It must be replaced with SAE 0W-16 at the next oil change.",
+                "es": "Si SAE 0W-16 no está disponible, puede usarse SAE 0W-20. Debe sustituirse por SAE 0W-16 en el siguiente cambio de aceite.",
+                "fr": "Si SAE 0W-16 est indisponible, SAE 0W-20 peut être utilisée. Elle doit être remplacée par SAE 0W-16 à la prochaine vidange.",
+                "de": "Wenn SAE 0W-16 nicht verfügbar ist, darf SAE 0W-20 verwendet werden. Beim nächsten Ölwechsel muss wieder SAE 0W-16 eingefüllt werden."
+              }
+            },
+            {
+              "id": "service-fill",
+              "pageNumbers": [
+                529
+              ],
+              "fields": [
+                "serviceFillCapacity",
+                "capacityUnit",
+                "capacityNote"
+              ],
+              "excerpt": "Lubrication system (2.0 L 4-cylinder [M20A-FKS] engine). Oil capacity (Drain and refill [Reference]). With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.). The engine oil capacity is a reference quantity to be used when changing the engine oil. Warm up and turn off the engine, wait more than 5 minutes, and check the oil level on the dipstick.",
+              "engineCodes": [
+                "M20A-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              }
+            }
+          ]
+        },
+        {
+          "id": "toyota-ca-catalogue-2020-corolla",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Canada Owner’s Manuals catalogue — Corolla 2020",
+          "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=corolla",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application"
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "731b979b05f561fe918c54e2d9ca382570ae1ee088b41eff1239cfe57286d99e",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "Corolla"
+            ]
+          },
+          "evidenceNotes": "Saved official Toyota Canada catalogue response; literal series name/year and publicationNo/documentUrl bind the manual. The excerpt combines response fields and the Canadian site publisher context; not a quotation of a single sentence. No production-month restriction is attached to this Owner’s Manual.",
+          "locators": [
+            {
+              "id": "catalogue",
+              "section": "data → seriesTitle Corolla; year 2020; documents.allResults → publicationNo OM12K77U, documentUrl; Toyota Canada Inc. catalogue",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Toyota Canada Inc. Canada. Toyota Corolla 2020. Owner’s Manual OM12K77U. https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+              "documentBinding": {
+                "publicationId": "OM12K77U",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+                "markets": [
+                  "CA"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "Canada MY2020 Corolla Sedan, non-hybrid, M20A-FKS. OM12K77U applies its engine oil table across the documented trims and transmissions; no Hatchback or Hybrid application is included.",
+        "es": "Corolla Sedan MY2020 Canadá, no híbrido, M20A-FKS. OM12K77U aplica su tabla de aceite a los acabados y transmisiones documentados; no incluye Hatchback ni Hybrid.",
+        "fr": "Corolla Sedan MY2020 Canada, non hybride, M20A-FKS. OM12K77U applique son tableau d’huile aux finitions et transmissions documentées ; Hatchback et Hybrid exclus de cette fiche.",
+        "de": "Corolla Sedan, Modelljahr 2020, Kanada, ohne Hybridantrieb, M20A-FKS. Die Öltabelle in OM12K77U gilt für die dokumentierten Ausstattungen und Getriebe; Hatchback und Hybrid sind nicht eingeschlossen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "engineScoped",
+        "evidenceRefs": [
+          {
+            "sourceId": "toyota-ca-catalogue-2020-corolla",
+            "locatorId": "catalogue"
+          },
+          {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "publication"
+          },
+          {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "all-models"
+          },
+          {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "engine"
+          }
+        ],
+        "engineScope": {
+          "description": {
+            "en": "Canada MY2020 Corolla Sedan, non-hybrid, M20A-FKS. OM12K77U applies its engine oil table across the documented trims and transmissions; no Hatchback or Hybrid application is included.",
+            "es": "Corolla Sedan MY2020 Canadá, no híbrido, M20A-FKS. OM12K77U aplica su tabla de aceite a los acabados y transmisiones documentados; no incluye Hatchback ni Hybrid.",
+            "fr": "Corolla Sedan MY2020 Canada, non hybride, M20A-FKS. OM12K77U applique son tableau d’huile aux finitions et transmissions documentées ; Hatchback et Hybrid exclus de cette fiche.",
+            "de": "Corolla Sedan, Modelljahr 2020, Kanada, ohne Hybridantrieb, M20A-FKS. Die Öltabelle in OM12K77U gilt für die dokumentierten Ausstattungen und Getriebe; Hatchback und Hybrid sind nicht eingeschlossen."
+          },
+          "manualRef": {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "publication"
+          },
+          "marketRef": {
+            "sourceId": "toyota-ca-catalogue-2020-corolla",
+            "locatorId": "catalogue"
+          },
+          "coverageRef": {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "all-models"
+          },
+          "identityRef": {
+            "sourceId": "toyota-ca-om12k77u",
+            "locatorId": "engine"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "toyota-ca-catalogue-2020-corolla",
+                "locatorId": "catalogue"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "publication"
+              },
+              "relation": "publication"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "publication"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "relation": "sameDocument"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "all-models"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "engine"
+              },
+              "relation": "sameDocument"
+            }
+          ]
+        },
+        "review": {
+          "unambiguous": true,
+          "notes": "Canadian MY2020 catalogue → exact publication → all-model coverage → direct M20A-FKS engineering identity → applicable oil section in the same manual. Corolla means the Sedan catalogue/manual; Hatchback and Hybrid are not included. Engine-specific lubrication headings establish the selection and quantity. Trim/transmission do not split this oil rule."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "engine"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "selection"
+            },
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "temporary"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "selection"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "serviceFillCapacity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityUnit": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityNote": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "anyOf": [
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 0
+                },
+                {
+                  "field": "industrySpecifications.api",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om12k77u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "preferred"
+              }
+            },
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 1
+                },
+                {
+                  "field": "industrySpecifications.api",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om12k77u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om12k77u",
+                "locatorId": "temporary"
+              }
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om12k77u",
+              "locatorId": "temporary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toyota-rav4-hybrid-2020-ca-a25a-fxs",
+      "make": "Toyota",
+      "model": "RAV4 Hybrid",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2020,
+        "to": 2020
+      },
+      "engineCode": "A25A-FXS",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "CA"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-16",
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [
+          "API SN/RC"
+        ],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": 4.5,
+      "capacityUnit": "L",
+      "capacityNote": {
+        "en": "Reference drain-and-refill quantity with oil filter, not dry fill. Warm up and turn off the hybrid system, wait more than 5 minutes, then check the dipstick.",
+        "es": "Cantidad de referencia para vaciado y llenado con filtro, no llenado en seco. Caliente y apague el sistema híbrido, espere más de 5 minutos y compruebe la varilla.",
+        "fr": "Quantité indicative de vidange et remplissage avec filtre, hors remplissage à sec. Chauffez et arrêtez le système hybride, attendez plus de 5 minutes puis contrôlez la jauge.",
+        "de": "Richtwert für Ablassen und Befüllen mit Ölfilter, keine Trockenfüllung. Hybridsystem aufwärmen und ausschalten, mehr als 5 Minuten warten, dann am Messstab prüfen."
+      },
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "toyota-ca-om0r031u",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota RAV4 Hybrid 2020 Owner’s Manual OM0R031U; Part No.01999-0R031; printed code 01-2006-00",
+          "publicationId": "OM0R031U",
+          "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM0R031U/OM0R031U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "oilRequirements",
+            "serviceFillCapacity",
+            "capacityUnit",
+            "capacityNote"
+          ],
+          "pageNumbers": [
+            1,
+            10,
+            681,
+            682,
+            683,
+            752
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "6f1afdfd87e62fa8f49806bfdbeea4ef7098c7fcbf673e262914231f77ef0244",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "RAV4 Hybrid"
+            ],
+            "engineCodes": [
+              "A25A-FXS"
+            ]
+          },
+          "evidenceNotes": "Reused cached official Canadian PDF; cover and colophon establish MY2020 and publication. The Canadian catalogue binds this exact manual. All-model coverage is on PDF 10. Exact identity is on PDF 681; relevant oil section on PDF 682, 683. Excerpts preserve section/row context: an engine heading and its shared selection text may be non-contiguous on the cited page(s), not a fabricated single row. Only one combustion engine is listed. The common Lubrication system section follows that engine table; traction-battery variants do not split the oil rule.",
+          "locators": [
+            {
+              "id": "publication",
+              "pageNumbers": [
+                1,
+                752
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "RAV4 HYBRID 2020 OWNER’S MANUAL. Publication No.OM0R031U. Part No.01999-0R031. Printed 01-2006-00."
+            },
+            {
+              "id": "all-models",
+              "pageNumbers": [
+                10
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Please note that this manual applies to all models and explains all equipment, including options. Therefore, you may find some explanations for equipment not installed on your vehicle."
+            },
+            {
+              "id": "engine",
+              "pageNumbers": [
+                681
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "Engine Model: A25A-FXS. Type: 4-cylinder in line, 4-cycle, gasoline.",
+              "engineCodes": [
+                "A25A-FXS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "all-models"
+              }
+            },
+            {
+              "id": "selection",
+              "pageNumbers": [
+                681,
+                682,
+                683
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 681, Engine table] Engine Model: 2.5 L 4-cylinder (A25A-FXS). [PDF 682–683, common Lubrication system and Engine oil selection] Use Toyota approved Toyota Genuine Motor Oil or equivalent to satisfy the following grade and viscosity. Oil grade: API SN/RC multigrade engine oil. Recommended viscosity: SAE 0W-16.",
+              "engineCodes": [
+                "A25A-FXS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "all-models"
+              },
+              "relation": "allOf"
+            },
+            {
+              "id": "preferred",
+              "pageNumbers": [
+                681,
+                683
+              ],
+              "fields": [
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 681, Engine table] Engine Model: 2.5 L 4-cylinder (A25A-FXS). [PDF 682–683, common Lubrication system and Engine oil selection] SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. An oil with a higher viscosity may be better suited if the vehicle is operated at high speeds, or under extreme load conditions.",
+              "engineCodes": [
+                "A25A-FXS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "all-models"
+              },
+              "condition": {
+                "en": "Recommended SAE 0W-16. At high speeds or under extreme load, a higher viscosity may be better suited; the manual does not name another permanent SAE here.",
+                "es": "SAE 0W-16 recomendado. A alta velocidad o con carga extrema, una mayor viscosidad puede ser más adecuada; el manual no indica aquí otro SAE permanente.",
+                "fr": "SAE 0W-16 recommandée. À grande vitesse ou sous charge extrême, une viscosité supérieure peut mieux convenir ; aucun autre SAE permanent n’est nommé ici.",
+                "de": "SAE 0W-16 empfohlen. Bei hoher Geschwindigkeit oder extremer Last kann eine höhere Viskosität geeigneter sein; eine weitere dauerhafte SAE-Klasse wird hier nicht genannt."
+              }
+            },
+            {
+              "id": "temporary",
+              "pageNumbers": [
+                681,
+                683
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "oilRequirements"
+              ],
+              "excerpt": "[PDF 681, Engine table] Engine Model: 2.5 L 4-cylinder (A25A-FXS). [PDF 682–683, common Lubrication system and Engine oil selection] If SAE 0W-16 is not available, SAE 0W-20 oil may be used. However, it must be replaced with SAE 0W-16 at the next oil change.",
+              "engineCodes": [
+                "A25A-FXS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "all-models"
+              },
+              "relation": "anyOf",
+              "temporarySubstitution": {
+                "preferredIndex": 0,
+                "temporaryIndex": 1
+              },
+              "condition": {
+                "en": "If SAE 0W-16 is not available, SAE 0W-20 may be used. It must be replaced with SAE 0W-16 at the next oil change.",
+                "es": "Si SAE 0W-16 no está disponible, puede usarse SAE 0W-20. Debe sustituirse por SAE 0W-16 en el siguiente cambio de aceite.",
+                "fr": "Si SAE 0W-16 est indisponible, SAE 0W-20 peut être utilisée. Elle doit être remplacée par SAE 0W-16 à la prochaine vidange.",
+                "de": "Wenn SAE 0W-16 nicht verfügbar ist, darf SAE 0W-20 verwendet werden. Beim nächsten Ölwechsel muss wieder SAE 0W-16 eingefüllt werden."
+              }
+            },
+            {
+              "id": "service-fill",
+              "pageNumbers": [
+                681,
+                682
+              ],
+              "fields": [
+                "serviceFillCapacity",
+                "capacityUnit",
+                "capacityNote"
+              ],
+              "excerpt": "[PDF 681, Engine table] Engine Model: 2.5 L 4-cylinder (A25A-FXS). [PDF 682, Lubrication system] Oil capacity (Drain and refill [Reference]). With filter 4.8 qt. (4.5 L, 4.0 Imp. qt.). The engine oil capacity is a reference quantity to be used when changing the engine oil. Warm up and turn off the hybrid system, wait more than 5 minutes, and check the oil level on the dipstick.",
+              "engineCodes": [
+                "A25A-FXS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "all-models"
+              }
+            }
+          ]
+        },
+        {
+          "id": "toyota-ca-catalogue-2020-rav4_hybrid",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Canada Owner’s Manuals catalogue — RAV4 Hybrid 2020",
+          "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=rav4_hybrid",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application"
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "1f9e47607938887259bb005288e899b2d6b4306cca4368d00a89a73be1bfaaad",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "RAV4 Hybrid"
+            ]
+          },
+          "evidenceNotes": "Saved official Toyota Canada catalogue response; literal series name/year and publicationNo/documentUrl bind the manual. The excerpt combines response fields and the Canadian site publisher context; not a quotation of a single sentence. No production-month restriction is attached to this Owner’s Manual.",
+          "locators": [
+            {
+              "id": "catalogue",
+              "section": "data → seriesTitle RAV4 Hybrid; year 2020; documents.allResults → publicationNo OM0R031U, documentUrl; Toyota Canada Inc. catalogue",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Toyota Canada Inc. Canada. Toyota RAV4 Hybrid 2020. Owner’s Manual OM0R031U. https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM0R031U/OM0R031U.pdf",
+              "documentBinding": {
+                "publicationId": "OM0R031U",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM0R031U/OM0R031U.pdf",
+                "markets": [
+                  "CA"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "Canada MY2020 RAV4 Hybrid, A25A-FXS. OM0R031U has one engine and a common oil table. Battery types and other documented equipment do not create separate oil applications; this is not a non-hybrid RAV4 record.",
+        "es": "RAV4 Hybrid MY2020 Canadá, A25A-FXS. OM0R031U tiene un único motor y una tabla de aceite común. Las baterías y el equipamiento documentado no crean fichas de aceite separadas; no incluye RAV4 no híbrido.",
+        "fr": "RAV4 Hybrid MY2020 Canada, A25A-FXS. OM0R031U présente un moteur et un tableau d’huile commun. Les batteries et équipements documentés ne créent pas de fiches d’huile distinctes ; RAV4 non hybride non inclus.",
+        "de": "RAV4 Hybrid, Modelljahr 2020, Kanada, A25A-FXS. OM0R031U nennt einen Motor mit gemeinsamer Öltabelle. Batterietypen und dokumentierte Ausstattung ergeben keine getrennten Öldatensätze; kein RAV4 ohne Hybridantrieb."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "engineScoped",
+        "evidenceRefs": [
+          {
+            "sourceId": "toyota-ca-catalogue-2020-rav4_hybrid",
+            "locatorId": "catalogue"
+          },
+          {
+            "sourceId": "toyota-ca-om0r031u",
+            "locatorId": "publication"
+          },
+          {
+            "sourceId": "toyota-ca-om0r031u",
+            "locatorId": "all-models"
+          },
+          {
+            "sourceId": "toyota-ca-om0r031u",
+            "locatorId": "engine"
+          }
+        ],
+        "engineScope": {
+          "description": {
+            "en": "Canada MY2020 RAV4 Hybrid, A25A-FXS. OM0R031U has one engine and a common oil table. Battery types and other documented equipment do not create separate oil applications; this is not a non-hybrid RAV4 record.",
+            "es": "RAV4 Hybrid MY2020 Canadá, A25A-FXS. OM0R031U tiene un único motor y una tabla de aceite común. Las baterías y el equipamiento documentado no crean fichas de aceite separadas; no incluye RAV4 no híbrido.",
+            "fr": "RAV4 Hybrid MY2020 Canada, A25A-FXS. OM0R031U présente un moteur et un tableau d’huile commun. Les batteries et équipements documentés ne créent pas de fiches d’huile distinctes ; RAV4 non hybride non inclus.",
+            "de": "RAV4 Hybrid, Modelljahr 2020, Kanada, A25A-FXS. OM0R031U nennt einen Motor mit gemeinsamer Öltabelle. Batterietypen und dokumentierte Ausstattung ergeben keine getrennten Öldatensätze; kein RAV4 ohne Hybridantrieb."
+          },
+          "manualRef": {
+            "sourceId": "toyota-ca-om0r031u",
+            "locatorId": "publication"
+          },
+          "marketRef": {
+            "sourceId": "toyota-ca-catalogue-2020-rav4_hybrid",
+            "locatorId": "catalogue"
+          },
+          "coverageRef": {
+            "sourceId": "toyota-ca-om0r031u",
+            "locatorId": "all-models"
+          },
+          "identityRef": {
+            "sourceId": "toyota-ca-om0r031u",
+            "locatorId": "engine"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "toyota-ca-catalogue-2020-rav4_hybrid",
+                "locatorId": "catalogue"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "publication"
+              },
+              "relation": "publication"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "publication"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "all-models"
+              },
+              "relation": "sameDocument"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "all-models"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "engine"
+              },
+              "relation": "sameDocument"
+            }
+          ]
+        },
+        "review": {
+          "unambiguous": true,
+          "notes": "Canadian MY2020 catalogue → exact publication → all-model coverage → direct A25A-FXS engineering identity → applicable oil section in the same manual. RAV4 Hybrid has one combustion engine in the manual. Link its engine table on PDF 681 to the common oil section on PDF 682–683; do not treat battery variants as separate oil applications."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om0r031u",
+              "locatorId": "engine"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om0r031u",
+              "locatorId": "selection"
+            },
+            {
+              "sourceId": "toyota-ca-om0r031u",
+              "locatorId": "temporary"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om0r031u",
+              "locatorId": "selection"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "serviceFillCapacity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om0r031u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityUnit": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om0r031u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "capacityNote": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om0r031u",
+              "locatorId": "service-fill"
+            }
+          ]
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "anyOf": [
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 0
+                },
+                {
+                  "field": "industrySpecifications.api",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om0r031u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "preferred"
+              }
+            },
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 1
+                },
+                {
+                  "field": "industrySpecifications.api",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om0r031u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om0r031u",
+                "locatorId": "temporary"
+              }
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om0r031u",
+              "locatorId": "temporary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toyota-tacoma-2020-ca-2gr-fks",
+      "make": "Toyota",
+      "model": "Tacoma",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2020,
+        "to": 2020
+      },
+      "engineCode": "2GR-FKS",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "CA"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20",
+        "5W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": [
+          "GF-5"
+        ]
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "toyota-ca-om04025u",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Tacoma 2020 Owner’s Manual OM04025U; Part No.01999-04025; printed code 01-1908-00",
+          "publicationId": "OM04025U",
+          "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "industrySpecifications",
+            "oilRequirements"
+          ],
+          "pageNumbers": [
+            1,
+            10,
+            538,
+            539,
+            540,
+            612
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "0faf3cdd40e5a3f28dbaf76679c3b75fdf048e6c08d25647e574cd490aa386df",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "Tacoma"
+            ],
+            "engineCodes": [
+              "2TR-FE",
+              "2GR-FKS"
+            ]
+          },
+          "evidenceNotes": "Reused cached official Canadian PDF; cover and colophon establish MY2020 and publication. The Canadian catalogue binds this exact manual. All-model coverage is on PDF 10. Exact identity is on PDF 538; relevant oil section on PDF 539, 540. Excerpts preserve section/row context: an engine heading and its shared selection text may be non-contiguous on the cited page(s), not a fabricated single row. Only the common oil-selection rule is published for the Canadian V6 application. Package-dependent quantity evidence and its numerical claims are deliberately absent from this record and public locators. The other engine is not included.",
+          "locators": [
+            {
+              "id": "publication",
+              "pageNumbers": [
+                1,
+                612
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "TACOMA 2020 OWNER’S MANUAL. Publication No.OM04025U. Part No.01999-04025. Printed 01-1908-00."
+            },
+            {
+              "id": "all-models",
+              "pageNumbers": [
+                10
+              ],
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Please note that this manual applies to all models and all equipment, including options. Therefore, you may find some explanations for equipment not installed on your vehicle."
+            },
+            {
+              "id": "engine",
+              "pageNumbers": [
+                538
+              ],
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "Engine Model: 2GR-FKS. Type: 6-cylinder V type, 4-cycle, gasoline.",
+              "engineCodes": [
+                "2GR-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "all-models"
+              }
+            },
+            {
+              "id": "selection",
+              "pageNumbers": [
+                539
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "industrySpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "2GR-FKS engine [engine row heading in the Lubrication system table]. Use Toyota approved Toyota Genuine Motor Oil or equivalent to satisfy the following grade and viscosity. Oil grade: ILSAC GF-5 multigrade engine oil. Recommended viscosity: SAE 0W-20.",
+              "engineCodes": [
+                "2GR-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "all-models"
+              },
+              "relation": "allOf"
+            },
+            {
+              "id": "preferred",
+              "pageNumbers": [
+                539,
+                540
+              ],
+              "fields": [
+                "oilRequirements"
+              ],
+              "excerpt": "2GR-FKS engine [engine row heading in the Lubrication system table]. SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. An oil with a higher viscosity may be better suited if the vehicle is operated at high speeds, or under extreme load conditions.",
+              "engineCodes": [
+                "2GR-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "all-models"
+              },
+              "condition": {
+                "en": "Recommended SAE 0W-20. At high speeds or under extreme load, a higher viscosity may be better suited; the manual does not name another permanent SAE here.",
+                "es": "SAE 0W-20 recomendado. A alta velocidad o con carga extrema, una mayor viscosidad puede ser más adecuada; el manual no indica aquí otro SAE permanente.",
+                "fr": "SAE 0W-20 recommandée. À grande vitesse ou sous charge extrême, une viscosité supérieure peut mieux convenir ; aucun autre SAE permanent n’est nommé ici.",
+                "de": "SAE 0W-20 empfohlen. Bei hoher Geschwindigkeit oder extremer Last kann eine höhere Viskosität geeigneter sein; eine weitere dauerhafte SAE-Klasse wird hier nicht genannt."
+              }
+            },
+            {
+              "id": "temporary",
+              "pageNumbers": [
+                539,
+                540
+              ],
+              "fields": [
+                "allowedSaeViscosities",
+                "oilRequirements"
+              ],
+              "excerpt": "2GR-FKS engine [engine row heading in the Lubrication system table]. If SAE 0W-20 is not available, SAE 5W-20 oil may be used. However, it must be replaced with SAE 0W-20 at the next oil change.",
+              "engineCodes": [
+                "2GR-FKS"
+              ],
+              "applicabilityRef": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "all-models"
+              },
+              "relation": "anyOf",
+              "temporarySubstitution": {
+                "preferredIndex": 0,
+                "temporaryIndex": 1
+              },
+              "condition": {
+                "en": "If SAE 0W-20 is not available, SAE 5W-20 may be used. It must be replaced with SAE 0W-20 at the next oil change.",
+                "es": "Si SAE 0W-20 no está disponible, puede usarse SAE 5W-20. Debe sustituirse por SAE 0W-20 en el siguiente cambio de aceite.",
+                "fr": "Si SAE 0W-20 est indisponible, SAE 5W-20 peut être utilisée. Elle doit être remplacée par SAE 0W-20 à la prochaine vidange.",
+                "de": "Wenn SAE 0W-20 nicht verfügbar ist, darf SAE 5W-20 verwendet werden. Beim nächsten Ölwechsel muss wieder SAE 0W-20 eingefüllt werden."
+              }
+            }
+          ]
+        },
+        {
+          "id": "toyota-ca-catalogue-2020-tacoma",
+          "publisher": "Toyota Canada Inc.",
+          "title": "Toyota Canada Owner’s Manuals catalogue — Tacoma 2020",
+          "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=tacoma",
+          "type": "oemServicePortal",
+          "applicableMarket": [
+            "CA"
+          ],
+          "applicableYears": {
+            "from": 2020,
+            "to": 2020
+          },
+          "checkedAt": "2026-11-08",
+          "fields": [
+            "application"
+          ],
+          "provenanceStatus": "confirmed",
+          "documentSha256": "cbb21ff39b972128864d1e2a66d6a9ce95555e77a4c3d9027e284f20926ced66",
+          "scope": {
+            "make": "Toyota",
+            "models": [
+              "Tacoma"
+            ]
+          },
+          "evidenceNotes": "Saved official Toyota Canada catalogue response; literal series name/year and publicationNo/documentUrl bind the manual. The excerpt combines response fields and the Canadian site publisher context; not a quotation of a single sentence. No production-month restriction is attached to this Owner’s Manual.",
+          "locators": [
+            {
+              "id": "catalogue",
+              "section": "data → seriesTitle Tacoma; year 2020; documents.allResults → publicationNo OM04025U, documentUrl; Toyota Canada Inc. catalogue",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Toyota Canada Inc. Canada. Toyota Tacoma 2020. Owner’s Manual OM04025U. https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+              "documentBinding": {
+                "publicationId": "OM04025U",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+                "markets": [
+                  "CA"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "Canada MY2020 Tacoma, non-hybrid, 2GR-FKS. The manual’s common engine-oil selection rule applies. Quantity is not confirmed for this engine-wide record: check the exact manual and towing-package equipment. No other engine or market is included.",
+        "es": "Tacoma MY2020 Canadá, no híbrido, 2GR-FKS. Se aplica la regla común de selección de aceite del manual. Cantidad no confirmada para esta ficha por motor: consulte el manual exacto y el equipamiento de remolque. No incluye otros motores ni mercados.",
+        "fr": "Tacoma MY2020 Canada, non hybride, 2GR-FKS. La règle commune de choix d’huile du manuel s’applique. Quantité non confirmée pour cette fiche par moteur : vérifiez le manuel exact et l’équipement de remorquage. Aucun autre moteur ni marché inclus.",
+        "de": "Tacoma, Modelljahr 2020, Kanada, ohne Hybridantrieb, 2GR-FKS. Die gemeinsame Motoröl-Auswahlregel des Handbuchs gilt. Füllmenge für diesen motorbezogenen Datensatz unbestätigt: genaues Handbuch und Anhängerausstattung prüfen. Keine anderen Motoren oder Märkte eingeschlossen."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "engineScoped",
+        "evidenceRefs": [
+          {
+            "sourceId": "toyota-ca-catalogue-2020-tacoma",
+            "locatorId": "catalogue"
+          },
+          {
+            "sourceId": "toyota-ca-om04025u",
+            "locatorId": "publication"
+          },
+          {
+            "sourceId": "toyota-ca-om04025u",
+            "locatorId": "all-models"
+          },
+          {
+            "sourceId": "toyota-ca-om04025u",
+            "locatorId": "engine"
+          }
+        ],
+        "engineScope": {
+          "description": {
+            "en": "Canada MY2020 Tacoma, non-hybrid, 2GR-FKS. The manual’s common engine-oil selection rule applies. Quantity is not confirmed for this engine-wide record: check the exact manual and towing-package equipment. No other engine or market is included.",
+            "es": "Tacoma MY2020 Canadá, no híbrido, 2GR-FKS. Se aplica la regla común de selección de aceite del manual. Cantidad no confirmada para esta ficha por motor: consulte el manual exacto y el equipamiento de remolque. No incluye otros motores ni mercados.",
+            "fr": "Tacoma MY2020 Canada, non hybride, 2GR-FKS. La règle commune de choix d’huile du manuel s’applique. Quantité non confirmée pour cette fiche par moteur : vérifiez le manuel exact et l’équipement de remorquage. Aucun autre moteur ni marché inclus.",
+            "de": "Tacoma, Modelljahr 2020, Kanada, ohne Hybridantrieb, 2GR-FKS. Die gemeinsame Motoröl-Auswahlregel des Handbuchs gilt. Füllmenge für diesen motorbezogenen Datensatz unbestätigt: genaues Handbuch und Anhängerausstattung prüfen. Keine anderen Motoren oder Märkte eingeschlossen."
+          },
+          "manualRef": {
+            "sourceId": "toyota-ca-om04025u",
+            "locatorId": "publication"
+          },
+          "marketRef": {
+            "sourceId": "toyota-ca-catalogue-2020-tacoma",
+            "locatorId": "catalogue"
+          },
+          "coverageRef": {
+            "sourceId": "toyota-ca-om04025u",
+            "locatorId": "all-models"
+          },
+          "identityRef": {
+            "sourceId": "toyota-ca-om04025u",
+            "locatorId": "engine"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "toyota-ca-catalogue-2020-tacoma",
+                "locatorId": "catalogue"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "publication"
+              },
+              "relation": "publication"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "publication"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "all-models"
+              },
+              "relation": "sameDocument"
+            },
+            {
+              "from": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "all-models"
+              },
+              "to": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "engine"
+              },
+              "relation": "sameDocument"
+            }
+          ]
+        },
+        "review": {
+          "unambiguous": true,
+          "notes": "Canadian MY2020 catalogue → exact publication → all-model coverage → direct 2GR-FKS engineering identity → applicable oil section in the same manual. The common oil-selection section covers the documented V6. The Canadian brochure previously reviewed documents V6 offerings. Capacity remains unknown for the engine-wide record; package-dependent quantities are not a uniform field. Do not include 2TR-FE or assert every engine/drivetrain combination exists."
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om04025u",
+              "locatorId": "engine"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om04025u",
+              "locatorId": "selection"
+            },
+            {
+              "sourceId": "toyota-ca-om04025u",
+              "locatorId": "temporary"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om04025u",
+              "locatorId": "selection"
+            }
+          ]
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed as a single value for this engine-wide application; check the exact manual and towing-package equipment."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed as a single value for this engine-wide application; check the exact manual and towing-package equipment."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed as a single value for this engine-wide application; check the exact manual and towing-package equipment."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this field assessment; check exact manual."
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "anyOf": [
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 0
+                },
+                {
+                  "field": "industrySpecifications.ilsac",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om04025u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "preferred"
+              }
+            },
+            {
+              "allOf": [
+                {
+                  "field": "allowedSaeViscosities",
+                  "index": 1
+                },
+                {
+                  "field": "industrySpecifications.ilsac",
+                  "index": 0
+                }
+              ],
+              "evidenceRefs": [
+                {
+                  "sourceId": "toyota-ca-om04025u",
+                  "locatorId": "selection"
+                }
+              ],
+              "conditionRef": {
+                "sourceId": "toyota-ca-om04025u",
+                "locatorId": "temporary"
+              }
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "toyota-ca-om04025u",
               "locatorId": "temporary"
             }
           ]

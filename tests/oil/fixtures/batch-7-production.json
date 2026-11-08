@@ -1,0 +1,185 @@
+{
+  "batch": 7,
+  "baselineCommit": "a023f70",
+  "baselineCounts": {
+    "selectable": 68,
+    "research": 13,
+    "quarantine": 59
+  },
+  "finalCounts": {
+    "selectable": 72,
+    "research": 13,
+    "quarantine": 59
+  },
+  "baselineCanonicalHash": "3f3f179093ee04a2b6edb23ef90a5bc44a4ea7a2babc432fef79d5b5e2ec31f4",
+  "baselineRecordsHash": "d219e162ddf19c1be6203571c223bc7377cc0a40e7289e4d5ac35052d8c702c3",
+  "baselineOrderHash": "e7f5f7bacf9e0f16656352b6c460c750d2678384127b5e53b98dccdd22f09f9f",
+  "baselinePublicHash": "56404ca4b50d13edc69a9dd4f41aaba52dcf650d252b45edb92f351e9ee2411c",
+  "researchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
+  "quarantineHash": "429eadf73577d555741a1fbc3c3a2c25721db60b2c0936521c81a8c36cc1bb35",
+  "finalCanonicalHash": "419cd4368880349d76a5824f9efc36e026adb14a1cc9431d3de1fe63e0982123",
+  "finalRecordsHash": "77a5371647f84671a60a8dced366c75a77c7f63054a26148485b5c59a1b92c82",
+  "finalPublicHash": "ebc5f3649bae391a1491fe5c2229569d4085d0dac4ed1dcc2fbcabc053c0263c",
+  "records": [
+    {
+      "id": "toyota-corolla-sedan-2020-ca-2zr-fae",
+      "model": "Corolla",
+      "engineCode": "2ZR-FAE",
+      "publication": "OM12K77U",
+      "edition": "01-1901-00",
+      "identityPage": 527,
+      "coveragePage": 8,
+      "oilPages": [
+        528,
+        529
+      ],
+      "primary": "0W-20",
+      "temporary": "5W-20",
+      "specField": "ilsac",
+      "spec": "GF-5",
+      "capacity": 4.2,
+      "confirmedFields": [
+        "engineIdentity",
+        "allowedSaeViscosities",
+        "industrySpecifications",
+        "serviceFillCapacity",
+        "capacityUnit",
+        "capacityNote"
+      ]
+    },
+    {
+      "id": "toyota-corolla-sedan-2020-ca-m20a-fks",
+      "model": "Corolla",
+      "engineCode": "M20A-FKS",
+      "publication": "OM12K77U",
+      "edition": "01-1901-00",
+      "identityPage": 527,
+      "coveragePage": 8,
+      "oilPages": [
+        529,
+        530
+      ],
+      "primary": "0W-16",
+      "temporary": "0W-20",
+      "specField": "api",
+      "spec": "API SN/RC",
+      "capacity": 4.6,
+      "confirmedFields": [
+        "engineIdentity",
+        "allowedSaeViscosities",
+        "industrySpecifications",
+        "serviceFillCapacity",
+        "capacityUnit",
+        "capacityNote"
+      ]
+    },
+    {
+      "id": "toyota-rav4-hybrid-2020-ca-a25a-fxs",
+      "model": "RAV4 Hybrid",
+      "engineCode": "A25A-FXS",
+      "publication": "OM0R031U",
+      "edition": "01-2006-00",
+      "identityPage": 681,
+      "coveragePage": 10,
+      "oilPages": [
+        682,
+        683
+      ],
+      "primary": "0W-16",
+      "temporary": "0W-20",
+      "specField": "api",
+      "spec": "API SN/RC",
+      "capacity": 4.5,
+      "confirmedFields": [
+        "engineIdentity",
+        "allowedSaeViscosities",
+        "industrySpecifications",
+        "serviceFillCapacity",
+        "capacityUnit",
+        "capacityNote"
+      ]
+    },
+    {
+      "id": "toyota-tacoma-2020-ca-2gr-fks",
+      "model": "Tacoma",
+      "engineCode": "2GR-FKS",
+      "publication": "OM04025U",
+      "edition": "01-1908-00",
+      "identityPage": 538,
+      "coveragePage": 10,
+      "oilPages": [
+        539,
+        540
+      ],
+      "primary": "0W-20",
+      "temporary": "5W-20",
+      "specField": "ilsac",
+      "spec": "GF-5",
+      "capacity": null,
+      "confirmedFields": [
+        "engineIdentity",
+        "allowedSaeViscosities",
+        "industrySpecifications"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+      "sha256": "22d34c6e29501071b28dcb2bbaacba4381f95c9919cd87e24188138c5874f3ce"
+    },
+    {
+      "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=corolla",
+      "sha256": "731b979b05f561fe918c54e2d9ca382570ae1ee088b41eff1239cfe57286d99e"
+    },
+    {
+      "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM0R031U/OM0R031U.pdf",
+      "sha256": "6f1afdfd87e62fa8f49806bfdbeea4ef7098c7fcbf673e262914231f77ef0244"
+    },
+    {
+      "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=rav4_hybrid",
+      "sha256": "1f9e47607938887259bb005288e899b2d6b4306cca4368d00a89a73be1bfaaad"
+    },
+    {
+      "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+      "sha256": "0faf3cdd40e5a3f28dbaf76679c3b75fdf048e6c08d25647e574cd490aa386df"
+    },
+    {
+      "url": "https://www.toyota.ca/bin/api/get-manuals.toyota.en.json?year=2020&series=tacoma",
+      "sha256": "cbb21ff39b972128864d1e2a66d6a9ce95555e77a4c3d9027e284f20926ced66"
+    }
+  ],
+  "excluded": [
+    {
+      "model": "Tacoma",
+      "engineCode": "2TR-FE",
+      "reason": "Shared North American manual contains this engine, but reviewed Canadian MY2020 application/lineup binding remains unclosed; do not infer a Canadian application from the generic table."
+    }
+  ],
+  "protectedFiles": {
+    "data/engines/europe.js": "732b6b4894f165848a02d488d8e2a168797001880ddee5d0dfc2940f66de922e",
+    "data/engines/japan.js": "b83f3d7594bdb1367506d74341e146cc3c49cea2bef0d72c8e4f1f34e36a40ae",
+    "data/engines/korea.js": "5c31ceb81ad7b6ec309b244bee1d883b92173426ee0147518eec1a71cb5558d6",
+    "data/engines/north-america.js": "f2ddbc3de547c8b64f0446b1e4fb98798fc1a429bbe1604e53d23cf08a385879",
+    "data/engines/source/regions/europe.json": "d63a417fa9ba3d83b0a918b9b40b31369c1f413d92053372a4bae4ffff52616a",
+    "data/engines/source/regions/japan.json": "6d53958d44d2ff886340b6349fb8640df71442c1cd1a44ce57c454b07d14e9fd",
+    "data/engines/source/regions/korea.json": "b09523e266657bcef0c2fffc4f39bd1241924be46c58b25ee14cab22f7154469",
+    "data/engines/source/regions/north-america.json": "a3b704f9aad1935bc63dccd35973c0bc8937cee576ef5ef3c76e7482c028b9b6",
+    "data/engines/source/regions/south-america.json": "51ef5b887b115fbb6b8d087e792c4b090637a9dcd595f1b4da7c13b1b10cef36",
+    "data/engines/source/schema.json": "f54c4a171c7fa345ddf96ca08738e31af87bbe957c6bdc090dcf4598044823b3",
+    "data/engines/south-america.js": "905084234cee1c6ac706b357d589b52178b4c464ad335fbb34cfabafc15e1571",
+    "data/pcd/source/schema.json": "d4fa3e7bbf1b4ec7db8dcdc113b78f1bf2c1f1bcf0adc33d56452bcdb45dcf2d",
+    "data/pcd/source/vehicles.json": "525a6c50ceddba216d8af2a9e7ee52adb34553ac2ba2f5f58006498b411e7532",
+    "engine-data.js": "6cc8f5a6d8e3953f7b81cd4fc3509d80c8d0ae4033593eedd66aa5eb69f019e0",
+    "pcd-data.js": "dc5f1e6cd374a1eec562e697ba62dc203199c84ac32df5e36aec763d250e4952",
+    "scripts/oil/validate.mjs": "9d1b5722f3bb8675f403a9c31732b25320d311dc68c28ed2e225893f8cd52693",
+    "scripts/oil/generate.mjs": "5af4580bf755f102576075fab3754565e088bc9deeceda1cc7aa423b9f6290e6",
+    ".github/workflows/ci.yml": "dda4aafc273822d867cbeb59e4241983f885cd2b3f3f0b03b27c9928876cf348",
+    ".github/workflows/engine-data-ci.yml": "6799fe2e42673d9915b35dd284eaefb423a08657c2b1ea6e59f6cf19c695a722",
+    "oil-guide.html": "7cec872db7ab060a900299d8bb92472a9be1566c6c8c3c5950add335fc2f3b76",
+    "data/oil/schema.json": "0814536c83e65323dc3ac6a15c76e71c070e1c8a415a68583bc8729a10b36961",
+    "scripts/oil/evidence.mjs": "b5c7f483485753117e6549ca8cd1b669780d0ad32108094b502a3373e98e4ced",
+    "assets/js/oil-guide.js": "eb692db768c3335e9c9b51dfc6e79ab765a68cb0cdc42935ac424d412bddc9dc",
+    "docs/oil-field-evidence.md": "30752c5953d0d72d04d06b8f6d615f1bc947b24594996355251a31e81da247c7"
+  }
+}
