@@ -4,7 +4,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 75,
+    "selectableExactCodeRecordCount": 81,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -22102,6 +22102,2310 @@
           ]
         }
       }
+    },
+    {
+      "id": "volvo-xc40-2021-b3154t9",
+      "make": "Volvo",
+      "model": "XC40",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B3154T9",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc40-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil — specifications; updated 27/10/2020",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b_f40a54afc7fb5bf5c0a81f6f74c5b3b7_2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "80f614eadce466f003db7bf9464318f5086b912a0ad7257c6a37dff1753aa30c",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ],
+            "engineCodes": [
+              "B3154T9"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official manufacturer Support article. Model/year from page breadcrumb, not URL; UK locale does not establish vehicle-market sales. Cached original HTML and rowSpan layout were reviewed in the completed pilot. The selected grade alternative is a paired OEM quality specification and SAE, not a formal approval certificate. Approximate filter-inclusive volume is research evidence only, not drain/refill. Local tableId names the main table; it is not asserted to be an HTML id.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC40 2021; Engine oil — specifications; update 27/10/2020",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support; XC40 2021; Engine oil — specifications; updated 27/10/2020. Main table headers: Engine | Engine code | Oil grade.",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC40",
+                "modelYear": 2021,
+                "heading": "XC40 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main engine-oil table, body row 1, Engine / Engine code columns",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "T2 | B3154T9",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 1,
+                "variant": "T2",
+                "engineCode": "B3154T9",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main engine-oil table, Oil grade cell starting at body row 1, rowSpan 4, covering selected row 1",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B3154T9"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 4,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "Original oil-grade cell spans the selected engine row. The literal specification-based alternative pairs VCC RBS0-2AE with 0W-20. Castrol is the other documented product alternative, not a simultaneous brand requirement. Both the cell structure and selected alternative were manually reviewed."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main engine-oil table, body row 1, Volume incl. oil filter (litres approx.) column",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[Engine code B3154T9] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "B3154T9"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        },
+        {
+          "id": "volvo-xc40-2021-oil-context",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil; contextual notes only",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b/f40a54afc7fb5bf5c0a81f6f74c5b3b7/f3b1008c702536a3c0a801512a28b7da/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ]
+          },
+          "fields": [
+            "notes"
+          ],
+          "evidenceNotes": "Previously read official supporting chapter, preserved by the completed pilot report. Original response bytes/hash were not saved; no documentSha256 is invented. This source supports notes only and cannot confirm a technical field or eligibility.",
+          "locators": [
+            {
+              "id": "notes",
+              "section": "Important callout and final paragraph before Related articles",
+              "fields": [
+                "notes"
+              ],
+              "excerpt": "Prescribed grade and viscosity apply to filling and oil change. Vehicle decals provide the particular car information. Higher oil quality is permitted and recommended for adverse conditions; no additional named grade is established here. [Research summary, not a continuous quotation.]"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "One specification-based alternative, not an exhaustive oil list or a mandatory Castrol brand. Volvo’s engine-oil section permits higher oil quality and recommends it for adverse driving, without establishing another SAE or named higher class here. Check the exact car’s label/manual; the detailed adverse-driving article was unavailable.",
+        "es": "Una alternativa basada en especificación, no una lista exhaustiva ni una marca Castrol obligatoria. El apartado de aceite Volvo permite mayor calidad y la recomienda en uso adverso, sin establecer aquí otro SAE ni una clase superior concreta. Consulte la etiqueta y el manual exactos; el artículo detallado sobre uso adverso no estaba disponible.",
+        "fr": "Une alternative fondée sur la spécification, pas une liste exhaustive ni une marque Castrol imposée. Le chapitre d’huile Volvo permet une qualité supérieure et la recommande en usage sévère, sans établir ici un autre SAE ni une classe supérieure précise. Consultez l’étiquette et le manuel exacts ; l’article détaillé sur l’usage sévère était indisponible.",
+        "de": "Eine spezifikationsbasierte Alternative, keine vollständige Ölliste und keine vorgeschriebene Marke Castrol. Volvos Motorölkapitel erlaubt höhere Ölqualität und empfiehlt sie bei erschwertem Betrieb, ohne hier eine weitere SAE- oder konkrete höhere Qualitätsklasse festzulegen. Genauen Fahrzeugaufkleber und Handbuch prüfen; der Detailartikel zu erschwertem Betrieb war nicht verfügbar."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed XC40 2021 breadcrumb and exact engine/variant row, with original HTML cell spans checked in the completed pilot. Technical document applicability is separate from national sales geography. No UK/EU/GLOBAL scope or trim/transmission attributes inferred."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC40 MY2021, T2, factory B3154T9 — the listed document row. Match the engine code and vehicle label. National sales availability is not established.",
+            "es": "XC40 MY2021, T2, motor de fábrica B3154T9 — fila indicada del documento. Compruebe el código y la etiqueta del vehículo. No se establece la oferta por país.",
+            "fr": "XC40 MY2021, T2, moteur d’origine B3154T9 — ligne indiquée du document. Vérifiez le code moteur et l’étiquette du véhicule. La commercialisation nationale n’est pas établie.",
+            "de": "XC40 Modelljahr 2021, T2, Werksmotor B3154T9 — dokumentierte Tabellenzeile. Motorcode und Fahrzeugaufkleber abgleichen. Nationale Verkaufsverfügbarkeit ist nicht festgestellt."
+          },
+          "variant": "T2",
+          "documentRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "Source reports approximately 5.6 litres including filter; drain/refill meaning is not confirmed. This number is not a service-fill value."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc40-2021-b3154t4",
+      "make": "Volvo",
+      "model": "XC40",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B3154T4",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc40-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil — specifications; updated 27/10/2020",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b_f40a54afc7fb5bf5c0a81f6f74c5b3b7_2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "80f614eadce466f003db7bf9464318f5086b912a0ad7257c6a37dff1753aa30c",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ],
+            "engineCodes": [
+              "B3154T4"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official manufacturer Support article. Model/year from page breadcrumb, not URL; UK locale does not establish vehicle-market sales. Cached original HTML and rowSpan layout were reviewed in the completed pilot. The selected grade alternative is a paired OEM quality specification and SAE, not a formal approval certificate. Approximate filter-inclusive volume is research evidence only, not drain/refill. Local tableId names the main table; it is not asserted to be an HTML id.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC40 2021; Engine oil — specifications; update 27/10/2020",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support; XC40 2021; Engine oil — specifications; updated 27/10/2020. Main table headers: Engine | Engine code | Oil grade.",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC40",
+                "modelYear": 2021,
+                "heading": "XC40 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main engine-oil table, body row 2, Engine / Engine code columns",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "T3 | B3154T4",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 2,
+                "variant": "T3",
+                "engineCode": "B3154T4",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main engine-oil table, Oil grade cell starting at body row 1, rowSpan 4, covering selected row 2",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B3154T4"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 4,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "Original oil-grade cell spans the selected engine row. The literal specification-based alternative pairs VCC RBS0-2AE with 0W-20. Castrol is the other documented product alternative, not a simultaneous brand requirement. Both the cell structure and selected alternative were manually reviewed."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main engine-oil table, body row 2, Volume incl. oil filter (litres approx.) column",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[Engine code B3154T4] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "B3154T4"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        },
+        {
+          "id": "volvo-xc40-2021-oil-context",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil; contextual notes only",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b/f40a54afc7fb5bf5c0a81f6f74c5b3b7/f3b1008c702536a3c0a801512a28b7da/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ]
+          },
+          "fields": [
+            "notes"
+          ],
+          "evidenceNotes": "Previously read official supporting chapter, preserved by the completed pilot report. Original response bytes/hash were not saved; no documentSha256 is invented. This source supports notes only and cannot confirm a technical field or eligibility.",
+          "locators": [
+            {
+              "id": "notes",
+              "section": "Important callout and final paragraph before Related articles",
+              "fields": [
+                "notes"
+              ],
+              "excerpt": "Prescribed grade and viscosity apply to filling and oil change. Vehicle decals provide the particular car information. Higher oil quality is permitted and recommended for adverse conditions; no additional named grade is established here. [Research summary, not a continuous quotation.]"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "One specification-based alternative, not an exhaustive oil list or a mandatory Castrol brand. Volvo’s engine-oil section permits higher oil quality and recommends it for adverse driving, without establishing another SAE or named higher class here. Check the exact car’s label/manual; the detailed adverse-driving article was unavailable.",
+        "es": "Una alternativa basada en especificación, no una lista exhaustiva ni una marca Castrol obligatoria. El apartado de aceite Volvo permite mayor calidad y la recomienda en uso adverso, sin establecer aquí otro SAE ni una clase superior concreta. Consulte la etiqueta y el manual exactos; el artículo detallado sobre uso adverso no estaba disponible.",
+        "fr": "Une alternative fondée sur la spécification, pas une liste exhaustive ni une marque Castrol imposée. Le chapitre d’huile Volvo permet une qualité supérieure et la recommande en usage sévère, sans établir ici un autre SAE ni une classe supérieure précise. Consultez l’étiquette et le manuel exacts ; l’article détaillé sur l’usage sévère était indisponible.",
+        "de": "Eine spezifikationsbasierte Alternative, keine vollständige Ölliste und keine vorgeschriebene Marke Castrol. Volvos Motorölkapitel erlaubt höhere Ölqualität und empfiehlt sie bei erschwertem Betrieb, ohne hier eine weitere SAE- oder konkrete höhere Qualitätsklasse festzulegen. Genauen Fahrzeugaufkleber und Handbuch prüfen; der Detailartikel zu erschwertem Betrieb war nicht verfügbar."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed XC40 2021 breadcrumb and exact engine/variant row, with original HTML cell spans checked in the completed pilot. Technical document applicability is separate from national sales geography. No UK/EU/GLOBAL scope or trim/transmission attributes inferred."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC40 MY2021, T3, factory B3154T4 — the listed document row. Match the engine code and vehicle label. National sales availability is not established.",
+            "es": "XC40 MY2021, T3, motor de fábrica B3154T4 — fila indicada del documento. Compruebe el código y la etiqueta del vehículo. No se establece la oferta por país.",
+            "fr": "XC40 MY2021, T3, moteur d’origine B3154T4 — ligne indiquée du document. Vérifiez le code moteur et l’étiquette du véhicule. La commercialisation nationale n’est pas établie.",
+            "de": "XC40 Modelljahr 2021, T3, Werksmotor B3154T4 — dokumentierte Tabellenzeile. Motorcode und Fahrzeugaufkleber abgleichen. Nationale Verkaufsverfügbarkeit ist nicht festgestellt."
+          },
+          "variant": "T3",
+          "documentRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "Source reports approximately 5.6 litres including filter; drain/refill meaning is not confirmed. This number is not a service-fill value."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc40-2021-b4204t31",
+      "make": "Volvo",
+      "model": "XC40",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B4204T31",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc40-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil — specifications; updated 27/10/2020",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b_f40a54afc7fb5bf5c0a81f6f74c5b3b7_2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "80f614eadce466f003db7bf9464318f5086b912a0ad7257c6a37dff1753aa30c",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ],
+            "engineCodes": [
+              "B4204T31"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official manufacturer Support article. Model/year from page breadcrumb, not URL; UK locale does not establish vehicle-market sales. Cached original HTML and rowSpan layout were reviewed in the completed pilot. The selected grade alternative is a paired OEM quality specification and SAE, not a formal approval certificate. Approximate filter-inclusive volume is research evidence only, not drain/refill. Local tableId names the main table; it is not asserted to be an HTML id.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC40 2021; Engine oil — specifications; update 27/10/2020",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support; XC40 2021; Engine oil — specifications; updated 27/10/2020. Main table headers: Engine | Engine code | Oil grade.",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC40",
+                "modelYear": 2021,
+                "heading": "XC40 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main engine-oil table, body row 5, Engine / Engine code columns",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "T4 / T4 AWD | B4204T31",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 5,
+                "variant": "T4 / T4 AWD",
+                "engineCode": "B4204T31",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main engine-oil table, Oil grade cell starting at body row 5, rowSpan 6, covering selected row 5",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B4204T31"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 5,
+                "rowSpan": 6,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "Original oil-grade cell spans the selected engine row. The literal specification-based alternative pairs VCC RBS0-2AE with 0W-20. Castrol is the other documented product alternative, not a simultaneous brand requirement. Both the cell structure and selected alternative were manually reviewed."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main engine-oil table, body row 5, Volume incl. oil filter (litres approx.) column",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[Engine code B4204T31] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "B4204T31"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        },
+        {
+          "id": "volvo-xc40-2021-oil-context",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil; contextual notes only",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b/f40a54afc7fb5bf5c0a81f6f74c5b3b7/f3b1008c702536a3c0a801512a28b7da/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ]
+          },
+          "fields": [
+            "notes"
+          ],
+          "evidenceNotes": "Previously read official supporting chapter, preserved by the completed pilot report. Original response bytes/hash were not saved; no documentSha256 is invented. This source supports notes only and cannot confirm a technical field or eligibility.",
+          "locators": [
+            {
+              "id": "notes",
+              "section": "Important callout and final paragraph before Related articles",
+              "fields": [
+                "notes"
+              ],
+              "excerpt": "Prescribed grade and viscosity apply to filling and oil change. Vehicle decals provide the particular car information. Higher oil quality is permitted and recommended for adverse conditions; no additional named grade is established here. [Research summary, not a continuous quotation.]"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "One specification-based alternative, not an exhaustive oil list or a mandatory Castrol brand. Volvo’s engine-oil section permits higher oil quality and recommends it for adverse driving, without establishing another SAE or named higher class here. Check the exact car’s label/manual; the detailed adverse-driving article was unavailable.",
+        "es": "Una alternativa basada en especificación, no una lista exhaustiva ni una marca Castrol obligatoria. El apartado de aceite Volvo permite mayor calidad y la recomienda en uso adverso, sin establecer aquí otro SAE ni una clase superior concreta. Consulte la etiqueta y el manual exactos; el artículo detallado sobre uso adverso no estaba disponible.",
+        "fr": "Une alternative fondée sur la spécification, pas une liste exhaustive ni une marque Castrol imposée. Le chapitre d’huile Volvo permet une qualité supérieure et la recommande en usage sévère, sans établir ici un autre SAE ni une classe supérieure précise. Consultez l’étiquette et le manuel exacts ; l’article détaillé sur l’usage sévère était indisponible.",
+        "de": "Eine spezifikationsbasierte Alternative, keine vollständige Ölliste und keine vorgeschriebene Marke Castrol. Volvos Motorölkapitel erlaubt höhere Ölqualität und empfiehlt sie bei erschwertem Betrieb, ohne hier eine weitere SAE- oder konkrete höhere Qualitätsklasse festzulegen. Genauen Fahrzeugaufkleber und Handbuch prüfen; der Detailartikel zu erschwertem Betrieb war nicht verfügbar."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed XC40 2021 breadcrumb and exact engine/variant row, with original HTML cell spans checked in the completed pilot. Technical document applicability is separate from national sales geography. No UK/EU/GLOBAL scope or trim/transmission attributes inferred."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC40 MY2021, T4 / T4 AWD, factory B4204T31 — the listed document row. Match the engine code and vehicle label. National sales availability is not established.",
+            "es": "XC40 MY2021, T4 / T4 AWD, motor de fábrica B4204T31 — fila indicada del documento. Compruebe el código y la etiqueta del vehículo. No se establece la oferta por país.",
+            "fr": "XC40 MY2021, T4 / T4 AWD, moteur d’origine B4204T31 — ligne indiquée du document. Vérifiez le code moteur et l’étiquette du véhicule. La commercialisation nationale n’est pas établie.",
+            "de": "XC40 Modelljahr 2021, T4 / T4 AWD, Werksmotor B4204T31 — dokumentierte Tabellenzeile. Motorcode und Fahrzeugaufkleber abgleichen. Nationale Verkaufsverfügbarkeit ist nicht festgestellt."
+          },
+          "variant": "T4 / T4 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "Source reports approximately 5.6 litres including filter; drain/refill meaning is not confirmed. This number is not a service-fill value."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc40-2021-d4204t16",
+      "make": "Volvo",
+      "model": "XC40",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "D4204T16",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc40-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil — specifications; updated 27/10/2020",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b_f40a54afc7fb5bf5c0a81f6f74c5b3b7_2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "80f614eadce466f003db7bf9464318f5086b912a0ad7257c6a37dff1753aa30c",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ],
+            "engineCodes": [
+              "D4204T16"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official manufacturer Support article. Model/year from page breadcrumb, not URL; UK locale does not establish vehicle-market sales. Cached original HTML and rowSpan layout were reviewed in the completed pilot. The selected grade alternative is a paired OEM quality specification and SAE, not a formal approval certificate. Approximate filter-inclusive volume is research evidence only, not drain/refill. Local tableId names the main table; it is not asserted to be an HTML id.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC40 2021; Engine oil — specifications; update 27/10/2020",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support; XC40 2021; Engine oil — specifications; updated 27/10/2020. Main table headers: Engine | Engine code | Oil grade.",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC40",
+                "modelYear": 2021,
+                "heading": "XC40 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main engine-oil table, body row 11, Engine / Engine code columns",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "D3 / D3 AWD | D4204T16",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 11,
+                "variant": "D3 / D3 AWD",
+                "engineCode": "D4204T16",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main engine-oil table, Oil grade cell starting at body row 11, rowSpan 2, covering selected row 11",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "D4204T16"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 11,
+                "rowSpan": 2,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "Original oil-grade cell spans the selected engine row. The literal specification-based alternative pairs VCC RBS0-2AE with 0W-20. Castrol is the other documented product alternative, not a simultaneous brand requirement. Both the cell structure and selected alternative were manually reviewed."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main engine-oil table, body row 11, Volume incl. oil filter (litres approx.) column",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[Engine code D4204T16] Volume, incl. oil filter (litres, approx.): 5.2",
+              "engineCodes": [
+                "D4204T16"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        },
+        {
+          "id": "volvo-xc40-2021-oil-context",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil; contextual notes only",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b/f40a54afc7fb5bf5c0a81f6f74c5b3b7/f3b1008c702536a3c0a801512a28b7da/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ]
+          },
+          "fields": [
+            "notes"
+          ],
+          "evidenceNotes": "Previously read official supporting chapter, preserved by the completed pilot report. Original response bytes/hash were not saved; no documentSha256 is invented. This source supports notes only and cannot confirm a technical field or eligibility.",
+          "locators": [
+            {
+              "id": "notes",
+              "section": "Important callout and final paragraph before Related articles",
+              "fields": [
+                "notes"
+              ],
+              "excerpt": "Prescribed grade and viscosity apply to filling and oil change. Vehicle decals provide the particular car information. Higher oil quality is permitted and recommended for adverse conditions; no additional named grade is established here. [Research summary, not a continuous quotation.]"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "One specification-based alternative, not an exhaustive oil list or a mandatory Castrol brand. Volvo’s engine-oil section permits higher oil quality and recommends it for adverse driving, without establishing another SAE or named higher class here. Check the exact car’s label/manual; the detailed adverse-driving article was unavailable.",
+        "es": "Una alternativa basada en especificación, no una lista exhaustiva ni una marca Castrol obligatoria. El apartado de aceite Volvo permite mayor calidad y la recomienda en uso adverso, sin establecer aquí otro SAE ni una clase superior concreta. Consulte la etiqueta y el manual exactos; el artículo detallado sobre uso adverso no estaba disponible.",
+        "fr": "Une alternative fondée sur la spécification, pas une liste exhaustive ni une marque Castrol imposée. Le chapitre d’huile Volvo permet une qualité supérieure et la recommande en usage sévère, sans établir ici un autre SAE ni une classe supérieure précise. Consultez l’étiquette et le manuel exacts ; l’article détaillé sur l’usage sévère était indisponible.",
+        "de": "Eine spezifikationsbasierte Alternative, keine vollständige Ölliste und keine vorgeschriebene Marke Castrol. Volvos Motorölkapitel erlaubt höhere Ölqualität und empfiehlt sie bei erschwertem Betrieb, ohne hier eine weitere SAE- oder konkrete höhere Qualitätsklasse festzulegen. Genauen Fahrzeugaufkleber und Handbuch prüfen; der Detailartikel zu erschwertem Betrieb war nicht verfügbar."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed XC40 2021 breadcrumb and exact engine/variant row, with original HTML cell spans checked in the completed pilot. Technical document applicability is separate from national sales geography. No UK/EU/GLOBAL scope or trim/transmission attributes inferred."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC40 MY2021, D3 / D3 AWD, factory D4204T16 — the listed document row. Match the engine code and vehicle label. National sales availability is not established.",
+            "es": "XC40 MY2021, D3 / D3 AWD, motor de fábrica D4204T16 — fila indicada del documento. Compruebe el código y la etiqueta del vehículo. No se establece la oferta por país.",
+            "fr": "XC40 MY2021, D3 / D3 AWD, moteur d’origine D4204T16 — ligne indiquée du document. Vérifiez le code moteur et l’étiquette du véhicule. La commercialisation nationale n’est pas établie.",
+            "de": "XC40 Modelljahr 2021, D3 / D3 AWD, Werksmotor D4204T16 — dokumentierte Tabellenzeile. Motorcode und Fahrzeugaufkleber abgleichen. Nationale Verkaufsverfügbarkeit ist nicht festgestellt."
+          },
+          "variant": "D3 / D3 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "Source reports approximately 5.2 litres including filter; drain/refill meaning is not confirmed. This number is not a service-fill value."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc40-2021-b420t6",
+      "make": "Volvo",
+      "model": "XC40",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B420T6",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc40-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil — specifications; updated 27/10/2020",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b_f40a54afc7fb5bf5c0a81f6f74c5b3b7_2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "80f614eadce466f003db7bf9464318f5086b912a0ad7257c6a37dff1753aa30c",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ],
+            "engineCodes": [
+              "B420T6"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official manufacturer Support article. Model/year from page breadcrumb, not URL; UK locale does not establish vehicle-market sales. Cached original HTML and rowSpan layout were reviewed in the completed pilot. The selected grade alternative is a paired OEM quality specification and SAE, not a formal approval certificate. Approximate filter-inclusive volume is research evidence only, not drain/refill. Local tableId names the main table; it is not asserted to be an HTML id.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC40 2021; Engine oil — specifications; update 27/10/2020",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support; XC40 2021; Engine oil — specifications; updated 27/10/2020. Main table headers: Engine | Engine code | Oil grade.",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC40",
+                "modelYear": 2021,
+                "heading": "XC40 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main engine-oil table, body row 13, Engine / Engine code columns",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B4 / B4 AWD | B420T6",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 13,
+                "variant": "B4 / B4 AWD",
+                "engineCode": "B420T6",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main engine-oil table, Oil grade cell starting at body row 13, rowSpan 2, covering selected row 13",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T6"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 13,
+                "rowSpan": 2,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "Original oil-grade cell spans the selected engine row. The literal specification-based alternative pairs VCC RBS0-2AE with 0W-20. Castrol is the other documented product alternative, not a simultaneous brand requirement. Both the cell structure and selected alternative were manually reviewed."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main engine-oil table, body row 13, Volume incl. oil filter (litres approx.) column",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[Engine code B420T6] Volume, incl. oil filter (litres, approx.): 6.1",
+              "engineCodes": [
+                "B420T6"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        },
+        {
+          "id": "volvo-xc40-2021-oil-context",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil; contextual notes only",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b/f40a54afc7fb5bf5c0a81f6f74c5b3b7/f3b1008c702536a3c0a801512a28b7da/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ]
+          },
+          "fields": [
+            "notes"
+          ],
+          "evidenceNotes": "Previously read official supporting chapter, preserved by the completed pilot report. Original response bytes/hash were not saved; no documentSha256 is invented. This source supports notes only and cannot confirm a technical field or eligibility.",
+          "locators": [
+            {
+              "id": "notes",
+              "section": "Important callout and final paragraph before Related articles",
+              "fields": [
+                "notes"
+              ],
+              "excerpt": "Prescribed grade and viscosity apply to filling and oil change. Vehicle decals provide the particular car information. Higher oil quality is permitted and recommended for adverse conditions; no additional named grade is established here. [Research summary, not a continuous quotation.]"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "One specification-based alternative, not an exhaustive oil list or a mandatory Castrol brand. Volvo’s engine-oil section permits higher oil quality and recommends it for adverse driving, without establishing another SAE or named higher class here. Check the exact car’s label/manual; the detailed adverse-driving article was unavailable.",
+        "es": "Una alternativa basada en especificación, no una lista exhaustiva ni una marca Castrol obligatoria. El apartado de aceite Volvo permite mayor calidad y la recomienda en uso adverso, sin establecer aquí otro SAE ni una clase superior concreta. Consulte la etiqueta y el manual exactos; el artículo detallado sobre uso adverso no estaba disponible.",
+        "fr": "Une alternative fondée sur la spécification, pas une liste exhaustive ni une marque Castrol imposée. Le chapitre d’huile Volvo permet une qualité supérieure et la recommande en usage sévère, sans établir ici un autre SAE ni une classe supérieure précise. Consultez l’étiquette et le manuel exacts ; l’article détaillé sur l’usage sévère était indisponible.",
+        "de": "Eine spezifikationsbasierte Alternative, keine vollständige Ölliste und keine vorgeschriebene Marke Castrol. Volvos Motorölkapitel erlaubt höhere Ölqualität und empfiehlt sie bei erschwertem Betrieb, ohne hier eine weitere SAE- oder konkrete höhere Qualitätsklasse festzulegen. Genauen Fahrzeugaufkleber und Handbuch prüfen; der Detailartikel zu erschwertem Betrieb war nicht verfügbar."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed XC40 2021 breadcrumb and exact engine/variant row, with original HTML cell spans checked in the completed pilot. Technical document applicability is separate from national sales geography. No UK/EU/GLOBAL scope or trim/transmission attributes inferred."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC40 MY2021, B4 / B4 AWD, factory B420T6 — the listed document row. Match the engine code and vehicle label. National sales availability is not established.",
+            "es": "XC40 MY2021, B4 / B4 AWD, motor de fábrica B420T6 — fila indicada del documento. Compruebe el código y la etiqueta del vehículo. No se establece la oferta por país.",
+            "fr": "XC40 MY2021, B4 / B4 AWD, moteur d’origine B420T6 — ligne indiquée du document. Vérifiez le code moteur et l’étiquette du véhicule. La commercialisation nationale n’est pas établie.",
+            "de": "XC40 Modelljahr 2021, B4 / B4 AWD, Werksmotor B420T6 — dokumentierte Tabellenzeile. Motorcode und Fahrzeugaufkleber abgleichen. Nationale Verkaufsverfügbarkeit ist nicht festgestellt."
+          },
+          "variant": "B4 / B4 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "Source reports approximately 6.1 litres including filter; drain/refill meaning is not confirmed. This number is not a service-fill value."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc40-2021-b420t2",
+      "make": "Volvo",
+      "model": "XC40",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B420T2",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc40-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil — specifications; updated 27/10/2020",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b_f40a54afc7fb5bf5c0a81f6f74c5b3b7_2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "80f614eadce466f003db7bf9464318f5086b912a0ad7257c6a37dff1753aa30c",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ],
+            "engineCodes": [
+              "B420T2"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official manufacturer Support article. Model/year from page breadcrumb, not URL; UK locale does not establish vehicle-market sales. Cached original HTML and rowSpan layout were reviewed in the completed pilot. The selected grade alternative is a paired OEM quality specification and SAE, not a formal approval certificate. Approximate filter-inclusive volume is research evidence only, not drain/refill. Local tableId names the main table; it is not asserted to be an HTML id.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC40 2021; Engine oil — specifications; update 27/10/2020",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support; XC40 2021; Engine oil — specifications; updated 27/10/2020. Main table headers: Engine | Engine code | Oil grade.",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC40",
+                "modelYear": 2021,
+                "heading": "XC40 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main engine-oil table, body row 14, Engine / Engine code columns",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B5 AWD | B420T2",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 14,
+                "variant": "B5 AWD",
+                "engineCode": "B420T2",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main engine-oil table, Oil grade cell starting at body row 13, rowSpan 2, covering selected row 14",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T2"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 13,
+                "rowSpan": 2,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc40-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "Original oil-grade cell spans the selected engine row. The literal specification-based alternative pairs VCC RBS0-2AE with 0W-20. Castrol is the other documented product alternative, not a simultaneous brand requirement. Both the cell structure and selected alternative were manually reviewed."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main engine-oil table, body row 14, Volume incl. oil filter (litres approx.) column",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[Engine code B420T2] Volume, incl. oil filter (litres, approx.): 6.1",
+              "engineCodes": [
+                "B420T2"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        },
+        {
+          "id": "volvo-xc40-2021-oil-context",
+          "publisher": "Volvo Cars",
+          "title": "XC40 2021 — Engine oil; contextual notes only",
+          "url": "https://www.volvocars.com/uk/support/car/xc40/20w46/article/1f2a2f75c7fab5e2c0a81f6f0da34d7b/f40a54afc7fb5bf5c0a81f6f74c5b3b7/f3b1008c702536a3c0a801512a28b7da/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-08",
+          "provenanceStatus": "confirmed",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC40"
+            ]
+          },
+          "fields": [
+            "notes"
+          ],
+          "evidenceNotes": "Previously read official supporting chapter, preserved by the completed pilot report. Original response bytes/hash were not saved; no documentSha256 is invented. This source supports notes only and cannot confirm a technical field or eligibility.",
+          "locators": [
+            {
+              "id": "notes",
+              "section": "Important callout and final paragraph before Related articles",
+              "fields": [
+                "notes"
+              ],
+              "excerpt": "Prescribed grade and viscosity apply to filling and oil change. Vehicle decals provide the particular car information. Higher oil quality is permitted and recommended for adverse conditions; no additional named grade is established here. [Research summary, not a continuous quotation.]"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "notes": {
+        "en": "One specification-based alternative, not an exhaustive oil list or a mandatory Castrol brand. Volvo’s engine-oil section permits higher oil quality and recommends it for adverse driving, without establishing another SAE or named higher class here. Check the exact car’s label/manual; the detailed adverse-driving article was unavailable.",
+        "es": "Una alternativa basada en especificación, no una lista exhaustiva ni una marca Castrol obligatoria. El apartado de aceite Volvo permite mayor calidad y la recomienda en uso adverso, sin establecer aquí otro SAE ni una clase superior concreta. Consulte la etiqueta y el manual exactos; el artículo detallado sobre uso adverso no estaba disponible.",
+        "fr": "Une alternative fondée sur la spécification, pas une liste exhaustive ni une marque Castrol imposée. Le chapitre d’huile Volvo permet une qualité supérieure et la recommande en usage sévère, sans établir ici un autre SAE ni une classe supérieure précise. Consultez l’étiquette et le manuel exacts ; l’article détaillé sur l’usage sévère était indisponible.",
+        "de": "Eine spezifikationsbasierte Alternative, keine vollständige Ölliste und keine vorgeschriebene Marke Castrol. Volvos Motorölkapitel erlaubt höhere Ölqualität und empfiehlt sie bei erschwertem Betrieb, ohne hier eine weitere SAE- oder konkrete höhere Qualitätsklasse festzulegen. Genauen Fahrzeugaufkleber und Handbuch prüfen; der Detailartikel zu erschwertem Betrieb war nicht verfügbar."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed XC40 2021 breadcrumb and exact engine/variant row, with original HTML cell spans checked in the completed pilot. Technical document applicability is separate from national sales geography. No UK/EU/GLOBAL scope or trim/transmission attributes inferred."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC40 MY2021, B5 AWD, factory B420T2 — the listed document row. Match the engine code and vehicle label. National sales availability is not established.",
+            "es": "XC40 MY2021, B5 AWD, motor de fábrica B420T2 — fila indicada del documento. Compruebe el código y la etiqueta del vehículo. No se establece la oferta por país.",
+            "fr": "XC40 MY2021, B5 AWD, moteur d’origine B420T2 — ligne indiquée du document. Vérifiez le code moteur et l’étiquette du véhicule. La commercialisation nationale n’est pas établie.",
+            "de": "XC40 Modelljahr 2021, B5 AWD, Werksmotor B420T2 — dokumentierte Tabellenzeile. Motorcode und Fahrzeugaufkleber abgleichen. Nationale Verkaufsverfügbarkeit ist nicht festgestellt."
+          },
+          "variant": "B5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc40-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc40-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "Source reports approximately 6.1 litres including filter; drain/refill meaning is not confirmed. This number is not a service-fill value."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
     }
   ],
   "legacyRecords": [

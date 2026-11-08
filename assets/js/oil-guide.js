@@ -87,6 +87,10 @@ Object.assign(evidenceText.en, { seePaths: 'See the documented selection paths' 
 Object.assign(evidenceText.es, { seePaths: 'Consulta las opciones documentadas' });
 Object.assign(evidenceText.fr, { seePaths: 'Voir les options documentées' });
 Object.assign(evidenceText.de, { seePaths: 'Siehe dokumentierte Auswahlwege' });
+Object.assign(evidenceText.en, { oemOilSpecifications: 'OEM oil-quality specification', geography: 'Geographic applicability', geographyUnknown: 'Not established — no worldwide coverage claimed' });
+Object.assign(evidenceText.es, { oemOilSpecifications: 'Especificación OEM de calidad del aceite', geography: 'Aplicación geográfica', geographyUnknown: 'No establecida — no se afirma cobertura mundial' });
+Object.assign(evidenceText.fr, { oemOilSpecifications: 'Spécification constructeur de qualité d’huile', geography: 'Application géographique', geographyUnknown: 'Non établie — aucune couverture mondiale affirmée' });
+Object.assign(evidenceText.de, { oemOilSpecifications: 'OEM-Ölqualitätsspezifikation', geography: 'Geografische Anwendbarkeit', geographyUnknown: 'Nicht festgestellt — keine weltweite Abdeckung behauptet' });
 Object.assign(evidenceText.en, {"secondary":"More vehicle details","evidence":"Evidence and sources","notes":"Record notes","blocked":"Oil recommendation unavailable — resolve the application evidence first.","conditions":"Conditions of use","temporarySae":"Temporary substitute only when SAE 0W-20 is unavailable; replace with SAE 0W-20 at the next oil change.","fieldNotAssessed":"Not reassessed","completenessUnknown":"Not assessed"});
 Object.assign(evidenceText.es, {"secondary":"Más datos del vehículo","evidence":"Evidencia y fuentes","notes":"Notas del registro","blocked":"Recomendación de aceite no disponible: primero resuelve la evidencia de aplicación.","conditions":"Condiciones de uso","temporarySae":"Sustituto temporal solo si SAE 0W-20 no está disponible; cambia a SAE 0W-20 en el próximo cambio de aceite.","fieldNotAssessed":"Sin reevaluar","completenessUnknown":"Sin evaluar"});
 Object.assign(evidenceText.fr, {"secondary":"Autres détails du véhicule","evidence":"Preuves et sources","notes":"Notes de la fiche","blocked":"Recommandation d’huile indisponible : clarifiez d’abord les preuves de l’application.","conditions":"Conditions d’utilisation","temporarySae":"Substitut temporaire uniquement si SAE 0W-20 est indisponible ; revenez à SAE 0W-20 à la prochaine vidange.","fieldNotAssessed":"Non réévalué","completenessUnknown":"Non évaluée"});
@@ -106,6 +110,7 @@ const fieldState = (record, field) => record.evidenceAssessment?.fields?.[field]
 function sourceLinks(record, field, lang) {
   const text = evidenceText[lang];
   let refs = field === 'application' ? record.applicationEvidence?.evidenceRefs : record.fieldEvidence?.[field]?.evidenceRefs;
+  if (field === 'notes' && record.applicationEvidence?.scopeType === 'documentRow') refs = record.sources.filter(s => s.fields.length === 1 && s.fields[0] === 'notes').flatMap(s => (s.locators || []).map(l => ({ sourceId: s.id, locatorId: l.id })));
   if (field === 'oilRequirements' && record.oilRequirements) {
     refs = [];
     const collect = (node) => { refs.push(...node.evidenceRefs || []); if (node.conditionRef) refs.push(node.conditionRef); (node.allOf || node.anyOf || []).forEach(collect); };
@@ -139,7 +144,7 @@ function renderRequirements(record, lang = 'en') {
     const condition = locator?.condition ? '<p class="requirement-condition">' + escapeHtml(text.when) + ': ' + escapeHtml(localize(locator.condition, lang)) + '</p>' : '';
     if (node.field) {
       const state = fieldState(record, node.field.split('.')[0]);
-      return condition + (state === 'confirmed' ? '<span class="requirement-value">' + escapeHtml(valueAt(node.field)?.[node.index]) + '</span>' : '<span class="evidence-status" data-evidence-state="' + state + '">' + escapeHtml(text[state]) + '</span>');
+      return condition + (state === 'confirmed' ? '<span class="requirement-value">' + (node.field === 'oemOilSpecifications' ? escapeHtml(text.oemOilSpecifications) + ': ' : '') + escapeHtml(valueAt(node.field)?.[node.index]) + '</span>' : '<span class="evidence-status" data-evidence-state="' + state + '">' + escapeHtml(text[state]) + '</span>');
     }
     const op = node.allOf ? 'allOf' : 'anyOf';
     const children = node[op].map(n => '<div class="requirement-branch">' + render(n) + '</div>').join('<strong class="requirement-operator">' + escapeHtml(text[op === 'allOf' ? 'and' : 'or']) + '</strong>');
@@ -172,6 +177,7 @@ function renderOilCard(record, lang = 'en', referenceInformation = null) {
   const blocked = assessed && appState !== 'confirmed';
   const completeness = record.completeness?.state || 'notAssessed';
   const labels = { application: text.application, engineIdentity: text[record.engineIdentity?.type || 'engineeringCode'], allowedSaeViscosities: text.viscosity, industrySpecifications: text.standards, oilRequirements: text.requirements, serviceFillCapacity: text.capacity, capacityUnit: text.capacity, capacityNote: text.capacity, serviceInterval: text.interval, requiredManufacturerApprovals: text.approvals, preferredManufacturerApprovals: ui[lang].preferredApproval, displacementLiters: text.displacement, fuelType: text.fuel, aspiration: text.aspiration, climateLimitations: text.climate, emissionsEquipment: text.emissions };
+  if (Object.hasOwn(record, 'oemOilSpecifications')) labels.oemOilSpecifications = text.oemOilSpecifications;
   function row(field, value, suppress = false, overrideState = null) {
     const state = overrideState || fieldState(record, field), hasValue = value != null && value !== '';
     const show = !suppress && hasValue && !['unknown', 'conflict'].includes(state) && (!assessed || state === 'confirmed');
@@ -181,7 +187,9 @@ function renderOilCard(record, lang = 'en', referenceInformation = null) {
       + '<span class="evidence-status" data-evidence-state="' + displayState + '">' + escapeHtml(status) + '</span>'
       + (show ? '<div class="spec-value">' + escapeHtml(value) + '</div>' : '') + '</div>';
   }
-  const apps = record.applicationEvidence?.scopeType === 'engineScoped'
+  const apps = record.applicationEvidence?.scopeType === 'documentRow'
+    ? localize(record.applicationEvidence.documentScope.description, lang)
+    : record.applicationEvidence?.scopeType === 'engineScoped'
     ? localize(record.applicationEvidence.engineScope.description, lang)
     : record.applicationEvidence?.applications?.map(a => a.trim + ' · ' + a.code + ' · ' + a.transmission + ' · ' + a.driveType).join('; ');
   const identity = record.engineIdentity?.type === 'engineeringCode' || !record.engineIdentity ? record.engineCode : record.engineIdentity.value;
@@ -203,7 +211,10 @@ function renderOilCard(record, lang = 'en', referenceInformation = null) {
     + row('preferredManufacturerApprovals', record.preferredManufacturerApprovals.join(', '))
     + row('emissionsEquipment', Object.entries(record.emissionsEquipment).filter(([,v]) => v !== 'unknown').map(([k,v]) => (k === 'catalyst' ? enumText[lang].catalyst : k.toUpperCase()) + ': ' + (enumText[lang][v] || v)).join('; '))
     + (!climate ? row('climateLimitations', '') : '');
-  return '<div class="result-header"><div><h3>' + escapeHtml(record.make + ' ' + record.model + ' · ' + displayYears(record)) + '</h3><p>' + escapeHtml(record.market.join(', ') + (record.applicationEvidence?.scopeType === 'engineScoped' && record.generation === 'unknown' ? '' : ' · ' + record.generation)) + '</p>'
+  const geography = record.evidenceAssessment?.geography === 'unknown' || record.applicationEvidence?.scopeType === 'documentRow' && record.market.length === 1 && record.market[0] === 'UNKNOWN'
+    ? '<p data-field="geography"><strong>' + escapeHtml(text.geography) + ': </strong><span class="evidence-status" data-evidence-state="unknown">' + escapeHtml(text.geographyUnknown) + '</span></p>'
+    : '<p>' + escapeHtml(record.market.join(', ') + (record.applicationEvidence?.scopeType === 'engineScoped' && record.generation === 'unknown' ? '' : ' · ' + record.generation)) + '</p>';
+  return '<div class="result-header"><div><h3>' + escapeHtml(record.make + ' ' + record.model + ' · ' + displayYears(record)) + '</h3>' + geography
     + (apps ? '<p class="result-application">' + escapeHtml(apps) + '</p>' : '') + '</div><span class="status-badge">' + escapeHtml(text.completeness + ': ' + (completeness === 'notAssessed' ? text.completenessUnknown : text[completeness])) + '</span></div>'
     + '<div class="result-identity">' + row('engineIdentity', identity) + '<div class="spec-item" data-field="application"><span class="spec-label">' + escapeHtml(text.application) + '</span><span class="evidence-status" data-evidence-state="' + appState + '">' + escapeHtml(appState === 'notAssessed' ? text.fieldNotAssessed : text[appState]) + '</span></div></div>'
     + (!assessed ? '<p class="legacy-assessment">' + escapeHtml(text.legacy) + '</p>' : '')
@@ -212,7 +223,7 @@ function renderOilCard(record, lang = 'en', referenceInformation = null) {
     + '<section class="oil-quantity">' + row('serviceFillCapacity', quantity, blocked || requirementsConflict, quantityState) + '</section></div>'
     + '<details class="result-secondary"><summary>' + escapeHtml(text.secondary) + '</summary><div class="spec-grid">' + secondary + '</div></details>'
     + (evidence ? '<details class="result-evidence"><summary>' + escapeHtml(text.evidence) + '</summary>' + evidence + '</details>' : '')
-    + '<details class="result-context"><summary>' + escapeHtml(text.notes) + '</summary><p>' + escapeHtml(localize(record.notes, lang)) + '</p></details>'
+    + '<details class="result-context"><summary>' + escapeHtml(text.notes) + '</summary><p>' + escapeHtml(localize(record.notes, lang)) + '</p>' + (record.applicationEvidence?.scopeType === 'documentRow' ? sourceLinks(record, 'notes', lang) : '') + '</details>'
     + renderReferenceInformation(referenceInformation?.recordId === record.id ? referenceInformation : null, lang);
 }
 

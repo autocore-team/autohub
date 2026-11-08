@@ -636,6 +636,14 @@
         },
         "oilRequirements": {
           "$ref": "#/$defs/oilRequirements"
+        },
+        "oemOilSpecifications": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
         }
       },
       "additionalProperties": false,
@@ -894,6 +902,24 @@
             }
           },
           "additionalProperties": false
+        },
+        "documentContext": {
+          "$ref": "#/$defs/documentContext"
+        },
+        "tableRow": {
+          "$ref": "#/$defs/tableRow"
+        },
+        "tableCell": {
+          "$ref": "#/$defs/tableCell"
+        },
+        "contextRef": {
+          "$ref": "#/$defs/evidenceRef"
+        },
+        "quantityType": {
+          "enum": [
+            "volumeIncludingFilter",
+            "serviceFillWithFilter"
+          ]
         }
       },
       "anyOf": [
@@ -1026,11 +1052,15 @@
         "scopeType": {
           "enum": [
             "exactApplication",
-            "engineScoped"
+            "engineScoped",
+            "documentRow"
           ]
         },
         "engineScope": {
           "$ref": "#/$defs/engineScope"
+        },
+        "documentScope": {
+          "$ref": "#/$defs/documentScope"
         }
       },
       "additionalProperties": false,
@@ -1042,29 +1072,69 @@
             ],
             "properties": {
               "scopeType": {
-                "const": "engineScoped"
+                "const": "documentRow"
               }
             }
           },
           "then": {
             "required": [
-              "engineScope"
+              "documentScope"
             ],
             "not": {
-              "required": [
-                "applications"
+              "anyOf": [
+                {
+                  "required": [
+                    "engineScope"
+                  ]
+                },
+                {
+                  "required": [
+                    "applications"
+                  ]
+                }
               ]
             }
           },
           "else": {
-            "required": [
-              "applications"
-            ],
             "not": {
               "required": [
-                "engineScope"
+                "documentScope"
               ]
-            }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "required": [
+                    "scopeType"
+                  ],
+                  "properties": {
+                    "scopeType": {
+                      "const": "engineScoped"
+                    }
+                  }
+                },
+                "then": {
+                  "required": [
+                    "engineScope"
+                  ],
+                  "not": {
+                    "required": [
+                      "applications"
+                    ]
+                  }
+                },
+                "else": {
+                  "required": [
+                    "applications"
+                  ],
+                  "not": {
+                    "required": [
+                      "engineScope"
+                    ]
+                  }
+                }
+              }
+            ]
           }
         }
       ]
@@ -1128,6 +1198,9 @@
           "$ref": "#/$defs/fieldAssessment"
         },
         "emissionsEquipment": {
+          "$ref": "#/$defs/fieldAssessment"
+        },
+        "oemOilSpecifications": {
           "$ref": "#/$defs/fieldAssessment"
         }
       },
@@ -1334,6 +1407,217 @@
               },
               "summary": {
                 "$ref": "#/$defs/localizedText"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "documentContext": {
+      "type": "object",
+      "required": [
+        "make",
+        "model",
+        "modelYear",
+        "heading"
+      ],
+      "properties": {
+        "make": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "modelYear": {
+          "type": "integer",
+          "minimum": 1886,
+          "maximum": 2100
+        },
+        "heading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tables": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "tableId",
+              "variantColumn",
+              "engineCodeColumn",
+              "oilQualityColumn"
+            ],
+            "properties": {
+              "tableId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "variantColumn": {
+                "type": "string",
+                "minLength": 1
+              },
+              "engineCodeColumn": {
+                "type": "string",
+                "minLength": 1
+              },
+              "oilQualityColumn": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "tableRow": {
+      "type": "object",
+      "required": [
+        "tableId",
+        "rowIndex",
+        "variant",
+        "engineCode",
+        "engineColumn",
+        "documentRef"
+      ],
+      "properties": {
+        "tableId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rowIndex": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "variant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "engineCode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "engineColumn": {
+          "type": "string",
+          "minLength": 1
+        },
+        "documentRef": {
+          "$ref": "#/$defs/evidenceRef"
+        }
+      },
+      "additionalProperties": false
+    },
+    "tableCell": {
+      "type": "object",
+      "required": [
+        "tableId",
+        "rowStart",
+        "rowSpan",
+        "column",
+        "rowRef",
+        "interpretation"
+      ],
+      "properties": {
+        "tableId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rowStart": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rowSpan": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "column": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rowRef": {
+          "$ref": "#/$defs/evidenceRef"
+        },
+        "interpretation": {
+          "type": "object",
+          "required": [
+            "kind",
+            "specificationIndex",
+            "saeIndex",
+            "notes"
+          ],
+          "properties": {
+            "kind": {
+              "const": "specificationAndSae"
+            },
+            "specificationIndex": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "saeIndex": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "notes": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "documentScope": {
+      "type": "object",
+      "required": [
+        "description",
+        "documentRef",
+        "rowRef",
+        "variant",
+        "links"
+      ],
+      "properties": {
+        "description": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "documentRef": {
+          "$ref": "#/$defs/evidenceRef"
+        },
+        "rowRef": {
+          "$ref": "#/$defs/evidenceRef"
+        },
+        "variant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "marketRef": {
+          "$ref": "#/$defs/evidenceRef"
+        },
+        "links": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "from",
+              "to",
+              "relation"
+            ],
+            "properties": {
+              "from": {
+                "$ref": "#/$defs/evidenceRef"
+              },
+              "to": {
+                "$ref": "#/$defs/evidenceRef"
+              },
+              "relation": {
+                "const": "contains"
               }
             },
             "additionalProperties": false

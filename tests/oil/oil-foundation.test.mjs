@@ -14,9 +14,9 @@ const expectFailure = (mutate, pattern) => {
   assert.throws(() => validateCanonical(copy), pattern);
 };
 
-assert.equal(summary.records, 75);
+assert.equal(summary.records, 81);
 assert.equal(summary.legacyRecords, 59);
-assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 46 });
+assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 52 });
 assert.equal(canonical.audit.originalRecordCount, 59);
 assert.equal(canonical.legacyRecords.filter((record) => record.productionReady).length, 0);
 assert.ok(canonical.legacyRecords.every((record) => record.migrationStatus === 'legacyPending' && record.migrationIssues.length));
@@ -25,7 +25,7 @@ console.log('PASS oil schema and safe migration audit: 59 legacy records retaine
 const generated = fs.readFileSync(path.join(root, 'oil-data.js'), 'utf8');
 assert.ok(generatedOilFileMatches(generated, generatedOilFile(canonical)));
 const publicData = toPublicOilData(canonical);
-assert.equal(publicData.records.length, 75);
+assert.equal(publicData.records.length, 81);
 assert.equal(publicData.legacyRecords.length, 59);
 assert.ok(publicData.legacyRecords.every((record) => !Object.hasOwn(record, 'viscosities') && !Object.hasOwn(record, 'approvals') && !Object.hasOwn(record, 'capacity')));
 console.log('PASS canonical/generated parity and legacy-claim quarantine');
