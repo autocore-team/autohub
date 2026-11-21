@@ -12,7 +12,7 @@ function reviewedSourceUrl(value) {
   const url = new URL(value);
   if (url.protocol !== 'https:' || !reviewedHosts.has(url.hostname)) return false;
   if (url.hostname === 'www.volvocars.com') return !url.username && !url.password && !url.port && !url.search && !url.hash
-    && /^\/uk\/support\/car\/[a-z0-9-]+\/[a-z0-9-]+\/article\/[a-f0-9]{32}(?:[_/][a-f0-9]{32}){2}\/$/.test(url.pathname);
+    && /^\/(?:uk|de)\/support\/car\/[a-z0-9-]+\/[a-z0-9-]+\/article\/[a-f0-9]{32}(?:[_/][a-f0-9]{32}){2}\/$/.test(url.pathname);
   return url.hostname !== 'www.toyota.ca' || /^\/content\/dam\/toyota\/documents\/manuals\/en\/|^\/bin\/api\/get-manuals\.toyota\.en\.json$/.test(url.pathname);
 }
 const die = (message) => { throw new Error(message); };
