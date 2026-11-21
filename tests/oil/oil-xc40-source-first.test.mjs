@@ -10,9 +10,9 @@ const data = loadCanonical(), pub = toPublicOilData(data), summary = validateCan
 const ui = createRequire(import.meta.url)('../../assets/js/oil-guide.js');
 const sha = x => crypto.createHash('sha256').update(typeof x === 'string' ? x : JSON.stringify(x)).digest('hex');
 const [pilotCount, researchCount, quarantineCount] = fixture.counts;
-assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], [88, researchCount, quarantineCount]);
-assert.equal(summary.productionRecommendations, 84);
-assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 59 });
+assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], [100, researchCount, quarantineCount]);
+assert.equal(summary.productionRecommendations, 96);
+assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 71 });
 const baseline = structuredClone(data);
 baseline.records = baseline.records.slice(0, 75); baseline.audit.selectableExactCodeRecordCount = 75;
 assert.equal(sha(baseline), fixture.baselineCanonicalHash);
@@ -28,7 +28,7 @@ assert.equal(sha(pilot), fixture.finalCanonicalHash);
 assert.equal(sha(pub.records.slice(0, pilotCount)), fixture.finalPublicHash);
 for (const [file, hash] of Object.entries({ ...fixture.protectedFiles, ...fixture.implementationHashes })) assert.equal(sha(fs.readFileSync(new URL('../../' + file, import.meta.url), 'utf8').replace(/\r\n/g, '\n')), hash, file);
 assert.deepEqual(pilot.records.slice(75).map(r => r.id), fixture.accepted);
-assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 101);
+assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 113);
 const first = data.records[75], ref = id => ({ sourceId: first.sources[0].id, locatorId: id });
 const locator = (r, id) => r.sources[0].locators.find(l => l.id === id);
 for (const expected of fixture.records) {
@@ -168,7 +168,7 @@ for (const research of data.researchRecords) assert.equal(ui.resolveUrlState(pub
 assert.ok(generatedOilFileMatches(fs.readFileSync(new URL('../../oil-data.js', import.meta.url), 'utf8'), generatedOilFile(data)));
 console.log('PASS source-first XC40: immutable baseline, unknown geography, linked row/cell evidence, OEM quality, non-service volumes, safe URLs and multilingual URLs/UI');
 
-const v60 = data.records.slice(pilotCount);
+const v60 = data.records.slice(pilotCount, 88);
 assert.deepEqual(v60.map(r => r.engineCode), ['B420T4', 'B420T6', 'B420T5', 'D420T8', 'B420T2', 'B420T10', 'B420T']);
 const germanUrl = 'https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/';
 const germanGrade = 'Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20';
@@ -208,3 +208,31 @@ locator(britishWithGermanGrade, 'oil-grade').excerpt = germanGrade;
 assert.equal(isPublicOilRecord(first), true);
 assert.throws(() => assessOilEvidence(britishWithGermanGrade), /Cell does not contain the documented specification \+ SAE alternative/);
 console.log('PASS source-first V60: seven exact rows, German Volvo URL and alternatives, paired SAE and specification, unknown geography and service-fill');
+
+const v60Baseline = structuredClone(data);
+v60Baseline.records = v60Baseline.records.slice(0, 88);
+v60Baseline.audit.selectableExactCodeRecordCount = 88;
+assert.equal(sha(v60Baseline), '8b804dede454513af6ad656d8de44ff9b2168de3dc48d71329c86d090d4b0639');
+const xc60 = data.records.slice(88);
+assert.deepEqual(xc60.map(r => r.engineCode), ['B4204T31', 'B4204T23', 'B4204T26', 'B4204T20', 'B4204T27', 'D4204T14', 'D4204T23', 'B420T6', 'D420T8', 'B420T2', 'D420T2', 'B420T']);
+const xc60CellBounds = [[1, 5], [6, 2], [8, 5]];
+const expectedXc60Bounds = xc60CellBounds.flatMap(([start, span]) => Array.from({ length: span }, () => [start, span]));
+for (const [index, record] of xc60.entries()) {
+  const publicRecord = pub.records.find(r => r.id === record.id);
+  const grade = locator(record, 'oil-grade');
+  assert.equal(record.model, 'XC60');
+  assert.deepEqual(record.productionYears, { from: 2021, to: 2021 });
+  assert.equal(record.status, 'preliminary');
+  assert.equal(record.sources[0].documentSha256, '667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69');
+  assert.equal(locator(record, 'engine-row').tableRow.rowIndex, index + 1);
+  assert.equal(grade.excerpt, 'Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20');
+  assert.deepEqual([grade.tableCell.rowStart, grade.tableCell.rowSpan], expectedXc60Bounds[index]);
+  assert.deepEqual(publicRecord.completeness, { state: 'partial', confirmedFields: 3, totalFields: 15 });
+  assert.deepEqual(publicRecord.oemOilSpecifications, ['VCC RBS0-2AE']);
+  assert.deepEqual(publicRecord.allowedSaeViscosities, ['0W-20']);
+  assert.equal(publicRecord.evidenceAssessment.geography, 'unknown');
+  assert.equal(publicRecord.serviceFillCapacity, null);
+  assert.equal(locator(record, 'volume-context').quantityType, 'volumeIncludingFilter');
+  assert.ok(!JSON.stringify(publicRecord).includes('volume-context'));
+}
+console.log('PASS source-first XC60: 12 exact engine rows and three reviewed cell spans; baseline, unknown geography and service-fill preserved');

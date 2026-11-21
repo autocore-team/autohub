@@ -4,7 +4,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 88,
+    "selectableExactCodeRecordCount": 100,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -26834,6 +26834,4182 @@
           "evidenceRefs": [
             {
               "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-b4204t31",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B4204T31",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "B4204T31"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 1, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "T4 | B4204T31",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 1,
+                "variant": "T4",
+                "engineCode": "B4204T31",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 1–5, selected row 1",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B4204T31"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 1, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[B4204T31] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "B4204T31"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, T4, engine code B4204T31 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, T4, código de motor B4204T31 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, T4, code moteur B4204T31 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, T4, Motorcode B4204T31 in der Tabelle von Volvo Support."
+          },
+          "variant": "T4",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-b4204t23",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B4204T23",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "B4204T23"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 2, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "T5 / T5 AWD | B4204T23",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 2,
+                "variant": "T5 / T5 AWD",
+                "engineCode": "B4204T23",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 1–5, selected row 2",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B4204T23"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 2, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[B4204T23] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "B4204T23"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, T5 / T5 AWD, engine code B4204T23 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, T5 / T5 AWD, código de motor B4204T23 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, T5 / T5 AWD, code moteur B4204T23 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, T5 / T5 AWD, Motorcode B4204T23 in der Tabelle von Volvo Support."
+          },
+          "variant": "T5 / T5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-b4204t26",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B4204T26",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "B4204T26"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 3, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "T5 AWD | B4204T26",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 3,
+                "variant": "T5 AWD",
+                "engineCode": "B4204T26",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 1–5, selected row 3",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B4204T26"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 3, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[B4204T26] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "B4204T26"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, T5 AWD, engine code B4204T26 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, T5 AWD, código de motor B4204T26 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, T5 AWD, code moteur B4204T26 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, T5 AWD, Motorcode B4204T26 in der Tabelle von Volvo Support."
+          },
+          "variant": "T5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-b4204t20",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B4204T20",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "B4204T20"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 4, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "T5 AWD | B4204T20",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 4,
+                "variant": "T5 AWD",
+                "engineCode": "B4204T20",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 1–5, selected row 4",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B4204T20"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 4, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[B4204T20] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "B4204T20"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, T5 AWD, engine code B4204T20 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, T5 AWD, código de motor B4204T20 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, T5 AWD, code moteur B4204T20 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, T5 AWD, Motorcode B4204T20 in der Tabelle von Volvo Support."
+          },
+          "variant": "T5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-b4204t27",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B4204T27",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "B4204T27"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 5, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "T6 AWD | B4204T27",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 5,
+                "variant": "T6 AWD",
+                "engineCode": "B4204T27",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 1–5, selected row 5",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B4204T27"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 5, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[B4204T27] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "B4204T27"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, T6 AWD, engine code B4204T27 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, T6 AWD, código de motor B4204T27 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, T6 AWD, code moteur B4204T27 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, T6 AWD, Motorcode B4204T27 in der Tabelle von Volvo Support."
+          },
+          "variant": "T6 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-d4204t14",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "D4204T14",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "D4204T14"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 6, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "D4 AWD | D4204T14",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 6,
+                "variant": "D4 AWD",
+                "engineCode": "D4204T14",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 6–7, selected row 6",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "D4204T14"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 6,
+                "rowSpan": 2,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 6, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[D4204T14] Volume, incl. oil filter (litres, approx.): 5.2",
+              "engineCodes": [
+                "D4204T14"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, D4 AWD, engine code D4204T14 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, D4 AWD, código de motor D4204T14 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, D4 AWD, code moteur D4204T14 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, D4 AWD, Motorcode D4204T14 in der Tabelle von Volvo Support."
+          },
+          "variant": "D4 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-d4204t23",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "D4204T23",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "D4204T23"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 7, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "D5 AWD | D4204T23",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 7,
+                "variant": "D5 AWD",
+                "engineCode": "D4204T23",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 6–7, selected row 7",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "D4204T23"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 6,
+                "rowSpan": 2,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 7, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[D4204T23] Volume, incl. oil filter (litres, approx.): 5.2",
+              "engineCodes": [
+                "D4204T23"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, D5 AWD, engine code D4204T23 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, D5 AWD, código de motor D4204T23 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, D5 AWD, code moteur D4204T23 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, D5 AWD, Motorcode D4204T23 in der Tabelle von Volvo Support."
+          },
+          "variant": "D5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-b420t6",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B420T6",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "B420T6"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 8, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B4 | B420T6",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 8,
+                "variant": "B4",
+                "engineCode": "B420T6",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 8–12, selected row 8",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T6"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 8,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 8, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[B420T6] Volume, incl. oil filter (litres, approx.): 6.1",
+              "engineCodes": [
+                "B420T6"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, B4, engine code B420T6 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, B4, código de motor B420T6 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, B4, code moteur B420T6 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, B4, Motorcode B420T6 in der Tabelle von Volvo Support."
+          },
+          "variant": "B4",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-d420t8",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "D420T8",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "D420T8"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 9, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B4 / B4 AWD | D420T8",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 9,
+                "variant": "B4 / B4 AWD",
+                "engineCode": "D420T8",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 8–12, selected row 9",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "D420T8"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 8,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 9, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[D420T8] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "D420T8"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, B4 / B4 AWD, engine code D420T8 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, B4 / B4 AWD, código de motor D420T8 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, B4 / B4 AWD, code moteur D420T8 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, B4 / B4 AWD, Motorcode D420T8 in der Tabelle von Volvo Support."
+          },
+          "variant": "B4 / B4 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-b420t2",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B420T2",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "B420T2"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 10, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B5 / B5 AWD | B420T2",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 10,
+                "variant": "B5 / B5 AWD",
+                "engineCode": "B420T2",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 8–12, selected row 10",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T2"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 8,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 10, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[B420T2] Volume, incl. oil filter (litres, approx.): 6.1",
+              "engineCodes": [
+                "B420T2"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, B5 / B5 AWD, engine code B420T2 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, B5 / B5 AWD, código de motor B420T2 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, B5 / B5 AWD, code moteur B420T2 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, B5 / B5 AWD, Motorcode B420T2 in der Tabelle von Volvo Support."
+          },
+          "variant": "B5 / B5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-d420t2",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "D420T2",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "D420T2"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 11, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B5 AWD | D420T2",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 11,
+                "variant": "B5 AWD",
+                "engineCode": "D420T2",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 8–12, selected row 11",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "D420T2"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 8,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 11, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[D420T2] Volume, incl. oil filter (litres, approx.): 5.6",
+              "engineCodes": [
+                "D420T2"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, B5 AWD, engine code D420T2 in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, B5 AWD, código de motor D420T2 en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, B5 AWD, code moteur D420T2 dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, B5 AWD, Motorcode D420T2 in der Tabelle von Volvo Support."
+          },
+          "variant": "B5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2021-b420t",
+      "make": "Volvo",
+      "model": "XC60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2021,
+        "to": 2021
+      },
+      "engineCode": "B420T",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-xc60-2021-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "XC60 2021 — Engine oil — specifications (updated 27/10/2020)",
+          "url": "https://www.volvocars.com/uk/support/car/xc60/20w46/article/b0804d54c7fc096bc0a81f6f065ad63e/a5b5890fc7fcab10c0a81f6f75501c43/2e59ea811f1db4b3c0a8015127c730d9/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2021,
+            "to": 2021
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "667cd35dccd301c4bfe037dd24b579c54968af2d9911528d15bc2ac57ec40a69",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "XC60"
+            ],
+            "engineCodes": [
+              "B420T"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The URL is the edition-specific saved-from URL. The XC60 2021 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb XC60 2021, article heading Engine oil — specifications, update 27/10/2020, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support UK | XC60 2021 | Engine oil — specifications | Updated 27/10/2020 | Engine | Engine code | Oil grade | Volume, incl. oil filter (litres, approx.)",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "XC60",
+                "modelYear": 2021,
+                "heading": "XC60 2021",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Engine",
+                    "engineCodeColumn": "Engine code",
+                    "oilQualityColumn": "Oil grade"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 12, Engine / Engine code",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B6 AWD | B420T",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 12,
+                "variant": "B6 AWD",
+                "engineCode": "B420T",
+                "engineColumn": "Engine code",
+                "documentRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Oil grade cell spanning body rows 8–12, selected row 12",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 or VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 8,
+                "rowSpan": 5,
+                "column": "Oil grade",
+                "rowRef": {
+                  "sourceId": "volvo-xc60-2021-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The selected row is covered by the Oil grade cell in the XC60 table. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            },
+            {
+              "id": "volume-context",
+              "section": "Main table, body row 12, Volume, incl. oil filter (litres, approx.)",
+              "fields": [
+                "serviceFillCapacity"
+              ],
+              "excerpt": "[B420T] Volume, incl. oil filter (litres, approx.): 6.1",
+              "engineCodes": [
+                "B420T"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "quantityType": "volumeIncludingFilter"
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the XC60 2021 breadcrumb, the selected badge and engine code, and the Oil grade cell covering this row in the same article. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "XC60 MY2021, B6 AWD, engine code B420T in the Volvo Support table.",
+            "es": "XC60, año modelo 2021, B6 AWD, código de motor B420T en la tabla de Volvo Support.",
+            "fr": "XC60, millésime 2021, B6 AWD, code moteur B420T dans le tableau Volvo Support.",
+            "de": "XC60 Modelljahr 2021, B6 AWD, Motorcode B420T in der Tabelle von Volvo Support."
+          },
+          "variant": "B6 AWD",
+          "documentRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-xc60-2021-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-xc60-2021-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "volume-context"
+            }
+          ],
+          "reason": "The table gives an approximate filter-inclusive volume. It does not establish the amount for an oil and filter change."
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": [],
+          "reason": "Not confirmed in this assessment; check the exact vehicle manual."
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-xc60-2021-oil-specifications",
               "locatorId": "oil-grade"
             }
           ]
