@@ -594,11 +594,11 @@
   "current": {
     "assessment": "After Batch 5; historical Batch 3 final counts and hashes remain frozen.",
     "counts": {
-      "selectable": 88,
+      "selectable": 100,
       "research": 13,
       "quarantine": 59
     },
-    "canonicalHash": "8b804dede454513af6ad656d8de44ff9b2168de3dc48d71329c86d090d4b0639",
+    "canonicalHash": "911be1fc8cf3875644c89f5dcbde871876cd7709924aec90e93671139ba389d9",
     "remainingResearchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
     "remainingResearchRecords": {
       "honda-civic-type-r-2017-k20c1": "9c234ebe9044f177abb6907a337a9a1bca5e43e2c276fa8aee3b3269621c62c1",
