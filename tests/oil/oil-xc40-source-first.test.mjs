@@ -9,9 +9,10 @@ const fixture = JSON.parse(fs.readFileSync(new URL('./fixtures/xc40-source-first
 const data = loadCanonical(), pub = toPublicOilData(data), summary = validateCanonical(data);
 const ui = createRequire(import.meta.url)('../../assets/js/oil-guide.js');
 const sha = x => crypto.createHash('sha256').update(typeof x === 'string' ? x : JSON.stringify(x)).digest('hex');
-assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], fixture.counts);
-assert.equal(summary.productionRecommendations, 77);
-assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 52 });
+const [pilotCount, researchCount, quarantineCount] = fixture.counts;
+assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], [88, researchCount, quarantineCount]);
+assert.equal(summary.productionRecommendations, 84);
+assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 59 });
 const baseline = structuredClone(data);
 baseline.records = baseline.records.slice(0, 75); baseline.audit.selectableExactCodeRecordCount = 75;
 assert.equal(sha(baseline), fixture.baselineCanonicalHash);
@@ -20,11 +21,14 @@ assert.equal(sha(pub.records.slice(0, 75)), fixture.baselinePublicHash);
 assert.equal(sha(data.researchRecords), fixture.researchHash);
 assert.equal(sha(data.legacyRecords), fixture.quarantineHash);
 assert.equal(sha(loadReferenceInformation()), fixture.referenceHash);
-assert.equal(sha(data), fixture.finalCanonicalHash);
-assert.equal(sha(pub.records), fixture.finalPublicHash);
+const pilot = structuredClone(data);
+pilot.records = pilot.records.slice(0, pilotCount);
+pilot.audit.selectableExactCodeRecordCount = pilotCount;
+assert.equal(sha(pilot), fixture.finalCanonicalHash);
+assert.equal(sha(pub.records.slice(0, pilotCount)), fixture.finalPublicHash);
 for (const [file, hash] of Object.entries({ ...fixture.protectedFiles, ...fixture.implementationHashes })) assert.equal(sha(fs.readFileSync(new URL('../../' + file, import.meta.url), 'utf8').replace(/\r\n/g, '\n')), hash, file);
-assert.deepEqual(data.records.slice(75).map(r => r.id), fixture.accepted);
-assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 94);
+assert.deepEqual(pilot.records.slice(75).map(r => r.id), fixture.accepted);
+assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 101);
 const first = data.records[75], ref = id => ({ sourceId: first.sources[0].id, locatorId: id });
 const locator = (r, id) => r.sources[0].locators.find(l => l.id === id);
 for (const expected of fixture.records) {
@@ -163,3 +167,44 @@ assert.ok(pub.records.slice(0, 75).every(r => r.completeness.totalFields === 14)
 for (const research of data.researchRecords) assert.equal(ui.resolveUrlState(pub, 'https://d3orient.com/oil-guide.html?engine=' + research.id).record, null);
 assert.ok(generatedOilFileMatches(fs.readFileSync(new URL('../../oil-data.js', import.meta.url), 'utf8'), generatedOilFile(data)));
 console.log('PASS source-first XC40: immutable baseline, unknown geography, linked row/cell evidence, OEM quality, non-service volumes, safe URLs and multilingual URLs/UI');
+
+const v60 = data.records.slice(pilotCount);
+assert.deepEqual(v60.map(r => r.engineCode), ['B420T4', 'B420T6', 'B420T5', 'D420T8', 'B420T2', 'B420T10', 'B420T']);
+const germanUrl = 'https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/';
+const germanGrade = 'Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20';
+for (const [index, record] of v60.entries()) {
+  const publicRecord = pub.records.find(r => r.id === record.id);
+  assert.equal(record.model, 'V60');
+  assert.deepEqual(record.productionYears, { from: 2022, to: 2022 });
+  assert.equal(record.status, 'preliminary');
+  assert.equal(record.sources[0].url, germanUrl);
+  assert.equal(record.sources[0].documentSha256, '41a886a5ae2ffb0e32cf74d708ce47b45132f732ad69801a06a582a73a08d5a5');
+  assert.equal(locator(record, 'engine-row').tableRow.rowIndex, index + 1);
+  const grade = locator(record, 'oil-grade');
+  assert.equal(grade.excerpt, germanGrade);
+  assert.deepEqual([grade.tableCell.rowStart, grade.tableCell.rowSpan], [1, 7]);
+  assert.deepEqual(publicRecord.completeness, { state: 'partial', confirmedFields: 3, totalFields: 15 });
+  assert.equal(publicRecord.evidenceAssessment.geography, 'unknown');
+  assert.deepEqual(publicRecord.oemOilSpecifications, ['VCC RBS0-2AE']);
+  assert.deepEqual(publicRecord.allowedSaeViscosities, ['0W-20']);
+  assert.deepEqual(publicRecord.requiredManufacturerApprovals, []);
+  assert.equal(publicRecord.serviceFillCapacity, null);
+  assert.equal(record.fieldEvidence.serviceFillCapacity.state, 'unknown');
+  assert.equal(locator(record, 'volume-context').quantityType, 'volumeIncludingFilter');
+  assert.ok(!JSON.stringify(publicRecord).includes('volume-context'));
+}
+for (const badUrl of [germanUrl + '?utm_source=test', germanUrl.replace('/support/car/', '/cars/'), germanUrl.replace('/de/', '/fr/')]) {
+  const record = structuredClone(v60[0]);
+  record.sources[0].url = badUrl;
+  assert.throws(() => assessOilEvidence(record), /Document source has an unsafe or unreviewed URL/);
+}
+for (const badExcerpt of ['VCC RBS0-2AE oder 0W-20', germanGrade.replace('oder', 'Decoder')]) {
+  const record = structuredClone(v60[0]);
+  locator(record, 'oil-grade').excerpt = badExcerpt;
+  assert.throws(() => assessOilEvidence(record), /Cell does not contain the documented specification \+ SAE alternative/);
+}
+const britishWithGermanGrade = structuredClone(first);
+locator(britishWithGermanGrade, 'oil-grade').excerpt = germanGrade;
+assert.equal(isPublicOilRecord(first), true);
+assert.throws(() => assessOilEvidence(britishWithGermanGrade), /Cell does not contain the documented specification \+ SAE alternative/);
+console.log('PASS source-first V60: seven exact rows, German Volvo URL and alternatives, paired SAE and specification, unknown geography and service-fill');

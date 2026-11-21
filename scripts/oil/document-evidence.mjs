@@ -94,7 +94,7 @@ export function validateDocumentField(record, ref, field, ctx) {
 
 export function validateTableRequirement(record, node, ref, ctx) {
   validateDocumentField(record, ref, 'oilRequirements', ctx);
-  const { locator } = ctx.resolve(ref), cell = cellRow(record, ref, ctx), review = cell.interpretation;
+  const { source, locator } = ctx.resolve(ref), cell = cellRow(record, ref, ctx), review = cell.interpretation;
   if (locator.relation !== 'allOf' || !review || review.kind !== 'specificationAndSae' || !review.notes?.trim()
     || !Number.isInteger(review.specificationIndex) || !Number.isInteger(review.saeIndex)) die('Table combination lacks a reviewed structural interpretation');
   const spec = record.oemOilSpecifications?.[review.specificationIndex], sae = record.allowedSaeViscosities[review.saeIndex];
@@ -104,7 +104,10 @@ export function validateTableRequirement(record, node, ref, ctx) {
     || !locator.fields.includes('oemOilSpecifications') || !locator.fields.includes('allowedSaeViscosities')) die('Table requirement does not match its SAE/specification fields');
   // In this table form one literal alternative is a specification immediately paired
   // with its SAE. Arbitrary words elsewhere in the row/document do not prove AND.
-  const branches = locator.excerpt.trim().split(/\s+or\s+/i);
+  const url = new URL(source.url);
+  const germanVolvo = url.hostname === 'www.volvocars.com' && url.pathname.startsWith('/de/support/car/');
+  const separator = germanVolvo ? /\s+(?:or|oder)\s+/i : /\s+or\s+/i;
+  const branches = locator.excerpt.trim().split(separator);
   if (!branches.some(branch => branch.trim() === `${spec} ${sae}`)) die('Cell does not contain the documented specification + SAE alternative');
   for (const field of ['oemOilSpecifications', 'allowedSaeViscosities']) if (!record.fieldEvidence[field].evidenceRefs.some(r => same(r, ref))) die('SAE/specification must cite the reviewed combination cell');
 }

@@ -18,7 +18,7 @@
   "recordHash": "6cc97bf1cad809c03677985307f89a3445be36b9790a0047522ca0e6980cec91",
   "sourcesHash": "847e493a8d212178c900b9c9efc721328af81a9d5ac8500735f4dda99df5d2ac",
   "coverageExcerpt": "Please note that this manual applies to explains all models and all equipment, including options. Therefore, you may find some explanations for equipment not installed on your vehicle.",
-  "gateHash": "379dbb308afe6d09b7cb6abf69a7d17f6557b28a688e33c0f14169a54818229a",
+  "gateHash": "531aafdc0d6c357e2db15bac4cccaf3eb809d1cdda4f74e3b68d12deb5f8622f",
   "protectedFiles": {
     "data/engines/europe.js": "732b6b4894f165848a02d488d8e2a168797001880ddee5d0dfc2940f66de922e",
     "data/engines/japan.js": "b83f3d7594bdb1367506d74341e146cc3c49cea2bef0d72c8e4f1f34e36a40ae",
@@ -46,7 +46,7 @@
     "data/oil/reference-information.json": "68e2f44d2f57c7bab7083d38a4f0892e255dc10892fecf369a9627a9961063c4"
   },
   "currentCounts": [
-    81,
+    88,
     13,
     59
   ]

@@ -9,7 +9,7 @@
   "audit": {
     "auditedAt": "2026-11-06",
     "originalRecordCount": 59,
-    "selectableExactCodeRecordCount": 81,
+    "selectableExactCodeRecordCount": 88,
     "findings": [
       "All 59 starter records lacked a precise source URL and structured field coverage.",
       "Many starter records combined multiple engine codes, makes, models, generations, years, markets or emissions configurations.",
@@ -25152,6 +25152,2449 @@
           "evidenceRefs": [
             {
               "sourceId": "volvo-xc40-2021-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ],
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "unknown",
+          "aspiration": "unknown",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "unknown",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown",
+          "oemOilSpecifications": "confirmed"
+        },
+        "geography": "unknown",
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 3,
+          "totalFields": 15
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 3,
+        "totalFields": 15
+      }
+    },
+    {
+      "id": "volvo-v60-2022-b420t4",
+      "make": "Volvo",
+      "model": "V60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2022,
+        "to": 2022
+      },
+      "engineCode": "B420T4",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-v60-2022-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "V60 2022 — Technische Daten Motoröl (aktualisiert 09.11.2021)",
+          "url": "https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2022,
+            "to": 2022
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "41a886a5ae2ffb0e32cf74d708ce47b45132f732ad69801a06a582a73a08d5a5",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "V60"
+            ],
+            "engineCodes": [
+              "B420T4"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The source URL is the edition-specific saved-from URL with the tracking parameter removed. The V60 2022 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb V60 2022, article heading Technische Daten Motoröl, update 09.11.2021, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support DE | V60 2022 | Technische Daten Motoröl | Aktualisiert 09.11.2021 | Motor | Motorcode | Füllmenge, inkl. Ölfilter (Liter, ca.) | Ölqualität",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "V60",
+                "modelYear": 2022,
+                "heading": "V60 2022",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Motor",
+                    "engineCodeColumn": "Motorcode",
+                    "oilQualityColumn": "Ölqualität"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 1, Motor / Motorcode",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B3 | B420T4",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 1,
+                "variant": "B3",
+                "engineCode": "B420T4",
+                "engineColumn": "Motorcode",
+                "documentRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Ölqualität cell spanning body rows 1–7, selected row 1",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T4"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 7,
+                "column": "Ölqualität",
+                "rowRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The reviewed HTML cell spans seven body rows. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the V60 2022 breadcrumb and the selected badge and engine code in the same article. The Ölqualität cell starts at body row 1 and spans seven rows. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "V60 MY2022, B3, engine code B420T4 in the Volvo Support table.",
+            "es": "V60, año modelo 2022, B3, código de motor B420T4 en la tabla de Volvo Support.",
+            "fr": "V60, millésime 2022, B3, code moteur B420T4 dans le tableau Volvo Support.",
+            "de": "V60 Modelljahr 2022, B3, Motorcode B420T4 in der Tabelle von Volvo Support."
+          },
+          "variant": "B3",
+          "documentRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ],
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "unknown",
+          "aspiration": "unknown",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "unknown",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown",
+          "oemOilSpecifications": "confirmed"
+        },
+        "geography": "unknown",
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 3,
+          "totalFields": 15
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 3,
+        "totalFields": 15
+      }
+    },
+    {
+      "id": "volvo-v60-2022-b420t6",
+      "make": "Volvo",
+      "model": "V60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2022,
+        "to": 2022
+      },
+      "engineCode": "B420T6",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-v60-2022-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "V60 2022 — Technische Daten Motoröl (aktualisiert 09.11.2021)",
+          "url": "https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2022,
+            "to": 2022
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "41a886a5ae2ffb0e32cf74d708ce47b45132f732ad69801a06a582a73a08d5a5",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "V60"
+            ],
+            "engineCodes": [
+              "B420T6"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The source URL is the edition-specific saved-from URL with the tracking parameter removed. The V60 2022 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb V60 2022, article heading Technische Daten Motoröl, update 09.11.2021, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support DE | V60 2022 | Technische Daten Motoröl | Aktualisiert 09.11.2021 | Motor | Motorcode | Füllmenge, inkl. Ölfilter (Liter, ca.) | Ölqualität",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "V60",
+                "modelYear": 2022,
+                "heading": "V60 2022",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Motor",
+                    "engineCodeColumn": "Motorcode",
+                    "oilQualityColumn": "Ölqualität"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 2, Motor / Motorcode",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B4 | B420T6",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 2,
+                "variant": "B4",
+                "engineCode": "B420T6",
+                "engineColumn": "Motorcode",
+                "documentRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Ölqualität cell spanning body rows 1–7, selected row 2",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T6"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 7,
+                "column": "Ölqualität",
+                "rowRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The reviewed HTML cell spans seven body rows. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the V60 2022 breadcrumb and the selected badge and engine code in the same article. The Ölqualität cell starts at body row 1 and spans seven rows. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "V60 MY2022, B4, engine code B420T6 in the Volvo Support table.",
+            "es": "V60, año modelo 2022, B4, código de motor B420T6 en la tabla de Volvo Support.",
+            "fr": "V60, millésime 2022, B4, code moteur B420T6 dans le tableau Volvo Support.",
+            "de": "V60 Modelljahr 2022, B4, Motorcode B420T6 in der Tabelle von Volvo Support."
+          },
+          "variant": "B4",
+          "documentRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ],
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "unknown",
+          "aspiration": "unknown",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "unknown",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown",
+          "oemOilSpecifications": "confirmed"
+        },
+        "geography": "unknown",
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 3,
+          "totalFields": 15
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 3,
+        "totalFields": 15
+      }
+    },
+    {
+      "id": "volvo-v60-2022-b420t5",
+      "make": "Volvo",
+      "model": "V60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2022,
+        "to": 2022
+      },
+      "engineCode": "B420T5",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-v60-2022-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "V60 2022 — Technische Daten Motoröl (aktualisiert 09.11.2021)",
+          "url": "https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2022,
+            "to": 2022
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "41a886a5ae2ffb0e32cf74d708ce47b45132f732ad69801a06a582a73a08d5a5",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "V60"
+            ],
+            "engineCodes": [
+              "B420T5"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The source URL is the edition-specific saved-from URL with the tracking parameter removed. The V60 2022 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb V60 2022, article heading Technische Daten Motoröl, update 09.11.2021, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support DE | V60 2022 | Technische Daten Motoröl | Aktualisiert 09.11.2021 | Motor | Motorcode | Füllmenge, inkl. Ölfilter (Liter, ca.) | Ölqualität",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "V60",
+                "modelYear": 2022,
+                "heading": "V60 2022",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Motor",
+                    "engineCodeColumn": "Motorcode",
+                    "oilQualityColumn": "Ölqualität"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 3, Motor / Motorcode",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B4 | B420T5",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 3,
+                "variant": "B4",
+                "engineCode": "B420T5",
+                "engineColumn": "Motorcode",
+                "documentRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Ölqualität cell spanning body rows 1–7, selected row 3",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T5"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 7,
+                "column": "Ölqualität",
+                "rowRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The reviewed HTML cell spans seven body rows. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the V60 2022 breadcrumb and the selected badge and engine code in the same article. The Ölqualität cell starts at body row 1 and spans seven rows. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "V60 MY2022, B4, engine code B420T5 in the Volvo Support table.",
+            "es": "V60, año modelo 2022, B4, código de motor B420T5 en la tabla de Volvo Support.",
+            "fr": "V60, millésime 2022, B4, code moteur B420T5 dans le tableau Volvo Support.",
+            "de": "V60 Modelljahr 2022, B4, Motorcode B420T5 in der Tabelle von Volvo Support."
+          },
+          "variant": "B4",
+          "documentRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ],
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "unknown",
+          "aspiration": "unknown",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "unknown",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown",
+          "oemOilSpecifications": "confirmed"
+        },
+        "geography": "unknown",
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 3,
+          "totalFields": 15
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 3,
+        "totalFields": 15
+      }
+    },
+    {
+      "id": "volvo-v60-2022-d420t8",
+      "make": "Volvo",
+      "model": "V60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2022,
+        "to": 2022
+      },
+      "engineCode": "D420T8",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-v60-2022-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "V60 2022 — Technische Daten Motoröl (aktualisiert 09.11.2021)",
+          "url": "https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2022,
+            "to": 2022
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "41a886a5ae2ffb0e32cf74d708ce47b45132f732ad69801a06a582a73a08d5a5",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "V60"
+            ],
+            "engineCodes": [
+              "D420T8"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The source URL is the edition-specific saved-from URL with the tracking parameter removed. The V60 2022 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb V60 2022, article heading Technische Daten Motoröl, update 09.11.2021, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support DE | V60 2022 | Technische Daten Motoröl | Aktualisiert 09.11.2021 | Motor | Motorcode | Füllmenge, inkl. Ölfilter (Liter, ca.) | Ölqualität",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "V60",
+                "modelYear": 2022,
+                "heading": "V60 2022",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Motor",
+                    "engineCodeColumn": "Motorcode",
+                    "oilQualityColumn": "Ölqualität"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 4, Motor / Motorcode",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B4 | D420T8",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 4,
+                "variant": "B4",
+                "engineCode": "D420T8",
+                "engineColumn": "Motorcode",
+                "documentRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Ölqualität cell spanning body rows 1–7, selected row 4",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "D420T8"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 7,
+                "column": "Ölqualität",
+                "rowRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The reviewed HTML cell spans seven body rows. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the V60 2022 breadcrumb and the selected badge and engine code in the same article. The Ölqualität cell starts at body row 1 and spans seven rows. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "V60 MY2022, B4, engine code D420T8 in the Volvo Support table.",
+            "es": "V60, año modelo 2022, B4, código de motor D420T8 en la tabla de Volvo Support.",
+            "fr": "V60, millésime 2022, B4, code moteur D420T8 dans le tableau Volvo Support.",
+            "de": "V60 Modelljahr 2022, B4, Motorcode D420T8 in der Tabelle von Volvo Support."
+          },
+          "variant": "B4",
+          "documentRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ],
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "unknown",
+          "aspiration": "unknown",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "unknown",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown",
+          "oemOilSpecifications": "confirmed"
+        },
+        "geography": "unknown",
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 3,
+          "totalFields": 15
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 3,
+        "totalFields": 15
+      }
+    },
+    {
+      "id": "volvo-v60-2022-b420t2",
+      "make": "Volvo",
+      "model": "V60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2022,
+        "to": 2022
+      },
+      "engineCode": "B420T2",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-v60-2022-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "V60 2022 — Technische Daten Motoröl (aktualisiert 09.11.2021)",
+          "url": "https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2022,
+            "to": 2022
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "41a886a5ae2ffb0e32cf74d708ce47b45132f732ad69801a06a582a73a08d5a5",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "V60"
+            ],
+            "engineCodes": [
+              "B420T2"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The source URL is the edition-specific saved-from URL with the tracking parameter removed. The V60 2022 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb V60 2022, article heading Technische Daten Motoröl, update 09.11.2021, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support DE | V60 2022 | Technische Daten Motoröl | Aktualisiert 09.11.2021 | Motor | Motorcode | Füllmenge, inkl. Ölfilter (Liter, ca.) | Ölqualität",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "V60",
+                "modelYear": 2022,
+                "heading": "V60 2022",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Motor",
+                    "engineCodeColumn": "Motorcode",
+                    "oilQualityColumn": "Ölqualität"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 5, Motor / Motorcode",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B5 / B5 AWD | B420T2",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 5,
+                "variant": "B5 / B5 AWD",
+                "engineCode": "B420T2",
+                "engineColumn": "Motorcode",
+                "documentRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Ölqualität cell spanning body rows 1–7, selected row 5",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T2"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 7,
+                "column": "Ölqualität",
+                "rowRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The reviewed HTML cell spans seven body rows. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the V60 2022 breadcrumb and the selected badge and engine code in the same article. The Ölqualität cell starts at body row 1 and spans seven rows. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "V60 MY2022, B5 / B5 AWD, engine code B420T2 in the Volvo Support table.",
+            "es": "V60, año modelo 2022, B5 / B5 AWD, código de motor B420T2 en la tabla de Volvo Support.",
+            "fr": "V60, millésime 2022, B5 / B5 AWD, code moteur B420T2 dans le tableau Volvo Support.",
+            "de": "V60 Modelljahr 2022, B5 / B5 AWD, Motorcode B420T2 in der Tabelle von Volvo Support."
+          },
+          "variant": "B5 / B5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ],
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "unknown",
+          "aspiration": "unknown",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "unknown",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown",
+          "oemOilSpecifications": "confirmed"
+        },
+        "geography": "unknown",
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 3,
+          "totalFields": 15
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 3,
+        "totalFields": 15
+      }
+    },
+    {
+      "id": "volvo-v60-2022-b420t10",
+      "make": "Volvo",
+      "model": "V60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2022,
+        "to": 2022
+      },
+      "engineCode": "B420T10",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-v60-2022-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "V60 2022 — Technische Daten Motoröl (aktualisiert 09.11.2021)",
+          "url": "https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2022,
+            "to": 2022
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "41a886a5ae2ffb0e32cf74d708ce47b45132f732ad69801a06a582a73a08d5a5",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "V60"
+            ],
+            "engineCodes": [
+              "B420T10"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The source URL is the edition-specific saved-from URL with the tracking parameter removed. The V60 2022 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb V60 2022, article heading Technische Daten Motoröl, update 09.11.2021, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support DE | V60 2022 | Technische Daten Motoröl | Aktualisiert 09.11.2021 | Motor | Motorcode | Füllmenge, inkl. Ölfilter (Liter, ca.) | Ölqualität",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "V60",
+                "modelYear": 2022,
+                "heading": "V60 2022",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Motor",
+                    "engineCodeColumn": "Motorcode",
+                    "oilQualityColumn": "Ölqualität"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 6, Motor / Motorcode",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B5 AWD | B420T10",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 6,
+                "variant": "B5 AWD",
+                "engineCode": "B420T10",
+                "engineColumn": "Motorcode",
+                "documentRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Ölqualität cell spanning body rows 1–7, selected row 6",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T10"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 7,
+                "column": "Ölqualität",
+                "rowRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The reviewed HTML cell spans seven body rows. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the V60 2022 breadcrumb and the selected badge and engine code in the same article. The Ölqualität cell starts at body row 1 and spans seven rows. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "V60 MY2022, B5 AWD, engine code B420T10 in the Volvo Support table.",
+            "es": "V60, año modelo 2022, B5 AWD, código de motor B420T10 en la tabla de Volvo Support.",
+            "fr": "V60, millésime 2022, B5 AWD, code moteur B420T10 dans le tableau Volvo Support.",
+            "de": "V60 Modelljahr 2022, B5 AWD, Motorcode B420T10 in der Tabelle von Volvo Support."
+          },
+          "variant": "B5 AWD",
+          "documentRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oemOilSpecifications": [
+        "VCC RBS0-2AE"
+      ],
+      "evidenceAssessment": {
+        "mode": "fieldAssessed",
+        "application": "confirmed",
+        "fields": {
+          "engineIdentity": "confirmed",
+          "displacementLiters": "unknown",
+          "fuelType": "unknown",
+          "aspiration": "unknown",
+          "allowedSaeViscosities": "confirmed",
+          "industrySpecifications": "unknown",
+          "requiredManufacturerApprovals": "unknown",
+          "preferredManufacturerApprovals": "unknown",
+          "serviceFillCapacity": "unknown",
+          "capacityUnit": "unknown",
+          "capacityNote": "unknown",
+          "serviceInterval": "unknown",
+          "climateLimitations": "unknown",
+          "emissionsEquipment": "unknown",
+          "oemOilSpecifications": "confirmed"
+        },
+        "geography": "unknown",
+        "requirements": "confirmed",
+        "eligible": true,
+        "completeness": {
+          "state": "partial",
+          "confirmedFields": 3,
+          "totalFields": 15
+        }
+      },
+      "completeness": {
+        "state": "partial",
+        "confirmedFields": 3,
+        "totalFields": 15
+      }
+    },
+    {
+      "id": "volvo-v60-2022-b420t",
+      "make": "Volvo",
+      "model": "V60",
+      "generation": "unknown",
+      "productionYears": {
+        "from": 2022,
+        "to": 2022
+      },
+      "engineCode": "B420T",
+      "engineAliases": [],
+      "displacementLiters": null,
+      "fuelType": "unknown",
+      "aspiration": "unknown",
+      "market": [
+        "UNKNOWN"
+      ],
+      "emissionsEquipment": {
+        "dpf": "unknown",
+        "gpf": "unknown",
+        "catalyst": "unknown"
+      },
+      "allowedSaeViscosities": [
+        "0W-20"
+      ],
+      "industrySpecifications": {
+        "acea": [],
+        "api": [],
+        "ilsac": []
+      },
+      "requiredManufacturerApprovals": [],
+      "preferredManufacturerApprovals": [],
+      "serviceFillCapacity": null,
+      "capacityUnit": null,
+      "capacityNote": null,
+      "serviceInterval": null,
+      "climateLimitations": [],
+      "status": "preliminary",
+      "sources": [
+        {
+          "id": "volvo-v60-2022-oil-specifications",
+          "publisher": "Volvo Cars",
+          "title": "V60 2022 — Technische Daten Motoröl (aktualisiert 09.11.2021)",
+          "url": "https://www.volvocars.com/de/support/car/v60/21w46/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/49dad04cd510c64dc0a8015158ce1c13/",
+          "type": "ownersManual",
+          "applicableMarket": [
+            "UNKNOWN"
+          ],
+          "applicableYears": {
+            "from": 2022,
+            "to": 2022
+          },
+          "checkedAt": "2026-11-21",
+          "provenanceStatus": "confirmed",
+          "documentSha256": "41a886a5ae2ffb0e32cf74d708ce47b45132f732ad69801a06a582a73a08d5a5",
+          "scope": {
+            "make": "Volvo",
+            "models": [
+              "V60"
+            ],
+            "engineCodes": [
+              "B420T"
+            ]
+          },
+          "fields": [
+            "application",
+            "engineIdentity.engineeringCode",
+            "allowedSaeViscosities",
+            "oemOilSpecifications",
+            "oilRequirements",
+            "serviceFillCapacity"
+          ],
+          "evidenceNotes": "Official Volvo Support article reviewed offline in a browser-saved HTML copy. SHA-256 identifies the saved file. The source URL is the edition-specific saved-from URL with the tracking parameter removed. The V60 2022 breadcrumb establishes model year; vehicle-market geography is unknown. The approximate filter-inclusive volume does not establish service-fill capacity.",
+          "locators": [
+            {
+              "id": "document",
+              "section": "Breadcrumb V60 2022, article heading Technische Daten Motoröl, update 09.11.2021, main table headers",
+              "fields": [
+                "application"
+              ],
+              "excerpt": "Volvo Support DE | V60 2022 | Technische Daten Motoröl | Aktualisiert 09.11.2021 | Motor | Motorcode | Füllmenge, inkl. Ölfilter (Liter, ca.) | Ölqualität",
+              "documentContext": {
+                "make": "Volvo",
+                "model": "V60",
+                "modelYear": 2022,
+                "heading": "V60 2022",
+                "tables": [
+                  {
+                    "tableId": "main-engine-oil-table",
+                    "variantColumn": "Motor",
+                    "engineCodeColumn": "Motorcode",
+                    "oilQualityColumn": "Ölqualität"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "engine-row",
+              "section": "Main table, body row 7, Motor / Motorcode",
+              "fields": [
+                "application",
+                "engineIdentity.engineeringCode"
+              ],
+              "excerpt": "B6 AWD | B420T",
+              "tableRow": {
+                "tableId": "main-engine-oil-table",
+                "rowIndex": 7,
+                "variant": "B6 AWD",
+                "engineCode": "B420T",
+                "engineColumn": "Motorcode",
+                "documentRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "document"
+                }
+              }
+            },
+            {
+              "id": "oil-grade",
+              "section": "Main table, Ölqualität cell spanning body rows 1–7, selected row 7",
+              "fields": [
+                "allowedSaeViscosities",
+                "oemOilSpecifications",
+                "oilRequirements"
+              ],
+              "excerpt": "Castrol Edge Professional V 0W-20 oder VCC RBS0-2AE 0W-20",
+              "engineCodes": [
+                "B420T"
+              ],
+              "applicabilityRef": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "allOf",
+              "tableCell": {
+                "tableId": "main-engine-oil-table",
+                "rowStart": 1,
+                "rowSpan": 7,
+                "column": "Ölqualität",
+                "rowRef": {
+                  "sourceId": "volvo-v60-2022-oil-specifications",
+                  "locatorId": "engine-row"
+                },
+                "interpretation": {
+                  "kind": "specificationAndSae",
+                  "specificationIndex": 0,
+                  "saeIndex": 0,
+                  "notes": "The reviewed HTML cell spans seven body rows. Its specification-based alternative pairs VCC RBS0-2AE with 0W-20. The source lists Castrol Edge Professional V 0W-20 as the product alternative."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "checkedAt": "2026-11-21",
+      "notes": {
+        "en": "Volvo also lists Castrol Edge Professional V 0W-20 as a product alternative.",
+        "es": "Volvo también indica Castrol Edge Professional V 0W-20 como producto alternativo.",
+        "fr": "Volvo indique également Castrol Edge Professional V 0W-20 comme produit alternatif.",
+        "de": "Volvo nennt auch Castrol Edge Professional V 0W-20 als Produktalternative."
+      },
+      "legacyRecordId": null,
+      "engineIdentity": {
+        "type": "engineeringCode"
+      },
+      "applicationEvidence": {
+        "state": "confirmed",
+        "scopeType": "documentRow",
+        "evidenceRefs": [
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          }
+        ],
+        "review": {
+          "unambiguous": true,
+          "notes": "Reviewed the V60 2022 breadcrumb and the selected badge and engine code in the same article. The Ölqualität cell starts at body row 1 and spans seven rows. Vehicle-market geography is unknown."
+        },
+        "documentScope": {
+          "description": {
+            "en": "V60 MY2022, B6 AWD, engine code B420T in the Volvo Support table.",
+            "es": "V60, año modelo 2022, B6 AWD, código de motor B420T en la tabla de Volvo Support.",
+            "fr": "V60, millésime 2022, B6 AWD, code moteur B420T dans le tableau Volvo Support.",
+            "de": "V60 Modelljahr 2022, B6 AWD, Motorcode B420T in der Tabelle von Volvo Support."
+          },
+          "variant": "B6 AWD",
+          "documentRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "document"
+          },
+          "rowRef": {
+            "sourceId": "volvo-v60-2022-oil-specifications",
+            "locatorId": "engine-row"
+          },
+          "links": [
+            {
+              "from": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "document"
+              },
+              "to": {
+                "sourceId": "volvo-v60-2022-oil-specifications",
+                "locatorId": "engine-row"
+              },
+              "relation": "contains"
+            }
+          ]
+        }
+      },
+      "fieldEvidence": {
+        "engineIdentity": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "engine-row"
+            }
+          ]
+        },
+        "displacementLiters": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "fuelType": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "aspiration": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "allowedSaeViscosities": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        },
+        "industrySpecifications": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "requiredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "preferredManufacturerApprovals": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceFillCapacity": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityUnit": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "capacityNote": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "serviceInterval": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "climateLimitations": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "emissionsEquipment": {
+          "state": "unknown",
+          "evidenceRefs": []
+        },
+        "oemOilSpecifications": {
+          "state": "confirmed",
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
+              "locatorId": "oil-grade"
+            }
+          ]
+        }
+      },
+      "oilRequirements": {
+        "state": "confirmed",
+        "coverage": "documentedPath",
+        "expression": {
+          "allOf": [
+            {
+              "field": "allowedSaeViscosities",
+              "index": 0
+            },
+            {
+              "field": "oemOilSpecifications",
+              "index": 0
+            }
+          ],
+          "evidenceRefs": [
+            {
+              "sourceId": "volvo-v60-2022-oil-specifications",
               "locatorId": "oil-grade"
             }
           ]
