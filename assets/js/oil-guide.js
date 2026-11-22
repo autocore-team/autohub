@@ -237,14 +237,14 @@ function renderOilCard(record, lang = 'en', referenceInformation = null) {
       + row('industrySpecifications', [...record.industrySpecifications.acea, ...record.industrySpecifications.api, ...record.industrySpecifications.ilsac].join(', '))
       + (record.requiredManufacturerApprovals.length ? row('requiredManufacturerApprovals', record.requiredManufacturerApprovals.join(', ')) : '') + '</div>';
   const evidence = Object.entries(labels).map(([field, label]) => { const links = sourceLinks(record, field, lang); return links ? '<div class="field-evidence"><h4>' + escapeHtml(label) + '</h4>' + links + '</div>' : ''; }).join('');
-  const secondary = row('displacementLiters', record.displacementLiters && record.displacementLiters + ' L')
-    + row('fuelType', record.fuelType === 'unknown' ? '' : enumText[lang][record.fuelType] || record.fuelType)
-    + row('aspiration', record.aspiration === 'unknown' ? '' : enumText[lang][record.aspiration] || record.aspiration)
-    + row('serviceInterval', record.serviceInterval ? [record.serviceInterval.distanceKm && record.serviceInterval.distanceKm + ' km', record.serviceInterval.months && record.serviceInterval.months + ' ' + enumText[lang].months, localize(record.serviceInterval.note, lang)].filter(Boolean).join(' / ') : '')
-    + (record.oilRequirements || !record.requiredManufacturerApprovals.length ? row('requiredManufacturerApprovals', record.oilRequirements && record.requiredManufacturerApprovals.length ? text.seePaths : record.requiredManufacturerApprovals.join(', ')) : '')
-    + row('preferredManufacturerApprovals', record.preferredManufacturerApprovals.join(', '))
-    + row('emissionsEquipment', Object.entries(record.emissionsEquipment).filter(([,v]) => v !== 'unknown').map(([k,v]) => (k === 'catalyst' ? enumText[lang].catalyst : k.toUpperCase()) + ': ' + (enumText[lang][v] || v)).join('; '))
-    + (!climate ? row('climateLimitations', '') : '');
+  const secondaryRow = (field, value) => fieldState(record, field) === 'confirmed' && value != null && value !== '' ? row(field, value) : '';
+  const secondary = secondaryRow('displacementLiters', record.displacementLiters && record.displacementLiters + ' L')
+    + secondaryRow('fuelType', record.fuelType === 'unknown' ? '' : enumText[lang][record.fuelType] || record.fuelType)
+    + secondaryRow('aspiration', record.aspiration === 'unknown' ? '' : enumText[lang][record.aspiration] || record.aspiration)
+    + secondaryRow('serviceInterval', record.serviceInterval ? [record.serviceInterval.distanceKm && record.serviceInterval.distanceKm + ' km', record.serviceInterval.months && record.serviceInterval.months + ' ' + enumText[lang].months, localize(record.serviceInterval.note, lang)].filter(Boolean).join(' / ') : '')
+    + (record.oilRequirements && record.requiredManufacturerApprovals.length ? secondaryRow('requiredManufacturerApprovals', text.seePaths) : '')
+    + secondaryRow('preferredManufacturerApprovals', record.preferredManufacturerApprovals.join(', '))
+    + secondaryRow('emissionsEquipment', Object.entries(record.emissionsEquipment).filter(([,v]) => v !== 'unknown').map(([k,v]) => (k === 'catalyst' ? enumText[lang].catalyst : k.toUpperCase()) + ': ' + (enumText[lang][v] || v)).join('; '));
   const geography = record.evidenceAssessment?.geography === 'unknown' || record.applicationEvidence?.scopeType === 'documentRow' && record.market.length === 1 && record.market[0] === 'UNKNOWN'
     ? '<p data-field="geography"><strong>' + escapeHtml(text.geography) + ': </strong><span class="evidence-status" data-evidence-state="unknown">' + escapeHtml(text.geographyUnknown) + '</span></p>'
     : '<p>' + escapeHtml(record.market.join(', ') + (record.applicationEvidence?.scopeType === 'engineScoped' && record.generation === 'unknown' ? '' : ' · ' + record.generation)) + '</p>';
@@ -255,7 +255,7 @@ function renderOilCard(record, lang = 'en', referenceInformation = null) {
     + '<div class="result-primary"><section class="oil-selection" aria-label="' + escapeHtml(text.requirements) + '"><h4>' + escapeHtml(text.requirements) + '</h4>' + requirements
     + (climate && !blocked && !requirementsConflict ? '<p class="requirement-condition"><strong>' + escapeHtml(text.conditions) + ':</strong> ' + escapeHtml(climate) + '</p>' : '') + '</section>'
     + '<section class="oil-quantity">' + (volumeReference || row('serviceFillCapacity', quantity, blocked || requirementsConflict, quantityState)) + '</section></div>'
-    + '<details class="result-secondary"><summary>' + escapeHtml(text.secondary) + '</summary><div class="spec-grid">' + secondary + '</div></details>'
+    + (secondary ? '<details class="result-secondary"><summary>' + escapeHtml(text.secondary) + '</summary><div class="spec-grid">' + secondary + '</div></details>' : '')
     + (evidence ? '<details class="result-evidence"><summary>' + escapeHtml(text.evidence) + '</summary>' + evidence + '</details>' : '')
     + '<details class="result-context"><summary>' + escapeHtml(text.notes) + '</summary><p>' + escapeHtml(localize(record.notes, lang)) + '</p>' + (record.applicationEvidence?.scopeType === 'documentRow' ? sourceLinks(record, 'notes', lang) : '') + '</details>'
     + renderReferenceInformation(referenceInformation?.recordId === record.id ? referenceInformation : null, lang);
