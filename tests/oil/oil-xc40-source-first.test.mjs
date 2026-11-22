@@ -10,9 +10,9 @@ const data = loadCanonical(), pub = toPublicOilData(data), summary = validateCan
 const ui = createRequire(import.meta.url)('../../assets/js/oil-guide.js');
 const sha = x => crypto.createHash('sha256').update(typeof x === 'string' ? x : JSON.stringify(x)).digest('hex');
 const [pilotCount, researchCount, quarantineCount] = fixture.counts;
-assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], [124, researchCount, quarantineCount]);
-assert.equal(summary.productionRecommendations, 120);
-assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 95 });
+assert.deepEqual([summary.records, summary.researchRecords, summary.legacyRecords], [132, researchCount, quarantineCount]);
+assert.equal(summary.productionRecommendations, 128);
+assert.deepEqual(summary.statuses, { legacyPending: 4, verified: 25, preliminary: 103 });
 const baseline = structuredClone(data);
 baseline.records = baseline.records.slice(0, 75); baseline.audit.selectableExactCodeRecordCount = 75;
 assert.equal(sha(baseline), fixture.baselineCanonicalHash);
@@ -29,7 +29,7 @@ const withoutVolumeReference = ({ filterInclusiveVolumeReference, ...record }) =
 assert.equal(sha(pub.records.slice(0, pilotCount).map(withoutVolumeReference)), fixture.finalPublicHash);
 for (const [file, hash] of Object.entries({ ...fixture.protectedFiles, ...fixture.implementationHashes })) assert.equal(sha(fs.readFileSync(new URL('../../' + file, import.meta.url), 'utf8').replace(/\r\n/g, '\n')), hash, file);
 assert.deepEqual(pilot.records.slice(75).map(r => r.id), fixture.accepted);
-assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 137);
+assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 145);
 const first = data.records[75], ref = id => ({ sourceId: first.sources[0].id, locatorId: id });
 const locator = (r, id) => r.sources[0].locators.find(l => l.id === id);
 for (const expected of fixture.records) {
@@ -241,15 +241,18 @@ for (const [index, record] of xc60.entries()) {
 console.log('PASS source-first XC60: 12 exact engine rows and three reviewed cell spans; baseline, unknown geography and service-fill preserved');
 
 const volumeRecords = pub.records.filter(r => r.filterInclusiveVolumeReference);
-const newVolvo = data.records.slice(100);
-assert.deepEqual(volumeRecords.map(r => r.id), [...fixture.accepted, ...v60.map(r => r.id), ...xc60.map(r => r.id), ...newVolvo.map(r => r.id)]);
+const volvo2021 = data.records.slice(100, 124);
+const volvo2022 = data.records.slice(124);
+assert.deepEqual(volumeRecords.map(r => r.id), [...fixture.accepted, ...v60.map(r => r.id), ...xc60.map(r => r.id), ...volvo2021.map(r => r.id), ...volvo2022.map(r => r.id)]);
 assert.deepEqual(volumeRecords.map(r => r.filterInclusiveVolumeReference.litres), [
   5.6, 5.6, 5.6, 5.2, 6.1, 6.1,
   6.1, 6.1, 6.1, 5.6, 6.1, 6.1, 6.1,
   5.6, 5.6, 5.6, 5.6, 5.6, 5.2, 5.2, 6.1, 5.6, 6.1, 5.6, 6.1,
   6.1, 5.6, 6.1, 5.6, 6.1,
   5.6, 5.6, 5.6, 5.2, 6.1, 5.6, 6.1,
-  5.6, 5.6, 5.6, 5.6, 5.2, 5.2, 5.2, 5.2, 6.1, 6.1, 5.6, 6.1
+  5.6, 5.6, 5.6, 5.6, 5.2, 5.2, 5.2, 5.2, 6.1, 6.1, 5.6, 6.1,
+  6.1, 5.6, 6.1, 6.1,
+  6.1, 6.1, 6.1, 6.1
 ]);
 for (const record of volumeRecords) {
   const source = record.sources.find(s => s.id === record.filterInclusiveVolumeReference.sourceId);
@@ -288,7 +291,7 @@ const reviewedTables = [
     hash: '488619e16512191bbfa5add581a826d7d644c734cab3c8bad0691342452af838' }
 ];
 for (const { model, codes, cells, hash } of reviewedTables) {
-  const records = newVolvo.filter(r => r.model === model);
+  const records = volvo2021.filter(r => r.model === model);
   assert.deepEqual(records.map(r => r.engineCode), codes);
   const bounds = cells.flatMap(([start, span]) => Array.from({ length: span }, () => [start, span]));
   for (const [index, record] of records.entries()) {
@@ -306,3 +309,35 @@ for (const { model, codes, cells, hash } of reviewedTables) {
   }
 }
 console.log('PASS MY2021 Volvo V90, XC90 and S90: 24 exact engine rows, reviewed cell spans and unchanged baseline');
+
+const reviewed2022 = [
+  { model: 'XC90', edition: '21w46', hash: 'b9a26efa99cb7cb34a27cdc232cc74b3ca65c76945fa17b8c2dc10000be8a983',
+    rows: [['B5 AWD', 'B420T2'], ['B5 AWD', 'D420T2'], ['B5 AWD', 'B420T10'], ['B6 AWD', 'B420T']] },
+  { model: 'S60', edition: '21w22', hash: 'cf5be8bdac20157689dc5fe393ff7c5a2c54226437d4c73a3e0e253ce75945bd',
+    rows: [['B3', 'B420T3'], ['B4', 'B420T6'], ['B5 / B5 AWD', 'B420T2'], ['B5 AWD', 'B420T10']] }
+];
+assert.equal(volvo2022.length, 8);
+for (const { model, edition, hash, rows } of reviewed2022) {
+  const records = volvo2022.filter(record => record.model === model);
+  assert.deepEqual(records.map(record => [record.applicationEvidence.documentScope.variant, record.engineCode]), rows);
+  for (const [index, record] of records.entries()) {
+    const [source] = record.sources;
+    const row = locator(record, 'engine-row').tableRow;
+    const cell = locator(record, 'oil-grade').tableCell;
+    const publicRecord = pub.records.find(candidate => candidate.id === record.id);
+    assert.equal(record.id, `volvo-${model.toLowerCase()}-2022-${row.engineCode.toLowerCase()}`);
+    assert.ok(source.url.startsWith(`https://www.volvocars.com/uk/support/car/${model.toLowerCase()}/${edition}/article/`));
+    assert.equal(source.documentSha256, hash);
+    assert.equal(locator(record, 'document').documentContext.heading, model + ' 2022');
+    assert.deepEqual(record.productionYears, { from: 2022, to: 2022 });
+    assert.deepEqual([row.rowIndex, cell.rowStart, cell.rowSpan, cell.column], [index + 1, 1, 4, 'Oil grade']);
+    assert.deepEqual(cell.rowRef, record.applicationEvidence.documentScope.rowRef);
+    assert.equal(record.status, 'preliminary');
+    assert.deepEqual(publicRecord.completeness, { state: 'partial', confirmedFields: 3, totalFields: 15 });
+    assert.deepEqual(publicRecord.market, ['UNKNOWN']);
+    assert.equal(publicRecord.evidenceAssessment.fields.serviceFillCapacity, 'unknown');
+    assert.deepEqual(publicRecord.allowedSaeViscosities, ['0W-20']);
+    assert.deepEqual(publicRecord.oemOilSpecifications, ['VCC RBS0-2AE']);
+  }
+}
+console.log('PASS MY2022 Volvo XC90 and S60: eight exact engine rows, offline source hashes and shared Oil grade cell spans');

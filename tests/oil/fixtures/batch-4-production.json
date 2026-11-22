@@ -153,7 +153,7 @@
     "data/oil/schema.json": "1d2b50d933336e2ca31261d571540004b52ee51980d03e93032c4b3ffaa3e9ab",
     "scripts/oil/evidence.mjs": "531aafdc0d6c357e2db15bac4cccaf3eb809d1cdda4f74e3b68d12deb5f8622f",
     "scripts/oil/validate.mjs": "8bac1e6df664eea7ed26ceeddea347ef4b51942a8d33d3bcbc7834aff28ad379",
-    "scripts/oil/generate.mjs": "adf7742dcbbc7c9ef5804f5c5a4065e6b9feb8cda09687037711235d03e2643d"
+    "scripts/oil/generate.mjs": "1c048d3ab10b83f3e801d9b39b0dbb0b54703cca0ae91c375a4ef775183d62a8"
   },
   "records": [
     {
@@ -823,11 +823,11 @@
   "current": {
     "assessment": "After Batch 5; historical Batch 4 final counts and hashes remain frozen.",
     "counts": {
-      "selectable": 124,
+      "selectable": 132,
       "research": 13,
       "quarantine": 59
     },
-    "canonicalHash": "32eeef19780723a76d34b916e878fe7201e115904f3c17caff2e10e6ed6ee924",
+    "canonicalHash": "9cf11c8c799af715b71935502618757fccd267bb0699fc766ee73737d729fe82",
     "remainingResearchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
     "laterAnnotations": [
       {
