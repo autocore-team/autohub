@@ -127,7 +127,7 @@
     "data/oil/schema.json": "1d2b50d933336e2ca31261d571540004b52ee51980d03e93032c4b3ffaa3e9ab",
     "scripts/oil/evidence.mjs": "531aafdc0d6c357e2db15bac4cccaf3eb809d1cdda4f74e3b68d12deb5f8622f",
     "scripts/oil/validate.mjs": "8bac1e6df664eea7ed26ceeddea347ef4b51942a8d33d3bcbc7834aff28ad379",
-    "scripts/oil/generate.mjs": "ef19467a806f7395c10e4b7a591e3567803495aa30fa73f730ff422bbf6258a4"
+    "scripts/oil/generate.mjs": "adf7742dcbbc7c9ef5804f5c5a4065e6b9feb8cda09687037711235d03e2643d"
   },
   "records": [
     {
@@ -594,11 +594,11 @@
   "current": {
     "assessment": "After Batch 5; historical Batch 3 final counts and hashes remain frozen.",
     "counts": {
-      "selectable": 100,
+      "selectable": 124,
       "research": 13,
       "quarantine": 59
     },
-    "canonicalHash": "911be1fc8cf3875644c89f5dcbde871876cd7709924aec90e93671139ba389d9",
+    "canonicalHash": "32eeef19780723a76d34b916e878fe7201e115904f3c17caff2e10e6ed6ee924",
     "remainingResearchHash": "50116bad21bb6e4320832fadf899da7a10b98abde928a5cad9b42f6501a50342",
     "remainingResearchRecords": {
       "honda-civic-type-r-2017-k20c1": "9c234ebe9044f177abb6907a337a9a1bca5e43e2c276fa8aee3b3269621c62c1",
