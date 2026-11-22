@@ -82,7 +82,7 @@
     "scripts/oil/evidence.mjs": "531aafdc0d6c357e2db15bac4cccaf3eb809d1cdda4f74e3b68d12deb5f8622f",
     "scripts/oil/document-evidence.mjs": "37c401a8a7341d95fc63168c90394a23e2f74848096c305016b47782cdf7fa29",
     "scripts/oil/validate.mjs": "8bac1e6df664eea7ed26ceeddea347ef4b51942a8d33d3bcbc7834aff28ad379",
-    "assets/js/oil-guide.js": "040763db3270c38af3f0bb4fff98bb37b12734ad81e9a980583b4376dcdb82bd"
+    "assets/js/oil-guide.js": "cd376b9c5bc62064788d1b451297ce68ad9d8a480181779997e85b69e6f38e27"
   },
   "protectedFiles": {
     "data/engines/europe.js": "732b6b4894f165848a02d488d8e2a168797001880ddee5d0dfc2940f66de922e",
