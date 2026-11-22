@@ -25,7 +25,8 @@ const pilot = structuredClone(data);
 pilot.records = pilot.records.slice(0, pilotCount);
 pilot.audit.selectableExactCodeRecordCount = pilotCount;
 assert.equal(sha(pilot), fixture.finalCanonicalHash);
-assert.equal(sha(pub.records.slice(0, pilotCount)), fixture.finalPublicHash);
+const withoutVolumeReference = ({ filterInclusiveVolumeReference, ...record }) => record;
+assert.equal(sha(pub.records.slice(0, pilotCount).map(withoutVolumeReference)), fixture.finalPublicHash);
 for (const [file, hash] of Object.entries({ ...fixture.protectedFiles, ...fixture.implementationHashes })) assert.equal(sha(fs.readFileSync(new URL('../../' + file, import.meta.url), 'utf8').replace(/\r\n/g, '\n')), hash, file);
 assert.deepEqual(pilot.records.slice(75).map(r => r.id), fixture.accepted);
 assert.equal(new Set([...data.records, ...data.researchRecords].map(r => r.id)).size, 113);
@@ -49,7 +50,7 @@ for (const expected of fixture.records) {
   assert.equal(locator(r, 'volume-context').quantityType, 'volumeIncludingFilter');
   assert.equal(locator(r, 'volume-context').excerpt, expected.volumeExcerpt);
   assert.ok(!JSON.stringify(p).includes('volume-context'));
-  assert.ok(!/5\.6|5\.2|6\.1/.test(JSON.stringify(p)));
+  assert.ok(!/5\.6|5\.2|6\.1/.test(JSON.stringify(withoutVolumeReference(p))));
   assert.equal(r.oilRequirements.coverage, 'documentedPath');
   assert.equal(r.oilRequirements.expression.allOf.length, 2);
   assert.equal(p.sources[0].documentSha256, '80f614eadce466f003db7bf9464318f5086b912a0ad7257c6a37dff1753aa30c');
@@ -61,7 +62,9 @@ for (const expected of fixture.records) {
     assert.ok(html.includes(ui.evidenceText[lang].oemOilSpecifications + ': VCC RBS0-2AE'));
     assert.ok(html.includes(ui.evidenceText[lang].documentedPath));
     assert.ok(html.includes(ui.evidenceText[lang].unknown));
-    assert.ok(!html.includes('5.6')); assert.ok(!html.includes('5.2')); assert.ok(!html.includes('6.1'));
+    const quantity = html.match(/<section class="oil-quantity">([\s\S]*?)<\/section>/)[1];
+    assert.match(quantity, /class="oil-volume-reference"/);
+    assert.doesNotMatch(quantity, /class="spec-value"/);
     assert.ok(!html.includes('GLOBAL')); assert.ok(!html.includes('>UNKNOWN<'));
     assert.ok(html.includes(r.applicationEvidence.documentScope.description[lang]));
     assert.ok(html.includes(r.notes[lang]));
@@ -236,3 +239,31 @@ for (const [index, record] of xc60.entries()) {
   assert.ok(!JSON.stringify(publicRecord).includes('volume-context'));
 }
 console.log('PASS source-first XC60: 12 exact engine rows and three reviewed cell spans; baseline, unknown geography and service-fill preserved');
+
+const volumeRecords = pub.records.filter(r => r.filterInclusiveVolumeReference);
+assert.deepEqual(volumeRecords.map(r => r.id), [...fixture.accepted, ...v60.map(r => r.id), ...xc60.map(r => r.id)]);
+assert.deepEqual(volumeRecords.map(r => r.filterInclusiveVolumeReference.litres), [
+  5.6, 5.6, 5.6, 5.2, 6.1, 6.1,
+  6.1, 6.1, 6.1, 5.6, 6.1, 6.1, 6.1,
+  5.6, 5.6, 5.6, 5.6, 5.6, 5.2, 5.2, 6.1, 5.6, 6.1, 5.6, 6.1
+]);
+for (const record of volumeRecords) {
+  const source = record.sources.find(s => s.id === record.filterInclusiveVolumeReference.sourceId);
+  assert.equal(source.id, record.applicationEvidence.documentScope.rowRef.sourceId);
+  assert.equal(record.serviceFillCapacity, null);
+  for (const lang of ['en', 'es', 'fr', 'de']) {
+    const rendered = ui.renderOilCard(record, lang);
+    const quantity = rendered.match(/<section class="oil-quantity">([\s\S]*?)<\/section>/)[1];
+    const litres = new Intl.NumberFormat(lang).format(record.filterInclusiveVolumeReference.litres);
+    assert.ok(quantity.includes(ui.evidenceText[lang].filterInclusiveVolume.replace('{volume}', litres)));
+    assert.ok(quantity.includes('href="' + source.url + '"'));
+    assert.doesNotMatch(quantity, /class="spec-value"/);
+  }
+}
+for (const changeLocator of [l => delete l.applicabilityRef, l => l.applicabilityRef.locatorId = 'document', l => l.engineCodes = ['B4204T23'], l => l.excerpt = l.excerpt.replace('B4204T31', 'B4204T23'), l => l.excerpt += ' or more']) {
+  const copy = structuredClone(data);
+  const record = copy.records.find(r => r.id === xc60[0].id);
+  changeLocator(locator(record, 'volume-context'));
+  assert.equal(toPublicOilData(copy).records.find(r => r.id === record.id).filterInclusiveVolumeReference, undefined);
+}
+console.log('PASS Volvo table reference volumes: exact row and source links, four locales, and unbound values withheld');

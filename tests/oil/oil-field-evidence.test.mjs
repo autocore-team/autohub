@@ -189,3 +189,18 @@ elements.oilQuickSearch.value=fixture.partialIds[1];elements.oilQuickSearch.list
 assert.equal(elements.engineSelect.value,fixture.partialIds[1]);assert.equal(new URL(win.location.href).searchParams.get('engine'),fixture.partialIds[1]);
 assert.ok(elements.resultContent.innerHTML.includes('CR3F8'));assert.doesNotMatch(elements.resultContent.innerHTML,/4\.5 US qt/);
 console.log('PASS real controller selector, language switch, Copy link, Reset, Back/Forward, research URL blocking and Enter quick search');
+
+function showById(id) {
+  elements.oilQuickSearch.value = id;
+  elements.findButton.click();
+  assert.equal(elements.engineSelect.value, id);
+}
+buttons.find(b => b.dataset.lang === 'en').click();
+showById('volvo-xc40-2021-b3154t9');
+assert.match(elements.resultContent.innerHTML, /class="oil-volume-reference"[^>]*>[^<]*≈ 5\.6 L/);
+showById('volvo-v60-2022-b420t4');
+assert.match(elements.resultContent.innerHTML, /class="oil-volume-reference"[^>]*>[^<]*≈ 6\.1 L/);
+assert.doesNotMatch(elements.resultContent.innerHTML, /≈ 5\.6 L/);
+showById('bmw-e46-m54b25');
+assert.doesNotMatch(elements.resultContent.innerHTML, /oil-volume-reference|≈ 6\.1 L/);
+console.log('PASS selected Volvo volume updates and clears on a card without a reference value');

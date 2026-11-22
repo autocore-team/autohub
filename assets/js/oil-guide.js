@@ -87,6 +87,10 @@ Object.assign(evidenceText.en, { seePaths: 'See the documented selection paths' 
 Object.assign(evidenceText.es, { seePaths: 'Consulta las opciones documentadas' });
 Object.assign(evidenceText.fr, { seePaths: 'Voir les options documentées' });
 Object.assign(evidenceText.de, { seePaths: 'Siehe dokumentierte Auswahlwege' });
+evidenceText.en.filterInclusiveVolume = 'For reference: ≈ {volume} L with filter according to the Volvo table. Service-fill quantity is unconfirmed.';
+evidenceText.es.filterInclusiveVolume = 'Como referencia: ≈ {volume} l con filtro según la tabla de Volvo. La cantidad para el cambio de aceite está sin confirmar.';
+evidenceText.fr.filterInclusiveVolume = 'À titre indicatif : ≈ {volume} l avec filtre selon le tableau Volvo. La quantité pour la vidange reste à confirmer.';
+evidenceText.de.filterInclusiveVolume = 'Zur Orientierung: ≈ {volume} l mit Filter laut Volvo-Tabelle. Die Füllmenge beim Ölwechsel ist unbestätigt.';
 Object.assign(evidenceText.en, { oemOilSpecifications: 'OEM oil-quality specification', geography: 'Geographic applicability', geographyUnknown: 'Not established — no worldwide coverage claimed' });
 Object.assign(evidenceText.es, { oemOilSpecifications: 'Especificación OEM de calidad del aceite', geography: 'Aplicación geográfica', geographyUnknown: 'No establecida — no se afirma cobertura mundial' });
 Object.assign(evidenceText.fr, { oemOilSpecifications: 'Spécification constructeur de qualité d’huile', geography: 'Application géographique', geographyUnknown: 'Non établie — aucune couverture mondiale affirmée' });
@@ -170,6 +174,17 @@ function renderReferenceInformation(entry, lang) {
   }).join('');
   return '<details class="result-reference" data-reference-only="true"><summary>' + escapeHtml(text.title) + ' — ' + escapeHtml(text.warning) + '</summary><p class="result-note">' + escapeHtml(text.warning) + '</p>' + documents + '</details>';
 }
+function renderFilterInclusiveVolume(record, lang, text) {
+  const reference = record.filterInclusiveVolumeReference;
+  if (!Number.isFinite(reference?.litres) || reference.litres <= 0) return '';
+  const source = record.sources.find(s => s.id === reference.sourceId);
+  let url;
+  try { url = new URL(source?.url); } catch { return ''; }
+  if (url.protocol !== 'https:' || url.hostname !== 'www.volvocars.com' || url.username || url.password) return '';
+  const volume = new Intl.NumberFormat(lang, { maximumFractionDigits: 3 }).format(reference.litres);
+  return '<p class="oil-volume-reference">' + escapeHtml(text.filterInclusiveVolume.replace('{volume}', volume))
+    + ' <a href="' + escapeHtml(url.href) + '" rel="noopener noreferrer">Volvo Support</a></p>';
+}
 function renderOilCard(record, lang = 'en', referenceInformation = null) {
   const text = evidenceText[lang] || evidenceText.en;
   const assessed = !!record.fieldEvidence;
@@ -220,7 +235,8 @@ function renderOilCard(record, lang = 'en', referenceInformation = null) {
     + (!assessed ? '<p class="legacy-assessment">' + escapeHtml(text.legacy) + '</p>' : '')
     + '<div class="result-primary"><section class="oil-selection" aria-label="' + escapeHtml(text.requirements) + '"><h4>' + escapeHtml(text.requirements) + '</h4>' + requirements
     + (climate && !blocked && !requirementsConflict ? '<p class="requirement-condition"><strong>' + escapeHtml(text.conditions) + ':</strong> ' + escapeHtml(climate) + '</p>' : '') + '</section>'
-    + '<section class="oil-quantity">' + row('serviceFillCapacity', quantity, blocked || requirementsConflict, quantityState) + '</section></div>'
+    + '<section class="oil-quantity">' + row('serviceFillCapacity', quantity, blocked || requirementsConflict, quantityState)
+    + (quantityState === 'unknown' && !blocked ? renderFilterInclusiveVolume(record, lang, text) : '') + '</section></div>'
     + '<details class="result-secondary"><summary>' + escapeHtml(text.secondary) + '</summary><div class="spec-grid">' + secondary + '</div></details>'
     + (evidence ? '<details class="result-evidence"><summary>' + escapeHtml(text.evidence) + '</summary>' + evidence + '</details>' : '')
     + '<details class="result-context"><summary>' + escapeHtml(text.notes) + '</summary><p>' + escapeHtml(localize(record.notes, lang)) + '</p>' + (record.applicationEvidence?.scopeType === 'documentRow' ? sourceLinks(record, 'notes', lang) : '') + '</details>'
