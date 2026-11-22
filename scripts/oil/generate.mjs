@@ -8,7 +8,8 @@ export const generatedPath = path.join(root, 'oil-data.js');
 
 const reviewedVolvoVolumeSources = new Set([
   'volvo-xc40-2021-oil-specifications', 'volvo-v60-2022-oil-specifications', 'volvo-xc60-2021-oil-specifications',
-  'volvo-v90-2021-oil-specifications', 'volvo-xc90-2021-oil-specifications', 'volvo-s90-2021-oil-specifications'
+  'volvo-v90-2021-oil-specifications', 'volvo-xc90-2021-oil-specifications', 'volvo-s90-2021-oil-specifications',
+  'volvo-xc90-2022-oil-specifications', 'volvo-s60-2022-oil-specifications'
 ]);
 
 function publicRecord(record) {
