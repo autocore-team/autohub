@@ -61,7 +61,7 @@ for (const expected of fixture.records) {
     assert.ok(html.includes(ui.evidenceText[lang].geographyUnknown));
     assert.ok(html.includes(ui.evidenceText[lang].oemOilSpecifications + ': VCC RBS0-2AE'));
     assert.ok(html.includes(ui.evidenceText[lang].documentedPath));
-    assert.ok(html.includes(ui.evidenceText[lang].unknown));
+    assert.doesNotMatch(html, /class="result-secondary"/);
     const quantity = html.match(/<section class="oil-quantity">([\s\S]*?)<\/section>/)[1];
     assert.match(quantity, /class="oil-volume-reference"/);
     assert.doesNotMatch(quantity, /class="spec-value"/);

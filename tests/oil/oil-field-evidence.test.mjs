@@ -206,3 +206,19 @@ showById('bmw-e46-m54b25');
 assert.doesNotMatch(selectedQuantity(), /oil-volume-reference|Approx\. 6\.1 L/);
 assert.match(selectedQuantity(), /data-evidence-state="unknown"/);
 console.log('PASS selected Volvo volume updates and clears on a card without a reference value');
+
+const selectedDetails = () => elements.resultContent.innerHTML.match(/<details class="result-secondary">([\s\S]*?)<\/details>/)?.[1];
+for (const lang of ['en', 'es', 'fr', 'de']) {
+  buttons.find(b => b.dataset.lang === lang).click();
+  showById('volvo-v90-2021-b420t');
+  assert.equal(selectedDetails(), undefined);
+  showById('honda-accord-sedan-2017-k24w1');
+  const details = selectedDetails();
+  assert.ok(details.startsWith('<summary>' + ui.evidenceText[lang].secondary + '</summary>'));
+  assert.deepEqual([...details.matchAll(/data-field="([^"]+)"/g)].map(match => match[1]), ['displacementLiters', 'fuelType', 'aspiration']);
+  assert.equal([...details.matchAll(/data-evidence-state="confirmed"/g)].length, 3);
+  assert.equal([...details.matchAll(/class="spec-value"/g)].length, 3);
+  showById('volvo-v90-2021-b420t');
+  assert.equal(selectedDetails(), undefined);
+}
+console.log('PASS vehicle details show only confirmed values and disappear when switching to Volvo V90 in EN/ES/FR/DE');
