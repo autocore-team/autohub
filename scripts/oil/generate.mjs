@@ -6,6 +6,37 @@ import { assessOilEvidence, hasFieldAssessment, publicFieldRecord } from './evid
 
 export const generatedPath = path.join(root, 'oil-data.js');
 
+const reviewedVolvoVolumeSources = new Set([
+  'volvo-xc40-2021-oil-specifications', 'volvo-v60-2022-oil-specifications', 'volvo-xc60-2021-oil-specifications'
+]);
+
+function publicRecord(record) {
+  if (!hasFieldAssessment(record)) {
+    const assessment = assessOilEvidence(record);
+    return { ...record, evidenceAssessment: assessment, completeness: assessment.completeness };
+  }
+  const result = publicFieldRecord(record);
+  const rowRef = result.applicationEvidence.documentScope?.rowRef;
+  const volumeEvidence = record.fieldEvidence.serviceFillCapacity;
+  if (!rowRef || !reviewedVolvoVolumeSources.has(rowRef.sourceId)
+    || volumeEvidence?.state !== 'unknown' || volumeEvidence.evidenceRefs.length !== 1) return result;
+
+  const ref = volumeEvidence.evidenceRefs[0];
+  const source = record.sources.find(s => s.id === ref.sourceId);
+  const locator = source?.locators.find(l => l.id === ref.locatorId);
+  if (ref.sourceId !== rowRef.sourceId || locator?.quantityType !== 'volumeIncludingFilter'
+    || locator.applicabilityRef?.sourceId !== rowRef.sourceId || locator.applicabilityRef.locatorId !== rowRef.locatorId
+    || locator.engineCodes?.length !== 1 || locator.engineCodes[0] !== record.engineCode
+    || !result.sources.some(s => s.id === rowRef.sourceId && s.locators.some(l => l.id === rowRef.locatorId))) return result;
+
+  // Read the reviewed table-cell excerpt at build time. Only its exact code and volume label qualify.
+  const cell = locator.excerpt.match(/^\[(?:Engine code )?([^\]]+)\] (?:Volume, incl\. oil filter \(litres, approx\.\)|Füllmenge, inkl\. Ölfilter \(Liter, ca\.\)): (\d+(?:[.,]\d+)?)$/u);
+  if (cell?.[1] !== record.engineCode) return result;
+  const litres = Number(cell[2].replace(',', '.'));
+  if (Number.isFinite(litres) && litres > 0) result.filterInclusiveVolumeReference = { litres, sourceId: ref.sourceId };
+  return result;
+}
+
 export function toPublicOilData(canonical, referenceInformation = []) {
   validateReferenceInformation(referenceInformation, canonical.records);
   return {
@@ -14,9 +45,7 @@ export function toPublicOilData(canonical, referenceInformation = []) {
     // Separate descriptive channel; cannot fill fields or participate in eligibility.
     referenceInformation: referenceInformation.filter(entry => canonical.records.some(record => record.id === entry.recordId && isPublicOilRecord(record))),
     // Research claims never enter the browser payload, including when callers bypass validation.
-    records: canonical.records.filter(isPublicOilRecord).map((record) => hasFieldAssessment(record)
-      ? publicFieldRecord(record)
-      : { ...record, evidenceAssessment: assessOilEvidence(record), completeness: assessOilEvidence(record).completeness }),
+    records: canonical.records.filter(isPublicOilRecord).map(publicRecord),
     legacyRecords: canonical.legacyRecords.map((record) => ({
       id: record.id,
       make: record.make,

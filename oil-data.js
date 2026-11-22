@@ -23268,6 +23268,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc40-2021-oil-specifications"
       }
     },
     {
@@ -23653,6 +23657,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc40-2021-oil-specifications"
       }
     },
     {
@@ -24038,6 +24046,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc40-2021-oil-specifications"
       }
     },
     {
@@ -24423,6 +24435,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.2,
+        "sourceId": "volvo-xc40-2021-oil-specifications"
       }
     },
     {
@@ -24808,6 +24824,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-xc40-2021-oil-specifications"
       }
     },
     {
@@ -25193,6 +25213,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-xc40-2021-oil-specifications"
       }
     },
     {
@@ -25542,6 +25566,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-v60-2022-oil-specifications"
       }
     },
     {
@@ -25891,6 +25919,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-v60-2022-oil-specifications"
       }
     },
     {
@@ -26240,6 +26272,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-v60-2022-oil-specifications"
       }
     },
     {
@@ -26589,6 +26625,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-v60-2022-oil-specifications"
       }
     },
     {
@@ -26938,6 +26978,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-v60-2022-oil-specifications"
       }
     },
     {
@@ -27287,6 +27331,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-v60-2022-oil-specifications"
       }
     },
     {
@@ -27636,6 +27684,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-v60-2022-oil-specifications"
       }
     },
     {
@@ -27985,6 +28037,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -28334,6 +28390,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -28683,6 +28743,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -29032,6 +29096,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -29381,6 +29449,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -29730,6 +29802,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.2,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -30079,6 +30155,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.2,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -30428,6 +30508,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -30777,6 +30861,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -31126,6 +31214,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -31475,6 +31567,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 5.6,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     },
     {
@@ -31824,6 +31920,10 @@
         "state": "partial",
         "confirmedFields": 3,
         "totalFields": 15
+      },
+      "filterInclusiveVolumeReference": {
+        "litres": 6.1,
+        "sourceId": "volvo-xc60-2021-oil-specifications"
       }
     }
   ],

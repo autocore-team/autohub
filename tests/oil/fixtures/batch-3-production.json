@@ -127,7 +127,7 @@
     "data/oil/schema.json": "1d2b50d933336e2ca31261d571540004b52ee51980d03e93032c4b3ffaa3e9ab",
     "scripts/oil/evidence.mjs": "531aafdc0d6c357e2db15bac4cccaf3eb809d1cdda4f74e3b68d12deb5f8622f",
     "scripts/oil/validate.mjs": "8bac1e6df664eea7ed26ceeddea347ef4b51942a8d33d3bcbc7834aff28ad379",
-    "scripts/oil/generate.mjs": "c51b766b48b532d59155d948e1ec219ca549caf59ad9301ea0bf8c4a63f01c37"
+    "scripts/oil/generate.mjs": "ef19467a806f7395c10e4b7a591e3567803495aa30fa73f730ff422bbf6258a4"
   },
   "records": [
     {
