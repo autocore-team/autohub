@@ -259,9 +259,12 @@ for (const record of volumeRecords) {
     const rendered = ui.renderOilCard(record, lang);
     const quantity = rendered.match(/<section class="oil-quantity">([\s\S]*?)<\/section>/)[1];
     const litres = new Intl.NumberFormat(lang).format(record.filterInclusiveVolumeReference.litres);
-    assert.ok(quantity.includes(ui.evidenceText[lang].filterInclusiveVolume.replace('{volume}', litres)));
-    assert.ok(quantity.includes('href="' + source.url + '"'));
-    assert.doesNotMatch(quantity, /class="spec-value"/);
+    const text = ui.evidenceText[lang].volvoVolume;
+    assert.ok(quantity.includes(text.title));
+    assert.ok(quantity.includes(text.value.replace('{volume}', litres)));
+    assert.ok(quantity.includes(text.note));
+    assert.ok(quantity.includes('href="' + source.url + '" rel="noopener noreferrer">Volvo Support</a>'));
+    assert.doesNotMatch(quantity, /data-field="serviceFillCapacity"|class="evidence-status"/);
   }
 }
 for (const changeLocator of [l => delete l.applicabilityRef, l => l.applicabilityRef.locatorId = 'document', l => l.engineCodes = ['B4204T23'], l => l.excerpt = l.excerpt.replace('B4204T31', 'B4204T23'), l => l.excerpt += ' or more']) {

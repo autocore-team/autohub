@@ -112,7 +112,7 @@
     "scripts/oil/generate.mjs": "adf7742dcbbc7c9ef5804f5c5a4065e6b9feb8cda09687037711235d03e2643d",
     ".github/workflows/ci.yml": "dda4aafc273822d867cbeb59e4241983f885cd2b3f3f0b03b27c9928876cf348",
     ".github/workflows/engine-data-ci.yml": "6799fe2e42673d9915b35dd284eaefb423a08657c2b1ea6e59f6cf19c695a722",
-    "assets/js/oil-guide.js": "040763db3270c38af3f0bb4fff98bb37b12734ad81e9a980583b4376dcdb82bd",
+    "assets/js/oil-guide.js": "cd376b9c5bc62064788d1b451297ce68ad9d8a480181779997e85b69e6f38e27",
     "oil-guide.html": "31d853e5519d3a03ab3372b5330e2e3d325ed0853ccd10069d9ae2645c5302b1"
   },
   "records": [

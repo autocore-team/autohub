@@ -197,10 +197,12 @@ function showById(id) {
 }
 buttons.find(b => b.dataset.lang === 'en').click();
 showById('volvo-xc40-2021-b3154t9');
-assert.match(elements.resultContent.innerHTML, /class="oil-volume-reference"[^>]*>[^<]*≈ 5\.6 L/);
-showById('volvo-v60-2022-b420t4');
-assert.match(elements.resultContent.innerHTML, /class="oil-volume-reference"[^>]*>[^<]*≈ 6\.1 L/);
-assert.doesNotMatch(elements.resultContent.innerHTML, /≈ 5\.6 L/);
+const selectedQuantity = () => elements.resultContent.innerHTML.match(/<section class="oil-quantity">([\s\S]*?)<\/section>/)[1];
+assert.match(selectedQuantity(), /Approx\. 5\.6 L including the filter\./);
+showById('volvo-v90-2021-b420t');
+assert.match(selectedQuantity(), /Approx\. 6\.1 L including the filter\./);
+assert.doesNotMatch(selectedQuantity(), /Approx\. 5\.6 L|data-evidence-state="unknown"/);
 showById('bmw-e46-m54b25');
-assert.doesNotMatch(elements.resultContent.innerHTML, /oil-volume-reference|≈ 6\.1 L/);
+assert.doesNotMatch(selectedQuantity(), /oil-volume-reference|Approx\. 6\.1 L/);
+assert.match(selectedQuantity(), /data-evidence-state="unknown"/);
 console.log('PASS selected Volvo volume updates and clears on a card without a reference value');
